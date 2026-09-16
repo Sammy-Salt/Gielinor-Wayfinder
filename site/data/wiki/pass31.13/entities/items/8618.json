@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8618,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8618,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak wardrobe (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8618"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak wardrobe (flatpack)",
+        "item_name": "Teak wardrobe"
+      }
+    }
+  ]
+}

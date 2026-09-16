@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11757,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11757,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crystal bow (i)",
+        "weight": 1.814,
+        "value": 100000,
+        "examine": "A nice sturdy magical bow.",
+        "item_id": [
+          "11757"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Crystal bow (i)#2/10",
+        "item_name": "Crystal bow 2/10 (i)"
+      }
+    }
+  ]
+}

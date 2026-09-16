@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scorpia's offspring",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "A scuttling little scorpion with an incredibly vicious tail.",
+        "item_id": [
+          "13181"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Scorpia's offspring",
+        "item_name": "Scorpia's offspring"
+      }
+    }
+  ]
+}

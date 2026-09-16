@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13110,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13110,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wilderness sword 3",
+        "weight": 1.814,
+        "value": 0,
+        "examine": "A razor sharp sword.",
+        "item_id": [
+          "13110"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Wilderness sword 3",
+        "item_name": "Wilderness sword 3"
+      }
+    }
+  ]
+}

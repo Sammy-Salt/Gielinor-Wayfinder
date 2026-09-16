@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1625,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1625,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Uncut opal",
+        "weight": 0.003,
+        "value": 20,
+        "examine": "This would be worth more cut.",
+        "item_id": [
+          "1625"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Uncut opal",
+        "item_name": "Uncut opal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1984,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1984,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rotten apple",
+        "weight": 0.12,
+        "value": 1,
+        "examine": "Rotten to the core!",
+        "item_id": [
+          "1984"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rotten apple",
+        "item_name": "Rotten apple"
+      }
+    }
+  ]
+}

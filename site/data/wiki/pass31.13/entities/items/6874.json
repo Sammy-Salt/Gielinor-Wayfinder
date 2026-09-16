@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6874,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6874,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red marionette (legs)",
+        "weight": 0.4,
+        "value": 1,
+        "examine": "No strings attached.",
+        "item_id": [
+          "6874"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red marionette (legs)",
+        "item_name": "Red marionette"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11716,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11716,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Water rune (nz)",
+        "weight": 0,
+        "value": 0,
+        "examine": "For use in the Nightmare Zone.",
+        "item_id": [
+          "11716"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Water rune (nz)",
+        "item_name": "Water rune (nz)"
+      }
+    }
+  ]
+}

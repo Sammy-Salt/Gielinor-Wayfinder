@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nulodion's notes",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "Construction notes for Dwarf cannon ammo.",
+        "item_id": [
+          "3"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Nulodion's notes",
+        "item_name": "Nulodion's notes"
+      }
+    }
+  ]
+}

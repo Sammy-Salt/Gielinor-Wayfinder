@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1556,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1556,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kitten",
+        "weight": 0.75,
+        "value": 1,
+        "examine": "This kitten seems to like you.",
+        "item_id": [
+          "1556"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Kitten#White",
+        "item_name": "Pet kitten"
+      }
+    }
+  ]
+}

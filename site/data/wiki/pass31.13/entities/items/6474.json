@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6474,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6474,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Compost potion",
+        "weight": 0.025,
+        "value": 60,
+        "examine": "Pour this on compost to turn it into super-compost.",
+        "item_id": [
+          "6474"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Compost potion#(2)",
+        "item_name": "Compost potion(2)"
+      }
+    }
+  ]
+}

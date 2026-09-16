@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10487,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10487,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Undead chicken (item)",
+        "weight": 0.453,
+        "value": 100,
+        "examine": "It looks at you with beady eyes.",
+        "item_id": [
+          "10487"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Undead chicken (item)",
+        "item_name": "Undead chicken"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1969,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1969,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spinach roll",
+        "weight": 0.1,
+        "value": 1,
+        "examine": "A home made spinach thing.",
+        "item_id": [
+          "1969"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spinach roll",
+        "item_name": "Spinach roll"
+      }
+    }
+  ]
+}

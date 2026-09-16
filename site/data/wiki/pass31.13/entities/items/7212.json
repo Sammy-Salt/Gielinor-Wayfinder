@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7212,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7212,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Part summer pie (strawberry)",
+        "weight": 0.001,
+        "value": 21,
+        "examine": "Still needs two more ingredients.",
+        "item_id": [
+          "7212"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Part summer pie (strawberry)",
+        "item_name": "Part summer pie"
+      }
+    }
+  ]
+}

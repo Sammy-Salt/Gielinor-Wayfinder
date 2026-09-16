@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9715,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9715,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slashed book",
+        "weight": 0.113,
+        "value": 10,
+        "examine": "Book of the elemental shield.",
+        "item_id": [
+          "9715"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slashed book",
+        "item_name": "Slashed book"
+      }
+    }
+  ]
+}

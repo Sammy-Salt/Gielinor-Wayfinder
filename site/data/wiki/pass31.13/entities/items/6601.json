@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6601,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6601,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White mace",
+        "weight": 1.814,
+        "value": 432,
+        "examine": "A spiky mace.",
+        "item_id": [
+          "6601"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White mace",
+        "item_name": "White mace"
+      }
+    }
+  ]
+}

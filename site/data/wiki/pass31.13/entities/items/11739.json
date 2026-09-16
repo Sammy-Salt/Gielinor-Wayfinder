@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11739,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11739,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Herb box",
+        "weight": 0.2,
+        "value": 30,
+        "examine": "This herb box has been opened.",
+        "item_id": [
+          "11739"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Herb box#Open",
+        "item_name": "Open herb box"
+      }
+    }
+  ]
+}

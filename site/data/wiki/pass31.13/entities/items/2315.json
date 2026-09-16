@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2315,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2315,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pie shell",
+        "weight": 0.25,
+        "value": 4,
+        "examine": "I need to find a filling for this pie.",
+        "item_id": [
+          "2315"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pie shell",
+        "item_name": "Pie shell"
+      }
+    }
+  ]
+}

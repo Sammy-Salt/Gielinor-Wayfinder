@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9943,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9943,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sandbag",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "A bag full of sand.",
+        "item_id": [
+          "9943"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sandbag",
+        "item_name": "Sandbag"
+      }
+    }
+  ]
+}

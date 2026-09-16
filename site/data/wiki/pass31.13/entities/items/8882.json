@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8882,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8882,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone bolts",
+        "weight": 0,
+        "value": 3,
+        "examine": "Good if you have a bone crossbow!",
+        "item_id": [
+          "8882"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bone bolts",
+        "item_name": "Bone bolts"
+      }
+    }
+  ]
+}

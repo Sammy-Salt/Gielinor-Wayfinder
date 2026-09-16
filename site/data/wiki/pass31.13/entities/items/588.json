@@ -1,0 +1,25 @@
+{
+  "canonicalId": 588,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 588,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orbs of Protection",
+        "weight": 2,
+        "value": 1,
+        "examine": "Two strange glowing green orbs.",
+        "item_id": [
+          "588"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Orbs of Protection",
+        "item_name": "Orbs of Protection"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 319,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 319,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Anchovies",
+        "weight": 0.1,
+        "value": 15,
+        "examine": "Some nicely cooked anchovies.",
+        "item_id": [
+          "319"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Anchovies",
+        "item_name": "Anchovies"
+      }
+    }
+  ]
+}

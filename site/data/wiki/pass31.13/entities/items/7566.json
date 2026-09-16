@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7566,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7566,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw jubbly",
+        "weight": 10,
+        "value": 100,
+        "examine": "The uncooked meat of a Jubbly bird.",
+        "item_id": [
+          "7566"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw jubbly",
+        "item_name": "Raw jubbly"
+      }
+    }
+  ]
+}

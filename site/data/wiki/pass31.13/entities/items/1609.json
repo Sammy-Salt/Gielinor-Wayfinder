@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1609,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1609,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Opal",
+        "weight": 0.002,
+        "value": 100,
+        "examine": "A semi precious stone.",
+        "item_id": [
+          "1609"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Opal",
+        "item_name": "Opal"
+      }
+    }
+  ]
+}

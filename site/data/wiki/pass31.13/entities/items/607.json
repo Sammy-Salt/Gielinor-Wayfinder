@@ -1,0 +1,25 @@
+{
+  "canonicalId": 607,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 607,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tattered scroll",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "An ancient tattered scroll.",
+        "item_id": [
+          "607"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tattered scroll",
+        "item_name": "Tattered scroll"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12797,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12797,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon pickaxe (upgraded)",
+        "weight": 2.4,
+        "value": 97960,
+        "examine": "If rocks could feel fear, they'd fear this while admiring its beauty.",
+        "item_id": [
+          "12797"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dragon pickaxe (upgraded)",
+        "item_name": "Dragon pickaxe"
+      }
+    }
+  ]
+}

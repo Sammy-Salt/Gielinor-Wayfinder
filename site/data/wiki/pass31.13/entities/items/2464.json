@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2464,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2464,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue flowers",
+        "weight": 0.028,
+        "value": 100,
+        "examine": "A posy of flowers.",
+        "item_id": [
+          "2464"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue flowers",
+        "item_name": "Blue flowers"
+      }
+    }
+  ]
+}

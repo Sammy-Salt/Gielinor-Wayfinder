@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9028,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9028,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden scarab",
+        "weight": 0.01,
+        "value": 30,
+        "examine": "Little ornament in the shape of a scarab.",
+        "item_id": [
+          "9028"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Golden scarab",
+        "item_name": "Golden scarab"
+      }
+    }
+  ]
+}

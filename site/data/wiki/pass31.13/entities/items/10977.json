@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10977,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10977,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Curved bone",
+        "weight": 1,
+        "value": 7,
+        "examine": "A curved Construction bone.",
+        "item_id": [
+          "10977"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Curved bone",
+        "item_name": "Curved bone"
+      }
+    }
+  ]
+}

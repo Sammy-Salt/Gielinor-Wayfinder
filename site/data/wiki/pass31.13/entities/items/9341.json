@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9341,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9341,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragonstone bolts",
+        "weight": 0,
+        "value": 967,
+        "examine": "Dragonstone tipped Runite crossbow bolts.",
+        "item_id": [
+          "9341"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragonstone bolts",
+        "item_name": "Dragonstone bolts"
+      }
+    }
+  ]
+}

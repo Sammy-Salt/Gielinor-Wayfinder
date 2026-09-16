@@ -1,0 +1,25 @@
+{
+  "canonicalId": 223,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 223,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red spiders' eggs",
+        "weight": 0.007,
+        "value": 7,
+        "examine": "Ewww!",
+        "item_id": [
+          "223"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red spiders' eggs",
+        "item_name": "Red spiders' eggs"
+      }
+    }
+  ]
+}

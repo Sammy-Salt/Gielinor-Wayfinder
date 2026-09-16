@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4030,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4030,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zombie monkey greegree (big)",
+        "weight": 0.085,
+        "value": 2000,
+        "examine": "A magical talisman in the shape of a big zombie monkey head.",
+        "item_id": [
+          "4030"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zombie monkey greegree (big)",
+        "item_name": "Zombie monkey greegree"
+      }
+    }
+  ]
+}

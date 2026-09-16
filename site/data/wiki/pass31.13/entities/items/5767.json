@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5767,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5767,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ale yeast",
+        "weight": 2.834,
+        "value": 1,
+        "examine": "A pot filled with ale yeast.",
+        "item_id": [
+          "5767"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ale yeast",
+        "item_name": "Ale yeast"
+      }
+    }
+  ]
+}

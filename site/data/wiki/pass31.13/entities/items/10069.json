@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10069,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10069,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spotted cape",
+        "weight": 0.453,
+        "value": 400,
+        "examine": "A surprisingly aerodynamic cape.",
+        "item_id": [
+          "10069"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spotted cape#Inventory",
+        "item_name": "Spotted cape"
+      }
+    }
+  ]
+}

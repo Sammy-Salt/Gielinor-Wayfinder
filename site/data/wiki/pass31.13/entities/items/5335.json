@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5335,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5335,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Watering can",
+        "weight": 0.4,
+        "value": 1,
+        "examine": "This watering can is just under half-full.",
+        "item_id": [
+          "5335"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Watering can#(3)",
+        "item_name": "Watering can(3)"
+      }
+    }
+  ]
+}

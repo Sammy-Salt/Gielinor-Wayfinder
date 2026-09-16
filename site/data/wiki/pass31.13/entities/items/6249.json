@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6249,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6249,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broodoo shield (disease)",
+        "weight": 5.443,
+        "value": 3000,
+        "examine": "A scary broodoo shield.",
+        "item_id": [
+          "6249"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broodoo shield (disease)#(4)",
+        "item_name": "Broodoo shield (4)"
+      }
+    }
+  ]
+}

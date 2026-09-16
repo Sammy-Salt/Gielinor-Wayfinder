@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7690,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7690,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Full kettle",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It's full of cold water.",
+        "item_id": [
+          "7690"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Full kettle",
+        "item_name": "Full kettle"
+      }
+    }
+  ]
+}

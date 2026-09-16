@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12205,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12205,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze platebody (g)",
+        "weight": 9.979,
+        "value": 160,
+        "examine": "Bronze platebody with gold trim.",
+        "item_id": [
+          "12205"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze platebody (g)",
+        "item_name": "Bronze platebody (g)"
+      }
+    }
+  ]
+}

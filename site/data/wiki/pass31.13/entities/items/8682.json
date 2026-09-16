@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8682,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8682,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel heraldic helm (Arrav)",
+        "weight": 2.721,
+        "value": 600,
+        "examine": "The colours represent the symbol of Arrav.",
+        "item_id": [
+          "8682"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel heraldic helm (Arrav)",
+        "item_name": "Steel heraldic helm"
+      }
+    }
+  ]
+}

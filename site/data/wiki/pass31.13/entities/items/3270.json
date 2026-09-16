@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3270,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3270,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Alco-chunks",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "Pineapple chunks dipped in strong liquor.",
+        "item_id": [
+          "3270"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Alco-chunks",
+        "item_name": "Alco-chunks"
+      }
+    }
+  ]
+}

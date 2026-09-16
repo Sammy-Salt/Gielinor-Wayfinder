@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6641,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6641,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yellow crystal (Mourning's End Part II)",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "A yellow crystal.",
+        "item_id": [
+          "6641"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yellow crystal (Mourning's End Part II)",
+        "item_name": "Yellow crystal"
+      }
+    }
+  ]
+}

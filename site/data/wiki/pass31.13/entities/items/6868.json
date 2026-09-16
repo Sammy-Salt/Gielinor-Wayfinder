@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6868,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6868,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue marionette (strung)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "I want to be a real boy!",
+        "item_id": [
+          "6868"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue marionette (strung)",
+        "item_name": "Blue marionette"
+      }
+    }
+  ]
+}

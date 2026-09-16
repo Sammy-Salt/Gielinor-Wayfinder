@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12954,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12954,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon defender",
+        "weight": 0.453,
+        "value": 68007,
+        "examine": "A defensive weapon.",
+        "item_id": [
+          "12954"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dragon defender#Normal",
+        "item_name": "Dragon defender"
+      }
+    }
+  ]
+}

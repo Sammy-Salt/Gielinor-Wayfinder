@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3180,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3180,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Medium ninja monkey bones",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "These are medium sized monkey bones.",
+        "item_id": [
+          "3180"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Medium ninja monkey bones",
+        "item_name": "Medium ninja monkey bones"
+      }
+    }
+  ]
+}

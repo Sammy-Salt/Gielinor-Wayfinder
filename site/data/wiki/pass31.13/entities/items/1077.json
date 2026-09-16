@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1077,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1077,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black platelegs",
+        "weight": 9.071,
+        "value": 1920,
+        "examine": "Big, black and heavy looking.",
+        "item_id": [
+          "1077"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black platelegs",
+        "item_name": "Black platelegs"
+      }
+    }
+  ]
+}

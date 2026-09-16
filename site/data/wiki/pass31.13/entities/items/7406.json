@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7406,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7406,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue logs",
+        "weight": 2,
+        "value": 4,
+        "examine": "A number of chemical covered wooden logs.",
+        "item_id": [
+          "7406"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue logs",
+        "item_name": "Blue logs"
+      }
+    }
+  ]
+}

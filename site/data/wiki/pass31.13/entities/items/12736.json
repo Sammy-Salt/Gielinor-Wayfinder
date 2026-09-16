@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12736,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12736,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mind rune pack",
+        "weight": 4.535,
+        "value": 330,
+        "examine": "A pack containing 100 mind runes.",
+        "item_id": [
+          "12736"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mind rune pack",
+        "item_name": "Mind rune pack"
+      }
+    }
+  ]
+}

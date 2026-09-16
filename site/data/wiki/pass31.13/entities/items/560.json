@@ -1,0 +1,25 @@
+{
+  "canonicalId": 560,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 560,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Death rune",
+        "weight": 0,
+        "value": 180,
+        "examine": "Used for medium level missile spells.",
+        "item_id": [
+          "560"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Death rune",
+        "item_name": "Death rune"
+      }
+    }
+  ]
+}

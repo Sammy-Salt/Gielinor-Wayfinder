@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9071,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9071,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Moonclan skirt",
+        "weight": 3.628,
+        "value": 1000,
+        "examine": "This should protect my legs.",
+        "item_id": [
+          "9071"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Moonclan skirt",
+        "item_name": "Moonclan skirt"
+      }
+    }
+  ]
+}

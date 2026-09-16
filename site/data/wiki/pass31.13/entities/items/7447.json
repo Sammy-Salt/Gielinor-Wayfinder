@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7447,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7447,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kitchen knife",
+        "weight": 0.453,
+        "value": 8000,
+        "examine": "A sharp, dependable knife, for filleting meat.",
+        "item_id": [
+          "7447"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Kitchen knife",
+        "item_name": "Kitchen knife"
+      }
+    }
+  ]
+}

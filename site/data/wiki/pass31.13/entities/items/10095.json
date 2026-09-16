@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Larupia fur",
+        "weight": 2,
+        "value": 80,
+        "examine": "It's a perfect-looking larupia fur.",
+        "item_id": [
+          "10095"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Larupia fur",
+        "item_name": "Larupia fur"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 314,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 314,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Feather",
+        "weight": 0,
+        "value": 2,
+        "examine": "Used for fly fishing.",
+        "item_id": [
+          "314"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Feather",
+        "item_name": "Feather"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4084,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4084,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sled",
+        "weight": 0.018,
+        "value": 175,
+        "examine": "A waxed sled.",
+        "item_id": [
+          "4084"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sled#Waxed",
+        "item_name": "Sled"
+      }
+    }
+  ]
+}

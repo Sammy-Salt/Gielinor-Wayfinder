@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7329,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7329,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red firelighter",
+        "weight": 0,
+        "value": 15,
+        "examine": "Makes firelighting a lot easier.",
+        "item_id": [
+          "7329"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red firelighter",
+        "item_name": "Red firelighter"
+      }
+    }
+  ]
+}

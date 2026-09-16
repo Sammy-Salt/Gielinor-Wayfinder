@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7188,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7188,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fish pie",
+        "weight": 0.001,
+        "value": 100,
+        "examine": "Bounty of the sea.",
+        "item_id": [
+          "7188"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fish pie#Full",
+        "item_name": "Fish pie"
+      }
+    }
+  ]
+}

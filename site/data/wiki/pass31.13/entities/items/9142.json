@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9142,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9142,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril bolts",
+        "weight": 0,
+        "value": 20,
+        "examine": "Mithril crossbow bolts.",
+        "item_id": [
+          "9142"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril bolts#Unpoisoned",
+        "item_name": "Mithril bolts"
+      }
+    }
+  ]
+}

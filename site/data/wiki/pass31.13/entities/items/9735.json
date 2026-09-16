@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9735,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9735,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Goat horn",
+        "weight": 0.453,
+        "value": 12,
+        "examine": "Not much good for blowing.",
+        "item_id": [
+          "9735"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Goat horn",
+        "item_name": "Goat horn"
+      }
+    }
+  ]
+}

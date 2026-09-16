@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1961,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1961,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Easter egg",
+        "weight": 0.085,
+        "value": 10,
+        "examine": "Happy Easter.",
+        "item_id": [
+          "1961"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Easter egg",
+        "item_name": "Easter egg"
+      }
+    }
+  ]
+}

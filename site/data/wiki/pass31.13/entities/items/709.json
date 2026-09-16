@@ -1,0 +1,25 @@
+{
+  "canonicalId": 709,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 709,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chest key (Digsite)",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "This fits a chest (Used in The Digsite quest).",
+        "item_id": [
+          "709"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chest key (Digsite)",
+        "item_name": "Chest key"
+      }
+    }
+  ]
+}

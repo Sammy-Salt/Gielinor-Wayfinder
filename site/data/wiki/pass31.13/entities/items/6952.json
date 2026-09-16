@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6952,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6952,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Truth serum",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Fluid sloshes innocently in this vial.",
+        "item_id": [
+          "6952"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Truth serum",
+        "item_name": "Truth serum"
+      }
+    }
+  ]
+}

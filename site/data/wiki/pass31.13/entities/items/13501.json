@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13501,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13501,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled demon head",
+        "weight": 0.453,
+        "value": 527,
+        "examine": "The creature's soul is still in here. I could reanimate it with Expert Reanimation.",
+        "item_id": [
+          "13501"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ensouled demon head#Drop",
+        "item_name": "Ensouled demon head"
+      }
+    }
+  ]
+}

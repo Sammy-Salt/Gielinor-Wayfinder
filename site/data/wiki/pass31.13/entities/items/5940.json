@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5940,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5940,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Weapon poison(++)",
+        "weight": 0.035,
+        "value": 432,
+        "examine": "A vial of super strong weapon poison, for spears and daggers.",
+        "item_id": [
+          "5940"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Weapon poison(++)",
+        "item_name": "Weapon poison(++)"
+      }
+    }
+  ]
+}

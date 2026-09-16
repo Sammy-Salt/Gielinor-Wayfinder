@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1552,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1552,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seasoned sardine",
+        "weight": 0.12,
+        "value": 10,
+        "examine": "Sardine flavoured with doogle leaves.",
+        "item_id": [
+          "1552"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Seasoned sardine",
+        "item_name": "Seasoned sardine"
+      }
+    }
+  ]
+}

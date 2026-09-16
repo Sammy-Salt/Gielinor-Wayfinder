@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9924,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9924,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skeleton shirt",
+        "weight": 1,
+        "value": 1,
+        "examine": "The shirt of a full body skeleton costume.",
+        "item_id": [
+          "9924"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Skeleton shirt",
+        "item_name": "Skeleton shirt"
+      }
+    }
+  ]
+}

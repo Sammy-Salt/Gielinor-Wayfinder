@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10555,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10555,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Penance skirt",
+        "weight": 3,
+        "value": 65005,
+        "examine": "A skirt made from the skin of a Penance Ranger.",
+        "item_id": [
+          "10555"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Penance skirt#Normal",
+        "item_name": "Penance skirt"
+      }
+    }
+  ]
+}

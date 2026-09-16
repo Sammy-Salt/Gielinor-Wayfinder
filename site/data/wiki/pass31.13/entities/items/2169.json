@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2169,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2169,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gnome spice",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "It's Aluft Gianne's secret mix of spices.",
+        "item_id": [
+          "2169"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gnome spice",
+        "item_name": "Gnome spice"
+      }
+    }
+  ]
+}

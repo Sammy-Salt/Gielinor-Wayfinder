@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11699,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11699,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Astral rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 0,
+        "examine": "Used for Lunar spells.",
+        "item_id": [
+          "11699"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Astral rune (Barbarian Assault)",
+        "item_name": "Astral rune"
+      }
+    }
+  ]
+}

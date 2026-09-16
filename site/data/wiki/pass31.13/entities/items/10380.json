@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10380,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10380,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix chaps",
+        "weight": 5,
+        "value": 6000,
+        "examine": "Guthix blessed dragonhide chaps.",
+        "item_id": [
+          "10380"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthix chaps",
+        "item_name": "Guthix chaps"
+      }
+    }
+  ]
+}

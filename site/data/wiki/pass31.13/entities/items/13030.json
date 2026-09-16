@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13030,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13030,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune trimmed set (sk)",
+        "weight": 6,
+        "value": 80000,
+        "examine": "A set containing a full helm, platebody, skirt and kiteshield.",
+        "item_id": [
+          "13030"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune trimmed set (sk)",
+        "item_name": "Rune trimmed set (sk)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7773,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7773,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Branch (Temple Trekking)",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "Leafless bush branch.",
+        "item_id": [
+          "7773"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Branch (Temple Trekking)",
+        "item_name": "Branch"
+      }
+    }
+  ]
+}

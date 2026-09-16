@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4053,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4053,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barricade",
+        "weight": 5,
+        "value": 1,
+        "examine": "Use these to block enemy team movement.",
+        "item_id": [
+          "4053"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Barricade",
+        "item_name": "Barricade"
+      }
+    }
+  ]
+}

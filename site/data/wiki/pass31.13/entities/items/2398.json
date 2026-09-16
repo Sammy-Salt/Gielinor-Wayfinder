@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2398,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2398,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cave nightshade",
+        "weight": 0.015,
+        "value": 30,
+        "examine": "Deadly.",
+        "item_id": [
+          "2398"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cave nightshade",
+        "item_name": "Cave nightshade"
+      }
+    }
+  ]
+}

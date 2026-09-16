@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2861,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2861,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wolfbone arrowtips",
+        "weight": 0,
+        "value": 3,
+        "examine": "I can make an ogre arrow with these.",
+        "item_id": [
+          "2861"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Wolfbone arrowtips",
+        "item_name": "Wolfbone arrowtips"
+      }
+    }
+  ]
+}

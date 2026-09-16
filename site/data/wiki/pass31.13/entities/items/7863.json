@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7863,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7863,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zombie bone",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7863"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zombie bone#Unpolished",
+        "item_name": "Zombie bone"
+      }
+    }
+  ]
+}

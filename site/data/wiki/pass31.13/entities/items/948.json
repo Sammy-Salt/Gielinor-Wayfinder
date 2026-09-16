@@ -1,0 +1,25 @@
+{
+  "canonicalId": 948,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 948,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bear fur",
+        "weight": 3,
+        "value": 10,
+        "examine": "This would make warm clothing.",
+        "item_id": [
+          "948"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bear fur",
+        "item_name": "Bear fur"
+      }
+    }
+  ]
+}

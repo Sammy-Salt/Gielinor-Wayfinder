@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3588,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3588,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (medium) - 00.13S 13.58E",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Perhaps someone at the observatory can teach me to navigate?",
+        "item_id": [
+          "3588"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (medium) - 00.13S 13.58E",
+        "item_name": "Clue scroll (medium)"
+      }
+    }
+  ]
+}

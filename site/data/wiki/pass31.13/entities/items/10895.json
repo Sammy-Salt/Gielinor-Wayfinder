@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10895,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10895,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bell jar",
+        "weight": 1,
+        "value": 1,
+        "examine": "A bell jar for covering things.",
+        "item_id": [
+          "10895"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bell jar",
+        "item_name": "Bell jar"
+      }
+    }
+  ]
+}

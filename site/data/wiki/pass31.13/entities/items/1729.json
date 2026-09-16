@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1729,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1729,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Amulet of defence",
+        "weight": 0.01,
+        "value": 1275,
+        "examine": "An enchanted emerald amulet of protection.",
+        "item_id": [
+          "1729"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Amulet of defence",
+        "item_name": "Amulet of defence"
+      }
+    }
+  ]
+}

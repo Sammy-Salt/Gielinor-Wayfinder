@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5498,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5498,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange sapling",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This sapling is ready to be replanted in a fruit tree patch.",
+        "item_id": [
+          "5498"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Orange sapling",
+        "item_name": "Orange sapling"
+      }
+    }
+  ]
+}

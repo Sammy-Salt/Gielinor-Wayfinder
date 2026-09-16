@@ -1,0 +1,25 @@
+{
+  "canonicalId": 566,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 566,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Soul rune",
+        "weight": 0,
+        "value": 300,
+        "examine": "Used for high level curse spells.",
+        "item_id": [
+          "566"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Soul rune",
+        "item_name": "Soul rune"
+      }
+    }
+  ]
+}

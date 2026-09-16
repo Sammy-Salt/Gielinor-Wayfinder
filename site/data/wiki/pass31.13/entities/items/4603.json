@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4603,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4603,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Receipt (The Feud)",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "A receipt for one 'Camelus Horribleus'.",
+        "item_id": [
+          "4603"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Receipt (The Feud)",
+        "item_name": "Receipt"
+      }
+    }
+  ]
+}

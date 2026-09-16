@@ -1,0 +1,40 @@
+{
+  "canonicalId": 3174,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3174,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant spear",
+        "weight": 2.721,
+        "value": 2080,
+        "examine": "A Karambwan poisoned adamantite tipped spear.",
+        "item_id": [
+          "3174"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Adamant spear#(kp)",
+        "item_name": "Adamant spear(kp)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3174,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Adamant spear",
+        "page_name_sub": "Adamant spear#(kp)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

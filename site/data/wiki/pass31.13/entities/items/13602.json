@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13602,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13602,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful boots (Piscarilius)",
+        "weight": -4,
+        "value": 40,
+        "examine": "For your graceful feet.",
+        "item_id": [
+          "13602"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful boots (Piscarilius)#Worn",
+        "item_name": "Graceful boots"
+      }
+    }
+  ]
+}

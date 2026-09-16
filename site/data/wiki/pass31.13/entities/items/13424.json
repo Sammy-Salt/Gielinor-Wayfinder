@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13424,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13424,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bologano seed",
+        "weight": 0,
+        "value": 5,
+        "examine": "Plant it in the land strips in Hosidius.",
+        "item_id": [
+          "13424"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bologano seed",
+        "item_name": "Bologano seed"
+      }
+    }
+  ]
+}

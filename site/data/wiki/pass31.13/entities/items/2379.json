@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2379,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2379,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rock cake",
+        "weight": 0.025,
+        "value": 1,
+        "examine": "Handy if you want to break all your teeth.",
+        "item_id": [
+          "2379"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rock cake",
+        "item_name": "Rock cake"
+      }
+    }
+  ]
+}

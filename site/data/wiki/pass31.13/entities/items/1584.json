@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1584,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1584,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Id papers",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "Apparently my name is Hartigen.",
+        "item_id": [
+          "1584"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Id papers",
+        "item_name": "Id papers"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1759,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1759,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ball of wool",
+        "weight": 0.012,
+        "value": 2,
+        "examine": "Spun from wool.",
+        "item_id": [
+          "1759"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ball of wool",
+        "item_name": "Ball of wool"
+      }
+    }
+  ]
+}

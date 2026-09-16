@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7396,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7396,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue wizard hat (t)",
+        "weight": 0.453,
+        "value": 2,
+        "examine": "A silly pointed hat, with colourful trim.",
+        "item_id": [
+          "7396"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue wizard hat (t)",
+        "item_name": "Blue wizard hat (t)"
+      }
+    }
+  ]
+}

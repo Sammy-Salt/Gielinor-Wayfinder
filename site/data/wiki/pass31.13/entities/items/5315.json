@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5315,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5315,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yew seed",
+        "weight": 0,
+        "value": 143,
+        "examine": "Plant this in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5315"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Yew seed",
+        "item_name": "Yew seed"
+      }
+    }
+  ]
+}

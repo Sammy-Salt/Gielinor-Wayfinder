@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6330,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6330,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Snakeskin vambraces",
+        "weight": 0.283,
+        "value": 434,
+        "examine": "Made from 100% real snake.",
+        "item_id": [
+          "6330"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Snakeskin vambraces",
+        "item_name": "Snakeskin vambraces"
+      }
+    }
+  ]
+}

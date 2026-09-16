@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13487,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13487,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled horror head",
+        "weight": 0.453,
+        "value": 403,
+        "examine": "The creature's soul is still in here. I could reanimate it with Adept Reanimation.",
+        "item_id": [
+          "13487"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ensouled horror head#Item",
+        "item_name": "Ensouled horror head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "canonicalId": 5631,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5631,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black dart",
+        "weight": 0,
+        "value": 18,
+        "examine": "A deadly poisoned dart with a black tip.",
+        "item_id": [
+          "5631"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black dart#(p+)",
+        "item_name": "Black dart(p+)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5631,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Black dart",
+        "page_name_sub": "Black dart#(p+)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

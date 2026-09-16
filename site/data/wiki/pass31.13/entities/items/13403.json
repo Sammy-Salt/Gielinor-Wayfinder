@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13403,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13403,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery meat pie",
+        "weight": 0.45,
+        "value": 1,
+        "examine": "Put it on the servery table to feed the troops.",
+        "item_id": [
+          "13403"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery meat pie",
+        "item_name": "Servery meat pie"
+      }
+    }
+  ]
+}

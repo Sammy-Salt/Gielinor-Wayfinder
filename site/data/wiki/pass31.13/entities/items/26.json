@@ -1,0 +1,25 @@
+{
+  "canonicalId": 26,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 26,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fishing trophy",
+        "weight": 0.085,
+        "value": 1,
+        "examine": "Hemenster fishing contest trophy.",
+        "item_id": [
+          "26"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fishing trophy",
+        "item_name": "Fishing trophy"
+      }
+    }
+  ]
+}

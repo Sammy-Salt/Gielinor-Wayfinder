@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4824,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4824,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune nails",
+        "weight": 0,
+        "value": 220,
+        "examine": "Keeps things in place fairly permanently.",
+        "item_id": [
+          "4824"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune nails",
+        "item_name": "Rune nails"
+      }
+    }
+  ]
+}

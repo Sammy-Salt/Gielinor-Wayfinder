@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12100,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12100,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (elite) - 05.24S 26.56E",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "12100"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (elite) - 05.24S 26.56E",
+        "item_name": "Clue scroll (elite)"
+      }
+    }
+  ]
+}

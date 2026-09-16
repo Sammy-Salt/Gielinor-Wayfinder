@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11698,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11698,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Soul rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 0,
+        "examine": "Used for high level curse spells.",
+        "item_id": [
+          "11698"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Soul rune (Barbarian Assault)",
+        "item_name": "Soul rune"
+      }
+    }
+  ]
+}

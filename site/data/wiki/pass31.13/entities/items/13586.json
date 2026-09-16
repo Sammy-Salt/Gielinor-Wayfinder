@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13586,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13586,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful legs (Arceuus)",
+        "weight": -6,
+        "value": 60,
+        "examine": "You have graceful legs. How nice.",
+        "item_id": [
+          "13586"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful legs (Arceuus)#Worn",
+        "item_name": "Graceful legs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3327,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3327,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Myre snelm",
+        "weight": 2,
+        "value": 300,
+        "examine": "A marshy coloured snail shell helmet.",
+        "item_id": [
+          "3327"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Myre snelm",
+        "item_name": "Myre snelm"
+      }
+    }
+  ]
+}

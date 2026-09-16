@@ -1,0 +1,40 @@
+{
+  "canonicalId": 891,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 891,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant arrow",
+        "weight": 0,
+        "value": 80,
+        "examine": "Venomous-looking arrows.",
+        "item_id": [
+          "891"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant arrow#(p)",
+        "item_name": "Adamant arrow(p)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 891,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Adamant arrow",
+        "page_name_sub": "Adamant arrow#(p)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

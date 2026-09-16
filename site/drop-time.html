@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#17130e">
+<title>Drop & Kill Time</title>
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="css/pages/drop-time.css">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head><body>
+<nav id="site-nav" aria-label="Primary navigation">
+<a class="site-brand" href="index.html">⚔ OSRS Guide</a>
+<a href="character.html">🧙 Character</a><a href="quests.html">⚔ Quests</a>
+<a href="progress.html">📈 Progress</a>
+<a href="goals.html">🎯 Goals</a>
+<a href="map.html">🗺 Map</a><a href="crafting.html">🔨 Crafting</a>
+<details class="nav-menu"><summary>📚 Encyclopedia</summary><div class="nav-menu-panel"><a href="monsters.html">☠ Monsters</a><a href="bosses.html">👑 Bosses</a><a href="items.html">🛡 Items</a><a href="npcs.html">👤 NPCs</a></div></details>
+<details class="nav-menu"><summary>🧮 Calculators</summary><div class="nav-menu-panel"><a href="calculators.html">🧮 Calculators</a><a href="combat-stats.html">⚔ Combat</a><a href="skill-stats.html">📈 Skill</a><a href="drop-stats.html">📊 Drop Stats</a><a href="drop-time.html">🎯 Drop Time</a></div></details>
+</nav><div id="app-tools-host" aria-label="Application tools"><div id="app-tools" class="app-tools" aria-label="Search and application tools">
+<div class="app-search-row"><input id="globalSearch" type="search" autocomplete="off" placeholder="Items, monsters, NPCs, quests..." aria-label="Search the encyclopedia"><button type="button" class="global-search-submit">Search</button></div>
+<div id="globalSearchResults" class="global-search-results" role="listbox" aria-label="Search results"></div>
+<div class="app-tool-actions"><a href="index.html">⌂ Home</a><button type="button" id="installApp" hidden>Install app</button><button type="button" data-action="export-player">Export player</button><label class="button-like">Import player<input type="file" accept="application/json,.json" hidden></label><span id="offlineStatus" class="offline-status">Checking offline support…</span></div>
+</div></div>
+
+
+<header><h1>🎯 Drop & Kill Time</h1></header><main>
+
+<div class="card">
+<label>Monster</label>
+<select id="monster" aria-label="Monster"></select>
+
+<label>Drop</label>
+<select id="drop" aria-label="Drop"></select>
+
+<label>Kills per hour</label>
+<input id="kph" type="number" min="1" value="600" aria-label="Kills per hour">
+</div>
+
+<div id="result"></div>
+</main>
+
+<script src="js/local-loader.js?v=39"></script>
+</body></html>

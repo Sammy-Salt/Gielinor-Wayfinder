@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13415,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13415,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery incomplete stew",
+        "weight": 1,
+        "value": 1,
+        "examine": "I need to add some meat too.",
+        "item_id": [
+          "13415"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery incomplete stew#Potato",
+        "item_name": "Servery incomplete stew"
+      }
+    }
+  ]
+}

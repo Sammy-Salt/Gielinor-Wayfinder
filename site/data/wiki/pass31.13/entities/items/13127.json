@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13127,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13127,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Explorer's ring 3",
+        "weight": 0.006,
+        "value": 0,
+        "examine": "A Lumbridge explorer's ring.",
+        "item_id": [
+          "13127"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Explorer's ring 3",
+        "item_name": "Explorer's ring 3"
+      }
+    }
+  ]
+}

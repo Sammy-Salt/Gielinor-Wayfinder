@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5593,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5593,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tin (Recruitment Drive)",
+        "weight": 0.101,
+        "value": 20,
+        "examine": "It's full of a white lumpy mixture that seems to be hardening.",
+        "item_id": [
+          "5593"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tin (Recruitment Drive)#Hardening",
+        "item_name": "Tin"
+      }
+    }
+  ]
+}

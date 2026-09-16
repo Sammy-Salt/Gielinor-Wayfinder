@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2374,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2374,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Relic part 2",
+        "weight": 1,
+        "value": 1,
+        "examine": "Part of an ogre relic.",
+        "item_id": [
+          "2374"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Relic part 2",
+        "item_name": "Relic part 2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9457,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9457,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron crossbow (u)",
+        "weight": 8,
+        "value": 123,
+        "examine": "An unstrung iron crossbow.",
+        "item_id": [
+          "9457"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron crossbow (u)",
+        "item_name": "Iron crossbow (u)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6547,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6547,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Doctor's hat",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "A mirror helps reflect light on the subject.",
+        "item_id": [
+          "6547"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Doctor's hat",
+        "item_name": "Doctor's hat"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10396,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10396,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pantaloons",
+        "weight": 1,
+        "value": 2000,
+        "examine": "Alas, someone has slashed my pantaloons.",
+        "item_id": [
+          "10396"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pantaloons",
+        "item_name": "Pantaloons"
+      }
+    }
+  ]
+}

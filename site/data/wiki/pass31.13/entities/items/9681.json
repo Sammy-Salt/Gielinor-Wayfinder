@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9681,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9681,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Commorb v2",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A Temple Knight Communication Orb. Top Secret!",
+        "item_id": [
+          "9681"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Commorb v2",
+        "item_name": "Commorb v2"
+      }
+    }
+  ]
+}

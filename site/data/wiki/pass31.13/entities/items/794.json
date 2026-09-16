@@ -1,0 +1,25 @@
+{
+  "canonicalId": 794,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 794,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Invasion plans",
+        "weight": 0.02,
+        "value": 2,
+        "examine": "These are plans for an invasion!",
+        "item_id": [
+          "794"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Invasion plans",
+        "item_name": "Invasion plans"
+      }
+    }
+  ]
+}

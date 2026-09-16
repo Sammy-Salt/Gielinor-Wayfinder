@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11855,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11855,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful top",
+        "weight": -5,
+        "value": 55,
+        "examine": "A sign of your grace.",
+        "item_id": [
+          "11855"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful top#Worn",
+        "item_name": "Graceful top"
+      }
+    }
+  ]
+}

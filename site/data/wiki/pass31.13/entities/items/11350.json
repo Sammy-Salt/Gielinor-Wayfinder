@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11350,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11350,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient page",
+        "weight": 0.003,
+        "value": 0,
+        "examine": "Written hastily.",
+        "item_id": [
+          "11350"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient page#10",
+        "item_name": "Ancient page"
+      }
+    }
+  ]
+}

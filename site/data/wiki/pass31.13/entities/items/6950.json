@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6950,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6950,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magical orb",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "An ordinary looking magical scrying orb.",
+        "item_id": [
+          "6950"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magical orb#Inactive",
+        "item_name": "Magical orb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12982,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12982,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron gold-trimmed set (sk)",
+        "weight": 6,
+        "value": 900,
+        "examine": "A set containing a full helm, platebody, skirt and kiteshield.",
+        "item_id": [
+          "12982"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron gold-trimmed set (sk)",
+        "item_name": "Iron gold-trimmed set (sk)"
+      }
+    }
+  ]
+}

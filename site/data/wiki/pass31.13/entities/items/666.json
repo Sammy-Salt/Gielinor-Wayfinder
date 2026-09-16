@@ -1,0 +1,25 @@
+{
+  "canonicalId": 666,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 666,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Portrait",
+        "weight": 1.36,
+        "value": 3,
+        "examine": "Picture of a posing Paladin.",
+        "item_id": [
+          "666"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Portrait",
+        "item_name": "Portrait"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 187,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 187,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Weapon poison",
+        "weight": 0.025,
+        "value": 144,
+        "examine": "For use on daggers and projectiles.",
+        "item_id": [
+          "187"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Weapon poison",
+        "item_name": "Weapon poison"
+      }
+    }
+  ]
+}

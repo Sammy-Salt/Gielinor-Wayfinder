@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9998,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9998,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hunter potion",
+        "weight": 0.035,
+        "value": 15,
+        "examine": "4 doses of Hunter potion.",
+        "item_id": [
+          "9998"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Hunter potion#(4)",
+        "item_name": "Hunter potion(4)"
+      }
+    }
+  ]
+}

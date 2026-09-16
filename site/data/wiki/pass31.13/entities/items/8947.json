@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8947,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8947,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red monkey",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "A well red monkey.",
+        "item_id": [
+          "8947"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red monkey#Cautious",
+        "item_name": "Red monkey"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2976,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2976,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sickle mould",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "Used to make sickles.",
+        "item_id": [
+          "2976"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sickle mould",
+        "item_name": "Sickle mould"
+      }
+    }
+  ]
+}

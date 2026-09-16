@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11197,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11197,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Miazrqa's pendant",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "The pendant belonging to Miazrqa.",
+        "item_id": [
+          "11197"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Miazrqa's pendant",
+        "item_name": "Miazrqa's pendant"
+      }
+    }
+  ]
+}

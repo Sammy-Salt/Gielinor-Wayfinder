@@ -1,0 +1,25 @@
+{
+  "canonicalId": 520,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 520,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune axe head",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "It's missing a handle.",
+        "item_id": [
+          "520"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune axe head",
+        "item_name": "Rune axe head"
+      }
+    }
+  ]
+}

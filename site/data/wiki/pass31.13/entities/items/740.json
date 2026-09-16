@@ -1,0 +1,25 @@
+{
+  "canonicalId": 740,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 740,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue hat (Legends' Quest)",
+        "weight": 0.453,
+        "value": 2,
+        "examine": "A strange blue wizard's hat.",
+        "item_id": [
+          "740"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue hat (Legends' Quest)",
+        "item_name": "Blue hat"
+      }
+    }
+  ]
+}

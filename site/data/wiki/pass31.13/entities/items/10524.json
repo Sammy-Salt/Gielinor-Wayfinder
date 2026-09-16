@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10524,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10524,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Collection bag",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A large collection bag.",
+        "item_id": [
+          "10524"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Collection bag#Level 4",
+        "item_name": "Collection bag"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scythe sharpener",
+        "weight": 20,
+        "value": 1,
+        "examine": "Used to sharpen the blade on a scythe.",
+        "item_id": [
+          "12842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Scythe sharpener",
+        "item_name": "Scythe sharpener"
+      }
+    }
+  ]
+}

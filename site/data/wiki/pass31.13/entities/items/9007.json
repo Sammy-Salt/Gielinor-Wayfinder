@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9007,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9007,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Right skull half",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "Ooooh spooky!",
+        "item_id": [
+          "9007"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Right skull half",
+        "item_name": "Right skull half"
+      }
+    }
+  ]
+}

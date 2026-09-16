@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10468,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10468,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak robe legs",
+        "weight": 2.7,
+        "value": 7000,
+        "examine": "Leggings from the Zamorak Vestments.",
+        "item_id": [
+          "10468"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak robe legs",
+        "item_name": "Zamorak robe legs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1993,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1993,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jug of wine",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "It's full of wine.",
+        "item_id": [
+          "1993"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Jug of wine",
+        "item_name": "Jug of wine"
+      }
+    }
+  ]
+}

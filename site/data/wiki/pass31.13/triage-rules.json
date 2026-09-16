@@ -1,0 +1,19 @@
+{
+  "version": "31.12-alias-1",
+  "rules": [
+    {
+      "id": "canonical-alias-v1",
+      "description": "Exact case-insensitive match against canonical item name or canonical _aliases; unique canonical ID required."
+    },
+    {
+      "id": "equipment-slot-v1",
+      "description": "Equipment alias mapping additionally requires a unique observed canonical numeric equipment-slot to Wiki label crosswalk and exact slot agreement."
+    }
+  ],
+  "release": "PASS31.13",
+  "generatedFrom": "PASS31.13_IDENTITY_INTEGRITY",
+  "identityIntegrityRule": "identity-integrity-v2",
+  "rejectedUnsafeMappings": 5292,
+  "removedUnsafeEntityRecords": 5556,
+  "explicitItemIdConflicts": 5556
+}

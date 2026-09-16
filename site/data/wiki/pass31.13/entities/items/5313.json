@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5313,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5313,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Willow seed",
+        "weight": 0,
+        "value": 16,
+        "examine": "Plant this in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5313"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Willow seed",
+        "item_name": "Willow seed"
+      }
+    }
+  ]
+}

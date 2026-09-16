@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2635,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2635,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black beret",
+        "weight": 0.04,
+        "value": 80,
+        "examine": "Parlez-vous francais?",
+        "item_id": [
+          "2635"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black beret",
+        "item_name": "Black beret"
+      }
+    }
+  ]
+}

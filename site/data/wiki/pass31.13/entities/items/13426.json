@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13426,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13426,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golovanova fruit",
+        "weight": 0,
+        "value": 3,
+        "examine": "Full of Vitamin G.",
+        "item_id": [
+          "13426"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golovanova fruit",
+        "item_name": "Golovanova fruit"
+      }
+    }
+  ]
+}

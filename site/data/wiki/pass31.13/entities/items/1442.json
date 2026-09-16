@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1442,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1442,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire talisman",
+        "weight": 0.015,
+        "value": 4,
+        "examine": "A mysterious power emanates from the talisman...",
+        "item_id": [
+          "1442"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fire talisman",
+        "item_name": "Fire talisman"
+      }
+    }
+  ]
+}

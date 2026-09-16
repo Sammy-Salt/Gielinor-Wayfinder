@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10848,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10848,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spring sq'irkjuice",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Made from 4 spring sq'irks.",
+        "item_id": [
+          "10848"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Spring sq'irkjuice",
+        "item_name": "Spring sq'irkjuice"
+      }
+    }
+  ]
+}

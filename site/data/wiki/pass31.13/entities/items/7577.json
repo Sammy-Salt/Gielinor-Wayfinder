@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7577,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7577,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw stuffed snake",
+        "weight": 3,
+        "value": 1,
+        "examine": "This snake is stuffed right up.",
+        "item_id": [
+          "7577"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Raw stuffed snake",
+        "item_name": "Raw stuffed snake"
+      }
+    }
+  ]
+}

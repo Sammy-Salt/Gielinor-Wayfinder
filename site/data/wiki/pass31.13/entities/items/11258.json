@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11258,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11258,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jar generator",
+        "weight": 1,
+        "value": 600,
+        "examine": "Creates butterfly and impling jars.",
+        "item_id": [
+          "11258"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Jar generator",
+        "item_name": "Jar generator"
+      }
+    }
+  ]
+}

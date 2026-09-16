@@ -1,0 +1,25 @@
+{
+  "canonicalId": 325,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 325,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sardine",
+        "weight": 0.12,
+        "value": 10,
+        "examine": "Some nicely cooked sardines.",
+        "item_id": [
+          "325"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sardine",
+        "item_name": "Sardine"
+      }
+    }
+  ]
+}

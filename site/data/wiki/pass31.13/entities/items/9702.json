@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9702,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9702,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stick (animation item)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "Random stick.",
+        "item_id": [
+          "9702"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stick (animation item)",
+        "item_name": "Stick"
+      }
+    }
+  ]
+}

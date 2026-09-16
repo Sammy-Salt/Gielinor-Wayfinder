@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5295,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5295,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ranarr seed",
+        "weight": 0,
+        "value": 50,
+        "examine": "A ranarr seed - plant in a herb patch.",
+        "item_id": [
+          "5295"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ranarr seed",
+        "item_name": "Ranarr seed"
+      }
+    }
+  ]
+}

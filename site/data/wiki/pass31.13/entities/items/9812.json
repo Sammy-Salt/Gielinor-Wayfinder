@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9812,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9812,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Farming hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Farming skillcape hood.",
+        "item_id": [
+          "9812"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Farming hood",
+        "item_name": "Farming hood"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3617,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3617,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (medium) - Speak to Kangai Mau",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "3617"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (medium) - Speak to Kangai Mau",
+        "item_name": "Clue scroll (medium)"
+      }
+    }
+  ]
+}

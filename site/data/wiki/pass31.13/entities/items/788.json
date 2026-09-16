@@ -1,0 +1,25 @@
+{
+  "canonicalId": 788,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 788,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Glough's key",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "The key to Glough's chest (Used in The Grand Tree quest).",
+        "item_id": [
+          "788"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Glough's key",
+        "item_name": "Glough's key"
+      }
+    }
+  ]
+}

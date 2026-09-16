@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1627,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1627,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Uncut jade",
+        "weight": 0.003,
+        "value": 30,
+        "examine": "This would be worth more cut.",
+        "item_id": [
+          "1627"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Uncut jade",
+        "item_name": "Uncut jade"
+      }
+    }
+  ]
+}

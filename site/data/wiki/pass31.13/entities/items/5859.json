@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5859,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5859,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Asgarnian ale(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 1 pint of mature Asgarnian Ale.",
+        "item_id": [
+          "5859"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Asgarnian ale(m) (keg)#1 pint",
+        "item_name": "Asgarnian ale(m1)"
+      }
+    }
+  ]
+}

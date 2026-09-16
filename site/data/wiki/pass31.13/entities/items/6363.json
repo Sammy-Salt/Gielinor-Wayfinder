@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6363,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6363,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Villager robe (yellow)",
+        "weight": 2,
+        "value": 250,
+        "examine": "A brightly coloured robe prized by the Tai Bwo Wannai peoples.",
+        "item_id": [
+          "6363"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Villager robe (yellow)",
+        "item_name": "Villager robe"
+      }
+    }
+  ]
+}

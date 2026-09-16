@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7906,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7906,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone in vinegar",
+        "weight": 1.36,
+        "value": 0,
+        "examine": "There is a cave goblin bone in here.",
+        "item_id": [
+          "7906"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bone in vinegar#Cave goblin skull",
+        "item_name": "Bone in vinegar"
+      }
+    }
+  ]
+}

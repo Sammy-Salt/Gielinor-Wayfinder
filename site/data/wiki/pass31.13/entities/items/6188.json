@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6188,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6188,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frog mask",
+        "weight": 0.453,
+        "value": 0,
+        "examine": "Now that's just silly.",
+        "item_id": [
+          "6188"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frog mask",
+        "item_name": "Frog mask"
+      }
+    }
+  ]
+}

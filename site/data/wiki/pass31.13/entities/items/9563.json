@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9563,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9563,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half made bowl (chocolate bomb)",
+        "weight": 0.275,
+        "value": 2,
+        "examine": "This unfinished choc bomb needs baking, two pots of cream and choc dust.",
+        "item_id": [
+          "9563"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half made bowl (chocolate bomb)",
+        "item_name": "Half made bowl"
+      }
+    }
+  ]
+}

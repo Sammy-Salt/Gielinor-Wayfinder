@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13362,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13362,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien gloves (2)",
+        "weight": 0.226,
+        "value": 30,
+        "examine": "Dress like a tier 2 Shayzien soldier.",
+        "item_id": [
+          "13362"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien gloves (2)",
+        "item_name": "Shayzien gloves (2)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13167,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13167,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos dragonhide set",
+        "weight": 0.05,
+        "value": 9500,
+        "examine": "A set containing a Bandos dragonhide coif, body, chaps and bracers.",
+        "item_id": [
+          "13167"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos dragonhide set",
+        "item_name": "Bandos dragonhide set"
+      }
+    }
+  ]
+}

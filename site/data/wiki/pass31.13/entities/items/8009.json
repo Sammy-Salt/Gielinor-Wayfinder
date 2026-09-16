@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8009,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8009,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Falador teleport (tablet)",
+        "weight": 0,
+        "value": 1,
+        "examine": "A teleport to Falador.",
+        "item_id": [
+          "8009"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Falador teleport (tablet)",
+        "item_name": "Falador teleport"
+      }
+    }
+  ]
+}

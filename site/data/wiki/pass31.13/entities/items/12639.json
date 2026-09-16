@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12639,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12639,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix halo",
+        "weight": 0.3,
+        "value": 150000,
+        "examine": "Halo with the protection of Guthix.",
+        "item_id": [
+          "12639"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guthix halo#Normal",
+        "item_name": "Guthix halo"
+      }
+    }
+  ]
+}

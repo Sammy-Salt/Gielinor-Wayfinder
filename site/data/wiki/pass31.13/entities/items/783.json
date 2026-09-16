@@ -1,0 +1,25 @@
+{
+  "canonicalId": 783,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 783,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bark sample",
+        "weight": 0.015,
+        "value": 2,
+        "examine": "A sample of the bark from the Grand Tree.",
+        "item_id": [
+          "783"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bark sample",
+        "item_name": "Bark sample"
+      }
+    }
+  ]
+}

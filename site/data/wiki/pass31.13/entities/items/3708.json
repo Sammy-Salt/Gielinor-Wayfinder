@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3708,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3708,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fiscal statement",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "A signed statement promising a reduction on sales tax.",
+        "item_id": [
+          "3708"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fiscal statement",
+        "item_name": "Fiscal statement"
+      }
+    }
+  ]
+}

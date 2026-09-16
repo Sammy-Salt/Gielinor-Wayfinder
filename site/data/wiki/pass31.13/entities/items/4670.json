@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4670,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4670,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blood diamond",
+        "weight": 0.001,
+        "value": 250,
+        "examine": "The Diamond of Blood.",
+        "item_id": [
+          "4670"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blood diamond",
+        "item_name": "Blood diamond"
+      }
+    }
+  ]
+}

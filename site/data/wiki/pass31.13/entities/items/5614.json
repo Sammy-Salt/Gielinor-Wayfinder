@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5614,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5614,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic carpet (animation item)",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "A flying Magic carpet.",
+        "item_id": [
+          "5614"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic carpet (animation item)",
+        "item_name": "Magic carpet"
+      }
+    }
+  ]
+}

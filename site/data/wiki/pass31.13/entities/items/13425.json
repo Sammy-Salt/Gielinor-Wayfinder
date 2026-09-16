@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13425,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13425,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Logavano seed",
+        "weight": 0,
+        "value": 6,
+        "examine": "Plant it in the land strips in Hosidius.",
+        "item_id": [
+          "13425"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Logavano seed",
+        "item_name": "Logavano seed"
+      }
+    }
+  ]
+}

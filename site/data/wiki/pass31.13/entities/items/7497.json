@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7497,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7497,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dirty blast",
+        "weight": 0.5,
+        "value": 30,
+        "examine": "A cool refreshing fruit mix. With ash in for some reason.",
+        "item_id": [
+          "7497"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dirty blast",
+        "item_name": "Dirty blast"
+      }
+    }
+  ]
+}

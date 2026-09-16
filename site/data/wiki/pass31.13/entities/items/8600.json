@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8600,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8600,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak dresser (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8600"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak dresser (flatpack)",
+        "item_name": "Oak dresser"
+      }
+    }
+  ]
+}

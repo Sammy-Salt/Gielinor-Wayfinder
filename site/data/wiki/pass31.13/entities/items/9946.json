@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9946,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9946,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cap and goggles",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "For better flying vision.",
+        "item_id": [
+          "9946"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cap and goggles",
+        "item_name": "Cap and goggles"
+      }
+    }
+  ]
+}

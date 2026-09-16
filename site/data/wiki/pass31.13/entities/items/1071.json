@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1071,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1071,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril platelegs",
+        "weight": 7.711,
+        "value": 2600,
+        "examine": "These look pretty heavy.",
+        "item_id": [
+          "1071"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril platelegs",
+        "item_name": "Mithril platelegs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10177,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10177,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze feather",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "An intricate feather crafted from a bronze-coloured metal of some sort.",
+        "item_id": [
+          "10177"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bronze feather",
+        "item_name": "Bronze feather"
+      }
+    }
+  ]
+}

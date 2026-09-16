@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6297,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6297,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spider on stick",
+        "weight": 0.65,
+        "value": 50,
+        "examine": "A nicely roasted spider threaded onto a skewer stick.",
+        "item_id": [
+          "6297"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spider on stick",
+        "item_name": "Spider on stick"
+      }
+    }
+  ]
+}

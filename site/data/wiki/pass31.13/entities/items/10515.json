@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10515,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10515,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Worms",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Some meaty worms.",
+        "item_id": [
+          "10515"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Worms",
+        "item_name": "Worms"
+      }
+    }
+  ]
+}

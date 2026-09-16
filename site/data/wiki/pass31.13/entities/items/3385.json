@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3385,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3385,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Splitbark helm",
+        "weight": 0.907,
+        "value": 10000,
+        "examine": "A wooden helmet.",
+        "item_id": [
+          "3385"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Splitbark helm",
+        "item_name": "Splitbark helm"
+      }
+    }
+  ]
+}

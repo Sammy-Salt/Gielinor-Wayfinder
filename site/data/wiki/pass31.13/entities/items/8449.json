@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8449,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8449,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tall box hedge (bagged)",
+        "weight": 10,
+        "value": 100000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8449"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tall box hedge (bagged)",
+        "item_name": "Tall box hedge"
+      }
+    }
+  ]
+}

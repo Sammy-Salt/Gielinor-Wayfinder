@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crystal halberd (historical)",
+        "weight": 1.814,
+        "value": 279000,
+        "examine": "A nice sturdy pike.",
+        "item_id": [
+          "13095"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Crystal halberd (historical)#7/10",
+        "item_name": "Crystal halberd 7/10"
+      }
+    }
+  ]
+}

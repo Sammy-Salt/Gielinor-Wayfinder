@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10077,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10077,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spiky vambraces",
+        "weight": 0.226,
+        "value": 160,
+        "examine": "Attack at your own risk.",
+        "item_id": [
+          "10077"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spiky vambraces",
+        "item_name": "Spiky vambraces"
+      }
+    }
+  ]
+}

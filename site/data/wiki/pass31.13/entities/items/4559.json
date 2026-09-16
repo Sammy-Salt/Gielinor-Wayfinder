@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4559,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4559,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Deep blue sweets",
+        "weight": 0.01,
+        "value": 0,
+        "examine": "Not likely to last until next Halloween.",
+        "item_id": [
+          "4559"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Deep blue sweets",
+        "item_name": "Deep blue sweets"
+      }
+    }
+  ]
+}

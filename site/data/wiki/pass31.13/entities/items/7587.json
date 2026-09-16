@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7587,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7587,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Coffin",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Filled with items. Like a bank, but spookier!",
+        "item_id": [
+          "7587"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Coffin#1",
+        "item_name": "Coffin"
+      }
+    }
+  ]
+}

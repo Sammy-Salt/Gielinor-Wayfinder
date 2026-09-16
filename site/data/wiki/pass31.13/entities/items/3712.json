@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3712,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3712,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Low alcohol keg",
+        "weight": 20,
+        "value": 1,
+        "examine": "Suspiciously close to beer, but without the side effects.",
+        "item_id": [
+          "3712"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Low alcohol keg",
+        "item_name": "Low alcohol keg"
+      }
+    }
+  ]
+}

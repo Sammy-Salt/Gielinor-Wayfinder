@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1645,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1645,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragonstone ring",
+        "weight": 0.006,
+        "value": 17625,
+        "examine": "A valuable ring.",
+        "item_id": [
+          "1645"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragonstone ring",
+        "item_name": "Dragonstone ring"
+      }
+    }
+  ]
+}

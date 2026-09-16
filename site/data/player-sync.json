@@ -1,0 +1,1723 @@
+{
+  "formatVersion": 2,
+  "source": {
+    "character": "2009Scape",
+    "sourceVersion": 4,
+    "readOnly": true,
+    "syncedAt": null
+  },
+  "player": {
+    "name": "Player",
+    "totalXP": 147045.37000000302,
+    "questPoints": 7,
+    "location": {
+      "x": 3222,
+      "y": 3218,
+      "plane": 0
+    },
+    "spellbook": 192,
+    "runEnergy": 100.0,
+    "specialEnergy": 100,
+    "lifepoints": 7,
+    "prayerPoints": 14.0
+  },
+  "skills": [
+    {
+      "id": 0,
+      "name": "Attack",
+      "level": 15,
+      "dynamicLevel": 15,
+      "xp": 2494.666666666667
+    },
+    {
+      "id": 1,
+      "name": "Defence",
+      "level": 15,
+      "dynamicLevel": 15,
+      "xp": 2462.666666666667
+    },
+    {
+      "id": 2,
+      "name": "Strength",
+      "level": 17,
+      "dynamicLevel": 17,
+      "xp": 3294.666666666667
+    },
+    {
+      "id": 3,
+      "name": "Hitpoints",
+      "level": 20,
+      "dynamicLevel": 20,
+      "xp": 4943.169999999805
+    },
+    {
+      "id": 4,
+      "name": "Ranged",
+      "level": 16,
+      "dynamicLevel": 16,
+      "xp": 2986.0
+    },
+    {
+      "id": 5,
+      "name": "Prayer",
+      "level": 14,
+      "dynamicLevel": 14,
+      "xp": 2367.0
+    },
+    {
+      "id": 6,
+      "name": "Magic",
+      "level": 7,
+      "dynamicLevel": 7,
+      "xp": 764.0
+    },
+    {
+      "id": 7,
+      "name": "Cooking",
+      "level": 31,
+      "dynamicLevel": 31,
+      "xp": 15170.0
+    },
+    {
+      "id": 8,
+      "name": "Woodcutting",
+      "level": 36,
+      "dynamicLevel": 36,
+      "xp": 27047.5
+    },
+    {
+      "id": 9,
+      "name": "Fletching",
+      "level": 27,
+      "dynamicLevel": 27,
+      "xp": 9808.0
+    },
+    {
+      "id": 10,
+      "name": "Fishing",
+      "level": 32,
+      "dynamicLevel": 32,
+      "xp": 17729.0
+    },
+    {
+      "id": 11,
+      "name": "Firemaking",
+      "level": 25,
+      "dynamicLevel": 25,
+      "xp": 8680.0
+    },
+    {
+      "id": 12,
+      "name": "Crafting",
+      "level": 26,
+      "dynamicLevel": 26,
+      "xp": 8899.899999999998
+    },
+    {
+      "id": 13,
+      "name": "Smithing",
+      "level": 25,
+      "dynamicLevel": 25,
+      "xp": 7902.099999999989
+    },
+    {
+      "id": 14,
+      "name": "Mining",
+      "level": 30,
+      "dynamicLevel": 30,
+      "xp": 14347.5
+    },
+    {
+      "id": 15,
+      "name": "Herblore",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 16,
+      "name": "Agility",
+      "level": 30,
+      "dynamicLevel": 30,
+      "xp": 14264.199999999999
+    },
+    {
+      "id": 17,
+      "name": "Thieving",
+      "level": 21,
+      "dynamicLevel": 21,
+      "xp": 5039.0
+    },
+    {
+      "id": 18,
+      "name": "Slayer",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 19,
+      "name": "Farming",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 20,
+      "name": "Runecrafting",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 21,
+      "name": "Hunter",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 22,
+      "name": "Construction",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    },
+    {
+      "id": 23,
+      "name": "Summoning",
+      "level": 1,
+      "dynamicLevel": 1,
+      "xp": 0.0
+    }
+  ],
+  "quests": {
+    "totalTracked": 65,
+    "completed": 4,
+    "questPoints": 7,
+    "items": [
+      {
+        "id": 128,
+        "name": "The Path of Glouphrie",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 136,
+        "name": "Legacy of Seergaze",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 14,
+        "name": "Rune Mysteries",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 15,
+        "name": "Sheep Shearer",
+        "stage": 100,
+        "completed": true
+      },
+      {
+        "id": 16,
+        "name": "Shield of Arrav",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 17,
+        "name": "Vampire Slayer",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 18,
+        "name": "Witch's Potion",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 146,
+        "name": "Swept Away",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 19,
+        "name": "Animal Magnetism",
+        "stage": 100,
+        "completed": true
+      },
+      {
+        "id": 20,
+        "name": "Between a Rock...",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 21,
+        "name": "Big Chompy Bird Hunting",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 22,
+        "name": "Biohazard",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 23,
+        "name": "Cabin Fever",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 24,
+        "name": "Clock Tower",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 25,
+        "name": "Contact",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 26,
+        "name": "Zogre Flesh Eaters",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 27,
+        "name": "Creature of Fenkenstrain",
+        "stage": 100,
+        "completed": true
+      },
+      {
+        "id": 28,
+        "name": "Darkness of Hallowvale",
+        "stage": 100,
+        "completed": true
+      },
+      {
+        "id": 29,
+        "name": "Death to the Dorgeshuun",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 157,
+        "name": "Unknown 2009Scape Quest 157",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 30,
+        "name": "Death Plateau",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 31,
+        "name": "Desert Treasure",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 33,
+        "name": "The Dig Site",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 35,
+        "name": "Dwarf Cannon",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 38,
+        "name": "Elemental Workshop I",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 40,
+        "name": "Enakhra's Lament",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 41,
+        "name": "Enlightened Journey",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 44,
+        "name": "Fairytale II - Cure a Queen",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 45,
+        "name": "Family Crest",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 47,
+        "name": "Fight Arena",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 48,
+        "name": "Fishing Contest",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 49,
+        "name": "Forgettable Tale",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 52,
+        "name": "Garden of Tranquility",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 59,
+        "name": "Haunted Mine",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 61,
+        "name": "Heroes' Quest",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 62,
+        "name": "Holy Grail",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 64,
+        "name": "Icthlarin's Little Helper",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 65,
+        "name": "In Aid of the Myreque",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 67,
+        "name": "Jungle Potion",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 70,
+        "name": "The Lost Tribe",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 71,
+        "name": "Lunar Diplomacy",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 74,
+        "name": "Monkey Madness",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 75,
+        "name": "Monk's Friend",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 81,
+        "name": "Nature Spirit",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 83,
+        "name": "One Small Favour",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 84,
+        "name": "Plague City",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 87,
+        "name": "Ratcatchers",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 89,
+        "name": "Recruitment Drive",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 93,
+        "name": "Rum Deal",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 95,
+        "name": "Sea Slug",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 96,
+        "name": "The Slug Menace",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 98,
+        "name": "Shadow of the Storm",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 99,
+        "name": "Sheep Herder",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 100,
+        "name": "Shilo Village",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 103,
+        "name": "Swan Song",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 105,
+        "name": "A Tail of Two Cats",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 108,
+        "name": "Throne of Miscellania",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 109,
+        "name": "The Tourist Trap",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 113,
+        "name": "Troll Romance",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 120,
+        "name": "Tower of Life",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 121,
+        "name": "The Great Brain Robbery",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 123,
+        "name": "Olaf's Quest",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 124,
+        "name": "Another Slice of H.A.M.",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 125,
+        "name": "Dream Mentor",
+        "stage": 0,
+        "completed": false
+      },
+      {
+        "id": 126,
+        "name": "Grim Tales",
+        "stage": 0,
+        "completed": false
+      }
+    ]
+  },
+  "inventory": [
+    {
+      "id": 995,
+      "amount": 3345,
+      "slot": 0,
+      "charge": 1000
+    },
+    {
+      "id": 1825,
+      "amount": 1,
+      "slot": 1,
+      "charge": 1000
+    },
+    {
+      "id": 1825,
+      "amount": 1,
+      "slot": 2,
+      "charge": 1000
+    },
+    {
+      "id": 1825,
+      "amount": 1,
+      "slot": 3,
+      "charge": 1000
+    },
+    {
+      "id": 1825,
+      "amount": 1,
+      "slot": 4,
+      "charge": 1000
+    },
+    {
+      "id": 946,
+      "amount": 1,
+      "slot": 5,
+      "charge": 1000
+    },
+    {
+      "id": 1823,
+      "amount": 1,
+      "slot": 7,
+      "charge": 1000
+    }
+  ],
+  "equipment": [
+    {
+      "id": 1833,
+      "amount": 1,
+      "slot": 4,
+      "charge": 1000
+    },
+    {
+      "id": 1835,
+      "amount": 1,
+      "slot": 7,
+      "charge": 1000
+    },
+    {
+      "id": 1837,
+      "amount": 1,
+      "slot": 10,
+      "charge": 1000
+    }
+  ],
+  "bank": [
+    {
+      "id": 556,
+      "amount": 25,
+      "slot": 0,
+      "charge": 1000
+    },
+    {
+      "id": 555,
+      "amount": 96,
+      "slot": 1,
+      "charge": 1000
+    },
+    {
+      "id": 557,
+      "amount": 28,
+      "slot": 2,
+      "charge": 1000
+    },
+    {
+      "id": 559,
+      "amount": 79,
+      "slot": 3,
+      "charge": 1000
+    },
+    {
+      "id": 1931,
+      "amount": 1,
+      "slot": 4,
+      "charge": 1000
+    },
+    {
+      "id": 2132,
+      "amount": 2,
+      "slot": 5,
+      "charge": 1000
+    },
+    {
+      "id": 592,
+      "amount": 26,
+      "slot": 6,
+      "charge": 1000
+    },
+    {
+      "id": 5288,
+      "amount": 1,
+      "slot": 7,
+      "charge": 1000
+    },
+    {
+      "id": 877,
+      "amount": 16,
+      "slot": 8,
+      "charge": 1000
+    },
+    {
+      "id": 288,
+      "amount": 3,
+      "slot": 9,
+      "charge": 1000
+    },
+    {
+      "id": 562,
+      "amount": 2,
+      "slot": 10,
+      "charge": 1000
+    },
+    {
+      "id": 199,
+      "amount": 2,
+      "slot": 11,
+      "charge": 1000
+    },
+    {
+      "id": 12158,
+      "amount": 12,
+      "slot": 12,
+      "charge": 1000
+    },
+    {
+      "id": 561,
+      "amount": 1,
+      "slot": 13,
+      "charge": 1000
+    },
+    {
+      "id": 12160,
+      "amount": 1,
+      "slot": 14,
+      "charge": 1000
+    },
+    {
+      "id": 5318,
+      "amount": 68,
+      "slot": 15,
+      "charge": 1000
+    },
+    {
+      "id": 305,
+      "amount": 1,
+      "slot": 16,
+      "charge": 1000
+    },
+    {
+      "id": 303,
+      "amount": 1,
+      "slot": 17,
+      "charge": 1000
+    },
+    {
+      "id": 1239,
+      "amount": 1,
+      "slot": 18,
+      "charge": 1000
+    },
+    {
+      "id": 315,
+      "amount": 17,
+      "slot": 19,
+      "charge": 1000
+    },
+    {
+      "id": 275,
+      "amount": 1,
+      "slot": 20,
+      "charge": 1000
+    },
+    {
+      "id": 558,
+      "amount": 16,
+      "slot": 21,
+      "charge": 1000
+    },
+    {
+      "id": 1381,
+      "amount": 1,
+      "slot": 22,
+      "charge": 1000
+    },
+    {
+      "id": 1173,
+      "amount": 1,
+      "slot": 23,
+      "charge": 1000
+    },
+    {
+      "id": 1203,
+      "amount": 1,
+      "slot": 24,
+      "charge": 1000
+    },
+    {
+      "id": 333,
+      "amount": 158,
+      "slot": 25,
+      "charge": 1000
+    },
+    {
+      "id": 411,
+      "amount": 1,
+      "slot": 26,
+      "charge": 1000
+    },
+    {
+      "id": 309,
+      "amount": 1,
+      "slot": 27,
+      "charge": 1000
+    },
+    {
+      "id": 329,
+      "amount": 10,
+      "slot": 28,
+      "charge": 1000
+    },
+    {
+      "id": 1267,
+      "amount": 1,
+      "slot": 29,
+      "charge": 1000
+    },
+    {
+      "id": 1925,
+      "amount": 1,
+      "slot": 30,
+      "charge": 1000
+    },
+    {
+      "id": 1351,
+      "amount": 2,
+      "slot": 31,
+      "charge": 1000
+    },
+    {
+      "id": 1269,
+      "amount": 1,
+      "slot": 32,
+      "charge": 1000
+    },
+    {
+      "id": 2347,
+      "amount": 2,
+      "slot": 33,
+      "charge": 1000
+    },
+    {
+      "id": 1759,
+      "amount": 108,
+      "slot": 34,
+      "charge": 1000
+    },
+    {
+      "id": 1735,
+      "amount": 1,
+      "slot": 35,
+      "charge": 1000
+    },
+    {
+      "id": 12159,
+      "amount": 2,
+      "slot": 36,
+      "charge": 1000
+    },
+    {
+      "id": 1438,
+      "amount": 1,
+      "slot": 37,
+      "charge": 1000
+    },
+    {
+      "id": 5345,
+      "amount": 1,
+      "slot": 38,
+      "charge": 1000
+    },
+    {
+      "id": 1777,
+      "amount": 472,
+      "slot": 39,
+      "charge": 1000
+    },
+    {
+      "id": 1153,
+      "amount": 1,
+      "slot": 40,
+      "charge": 1000
+    },
+    {
+      "id": 1119,
+      "amount": 1,
+      "slot": 41,
+      "charge": 1000
+    },
+    {
+      "id": 1175,
+      "amount": 1,
+      "slot": 42,
+      "charge": 1000
+    },
+    {
+      "id": 1067,
+      "amount": 1,
+      "slot": 43,
+      "charge": 1000
+    },
+    {
+      "id": 1283,
+      "amount": 1,
+      "slot": 44,
+      "charge": 1000
+    },
+    {
+      "id": 946,
+      "amount": 1,
+      "slot": 45,
+      "charge": 1000
+    },
+    {
+      "id": 1987,
+      "amount": 2,
+      "slot": 46,
+      "charge": 1000
+    },
+    {
+      "id": 1189,
+      "amount": 1,
+      "slot": 47,
+      "charge": 1000
+    },
+    {
+      "id": 1741,
+      "amount": 22,
+      "slot": 48,
+      "charge": 1000
+    },
+    {
+      "id": 1949,
+      "amount": 1,
+      "slot": 49,
+      "charge": 1000
+    },
+    {
+      "id": 203,
+      "amount": 1,
+      "slot": 50,
+      "charge": 1000
+    },
+    {
+      "id": 209,
+      "amount": 1,
+      "slot": 51,
+      "charge": 1000
+    },
+    {
+      "id": 1739,
+      "amount": 1,
+      "slot": 52,
+      "charge": 1000
+    },
+    {
+      "id": 1743,
+      "amount": 27,
+      "slot": 53,
+      "charge": 1000
+    },
+    {
+      "id": 1734,
+      "amount": 90,
+      "slot": 54,
+      "charge": 1000
+    },
+    {
+      "id": 1733,
+      "amount": 1,
+      "slot": 55,
+      "charge": 1000
+    },
+    {
+      "id": 590,
+      "amount": 1,
+      "slot": 56,
+      "charge": 1000
+    },
+    {
+      "id": 1167,
+      "amount": 1,
+      "slot": 57,
+      "charge": 1000
+    },
+    {
+      "id": 1009,
+      "amount": 1,
+      "slot": 58,
+      "charge": 1000
+    },
+    {
+      "id": 884,
+      "amount": 514,
+      "slot": 59,
+      "charge": 1000
+    },
+    {
+      "id": 1061,
+      "amount": 1,
+      "slot": 60,
+      "charge": 1000
+    },
+    {
+      "id": 1095,
+      "amount": 1,
+      "slot": 61,
+      "charge": 1000
+    },
+    {
+      "id": 1129,
+      "amount": 1,
+      "slot": 62,
+      "charge": 1000
+    },
+    {
+      "id": 845,
+      "amount": 1,
+      "slot": 63,
+      "charge": 1000
+    },
+    {
+      "id": 1063,
+      "amount": 1,
+      "slot": 64,
+      "charge": 1000
+    }
+  ],
+  "bankTabs": [
+    {
+      "startSlot": 0,
+      "index": 0
+    },
+    {
+      "startSlot": 0,
+      "index": 1
+    },
+    {
+      "startSlot": 0,
+      "index": 2
+    },
+    {
+      "startSlot": 0,
+      "index": 3
+    },
+    {
+      "startSlot": 0,
+      "index": 4
+    },
+    {
+      "startSlot": 0,
+      "index": 5
+    },
+    {
+      "startSlot": 0,
+      "index": 6
+    },
+    {
+      "startSlot": 0,
+      "index": 7
+    },
+    {
+      "startSlot": 0,
+      "index": 8
+    },
+    {
+      "startSlot": 0,
+      "index": 9
+    },
+    {
+      "startSlot": 0,
+      "index": 10
+    }
+  ],
+  "bankSecondary": [],
+  "location": "3222,3218,0",
+  "slayer": {
+    "taskStreak": 0,
+    "rewardFlags": 0,
+    "equipmentFlags": 0,
+    "taskFlags": 0,
+    "totalTasks": 0
+  },
+  "achievementDiaries": [
+    {
+      "KARAMJA": {
+        "completedLevels": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "VARROCK": {
+        "completedLevels": [
+          [
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "LUMBRIDGE": {
+        "completedLevels": [
+          [
+            true,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            true,
+            true,
+            true,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    {
+      "FALADOR": {
+        "completedLevels": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "FREMENNIK": {
+        "completedLevels": [
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "SEERS_VILLAGE": {
+        "completedLevels": [
+          [
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        ],
+        "rewardedLevels": [
+          false,
+          false,
+          false
+        ],
+        "startedLevels": [
+          true,
+          false,
+          false
+        ]
+      }
+    }
+  ],
+  "statistics": {
+    "logsChopped": 953,
+    "enemiesKilled": 503,
+    "fishCaught": 602,
+    "foodCooked": 255,
+    "rocksMined": 629,
+    "deaths": 2
+  },
+  "pouches": [
+    {
+      "id": 5509,
+      "charges": 3,
+      "currentCap": 3
+    },
+    {
+      "id": 5510,
+      "charges": 264,
+      "currentCap": 6
+    },
+    {
+      "id": 5512,
+      "charges": 186,
+      "currentCap": 9
+    },
+    {
+      "id": 5514,
+      "charges": 140,
+      "currentCap": 12
+    }
+  ],
+  "appearance": {
+    "gender": 0
+  },
+  "metadata": {
+    "saveVersion": 4,
+    "experienceMultiplier": "1.0"
+  }
+}

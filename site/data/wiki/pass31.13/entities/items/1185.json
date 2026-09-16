@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1185,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1185,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune sq shield",
+        "weight": 3.628,
+        "value": 38400,
+        "examine": "A medium square shield.",
+        "item_id": [
+          "1185"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune sq shield",
+        "item_name": "Rune sq shield"
+      }
+    }
+  ]
+}

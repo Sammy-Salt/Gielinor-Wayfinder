@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9080,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9080,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Suqah hide",
+        "weight": 3.175,
+        "value": 60,
+        "examine": "An untanned piece of Suqah hide.",
+        "item_id": [
+          "9080"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Suqah hide",
+        "item_name": "Suqah hide"
+      }
+    }
+  ]
+}

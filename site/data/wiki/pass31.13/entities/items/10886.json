@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10886,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10886,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prayer book (animation item)",
+        "weight": 0.1,
+        "value": 1,
+        "examine": "Used to cure poison through prayer.",
+        "item_id": [
+          "10886"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Prayer book (animation item)",
+        "item_name": "Prayer book"
+      }
+    }
+  ]
+}

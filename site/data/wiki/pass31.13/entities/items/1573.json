@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1573,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1573,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Doogle leaves",
+        "weight": 0.007,
+        "value": 2,
+        "examine": "A tasty herb, good for seasoning.",
+        "item_id": [
+          "1573"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Doogle leaves",
+        "item_name": "Doogle leaves"
+      }
+    }
+  ]
+}

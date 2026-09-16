@@ -1,0 +1,25 @@
+{
+  "canonicalId": 259,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 259,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Irit leaf",
+        "weight": 0.007,
+        "value": 40,
+        "examine": "A useful herb.",
+        "item_id": [
+          "259"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Irit leaf",
+        "item_name": "Irit leaf"
+      }
+    }
+  ]
+}

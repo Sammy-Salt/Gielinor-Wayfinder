@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6265,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6265,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broodoo shield (combat)",
+        "weight": 5.443,
+        "value": 3000,
+        "examine": "A scary broodoo shield.",
+        "item_id": [
+          "6265"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broodoo shield (combat)#(7)",
+        "item_name": "Broodoo shield (7)"
+      }
+    }
+  ]
+}

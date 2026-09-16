@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11439,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11439,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Relicym's mix",
+        "weight": 0.045,
+        "value": 75,
+        "examine": "One dose of fishy Relicym's balm.",
+        "item_id": [
+          "11439"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Relicym's mix#(1)",
+        "item_name": "Relicym's mix(1)"
+      }
+    }
+  ]
+}

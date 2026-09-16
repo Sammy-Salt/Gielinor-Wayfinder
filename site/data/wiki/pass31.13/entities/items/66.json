@@ -1,0 +1,25 @@
+{
+  "canonicalId": 66,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 66,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yew longbow (u)",
+        "weight": 1.332,
+        "value": 640,
+        "examine": "An unstrung yew longbow; I need a bowstring for this.",
+        "item_id": [
+          "66"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Yew longbow (u)",
+        "item_name": "Yew longbow (u)"
+      }
+    }
+  ]
+}

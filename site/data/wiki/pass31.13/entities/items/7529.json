@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7529,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7529,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw fishcake",
+        "weight": 0.907,
+        "value": 100,
+        "examine": "Would taste nicer if I cooked it.",
+        "item_id": [
+          "7529"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Raw fishcake",
+        "item_name": "Raw fishcake"
+      }
+    }
+  ]
+}

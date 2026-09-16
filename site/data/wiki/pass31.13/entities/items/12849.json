@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12849,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12849,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Granite clamp",
+        "weight": 0.5,
+        "value": 5000,
+        "examine": "A strong clamp, used for hardening granite maul blocks.",
+        "item_id": [
+          "12849"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Granite clamp",
+        "item_name": "Granite clamp"
+      }
+    }
+  ]
+}

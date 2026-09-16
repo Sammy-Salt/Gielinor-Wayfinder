@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2499,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2499,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue d'hide body",
+        "weight": 6.803,
+        "value": 9360,
+        "examine": "Made from 100% real dragonhide.",
+        "item_id": [
+          "2499"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue d'hide body",
+        "item_name": "Blue d'hide body"
+      }
+    }
+  ]
+}

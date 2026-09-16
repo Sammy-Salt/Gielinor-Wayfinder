@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1873,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1873,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chopped ugthanki",
+        "weight": 0.2,
+        "value": 5,
+        "examine": "Strips of ugthanki meat in a bowl.",
+        "item_id": [
+          "1873"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chopped ugthanki",
+        "item_name": "Chopped ugthanki"
+      }
+    }
+  ]
+}

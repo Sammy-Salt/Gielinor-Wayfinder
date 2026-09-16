@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8552,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8552,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Carved oak table (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8552"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Carved oak table (flatpack)",
+        "item_name": "Carved oak table"
+      }
+    }
+  ]
+}

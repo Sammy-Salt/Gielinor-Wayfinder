@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7852,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7852,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone in vinegar",
+        "weight": 1.36,
+        "value": 0,
+        "examine": "There is a mogre bone in here.",
+        "item_id": [
+          "7852"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bone in vinegar#Mogre bone",
+        "item_name": "Bone in vinegar"
+      }
+    }
+  ]
+}

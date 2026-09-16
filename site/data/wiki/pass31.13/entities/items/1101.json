@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1101,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1101,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron chainbody",
+        "weight": 6.803,
+        "value": 210,
+        "examine": "A series of connected metal rings.",
+        "item_id": [
+          "1101"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron chainbody",
+        "item_name": "Iron chainbody"
+      }
+    }
+  ]
+}

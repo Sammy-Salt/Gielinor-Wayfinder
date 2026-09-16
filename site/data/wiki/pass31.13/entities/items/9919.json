@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9919,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9919,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Evil root",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "A freshly cut root of all evil.",
+        "item_id": [
+          "9919"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Evil root",
+        "item_name": "Evil root"
+      }
+    }
+  ]
+}

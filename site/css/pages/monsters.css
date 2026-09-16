@@ -1,0 +1,2 @@
+/* Monster catalogue: layout-only rules. */
+main{max-width:1100px}.grid{grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}#search{margin:12px 0}.count{margin:8px 0}

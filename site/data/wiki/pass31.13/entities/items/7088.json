@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7088,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7088,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sweetcorn (bowl)",
+        "weight": 0.5,
+        "value": 13,
+        "examine": "A bowl of cooked sweetcorn.",
+        "item_id": [
+          "7088"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sweetcorn (bowl)",
+        "item_name": "Sweetcorn"
+      }
+    }
+  ]
+}

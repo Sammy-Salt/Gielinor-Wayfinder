@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6638,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6638,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Colour wheel",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A key to the nature of light itself.",
+        "item_id": [
+          "6638"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Colour wheel",
+        "item_name": "Colour wheel"
+      }
+    }
+  ]
+}

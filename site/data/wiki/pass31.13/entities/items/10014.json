@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10014,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10014,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black warlock (item)",
+        "weight": 0.02,
+        "value": 70,
+        "examine": "There's a black warlock butterfly in here.",
+        "item_id": [
+          "10014"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black warlock (item)",
+        "item_name": "Black warlock"
+      }
+    }
+  ]
+}

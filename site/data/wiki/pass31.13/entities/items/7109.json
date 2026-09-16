@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7109,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7109,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fuse (Cabin Fever)",
+        "weight": 0.007,
+        "value": 52,
+        "examine": "Burns very well.",
+        "item_id": [
+          "7109"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fuse (Cabin Fever)",
+        "item_name": "Fuse"
+      }
+    }
+  ]
+}

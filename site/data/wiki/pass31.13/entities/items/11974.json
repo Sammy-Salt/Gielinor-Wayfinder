@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11974,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11974,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Combat bracelet",
+        "weight": 0.25,
+        "value": 21040,
+        "examine": "A handy way to get around.",
+        "item_id": [
+          "11974"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Combat bracelet#(5)",
+        "item_name": "Combat bracelet(5)"
+      }
+    }
+  ]
+}

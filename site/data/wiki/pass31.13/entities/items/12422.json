@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12422,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12422,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "3rd Age wand",
+        "weight": 3.175,
+        "value": 150000,
+        "examine": "A beautifully crafted wand infused by ancient wizards.",
+        "item_id": [
+          "12422"
+        ],
+        "tradeable": true,
+        "page_name_sub": "3rd Age wand",
+        "item_name": "3rd Age wand"
+      }
+    }
+  ]
+}

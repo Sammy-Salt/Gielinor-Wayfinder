@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13543,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13543,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien supply gloves (2)",
+        "weight": 0.226,
+        "value": 10,
+        "examine": "Supplies for the Shayzien soldiers.",
+        "item_id": [
+          "13543"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien supply gloves (2)",
+        "item_name": "Shayzien supply gloves (2)"
+      }
+    }
+  ]
+}

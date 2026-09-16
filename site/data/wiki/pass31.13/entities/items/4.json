@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ammo mould",
+        "weight": 4.535,
+        "value": 5,
+        "examine": "Used to make cannon ammunition.",
+        "item_id": [
+          "4"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ammo mould",
+        "item_name": "Ammo mould"
+      }
+    }
+  ]
+}

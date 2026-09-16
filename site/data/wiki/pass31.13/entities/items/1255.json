@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1255,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1255,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel spear",
+        "weight": 2.267,
+        "value": 325,
+        "examine": "A poisoned steel tipped spear.",
+        "item_id": [
+          "1255"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel spear#(p)",
+        "item_name": "Steel spear(p)"
+      }
+    }
+  ]
+}

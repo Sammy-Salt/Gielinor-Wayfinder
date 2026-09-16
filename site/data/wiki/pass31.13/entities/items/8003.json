@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8003,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8003,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Morytania painting",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A painting of the spooky forests of Morytania.",
+        "item_id": [
+          "8003"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Morytania painting",
+        "item_name": "Morytania painting"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1151,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1151,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black med helm",
+        "weight": 1.814,
+        "value": 576,
+        "examine": "A medium sized helmet.",
+        "item_id": [
+          "1151"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black med helm",
+        "item_name": "Black med helm"
+      }
+    }
+  ]
+}

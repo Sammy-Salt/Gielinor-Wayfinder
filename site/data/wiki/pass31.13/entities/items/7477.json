@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7477,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7477,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Evil chicken's egg",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "What came first, the chicken or...",
+        "item_id": [
+          "7477"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Evil chicken's egg",
+        "item_name": "Evil chicken's egg"
+      }
+    }
+  ]
+}

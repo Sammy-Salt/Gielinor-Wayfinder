@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7982,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7982,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stuffed crawling hand",
+        "weight": 10,
+        "value": 1000,
+        "examine": "I could mount this on my wall!",
+        "item_id": [
+          "7982"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stuffed crawling hand",
+        "item_name": "Stuffed crawling hand"
+      }
+    }
+  ]
+}

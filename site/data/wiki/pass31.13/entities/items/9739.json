@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9739,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9739,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Combat potion",
+        "weight": 0.035,
+        "value": 215,
+        "examine": "4 doses of combat potion.",
+        "item_id": [
+          "9739"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Combat potion#(4)",
+        "item_name": "Combat potion(4)"
+      }
+    }
+  ]
+}

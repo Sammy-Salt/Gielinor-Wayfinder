@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6206,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6206,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fishlike thing",
+        "weight": 0.7,
+        "value": 0,
+        "examine": "It's a fishlike thing that appears to already be cooked. It looks disgusting.",
+        "item_id": [
+          "6206"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fishlike thing#Incorrect",
+        "item_name": "Fishlike thing"
+      }
+    }
+  ]
+}

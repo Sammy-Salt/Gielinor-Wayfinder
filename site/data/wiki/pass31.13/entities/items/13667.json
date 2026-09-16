@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13667,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13667,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful hood (Kourend)",
+        "weight": 0.6,
+        "value": 35,
+        "examine": "A sign of your grace and unity.",
+        "item_id": [
+          "13667"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful hood (Kourend)#Inventory",
+        "item_name": "Graceful hood"
+      }
+    }
+  ]
+}

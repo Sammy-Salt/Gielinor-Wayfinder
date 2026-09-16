@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13418,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13418,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery stew",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "Put it on the servery table to feed the troops.",
+        "item_id": [
+          "13418"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery stew",
+        "item_name": "Servery stew"
+      }
+    }
+  ]
+}

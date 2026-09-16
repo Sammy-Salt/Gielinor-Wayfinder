@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10885,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10885,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Keg (dummy item)",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A small keg of gunpowder.",
+        "item_id": [
+          "10885"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Keg (dummy item)",
+        "item_name": "Keg"
+      }
+    }
+  ]
+}

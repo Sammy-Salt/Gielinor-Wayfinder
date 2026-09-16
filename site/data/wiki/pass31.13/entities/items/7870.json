@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7870,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7870,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone in vinegar",
+        "weight": 0.907,
+        "value": 0,
+        "examine": "A Moss Giant's bone",
+        "item_id": [
+          "7870"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bone in vinegar#Moss giant bone",
+        "item_name": "Bone in vinegar"
+      }
+    }
+  ]
+}

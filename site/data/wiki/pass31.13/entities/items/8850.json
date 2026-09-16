@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8850,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8850,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune defender",
+        "weight": 0.453,
+        "value": 65004,
+        "examine": "A defensive weapon.",
+        "item_id": [
+          "8850"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rune defender#Normal",
+        "item_name": "Rune defender"
+      }
+    }
+  ]
+}

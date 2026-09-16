@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13409,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13409,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery plain pizza",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "The soldiers won't want it without pineapple.",
+        "item_id": [
+          "13409"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery plain pizza",
+        "item_name": "Servery plain pizza"
+      }
+    }
+  ]
+}

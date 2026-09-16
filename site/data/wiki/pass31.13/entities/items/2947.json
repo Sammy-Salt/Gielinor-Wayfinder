@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2947,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2947,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden candle",
+        "weight": 0.028,
+        "value": 300,
+        "examine": "A replica candle made of solid gold.",
+        "item_id": [
+          "2947"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden candle",
+        "item_name": "Golden candle"
+      }
+    }
+  ]
+}

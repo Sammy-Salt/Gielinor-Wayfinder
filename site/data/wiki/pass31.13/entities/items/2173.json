@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2173,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2173,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Odd gnomebowl",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "This gnome bowl doesn't look very appetising.",
+        "item_id": [
+          "2173"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Odd gnomebowl",
+        "item_name": "Odd gnomebowl"
+      }
+    }
+  ]
+}

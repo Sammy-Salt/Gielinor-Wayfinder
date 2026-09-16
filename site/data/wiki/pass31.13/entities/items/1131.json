@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1131,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1131,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hardleather body",
+        "weight": 3.628,
+        "value": 170,
+        "examine": "Harder than normal leather.",
+        "item_id": [
+          "1131"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Hardleather body",
+        "item_name": "Hardleather body"
+      }
+    }
+  ]
+}

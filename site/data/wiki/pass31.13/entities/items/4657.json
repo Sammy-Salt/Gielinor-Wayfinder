@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4657,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4657,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ring of visibility",
+        "weight": 0.004,
+        "value": 350,
+        "examine": "A ring that allows you to see things that are normally invisible...",
+        "item_id": [
+          "4657"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ring of visibility",
+        "item_name": "Ring of visibility"
+      }
+    }
+  ]
+}

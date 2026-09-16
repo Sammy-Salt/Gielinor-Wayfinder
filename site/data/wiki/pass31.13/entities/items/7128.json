@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7128,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7128,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stripy pirate shirt (blue)",
+        "weight": 1,
+        "value": 300,
+        "examine": "A sea worthy shirt.",
+        "item_id": [
+          "7128"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Stripy pirate shirt (blue)",
+        "item_name": "Stripy pirate shirt"
+      }
+    }
+  ]
+}

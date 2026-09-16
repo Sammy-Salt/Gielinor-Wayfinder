@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1482,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1482,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orb of light",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "A magical sphere that glimmers within.",
+        "item_id": [
+          "1482"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Orb of light#2",
+        "item_name": "Orb of light"
+      }
+    }
+  ]
+}

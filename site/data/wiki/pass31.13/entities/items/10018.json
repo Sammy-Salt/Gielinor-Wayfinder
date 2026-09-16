@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10018,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10018,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sapphire glacialis (item)",
+        "weight": 0.02,
+        "value": 30,
+        "examine": "There's a sapphire glacialis butterfly in here.",
+        "item_id": [
+          "10018"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sapphire glacialis (item)",
+        "item_name": "Sapphire glacialis"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8928,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8928,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hat eyepatch",
+        "weight": 1,
+        "value": 100,
+        "examine": "Essential pirate wear.",
+        "item_id": [
+          "8928"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Hat eyepatch",
+        "item_name": "Hat eyepatch"
+      }
+    }
+  ]
+}

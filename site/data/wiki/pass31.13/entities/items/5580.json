@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5580,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5580,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sodium chloride",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "A vial of something labelled 'Sodium Chloride'.",
+        "item_id": [
+          "5580"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sodium chloride",
+        "item_name": "Sodium chloride"
+      }
+    }
+  ]
+}

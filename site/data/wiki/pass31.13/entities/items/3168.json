@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3168,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3168,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seaweed sandwich",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "A 'Seaweed in Monkey Skin' sandwich. Perfect for statue repair.",
+        "item_id": [
+          "3168"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seaweed sandwich",
+        "item_name": "Seaweed sandwich"
+      }
+    }
+  ]
+}

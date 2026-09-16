@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5901,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5901,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Axeman's folly(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 2 pints of mature Axeman's Folly.",
+        "item_id": [
+          "5901"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Axeman's folly(m) (keg)#2 pints",
+        "item_name": "Axeman's folly(m2)"
+      }
+    }
+  ]
+}

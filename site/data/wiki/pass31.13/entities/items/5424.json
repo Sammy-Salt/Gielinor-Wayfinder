@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5424,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5424,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potatoes",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "There are 3 potatoes in this sack.",
+        "item_id": [
+          "5424"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potatoes#3",
+        "item_name": "Potatoes(3)"
+      }
+    }
+  ]
+}

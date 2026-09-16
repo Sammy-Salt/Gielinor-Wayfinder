@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7196,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7196,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw admiral pie",
+        "weight": 0.001,
+        "value": 155,
+        "examine": "This would taste a lot better cooked.",
+        "item_id": [
+          "7196"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw admiral pie",
+        "item_name": "Raw admiral pie"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11184,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11184,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Museum map",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "A map of Varrock Museum.",
+        "item_id": [
+          "11184"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Museum map",
+        "item_name": "Museum map"
+      }
+    }
+  ]
+}

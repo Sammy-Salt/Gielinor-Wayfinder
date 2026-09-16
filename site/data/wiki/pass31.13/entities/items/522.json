@@ -1,0 +1,25 @@
+{
+  "canonicalId": 522,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 522,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchanted beef",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "I don't fancy eating this now.",
+        "item_id": [
+          "522"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Enchanted beef",
+        "item_name": "Enchanted beef"
+      }
+    }
+  ]
+}

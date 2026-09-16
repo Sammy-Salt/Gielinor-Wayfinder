@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3325,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3325,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Vampyre dust",
+        "weight": 0.056,
+        "value": 2,
+        "examine": "That used to be a vampyre!",
+        "item_id": [
+          "3325"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Vampyre dust",
+        "item_name": "Vampyre dust"
+      }
+    }
+  ]
+}

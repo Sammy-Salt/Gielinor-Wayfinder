@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10830,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10830,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Royal decree",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "The document is stamped with King Gjuki Sorvott IV's royal seal.",
+        "item_id": [
+          "10830"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Royal decree",
+        "item_name": "Royal decree"
+      }
+    }
+  ]
+}

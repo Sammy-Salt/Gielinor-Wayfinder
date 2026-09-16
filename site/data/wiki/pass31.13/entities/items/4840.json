@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4840,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4840,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished potion (Rogue's Purse)",
+        "weight": 0.03,
+        "value": 5,
+        "examine": "I need another ingredient to finish this Rogue's Purse potion.",
+        "item_id": [
+          "4840"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Unfinished potion (Rogue's Purse)",
+        "item_name": "Unfinished potion"
+      }
+    }
+  ]
+}

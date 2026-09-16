@@ -1,0 +1,25 @@
+{
+  "canonicalId": 741,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 741,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chunk of crystal",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "It looks like it's been snapped off of something.",
+        "item_id": [
+          "741"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chunk of crystal",
+        "item_name": "Chunk of crystal"
+      }
+    }
+  ]
+}

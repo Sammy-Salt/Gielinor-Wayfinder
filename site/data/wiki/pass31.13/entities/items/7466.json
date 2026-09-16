@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7466,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7466,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cornflour",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "It's cornflour.",
+        "item_id": [
+          "7466"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cornflour#Tradeable",
+        "item_name": "Cornflour"
+      }
+    }
+  ]
+}

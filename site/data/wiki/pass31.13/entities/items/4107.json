@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4107,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4107,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic boots (dark)",
+        "weight": 0.453,
+        "value": 10000,
+        "examine": "Dark magical boots.",
+        "item_id": [
+          "4107"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic boots (dark)",
+        "item_name": "Mystic boots (dark)"
+      }
+    }
+  ]
+}

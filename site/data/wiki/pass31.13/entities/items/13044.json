@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13044,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13044,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak armour set (lg)",
+        "weight": 6,
+        "value": 80000,
+        "examine": "A set containing a full helm, platebody, legs and kiteshield.",
+        "item_id": [
+          "13044"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak armour set (lg)",
+        "item_name": "Zamorak armour set (lg)"
+      }
+    }
+  ]
+}

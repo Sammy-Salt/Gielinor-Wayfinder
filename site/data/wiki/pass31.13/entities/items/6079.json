@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6079,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6079,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "The great divide",
+        "weight": 0.51,
+        "value": 2,
+        "examine": "A book about the great divide.",
+        "item_id": [
+          "6079"
+        ],
+        "tradeable": true,
+        "page_name_sub": "The great divide",
+        "item_name": "The great divide"
+      }
+    }
+  ]
+}

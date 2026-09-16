@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12468,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12468,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient kiteshield",
+        "weight": 5.443,
+        "value": 54400,
+        "examine": "Rune kiteshield in the colours of a long-forgotten god.",
+        "item_id": [
+          "12468"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient kiteshield",
+        "item_name": "Ancient kiteshield"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 213,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 213,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grimy kwuarm",
+        "weight": 0.007,
+        "value": 20,
+        "examine": "It needs cleaning.",
+        "item_id": [
+          "213"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Grimy kwuarm",
+        "item_name": "Grimy kwuarm"
+      }
+    }
+  ]
+}

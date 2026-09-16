@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9288,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9288,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel bolts",
+        "weight": 0,
+        "value": 8,
+        "examine": "Some poisoned steel bolts.",
+        "item_id": [
+          "9288"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel bolts#Poison",
+        "item_name": "Steel bolts (p)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12504,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12504,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos coif",
+        "weight": 0.9,
+        "value": 2000,
+        "examine": "Bandos blessed dragonhide coif.",
+        "item_id": [
+          "12504"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos coif",
+        "item_name": "Bandos coif"
+      }
+    }
+  ]
+}

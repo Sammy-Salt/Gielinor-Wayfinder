@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2164,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2164,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Batta tin",
+        "weight": 0.1,
+        "value": 10,
+        "examine": "A deep tin used for baking gnome battas in.",
+        "item_id": [
+          "2164"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Batta tin",
+        "item_name": "Batta tin"
+      }
+    }
+  ]
+}

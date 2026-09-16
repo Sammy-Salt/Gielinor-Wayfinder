@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12136,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12136,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (elite) - MACHETE CLAM",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue suggested by House Host!",
+        "item_id": [
+          "12136"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (elite) - MACHETE CLAM",
+        "item_name": "Clue scroll (elite)"
+      }
+    }
+  ]
+}

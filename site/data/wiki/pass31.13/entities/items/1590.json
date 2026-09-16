@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1590,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1590,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dusty key",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "Never let your home get like this (Provides access to the deeper parts of Taverley Dungeon).",
+        "item_id": [
+          "1590"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dusty key",
+        "item_name": "Dusty key"
+      }
+    }
+  ]
+}

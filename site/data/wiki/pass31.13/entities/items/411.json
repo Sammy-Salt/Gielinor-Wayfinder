@@ -1,0 +1,25 @@
+{
+  "canonicalId": 411,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 411,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oyster pearl",
+        "weight": 0.002,
+        "value": 112,
+        "examine": "I could work wonders with a chisel on this pearl.",
+        "item_id": [
+          "411"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oyster pearl",
+        "item_name": "Oyster pearl"
+      }
+    }
+  ]
+}

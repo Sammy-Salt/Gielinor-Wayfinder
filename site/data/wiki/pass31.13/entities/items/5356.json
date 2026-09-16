@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5356,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5356,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Plant pot (unobtainable item)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "A plant pot filled with soil.",
+        "item_id": [
+          "5356"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Plant pot (unobtainable item)",
+        "item_name": "Plant pot"
+      }
+    }
+  ]
+}

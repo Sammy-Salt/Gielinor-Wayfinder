@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4620,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4620,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black mushroom",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "It looks horrible.",
+        "item_id": [
+          "4620"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Black mushroom",
+        "item_name": "Black mushroom"
+      }
+    }
+  ]
+}

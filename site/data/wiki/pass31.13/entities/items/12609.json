@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12609,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12609,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Damaged book (Armadyl)",
+        "weight": 1,
+        "value": 200,
+        "examine": "An incomplete book of Armadyl.",
+        "item_id": [
+          "12609"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Damaged book (Armadyl)",
+        "item_name": "Damaged book"
+      }
+    }
+  ]
+}

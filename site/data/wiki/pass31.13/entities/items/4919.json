@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4919,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4919,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthan's platebody",
+        "weight": 9.979,
+        "value": 280000,
+        "examine": "Guthan the Infested's platebody armour.",
+        "item_id": [
+          "4919"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guthan's platebody#25",
+        "item_name": "Guthan's platebody 25"
+      }
+    }
+  ]
+}

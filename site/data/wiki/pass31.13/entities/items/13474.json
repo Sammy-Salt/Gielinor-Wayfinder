@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13474,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13474,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled giant head",
+        "weight": 0.453,
+        "value": 319,
+        "examine": "The creature's soul is still in here. I could reanimate it with Adept Reanimation.",
+        "item_id": [
+          "13474"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ensouled giant head#Drop",
+        "item_name": "Ensouled giant head"
+      }
+    }
+  ]
+}

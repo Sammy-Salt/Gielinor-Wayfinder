@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6034,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6034,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Supercompost",
+        "weight": 3,
+        "value": 85,
+        "examine": "Super-good for the smallest or largest of plants.",
+        "item_id": [
+          "6034"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Supercompost",
+        "item_name": "Supercompost"
+      }
+    }
+  ]
+}

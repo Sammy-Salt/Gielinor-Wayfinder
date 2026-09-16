@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3337,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3337,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pointed myre snelm",
+        "weight": 2,
+        "value": 300,
+        "examine": "A swamp coloured pointed snail shell helmet.",
+        "item_id": [
+          "3337"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pointed myre snelm",
+        "item_name": "Pointed myre snelm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4486,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4486,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White pearl seed",
+        "weight": 0.025,
+        "value": 1,
+        "examine": "You can grow this seed even in cold mountain ranges!",
+        "item_id": [
+          "4486"
+        ],
+        "tradeable": false,
+        "page_name_sub": "White pearl seed",
+        "item_name": "White pearl seed"
+      }
+    }
+  ]
+}

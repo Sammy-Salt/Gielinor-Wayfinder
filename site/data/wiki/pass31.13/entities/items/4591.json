@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4591,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4591,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kharidian headpiece",
+        "weight": 0.07,
+        "value": 1,
+        "examine": "Wear it on your head.",
+        "item_id": [
+          "4591"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Kharidian headpiece",
+        "item_name": "Kharidian headpiece"
+      }
+    }
+  ]
+}

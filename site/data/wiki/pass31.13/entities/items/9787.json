@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9787,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9787,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by Slayer masters.",
+        "item_id": [
+          "9787"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer cape#Trimmed",
+        "item_name": "Slayer cape(t)"
+      }
+    }
+  ]
+}

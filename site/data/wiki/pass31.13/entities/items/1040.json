@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1040,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1040,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yellow partyhat",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "A nice hat from a cracker.",
+        "item_id": [
+          "1040"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Yellow partyhat",
+        "item_name": "Yellow partyhat"
+      }
+    }
+  ]
+}

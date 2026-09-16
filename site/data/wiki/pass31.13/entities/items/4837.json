@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4837,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4837,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Necromancy book",
+        "weight": 1,
+        "value": 1,
+        "examine": "A book of necromantic spells.",
+        "item_id": [
+          "4837"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Necromancy book",
+        "item_name": "Necromancy book"
+      }
+    }
+  ]
+}

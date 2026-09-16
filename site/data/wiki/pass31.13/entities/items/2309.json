@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2309,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2309,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bread",
+        "weight": 0.5,
+        "value": 12,
+        "examine": "Nice crispy bread.",
+        "item_id": [
+          "2309"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bread",
+        "item_name": "Bread"
+      }
+    }
+  ]
+}

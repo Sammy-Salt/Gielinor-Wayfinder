@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3228,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3228,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked rabbit",
+        "weight": 0.141,
+        "value": 4,
+        "examine": "Mmm this looks tasty.",
+        "item_id": [
+          "3228"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked rabbit",
+        "item_name": "Cooked rabbit"
+      }
+    }
+  ]
+}

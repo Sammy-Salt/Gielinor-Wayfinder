@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6914,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6914,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Master wand",
+        "weight": 0.198,
+        "value": 100001,
+        "examine": "A master level wand.",
+        "item_id": [
+          "6914"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Master wand",
+        "item_name": "Master wand"
+      }
+    }
+  ]
+}

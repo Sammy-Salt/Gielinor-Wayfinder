@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2599,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2599,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant platebody (t)",
+        "weight": 11.339,
+        "value": 16640,
+        "examine": "Adamant platebody with trim.",
+        "item_id": [
+          "2599"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant platebody (t)",
+        "item_name": "Adamant platebody (t)"
+      }
+    }
+  ]
+}

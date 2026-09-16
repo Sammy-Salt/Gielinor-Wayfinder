@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5304,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5304,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torstol seed",
+        "weight": 0,
+        "value": 70,
+        "examine": "A torstol seed - plant in a herb patch.",
+        "item_id": [
+          "5304"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Torstol seed",
+        "item_name": "Torstol seed"
+      }
+    }
+  ]
+}

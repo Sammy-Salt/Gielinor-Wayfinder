@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11158,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11158,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cyrisus's chest",
+        "weight": 0.6,
+        "value": 1,
+        "examine": "Perfect for storing heavy things.",
+        "item_id": [
+          "11158"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cyrisus's chest",
+        "item_name": "Cyrisus's chest"
+      }
+    }
+  ]
+}

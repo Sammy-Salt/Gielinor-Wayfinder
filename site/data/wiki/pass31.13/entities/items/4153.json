@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4153,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4153,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Granite maul",
+        "weight": 4.535,
+        "value": 50000,
+        "examine": "Simplicity is the best weapon.",
+        "item_id": [
+          "4153"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Granite maul#Normal",
+        "item_name": "Granite maul"
+      }
+    }
+  ]
+}

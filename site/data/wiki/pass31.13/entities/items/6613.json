@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6613,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6613,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White warhammer",
+        "weight": 1.814,
+        "value": 980,
+        "examine": "I don't think it's intended for joinery.",
+        "item_id": [
+          "6613"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White warhammer",
+        "item_name": "White warhammer"
+      }
+    }
+  ]
+}

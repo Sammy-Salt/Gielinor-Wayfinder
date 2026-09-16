@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10372,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10372,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak chaps",
+        "weight": 5,
+        "value": 6000,
+        "examine": "Zamorak blessed dragonhide chaps.",
+        "item_id": [
+          "10372"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak chaps",
+        "item_name": "Zamorak chaps"
+      }
+    }
+  ]
+}

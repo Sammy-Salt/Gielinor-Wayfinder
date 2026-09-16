@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11696,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11696,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cosmic rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 0,
+        "examine": "Used for enchant spells.",
+        "item_id": [
+          "11696"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cosmic rune (Barbarian Assault)",
+        "item_name": "Cosmic rune"
+      }
+    }
+  ]
+}

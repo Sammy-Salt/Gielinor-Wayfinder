@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7204,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7204,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Part wild pie (raw chompy)",
+        "weight": 0.001,
+        "value": 90,
+        "examine": "Still needs one more ingredient.",
+        "item_id": [
+          "7204"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Part wild pie (raw chompy)",
+        "item_name": "Part wild pie"
+      }
+    }
+  ]
+}

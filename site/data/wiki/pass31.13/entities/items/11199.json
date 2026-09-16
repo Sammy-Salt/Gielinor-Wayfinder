@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11199,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11199,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rupert's helmet",
+        "weight": 1.9,
+        "value": 1,
+        "examine": "A sturdy helmet belonging to Rupert the Beard.",
+        "item_id": [
+          "11199"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rupert's helmet",
+        "item_name": "Rupert's helmet"
+      }
+    }
+  ]
+}

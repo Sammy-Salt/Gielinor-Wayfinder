@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11726,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11726,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Super magic potion",
+        "weight": 0.035,
+        "value": 300,
+        "examine": "4 doses of super magic potion.",
+        "item_id": [
+          "11726"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Super magic potion#(4)",
+        "item_name": "Super magic potion (4)"
+      }
+    }
+  ]
+}

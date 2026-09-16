@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5845,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5845,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cider (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 2 pints of Cider.",
+        "item_id": [
+          "5845"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cider (keg)#2 pints",
+        "item_name": "Cider(2)"
+      }
+    }
+  ]
+}

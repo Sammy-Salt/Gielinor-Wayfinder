@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9978,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9978,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw bird meat",
+        "weight": 0.15,
+        "value": 17,
+        "examine": "This certainly needs cooking!",
+        "item_id": [
+          "9978"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw bird meat",
+        "item_name": "Raw bird meat"
+      }
+    }
+  ]
+}

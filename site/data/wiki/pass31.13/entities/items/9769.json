@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9769,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9769,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hitpoints cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the healthiest adventurers.",
+        "item_id": [
+          "9769"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hitpoints cape#Trimmed",
+        "item_name": "Hitpoints cape(t)"
+      }
+    }
+  ]
+}

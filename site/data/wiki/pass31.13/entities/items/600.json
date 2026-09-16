@@ -1,0 +1,25 @@
+{
+  "canonicalId": 600,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 600,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Astronomy book",
+        "weight": 0.003,
+        "value": 3,
+        "examine": "A book on the history of astronomy.",
+        "item_id": [
+          "600"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Astronomy book",
+        "item_name": "Astronomy book"
+      }
+    }
+  ]
+}

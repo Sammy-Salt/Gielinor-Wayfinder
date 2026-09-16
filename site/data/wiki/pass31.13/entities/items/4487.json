@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4487,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4487,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half a rock",
+        "weight": 1.25,
+        "value": 1,
+        "examine": "It's a piece of the Ancient Rock of the mountain people. It's still just a stone.",
+        "item_id": [
+          "4487"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half a rock",
+        "item_name": "Half a rock"
+      }
+    }
+  ]
+}

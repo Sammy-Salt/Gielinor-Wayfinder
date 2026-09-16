@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kraken tentacle",
+        "weight": 0.005,
+        "value": 83340,
+        "examine": "Ewwww... it's still sucky.",
+        "item_id": [
+          "12004"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Kraken tentacle",
+        "item_name": "Kraken tentacle"
+      }
+    }
+  ]
+}

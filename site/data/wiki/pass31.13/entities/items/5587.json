@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5587,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5587,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Metal spade",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "It's a metal spade without a handle.",
+        "item_id": [
+          "5587"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Metal spade#Head",
+        "item_name": "Metal spade"
+      }
+    }
+  ]
+}

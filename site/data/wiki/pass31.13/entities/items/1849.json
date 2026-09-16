@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1849,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1849,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prototype dart",
+        "weight": 0,
+        "value": 2,
+        "examine": "A prototype throwing dart.",
+        "item_id": [
+          "1849"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Prototype dart",
+        "item_name": "Prototype dart"
+      }
+    }
+  ]
+}

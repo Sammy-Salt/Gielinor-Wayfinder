@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4964,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4964,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torag's platebody",
+        "weight": 9.979,
+        "value": 280000,
+        "examine": "Torag the Corrupted's platebody armour.",
+        "item_id": [
+          "4964"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Torag's platebody#100",
+        "item_name": "Torag's platebody 100"
+      }
+    }
+  ]
+}

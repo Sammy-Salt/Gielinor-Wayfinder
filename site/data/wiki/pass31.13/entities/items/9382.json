@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9382,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9382,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver bolts (unf)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Unfeathered silver crossbow bolts.",
+        "item_id": [
+          "9382"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silver bolts (unf)",
+        "item_name": "Silver bolts (unf)"
+      }
+    }
+  ]
+}

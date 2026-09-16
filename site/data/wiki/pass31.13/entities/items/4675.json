@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4675,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4675,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient staff",
+        "weight": 2.267,
+        "value": 100000,
+        "examine": "A magical staff of ancient origin...",
+        "item_id": [
+          "4675"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient staff",
+        "item_name": "Ancient staff"
+      }
+    }
+  ]
+}

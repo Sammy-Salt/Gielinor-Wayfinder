@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8000,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8000,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Isafdar painting",
+        "weight": 1,
+        "value": 2000,
+        "examine": "The exotic land of the Elves.",
+        "item_id": [
+          "8000"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Isafdar painting",
+        "item_name": "Isafdar painting"
+      }
+    }
+  ]
+}

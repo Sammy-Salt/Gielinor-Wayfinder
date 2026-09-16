@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3222,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3222,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Naphtha mix",
+        "weight": 32,
+        "value": 1,
+        "examine": "A barrel full of naphtha and sulphur.",
+        "item_id": [
+          "3222"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Naphtha mix#Sulphur",
+        "item_name": "Naphtha mix"
+      }
+    }
+  ]
+}

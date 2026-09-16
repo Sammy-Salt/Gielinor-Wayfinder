@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3787,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3787,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fremennik pink cloak",
+        "weight": 0.453,
+        "value": 250,
+        "examine": "The latest fashion in Rellekka.",
+        "item_id": [
+          "3787"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fremennik pink cloak",
+        "item_name": "Fremennik pink cloak"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1165,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1165,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black full helm",
+        "weight": 2.721,
+        "value": 1056,
+        "examine": "A full face helmet.",
+        "item_id": [
+          "1165"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black full helm",
+        "item_name": "Black full helm"
+      }
+    }
+  ]
+}

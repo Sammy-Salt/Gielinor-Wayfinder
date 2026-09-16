@@ -1,0 +1,25 @@
+{
+  "canonicalId": 341,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 341,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw cod",
+        "weight": 0.45,
+        "value": 10,
+        "examine": "I should try cooking this.",
+        "item_id": [
+          "341"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw cod",
+        "item_name": "Raw cod"
+      }
+    }
+  ]
+}

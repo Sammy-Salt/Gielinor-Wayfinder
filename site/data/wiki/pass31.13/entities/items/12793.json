@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12793,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12793,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nest box (seeds, 2014-2016)",
+        "weight": 1.6,
+        "value": 10,
+        "examine": "A box of nests containing seeds.",
+        "item_id": [
+          "12793"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Nest box (seeds, 2014-2016)",
+        "item_name": "Nest box (seeds)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 946,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 946,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Knife",
+        "weight": 0.453,
+        "value": 6,
+        "examine": "A dangerous looking knife.",
+        "item_id": [
+          "946"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Knife",
+        "item_name": "Knife"
+      }
+    }
+  ]
+}

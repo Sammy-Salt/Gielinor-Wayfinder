@@ -1,0 +1,25 @@
+{
+  "canonicalId": 585,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 585,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bailing bucket",
+        "weight": 5,
+        "value": 10,
+        "examine": "It's a bailing bucket full of salty water.",
+        "item_id": [
+          "585"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bailing bucket#Full",
+        "item_name": "Bailing bucket"
+      }
+    }
+  ]
+}

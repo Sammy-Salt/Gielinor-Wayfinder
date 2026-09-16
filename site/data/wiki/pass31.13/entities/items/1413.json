@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1413,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1413,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Halberd (unobtainable item)",
+        "weight": 4.535,
+        "value": 1,
+        "examine": "A halberd.",
+        "item_id": [
+          "1413"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Halberd (unobtainable item)",
+        "item_name": "Halberd"
+      }
+    }
+  ]
+}

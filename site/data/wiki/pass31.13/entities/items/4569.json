@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4569,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4569,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book page 1",
+        "weight": 0.002,
+        "value": 1,
+        "examine": "A missing page from Rolad's book! It seems to be the first one.",
+        "item_id": [
+          "4569"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book page 1",
+        "item_name": "Book page 1"
+      }
+    }
+  ]
+}

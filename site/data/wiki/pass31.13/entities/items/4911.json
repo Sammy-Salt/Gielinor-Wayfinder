@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4911,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4911,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthan's warspear",
+        "weight": 2.267,
+        "value": 100000,
+        "examine": "Guthan the Infested's warspear.",
+        "item_id": [
+          "4911"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guthan's warspear#75",
+        "item_name": "Guthan's warspear 75"
+      }
+    }
+  ]
+}

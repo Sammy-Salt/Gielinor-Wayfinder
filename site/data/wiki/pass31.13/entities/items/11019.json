@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11019,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11019,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chicken feet",
+        "weight": 0.25,
+        "value": 1,
+        "examine": "Perfect for crossing the road.",
+        "item_id": [
+          "11019"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chicken feet",
+        "item_name": "Chicken feet"
+      }
+    }
+  ]
+}

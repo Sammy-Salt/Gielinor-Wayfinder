@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5016,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5016,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone spear",
+        "weight": 1.36,
+        "value": 600,
+        "examine": "Basic but brutal!",
+        "item_id": [
+          "5016"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bone spear",
+        "item_name": "Bone spear"
+      }
+    }
+  ]
+}

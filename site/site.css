@@ -1,0 +1,272 @@
+/* OSRS Guide — unified Old School RuneScape / 2009Scape-inspired design system.
+ * One visual source of truth. Page CSS should only contain genuinely unique layout rules.
+ */
+:root {
+  color-scheme: dark;
+  --osrs-bg: #17130e;
+  --osrs-bg-deep: #0e0b08;
+  --osrs-panel: #211b14;
+  --osrs-panel-2: #2a2219;
+  --osrs-panel-3: #33291d;
+  --osrs-border: #5a472d;
+  --osrs-border-soft: #3e3121;
+  --osrs-gold: #d7b35a;
+  --osrs-gold-bright: #f0cf70;
+  --osrs-gold-dark: #8f7135;
+  --osrs-green: #5f9a55;
+  --osrs-green-bright: #86c76f;
+  --osrs-red: #b85c4c;
+  --osrs-orange: #d28b45;
+  --osrs-text: #eee3c8;
+  --osrs-text-soft: #c7b99c;
+  --osrs-muted: #9b8d73;
+  --osrs-link: #e4c66f;
+  --osrs-input: #120f0b;
+  --osrs-shadow: rgba(0,0,0,.48);
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --content-width: 1080px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{background:var(--osrs-bg-deep)}
+body{
+  min-height:100vh;
+  margin:0;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(215,179,90,.08), transparent 38%),
+    linear-gradient(180deg,var(--osrs-bg-deep),var(--osrs-bg) 22%,var(--osrs-bg));
+  color:var(--osrs-text);
+  line-height:1.5;
+  font-size:15px;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:.22;
+  background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);
+  background-size:4px 4px;
+  mix-blend-mode:soft-light;
+}
+
+body > main,body > .osrs-content,body > .container,body > .content{
+  width:min(var(--content-width),calc(100% - 32px));
+  margin-inline:auto;
+}
+
+/* Navigation */
+#site-nav{
+  position:relative;
+  z-index:3000;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:6px;
+  width:100%;
+  padding:8px max(12px,calc((100% - var(--content-width))/2));
+  background:linear-gradient(180deg,#302619,#1c160f);
+  border-bottom:2px solid var(--osrs-gold-dark);
+  box-shadow:0 3px 12px var(--osrs-shadow);
+}
+.site-brand{
+  display:inline-flex;align-items:center;gap:8px;margin-right:6px;
+  padding:8px 12px;color:var(--osrs-gold-bright);font-family:Georgia,"Times New Roman",serif;
+  font-weight:700;text-decoration:none;white-space:nowrap;
+}
+#site-nav a,.nav-menu > summary{
+  display:inline-flex;align-items:center;justify-content:center;min-height:36px;
+  padding:7px 11px;color:var(--osrs-text);text-decoration:none;font-weight:700;
+  background:linear-gradient(180deg,#3a3023,#2a2117);
+  border:1px solid var(--osrs-border);border-radius:var(--radius-sm);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.06);
+  cursor:pointer;user-select:none;
+}
+#site-nav a:hover,#site-nav a:focus-visible,.nav-menu > summary:hover,.nav-menu > summary:focus-visible,
+#site-nav a[aria-current="page"]{
+  color:#fff3cf;background:linear-gradient(180deg,#554328,#3a2c1c);border-color:var(--osrs-gold);
+}
+.nav-menu{position:relative}
+.nav-menu > summary{list-style:none}
+.nav-menu > summary::-webkit-details-marker{display:none}
+.nav-menu > summary::after{content:"▾";margin-left:7px;color:var(--osrs-gold)}
+.nav-menu[open] > summary{border-color:var(--osrs-gold);background:#4a3924}
+.nav-menu-panel{
+  position:absolute;top:calc(100% + 5px);left:0;min-width:190px;padding:6px;
+  display:grid;gap:5px;background:#20180f;border:1px solid var(--osrs-border);
+  border-radius:var(--radius-md);box-shadow:0 8px 24px var(--osrs-shadow);
+}
+.nav-menu-panel a{justify-content:flex-start;width:100%;}
+
+.osrs-skip-link{position:absolute;left:-9999px;top:8px;z-index:10000;padding:8px 12px;background:#17110b;color:#fff;border:1px solid var(--osrs-gold);border-radius:5px}
+.osrs-skip-link:focus{left:8px}
+
+/* Typography */
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;color:var(--osrs-gold-bright);line-height:1.2}
+h1{font-size:clamp(1.65rem,3vw,2.2rem);margin:0 0 8px;text-shadow:0 1px 0 #000}
+h2{font-size:1.35rem;margin:0 0 12px;padding-bottom:7px;border-bottom:1px solid var(--osrs-border)}
+h3{font-size:1.08rem;margin:18px 0 9px}
+p{margin:8px 0}
+a{color:var(--osrs-link)}
+a:hover{color:#fff0ad}
+.subtitle,.sub,.small,.muted{color:var(--osrs-muted)}
+.subtitle{margin-bottom:18px}
+
+/* Page shell */
+body > header,body > .osrs-page-header{
+  width:min(var(--content-width),calc(100% - 32px));
+  margin:24px auto 12px;padding:18px 20px;
+  background:linear-gradient(180deg,var(--osrs-panel-2),var(--osrs-panel));
+  border:1px solid var(--osrs-border);border-radius:var(--radius-lg);
+  box-shadow:0 5px 16px rgba(0,0,0,.25),inset 0 1px 0 rgba(255,255,255,.035);
+}
+body > header h1,body > .osrs-page-header h1{margin:0}
+main,.osrs-content,.container,.content{padding-block:var(--space-4)}
+
+/* Panels/cards */
+.card,.section,.panel,.goal-card,.quest-card,.progress-summary,.skill,.sync-status,.quest-summary,.quest-debug{
+  background:linear-gradient(180deg,var(--osrs-panel-2),var(--osrs-panel));
+  border:1px solid var(--osrs-border);border-radius:var(--radius-md);
+  box-shadow:0 3px 10px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.025);
+}
+.card,.section,.panel,.progress-summary,.sync-status,.quest-summary{padding:16px;margin:0 0 14px}
+.card:hover,.osrs-card-link:hover,.goal-card:hover,.quest-card:hover{border-color:#796039}
+
+/* Controls */
+label{display:block;margin:10px 0 5px;color:var(--osrs-text-soft);font-weight:700}
+:where(input,select,textarea){
+  width:100%;max-width:100%;padding:10px 11px;color:var(--osrs-text);
+  background:linear-gradient(180deg,#17120d,#100d09);border:1px solid var(--osrs-border);
+  border-radius:var(--radius-sm);font:inherit;line-height:1.35;
+}
+:where(input,select,textarea)::placeholder{color:#776b58}
+:where(input,select,textarea):hover{border-color:#80663c}
+button{font:inherit;cursor:pointer;color:var(--osrs-text);background:linear-gradient(180deg,#4a3924,#332719);border:1px solid var(--osrs-border);border-radius:var(--radius-sm);padding:9px 13px;font-weight:700;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+button:hover{color:#fff1bd;background:linear-gradient(180deg,#5b462b,#40301e);border-color:var(--osrs-gold)}
+button:disabled{opacity:.55;cursor:not-allowed}
+:where(a,button,input,select,textarea,summary):focus-visible{outline:2px solid var(--osrs-gold-bright);outline-offset:2px}
+
+/* Reusable structures */
+.grid,.stats,.skills,.osrs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+.stat{background:#15100b;border:1px solid var(--osrs-border-soft);border-radius:6px;padding:12px}
+.stat .label,.stat-label{color:var(--osrs-muted);font-size:.78rem}
+.stat .value,.stat-value,.stat-number{font-weight:700;color:var(--osrs-text);font-size:1.12rem}
+.stat b{display:block;color:var(--osrs-gold-bright);font-size:1.12rem;margin-top:4px}
+.badge{display:inline-block;margin:2px 3px 2px 0;padding:3px 8px;background:#3a2d1d;color:#ead39a;border:1px solid var(--osrs-border);border-radius:999px;font-size:.78rem}
+.row{display:flex;justify-content:space-between;gap:20px;padding:7px 0;border-bottom:1px solid var(--osrs-border-soft)}
+.row:last-child{border-bottom:0}.label,.k{color:var(--osrs-muted)}.value,.v{text-align:right;word-break:break-word}
+.empty{color:var(--osrs-muted);padding:20px;text-align:center}
+.note{padding:10px 12px;color:var(--osrs-text-soft);background:#19130d;border:1px solid var(--osrs-border-soft);border-radius:6px}
+.warn{padding:11px 12px;color:#f1c47b;background:#2a1d10;border:1px solid #79542b;border-radius:6px}
+.ok{color:var(--osrs-green-bright)}.bad{color:#e07a68}
+pre{white-space:pre-wrap;word-break:break-word;overflow:auto;padding:12px;background:#100d09;border:1px solid var(--osrs-border-soft);border-radius:6px}
+
+/* Dropdown/accordion standard */
+details{margin:0 0 10px;background:linear-gradient(180deg,#2a2117,#211911);border:1px solid var(--osrs-border);border-radius:6px;overflow:hidden}
+summary{padding:11px 13px;color:var(--osrs-text);font-weight:700;cursor:pointer;list-style:none;user-select:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"▸";float:right;color:var(--osrs-gold);transition:transform .15s ease}
+details[open] > summary::after{transform:rotate(90deg)}
+summary:hover{background:#332719;color:#fff0bd}
+details > :not(summary){padding:0 13px 13px}
+.source-body,.coords,.drop-table,.plan-preview{padding-top:8px}
+.location,.source-entry{padding:9px 0;border-bottom:1px solid var(--osrs-border-soft)}
+.location:last-child,.source-entry:last-child{border-bottom:0}
+.count,.spawn{color:var(--osrs-muted);font-size:.85rem}
+
+/* Catalogues and link cards */
+.osrs-card-link,.boss,.npc-list .list-item{display:block;padding:13px 14px;text-decoration:none;color:inherit;background:linear-gradient(180deg,#2a2117,#211911);border:1px solid var(--osrs-border);border-radius:6px;transition:.12s ease}
+.osrs-card-link:hover,.boss:hover,.npc-list .list-item:hover{transform:translateY(-1px);border-color:var(--osrs-gold)}
+.name,.goal-name,.goal-title,.quest-title,.skill-name{font-weight:700;color:var(--osrs-gold-bright)}
+.meta,.quest-meta{color:var(--osrs-muted);font-size:.82rem}
+.desc,.goal-details{color:var(--osrs-text-soft)}
+
+/* Progress/goals */
+.bar,.summary-bar,.skill-bar{height:10px;background:#100d09;border:1px solid var(--osrs-border-soft);border-radius:999px;overflow:hidden;margin-top:8px}
+.fill,.summary-fill,.skill-fill{height:100%;background:linear-gradient(90deg,#4f7f45,var(--osrs-green-bright));transition:width .2s ease}
+.goal-card{padding:14px;margin:10px 0}.goal-details{margin-top:6px}.goal-source{margin-top:7px;color:var(--osrs-muted);font-size:.85rem}.goal-progress{margin-top:10px}
+.sync-status{border-color:#4c6d45}.sync-status.error{border-color:#79483d;background:#281916}
+.controls,.quest-toolbar,.quest-buttons,.actions{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}
+.quest-card{padding:14px;margin:10px 0}.quest-card.completed{border-color:#4e7a47}.quest-status{margin:9px 0;padding:8px;border-radius:5px}.ready,.complete{background:#1b2a19;border:1px solid #3e6238}.blocked{background:#2a1916;border:1px solid #714238}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;background:#17110c}th,td{padding:8px 9px;border-bottom:1px solid var(--osrs-border-soft);text-align:left}th{color:var(--osrs-gold);background:#2a2117}tr:hover td{background:#211911}
+
+footer{text-align:center;color:var(--osrs-muted);font-size:.78rem;margin:26px}
+
+/* Map: retain full-screen behavior while sharing the same visual language. */
+body[data-page="map"]{overflow:hidden}
+body[data-page="map"] main{padding:0;width:100%;max-width:none}
+body[data-page="map"] #site-nav{position:absolute;top:0;left:0}
+body[data-page="map"] #toolbar{top:58px}
+#map{background:#0d0a07}
+#toolbar,#legend,#info,#results{border-color:var(--osrs-border)!important;box-shadow:0 5px 18px rgba(0,0,0,.55)!important;background:rgba(30,23,15,.96)!important;color:var(--osrs-text)!important}
+#search,#legendSearch{background:#120e0a!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
+#results .result{color:var(--osrs-text);border-bottom-color:var(--osrs-border-soft)}
+#results .result small,#info p{color:var(--osrs-muted)}
+#legendHeader,#legendClear,.legendTitle,.legendItem{color:var(--osrs-text)!important;background:#2b2117!important;border-color:var(--osrs-border)!important}
+.legendItem:hover{background:#493720!important}
+.coord-box{background:rgba(25,18,11,.94)!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
+
+@media(max-width:720px){
+  body{font-size:14px}
+  #site-nav{padding:7px 8px;gap:4px}
+  .site-brand{width:100%;justify-content:center;margin:0;padding:5px}
+  #site-nav a,.nav-menu > summary{min-height:34px;padding:6px 9px;font-size:.82rem}
+  .nav-menu-panel{position:fixed;left:8px;right:8px;top:auto;margin-top:4px}
+  body > main,body > .osrs-content,body > .container,body > .content,body > header,body > .osrs-page-header{width:calc(100% - 18px)}
+  body > header,body > .osrs-page-header{margin-top:14px;padding:14px}
+  .grid,.stats,.skills,.osrs-grid{grid-template-columns:1fr}
+  .row{gap:10px;align-items:flex-start}
+  .value,.v{text-align:right}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
+.catalog-link{display:block;cursor:pointer;color:var(--osrs-link)!important}
+.table-scroll{overflow-x:auto;margin-top:10px}
+.result-heading{margin-top:0}
+.result-grid{margin-top:12px}
+.result-note{margin-top:14px}
+.result-percent{margin-top:5px}
+.sync-lock{display:inline-block;padding:8px 0;opacity:.7}
+.plan-preview[hidden]{display:none}
+/* Shared application tools: deliberately outside #site-nav so search cannot affect navigation layout. */
+#app-tools-host{
+  width:min(var(--content-width),100%);
+  margin:0 auto;
+  padding:8px max(12px,calc((100% - var(--content-width))/2));
+}
+.app-tools{position:relative;width:100%;}
+.app-search-row{display:flex;align-items:center;gap:8px;width:100%;}
+#globalSearch{box-sizing:border-box;flex:1 1 auto;min-width:0;height:42px;margin:0;padding:8px 12px;border:1px solid var(--osrs-border);border-radius:7px;background:#fff;color:#17120d;font:inherit;outline:none;}
+#globalSearch:focus{border-color:var(--osrs-gold);box-shadow:0 0 0 2px rgba(212,175,55,.25)}
+.global-search-submit{flex:0 0 88px;width:88px;min-width:88px;height:42px;margin:0;padding:7px 8px;}
+.global-search-results{display:none;position:absolute;left:0;right:0;top:calc(100% + 6px);width:100%;margin:0;padding:8px;background:#20180f;border:1px solid var(--osrs-border);border-radius:var(--radius-md);box-shadow:0 10px 28px rgba(0,0,0,.5);z-index:6000;gap:5px;max-height:50vh;overflow:auto;}
+.global-search-results.is-open{display:grid;}
+.global-search-result{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;padding:11px 12px;margin:0;border:1px solid var(--osrs-border-soft);border-radius:6px;background:#17110c;color:var(--osrs-text);text-decoration:none;}
+.global-search-result:hover,.global-search-result:focus-visible{border-color:var(--osrs-gold);background:#2b2117}
+.global-search-result span{color:var(--osrs-muted);font-size:.8rem}
+.search-error{display:block;padding:10px;color:var(--osrs-muted);text-align:center}
+.app-tool-actions{display:none}
+.offline-status{font-size:.78rem;color:var(--osrs-muted)}
+@media(max-width:720px){
+  #app-tools-host{padding:7px 8px}
+  .app-search-row{gap:8px}
+  #globalSearch{height:44px}
+  .global-search-submit{flex:0 0 82px;width:82px;min-width:82px;height:44px;padding:6px 8px}
+}
+
+/* Pass 17-25: compact Android-first interaction polish. */
+.assistant-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}.assistant-link{display:block;padding:11px 12px;border:1px solid var(--osrs-border-soft);border-radius:6px;background:#17110c;text-decoration:none}.location-row{padding:8px 0;border-bottom:1px solid var(--osrs-border-soft);color:var(--osrs-text-soft)}.location-row:last-of-type{border-bottom:0}.quest-card-link{min-height:44px}.back{display:inline-block;margin-bottom:8px}
+@media(max-width:720px){button,.button-like,#site-nav a,.nav-menu>summary,select,input[type="search"]{min-height:44px}.controls button,.actions a,.actions button{flex:1 1 150px;text-align:center}.quest-card{padding:12px}.assistant-list{grid-template-columns:1fr}.location-row{font-size:.9rem}}
+.wiki-integration-card .source-entry{margin:.65rem 0;padding:.65rem;border-left:2px solid currentColor}.wiki-integration-card .source-title{font-weight:600;margin-bottom:.25rem}.wiki-integration-card details{margin-top:.75rem}.wiki-integration-card summary{cursor:pointer;font-weight:600}.wiki-integration-card .muted{margin:.35rem 0}
+
+

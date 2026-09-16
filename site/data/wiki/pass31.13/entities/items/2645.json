@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2645,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2645,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red headband",
+        "weight": 0.04,
+        "value": 40,
+        "examine": "A minimalist's hat.",
+        "item_id": [
+          "2645"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red headband",
+        "item_name": "Red headband"
+      }
+    }
+  ]
+}

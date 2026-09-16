@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7510,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7510,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dwarven rock cake",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Cool and heavy as a brick. Only for dwarf consumption.",
+        "item_id": [
+          "7510"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dwarven rock cake#Cool",
+        "item_name": "Dwarven rock cake"
+      }
+    }
+  ]
+}

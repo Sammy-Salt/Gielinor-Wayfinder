@@ -1,0 +1,25 @@
+{
+  "canonicalId": 614,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 614,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Locating crystal (unobtainable item)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "A magical crystal sphere.",
+        "item_id": [
+          "614"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Locating crystal (unobtainable item)#3",
+        "item_name": "Locating crystal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13551,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13551,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien supply greaves (3)",
+        "weight": 9.071,
+        "value": 10,
+        "examine": "Supplies for the Shayzien soldiers.",
+        "item_id": [
+          "13551"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien supply greaves (3)",
+        "item_name": "Shayzien supply greaves (3)"
+      }
+    }
+  ]
+}

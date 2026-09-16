@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10552,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10552,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Runner boots",
+        "weight": 0.34,
+        "value": 65003,
+        "examine": "Boots made from a Penance Runner.",
+        "item_id": [
+          "10552"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Runner boots",
+        "item_name": "Runner boots"
+      }
+    }
+  ]
+}

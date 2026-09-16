@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12605,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12605,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Treasonous ring",
+        "weight": 0.4,
+        "value": 50000,
+        "examine": "A razor sharp ring.",
+        "item_id": [
+          "12605"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Treasonous ring",
+        "item_name": "Treasonous ring"
+      }
+    }
+  ]
+}

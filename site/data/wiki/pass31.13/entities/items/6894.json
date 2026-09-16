@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6894,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6894,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant kiteshield (Mage Training Arena)",
+        "weight": 5.896,
+        "value": 0,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "6894"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Adamant kiteshield (Mage Training Arena)",
+        "item_name": "Adamant kiteshield"
+      }
+    }
+  ]
+}

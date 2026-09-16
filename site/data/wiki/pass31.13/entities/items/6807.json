@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6807,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6807,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zombie champion scroll",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It's a challenge from the Zombie Champion!",
+        "item_id": [
+          "6807"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zombie champion scroll",
+        "item_name": "Zombie champion scroll"
+      }
+    }
+  ]
+}

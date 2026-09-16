@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4168,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4168,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nose peg",
+        "weight": 0.001,
+        "value": 200,
+        "examine": "Protects me from any bad smells.",
+        "item_id": [
+          "4168"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Nose peg",
+        "item_name": "Nose peg"
+      }
+    }
+  ]
+}

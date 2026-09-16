@@ -1,0 +1,25 @@
+{
+  "canonicalId": 292,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 292,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book on Baxtorian",
+        "weight": 0.51,
+        "value": 2,
+        "examine": "A book on elven history in northern Gielinor.",
+        "item_id": [
+          "292"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book on Baxtorian",
+        "item_name": "Book on Baxtorian"
+      }
+    }
+  ]
+}

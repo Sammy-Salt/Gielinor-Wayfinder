@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6820,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6820,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Relic (Devious Minds)",
+        "weight": 0.001,
+        "value": 30,
+        "examine": "There seems to be bits missing...",
+        "item_id": [
+          "6820"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Relic (Devious Minds)",
+        "item_name": "Relic"
+      }
+    }
+  ]
+}

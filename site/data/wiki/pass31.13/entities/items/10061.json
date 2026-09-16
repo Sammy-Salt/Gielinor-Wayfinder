@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10061,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10061,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Desert camo top",
+        "weight": 0.226,
+        "value": 20,
+        "examine": "This should make me harder to spot in desert areas.",
+        "item_id": [
+          "10061"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Desert camo top#Inventory",
+        "item_name": "Desert camo top"
+      }
+    }
+  ]
+}

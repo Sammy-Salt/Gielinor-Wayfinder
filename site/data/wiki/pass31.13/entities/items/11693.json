@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11693,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11693,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nature rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Used for alchemy spells.",
+        "item_id": [
+          "11693"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Nature rune (Barbarian Assault)",
+        "item_name": "Nature rune"
+      }
+    }
+  ]
+}

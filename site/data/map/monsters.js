@@ -1,0 +1,62835 @@
+// Generated from 2009Scape catalog data.
+const monsters=[
+  {
+    "id": 1928,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 1928,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3624,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3639,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3029,
+    "y": 3638,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3030,
+    "y": 3626,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3632,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3624,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3639,
+    "plane": 0
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3624,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3639,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3023,
+    "y": 3632,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3626,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3029,
+    "y": 3637,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3631,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3624,
+    "plane": 1
+  },
+  {
+    "id": 192,
+    "name": "Dark warrior",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3639,
+    "plane": 1
+  },
+  {
+    "id": 273,
+    "name": "Lucien",
+    "type": "Monster",
+    "x": 2573,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": 139,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2378,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": 139,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2375,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 139,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2376,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": 139,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2380,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 2701,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3011,
+    "y": 3181,
+    "plane": 1
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3313,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3437,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3437,
+    "y": 3311,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3451,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3447,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3354,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3504,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3509,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3498,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3493,
+    "y": 3413,
+    "plane": 0
+  },
+  {
+    "id": 1231,
+    "name": "Bark Blamish Snail",
+    "type": "Monster",
+    "x": 3524,
+    "y": 3397,
+    "plane": 0
+  },
+  {
+    "id": 1296,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2660,
+    "y": 3663,
+    "plane": 0
+  },
+  {
+    "id": 1296,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2657,
+    "y": 3663,
+    "plane": 0
+  },
+  {
+    "id": 5646,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3792,
+    "y": 2830,
+    "plane": 0
+  },
+  {
+    "id": 2702,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3180,
+    "plane": 1
+  },
+  {
+    "id": 5492,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2387,
+    "y": 3797,
+    "plane": 0
+  },
+  {
+    "id": 5492,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2414,
+    "y": 3825,
+    "plane": 0
+  },
+  {
+    "id": 5492,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2414,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3143,
+    "y": 4595,
+    "plane": 0
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3145,
+    "y": 4598,
+    "plane": 0
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3182,
+    "y": 4577,
+    "plane": 0
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3187,
+    "y": 4578,
+    "plane": 0
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3158,
+    "y": 4589,
+    "plane": 1
+  },
+  {
+    "id": 5386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3194,
+    "y": 4599,
+    "plane": 1
+  },
+  {
+    "id": 1939,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2856,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 1939,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2862,
+    "y": 3722,
+    "plane": 0
+  },
+  {
+    "id": 1939,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2864,
+    "y": 3723,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3238,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3238,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3239,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3313,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3320,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3215,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3219,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3219,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3267,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2976,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2988,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2992,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": 2693,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": 2710,
+    "name": "Water wizard",
+    "type": "Monster",
+    "x": 3001,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5341,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5331,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2847,
+    "y": 5341,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2852,
+    "y": 5350,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2844,
+    "y": 5341,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5347,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2826,
+    "y": 5335,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5351,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6277,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5361,
+    "plane": 2
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3421,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3284,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3427,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3431,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3432,
+    "y": 3311,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3427,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3407,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3399,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3446,
+    "y": 3406,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3477,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3502,
+    "y": 3455,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3516,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3511,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3484,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3483,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3457,
+    "y": 3416,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3469,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3471,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 1229,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3492,
+    "y": 3457,
+    "plane": 0
+  },
+  {
+    "id": 4489,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2943,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 4489,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2946,
+    "y": 3469,
+    "plane": 0
+  },
+  {
+    "id": 196,
+    "name": "Guard Bandit",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3670,
+    "plane": 0
+  },
+  {
+    "id": 196,
+    "name": "Guard Bandit",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3672,
+    "plane": 0
+  },
+  {
+    "id": 196,
+    "name": "Guard Bandit",
+    "type": "Monster",
+    "x": 3037,
+    "y": 3661,
+    "plane": 0
+  },
+  {
+    "id": 196,
+    "name": "Guard Bandit",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3660,
+    "plane": 0
+  },
+  {
+    "id": 2601,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4724,
+    "y": 5107,
+    "plane": 0
+  },
+  {
+    "id": 2601,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4676,
+    "y": 5123,
+    "plane": 0
+  },
+  {
+    "id": 2601,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4693,
+    "y": 5127,
+    "plane": 0
+  },
+  {
+    "id": 2601,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4788,
+    "y": 5110,
+    "plane": 0
+  },
+  {
+    "id": 5408,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3170,
+    "y": 4559,
+    "plane": 1
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3740,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3744,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3740,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3744,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2908,
+    "y": 3739,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3763,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2899,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3739,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2912,
+    "y": 3742,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3750,
+    "plane": 0
+  },
+  {
+    "id": 1955,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3751,
+    "plane": 0
+  },
+  {
+    "id": 1089,
+    "name": "Ceolburg",
+    "type": "Monster",
+    "x": 2919,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 116,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2622,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 2281,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 2281,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3177,
+    "y": 3243,
+    "plane": 0
+  },
+  {
+    "id": 2281,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3246,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 3259,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3075,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 2699,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3184,
+    "plane": 1
+  },
+  {
+    "id": 102,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2622,
+    "y": 3390,
+    "plane": 0
+  },
+  {
+    "id": 102,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2622,
+    "y": 3390,
+    "plane": 0
+  },
+  {
+    "id": 102,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2562,
+    "y": 9657,
+    "plane": 0
+  },
+  {
+    "id": 102,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2571,
+    "y": 9653,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 2575,
+    "y": 3058,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3080,
+    "y": 3451,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3460,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3142,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 2629,
+    "y": 3266,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 2634,
+    "y": 3265,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 2557,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3294,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3289,
+    "y": 3349,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 3286,
+    "y": 3345,
+    "plane": 0
+  },
+  {
+    "id": 89,
+    "name": "Unicorn",
+    "type": "Monster",
+    "x": 2783,
+    "y": 3463,
+    "plane": 0
+  },
+  {
+    "id": 6280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2871,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2879,
+    "y": 5330,
+    "plane": 2
+  },
+  {
+    "id": 6280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2877,
+    "y": 5327,
+    "plane": 2
+  },
+  {
+    "id": 6975,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": 6975,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 3664,
+    "name": "Angry bear",
+    "type": "Monster",
+    "x": 3269,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 3664,
+    "name": "Angry bear",
+    "type": "Monster",
+    "x": 3275,
+    "y": 9833,
+    "plane": 0
+  },
+  {
+    "id": 6377,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2920,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 6377,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2919,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 6377,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2910,
+    "y": 2978,
+    "plane": 0
+  },
+  {
+    "id": 5474,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2390,
+    "y": 10216,
+    "plane": 0
+  },
+  {
+    "id": 5474,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2417,
+    "y": 10228,
+    "plane": 0
+  },
+  {
+    "id": 5474,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2385,
+    "y": 10227,
+    "plane": 0
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2869,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3587,
+    "plane": 0
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2872,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2829,
+    "y": 10080,
+    "plane": 1
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2836,
+    "y": 10097,
+    "plane": 2
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2852,
+    "y": 10110,
+    "plane": 2
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2883,
+    "y": 3591,
+    "plane": 0
+  },
+  {
+    "id": 1110,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2771,
+    "y": 10143,
+    "plane": 0
+  },
+  {
+    "id": 1828,
+    "name": "Giant frog",
+    "type": "Monster",
+    "x": 3231,
+    "y": 9545,
+    "plane": 0
+  },
+  {
+    "id": 271,
+    "name": "Khazard Scorpion",
+    "type": "Monster",
+    "x": 2608,
+    "y": 3158,
+    "plane": 0
+  },
+  {
+    "id": 3349,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2961,
+    "y": 3330,
+    "plane": 2
+  },
+  {
+    "id": 3349,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2966,
+    "y": 3352,
+    "plane": 2
+  },
+  {
+    "id": 3349,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2974,
+    "y": 3328,
+    "plane": 2
+  },
+  {
+    "id": 2684,
+    "name": "Anja",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3213,
+    "plane": 1
+  },
+  {
+    "id": 6500,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2793,
+    "y": 4265,
+    "plane": 0
+  },
+  {
+    "id": 14,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2914,
+    "y": 3444,
+    "plane": 0
+  },
+  {
+    "id": 14,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2905,
+    "y": 3450,
+    "plane": 1
+  },
+  {
+    "id": 4387,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2350,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4387,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2350,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4387,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2347,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 2373,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2037,
+    "y": 4636,
+    "plane": 0
+  },
+  {
+    "id": 2373,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2038,
+    "y": 4644,
+    "plane": 0
+  },
+  {
+    "id": 2373,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2041,
+    "y": 4638,
+    "plane": 0
+  },
+  {
+    "id": 2373,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2044,
+    "y": 4642,
+    "plane": 0
+  },
+  {
+    "id": 6116,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3030,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 6116,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 6116,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3034,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2501,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2528,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2535,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 348,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 1757,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 447,
+    "name": "Jail guard",
+    "type": "Monster",
+    "x": 3114,
+    "y": 3242,
+    "plane": 0
+  },
+  {
+    "id": 663,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3290,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 4530,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2076,
+    "y": 3866,
+    "plane": 0
+  },
+  {
+    "id": 4530,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2107,
+    "y": 3945,
+    "plane": 0
+  },
+  {
+    "id": 4530,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2133,
+    "y": 3874,
+    "plane": 0
+  },
+  {
+    "id": 751,
+    "name": "Berserk barbarian spirit",
+    "type": "Monster",
+    "x": 1778,
+    "y": 5323,
+    "plane": 0
+  },
+  {
+    "id": 6034,
+    "name": "Svetlana",
+    "type": "Monster",
+    "x": 3502,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 382,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3044,
+    "y": 9758,
+    "plane": 0
+  },
+  {
+    "id": 2361,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2345,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 2361,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2340,
+    "y": 3178,
+    "plane": 0
+  },
+  {
+    "id": 7142,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3082,
+    "y": 4246,
+    "plane": 0
+  },
+  {
+    "id": 5,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2817,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 5,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": 5,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": 5,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2697,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 5,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3279,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 1774,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2592,
+    "y": 9834,
+    "plane": 0
+  },
+  {
+    "id": 1774,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3255,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": 1774,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3265,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": 1774,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3012,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 5522,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2362,
+    "y": 3893,
+    "plane": 0
+  },
+  {
+    "id": 5522,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2323,
+    "y": 3857,
+    "plane": 0
+  },
+  {
+    "id": 5522,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2331,
+    "y": 3860,
+    "plane": 0
+  },
+  {
+    "id": 5522,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2390,
+    "y": 3861,
+    "plane": 0
+  },
+  {
+    "id": 5522,
+    "name": "Ice troll male",
+    "type": "Monster",
+    "x": 2395,
+    "y": 3859,
+    "plane": 0
+  },
+  {
+    "id": 275,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2636,
+    "y": 9910,
+    "plane": 0
+  },
+  {
+    "id": 275,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2637,
+    "y": 9897,
+    "plane": 0
+  },
+  {
+    "id": 275,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2643,
+    "y": 9913,
+    "plane": 0
+  },
+  {
+    "id": 275,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2646,
+    "y": 9906,
+    "plane": 0
+  },
+  {
+    "id": 4315,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": 347,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2524,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 347,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2536,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 347,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2538,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": 3250,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3088,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 3250,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2547,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": 1681,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3202,
+    "y": 5483,
+    "plane": 0
+  },
+  {
+    "id": 1681,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2544,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5355,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5358,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2841,
+    "y": 5319,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5331,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2854,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2873,
+    "y": 5323,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2860,
+    "y": 5321,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2868,
+    "y": 5334,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5339,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2831,
+    "y": 5320,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2847,
+    "y": 5334,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2829,
+    "y": 5339,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5361,
+    "plane": 2
+  },
+  {
+    "id": 6268,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2839,
+    "y": 5360,
+    "plane": 2
+  },
+  {
+    "id": 812,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2741,
+    "y": 3562,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2817,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2884,
+    "y": 9959,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2890,
+    "y": 9950,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3209,
+    "y": 5552,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3223,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3220,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 4685,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3220,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3544,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3546,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3409,
+    "y": 3538,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3421,
+    "y": 3559,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3559,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3433,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": 1655,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3428,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": 6242,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5272,
+    "plane": 2
+  },
+  {
+    "id": 5414,
+    "name": "Animated spade",
+    "type": "Monster",
+    "x": 3176,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 5414,
+    "name": "Animated spade",
+    "type": "Monster",
+    "x": 3182,
+    "y": 5447,
+    "plane": 0
+  },
+  {
+    "id": 4491,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2963,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 4491,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2949,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2072,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2145,
+    "y": 5251,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2153,
+    "y": 5253,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2149,
+    "y": 5255,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2146,
+    "y": 5252,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2146,
+    "y": 5261,
+    "plane": 0
+  },
+  {
+    "id": 4397,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2147,
+    "y": 5254,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3179,
+    "y": 5522,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3168,
+    "y": 5513,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3174,
+    "y": 5514,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3178,
+    "y": 5517,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3178,
+    "y": 5528,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3169,
+    "y": 5516,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3179,
+    "y": 5524,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3223,
+    "y": 9393,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3225,
+    "y": 9401,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3222,
+    "y": 9375,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3220,
+    "y": 9380,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3215,
+    "y": 9364,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9361,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3212,
+    "y": 9355,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3230,
+    "y": 9367,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3240,
+    "y": 9350,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3248,
+    "y": 9348,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3255,
+    "y": 9350,
+    "plane": 0
+  },
+  {
+    "id": 1624,
+    "name": "Dust devil",
+    "type": "Monster",
+    "x": 3256,
+    "y": 9392,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3445,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 2968,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 2968,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 2978,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 2807,
+    "y": 3377,
+    "plane": 0
+  },
+  {
+    "id": 106,
+    "name": "Black bear",
+    "type": "Monster",
+    "x": 3289,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": 5323,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3221,
+    "y": 3693,
+    "plane": 0
+  },
+  {
+    "id": 2313,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3020,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 2313,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3040,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 2313,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3031,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 2313,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3020,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 955,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3176,
+    "y": 3317,
+    "plane": 0
+  },
+  {
+    "id": 955,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3169,
+    "y": 3319,
+    "plane": 0
+  },
+  {
+    "id": 1814,
+    "name": "Camp dweller",
+    "type": "Monster",
+    "x": 2794,
+    "y": 3668,
+    "plane": 0
+  },
+  {
+    "id": 1665,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 3544,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 5647,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3803,
+    "y": 2872,
+    "plane": 2
+  },
+  {
+    "id": 643,
+    "name": "Weaponsmaster",
+    "type": "Monster",
+    "x": 3246,
+    "y": 3383,
+    "plane": 1
+  },
+  {
+    "id": 3237,
+    "name": "Cuffs",
+    "type": "Monster",
+    "x": 2984,
+    "y": 3435,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3272,
+    "y": 2802,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3273,
+    "y": 2802,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3273,
+    "y": 2805,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3274,
+    "y": 2798,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3274,
+    "y": 2799,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3274,
+    "y": 2802,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3274,
+    "y": 2804,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3275,
+    "y": 2795,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3275,
+    "y": 2796,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3275,
+    "y": 2798,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3277,
+    "y": 2752,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3277,
+    "y": 2753,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3277,
+    "y": 2756,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3277,
+    "y": 2757,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3278,
+    "y": 2752,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3278,
+    "y": 2753,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3278,
+    "y": 2754,
+    "plane": 0
+  },
+  {
+    "id": 1997,
+    "name": "Plague frog",
+    "type": "Monster",
+    "x": 3278,
+    "y": 2755,
+    "plane": 0
+  },
+  {
+    "id": 2246,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3239,
+    "plane": 0
+  },
+  {
+    "id": 4995,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3279,
+    "y": 3024,
+    "plane": 0
+  },
+  {
+    "id": 4995,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3286,
+    "y": 3036,
+    "plane": 1
+  },
+  {
+    "id": 6449,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2792,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 6449,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2800,
+    "y": 4254,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2563,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2561,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2561,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2563,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3105,
+    "y": 9942,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3106,
+    "y": 9934,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3109,
+    "y": 9930,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2937,
+    "y": 9847,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2934,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2929,
+    "y": 9848,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2937,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 181,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2936,
+    "y": 9850,
+    "plane": 0
+  },
+  {
+    "id": 2248,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2540,
+    "y": 3218,
+    "plane": 0
+  },
+  {
+    "id": 2248,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2515,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 2248,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2512,
+    "y": 3215,
+    "plane": 0
+  },
+  {
+    "id": 34,
+    "name": "Watchman",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3111,
+    "plane": 1
+  },
+  {
+    "id": 34,
+    "name": "Watchman",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3116,
+    "plane": 1
+  },
+  {
+    "id": 34,
+    "name": "Watchman",
+    "type": "Monster",
+    "x": 2549,
+    "y": 3115,
+    "plane": 1
+  },
+  {
+    "id": 34,
+    "name": "Watchman",
+    "type": "Monster",
+    "x": 2549,
+    "y": 3112,
+    "plane": 1
+  },
+  {
+    "id": 870,
+    "name": "Enclave guard",
+    "type": "Monster",
+    "x": 2507,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 870,
+    "name": "Enclave guard",
+    "type": "Monster",
+    "x": 2507,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3543,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3572,
+    "y": 9680,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3559,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3535,
+    "y": 9685,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3537,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3570,
+    "y": 9697,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3552,
+    "y": 9713,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3553,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9708,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3535,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 2037,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3525,
+    "y": 9683,
+    "plane": 0
+  },
+  {
+    "id": 6045,
+    "name": "Liliya",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 1650,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3541,
+    "plane": 0
+  },
+  {
+    "id": 5347,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3288,
+    "y": 3650,
+    "plane": 0
+  },
+  {
+    "id": 6418,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2799,
+    "y": 4243,
+    "plane": 0
+  },
+  {
+    "id": 3230,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2986,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3550,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3549,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3549,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3553,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3541,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3541,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3539,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3537,
+    "plane": 1
+  },
+  {
+    "id": 1604,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3536,
+    "plane": 1
+  },
+  {
+    "id": 1775,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9829,
+    "plane": 0
+  },
+  {
+    "id": 1775,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3254,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 1775,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3010,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 3195,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3696,
+    "y": 2978,
+    "plane": 0
+  },
+  {
+    "id": 3348,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2978,
+    "y": 3343,
+    "plane": 0
+  },
+  {
+    "id": 3348,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2978,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": 3348,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2966,
+    "y": 3337,
+    "plane": 1
+  },
+  {
+    "id": 3348,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2970,
+    "y": 3330,
+    "plane": 2
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3481,
+    "y": 9942,
+    "plane": 0
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3493,
+    "y": 9925,
+    "plane": 0
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3525,
+    "y": 9932,
+    "plane": 0
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3555,
+    "y": 9927,
+    "plane": 0
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3554,
+    "y": 9947,
+    "plane": 0
+  },
+  {
+    "id": 1676,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3529,
+    "y": 9968,
+    "plane": 0
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3810,
+    "y": 2843,
+    "plane": 0
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3813,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3821,
+    "y": 2837,
+    "plane": 0
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3820,
+    "y": 2840,
+    "plane": 1
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3820,
+    "y": 2851,
+    "plane": 1
+  },
+  {
+    "id": 5628,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3823,
+    "y": 2839,
+    "plane": 1
+  },
+  {
+    "id": 7110,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3121,
+    "y": 9929,
+    "plane": 0
+  },
+  {
+    "id": 7804,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3279,
+    "y": 4350,
+    "plane": 0
+  },
+  {
+    "id": 7804,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3294,
+    "y": 4353,
+    "plane": 0
+  },
+  {
+    "id": 7804,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3294,
+    "y": 4366,
+    "plane": 0
+  },
+  {
+    "id": 3662,
+    "name": "Angry giant rat",
+    "type": "Monster",
+    "x": 3280,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 3662,
+    "name": "Angry giant rat",
+    "type": "Monster",
+    "x": 3286,
+    "y": 9830,
+    "plane": 0
+  },
+  {
+    "id": 2594,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4730,
+    "y": 5077,
+    "plane": 0
+  },
+  {
+    "id": 2594,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4703,
+    "y": 5123,
+    "plane": 0
+  },
+  {
+    "id": 2594,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4680,
+    "y": 5126,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3093,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3098,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3222,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3210,
+    "y": 3223,
+    "plane": 1
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3404,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3396,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2712,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2693,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3285,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3239,
+    "plane": 0
+  },
+  {
+    "id": 1,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2804,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3076,
+    "y": 3916,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3079,
+    "y": 3909,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3291,
+    "y": 3924,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3294,
+    "y": 3930,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3286,
+    "y": 3933,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3285,
+    "y": 3928,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3287,
+    "y": 3935,
+    "plane": 1
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3286,
+    "y": 3927,
+    "plane": 1
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3283,
+    "y": 3936,
+    "plane": 2
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3292,
+    "y": 3932,
+    "plane": 1
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3291,
+    "y": 3940,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3280,
+    "y": 3943,
+    "plane": 0
+  },
+  {
+    "id": 187,
+    "name": "Rogue",
+    "type": "Monster",
+    "x": 3278,
+    "y": 3926,
+    "plane": 0
+  },
+  {
+    "id": 3234,
+    "name": "Gardener",
+    "type": "Monster",
+    "x": 3011,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 5350,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3367,
+    "plane": 1
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2908,
+    "y": 4435,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2924,
+    "y": 4436,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2924,
+    "y": 4460,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2908,
+    "y": 4463,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2901,
+    "y": 4458,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2928,
+    "y": 4441,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2929,
+    "y": 4449,
+    "plane": 0
+  },
+  {
+    "id": 2894,
+    "name": "Spinolyp",
+    "type": "Monster",
+    "x": 2902,
+    "y": 4437,
+    "plane": 0
+  },
+  {
+    "id": 1117,
+    "name": "Troll general",
+    "type": "Monster",
+    "x": 2829,
+    "y": 10100,
+    "plane": 2
+  },
+  {
+    "id": 6029,
+    "name": "Joseph",
+    "type": "Monster",
+    "x": 3474,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3176,
+    "y": 5543,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3191,
+    "y": 5542,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3175,
+    "y": 5543,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3178,
+    "y": 5541,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3187,
+    "y": 5542,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3192,
+    "y": 5545,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3192,
+    "y": 5542,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 3179,
+    "y": 5549,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1757,
+    "y": 5358,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1760,
+    "y": 5357,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1755,
+    "y": 5352,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1751,
+    "y": 5342,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1745,
+    "y": 5342,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1739,
+    "y": 5342,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1737,
+    "y": 5344,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1739,
+    "y": 5347,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1740,
+    "y": 5350,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1739,
+    "y": 5355,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1747,
+    "y": 5363,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1749,
+    "y": 5363,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1743,
+    "y": 5360,
+    "plane": 0
+  },
+  {
+    "id": 5361,
+    "name": "Waterfiend",
+    "type": "Monster",
+    "x": 1739,
+    "y": 5356,
+    "plane": 0
+  },
+  {
+    "id": 1205,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 3054,
+    "y": 3254,
+    "plane": 0
+  },
+  {
+    "id": 2070,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3324,
+    "y": 9621,
+    "plane": 0
+  },
+  {
+    "id": 5355,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2873,
+    "y": 2950,
+    "plane": 0
+  },
+  {
+    "id": 5355,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2876,
+    "y": 2951,
+    "plane": 0
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2920,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2902,
+    "y": 5357,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2885,
+    "y": 5315,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2898,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2908,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2925,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 6211,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2928,
+    "y": 5355,
+    "plane": 2
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3030,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2549,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": 2314,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3564,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3534,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3072,
+    "y": 3531,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3112,
+    "y": 3538,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2852,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2865,
+    "y": 9567,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3373,
+    "y": 9748,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3378,
+    "y": 9748,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3382,
+    "y": 9753,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3373,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3378,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3382,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3110,
+    "y": 9909,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3121,
+    "y": 9910,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3133,
+    "y": 9909,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3133,
+    "y": 9904,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3129,
+    "y": 9916,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3133,
+    "y": 9916,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2925,
+    "y": 3254,
+    "plane": 2
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3252,
+    "plane": 2
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2926,
+    "y": 3255,
+    "plane": 2
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3255,
+    "plane": 2
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2931,
+    "y": 3251,
+    "plane": 2
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3183,
+    "y": 5447,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3177,
+    "y": 5457,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3187,
+    "y": 5456,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2885,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2883,
+    "y": 9836,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3141,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3208,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3011,
+    "y": 3590,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": 90,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3586,
+    "plane": 0
+  },
+  {
+    "id": 5880,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2439,
+    "y": 5544,
+    "plane": 0
+  },
+  {
+    "id": 5880,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2485,
+    "y": 5535,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2707,
+    "y": 9102,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2704,
+    "y": 9107,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2705,
+    "y": 9110,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2708,
+    "y": 9107,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2743,
+    "y": 9105,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2741,
+    "y": 9103,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2744,
+    "y": 9101,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2743,
+    "y": 9099,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2737,
+    "y": 9124,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2741,
+    "y": 9123,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2740,
+    "y": 9120,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2736,
+    "y": 9119,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2734,
+    "y": 9117,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2712,
+    "y": 9135,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2714,
+    "y": 9131,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2709,
+    "y": 9131,
+    "plane": 0
+  },
+  {
+    "id": 1471,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2708,
+    "y": 9135,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2399,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2383,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2401,
+    "y": 3417,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2402,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2402,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2403,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2408,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2409,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2423,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2427,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2427,
+    "y": 3440,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2417,
+    "y": 3493,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2418,
+    "y": 3495,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2435,
+    "y": 3460,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2440,
+    "y": 3470,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2447,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2457,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2478,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2449,
+    "y": 3492,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3490,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2474,
+    "y": 3490,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3492,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3498,
+    "plane": 1
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3168,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2529,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 66,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2536,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3118,
+    "y": 9845,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3123,
+    "y": 9845,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3114,
+    "y": 9833,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3110,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3119,
+    "y": 9839,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3097,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3101,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3107,
+    "y": 9829,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3115,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3109,
+    "y": 9835,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2369,
+    "y": 3404,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2904,
+    "y": 9734,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3214,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3146,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2542,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2503,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3300,
+    "y": 3649,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3044,
+    "y": 10321,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3044,
+    "y": 10316,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3045,
+    "y": 10308,
+    "plane": 0
+  },
+  {
+    "id": 117,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3048,
+    "y": 10317,
+    "plane": 0
+  },
+  {
+    "id": 2072,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2580,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2590,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2589,
+    "y": 3140,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2601,
+    "y": 3177,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2607,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 253,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2612,
+    "y": 3187,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3254,
+    "y": 3258,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3261,
+    "y": 3260,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3260,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3252,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3264,
+    "y": 3258,
+    "plane": 0
+  },
+  {
+    "id": 397,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 2277,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 5641,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3799,
+    "y": 2855,
+    "plane": 0
+  },
+  {
+    "id": 23,
+    "name": "Knight of Ardougne",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 23,
+    "name": "Knight of Ardougne",
+    "type": "Monster",
+    "x": 2652,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 23,
+    "name": "Knight of Ardougne",
+    "type": "Monster",
+    "x": 2653,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 23,
+    "name": "Knight of Ardougne",
+    "type": "Monster",
+    "x": 2669,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 23,
+    "name": "Knight of Ardougne",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3313,
+    "plane": 0
+  },
+  {
+    "id": 5834,
+    "name": "Surok Magis",
+    "type": "Monster",
+    "x": 3208,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 2595,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4633,
+    "y": 5069,
+    "plane": 0
+  },
+  {
+    "id": 2595,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4647,
+    "y": 5132,
+    "plane": 0
+  },
+  {
+    "id": 2595,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4699,
+    "y": 5100,
+    "plane": 0
+  },
+  {
+    "id": 2595,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4757,
+    "y": 5100,
+    "plane": 0
+  },
+  {
+    "id": 1193,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2297,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2818,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3095,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3094,
+    "y": 3513,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3097,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3231,
+    "y": 3239,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2699,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3306,
+    "y": 3200,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3300,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 3,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3278,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 5489,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2372,
+    "y": 3801,
+    "plane": 2
+  },
+  {
+    "id": 6498,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2796,
+    "y": 4256,
+    "plane": 0
+  },
+  {
+    "id": 6465,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2764,
+    "y": 4251,
+    "plane": 0
+  },
+  {
+    "id": 6043,
+    "name": "Vera",
+    "type": "Monster",
+    "x": 3490,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 4605,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 4605,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 4605,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3516,
+    "plane": 0
+  },
+  {
+    "id": 2050,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2461,
+    "y": 3047,
+    "plane": 0
+  },
+  {
+    "id": 2050,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2466,
+    "y": 3052,
+    "plane": 0
+  },
+  {
+    "id": 8349,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2589,
+    "y": 5735,
+    "plane": 0
+  },
+  {
+    "id": 8349,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2589,
+    "y": 5713,
+    "plane": 0
+  },
+  {
+    "id": 8349,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2610,
+    "y": 5709,
+    "plane": 0
+  },
+  {
+    "id": 8349,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2613,
+    "y": 5732,
+    "plane": 0
+  },
+  {
+    "id": 1195,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2215,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": 1195,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2200,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 1195,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2293,
+    "y": 3156,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2322,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3195,
+    "y": 3265,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2656,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2656,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2653,
+    "y": 4716,
+    "plane": 0
+  },
+  {
+    "id": 3673,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3351,
+    "plane": 0
+  },
+  {
+    "id": 1377,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 2544,
+    "y": 3843,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3670,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3654,
+    "y": 2960,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3698,
+    "y": 2969,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3676,
+    "y": 2991,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3666,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3666,
+    "y": 2981,
+    "plane": 1
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2805,
+    "y": 3160,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2803,
+    "y": 3190,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2795,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 183,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2793,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3301,
+    "y": 4413,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3302,
+    "y": 4394,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3304,
+    "y": 4397,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3306,
+    "y": 4410,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3307,
+    "y": 4383,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3307,
+    "y": 4397,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3308,
+    "y": 4407,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3310,
+    "y": 4383,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3310,
+    "y": 4386,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3310,
+    "y": 4398,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3311,
+    "y": 4407,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3312,
+    "y": 4380,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3313,
+    "y": 4401,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3314,
+    "y": 4411,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4376,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4382,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4387,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4397,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4401,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3316,
+    "y": 4405,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3317,
+    "y": 4391,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3318,
+    "y": 4412,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3319,
+    "y": 4373,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3319,
+    "y": 4407,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3321,
+    "y": 4385,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3321,
+    "y": 4398,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3322,
+    "y": 4412,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3323,
+    "y": 4402,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3324,
+    "y": 4394,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3324,
+    "y": 4397,
+    "plane": 0
+  },
+  {
+    "id": 7787,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3325,
+    "y": 4410,
+    "plane": 0
+  },
+  {
+    "id": 5371,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2356,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 5371,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 6420,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2796,
+    "y": 4277,
+    "plane": 0
+  },
+  {
+    "id": 3248,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3073,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 4348,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3676,
+    "y": 3017,
+    "plane": 0
+  },
+  {
+    "id": 4348,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3687,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 4348,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3707,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 4348,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3729,
+    "y": 3021,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2189,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2183,
+    "y": 3156,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2194,
+    "y": 3156,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2182,
+    "y": 3148,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2179,
+    "y": 3137,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2189,
+    "y": 3136,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2182,
+    "y": 3146,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2187,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 1203,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2180,
+    "y": 3180,
+    "plane": 0
+  },
+  {
+    "id": 3243,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2906,
+    "y": 3331,
+    "plane": 0
+  },
+  {
+    "id": 3243,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2909,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": 5848,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 298,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3513,
+    "plane": 0
+  },
+  {
+    "id": 2680,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 9836,
+    "plane": 0
+  },
+  {
+    "id": 2680,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2985,
+    "y": 3193,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2195,
+    "y": 3808,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2196,
+    "y": 3822,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2197,
+    "y": 3805,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2197,
+    "y": 3813,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2201,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2202,
+    "y": 3824,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2203,
+    "y": 3804,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2207,
+    "y": 3813,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2211,
+    "y": 3818,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2214,
+    "y": 3819,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3237,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3244,
+    "y": 5554,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3239,
+    "y": 5553,
+    "plane": 0
+  },
+  {
+    "id": 4706,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3249,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 2312,
+    "name": "Rooster",
+    "type": "Monster",
+    "x": 3014,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 5847,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3115,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 1818,
+    "name": "Camp dweller",
+    "type": "Monster",
+    "x": 2802,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": 1115,
+    "name": "Troll general",
+    "type": "Monster",
+    "x": 2831,
+    "y": 10086,
+    "plane": 2
+  },
+  {
+    "id": 1642,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2703,
+    "y": 10020,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3388,
+    "y": 3067,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3396,
+    "y": 3064,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3402,
+    "y": 3063,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3430,
+    "y": 3014,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3416,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 2804,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3410,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 2054,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 1157,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3480,
+    "y": 9508,
+    "plane": 0
+  },
+  {
+    "id": 1157,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3495,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 1157,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3492,
+    "y": 9490,
+    "plane": 0
+  },
+  {
+    "id": 1157,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3472,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 5327,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3678,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4821,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4813,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3032,
+    "y": 4808,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4820,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4828,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3036,
+    "y": 4856,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4837,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3025,
+    "y": 4850,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3052,
+    "y": 4858,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3024,
+    "y": 4813,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3048,
+    "y": 4854,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3034,
+    "y": 4852,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3028,
+    "y": 4808,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3018,
+    "y": 4843,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3028,
+    "y": 4851,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3016,
+    "y": 4831,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3043,
+    "y": 4810,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4888,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3039,
+    "y": 4871,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3049,
+    "y": 4921,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3019,
+    "y": 4877,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4893,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3019,
+    "y": 4898,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4912,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3054,
+    "y": 4915,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3052,
+    "y": 4898,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3034,
+    "y": 4905,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3052,
+    "y": 4896,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3046,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4884,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3049,
+    "y": 4873,
+    "plane": 0
+  },
+  {
+    "id": 2264,
+    "name": "Abyssal guardian",
+    "type": "Monster",
+    "x": 3041,
+    "y": 4871,
+    "plane": 0
+  },
+  {
+    "id": 1608,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2698,
+    "y": 9999,
+    "plane": 0
+  },
+  {
+    "id": 1608,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2695,
+    "y": 9997,
+    "plane": 0
+  },
+  {
+    "id": 1608,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2697,
+    "y": 9996,
+    "plane": 0
+  },
+  {
+    "id": 1608,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2695,
+    "y": 9999,
+    "plane": 0
+  },
+  {
+    "id": 6421,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2768,
+    "y": 4254,
+    "plane": 0
+  },
+  {
+    "id": 6460,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2783,
+    "y": 4251,
+    "plane": 0
+  },
+  {
+    "id": 6460,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2789,
+    "y": 4264,
+    "plane": 0
+  },
+  {
+    "id": 6460,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2801,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 3196,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3649,
+    "y": 3004,
+    "plane": 0
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2415,
+    "y": 3433,
+    "plane": 3
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2384,
+    "y": 3481,
+    "plane": 0
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2388,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2418,
+    "y": 3474,
+    "plane": 3
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2466,
+    "y": 3500,
+    "plane": 2
+  },
+  {
+    "id": 479,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 1970,
+    "y": 5522,
+    "plane": 3
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4617,
+    "y": 5073,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4691,
+    "y": 5090,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4727,
+    "y": 5082,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4711,
+    "y": 5125,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4748,
+    "y": 5070,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2440,
+    "y": 5128,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2436,
+    "y": 5133,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2450,
+    "y": 5168,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5170,
+    "plane": 0
+  },
+  {
+    "id": 2609,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2445,
+    "y": 5177,
+    "plane": 0
+  },
+  {
+    "id": 6346,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2799,
+    "y": 3186,
+    "plane": 0
+  },
+  {
+    "id": 6346,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2797,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": 6346,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2793,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 6347,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2799,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 6347,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2787,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3381,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3363,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3441,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3413,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3421,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3440,
+    "y": 3406,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3494,
+    "y": 3388,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3467,
+    "y": 3346,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3465,
+    "y": 3347,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3507,
+    "y": 3435,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3511,
+    "y": 3455,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3508,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3508,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3506,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3502,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3481,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3480,
+    "y": 3445,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3471,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3459,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3459,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3459,
+    "y": 3418,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3456,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3484,
+    "y": 3456,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3486,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3563,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3544,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3540,
+    "y": 3413,
+    "plane": 0
+  },
+  {
+    "id": 1227,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3529,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1558,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2800,
+    "y": 3859,
+    "plane": 0
+  },
+  {
+    "id": 1558,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2803,
+    "y": 3864,
+    "plane": 0
+  },
+  {
+    "id": 1558,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2805,
+    "y": 3859,
+    "plane": 0
+  },
+  {
+    "id": 222,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3351,
+    "plane": 0
+  },
+  {
+    "id": 222,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 2849,
+    "y": 3348,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1848,
+    "y": 5176,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1870,
+    "y": 5232,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1858,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1871,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1862,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1875,
+    "y": 5219,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5220,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1859,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1877,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1862,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1858,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1858,
+    "y": 5202,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1875,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1875,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1861,
+    "y": 5194,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1861,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1867,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1866,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5196,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1877,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1877,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1881,
+    "y": 5198,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1883,
+    "y": 5203,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5198,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1863,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1883,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1861,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1887,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1883,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1884,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1876,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1879,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1870,
+    "y": 5217,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1881,
+    "y": 5221,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1871,
+    "y": 5218,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1872,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5219,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1884,
+    "y": 5228,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5231,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1879,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1897,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1884,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1884,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1885,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1879,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1893,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1880,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1902,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1901,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1910,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1911,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1881,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1879,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1880,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1879,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1911,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1912,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1912,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1913,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1907,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1909,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1908,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1889,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 4415,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1912,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2790,
+    "y": 2791,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2803,
+    "y": 2785,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2797,
+    "y": 2792,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2800,
+    "y": 2779,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2788,
+    "y": 2779,
+    "plane": 0
+  },
+  {
+    "id": 1459,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2795,
+    "y": 2776,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2871,
+    "y": 3091,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2862,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3113,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3110,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2873,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2886,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2892,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2883,
+    "y": 3105,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2889,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": 3153,
+    "name": "Harpie Bug Swarm",
+    "type": "Monster",
+    "x": 2883,
+    "y": 3110,
+    "plane": 0
+  },
+  {
+    "id": 3269,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 4398,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2160,
+    "y": 5282,
+    "plane": 0
+  },
+  {
+    "id": 4398,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2162,
+    "y": 5284,
+    "plane": 0
+  },
+  {
+    "id": 4398,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2164,
+    "y": 5281,
+    "plane": 0
+  },
+  {
+    "id": 3224,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3047,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 6450,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2764,
+    "y": 4266,
+    "plane": 0
+  },
+  {
+    "id": 6450,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2781,
+    "y": 4261,
+    "plane": 0
+  },
+  {
+    "id": 4413,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2645,
+    "y": 3580,
+    "plane": 0
+  },
+  {
+    "id": 4413,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1871,
+    "y": 5228,
+    "plane": 0
+  },
+  {
+    "id": 4413,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1872,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 7130,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1625,
+    "y": 4689,
+    "plane": 0
+  },
+  {
+    "id": 7130,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1614,
+    "y": 4704,
+    "plane": 0
+  },
+  {
+    "id": 7130,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1631,
+    "y": 4719,
+    "plane": 0
+  },
+  {
+    "id": 7130,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1651,
+    "y": 4705,
+    "plane": 0
+  },
+  {
+    "id": 5395,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3141,
+    "y": 4598,
+    "plane": 0
+  },
+  {
+    "id": 5395,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3170,
+    "y": 4592,
+    "plane": 0
+  },
+  {
+    "id": 5395,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3144,
+    "y": 4589,
+    "plane": 1
+  },
+  {
+    "id": 2135,
+    "name": "Black Guard Berserker",
+    "type": "Monster",
+    "x": 2825,
+    "y": 10209,
+    "plane": 0
+  },
+  {
+    "id": 270,
+    "name": "Khazard Ogre",
+    "type": "Monster",
+    "x": 2608,
+    "y": 3165,
+    "plane": 0
+  },
+  {
+    "id": 5629,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3811,
+    "y": 2826,
+    "plane": 0
+  },
+  {
+    "id": 4483,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2944,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 4483,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2961,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": 4483,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2953,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3694,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3728,
+    "y": 2965,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3760,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3758,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3714,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3770,
+    "y": 3008,
+    "plane": 0
+  },
+  {
+    "id": 4351,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3787,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 6088,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3253,
+    "plane": 0
+  },
+  {
+    "id": 6088,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 6088,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2933,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 6088,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 6088,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2925,
+    "y": 3256,
+    "plane": 0
+  },
+  {
+    "id": 3220,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3338,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3153,
+    "y": 3047,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3063,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3199,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3223,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3215,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3124,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3260,
+    "y": 3077,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3266,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3267,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3287,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3287,
+    "y": 3067,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3310,
+    "y": 3070,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3312,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3320,
+    "y": 3054,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3324,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3325,
+    "y": 3033,
+    "plane": 0
+  },
+  {
+    "id": 6051,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3283,
+    "y": 3084,
+    "plane": 0
+  },
+  {
+    "id": 6452,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2772,
+    "y": 4235,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 3184,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 3148,
+    "y": 5514,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 3144,
+    "y": 5514,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 2730,
+    "y": 9490,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 2731,
+    "y": 9482,
+    "plane": 0
+  },
+  {
+    "id": 1590,
+    "name": "Bronze dragon",
+    "type": "Monster",
+    "x": 2742,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3158,
+    "y": 4552,
+    "plane": 0
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3163,
+    "y": 4569,
+    "plane": 0
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3177,
+    "y": 4549,
+    "plane": 0
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3184,
+    "y": 4550,
+    "plane": 0
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3158,
+    "y": 4560,
+    "plane": 1
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3174,
+    "y": 4566,
+    "plane": 1
+  },
+  {
+    "id": 5391,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3195,
+    "y": 4577,
+    "plane": 1
+  },
+  {
+    "id": 4488,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2946,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 4488,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": 5298,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2499,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": 6502,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2775,
+    "y": 4247,
+    "plane": 0
+  },
+  {
+    "id": 7162,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3144,
+    "y": 4229,
+    "plane": 2
+  },
+  {
+    "id": 7162,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3143,
+    "y": 4236,
+    "plane": 2
+  },
+  {
+    "id": 7162,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3145,
+    "y": 4235,
+    "plane": 2
+  },
+  {
+    "id": 7162,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3148,
+    "y": 4244,
+    "plane": 2
+  },
+  {
+    "id": 2075,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3312,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 24,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2614,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 24,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2621,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 4670,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 3181,
+    "y": 3850,
+    "plane": 0
+  },
+  {
+    "id": 4990,
+    "name": "Mercenary",
+    "type": "Monster",
+    "x": 3269,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 648,
+    "name": "King Roald",
+    "type": "Monster",
+    "x": 3220,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2890,
+    "y": 5304,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2891,
+    "y": 5297,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2890,
+    "y": 5291,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2900,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5303,
+    "plane": 2
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5282,
+    "plane": 1
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5295,
+    "plane": 1
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5297,
+    "plane": 0
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2920,
+    "y": 5291,
+    "plane": 1
+  },
+  {
+    "id": 6259,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2920,
+    "y": 5290,
+    "plane": 1
+  },
+  {
+    "id": 2596,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4628,
+    "y": 5117,
+    "plane": 0
+  },
+  {
+    "id": 2596,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4787,
+    "y": 5118,
+    "plane": 0
+  },
+  {
+    "id": 2596,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 2483,
+    "y": 5155,
+    "plane": 0
+  },
+  {
+    "id": 1629,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3162,
+    "y": 5538,
+    "plane": 0
+  },
+  {
+    "id": 1629,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3157,
+    "y": 5538,
+    "plane": 0
+  },
+  {
+    "id": 1629,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3155,
+    "y": 5537,
+    "plane": 0
+  },
+  {
+    "id": 1629,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3164,
+    "y": 5538,
+    "plane": 0
+  },
+  {
+    "id": 424,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2724,
+    "y": 5359,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3193,
+    "y": 3959,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3188,
+    "y": 3960,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3962,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3959,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3192,
+    "y": 3961,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3960,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3193,
+    "y": 3959,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3961,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 3193,
+    "y": 3958,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2956,
+    "y": 9791,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2966,
+    "y": 9788,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2959,
+    "y": 9783,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2964,
+    "y": 9775,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2954,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2955,
+    "y": 9795,
+    "plane": 0
+  },
+  {
+    "id": 127,
+    "name": "Magic axe",
+    "type": "Monster",
+    "x": 2962,
+    "y": 9792,
+    "plane": 0
+  },
+  {
+    "id": 1112,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2867,
+    "y": 3595,
+    "plane": 0
+  },
+  {
+    "id": 1112,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2871,
+    "y": 3597,
+    "plane": 0
+  },
+  {
+    "id": 1112,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2832,
+    "y": 10089,
+    "plane": 1
+  },
+  {
+    "id": 1112,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2836,
+    "y": 10077,
+    "plane": 2
+  },
+  {
+    "id": 1112,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2925,
+    "y": 10030,
+    "plane": 0
+  },
+  {
+    "id": 2591,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4786,
+    "y": 5106,
+    "plane": 0
+  },
+  {
+    "id": 2591,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 2474,
+    "y": 5145,
+    "plane": 0
+  },
+  {
+    "id": 6232,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5261,
+    "plane": 2
+  },
+  {
+    "id": 6232,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2863,
+    "y": 5308,
+    "plane": 2
+  },
+  {
+    "id": 6232,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5288,
+    "plane": 2
+  },
+  {
+    "id": 6438,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2790,
+    "y": 4254,
+    "plane": 0
+  },
+  {
+    "id": 6438,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2800,
+    "y": 4256,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9542,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3164,
+    "y": 9542,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3166,
+    "y": 9542,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3208,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3211,
+    "y": 9570,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3211,
+    "y": 9570,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3208,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3208,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3207,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 1831,
+    "name": "Cave slime",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9570,
+    "plane": 0
+  },
+  {
+    "id": 1321,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2736,
+    "y": 3642,
+    "plane": 0
+  },
+  {
+    "id": 1321,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2744,
+    "y": 3638,
+    "plane": 0
+  },
+  {
+    "id": 3787,
+    "name": "Sir Palomedes",
+    "type": "Monster",
+    "x": 2754,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 1761,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3121,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2864,
+    "y": 9950,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2865,
+    "y": 9951,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2866,
+    "y": 9948,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9948,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9951,
+    "plane": 0
+  },
+  {
+    "id": 145,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2868,
+    "y": 9950,
+    "plane": 0
+  },
+  {
+    "id": 5358,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2874,
+    "y": 2954,
+    "plane": 0
+  },
+  {
+    "id": 6428,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2768,
+    "y": 4268,
+    "plane": 0
+  },
+  {
+    "id": 5365,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2354,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 5365,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2351,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 856,
+    "name": "Gorad",
+    "type": "Monster",
+    "x": 2577,
+    "y": 3021,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2869,
+    "y": 9912,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2819,
+    "y": 9950,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2824,
+    "y": 9934,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2827,
+    "y": 9925,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2828,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9969,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2872,
+    "y": 9972,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2684,
+    "y": 9798,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2885,
+    "y": 9962,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2887,
+    "y": 9936,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3917,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2960,
+    "y": 3925,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2961,
+    "y": 3920,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3915,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3933,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2963,
+    "y": 3923,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2963,
+    "y": 3929,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3927,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3931,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2691,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2694,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2696,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2702,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2709,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2720,
+    "y": 9847,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2733,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2740,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2745,
+    "y": 9836,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2745,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 64,
+    "name": "Ice spider",
+    "type": "Monster",
+    "x": 2747,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 297,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3093,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": 905,
+    "name": "Kolodion",
+    "type": "Monster",
+    "x": 2540,
+    "y": 4719,
+    "plane": 0
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5290,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2880,
+    "y": 5304,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2885,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2895,
+    "y": 5310,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5280,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2885,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5291,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5285,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2893,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5292,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2908,
+    "y": 5297,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2910,
+    "y": 5297,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2897,
+    "y": 5308,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5299,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2921,
+    "y": 5292,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5288,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5287,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2908,
+    "y": 5300,
+    "plane": 0
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2907,
+    "y": 5294,
+    "plane": 0
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5293,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5298,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5291,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2917,
+    "y": 5285,
+    "plane": 1
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5295,
+    "plane": 0
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2887,
+    "y": 5312,
+    "plane": 2
+  },
+  {
+    "id": 6255,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3014,
+    "y": 9971,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3016,
+    "y": 9969,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3028,
+    "y": 9942,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3029,
+    "y": 9943,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3030,
+    "y": 9951,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3033,
+    "y": 9950,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3045,
+    "y": 9965,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3061,
+    "y": 9953,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3062,
+    "y": 9953,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3030,
+    "y": 9995,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3016,
+    "y": 10023,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3029,
+    "y": 10014,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3029,
+    "y": 10030,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3036,
+    "y": 10005,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3042,
+    "y": 9994,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3047,
+    "y": 10005,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3049,
+    "y": 10002,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3053,
+    "y": 9998,
+    "plane": 2
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3031,
+    "y": 10100,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3044,
+    "y": 10098,
+    "plane": 1
+  },
+  {
+    "id": 8320,
+    "name": "Elite Dark Mage",
+    "type": "Monster",
+    "x": 3049,
+    "y": 10102,
+    "plane": 1
+  },
+  {
+    "id": 1626,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2723,
+    "y": 10005,
+    "plane": 0
+  },
+  {
+    "id": 1626,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2726,
+    "y": 9998,
+    "plane": 0
+  },
+  {
+    "id": 1626,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2723,
+    "y": 10009,
+    "plane": 0
+  },
+  {
+    "id": 6247,
+    "name": "Commander Zilyana",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5265,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2868,
+    "y": 3053,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2840,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2919,
+    "y": 2983,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2937,
+    "y": 2993,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2940,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2940,
+    "y": 2997,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2942,
+    "y": 2997,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2730,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2729,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2727,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2725,
+    "y": 3157,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2726,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2725,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2723,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2723,
+    "y": 3156,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2725,
+    "y": 3162,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2775,
+    "y": 3066,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2802,
+    "y": 3071,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2770,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 191,
+    "name": "Tribesman",
+    "type": "Monster",
+    "x": 2770,
+    "y": 3014,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2679,
+    "y": 3080,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2684,
+    "y": 3084,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2682,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2678,
+    "y": 3095,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2679,
+    "y": 3102,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2681,
+    "y": 3110,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2683,
+    "y": 3115,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2675,
+    "y": 3108,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3113,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2676,
+    "y": 3090,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2670,
+    "y": 3088,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2664,
+    "y": 3088,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2660,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2662,
+    "y": 3088,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2670,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2674,
+    "y": 3081,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2663,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2679,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": 2491,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2682,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 1617,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2743,
+    "y": 10003,
+    "plane": 0
+  },
+  {
+    "id": 1617,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2746,
+    "y": 10008,
+    "plane": 0
+  },
+  {
+    "id": 1617,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2743,
+    "y": 10015,
+    "plane": 0
+  },
+  {
+    "id": 1617,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2745,
+    "y": 10011,
+    "plane": 0
+  },
+  {
+    "id": 1617,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2744,
+    "y": 10016,
+    "plane": 0
+  },
+  {
+    "id": 3238,
+    "name": "Narf",
+    "type": "Monster",
+    "x": 2981,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": 5801,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2730,
+    "y": 5333,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3105,
+    "y": 9517,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3101,
+    "y": 9517,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3102,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3106,
+    "y": 9519,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3104,
+    "y": 9514,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3104,
+    "y": 9518,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3107,
+    "y": 9519,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3109,
+    "y": 9516,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3107,
+    "y": 9515,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3105,
+    "y": 9512,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3102,
+    "y": 9513,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3100,
+    "y": 9514,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3100,
+    "y": 9516,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3099,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3103,
+    "y": 9523,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3098,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3094,
+    "y": 9883,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3119,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3188,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3181,
+    "y": 3191,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3185,
+    "y": 3199,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3176,
+    "y": 3198,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3168,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3178,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3168,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3195,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2632,
+    "y": 9696,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2639,
+    "y": 9697,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2646,
+    "y": 9696,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2650,
+    "y": 9697,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2646,
+    "y": 9702,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2647,
+    "y": 9713,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2641,
+    "y": 9719,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2650,
+    "y": 9716,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3212,
+    "y": 3191,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3207,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3216,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3183,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3222,
+    "y": 3185,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3216,
+    "y": 3177,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3200,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3202,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3700,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2967,
+    "y": 3694,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2973,
+    "y": 3694,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3495,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3502,
+    "y": 9807,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3249,
+    "y": 9868,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3237,
+    "y": 9868,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3221,
+    "y": 9873,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3225,
+    "y": 9862,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3237,
+    "y": 9866,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3232,
+    "y": 9867,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3219,
+    "y": 9862,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3227,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3187,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3291,
+    "y": 3388,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3049,
+    "y": 3691,
+    "plane": 0
+  },
+  {
+    "id": 86,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3276,
+    "y": 9870,
+    "plane": 0
+  },
+  {
+    "id": 4942,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3191,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": 5388,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3156,
+    "y": 4567,
+    "plane": 2
+  },
+  {
+    "id": 5475,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2396,
+    "y": 10232,
+    "plane": 0
+  },
+  {
+    "id": 5475,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2402,
+    "y": 10225,
+    "plane": 0
+  },
+  {
+    "id": 5475,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2420,
+    "y": 10221,
+    "plane": 0
+  },
+  {
+    "id": 2359,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2335,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": 20,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2588,
+    "y": 3301,
+    "plane": 1
+  },
+  {
+    "id": 4675,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2460,
+    "y": 4374,
+    "plane": 0
+  },
+  {
+    "id": 4675,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 3048,
+    "y": 10266,
+    "plane": 0
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2563,
+    "y": 9885,
+    "plane": 0
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9897,
+    "plane": 0
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2655,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2631,
+    "y": 9579,
+    "plane": 2
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3211,
+    "y": 5519,
+    "plane": 0
+  },
+  {
+    "id": 1583,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3254,
+    "y": 5513,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3446,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3446,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3449,
+    "y": 3304,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3409,
+    "y": 3387,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3377,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3351,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3513,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3491,
+    "y": 3388,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3461,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3473,
+    "y": 3348,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3477,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3493,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3493,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3518,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3519,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3506,
+    "y": 3417,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3519,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3499,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3516,
+    "y": 3410,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3483,
+    "y": 3444,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3466,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3466,
+    "y": 3407,
+    "plane": 0
+  },
+  {
+    "id": 1234,
+    "name": "Ochre Blamish Snail",
+    "type": "Monster",
+    "x": 3520,
+    "y": 3412,
+    "plane": 0
+  },
+  {
+    "id": 83,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3169,
+    "y": 3711,
+    "plane": 0
+  },
+  {
+    "id": 83,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2639,
+    "y": 9477,
+    "plane": 2
+  },
+  {
+    "id": 83,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2635,
+    "y": 9497,
+    "plane": 2
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3187,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3190,
+    "y": 5563,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3193,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9377,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3209,
+    "y": 9397,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3245,
+    "y": 9401,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3237,
+    "y": 9402,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3207,
+    "y": 9349,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3220,
+    "y": 9347,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3233,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3235,
+    "y": 9354,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3259,
+    "y": 9370,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3258,
+    "y": 9387,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2707,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2711,
+    "y": 9876,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2712,
+    "y": 9871,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2715,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2720,
+    "y": 9871,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2717,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2722,
+    "y": 9879,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 2723,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3278,
+    "y": 9368,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3271,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3287,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3301,
+    "y": 9394,
+    "plane": 0
+  },
+  {
+    "id": 1019,
+    "name": "Fire elemental",
+    "type": "Monster",
+    "x": 3318,
+    "y": 9352,
+    "plane": 0
+  },
+  {
+    "id": 651,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3148,
+    "y": 3207,
+    "plane": 0
+  },
+  {
+    "id": 5609,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3786,
+    "y": 2824,
+    "plane": 1
+  },
+  {
+    "id": 6046,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 2835,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 6046,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3306,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 6046,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3309,
+    "y": 5543,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2892,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3730,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2922,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2893,
+    "y": 3725,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 3727,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3725,
+    "plane": 0
+  },
+  {
+    "id": 1952,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": 5850,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3115,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2347,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2323,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2319,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2323,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2318,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 5370,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2326,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 2078,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3313,
+    "y": 9622,
+    "plane": 0
+  },
+  {
+    "id": 6032,
+    "name": "Lev",
+    "type": "Monster",
+    "x": 3502,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 691,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2668,
+    "y": 3414,
+    "plane": 2
+  },
+  {
+    "id": 691,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2667,
+    "y": 3412,
+    "plane": 2
+  },
+  {
+    "id": 691,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2669,
+    "y": 3412,
+    "plane": 2
+  },
+  {
+    "id": 7802,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3288,
+    "y": 4350,
+    "plane": 0
+  },
+  {
+    "id": 7802,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3296,
+    "y": 4340,
+    "plane": 0
+  },
+  {
+    "id": 7802,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3288,
+    "y": 4361,
+    "plane": 0
+  },
+  {
+    "id": 7802,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3310,
+    "y": 4355,
+    "plane": 0
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5290,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5347,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2875,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5327,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2909,
+    "y": 5297,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5293,
+    "plane": 1
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5295,
+    "plane": 1
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5293,
+    "plane": 1
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2908,
+    "y": 5346,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2913,
+    "y": 5355,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2916,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5356,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2927,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2928,
+    "y": 5350,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2931,
+    "y": 5357,
+    "plane": 2
+  },
+  {
+    "id": 6213,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2911,
+    "y": 5338,
+    "plane": 2
+  },
+  {
+    "id": 296,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3084,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2453,
+    "y": 9393,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2461,
+    "y": 9403,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2464,
+    "y": 9380,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2442,
+    "y": 9436,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2458,
+    "y": 9413,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2470,
+    "y": 9435,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2472,
+    "y": 9460,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2483,
+    "y": 9413,
+    "plane": 2
+  },
+  {
+    "id": 2057,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2485,
+    "y": 9447,
+    "plane": 2
+  },
+  {
+    "id": 3241,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2969,
+    "y": 3451,
+    "plane": 0
+  },
+  {
+    "id": 7113,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3127,
+    "y": 9932,
+    "plane": 0
+  },
+  {
+    "id": 2674,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 5376,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2031,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 2784,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2022,
+    "y": 4616,
+    "plane": 0
+  },
+  {
+    "id": 2784,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2024,
+    "y": 4620,
+    "plane": 0
+  },
+  {
+    "id": 2704,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3185,
+    "plane": 0
+  },
+  {
+    "id": 6279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2857,
+    "y": 5315,
+    "plane": 2
+  },
+  {
+    "id": 6279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5329,
+    "plane": 2
+  },
+  {
+    "id": 6279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2879,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 4666,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2893,
+    "y": 9769,
+    "plane": 0
+  },
+  {
+    "id": 4666,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9797,
+    "plane": 0
+  },
+  {
+    "id": 4666,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2909,
+    "y": 9807,
+    "plane": 0
+  },
+  {
+    "id": 7711,
+    "name": "Temple guardian",
+    "type": "Monster",
+    "x": 3405,
+    "y": 9902,
+    "plane": 0
+  },
+  {
+    "id": 2134,
+    "name": "Black Guard Berserker",
+    "type": "Monster",
+    "x": 2823,
+    "y": 10220,
+    "plane": 0
+  },
+  {
+    "id": 6131,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1885,
+    "y": 5026,
+    "plane": 0
+  },
+  {
+    "id": 3263,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3084,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3306,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3442,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3437,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3509,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3503,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3514,
+    "y": 3398,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3486,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 1235,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3524,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 360,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2472,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": 360,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2492,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 360,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 6089,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 6089,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2929,
+    "y": 3253,
+    "plane": 0
+  },
+  {
+    "id": 6089,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2938,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 6463,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2773,
+    "y": 4238,
+    "plane": 0
+  },
+  {
+    "id": 6463,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2779,
+    "y": 4248,
+    "plane": 0
+  },
+  {
+    "id": 6463,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2785,
+    "y": 4250,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2904,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1866,
+    "y": 4237,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1866,
+    "y": 4240,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1867,
+    "y": 4243,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2950,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2971,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2960,
+    "y": 3201,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 2682,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2969,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 6102,
+    "name": "Lost barbarian",
+    "type": "Monster",
+    "x": 1762,
+    "y": 5329,
+    "plane": 0
+  },
+  {
+    "id": 2625,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4668,
+    "y": 5177,
+    "plane": 0
+  },
+  {
+    "id": 2625,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4676,
+    "y": 5177,
+    "plane": 0
+  },
+  {
+    "id": 1603,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2789,
+    "y": 9994,
+    "plane": 0
+  },
+  {
+    "id": 1603,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2786,
+    "y": 9998,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2034,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2034,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2032,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2034,
+    "y": 5232,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2030,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2031,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2039,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2028,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2030,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2030,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2032,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2027,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2034,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2016,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2015,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2035,
+    "y": 5245,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2027,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2027,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2027,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1999,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1995,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5221,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5221,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2002,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1996,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2002,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1995,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2001,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1987,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5199,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5198,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1995,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5194,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1991,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2003,
+    "y": 5185,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2008,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2008,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2010,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2010,
+    "y": 5194,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2013,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5210,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2002,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2022,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1995,
+    "y": 5220,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1992,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1992,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1988,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1988,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1987,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1988,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1986,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1987,
+    "y": 5226,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5228,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2036,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2038,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2042,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2045,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2046,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2028,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2026,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2039,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2025,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2022,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2043,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2045,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2032,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2030,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2024,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2038,
+    "y": 5186,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2038,
+    "y": 5185,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5185,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2016,
+    "y": 5186,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2017,
+    "y": 5194,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2024,
+    "y": 5193,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2008,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5220,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2037,
+    "y": 5203,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2037,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 4396,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2041,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 5608,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3786,
+    "y": 2827,
+    "plane": 2
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2451,
+    "y": 2849,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2463,
+    "y": 2872,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2470,
+    "y": 2853,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2837,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2477,
+    "y": 2903,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2478,
+    "y": 2907,
+    "plane": 0
+  },
+  {
+    "id": 7079,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2501,
+    "y": 2851,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2598,
+    "y": 9558,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2599,
+    "y": 9557,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2598,
+    "y": 9556,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2600,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2601,
+    "y": 9553,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2572,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2599,
+    "y": 9552,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2601,
+    "y": 9560,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2599,
+    "y": 9564,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2600,
+    "y": 9563,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2597,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9574,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9575,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2583,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2582,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2572,
+    "y": 9568,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2570,
+    "y": 9567,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2572,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2577,
+    "y": 9574,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9578,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2597,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2871,
+    "y": 9793,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2869,
+    "y": 9799,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2876,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2864,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2858,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2859,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 2849,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3088,
+    "y": 9945,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3089,
+    "y": 9943,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3090,
+    "y": 9944,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3278,
+    "y": 5477,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3278,
+    "y": 5476,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5451,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3283,
+    "y": 5449,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3280,
+    "y": 5476,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3274,
+    "y": 5463,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5477,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3271,
+    "y": 5473,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3270,
+    "y": 5459,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3271,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3278,
+    "y": 5525,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5529,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3270,
+    "y": 5536,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5536,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5512,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3279,
+    "y": 5516,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3280,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3043,
+    "y": 10262,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3044,
+    "y": 10252,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3051,
+    "y": 10257,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3055,
+    "y": 10253,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3067,
+    "y": 10255,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3067,
+    "y": 10257,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3068,
+    "y": 10253,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3069,
+    "y": 10257,
+    "plane": 0
+  },
+  {
+    "id": 134,
+    "name": "Poison spider",
+    "type": "Monster",
+    "x": 3069,
+    "y": 10259,
+    "plane": 0
+  },
+  {
+    "id": 4487,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2943,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2658,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2655,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2656,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2664,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2669,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2674,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2671,
+    "y": 3418,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2666,
+    "y": 3417,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2666,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2664,
+    "y": 3416,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2680,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2678,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": 678,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2661,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 5491,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2387,
+    "y": 3800,
+    "plane": 0
+  },
+  {
+    "id": 5491,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2411,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 5491,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2417,
+    "y": 3825,
+    "plane": 0
+  },
+  {
+    "id": 1046,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3409,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 1046,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 1046,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3491,
+    "plane": 1
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2694,
+    "y": 5067,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2717,
+    "y": 5081,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2718,
+    "y": 5108,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2721,
+    "y": 5104,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2726,
+    "y": 5091,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2731,
+    "y": 5060,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2732,
+    "y": 5073,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2740,
+    "y": 5083,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2742,
+    "y": 5103,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 2747,
+    "y": 5094,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3315,
+    "y": 5508,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3308,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3304,
+    "y": 5507,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3299,
+    "y": 5509,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3317,
+    "y": 5514,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3319,
+    "y": 5518,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3320,
+    "y": 5507,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3324,
+    "y": 5513,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3283,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3320,
+    "y": 5550,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3313,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3310,
+    "y": 5541,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3308,
+    "y": 5535,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3301,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3315,
+    "y": 5530,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3322,
+    "y": 5536,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3320,
+    "y": 5539,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3311,
+    "y": 5519,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3289,
+    "y": 5525,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3300,
+    "y": 5519,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3289,
+    "y": 5515,
+    "plane": 0
+  },
+  {
+    "id": 1976,
+    "name": "Shadow Hound",
+    "type": "Monster",
+    "x": 3287,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2562,
+    "y": 5530,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2456,
+    "y": 2867,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2457,
+    "y": 2836,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2484,
+    "y": 2873,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2856,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2480,
+    "y": 2916,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2492,
+    "y": 2888,
+    "plane": 0
+  },
+  {
+    "id": 7080,
+    "name": "Ogress warrior",
+    "type": "Monster",
+    "x": 2508,
+    "y": 2853,
+    "plane": 0
+  },
+  {
+    "id": 1942,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": 1942,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2858,
+    "y": 3730,
+    "plane": 0
+  },
+  {
+    "id": 1942,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3566,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3568,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3562,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3566,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3570,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3421,
+    "y": 3572,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3571,
+    "plane": 2
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3033,
+    "y": 4873,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3039,
+    "y": 4885,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3050,
+    "y": 4890,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4892,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3064,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3056,
+    "y": 4912,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3048,
+    "y": 4916,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3038,
+    "y": 4911,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3022,
+    "y": 4914,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3018,
+    "y": 4902,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3025,
+    "y": 4898,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3033,
+    "y": 4885,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3021,
+    "y": 4877,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3048,
+    "y": 4872,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4880,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4891,
+    "plane": 0
+  },
+  {
+    "id": 1615,
+    "name": "Abyssal demon",
+    "type": "Monster",
+    "x": 3054,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2410,
+    "y": 3416,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2420,
+    "y": 3435,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2420,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2427,
+    "y": 3410,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2460,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2462,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2461,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2462,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2441,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2447,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2461,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2473,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2478,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3496,
+    "plane": 1
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3495,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2460,
+    "y": 3487,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3494,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3510,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2471,
+    "y": 3496,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2483,
+    "y": 3495,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2483,
+    "y": 3497,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2012,
+    "y": 5535,
+    "plane": 2
+  },
+  {
+    "id": 164,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2023,
+    "y": 5544,
+    "plane": 2
+  },
+  {
+    "id": 6376,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2925,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 6376,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2909,
+    "y": 2978,
+    "plane": 0
+  },
+  {
+    "id": 244,
+    "name": "Sir Pelleas",
+    "type": "Monster",
+    "x": 2765,
+    "y": 3504,
+    "plane": 1
+  },
+  {
+    "id": 3663,
+    "name": "Angry goblin",
+    "type": "Monster",
+    "x": 3269,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 3663,
+    "name": "Angry goblin",
+    "type": "Monster",
+    "x": 3291,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2457,
+    "y": 5139,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2460,
+    "y": 5140,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5147,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2454,
+    "y": 5155,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2461,
+    "y": 5125,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2456,
+    "y": 5124,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2458,
+    "y": 5129,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5145,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2451,
+    "y": 5148,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2447,
+    "y": 5143,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5138,
+    "plane": 0
+  },
+  {
+    "id": 7767,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4762,
+    "y": 5145,
+    "plane": 0
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3546,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3551,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3547,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2844,
+    "y": 3552,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2843,
+    "y": 3547,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2872,
+    "y": 3542,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3551,
+    "plane": 2
+  },
+  {
+    "id": 4291,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3538,
+    "plane": 2
+  },
+  {
+    "id": 6133,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1883,
+    "y": 5026,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3416,
+    "plane": 1
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3404,
+    "plane": 1
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3205,
+    "y": 3379,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3381,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 5919,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3500,
+    "plane": 0
+  },
+  {
+    "id": 6222,
+    "name": "Kree'arra",
+    "type": "Monster",
+    "x": 2831,
+    "y": 5301,
+    "plane": 2
+  },
+  {
+    "id": 745,
+    "name": "Wormbrain",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2843,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2840,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3119,
+    "y": 3565,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2838,
+    "y": 9648,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2831,
+    "y": 9654,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2989,
+    "y": 3944,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2994,
+    "y": 10349,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2998,
+    "y": 10350,
+    "plane": 0
+  },
+  {
+    "id": 5338,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10350,
+    "plane": 0
+  },
+  {
+    "id": 1202,
+    "name": "Arianwyn",
+    "type": "Monster",
+    "x": 2352,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 2703,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3012,
+    "y": 3185,
+    "plane": 1
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9892,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2666,
+    "y": 9482,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2641,
+    "y": 9563,
+    "plane": 2
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3204,
+    "y": 5516,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3244,
+    "y": 9369,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3252,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 1585,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3306,
+    "y": 9400,
+    "plane": 0
+  },
+  {
+    "id": 7114,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3132,
+    "y": 9921,
+    "plane": 0
+  },
+  {
+    "id": 7114,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3132,
+    "y": 9935,
+    "plane": 0
+  },
+  {
+    "id": 5393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3146,
+    "y": 4596,
+    "plane": 0
+  },
+  {
+    "id": 5393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3163,
+    "y": 4598,
+    "plane": 0
+  },
+  {
+    "id": 5393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3155,
+    "y": 4591,
+    "plane": 1
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2612,
+    "y": 9484,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2611,
+    "y": 9484,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2614,
+    "y": 9484,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2611,
+    "y": 9486,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9929,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3106,
+    "y": 9941,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9935,
+    "plane": 0
+  },
+  {
+    "id": 7105,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3114,
+    "y": 9931,
+    "plane": 0
+  },
+  {
+    "id": 914,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3098,
+    "y": 3942,
+    "plane": 0
+  },
+  {
+    "id": 914,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3102,
+    "y": 3929,
+    "plane": 0
+  },
+  {
+    "id": 914,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3934,
+    "plane": 0
+  },
+  {
+    "id": 6355,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3043,
+    "y": 3950,
+    "plane": 0
+  },
+  {
+    "id": 6355,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3043,
+    "y": 3956,
+    "plane": 0
+  },
+  {
+    "id": 5658,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3804,
+    "y": 2873,
+    "plane": 1
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2477,
+    "y": 9384,
+    "plane": 2
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2449,
+    "y": 9434,
+    "plane": 0
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2437,
+    "y": 9429,
+    "plane": 2
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2440,
+    "y": 9438,
+    "plane": 2
+  },
+  {
+    "id": 2047,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2458,
+    "y": 9408,
+    "plane": 2
+  },
+  {
+    "id": 241,
+    "name": "Sir Kay",
+    "type": "Monster",
+    "x": 2762,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 5324,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3221,
+    "y": 3682,
+    "plane": 0
+  },
+  {
+    "id": 6167,
+    "name": "Sir Gawain",
+    "type": "Monster",
+    "x": 1906,
+    "y": 4277,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3151,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3157,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3155,
+    "y": 5553,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3145,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3152,
+    "y": 5556,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3149,
+    "y": 5544,
+    "plane": 0
+  },
+  {
+    "id": 1338,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3145,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 52,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2898,
+    "y": 9764,
+    "plane": 0
+  },
+  {
+    "id": 52,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2892,
+    "y": 9800,
+    "plane": 0
+  },
+  {
+    "id": 52,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 5642,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3796,
+    "y": 2858,
+    "plane": 0
+  },
+  {
+    "id": 3408,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 792,
+    "name": "Grip",
+    "type": "Monster",
+    "x": 2774,
+    "y": 3197,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2886,
+    "y": 3723,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2887,
+    "y": 3720,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3721,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3724,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2909,
+    "y": 3736,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2910,
+    "y": 3736,
+    "plane": 0
+  },
+  {
+    "id": 1951,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2891,
+    "y": 3724,
+    "plane": 0
+  },
+  {
+    "id": 5909,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 6105,
+    "name": "Skeleton warlord",
+    "type": "Monster",
+    "x": 1767,
+    "y": 5355,
+    "plane": 0
+  },
+  {
+    "id": 4930,
+    "name": "Goat",
+    "type": "Monster",
+    "x": 3412,
+    "y": 2889,
+    "plane": 0
+  },
+  {
+    "id": 4930,
+    "name": "Goat",
+    "type": "Monster",
+    "x": 3414,
+    "y": 2892,
+    "plane": 0
+  },
+  {
+    "id": 4930,
+    "name": "Goat",
+    "type": "Monster",
+    "x": 3414,
+    "y": 2890,
+    "plane": 0
+  },
+  {
+    "id": 4930,
+    "name": "Goat",
+    "type": "Monster",
+    "x": 3416,
+    "y": 2886,
+    "plane": 0
+  },
+  {
+    "id": 4930,
+    "name": "Goat",
+    "type": "Monster",
+    "x": 3416,
+    "y": 2893,
+    "plane": 0
+  },
+  {
+    "id": 5800,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2719,
+    "y": 5335,
+    "plane": 0
+  },
+  {
+    "id": 5800,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2747,
+    "y": 5373,
+    "plane": 0
+  },
+  {
+    "id": 1129,
+    "name": "Berry",
+    "type": "Monster",
+    "x": 2832,
+    "y": 10083,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4666,
+    "y": 5082,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4669,
+    "y": 5103,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4639,
+    "y": 5074,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4664,
+    "y": 5121,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4688,
+    "y": 5016,
+    "plane": 0
+  },
+  {
+    "id": 2614,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4704,
+    "y": 5077,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2888,
+    "y": 3001,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2891,
+    "y": 3002,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2890,
+    "y": 2998,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2887,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2901,
+    "y": 2991,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2905,
+    "y": 2990,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2886,
+    "y": 2989,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2927,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2926,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2919,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2919,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 6383,
+    "name": "Giant wasp",
+    "type": "Monster",
+    "x": 2920,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 1641,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2708,
+    "y": 10025,
+    "plane": 0
+  },
+  {
+    "id": 5002,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3295,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 5002,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3291,
+    "y": 9423,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3490,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3487,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3496,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3498,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3473,
+    "y": 3281,
+    "plane": 0
+  },
+  {
+    "id": 1257,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3478,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 6419,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2771,
+    "y": 4237,
+    "plane": 0
+  },
+  {
+    "id": 2592,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4680,
+    "y": 5117,
+    "plane": 0
+  },
+  {
+    "id": 2592,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 2461,
+    "y": 5142,
+    "plane": 0
+  },
+  {
+    "id": 423,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2731,
+    "y": 5340,
+    "plane": 0
+  },
+  {
+    "id": 4603,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3008,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 3264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3126,
+    "y": 3450,
+    "plane": 0
+  },
+  {
+    "id": 3264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3121,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": 3264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2565,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 3264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3338,
+    "plane": 0
+  },
+  {
+    "id": 3264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3311,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": 475,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2454,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 475,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2455,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 475,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": 475,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2522,
+    "y": 3251,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3739,
+    "y": 9369,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3737,
+    "y": 9350,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3721,
+    "y": 9349,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3733,
+    "y": 9396,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3764,
+    "y": 9404,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3732,
+    "y": 9368,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3749,
+    "y": 9461,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3746,
+    "y": 9423,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3760,
+    "y": 9417,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3760,
+    "y": 9451,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3813,
+    "y": 9445,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3786,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3783,
+    "y": 9430,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3821,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 4354,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3790,
+    "y": 9456,
+    "plane": 0
+  },
+  {
+    "id": 6281,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5316,
+    "plane": 2
+  },
+  {
+    "id": 6281,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2861,
+    "y": 5333,
+    "plane": 2
+  },
+  {
+    "id": 4412,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1880,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4412,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1911,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4412,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1893,
+    "y": 5228,
+    "plane": 0
+  },
+  {
+    "id": 1183,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2206,
+    "y": 3258,
+    "plane": 0
+  },
+  {
+    "id": 1183,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2200,
+    "y": 3261,
+    "plane": 0
+  },
+  {
+    "id": 1183,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2193,
+    "y": 3253,
+    "plane": 0
+  },
+  {
+    "id": 1183,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2192,
+    "y": 3243,
+    "plane": 0
+  },
+  {
+    "id": 3227,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2756,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 5352,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3121,
+    "y": 3359,
+    "plane": 1
+  },
+  {
+    "id": 16,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3279,
+    "y": 3191,
+    "plane": 0
+  },
+  {
+    "id": 16,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3296,
+    "y": 3202,
+    "plane": 1
+  },
+  {
+    "id": 1638,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2704,
+    "y": 10022,
+    "plane": 0
+  },
+  {
+    "id": 1638,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2707,
+    "y": 10023,
+    "plane": 0
+  },
+  {
+    "id": 1638,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3284,
+    "y": 5456,
+    "plane": 0
+  },
+  {
+    "id": 1638,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3278,
+    "y": 5453,
+    "plane": 0
+  },
+  {
+    "id": 1638,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3271,
+    "y": 5512,
+    "plane": 0
+  },
+  {
+    "id": 7004,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 7004,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3225,
+    "y": 5495,
+    "plane": 0
+  },
+  {
+    "id": 7004,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3256,
+    "y": 5540,
+    "plane": 0
+  },
+  {
+    "id": 7004,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3247,
+    "y": 5536,
+    "plane": 0
+  },
+  {
+    "id": 2881,
+    "name": "Dagannoth Supreme",
+    "type": "Monster",
+    "x": 2907,
+    "y": 4440,
+    "plane": 0
+  },
+  {
+    "id": 862,
+    "name": "City guard",
+    "type": "Monster",
+    "x": 2541,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 862,
+    "name": "City guard",
+    "type": "Monster",
+    "x": 2541,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 862,
+    "name": "City guard",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3031,
+    "plane": 0
+  },
+  {
+    "id": 3228,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2969,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 3228,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2948,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": 3228,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2588,
+    "y": 3087,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2592,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2590,
+    "y": 3083,
+    "plane": 1
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2587,
+    "y": 3086,
+    "plane": 1
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2594,
+    "y": 3084,
+    "plane": 1
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2593,
+    "y": 3090,
+    "plane": 2
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2594,
+    "y": 3085,
+    "plane": 2
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 2588,
+    "y": 3089,
+    "plane": 2
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3108,
+    "y": 3157,
+    "plane": 1
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3157,
+    "plane": 1
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3107,
+    "y": 3170,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3112,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3106,
+    "y": 3157,
+    "plane": 0
+  },
+  {
+    "id": 13,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3588,
+    "y": 3461,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3589,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3590,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3596,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3599,
+    "y": 3483,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3607,
+    "y": 3460,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3613,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3614,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3620,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3623,
+    "y": 3504,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3626,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3626,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3629,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3633,
+    "y": 3463,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3644,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3537,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3545,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3546,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3548,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3551,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3554,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3560,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3566,
+    "y": 3483,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3567,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3572,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 1219,
+    "name": "Leech",
+    "type": "Monster",
+    "x": 3574,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2568,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2578,
+    "y": 9898,
+    "plane": 0
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2657,
+    "y": 9500,
+    "plane": 0
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2632,
+    "y": 9589,
+    "plane": 2
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2628,
+    "y": 9549,
+    "plane": 2
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2629,
+    "y": 9543,
+    "plane": 2
+  },
+  {
+    "id": 1582,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3249,
+    "y": 5517,
+    "plane": 0
+  },
+  {
+    "id": 4945,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4945,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 1997,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 1592,
+    "name": "Steel dragon",
+    "type": "Monster",
+    "x": 2728,
+    "y": 9426,
+    "plane": 0
+  },
+  {
+    "id": 1592,
+    "name": "Steel dragon",
+    "type": "Monster",
+    "x": 2714,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": 1592,
+    "name": "Steel dragon",
+    "type": "Monster",
+    "x": 2707,
+    "y": 9450,
+    "plane": 0
+  },
+  {
+    "id": 1592,
+    "name": "Steel dragon",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9451,
+    "plane": 0
+  },
+  {
+    "id": 3808,
+    "name": "Tortoise",
+    "type": "Monster",
+    "x": 2422,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": 3808,
+    "name": "Tortoise",
+    "type": "Monster",
+    "x": 2517,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": 3808,
+    "name": "Tortoise",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 1262,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3487,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 1262,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3477,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 1262,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3497,
+    "y": 3276,
+    "plane": 0
+  },
+  {
+    "id": 1262,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3502,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 1262,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3481,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 4481,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2943,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 4275,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 2603,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4711,
+    "y": 5086,
+    "plane": 0
+  },
+  {
+    "id": 2603,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4760,
+    "y": 5091,
+    "plane": 0
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3565,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3571,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3565,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3564,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3444,
+    "y": 3559,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3427,
+    "y": 3558,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3557,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3430,
+    "y": 3557,
+    "plane": 2
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3170,
+    "y": 5554,
+    "plane": 0
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3166,
+    "y": 5556,
+    "plane": 0
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3171,
+    "y": 5560,
+    "plane": 0
+  },
+  {
+    "id": 1613,
+    "name": "Nechryael",
+    "type": "Monster",
+    "x": 3173,
+    "y": 5556,
+    "plane": 0
+  },
+  {
+    "id": 3251,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3073,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2558,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2538,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2527,
+    "y": 3201,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2517,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2547,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2538,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 2250,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2542,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 3279,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 6168,
+    "name": "Sir Kay",
+    "type": "Monster",
+    "x": 1904,
+    "y": 4274,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2398,
+    "y": 3451,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2414,
+    "y": 3447,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2379,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2381,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2384,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2391,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2410,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2421,
+    "y": 3481,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2397,
+    "y": 3514,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2434,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2437,
+    "y": 3451,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2438,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2441,
+    "y": 3411,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2466,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3399,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2472,
+    "y": 3400,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2473,
+    "y": 3412,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2476,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3397,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2489,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2479,
+    "y": 3407,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2438,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2449,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2454,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2449,
+    "y": 3486,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2457,
+    "y": 3488,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2476,
+    "y": 3488,
+    "plane": 1
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3496,
+    "plane": 2
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3488,
+    "plane": 2
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3503,
+    "plane": 2
+  },
+  {
+    "id": 168,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2481,
+    "y": 3498,
+    "plane": 2
+  },
+  {
+    "id": 1644,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3240,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2401,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2378,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2393,
+    "y": 3435,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2394,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2395,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2403,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2420,
+    "y": 3429,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2420,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2400,
+    "y": 3514,
+    "plane": 1
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2418,
+    "y": 3485,
+    "plane": 1
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2433,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2433,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2458,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2476,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2445,
+    "y": 3502,
+    "plane": 1
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2453,
+    "y": 3488,
+    "plane": 1
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2475,
+    "y": 3502,
+    "plane": 1
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3490,
+    "plane": 2
+  },
+  {
+    "id": 68,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2522,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2733,
+    "y": 9882,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2732,
+    "y": 9888,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2738,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2732,
+    "y": 9892,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2738,
+    "y": 9894,
+    "plane": 0
+  },
+  {
+    "id": 1021,
+    "name": "Air elemental",
+    "type": "Monster",
+    "x": 2734,
+    "y": 9896,
+    "plane": 0
+  },
+  {
+    "id": 4674,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2464,
+    "y": 4365,
+    "plane": 0
+  },
+  {
+    "id": 6260,
+    "name": "General Graardor",
+    "type": "Monster",
+    "x": 2870,
+    "y": 5359,
+    "plane": 2
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3054,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3192,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3000,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3245,
+    "y": 2960,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3208,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3064,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3238,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3258,
+    "y": 3063,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3222,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3238,
+    "y": 3101,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3080,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3253,
+    "y": 3116,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3255,
+    "y": 3095,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3268,
+    "y": 3052,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3281,
+    "y": 3056,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3307,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3318,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3318,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3267,
+    "y": 3077,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3269,
+    "y": 3110,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3275,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3291,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3291,
+    "y": 3100,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3305,
+    "y": 3089,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3318,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": 840,
+    "name": "Ugthanki",
+    "type": "Monster",
+    "x": 3321,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2569,
+    "y": 3149,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2614,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2564,
+    "y": 3153,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2568,
+    "y": 3147,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2579,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2580,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2584,
+    "y": 3149,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2590,
+    "y": 3190,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2594,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2595,
+    "y": 3186,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2597,
+    "y": 3175,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2597,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2607,
+    "y": 3185,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2614,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": 254,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2619,
+    "y": 3168,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2040,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2044,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2042,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2045,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2041,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2045,
+    "y": 5186,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2044,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4390,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2042,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 2456,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2452,
+    "y": 10145,
+    "plane": 0
+  },
+  {
+    "id": 2456,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2445,
+    "y": 10138,
+    "plane": 0
+  },
+  {
+    "id": 7106,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3131,
+    "y": 9930,
+    "plane": 0
+  },
+  {
+    "id": 877,
+    "name": "Tower guard",
+    "type": "Monster",
+    "x": 2536,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 877,
+    "name": "Tower guard",
+    "type": "Monster",
+    "x": 2534,
+    "y": 3091,
+    "plane": 0
+  },
+  {
+    "id": 877,
+    "name": "Tower guard",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": 877,
+    "name": "Tower guard",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3117,
+    "plane": 0
+  },
+  {
+    "id": 877,
+    "name": "Tower guard",
+    "type": "Monster",
+    "x": 2546,
+    "y": 3113,
+    "plane": 0
+  },
+  {
+    "id": 6459,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2778,
+    "y": 4264,
+    "plane": 0
+  },
+  {
+    "id": 6459,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2784,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 2573,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 2577,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 2577,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 2571,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3153,
+    "y": 9646,
+    "plane": 0
+  },
+  {
+    "id": 1712,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3151,
+    "y": 9651,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2568,
+    "y": 2991,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2574,
+    "y": 2988,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2584,
+    "y": 2967,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2585,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2592,
+    "y": 2965,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2608,
+    "y": 2980,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2609,
+    "y": 2990,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2614,
+    "y": 2998,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2561,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2567,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9608,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2586,
+    "y": 9614,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9606,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9738,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9742,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9734,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9738,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9733,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9740,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2590,
+    "y": 9737,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2387,
+    "y": 9685,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2389,
+    "y": 9683,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2719,
+    "y": 9668,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2719,
+    "y": 9715,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2720,
+    "y": 9702,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2722,
+    "y": 9669,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2723,
+    "y": 9707,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9713,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2504,
+    "y": 2965,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2504,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2520,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2525,
+    "y": 2986,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2533,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2536,
+    "y": 2975,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2539,
+    "y": 2990,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2549,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2551,
+    "y": 2955,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2552,
+    "y": 2961,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2522,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3057,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2529,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2539,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2541,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3047,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2496,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2497,
+    "y": 3089,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2500,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2500,
+    "y": 3097,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2503,
+    "y": 3095,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2504,
+    "y": 3133,
+    "plane": 0
+  },
+  {
+    "id": 3419,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2554,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3150,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3144,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3166,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3158,
+    "y": 5451,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2775,
+    "y": 10224,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2783,
+    "y": 10199,
+    "plane": 0
+  },
+  {
+    "id": 1560,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2784,
+    "y": 10233,
+    "plane": 0
+  },
+  {
+    "id": 5356,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2877,
+    "y": 2958,
+    "plane": 0
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2917,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2898,
+    "y": 5295,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2881,
+    "y": 5283,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2883,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5301,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2882,
+    "y": 5284,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2890,
+    "y": 5292,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2896,
+    "y": 5296,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5301,
+    "plane": 2
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2921,
+    "y": 5283,
+    "plane": 1
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5292,
+    "plane": 1
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2906,
+    "y": 5299,
+    "plane": 0
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2910,
+    "y": 5297,
+    "plane": 0
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2915,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 6254,
+    "name": "Saradomin priest",
+    "type": "Monster",
+    "x": 2910,
+    "y": 5269,
+    "plane": 0
+  },
+  {
+    "id": 6234,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2839,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6234,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2842,
+    "y": 5264,
+    "plane": 2
+  },
+  {
+    "id": 6234,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 5000,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3285,
+    "y": 3022,
+    "plane": 0
+  },
+  {
+    "id": 5000,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3295,
+    "y": 9434,
+    "plane": 0
+  },
+  {
+    "id": 1197,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2197,
+    "y": 3218,
+    "plane": 0
+  },
+  {
+    "id": 1197,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2292,
+    "y": 3153,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2363,
+    "y": 5214,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2358,
+    "y": 5214,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2361,
+    "y": 5212,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2361,
+    "y": 5209,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2359,
+    "y": 5213,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2364,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2361,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 429,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2361,
+    "y": 5212,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2824,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2880,
+    "y": 9927,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2887,
+    "y": 9955,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2891,
+    "y": 9941,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2954,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2950,
+    "y": 3932,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2955,
+    "y": 3945,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3213,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 4686,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2804,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 878,
+    "name": "Colonel Radick",
+    "type": "Monster",
+    "x": 2534,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2693,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2693,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2695,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2700,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3010,
+    "y": 3236,
+    "plane": 0
+  },
+  {
+    "id": 4,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3281,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 1125,
+    "name": "Dad",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3612,
+    "plane": 0
+  },
+  {
+    "id": 5318,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2511,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 2459,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2604,
+    "y": 4772,
+    "plane": 0
+  },
+  {
+    "id": 2459,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2606,
+    "y": 4771,
+    "plane": 0
+  },
+  {
+    "id": 2459,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2604,
+    "y": 4769,
+    "plane": 0
+  },
+  {
+    "id": 1602,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2793,
+    "y": 9995,
+    "plane": 0
+  },
+  {
+    "id": 1602,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2783,
+    "y": 9998,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2571,
+    "y": 3142,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2617,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2609,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2617,
+    "y": 3157,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2577,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2597,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2607,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2608,
+    "y": 3148,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2600,
+    "y": 3190,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2610,
+    "y": 3150,
+    "plane": 0
+  },
+  {
+    "id": 255,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2609,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": 6765,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3418,
+    "y": 2851,
+    "plane": 1
+  },
+  {
+    "id": 6765,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3432,
+    "y": 2854,
+    "plane": 1
+  },
+  {
+    "id": 4687,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2957,
+    "y": 3898,
+    "plane": 0
+  },
+  {
+    "id": 4687,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2946,
+    "y": 3898,
+    "plane": 0
+  },
+  {
+    "id": 4687,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2978,
+    "y": 3956,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3288,
+    "y": 5484,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3288,
+    "y": 5467,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3293,
+    "y": 5468,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3296,
+    "y": 5475,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3296,
+    "y": 5473,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3297,
+    "y": 5480,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3565,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3566,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 2034,
+    "name": "Crypt spider",
+    "type": "Monster",
+    "x": 3572,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 2681,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2991,
+    "y": 3199,
+    "plane": 0
+  },
+  {
+    "id": 6974,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 6441,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2771,
+    "y": 4241,
+    "plane": 0
+  },
+  {
+    "id": 6441,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2777,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 1128,
+    "name": "Twig",
+    "type": "Monster",
+    "x": 2832,
+    "y": 10079,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3166,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2868,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2867,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2858,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2846,
+    "y": 3153,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3149,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2602,
+    "y": 3267,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2603,
+    "y": 3270,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2607,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2645,
+    "y": 9823,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2641,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2641,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2642,
+    "y": 9813,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2639,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3256,
+    "y": 3954,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3249,
+    "y": 3949,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3246,
+    "y": 3945,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3239,
+    "y": 3943,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3231,
+    "y": 3940,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3943,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3945,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3253,
+    "y": 9909,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2787,
+    "y": 2943,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2789,
+    "y": 2949,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2781,
+    "y": 2949,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2813,
+    "y": 3112,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3275,
+    "y": 3154,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3300,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3300,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3298,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3298,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3299,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3568,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3577,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3032,
+    "y": 3570,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3040,
+    "y": 3581,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3572,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3047,
+    "y": 3567,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3055,
+    "y": 3574,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3056,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3062,
+    "y": 3555,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3062,
+    "y": 3570,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3055,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3039,
+    "y": 9769,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3049,
+    "y": 9764,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3050,
+    "y": 9770,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3039,
+    "y": 9765,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3048,
+    "y": 9762,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3044,
+    "y": 9760,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3048,
+    "y": 9779,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3038,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3041,
+    "y": 9804,
+    "plane": 0
+  },
+  {
+    "id": 107,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 3040,
+    "y": 9795,
+    "plane": 0
+  },
+  {
+    "id": 1460,
+    "name": "Monkey Guard",
+    "type": "Monster",
+    "x": 2787,
+    "y": 2794,
+    "plane": 0
+  },
+  {
+    "id": 4703,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9774,
+    "plane": 0
+  },
+  {
+    "id": 4703,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2860,
+    "y": 9781,
+    "plane": 0
+  },
+  {
+    "id": 4703,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 3092,
+    "y": 9958,
+    "plane": 0
+  },
+  {
+    "id": 2280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3144,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": 2280,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3245,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3369,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3226,
+    "y": 3371,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3372,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": 4660,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3305,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3305,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3311,
+    "y": 9850,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3312,
+    "y": 9845,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3313,
+    "y": 9827,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3315,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 3665,
+    "name": "Fear reaper",
+    "type": "Monster",
+    "x": 3323,
+    "y": 9842,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3123,
+    "y": 9657,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3087,
+    "y": 9672,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3103,
+    "y": 9672,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3119,
+    "y": 9670,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3251,
+    "y": 9896,
+    "plane": 0
+  },
+  {
+    "id": 73,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3268,
+    "y": 9893,
+    "plane": 0
+  },
+  {
+    "id": 5849,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3112,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 2698,
+    "name": "Black knight",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 161,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2409,
+    "y": 3436,
+    "plane": 1
+  },
+  {
+    "id": 161,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2484,
+    "y": 3501,
+    "plane": 1
+  },
+  {
+    "id": 6108,
+    "name": "Entrana firebird",
+    "type": "Monster",
+    "x": 2854,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": 795,
+    "name": "Ice Queen",
+    "type": "Monster",
+    "x": 2866,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3337,
+    "y": 2762,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3340,
+    "y": 2767,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3345,
+    "y": 2763,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3350,
+    "y": 2766,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3352,
+    "y": 2761,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3356,
+    "y": 2769,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3358,
+    "y": 2758,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3359,
+    "y": 2763,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3365,
+    "y": 2769,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3368,
+    "y": 2764,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3375,
+    "y": 2762,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3392,
+    "y": 2759,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3408,
+    "y": 2763,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3410,
+    "y": 2786,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3420,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3427,
+    "y": 2792,
+    "plane": 0
+  },
+  {
+    "id": 6779,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3429,
+    "y": 2802,
+    "plane": 0
+  },
+  {
+    "id": 5659,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3805,
+    "y": 2874,
+    "plane": 2
+  },
+  {
+    "id": 2608,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4656,
+    "y": 5091,
+    "plane": 0
+  },
+  {
+    "id": 2608,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4637,
+    "y": 5093,
+    "plane": 0
+  },
+  {
+    "id": 6349,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2797,
+    "y": 3186,
+    "plane": 0
+  },
+  {
+    "id": 6349,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2793,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 368,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3407,
+    "plane": 0
+  },
+  {
+    "id": 2247,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3225,
+    "plane": 0
+  },
+  {
+    "id": 2247,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2247,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2247,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2247,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3218,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3664,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3658,
+    "y": 3012,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3729,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3720,
+    "y": 3000,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3718,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3757,
+    "y": 3009,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3727,
+    "y": 3051,
+    "plane": 0
+  },
+  {
+    "id": 4349,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3809,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 6443,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2767,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 6443,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2776,
+    "y": 4250,
+    "plane": 0
+  },
+  {
+    "id": 4691,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 4691,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2371,
+    "y": 3398,
+    "plane": 0
+  },
+  {
+    "id": 4691,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2624,
+    "y": 3319,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2624,
+    "y": 3327,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2642,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2646,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2646,
+    "y": 3504,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2634,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2651,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2665,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2662,
+    "y": 3488,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2672,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2790,
+    "y": 3199,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2784,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": 99,
+    "name": "Guard dog",
+    "type": "Monster",
+    "x": 2779,
+    "y": 3207,
+    "plane": 0
+  },
+  {
+    "id": 1564,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2770,
+    "y": 10219,
+    "plane": 0
+  },
+  {
+    "id": 1564,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2788,
+    "y": 10230,
+    "plane": 0
+  },
+  {
+    "id": 1564,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2798,
+    "y": 10216,
+    "plane": 0
+  },
+  {
+    "id": 1308,
+    "name": "Lanzig",
+    "type": "Monster",
+    "x": 2672,
+    "y": 3662,
+    "plane": 0
+  },
+  {
+    "id": 4676,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2451,
+    "y": 4362,
+    "plane": 0
+  },
+  {
+    "id": 4676,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 3054,
+    "y": 10269,
+    "plane": 0
+  },
+  {
+    "id": 2677,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 2945,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": 1105,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 1105,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3598,
+    "plane": 0
+  },
+  {
+    "id": 1515,
+    "name": "Nail beast",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 3192,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3700,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 3192,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3683,
+    "y": 3005,
+    "plane": 0
+  },
+  {
+    "id": 6101,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2932,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 4649,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2142,
+    "y": 3122,
+    "plane": 0
+  },
+  {
+    "id": 4649,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2147,
+    "y": 3122,
+    "plane": 0
+  },
+  {
+    "id": 2606,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4670,
+    "y": 5081,
+    "plane": 0
+  },
+  {
+    "id": 2606,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4642,
+    "y": 5115,
+    "plane": 0
+  },
+  {
+    "id": 2606,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4756,
+    "y": 5086,
+    "plane": 0
+  },
+  {
+    "id": 1045,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 1045,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3409,
+    "y": 3485,
+    "plane": 1
+  },
+  {
+    "id": 1045,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3489,
+    "plane": 1
+  },
+  {
+    "id": 1045,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3213,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 6461,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2787,
+    "y": 4250,
+    "plane": 0
+  },
+  {
+    "id": 6461,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2791,
+    "y": 4249,
+    "plane": 0
+  },
+  {
+    "id": 2700,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3182,
+    "plane": 1
+  },
+  {
+    "id": 7126,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1605,
+    "y": 4720,
+    "plane": 0
+  },
+  {
+    "id": 7126,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1658,
+    "y": 4705,
+    "plane": 0
+  },
+  {
+    "id": 7126,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1633,
+    "y": 4678,
+    "plane": 0
+  },
+  {
+    "id": 6166,
+    "name": "Sir Pelleas",
+    "type": "Monster",
+    "x": 1904,
+    "y": 4279,
+    "plane": 0
+  },
+  {
+    "id": 7803,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3297,
+    "y": 4347,
+    "plane": 0
+  },
+  {
+    "id": 7803,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3315,
+    "y": 4346,
+    "plane": 0
+  },
+  {
+    "id": 7803,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3282,
+    "y": 4357,
+    "plane": 0
+  },
+  {
+    "id": 7803,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3303,
+    "y": 4369,
+    "plane": 0
+  },
+  {
+    "id": 1072,
+    "name": "Eadburg",
+    "type": "Monster",
+    "x": 2893,
+    "y": 3558,
+    "plane": 0
+  },
+  {
+    "id": 2315,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 2315,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3037,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 2315,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3562,
+    "plane": 0
+  },
+  {
+    "id": 2315,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2554,
+    "y": 3561,
+    "plane": 0
+  },
+  {
+    "id": 4492,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2987,
+    "y": 3426,
+    "plane": 0
+  },
+  {
+    "id": 4492,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2953,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 6109,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3215,
+    "plane": 0
+  },
+  {
+    "id": 6109,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 6109,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2537,
+    "y": 3236,
+    "plane": 0
+  },
+  {
+    "id": 243,
+    "name": "Sir Tristram",
+    "type": "Monster",
+    "x": 2756,
+    "y": 3513,
+    "plane": 1
+  },
+  {
+    "id": 5661,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3794,
+    "y": 2874,
+    "plane": 3
+  },
+  {
+    "id": 272,
+    "name": "Lucien",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3166,
+    "y": 3033,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3174,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3177,
+    "y": 3041,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3176,
+    "y": 3038,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3177,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3183,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 1239,
+    "name": "Bedabin Nomad Fighter",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3155,
+    "y": 5536,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3156,
+    "y": 5540,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3157,
+    "y": 5538,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3166,
+    "y": 5537,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 3165,
+    "y": 5541,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2723,
+    "y": 10004,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2722,
+    "y": 9999,
+    "plane": 0
+  },
+  {
+    "id": 1628,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2729,
+    "y": 10002,
+    "plane": 0
+  },
+  {
+    "id": 1320,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2738,
+    "y": 3636,
+    "plane": 0
+  },
+  {
+    "id": 1320,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2739,
+    "y": 3636,
+    "plane": 0
+  },
+  {
+    "id": 1320,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2738,
+    "y": 3637,
+    "plane": 0
+  },
+  {
+    "id": 1320,
+    "name": "Bunny",
+    "type": "Monster",
+    "x": 2735,
+    "y": 3637,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3385,
+    "y": 3067,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3389,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3400,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3402,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3404,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3407,
+    "y": 3067,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3408,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3419,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3058,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3059,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3057,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3062,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3440,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3012,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3017,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3047,
+    "plane": 0
+  },
+  {
+    "id": 2808,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3446,
+    "y": 3014,
+    "plane": 0
+  },
+  {
+    "id": 7127,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1631,
+    "y": 4730,
+    "plane": 0
+  },
+  {
+    "id": 7127,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1658,
+    "y": 4687,
+    "plane": 0
+  },
+  {
+    "id": 7127,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1615,
+    "y": 4678,
+    "plane": 0
+  },
+  {
+    "id": 5001,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3297,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 5001,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3280,
+    "y": 9414,
+    "plane": 0
+  },
+  {
+    "id": 5001,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3279,
+    "y": 9416,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2638,
+    "y": 9899,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2639,
+    "y": 9911,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2648,
+    "y": 9901,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2649,
+    "y": 9912,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2649,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 274,
+    "name": "Guardian of Armadyl",
+    "type": "Monster",
+    "x": 2650,
+    "y": 9897,
+    "plane": 0
+  },
+  {
+    "id": 1150,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2857,
+    "y": 10075,
+    "plane": 0
+  },
+  {
+    "id": 3819,
+    "name": "Tortoise",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3525,
+    "plane": 0
+  },
+  {
+    "id": 3819,
+    "name": "Tortoise",
+    "type": "Monster",
+    "x": 2412,
+    "y": 3527,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2958,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2954,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2968,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2984,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2989,
+    "y": 3058,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2982,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2972,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2998,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": 39,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2999,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 5843,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3117,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 245,
+    "name": "Sir Lucan",
+    "type": "Monster",
+    "x": 2755,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2593,
+    "y": 9499,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9498,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9500,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9503,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9500,
+    "plane": 0
+  },
+  {
+    "id": 193,
+    "name": "Chaos druid warrior",
+    "type": "Monster",
+    "x": 2578,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 4698,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2861,
+    "y": 9752,
+    "plane": 0
+  },
+  {
+    "id": 4698,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3139,
+    "y": 3712,
+    "plane": 0
+  },
+  {
+    "id": 4698,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3304,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 6429,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2776,
+    "y": 4252,
+    "plane": 0
+  },
+  {
+    "id": 6429,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2805,
+    "y": 4242,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3103,
+    "y": 9881,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3122,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3117,
+    "y": 9890,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3242,
+    "y": 3530,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3256,
+    "y": 3541,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3553,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2520,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": 87,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3293,
+    "y": 3382,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2080,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2122,
+    "y": 5290,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2131,
+    "y": 5297,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2119,
+    "y": 5297,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2120,
+    "y": 5302,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2129,
+    "y": 5306,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2123,
+    "y": 5304,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2130,
+    "y": 5306,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2163,
+    "y": 5301,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2166,
+    "y": 5306,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2169,
+    "y": 5303,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2122,
+    "y": 5291,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2119,
+    "y": 5296,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2131,
+    "y": 5297,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2125,
+    "y": 5302,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2127,
+    "y": 5304,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2165,
+    "y": 5302,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2163,
+    "y": 5301,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2168,
+    "y": 5306,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2132,
+    "y": 5300,
+    "plane": 0
+  },
+  {
+    "id": 4399,
+    "name": "Catablepon",
+    "type": "Monster",
+    "x": 2132,
+    "y": 5302,
+    "plane": 0
+  },
+  {
+    "id": 4996,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3284,
+    "y": 3022,
+    "plane": 0
+  },
+  {
+    "id": 5490,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2364,
+    "y": 3800,
+    "plane": 2
+  },
+  {
+    "id": 1119,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2920,
+    "y": 3622,
+    "plane": 0
+  },
+  {
+    "id": 5409,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3173,
+    "y": 4550,
+    "plane": 0
+  },
+  {
+    "id": 5409,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3190,
+    "y": 4551,
+    "plane": 0
+  },
+  {
+    "id": 1766,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3171,
+    "y": 3320,
+    "plane": 0
+  },
+  {
+    "id": 1766,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": 1766,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3262,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 1766,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3278,
+    "plane": 0
+  },
+  {
+    "id": 1766,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": 369,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3324,
+    "plane": 0
+  },
+  {
+    "id": 369,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3326,
+    "plane": 0
+  },
+  {
+    "id": 369,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 205,
+    "name": "Salarin the Twisted",
+    "type": "Monster",
+    "x": 2613,
+    "y": 9523,
+    "plane": 0
+  },
+  {
+    "id": 1795,
+    "name": "Dwarf gang member",
+    "type": "Monster",
+    "x": 2967,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2921,
+    "y": 9757,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2915,
+    "y": 9759,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2927,
+    "y": 9761,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2925,
+    "y": 9769,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9784,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 2938,
+    "y": 9788,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3783,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3796,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3253,
+    "y": 3782,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3760,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3766,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3021,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3763,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3029,
+    "y": 10313,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3028,
+    "y": 10309,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3033,
+    "y": 10311,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3035,
+    "y": 10309,
+    "plane": 0
+  },
+  {
+    "id": 119,
+    "name": "Chaos dwarf",
+    "type": "Monster",
+    "x": 3035,
+    "y": 10313,
+    "plane": 0
+  },
+  {
+    "id": 3261,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3086,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": 1077,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2900,
+    "y": 3556,
+    "plane": 0
+  },
+  {
+    "id": 4993,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3277,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 4993,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3279,
+    "y": 9441,
+    "plane": 0
+  },
+  {
+    "id": 6236,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2854,
+    "y": 5271,
+    "plane": 2
+  },
+  {
+    "id": 6236,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5267,
+    "plane": 2
+  },
+  {
+    "id": 6236,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5269,
+    "plane": 2
+  },
+  {
+    "id": 5842,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3115,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 1184,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2192,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 1184,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2200,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 1184,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2195,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 1184,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2212,
+    "y": 3258,
+    "plane": 0
+  },
+  {
+    "id": 4989,
+    "name": "Mercenary",
+    "type": "Monster",
+    "x": 3272,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 6114,
+    "name": "Drake",
+    "type": "Monster",
+    "x": 3232,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 4534,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3206,
+    "y": 5487,
+    "plane": 0
+  },
+  {
+    "id": 4534,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3200,
+    "y": 5492,
+    "plane": 0
+  },
+  {
+    "id": 5325,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3223,
+    "y": 3675,
+    "plane": 0
+  },
+  {
+    "id": 5325,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3692,
+    "plane": 0
+  },
+  {
+    "id": 6430,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2769,
+    "y": 4236,
+    "plane": 0
+  },
+  {
+    "id": 5349,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3099,
+    "y": 3354,
+    "plane": 1
+  },
+  {
+    "id": 1086,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": 7801,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3283,
+    "y": 4346,
+    "plane": 0
+  },
+  {
+    "id": 7801,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3308,
+    "y": 4349,
+    "plane": 0
+  },
+  {
+    "id": 7801,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3293,
+    "y": 4375,
+    "plane": 0
+  },
+  {
+    "id": 7801,
+    "name": "Aberrant spectre",
+    "type": "Monster",
+    "x": 3303,
+    "y": 4363,
+    "plane": 0
+  },
+  {
+    "id": 6033,
+    "name": "Georgy",
+    "type": "Monster",
+    "x": 3484,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": 3216,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2534,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": 3216,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2539,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": 2056,
+    "name": "Skogre",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2520,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2524,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2529,
+    "y": 3200,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2527,
+    "y": 3201,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2542,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 2251,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2539,
+    "y": 3233,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3194,
+    "y": 3255,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3143,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3251,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3260,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 1772,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2993,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9507,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2562,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2568,
+    "y": 9509,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2571,
+    "y": 9509,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2564,
+    "y": 9504,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2841,
+    "y": 9625,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2845,
+    "y": 9628,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2841,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2845,
+    "y": 9645,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3101,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3104,
+    "y": 9948,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3104,
+    "y": 9955,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3108,
+    "y": 9951,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3108,
+    "y": 9954,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9954,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3112,
+    "y": 9958,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5460,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3192,
+    "y": 5466,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3185,
+    "y": 5493,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3182,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3185,
+    "y": 5486,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3175,
+    "y": 5492,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3169,
+    "y": 5496,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3170,
+    "y": 5492,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3186,
+    "y": 5487,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3169,
+    "y": 5491,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2655,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2669,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2667,
+    "y": 9823,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2658,
+    "y": 9830,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2666,
+    "y": 9829,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2637,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2645,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2653,
+    "y": 9892,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2653,
+    "y": 9892,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2544,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2536,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2527,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2530,
+    "y": 9842,
+    "plane": 0
+  },
+  {
+    "id": 93,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2543,
+    "y": 9815,
+    "plane": 0
+  },
+  {
+    "id": 3072,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3207,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 3072,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3223,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 3072,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3210,
+    "y": 5562,
+    "plane": 0
+  },
+  {
+    "id": 361,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3317,
+    "plane": 0
+  },
+  {
+    "id": 361,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 361,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2485,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 361,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2769,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2766,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2770,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2772,
+    "y": 3404,
+    "plane": 0
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2767,
+    "y": 3405,
+    "plane": 1
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2771,
+    "y": 3403,
+    "plane": 1
+  },
+  {
+    "id": 237,
+    "name": "Renegade Knight",
+    "type": "Monster",
+    "x": 2767,
+    "y": 3401,
+    "plane": 1
+  },
+  {
+    "id": 6462,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2785,
+    "y": 4248,
+    "plane": 0
+  },
+  {
+    "id": 6462,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2786,
+    "y": 4251,
+    "plane": 0
+  },
+  {
+    "id": 6462,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2801,
+    "y": 4242,
+    "plane": 0
+  },
+  {
+    "id": 1562,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3147,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 1562,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2772,
+    "y": 10221,
+    "plane": 0
+  },
+  {
+    "id": 1562,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2785,
+    "y": 10201,
+    "plane": 0
+  },
+  {
+    "id": 1562,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2787,
+    "y": 10232,
+    "plane": 0
+  },
+  {
+    "id": 6351,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3951,
+    "plane": 0
+  },
+  {
+    "id": 6351,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3043,
+    "y": 3958,
+    "plane": 0
+  },
+  {
+    "id": 1158,
+    "name": "Kalphite Queen",
+    "type": "Monster",
+    "x": 3484,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 5405,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3163,
+    "y": 4559,
+    "plane": 0
+  },
+  {
+    "id": 5405,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3146,
+    "y": 4565,
+    "plane": 1
+  },
+  {
+    "id": 5405,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3195,
+    "y": 4582,
+    "plane": 1
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1952,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1991,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5202,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2005,
+    "y": 5199,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 1991,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2007,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 4391,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2006,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2832,
+    "y": 5324,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2864,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2873,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2873,
+    "y": 5324,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5336,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5333,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5336,
+    "plane": 2
+  },
+  {
+    "id": 6273,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 7161,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3142,
+    "y": 4230,
+    "plane": 2
+  },
+  {
+    "id": 7161,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3143,
+    "y": 4231,
+    "plane": 2
+  },
+  {
+    "id": 7161,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3141,
+    "y": 4235,
+    "plane": 2
+  },
+  {
+    "id": 7161,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3144,
+    "y": 4241,
+    "plane": 2
+  },
+  {
+    "id": 109,
+    "name": "Pit Scorpion",
+    "type": "Monster",
+    "x": 2601,
+    "y": 3269,
+    "plane": 0
+  },
+  {
+    "id": 109,
+    "name": "Pit Scorpion",
+    "type": "Monster",
+    "x": 2604,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 109,
+    "name": "Pit Scorpion",
+    "type": "Monster",
+    "x": 2605,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 109,
+    "name": "Pit Scorpion",
+    "type": "Monster",
+    "x": 2606,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": 4677,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3335,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": 4677,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3337,
+    "y": 3701,
+    "plane": 0
+  },
+  {
+    "id": 4677,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3107,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": 4677,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3316,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 4677,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3299,
+    "y": 5545,
+    "plane": 0
+  },
+  {
+    "id": 6406,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2765,
+    "y": 4267,
+    "plane": 0
+  },
+  {
+    "id": 6035,
+    "name": "Irina",
+    "type": "Monster",
+    "x": 3486,
+    "y": 3488,
+    "plane": 0
+  },
+  {
+    "id": 5656,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3794,
+    "y": 2873,
+    "plane": 1
+  },
+  {
+    "id": 449,
+    "name": "Jail guard",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2045,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2044,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2008,
+    "y": 5203,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2006,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2037,
+    "y": 5214,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2037,
+    "y": 5210,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2043,
+    "y": 5217,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2040,
+    "y": 5214,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2042,
+    "y": 5217,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2038,
+    "y": 5214,
+    "plane": 0
+  },
+  {
+    "id": 4393,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2041,
+    "y": 5218,
+    "plane": 0
+  },
+  {
+    "id": 6190,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 1906,
+    "y": 4270,
+    "plane": 0
+  },
+  {
+    "id": 362,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": 362,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2489,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": 362,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2537,
+    "y": 3324,
+    "plane": 0
+  },
+  {
+    "id": 2130,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2889,
+    "y": 10207,
+    "plane": 0
+  },
+  {
+    "id": 5665,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3803,
+    "y": 2848,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3107,
+    "y": 3528,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2859,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3377,
+    "y": 9743,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3377,
+    "y": 9754,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3377,
+    "y": 9807,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3377,
+    "y": 9818,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2885,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3012,
+    "y": 3597,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3592,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3599,
+    "plane": 0
+  },
+  {
+    "id": 5334,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3590,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3033,
+    "y": 3236,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3237,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 6115,
+    "name": "Seagull",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 1085,
+    "name": "Ocga",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3558,
+    "plane": 0
+  },
+  {
+    "id": 1635,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2758,
+    "y": 10001,
+    "plane": 0
+  },
+  {
+    "id": 1635,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2763,
+    "y": 10006,
+    "plane": 0
+  },
+  {
+    "id": 1635,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2766,
+    "y": 10000,
+    "plane": 0
+  },
+  {
+    "id": 1635,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2759,
+    "y": 9999,
+    "plane": 0
+  },
+  {
+    "id": 1566,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2786,
+    "y": 10199,
+    "plane": 0
+  },
+  {
+    "id": 1566,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2790,
+    "y": 10222,
+    "plane": 0
+  },
+  {
+    "id": 1566,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2799,
+    "y": 10214,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3419,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3421,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3431,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3428,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3436,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3476,
+    "y": 3350,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3496,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3481,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 1230,
+    "name": "Bruise Blamish Snail",
+    "type": "Monster",
+    "x": 3520,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2622,
+    "y": 3389,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2619,
+    "y": 3390,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2573,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2305,
+    "y": 9385,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2307,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2307,
+    "y": 9403,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2310,
+    "y": 9396,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2317,
+    "y": 9371,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2317,
+    "y": 9383,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2324,
+    "y": 9404,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2333,
+    "y": 9366,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2335,
+    "y": 9393,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2339,
+    "y": 9403,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2342,
+    "y": 9347,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2351,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2359,
+    "y": 9392,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2562,
+    "y": 9659,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2563,
+    "y": 9661,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2599,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2601,
+    "y": 9627,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2605,
+    "y": 9621,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2610,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2624,
+    "y": 3391,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2555,
+    "y": 3407,
+    "plane": 0
+  },
+  {
+    "id": 101,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3457,
+    "plane": 0
+  },
+  {
+    "id": 6219,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2915,
+    "y": 5340,
+    "plane": 2
+  },
+  {
+    "id": 6417,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2765,
+    "y": 4264,
+    "plane": 0
+  },
+  {
+    "id": 6417,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2777,
+    "y": 4260,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2778,
+    "y": 3197,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2777,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2777,
+    "y": 3199,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2771,
+    "y": 3193,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2761,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2775,
+    "y": 3190,
+    "plane": 0
+  },
+  {
+    "id": 799,
+    "name": "Pirate Guard",
+    "type": "Monster",
+    "x": 2803,
+    "y": 3195,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2864,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2857,
+    "y": 3587,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2843,
+    "y": 3682,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2827,
+    "y": 10078,
+    "plane": 1
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2881,
+    "y": 3592,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2916,
+    "y": 3631,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2769,
+    "y": 10149,
+    "plane": 0
+  },
+  {
+    "id": 1106,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2777,
+    "y": 10142,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3597,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3611,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3620,
+    "y": 3500,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3636,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3566,
+    "y": 3457,
+    "plane": 0
+  },
+  {
+    "id": 1221,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3567,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 582,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2998,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 5403,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3141,
+    "y": 4557,
+    "plane": 0
+  },
+  {
+    "id": 5403,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3182,
+    "y": 4577,
+    "plane": 2
+  },
+  {
+    "id": 5385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3191,
+    "y": 4595,
+    "plane": 1
+  },
+  {
+    "id": 5385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3191,
+    "y": 4601,
+    "plane": 1
+  },
+  {
+    "id": 352,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2453,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": 352,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 352,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2511,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 352,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2540,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 4672,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3834,
+    "plane": 0
+  },
+  {
+    "id": 5345,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2501,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 5407,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3141,
+    "y": 4547,
+    "plane": 1
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3133,
+    "y": 3678,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3677,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3667,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3117,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3121,
+    "y": 3679,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3104,
+    "y": 3678,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3688,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3103,
+    "y": 3704,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2871,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2871,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2870,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2869,
+    "y": 9829,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9834,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2864,
+    "y": 9853,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2859,
+    "y": 9852,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2851,
+    "y": 9850,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2856,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2861,
+    "y": 9838,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2854,
+    "y": 9838,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3178,
+    "y": 3929,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3193,
+    "y": 3926,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3195,
+    "y": 3915,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3186,
+    "y": 3913,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3906,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2735,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2732,
+    "y": 9687,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2733,
+    "y": 9688,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2734,
+    "y": 9690,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2733,
+    "y": 9686,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2732,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2736,
+    "y": 9685,
+    "plane": 0
+  },
+  {
+    "id": 49,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2730,
+    "y": 9691,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2602,
+    "y": 2955,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2605,
+    "y": 2963,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2607,
+    "y": 2967,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2610,
+    "y": 2958,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2610,
+    "y": 2961,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2610,
+    "y": 2965,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2616,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2620,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2379,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2395,
+    "y": 3340,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2398,
+    "y": 3330,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2406,
+    "y": 3329,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2647,
+    "y": 3584,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2680,
+    "y": 3585,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2682,
+    "y": 3592,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2482,
+    "y": 2923,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2462,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2472,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2477,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2437,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2440,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2440,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2706,
+    "y": 3580,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2717,
+    "y": 3569,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 3207,
+    "y": 3919,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 3218,
+    "y": 3924,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3917,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2496,
+    "y": 2959,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2498,
+    "y": 2968,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2500,
+    "y": 2959,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2502,
+    "y": 2969,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2509,
+    "y": 2964,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2516,
+    "y": 3197,
+    "plane": 0
+  },
+  {
+    "id": 95,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3179,
+    "plane": 0
+  },
+  {
+    "id": 5845,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3115,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 4693,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3094,
+    "y": 3849,
+    "plane": 0
+  },
+  {
+    "id": 4693,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2369,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": 4693,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9741,
+    "plane": 0
+  },
+  {
+    "id": 4693,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2906,
+    "y": 9736,
+    "plane": 0
+  },
+  {
+    "id": 4693,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2444,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 4414,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4414,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1892,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4414,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1889,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 4414,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1892,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 4414,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 1893,
+    "y": 5219,
+    "plane": 0
+  },
+  {
+    "id": 8358,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2601,
+    "y": 5710,
+    "plane": 0
+  },
+  {
+    "id": 8358,
+    "name": "Tormented demon",
+    "type": "Monster",
+    "x": 2603,
+    "y": 5737,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3188,
+    "y": 5529,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3188,
+    "y": 5527,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3222,
+    "y": 5486,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3221,
+    "y": 5482,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3212,
+    "y": 5459,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3210,
+    "y": 5462,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3234,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 6364,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3271,
+    "y": 4809,
+    "plane": 0
+  },
+  {
+    "id": 1930,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2985,
+    "plane": 0
+  },
+  {
+    "id": 1930,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2983,
+    "plane": 0
+  },
+  {
+    "id": 1930,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 1930,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2981,
+    "plane": 0
+  },
+  {
+    "id": 1930,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": 239,
+    "name": "Sir Lancelot",
+    "type": "Monster",
+    "x": 2758,
+    "y": 3516,
+    "plane": 1
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3391,
+    "y": 3071,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3385,
+    "y": 3064,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3397,
+    "y": 3069,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3398,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3406,
+    "y": 3064,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3053,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 2805,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 2598,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2485,
+    "y": 5159,
+    "plane": 0
+  },
+  {
+    "id": 2598,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2489,
+    "y": 5155,
+    "plane": 0
+  },
+  {
+    "id": 2598,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2471,
+    "y": 5144,
+    "plane": 0
+  },
+  {
+    "id": 2598,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2476,
+    "y": 5153,
+    "plane": 0
+  },
+  {
+    "id": 2598,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 2477,
+    "y": 5150,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2571,
+    "y": 3027,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2572,
+    "y": 3031,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2575,
+    "y": 3024,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2578,
+    "y": 3031,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2510,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2520,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2502,
+    "y": 3114,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2505,
+    "y": 3111,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2507,
+    "y": 3108,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2508,
+    "y": 3119,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2509,
+    "y": 3087,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2510,
+    "y": 3084,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3087,
+    "plane": 0
+  },
+  {
+    "id": 115,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2514,
+    "y": 3081,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3197,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2555,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3157,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3149,
+    "plane": 0
+  },
+  {
+    "id": 444,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2502,
+    "y": 3175,
+    "plane": 0
+  },
+  {
+    "id": 5369,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2345,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 5369,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2323,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 5369,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2319,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 5369,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2264,
+    "y": 5136,
+    "plane": 0
+  },
+  {
+    "id": 7003,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2582,
+    "y": 9895,
+    "plane": 0
+  },
+  {
+    "id": 7003,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3230,
+    "y": 5493,
+    "plane": 0
+  },
+  {
+    "id": 7003,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3224,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 7003,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3253,
+    "y": 5535,
+    "plane": 0
+  },
+  {
+    "id": 6458,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2784,
+    "y": 4249,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2305,
+    "y": 5231,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2312,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2314,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2310,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2308,
+    "y": 5246,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2309,
+    "y": 5245,
+    "plane": 0
+  },
+  {
+    "id": 4388,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2315,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 2051,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 2236,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 3078,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 2236,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 3081,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2571,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2572,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2572,
+    "y": 3304,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2577,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2583,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2572,
+    "y": 3292,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2577,
+    "y": 3295,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2576,
+    "y": 3286,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2585,
+    "y": 3289,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2585,
+    "y": 3304,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3306,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3286,
+    "plane": 1
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2653,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 2256,
+    "name": "Paladin",
+    "type": "Monster",
+    "x": 2658,
+    "y": 3306,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2700,
+    "y": 10027,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3276,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3279,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3271,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5512,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3278,
+    "y": 5535,
+    "plane": 0
+  },
+  {
+    "id": 1637,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5520,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3302,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3302,
+    "y": 9816,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3304,
+    "y": 9801,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3310,
+    "y": 9796,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3312,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3313,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3313,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3314,
+    "y": 9797,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9800,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 3666,
+    "name": "Confusion beast",
+    "type": "Monster",
+    "x": 3321,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 7005,
+    "name": "Big wolf",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2924,
+    "plane": 0
+  },
+  {
+    "id": 1146,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2864,
+    "y": 10081,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2651,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2659,
+    "y": 3309,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2660,
+    "y": 3309,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2661,
+    "y": 3309,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2661,
+    "y": 3317,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2663,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2665,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2636,
+    "y": 3342,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2634,
+    "y": 3342,
+    "plane": 0
+  },
+  {
+    "id": 32,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2635,
+    "y": 3339,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3099,
+    "y": 9910,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3100,
+    "y": 9906,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3212,
+    "y": 9906,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3252,
+    "y": 9916,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3259,
+    "y": 9915,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3272,
+    "y": 9913,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3274,
+    "y": 9914,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3278,
+    "y": 9908,
+    "plane": 0
+  },
+  {
+    "id": 91,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3275,
+    "y": 9911,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9674,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3561,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3535,
+    "y": 9686,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3535,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3576,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3577,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3568,
+    "y": 9691,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3560,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3570,
+    "y": 9682,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9687,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3550,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3551,
+    "y": 9708,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3548,
+    "y": 9713,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3537,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3535,
+    "y": 9702,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3553,
+    "y": 9722,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9712,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9704,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3579,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3534,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3526,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2036,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3566,
+    "y": 9668,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3072,
+    "y": 3625,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3079,
+    "y": 3627,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3083,
+    "y": 3632,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3082,
+    "y": 3643,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3079,
+    "y": 3637,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3086,
+    "y": 3636,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3641,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3115,
+    "y": 3644,
+    "plane": 1
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3112,
+    "y": 3614,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3124,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 3132,
+    "y": 3597,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 2730,
+    "y": 3659,
+    "plane": 0
+  },
+  {
+    "id": 133,
+    "name": "Black unicorn",
+    "type": "Monster",
+    "x": 2708,
+    "y": 3672,
+    "plane": 0
+  },
+  {
+    "id": 1005,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3057,
+    "y": 3905,
+    "plane": 0
+  },
+  {
+    "id": 4264,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 4932,
+    "name": "Billy Goat",
+    "type": "Monster",
+    "x": 3414,
+    "y": 2891,
+    "plane": 0
+  },
+  {
+    "id": 4932,
+    "name": "Billy Goat",
+    "type": "Monster",
+    "x": 3410,
+    "y": 2888,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3029,
+    "y": 3701,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3031,
+    "y": 3685,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3032,
+    "y": 3695,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3033,
+    "y": 3705,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3037,
+    "y": 3683,
+    "plane": 0
+  },
+  {
+    "id": 195,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3040,
+    "y": 3703,
+    "plane": 0
+  },
+  {
+    "id": 6090,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 6090,
+    "name": "Zombie rat",
+    "type": "Monster",
+    "x": 2934,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 2696,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3196,
+    "plane": 0
+  },
+  {
+    "id": 242,
+    "name": "Sir Bedivere",
+    "type": "Monster",
+    "x": 2764,
+    "y": 3509,
+    "plane": 1
+  },
+  {
+    "id": 3257,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3432,
+    "plane": 0
+  },
+  {
+    "id": 2602,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4668,
+    "y": 5133,
+    "plane": 0
+  },
+  {
+    "id": 2602,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4627,
+    "y": 5122,
+    "plane": 0
+  },
+  {
+    "id": 2602,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4714,
+    "y": 5113,
+    "plane": 0
+  },
+  {
+    "id": 2602,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4752,
+    "y": 5074,
+    "plane": 0
+  },
+  {
+    "id": 2602,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4789,
+    "y": 5122,
+    "plane": 0
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5360,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2854,
+    "y": 5346,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5344,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5347,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2835,
+    "y": 5324,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2835,
+    "y": 5321,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2830,
+    "y": 5339,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2828,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5358,
+    "plane": 2
+  },
+  {
+    "id": 6276,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5356,
+    "plane": 2
+  },
+  {
+    "id": 6439,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2766,
+    "y": 4265,
+    "plane": 0
+  },
+  {
+    "id": 38,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3063,
+    "plane": 0
+  },
+  {
+    "id": 38,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2955,
+    "y": 3057,
+    "plane": 0
+  },
+  {
+    "id": 38,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 38,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2969,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 38,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2984,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5351,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5339,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5327,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2834,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2857,
+    "y": 5359,
+    "plane": 2
+  },
+  {
+    "id": 6269,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5357,
+    "plane": 2
+  },
+  {
+    "id": 2806,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3052,
+    "plane": 0
+  },
+  {
+    "id": 2806,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 2806,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3415,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 2806,
+    "name": "Desert Lizard",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3009,
+    "plane": 0
+  },
+  {
+    "id": 2132,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2828,
+    "y": 10210,
+    "plane": 0
+  },
+  {
+    "id": 2132,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2891,
+    "y": 10199,
+    "plane": 0
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5289,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5287,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5267,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2867,
+    "y": 5333,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2877,
+    "y": 5321,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2921,
+    "y": 5293,
+    "plane": 1
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2920,
+    "y": 5339,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2888,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2896,
+    "y": 5312,
+    "plane": 2
+  },
+  {
+    "id": 6212,
+    "name": "Werewolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5322,
+    "plane": 2
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2615,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2568,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9447,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9441,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9431,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2611,
+    "y": 9454,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2616,
+    "y": 9447,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2505,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2512,
+    "y": 3022,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3041,
+    "plane": 0
+  },
+  {
+    "id": 852,
+    "name": "Ogre chieftain",
+    "type": "Monster",
+    "x": 2528,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 420,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3175,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 6042,
+    "name": "Nikita",
+    "type": "Monster",
+    "x": 3480,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3771,
+    "y": 9450,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3730,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3808,
+    "y": 9423,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3797,
+    "y": 9427,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3833,
+    "y": 9438,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3834,
+    "y": 9458,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3797,
+    "y": 9440,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3793,
+    "y": 9441,
+    "plane": 0
+  },
+  {
+    "id": 4357,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3829,
+    "y": 9425,
+    "plane": 0
+  },
+  {
+    "id": 1133,
+    "name": "Thrower troll",
+    "type": "Monster",
+    "x": 2889,
+    "y": 3699,
+    "plane": 0
+  },
+  {
+    "id": 3661,
+    "name": "Angry unicorn",
+    "type": "Monster",
+    "x": 3276,
+    "y": 9836,
+    "plane": 0
+  },
+  {
+    "id": 3661,
+    "name": "Angry unicorn",
+    "type": "Monster",
+    "x": 3287,
+    "y": 9840,
+    "plane": 0
+  },
+  {
+    "id": 3168,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3663,
+    "y": 2981,
+    "plane": 0
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2668,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2635,
+    "y": 9565,
+    "plane": 2
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2633,
+    "y": 9554,
+    "plane": 2
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3247,
+    "y": 5520,
+    "plane": 0
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3205,
+    "y": 5513,
+    "plane": 0
+  },
+  {
+    "id": 1586,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3213,
+    "y": 5519,
+    "plane": 0
+  },
+  {
+    "id": 6217,
+    "name": "Icefiend",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5307,
+    "plane": 2
+  },
+  {
+    "id": 6217,
+    "name": "Icefiend",
+    "type": "Monster",
+    "x": 2899,
+    "y": 5304,
+    "plane": 2
+  },
+  {
+    "id": 6217,
+    "name": "Icefiend",
+    "type": "Monster",
+    "x": 2915,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 1806,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2798,
+    "y": 3667,
+    "plane": 0
+  },
+  {
+    "id": 3262,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3080,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 3200,
+    "name": "Chaos Elemental",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3932,
+    "plane": 0
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5359,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2830,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5342,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5320,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5329,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5342,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2827,
+    "y": 5331,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2830,
+    "y": 5315,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2839,
+    "y": 5360,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2851,
+    "y": 5359,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2860,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6278,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2792,
+    "y": 5280,
+    "plane": 2
+  },
+  {
+    "id": 4944,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2042,
+    "y": 5213,
+    "plane": 0
+  },
+  {
+    "id": 4944,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2020,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4944,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4944,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 1994,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 1600,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 3190,
+    "y": 9574,
+    "plane": 0
+  },
+  {
+    "id": 1600,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2791,
+    "y": 9997,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1995,
+    "y": 4660,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1989,
+    "y": 4660,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1989,
+    "y": 4664,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1997,
+    "y": 4664,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1989,
+    "y": 4658,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2001,
+    "y": 4646,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2000,
+    "y": 4645,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1997,
+    "y": 4644,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1999,
+    "y": 4636,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2022,
+    "y": 4665,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2024,
+    "y": 4662,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2020,
+    "y": 4660,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2023,
+    "y": 4656,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2029,
+    "y": 4660,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2031,
+    "y": 4665,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2034,
+    "y": 4661,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 2032,
+    "y": 4658,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1991,
+    "y": 4653,
+    "plane": 0
+  },
+  {
+    "id": 2783,
+    "name": "Dark beast",
+    "type": "Monster",
+    "x": 1995,
+    "y": 4651,
+    "plane": 0
+  },
+  {
+    "id": 5637,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3803,
+    "y": 2843,
+    "plane": 0
+  },
+  {
+    "id": 5310,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3212,
+    "y": 3682,
+    "plane": 0
+  },
+  {
+    "id": 5310,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3228,
+    "y": 3680,
+    "plane": 0
+  },
+  {
+    "id": 5310,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3683,
+    "plane": 0
+  },
+  {
+    "id": 5310,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3692,
+    "plane": 0
+  },
+  {
+    "id": 1096,
+    "name": "Stick",
+    "type": "Monster",
+    "x": 2852,
+    "y": 3591,
+    "plane": 0
+  },
+  {
+    "id": 4269,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2608,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 281,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 2604,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": 281,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 2609,
+    "y": 3207,
+    "plane": 0
+  },
+  {
+    "id": 281,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 2618,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 718,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3329,
+    "plane": 0
+  },
+  {
+    "id": 2605,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4631,
+    "y": 5088,
+    "plane": 0
+  },
+  {
+    "id": 2605,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4633,
+    "y": 5125,
+    "plane": 0
+  },
+  {
+    "id": 2605,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4760,
+    "y": 5074,
+    "plane": 0
+  },
+  {
+    "id": 5631,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3827,
+    "y": 2833,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3706,
+    "y": 3051,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3703,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3664,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3731,
+    "y": 2991,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3723,
+    "y": 2998,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3749,
+    "y": 3000,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3775,
+    "y": 3033,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3766,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3764,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3738,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3720,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3719,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3781,
+    "y": 3031,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3780,
+    "y": 3022,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3788,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3793,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3779,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3784,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3802,
+    "y": 3037,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3808,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3799,
+    "y": 3024,
+    "plane": 0
+  },
+  {
+    "id": 4343,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3782,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 1758,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": 1758,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3262,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 4692,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3858,
+    "plane": 0
+  },
+  {
+    "id": 4692,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2372,
+    "y": 3395,
+    "plane": 0
+  },
+  {
+    "id": 4692,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2381,
+    "y": 4422,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2381,
+    "y": 4425,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2382,
+    "y": 4429,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2385,
+    "y": 4419,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2388,
+    "y": 4421,
+    "plane": 0
+  },
+  {
+    "id": 126,
+    "name": "Otherworldly being",
+    "type": "Monster",
+    "x": 2388,
+    "y": 4428,
+    "plane": 0
+  },
+  {
+    "id": 7109,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3127,
+    "y": 9932,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9974,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3119,
+    "y": 9976,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3116,
+    "y": 9974,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3118,
+    "y": 9971,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3121,
+    "y": 9997,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9996,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3125,
+    "y": 9993,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3121,
+    "y": 9993,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3115,
+    "y": 9992,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3118,
+    "y": 9990,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3122,
+    "y": 9989,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3142,
+    "y": 5532,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3141,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3139,
+    "y": 5526,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3143,
+    "y": 5524,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3148,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 124,
+    "name": "Earth warrior",
+    "type": "Monster",
+    "x": 3148,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 6229,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2841,
+    "y": 5285,
+    "plane": 2
+  },
+  {
+    "id": 6229,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2841,
+    "y": 5289,
+    "plane": 2
+  },
+  {
+    "id": 6229,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5264,
+    "plane": 2
+  },
+  {
+    "id": 6229,
+    "name": "Spiritual warrior",
+    "type": "Monster",
+    "x": 2842,
+    "y": 5282,
+    "plane": 2
+  },
+  {
+    "id": 1938,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2849,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": 1938,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2853,
+    "y": 3731,
+    "plane": 0
+  },
+  {
+    "id": 1938,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 5473,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2377,
+    "y": 10212,
+    "plane": 0
+  },
+  {
+    "id": 5473,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2392,
+    "y": 10226,
+    "plane": 0
+  },
+  {
+    "id": 5473,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2407,
+    "y": 10228,
+    "plane": 0
+  },
+  {
+    "id": 5473,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2406,
+    "y": 10214,
+    "plane": 0
+  },
+  {
+    "id": 5473,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2420,
+    "y": 10214,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2857,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2856,
+    "y": 3066,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2860,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2854,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3083,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2853,
+    "y": 3081,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3079,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3075,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2871,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2867,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3082,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3081,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2864,
+    "y": 3089,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3084,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2885,
+    "y": 2950,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2891,
+    "y": 2951,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2894,
+    "y": 2946,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3022,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2930,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2929,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2919,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2934,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2929,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2914,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2922,
+    "y": 3059,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2930,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2914,
+    "y": 3047,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2935,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3058,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2811,
+    "y": 2975,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2815,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2808,
+    "y": 3007,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2812,
+    "y": 3007,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2784,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2783,
+    "y": 3017,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2776,
+    "y": 3107,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2794,
+    "y": 3121,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2795,
+    "y": 3118,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2796,
+    "y": 3109,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2808,
+    "y": 3112,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2791,
+    "y": 3124,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2769,
+    "y": 3198,
+    "plane": 0
+  },
+  {
+    "id": 62,
+    "name": "Jungle spider",
+    "type": "Monster",
+    "x": 2768,
+    "y": 3206,
+    "plane": 0
+  },
+  {
+    "id": 1194,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2298,
+    "y": 3177,
+    "plane": 0
+  },
+  {
+    "id": 1636,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2760,
+    "y": 10004,
+    "plane": 0
+  },
+  {
+    "id": 1636,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2760,
+    "y": 10002,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3192,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3184,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3141,
+    "y": 3261,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3174,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3178,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3144,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3142,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3151,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3139,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2993,
+    "y": 3199,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3233,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": 1771,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3209,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 913,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3098,
+    "y": 3925,
+    "plane": 0
+  },
+  {
+    "id": 913,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3100,
+    "y": 3940,
+    "plane": 0
+  },
+  {
+    "id": 913,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3934,
+    "plane": 0
+  },
+  {
+    "id": 371,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3326,
+    "plane": 0
+  },
+  {
+    "id": 371,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 371,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2555,
+    "y": 3324,
+    "plane": 0
+  },
+  {
+    "id": 893,
+    "name": "Clivet",
+    "type": "Monster",
+    "x": 2567,
+    "y": 9683,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2632,
+    "y": 3677,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2641,
+    "y": 3682,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2643,
+    "y": 3675,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2643,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2646,
+    "y": 3668,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2651,
+    "y": 3669,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2648,
+    "y": 3688,
+    "plane": 0
+  },
+  {
+    "id": 1317,
+    "name": "Market Guard",
+    "type": "Monster",
+    "x": 2656,
+    "y": 3692,
+    "plane": 0
+  },
+  {
+    "id": 3170,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3674,
+    "y": 2970,
+    "plane": 0
+  },
+  {
+    "id": 6464,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2796,
+    "y": 4267,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3719,
+    "y": 9358,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3738,
+    "y": 9378,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3765,
+    "y": 9422,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3741,
+    "y": 9436,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3727,
+    "y": 9455,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3737,
+    "y": 9413,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3735,
+    "y": 9444,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3780,
+    "y": 9456,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3827,
+    "y": 9430,
+    "plane": 0
+  },
+  {
+    "id": 4353,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3819,
+    "y": 9422,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3524,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3106,
+    "y": 3548,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2860,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3376,
+    "y": 9751,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3380,
+    "y": 9756,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3376,
+    "y": 9815,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3380,
+    "y": 9820,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2886,
+    "y": 9816,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3586,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3602,
+    "plane": 0
+  },
+  {
+    "id": 5333,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3597,
+    "plane": 0
+  },
+  {
+    "id": 7107,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3130,
+    "y": 9928,
+    "plane": 0
+  },
+  {
+    "id": 7107,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3131,
+    "y": 9931,
+    "plane": 0
+  },
+  {
+    "id": 7112,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3130,
+    "y": 9934,
+    "plane": 0
+  },
+  {
+    "id": 4270,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2593,
+    "y": 9820,
+    "plane": 0
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2877,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2879,
+    "y": 5329,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2913,
+    "y": 5267,
+    "plane": 0
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2892,
+    "y": 5291,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2888,
+    "y": 5305,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2894,
+    "y": 5285,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2900,
+    "y": 5287,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2905,
+    "y": 5302,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2898,
+    "y": 5307,
+    "plane": 2
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5292,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5286,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5292,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2920,
+    "y": 5297,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5285,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2921,
+    "y": 5289,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5294,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5285,
+    "plane": 1
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2915,
+    "y": 5273,
+    "plane": 0
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2915,
+    "y": 5271,
+    "plane": 0
+  },
+  {
+    "id": 6257,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2895,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 2275,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 2310,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 2310,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3269,
+    "plane": 0
+  },
+  {
+    "id": 2310,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 2310,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3043,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 2310,
+    "name": "Cow calf",
+    "type": "Monster",
+    "x": 3023,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 5524,
+    "name": "Ice troll grunt",
+    "type": "Monster",
+    "x": 2340,
+    "y": 3830,
+    "plane": 0
+  },
+  {
+    "id": 5524,
+    "name": "Ice troll grunt",
+    "type": "Monster",
+    "x": 2338,
+    "y": 3860,
+    "plane": 0
+  },
+  {
+    "id": 5524,
+    "name": "Ice troll grunt",
+    "type": "Monster",
+    "x": 2339,
+    "y": 3895,
+    "plane": 0
+  },
+  {
+    "id": 5524,
+    "name": "Ice troll grunt",
+    "type": "Monster",
+    "x": 2411,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 5524,
+    "name": "Ice troll grunt",
+    "type": "Monster",
+    "x": 2396,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 677,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2708,
+    "y": 9486,
+    "plane": 0
+  },
+  {
+    "id": 1124,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2922,
+    "y": 3606,
+    "plane": 0
+  },
+  {
+    "id": 6972,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2922,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 505,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2868,
+    "y": 2954,
+    "plane": 0
+  },
+  {
+    "id": 505,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2876,
+    "y": 2948,
+    "plane": 0
+  },
+  {
+    "id": 2697,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 652,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3147,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2874,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2861,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2863,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2866,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2865,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2864,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2861,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 120,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2867,
+    "y": 9879,
+    "plane": 0
+  },
+  {
+    "id": 4994,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3285,
+    "y": 3027,
+    "plane": 0
+  },
+  {
+    "id": 6245,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2861,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6245,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2833,
+    "y": 5290,
+    "plane": 2
+  },
+  {
+    "id": 6245,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2851,
+    "y": 5262,
+    "plane": 2
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3338,
+    "y": 2804,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3339,
+    "y": 2815,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3342,
+    "y": 2809,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3344,
+    "y": 2800,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3348,
+    "y": 2809,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3349,
+    "y": 2814,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3357,
+    "y": 2813,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3357,
+    "y": 2806,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3365,
+    "y": 2815,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3387,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3387,
+    "y": 3017,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3404,
+    "y": 3062,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3441,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": 2803,
+    "name": "Lizard",
+    "type": "Monster",
+    "x": 3445,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2324,
+    "y": 3832,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2350,
+    "y": 3859,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2350,
+    "y": 3862,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2352,
+    "y": 3857,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2375,
+    "y": 3892,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2388,
+    "y": 3867,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2384,
+    "y": 3863,
+    "plane": 0
+  },
+  {
+    "id": 5521,
+    "name": "Ice troll runt",
+    "type": "Monster",
+    "x": 2387,
+    "y": 3859,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2381,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2392,
+    "y": 3405,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2413,
+    "y": 3397,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2415,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2432,
+    "y": 3387,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3388,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2453,
+    "y": 3363,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2437,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2449,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2457,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3394,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3406,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3456,
+    "plane": 0
+  },
+  {
+    "id": 1752,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3456,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2392,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2394,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2408,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2421,
+    "y": 3413,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2409,
+    "y": 3470,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3466,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2420,
+    "y": 3466,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2451,
+    "y": 3414,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3395,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2462,
+    "y": 3395,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2445,
+    "y": 3429,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2451,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2453,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2461,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2472,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2475,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2475,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2477,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2481,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3495,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2473,
+    "y": 3495,
+    "plane": 1
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3497,
+    "plane": 2
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3480,
+    "plane": 2
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3497,
+    "plane": 2
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3510,
+    "plane": 2
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2466,
+    "y": 3480,
+    "plane": 2
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2461,
+    "y": 9895,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2465,
+    "y": 9894,
+    "plane": 0
+  },
+  {
+    "id": 163,
+    "name": "Gnome guard",
+    "type": "Monster",
+    "x": 2465,
+    "y": 9899,
+    "plane": 0
+  },
+  {
+    "id": 1929,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3158,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 1088,
+    "name": "Hygd",
+    "type": "Monster",
+    "x": 2918,
+    "y": 3545,
+    "plane": 0
+  },
+  {
+    "id": 4704,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2863,
+    "y": 9767,
+    "plane": 0
+  },
+  {
+    "id": 4704,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2871,
+    "y": 9782,
+    "plane": 0
+  },
+  {
+    "id": 4704,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 3160,
+    "y": 5521,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3537,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3536,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3419,
+    "y": 3545,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3544,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3410,
+    "y": 3535,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3556,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3557,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3428,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": 1648,
+    "name": "Crawling Hand",
+    "type": "Monster",
+    "x": 3432,
+    "y": 3573,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2413,
+    "y": 3445,
+    "plane": 1
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2415,
+    "y": 3435,
+    "plane": 1
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3416,
+    "plane": 1
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2424,
+    "y": 3434,
+    "plane": 1
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2392,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2394,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2396,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2405,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 159,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2483,
+    "y": 3500,
+    "plane": 1
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2072,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2096,
+    "y": 5248,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2124,
+    "y": 5273,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2128,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2117,
+    "y": 5274,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2154,
+    "y": 5273,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2167,
+    "y": 5259,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2170,
+    "y": 5257,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2170,
+    "y": 5256,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2171,
+    "y": 5256,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2167,
+    "y": 5256,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2153,
+    "y": 5273,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2153,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2171,
+    "y": 5255,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2168,
+    "y": 5250,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2168,
+    "y": 5251,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2131,
+    "y": 5264,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2157,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2150,
+    "y": 5268,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2133,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2157,
+    "y": 5274,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2156,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 4401,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2154,
+    "y": 5271,
+    "plane": 0
+  },
+  {
+    "id": 2678,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2988,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": 1759,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3250,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": 6271,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5330,
+    "plane": 2
+  },
+  {
+    "id": 6271,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6271,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2873,
+    "y": 5317,
+    "plane": 2
+  },
+  {
+    "id": 6271,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6271,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 2679,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3000,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3751,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3751,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2930,
+    "y": 3765,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2893,
+    "y": 3748,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2896,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": 1954,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2929,
+    "y": 3762,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2564,
+    "y": 9887,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9897,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2577,
+    "y": 9888,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3234,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3244,
+    "y": 9356,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3252,
+    "y": 9370,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3305,
+    "y": 9400,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3294,
+    "y": 9375,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3050,
+    "y": 10337,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3047,
+    "y": 10340,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3048,
+    "y": 10346,
+    "plane": 0
+  },
+  {
+    "id": 110,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3048,
+    "y": 10346,
+    "plane": 0
+  },
+  {
+    "id": 1584,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2661,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 1584,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2635,
+    "y": 9570,
+    "plane": 2
+  },
+  {
+    "id": 1584,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 2627,
+    "y": 9539,
+    "plane": 2
+  },
+  {
+    "id": 1584,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3231,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 1584,
+    "name": "Fire giant",
+    "type": "Monster",
+    "x": 3209,
+    "y": 5512,
+    "plane": 0
+  },
+  {
+    "id": 3219,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3027,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": 6440,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2789,
+    "y": 4248,
+    "plane": 0
+  },
+  {
+    "id": 6440,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2802,
+    "y": 4244,
+    "plane": 0
+  },
+  {
+    "id": 4531,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2103,
+    "y": 3866,
+    "plane": 0
+  },
+  {
+    "id": 4531,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2134,
+    "y": 3851,
+    "plane": 0
+  },
+  {
+    "id": 4531,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2116,
+    "y": 3950,
+    "plane": 0
+  },
+  {
+    "id": 1130,
+    "name": "Thrower troll",
+    "type": "Monster",
+    "x": 2902,
+    "y": 3696,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2505,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2512,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2506,
+    "y": 3242,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2510,
+    "y": 3252,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2516,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2517,
+    "y": 3242,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2515,
+    "y": 3256,
+    "plane": 0
+  },
+  {
+    "id": 2245,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3257,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2646,
+    "y": 9530,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2643,
+    "y": 9519,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2660,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2665,
+    "y": 9527,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2671,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2670,
+    "y": 9516,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2660,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2643,
+    "y": 9487,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2653,
+    "y": 9488,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2677,
+    "y": 9501,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2683,
+    "y": 9476,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2630,
+    "y": 9515,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2642,
+    "y": 9506,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2629,
+    "y": 9487,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2648,
+    "y": 9476,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2672,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2657,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2643,
+    "y": 9543,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2658,
+    "y": 9546,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2636,
+    "y": 9574,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2643,
+    "y": 9566,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2635,
+    "y": 9559,
+    "plane": 2
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2699,
+    "y": 9516,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2709,
+    "y": 9524,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9489,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9484,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2710,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2716,
+    "y": 9486,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2726,
+    "y": 9489,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2735,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2740,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 1594,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2739,
+    "y": 9506,
+    "plane": 0
+  },
+  {
+    "id": 4701,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3149,
+    "y": 3690,
+    "plane": 0
+  },
+  {
+    "id": 4701,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3287,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 4701,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3028,
+    "y": 10250,
+    "plane": 0
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3489,
+    "y": 9509,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3499,
+    "y": 9515,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3505,
+    "y": 9527,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3510,
+    "y": 9521,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3490,
+    "y": 9526,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3475,
+    "y": 9524,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3465,
+    "y": 9505,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3479,
+    "y": 9501,
+    "plane": 2
+  },
+  {
+    "id": 1153,
+    "name": "Kalphite Worker",
+    "type": "Monster",
+    "x": 3487,
+    "y": 9491,
+    "plane": 2
+  },
+  {
+    "id": 1905,
+    "name": "Menaphite Thug",
+    "type": "Monster",
+    "x": 3335,
+    "y": 2948,
+    "plane": 0
+  },
+  {
+    "id": 1905,
+    "name": "Menaphite Thug",
+    "type": "Monster",
+    "x": 3331,
+    "y": 2948,
+    "plane": 0
+  },
+  {
+    "id": 1905,
+    "name": "Menaphite Thug",
+    "type": "Monster",
+    "x": 3333,
+    "y": 2950,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2595,
+    "y": 3125,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2601,
+    "y": 3135,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2598,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2615,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2598,
+    "y": 3108,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3175,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3188,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2838,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2827,
+    "y": 3170,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2598,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2588,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2603,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2604,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2612,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2611,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2942,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2627,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2932,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2934,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2934,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2935,
+    "y": 3343,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2941,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3162,
+    "y": 3410,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3219,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2997,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2957,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2973,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2994,
+    "y": 3270,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3215,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3242,
+    "y": 3306,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2980,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3377,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3208,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3240,
+    "y": 3393,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2715,
+    "y": 3451,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2715,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2733,
+    "y": 3459,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2732,
+    "y": 3457,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3239,
+    "y": 3523,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3262,
+    "y": 3523,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2806,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2788,
+    "y": 3179,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2753,
+    "y": 3178,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2759,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 2544,
+    "y": 3184,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3068,
+    "y": 3251,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3031,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3010,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": 708,
+    "name": "Imp",
+    "type": "Monster",
+    "x": 3011,
+    "y": 3513,
+    "plane": 0
+  },
+  {
+    "id": 4680,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3331,
+    "y": 3672,
+    "plane": 0
+  },
+  {
+    "id": 4680,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3347,
+    "y": 3694,
+    "plane": 0
+  },
+  {
+    "id": 4680,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3078,
+    "y": 3810,
+    "plane": 0
+  },
+  {
+    "id": 4680,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3611,
+    "plane": 0
+  },
+  {
+    "id": 5389,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3157,
+    "y": 4568,
+    "plane": 0
+  },
+  {
+    "id": 5389,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3185,
+    "y": 4562,
+    "plane": 0
+  },
+  {
+    "id": 4705,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 3088,
+    "y": 9961,
+    "plane": 0
+  },
+  {
+    "id": 4705,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 3169,
+    "y": 5528,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2002,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2009,
+    "y": 5199,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2004,
+    "y": 5203,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 5377,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1988,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 4991,
+    "name": "Mercenary",
+    "type": "Monster",
+    "x": 3270,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 1192,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 1192,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 1192,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2297,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2840,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2844,
+    "y": 9634,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2842,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2641,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2648,
+    "y": 9890,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2657,
+    "y": 9894,
+    "plane": 0
+  },
+  {
+    "id": 5341,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2658,
+    "y": 9888,
+    "plane": 0
+  },
+  {
+    "id": 837,
+    "name": "Shantay Guard",
+    "type": "Monster",
+    "x": 3305,
+    "y": 3121,
+    "plane": 0
+  },
+  {
+    "id": 837,
+    "name": "Shantay Guard",
+    "type": "Monster",
+    "x": 3301,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": 837,
+    "name": "Shantay Guard",
+    "type": "Monster",
+    "x": 3302,
+    "y": 3123,
+    "plane": 0
+  },
+  {
+    "id": 837,
+    "name": "Shantay Guard",
+    "type": "Monster",
+    "x": 3307,
+    "y": 3125,
+    "plane": 0
+  },
+  {
+    "id": 749,
+    "name": "Angry barbarian spirit",
+    "type": "Monster",
+    "x": 1749,
+    "y": 5323,
+    "plane": 0
+  },
+  {
+    "id": 2136,
+    "name": "Black Guard Berserker",
+    "type": "Monster",
+    "x": 2827,
+    "y": 10212,
+    "plane": 1
+  },
+  {
+    "id": 5316,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2497,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 2600,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4656,
+    "y": 5125,
+    "plane": 0
+  },
+  {
+    "id": 2600,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4711,
+    "y": 5072,
+    "plane": 0
+  },
+  {
+    "id": 2600,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4751,
+    "y": 5087,
+    "plane": 0
+  },
+  {
+    "id": 6241,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2863,
+    "y": 5272,
+    "plane": 2
+  },
+  {
+    "id": 6241,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2850,
+    "y": 5269,
+    "plane": 2
+  },
+  {
+    "id": 4408,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4408,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1864,
+    "y": 5218,
+    "plane": 0
+  },
+  {
+    "id": 1329,
+    "name": "Black unicorn Foal",
+    "type": "Monster",
+    "x": 3085,
+    "y": 3640,
+    "plane": 0
+  },
+  {
+    "id": 5367,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3092,
+    "y": 3717,
+    "plane": 0
+  },
+  {
+    "id": 5367,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3105,
+    "y": 3721,
+    "plane": 0
+  },
+  {
+    "id": 5367,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3740,
+    "plane": 0
+  },
+  {
+    "id": 5367,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2312,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 6416,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2801,
+    "y": 4258,
+    "plane": 0
+  },
+  {
+    "id": 4673,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2829,
+    "y": 9827,
+    "plane": 0
+  },
+  {
+    "id": 4673,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2454,
+    "y": 4368,
+    "plane": 0
+  },
+  {
+    "id": 446,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2994,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 446,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3285,
+    "y": 9896,
+    "plane": 0
+  },
+  {
+    "id": 446,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3279,
+    "y": 9895,
+    "plane": 0
+  },
+  {
+    "id": 5750,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3290,
+    "y": 5544,
+    "plane": 0
+  },
+  {
+    "id": 5750,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3270,
+    "y": 5552,
+    "plane": 0
+  },
+  {
+    "id": 5750,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3274,
+    "y": 5547,
+    "plane": 0
+  },
+  {
+    "id": 5924,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3396,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3007,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3005,
+    "y": 3321,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3389,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2964,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2967,
+    "y": 3393,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2966,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2964,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 9,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3008,
+    "y": 3324,
+    "plane": 0
+  },
+  {
+    "id": 2071,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3323,
+    "y": 9643,
+    "plane": 0
+  },
+  {
+    "id": 1217,
+    "name": "Gardener",
+    "type": "Monster",
+    "x": 3000,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": 1217,
+    "name": "Gardener",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": 8133,
+    "name": "Corporeal Beast",
+    "type": "Monster",
+    "x": 2993,
+    "y": 4380,
+    "plane": 2
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9630,
+    "plane": 0
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2601,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9803,
+    "plane": 0
+  },
+  {
+    "id": 88,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9801,
+    "plane": 0
+  },
+  {
+    "id": 3074,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3404,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 6220,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6220,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5268,
+    "plane": 2
+  },
+  {
+    "id": 6220,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2931,
+    "y": 5356,
+    "plane": 2
+  },
+  {
+    "id": 6220,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2937,
+    "y": 5351,
+    "plane": 2
+  },
+  {
+    "id": 6027,
+    "name": "Imre",
+    "type": "Monster",
+    "x": 3493,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2675,
+    "y": 3731,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2669,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2655,
+    "y": 3727,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2661,
+    "y": 3732,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2656,
+    "y": 3720,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3014,
+    "y": 3787,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3813,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3781,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3793,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3803,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3789,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3798,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3020,
+    "y": 3809,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3805,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3024,
+    "y": 3781,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3024,
+    "y": 3796,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3024,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3791,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3027,
+    "y": 3797,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3027,
+    "y": 3804,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3809,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3031,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3031,
+    "y": 3802,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3033,
+    "y": 3785,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3033,
+    "y": 3811,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3806,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3036,
+    "y": 3800,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3809,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3044,
+    "y": 3802,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3046,
+    "y": 3797,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2533,
+    "y": 9554,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2531,
+    "y": 9556,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2522,
+    "y": 9562,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2524,
+    "y": 9558,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2518,
+    "y": 9562,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2515,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": 123,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2517,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3160,
+    "y": 3568,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3167,
+    "y": 3576,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3171,
+    "y": 3579,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3561,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3572,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3564,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3184,
+    "y": 3580,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3563,
+    "plane": 0
+  },
+  {
+    "id": 186,
+    "name": "Thug",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3570,
+    "plane": 0
+  },
+  {
+    "id": 6764,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3415,
+    "y": 2840,
+    "plane": 1
+  },
+  {
+    "id": 6764,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3426,
+    "y": 2852,
+    "plane": 1
+  },
+  {
+    "id": 6764,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3439,
+    "y": 2857,
+    "plane": 1
+  },
+  {
+    "id": 299,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 5311,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3231,
+    "y": 3673,
+    "plane": 0
+  },
+  {
+    "id": 5311,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3677,
+    "plane": 0
+  },
+  {
+    "id": 5311,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3689,
+    "plane": 0
+  },
+  {
+    "id": 5311,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3239,
+    "y": 3681,
+    "plane": 0
+  },
+  {
+    "id": 5311,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3694,
+    "plane": 0
+  },
+  {
+    "id": 55,
+    "name": "Blue dragon",
+    "type": "Monster",
+    "x": 2897,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 55,
+    "name": "Blue dragon",
+    "type": "Monster",
+    "x": 2909,
+    "y": 9906,
+    "plane": 0
+  },
+  {
+    "id": 7642,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3595,
+    "y": 9742,
+    "plane": 0
+  },
+  {
+    "id": 7642,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3597,
+    "y": 9751,
+    "plane": 0
+  },
+  {
+    "id": 7642,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3598,
+    "y": 9736,
+    "plane": 0
+  },
+  {
+    "id": 7642,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3604,
+    "y": 9746,
+    "plane": 0
+  },
+  {
+    "id": 288,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3366,
+    "plane": 2
+  },
+  {
+    "id": 288,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2677,
+    "y": 3655,
+    "plane": 0
+  },
+  {
+    "id": 288,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2681,
+    "y": 3653,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2361,
+    "y": 5241,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2358,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2362,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2364,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2364,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2357,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2356,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2356,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4381,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2360,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 5351,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3358,
+    "plane": 1
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2080,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2171,
+    "y": 5283,
+    "plane": 0
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2170,
+    "y": 5287,
+    "plane": 0
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2170,
+    "y": 5281,
+    "plane": 0
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2172,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4402,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2172,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 5402,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3154,
+    "y": 4559,
+    "plane": 0
+  },
+  {
+    "id": 5402,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3171,
+    "y": 4571,
+    "plane": 1
+  },
+  {
+    "id": 5402,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3179,
+    "y": 4586,
+    "plane": 1
+  },
+  {
+    "id": 5401,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3151,
+    "y": 4573,
+    "plane": 1
+  },
+  {
+    "id": 6238,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2874,
+    "y": 5308,
+    "plane": 2
+  },
+  {
+    "id": 6238,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2851,
+    "y": 5276,
+    "plane": 2
+  },
+  {
+    "id": 6238,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2864,
+    "y": 5268,
+    "plane": 2
+  },
+  {
+    "id": 1769,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2596,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": 1769,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 1769,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3264,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 504,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2870,
+    "y": 2950,
+    "plane": 0
+  },
+  {
+    "id": 504,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2877,
+    "y": 2959,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2836,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2837,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2839,
+    "y": 3502,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2839,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2842,
+    "y": 3504,
+    "plane": 0
+  },
+  {
+    "id": 6047,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2844,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 2460,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2600,
+    "y": 4778,
+    "plane": 0
+  },
+  {
+    "id": 2460,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2607,
+    "y": 4777,
+    "plane": 0
+  },
+  {
+    "id": 3223,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2994,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2840,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3098,
+    "y": 3699,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2839,
+    "y": 9565,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2837,
+    "y": 9601,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2631,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 4695,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3851,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3153,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3154,
+    "y": 9547,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3176,
+    "y": 9546,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3221,
+    "y": 9558,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3226,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3224,
+    "y": 9551,
+    "plane": 0
+  },
+  {
+    "id": 1829,
+    "name": "Big frog",
+    "type": "Monster",
+    "x": 3219,
+    "y": 9558,
+    "plane": 0
+  },
+  {
+    "id": 3191,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3659,
+    "y": 2955,
+    "plane": 0
+  },
+  {
+    "id": 3191,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3683,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 3191,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3662,
+    "y": 3005,
+    "plane": 0
+  },
+  {
+    "id": 3832,
+    "name": "Kalphite Queen",
+    "type": "Monster",
+    "x": 2345,
+    "y": 3651,
+    "plane": 0
+  },
+  {
+    "id": 4694,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3103,
+    "y": 3709,
+    "plane": 0
+  },
+  {
+    "id": 4694,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3094,
+    "y": 3869,
+    "plane": 0
+  },
+  {
+    "id": 4694,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2843,
+    "y": 9558,
+    "plane": 0
+  },
+  {
+    "id": 4694,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2840,
+    "y": 9605,
+    "plane": 0
+  },
+  {
+    "id": 4694,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3852,
+    "plane": 0
+  },
+  {
+    "id": 5300,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2500,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 2686,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2907,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 2686,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9696,
+    "plane": 0
+  },
+  {
+    "id": 6356,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3953,
+    "plane": 0
+  },
+  {
+    "id": 25,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2612,
+    "y": 3316,
+    "plane": 0
+  },
+  {
+    "id": 25,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2574,
+    "y": 3321,
+    "plane": 1
+  },
+  {
+    "id": 25,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2621,
+    "y": 3293,
+    "plane": 1
+  },
+  {
+    "id": 2131,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2822,
+    "y": 10212,
+    "plane": 0
+  },
+  {
+    "id": 2131,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2891,
+    "y": 10192,
+    "plane": 0
+  },
+  {
+    "id": 5611,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3784,
+    "y": 2824,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9747,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3108,
+    "y": 9747,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3156,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3143,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3156,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3169,
+    "y": 3260,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3171,
+    "y": 3254,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3162,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3162,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3166,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3157,
+    "y": 3229,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3168,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3878,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3888,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3888,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3879,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3174,
+    "y": 3879,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3174,
+    "y": 3882,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3885,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3876,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3885,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3165,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3165,
+    "y": 3896,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3166,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3164,
+    "y": 3893,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3163,
+    "y": 3881,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3159,
+    "y": 3889,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2893,
+    "y": 9835,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2895,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2891,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3211,
+    "y": 9622,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3215,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3212,
+    "y": 9618,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3217,
+    "y": 9617,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3214,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9890,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3210,
+    "y": 9886,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9887,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3207,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3255,
+    "y": 9870,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3258,
+    "y": 9872,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3261,
+    "y": 9870,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3327,
+    "y": 3131,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3321,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 3322,
+    "y": 3143,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2541,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2542,
+    "y": 3187,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3186,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3183,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3183,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3183,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 61,
+    "name": "Spider",
+    "type": "Monster",
+    "x": 2539,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 3711,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9746,
+    "plane": 0
+  },
+  {
+    "id": 3711,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9747,
+    "plane": 0
+  },
+  {
+    "id": 3711,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2577,
+    "y": 9743,
+    "plane": 0
+  },
+  {
+    "id": 3711,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9740,
+    "plane": 0
+  },
+  {
+    "id": 3711,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9733,
+    "plane": 0
+  },
+  {
+    "id": 419,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3195,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 419,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3181,
+    "y": 5449,
+    "plane": 0
+  },
+  {
+    "id": 477,
+    "name": "Khazard warlord",
+    "type": "Monster",
+    "x": 2455,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1997,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1992,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1990,
+    "y": 5234,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2010,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5231,
+    "plane": 0
+  },
+  {
+    "id": 4394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2018,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 6036,
+    "name": "Alexis",
+    "type": "Monster",
+    "x": 3499,
+    "y": 3474,
+    "plane": 1
+  },
+  {
+    "id": 6767,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3409,
+    "y": 2844,
+    "plane": 1
+  },
+  {
+    "id": 6767,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3421,
+    "y": 2855,
+    "plane": 1
+  },
+  {
+    "id": 6386,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 2683,
+    "y": 3326,
+    "plane": 0
+  },
+  {
+    "id": 370,
+    "name": "Mourner (boss)",
+    "type": "Monster",
+    "x": 2549,
+    "y": 3325,
+    "plane": 1
+  },
+  {
+    "id": 370,
+    "name": "Mourner (boss)",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3327,
+    "plane": 1
+  },
+  {
+    "id": 5364,
+    "name": "Confused barbarian",
+    "type": "Monster",
+    "x": 1765,
+    "y": 5344,
+    "plane": 0
+  },
+  {
+    "id": 282,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 2562,
+    "y": 9608,
+    "plane": 0
+  },
+  {
+    "id": 282,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 2564,
+    "y": 9604,
+    "plane": 0
+  },
+  {
+    "id": 282,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3280,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": 6037,
+    "name": "Milla",
+    "type": "Monster",
+    "x": 3499,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5226,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1859,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1860,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1865,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1862,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1862,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1864,
+    "y": 5206,
+    "plane": 0
+  },
+  {
+    "id": 1087,
+    "name": "Penda",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3540,
+    "plane": 0
+  },
+  {
+    "id": 2709,
+    "name": "Fire wizard",
+    "type": "Monster",
+    "x": 3002,
+    "y": 3266,
+    "plane": 0
+  },
+  {
+    "id": 5610,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3785,
+    "y": 2827,
+    "plane": 0
+  },
+  {
+    "id": 838,
+    "name": "Shantay Guard",
+    "type": "Monster",
+    "x": 3306,
+    "y": 3117,
+    "plane": 0
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5289,
+    "plane": 1
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5287,
+    "plane": 2
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2895,
+    "y": 5294,
+    "plane": 2
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2897,
+    "y": 5307,
+    "plane": 2
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5298,
+    "plane": 1
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2917,
+    "y": 5291,
+    "plane": 1
+  },
+  {
+    "id": 6258,
+    "name": "Knight of Saradomin",
+    "type": "Monster",
+    "x": 2916,
+    "y": 5269,
+    "plane": 0
+  },
+  {
+    "id": 206,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3455,
+    "plane": 0
+  },
+  {
+    "id": 206,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2931,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2933,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3151,
+    "y": 5489,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3151,
+    "y": 5489,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3145,
+    "y": 5495,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3142,
+    "y": 5493,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3149,
+    "y": 5489,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3155,
+    "y": 5491,
+    "plane": 0
+  },
+  {
+    "id": 189,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3142,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 3189,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3690,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 3189,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3671,
+    "y": 3006,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2585,
+    "y": 3479,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2589,
+    "y": 3480,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2582,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2588,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2577,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2583,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3073,
+    "y": 3961,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3074,
+    "y": 3952,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3075,
+    "y": 3955,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3076,
+    "y": 3961,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3077,
+    "y": 3949,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3079,
+    "y": 3957,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3080,
+    "y": 3961,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2568,
+    "y": 9528,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9530,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9525,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2571,
+    "y": 9528,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2862,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2837,
+    "y": 9561,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2608,
+    "y": 9818,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2609,
+    "y": 9825,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9830,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2605,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9833,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2905,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2907,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2913,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2921,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2924,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2921,
+    "y": 9834,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2918,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2908,
+    "y": 9838,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2913,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2672,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2663,
+    "y": 9804,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2658,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3725,
+    "y": 9369,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3737,
+    "y": 9390,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3738,
+    "y": 9399,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3740,
+    "y": 9407,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3765,
+    "y": 9407,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3762,
+    "y": 9395,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3725,
+    "y": 9390,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3753,
+    "y": 9387,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3728,
+    "y": 9382,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3729,
+    "y": 9360,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3755,
+    "y": 9424,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3760,
+    "y": 9440,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3737,
+    "y": 9425,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3720,
+    "y": 9430,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3736,
+    "y": 9451,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3728,
+    "y": 9463,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3740,
+    "y": 9462,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3770,
+    "y": 9463,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3752,
+    "y": 9450,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3762,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3733,
+    "y": 9421,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2759,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2756,
+    "y": 3400,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3787,
+    "y": 9459,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3803,
+    "y": 9447,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3778,
+    "y": 9438,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3786,
+    "y": 9422,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3800,
+    "y": 9419,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3797,
+    "y": 9427,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3820,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3825,
+    "y": 9414,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3833,
+    "y": 9415,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3825,
+    "y": 9449,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3827,
+    "y": 9459,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3818,
+    "y": 9466,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3799,
+    "y": 9460,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 3794,
+    "y": 9451,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2543,
+    "y": 9564,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2543,
+    "y": 9562,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2542,
+    "y": 9557,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2542,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2540,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2549,
+    "y": 9568,
+    "plane": 0
+  },
+  {
+    "id": 78,
+    "name": "Giant bat",
+    "type": "Monster",
+    "x": 2538,
+    "y": 9568,
+    "plane": 0
+  },
+  {
+    "id": 5398,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3145,
+    "y": 4574,
+    "plane": 1
+  },
+  {
+    "id": 5398,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3182,
+    "y": 4586,
+    "plane": 1
+  },
+  {
+    "id": 3188,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3664,
+    "y": 2971,
+    "plane": 0
+  },
+  {
+    "id": 4700,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2862,
+    "y": 9750,
+    "plane": 0
+  },
+  {
+    "id": 4700,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3144,
+    "y": 3701,
+    "plane": 0
+  },
+  {
+    "id": 4700,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2633,
+    "y": 9488,
+    "plane": 2
+  },
+  {
+    "id": 4700,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3282,
+    "y": 3880,
+    "plane": 0
+  },
+  {
+    "id": 3229,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2912,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": 3229,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3040,
+    "y": 3354,
+    "plane": 0
+  },
+  {
+    "id": 6350,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2798,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 6350,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2793,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3537,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3536,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3540,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3446,
+    "y": 3548,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3549,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3547,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3444,
+    "y": 3537,
+    "plane": 2
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3174,
+    "y": 5474,
+    "plane": 0
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3175,
+    "y": 5479,
+    "plane": 0
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3183,
+    "y": 5473,
+    "plane": 0
+  },
+  {
+    "id": 1610,
+    "name": "Gargoyle",
+    "type": "Monster",
+    "x": 3178,
+    "y": 5468,
+    "plane": 0
+  },
+  {
+    "id": 2082,
+    "name": "Sigmund",
+    "type": "Monster",
+    "x": 3210,
+    "y": 3220,
+    "plane": 1
+  },
+  {
+    "id": 5348,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3290,
+    "y": 3653,
+    "plane": 0
+  },
+  {
+    "id": 5844,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3113,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 4411,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4411,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1884,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 4411,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1912,
+    "y": 5239,
+    "plane": 0
+  },
+  {
+    "id": 4411,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1912,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4411,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2971,
+    "y": 3349,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3350,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2973,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2982,
+    "y": 3339,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2983,
+    "y": 3346,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2980,
+    "y": 3329,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2987,
+    "y": 3330,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2958,
+    "y": 3340,
+    "plane": 1
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2970,
+    "y": 3333,
+    "plane": 1
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2966,
+    "y": 3329,
+    "plane": 1
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2961,
+    "y": 3353,
+    "plane": 1
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2973,
+    "y": 3337,
+    "plane": 1
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2998,
+    "y": 3341,
+    "plane": 0
+  },
+  {
+    "id": 19,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2983,
+    "y": 3342,
+    "plane": 2
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2825,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3105,
+    "y": 3695,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2845,
+    "y": 9557,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2839,
+    "y": 9624,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2630,
+    "y": 9867,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3845,
+    "plane": 0
+  },
+  {
+    "id": 4697,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3324,
+    "y": 3856,
+    "plane": 0
+  },
+  {
+    "id": 448,
+    "name": "Jail guard",
+    "type": "Monster",
+    "x": 3120,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": 2711,
+    "name": "Earth wizard",
+    "type": "Monster",
+    "x": 3002,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 5375,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 5375,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2031,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 5375,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4479,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": 4479,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": 5368,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3738,
+    "plane": 0
+  },
+  {
+    "id": 5368,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3102,
+    "y": 3716,
+    "plane": 0
+  },
+  {
+    "id": 5368,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3118,
+    "y": 3733,
+    "plane": 0
+  },
+  {
+    "id": 5368,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3128,
+    "y": 3741,
+    "plane": 0
+  },
+  {
+    "id": 3042,
+    "name": "Poltenip",
+    "type": "Monster",
+    "x": 3441,
+    "y": 2920,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2874,
+    "y": 3595,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2875,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2873,
+    "y": 3598,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2845,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2836,
+    "y": 10088,
+    "plane": 1
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2917,
+    "y": 3634,
+    "plane": 0
+  },
+  {
+    "id": 1107,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2781,
+    "y": 10143,
+    "plane": 0
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3562,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3558,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3444,
+    "y": 3567,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3571,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3570,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3447,
+    "y": 3561,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3442,
+    "y": 3573,
+    "plane": 1
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3246,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3237,
+    "y": 5455,
+    "plane": 0
+  },
+  {
+    "id": 1643,
+    "name": "Infernal Mage",
+    "type": "Monster",
+    "x": 3246,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 8,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 2804,
+    "y": 3186,
+    "plane": 0
+  },
+  {
+    "id": 8,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2728,
+    "y": 2751,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2715,
+    "y": 2749,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2728,
+    "y": 2758,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2727,
+    "y": 2762,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2728,
+    "y": 2755,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2714,
+    "y": 2753,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2714,
+    "y": 2757,
+    "plane": 0
+  },
+  {
+    "id": 1458,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2714,
+    "y": 2761,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3883,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3882,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3177,
+    "y": 3871,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3176,
+    "y": 3878,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3173,
+    "y": 3892,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3171,
+    "y": 3884,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3166,
+    "y": 3874,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3169,
+    "y": 3900,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3165,
+    "y": 3881,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3164,
+    "y": 3888,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3163,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3162,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2448,
+    "y": 2784,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2477,
+    "y": 2866,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2455,
+    "y": 2857,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2434,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2460,
+    "y": 2869,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2484,
+    "y": 2897,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2471,
+    "y": 2890,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2491,
+    "y": 2906,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2544,
+    "y": 2904,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2547,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2548,
+    "y": 2981,
+    "plane": 0
+  },
+  {
+    "id": 60,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2523,
+    "y": 2975,
+    "plane": 0
+  },
+  {
+    "id": 2374,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2036,
+    "y": 4633,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3680,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3675,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3711,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3698,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3733,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 4350,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3793,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 5638,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3810,
+    "y": 2833,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3179,
+    "y": 2967,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3172,
+    "y": 2966,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3171,
+    "y": 2980,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3166,
+    "y": 2972,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3181,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3187,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3174,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3183,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3187,
+    "y": 2985,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3182,
+    "y": 2988,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3188,
+    "y": 2990,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3172,
+    "y": 2992,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3171,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2986,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3159,
+    "y": 2987,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3163,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3161,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3162,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3164,
+    "y": 2985,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3158,
+    "y": 2970,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3155,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3167,
+    "y": 2972,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3172,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3175,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 1926,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3185,
+    "y": 2967,
+    "plane": 0
+  },
+  {
+    "id": 1123,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2902,
+    "y": 3604,
+    "plane": 0
+  },
+  {
+    "id": 5343,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3282,
+    "y": 3662,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2510,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2511,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2515,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2524,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": 344,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5336,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2876,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5336,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2898,
+    "y": 5306,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2927,
+    "y": 5340,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6210,
+    "name": "Hellhound",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 3272,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3042,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 6442,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2795,
+    "y": 4273,
+    "plane": 0
+  },
+  {
+    "id": 5851,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3119,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3441,
+    "y": 3265,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3415,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3415,
+    "y": 3371,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3431,
+    "y": 3383,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3508,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3514,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3470,
+    "y": 3400,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3464,
+    "y": 3405,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3474,
+    "y": 3417,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3474,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3477,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3480,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1232,
+    "name": "Myre Blamish Snail",
+    "type": "Monster",
+    "x": 3525,
+    "y": 3417,
+    "plane": 0
+  },
+  {
+    "id": 50,
+    "name": "King Black Dragon",
+    "type": "Monster",
+    "x": 2273,
+    "y": 4698,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3659,
+    "y": 2952,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3669,
+    "y": 2961,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3683,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3668,
+    "y": 2981,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3655,
+    "y": 2973,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3675,
+    "y": 2967,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2994,
+    "y": 9584,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2992,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2990,
+    "y": 9583,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2998,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2998,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2989,
+    "y": 9578,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2993,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2994,
+    "y": 9570,
+    "plane": 0
+  },
+  {
+    "id": 184,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3958,
+    "plane": 0
+  },
+  {
+    "id": 160,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2424,
+    "y": 3430,
+    "plane": 1
+  },
+  {
+    "id": 160,
+    "name": "Gnome child",
+    "type": "Monster",
+    "x": 2474,
+    "y": 3500,
+    "plane": 1
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2842,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2844,
+    "y": 3291,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3075,
+    "y": 3848,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3090,
+    "y": 3841,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3070,
+    "y": 3829,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3070,
+    "y": 3836,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3040,
+    "y": 9775,
+    "plane": 0
+  },
+  {
+    "id": 144,
+    "name": "King Scorpion",
+    "type": "Monster",
+    "x": 3048,
+    "y": 9770,
+    "plane": 0
+  },
+  {
+    "id": 7,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3158,
+    "y": 3301,
+    "plane": 0
+  },
+  {
+    "id": 7,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 2629,
+    "y": 3360,
+    "plane": 0
+  },
+  {
+    "id": 7,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 2920,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": 7,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 3226,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 6352,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3955,
+    "plane": 0
+  },
+  {
+    "id": 6352,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3043,
+    "y": 3951,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3101,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2690,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3298,
+    "y": 3185,
+    "plane": 0
+  },
+  {
+    "id": 2,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3282,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 2461,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2597,
+    "y": 4776,
+    "plane": 0
+  },
+  {
+    "id": 2461,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2606,
+    "y": 4771,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2921,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2926,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2931,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3262,
+    "y": 3262,
+    "plane": 0
+  },
+  {
+    "id": 1767,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3311,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2072,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2130,
+    "y": 5267,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2140,
+    "y": 5252,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2141,
+    "y": 5252,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2142,
+    "y": 5252,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2148,
+    "y": 5255,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2125,
+    "y": 5270,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2148,
+    "y": 5257,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2117,
+    "y": 5274,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2146,
+    "y": 5307,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2145,
+    "y": 5305,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2152,
+    "y": 5307,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2148,
+    "y": 5252,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2142,
+    "y": 5262,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2124,
+    "y": 5275,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2121,
+    "y": 5276,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2148,
+    "y": 5304,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2146,
+    "y": 5305,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2148,
+    "y": 5304,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2151,
+    "y": 5304,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2145,
+    "y": 5306,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2134,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2151,
+    "y": 5307,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2151,
+    "y": 5308,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2149,
+    "y": 5307,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2150,
+    "y": 5308,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2150,
+    "y": 5305,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2153,
+    "y": 5307,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2152,
+    "y": 5305,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2128,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2129,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2124,
+    "y": 5271,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2124,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2122,
+    "y": 5272,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2121,
+    "y": 5275,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3018,
+    "y": 10313,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3016,
+    "y": 10315,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3018,
+    "y": 10322,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3024,
+    "y": 10326,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3030,
+    "y": 10332,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3029,
+    "y": 10337,
+    "plane": 0
+  },
+  {
+    "id": 4400,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3034,
+    "y": 10342,
+    "plane": 0
+  },
+  {
+    "id": 5494,
+    "name": "Lensa",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3808,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9493,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9492,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9492,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2593,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2839,
+    "y": 9774,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9641,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9643,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3226,
+    "y": 9909,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3225,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 75,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3234,
+    "y": 9907,
+    "plane": 0
+  },
+  {
+    "id": 3258,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3080,
+    "y": 3444,
+    "plane": 0
+  },
+  {
+    "id": 1390,
+    "name": "Broddi",
+    "type": "Monster",
+    "x": 2604,
+    "y": 3876,
+    "plane": 0
+  },
+  {
+    "id": 2616,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4631,
+    "y": 5106,
+    "plane": 0
+  },
+  {
+    "id": 2616,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4673,
+    "y": 5114,
+    "plane": 0
+  },
+  {
+    "id": 2616,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2441,
+    "y": 5130,
+    "plane": 0
+  },
+  {
+    "id": 2616,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2438,
+    "y": 5135,
+    "plane": 0
+  },
+  {
+    "id": 2616,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5138,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1872,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1873,
+    "y": 5230,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1870,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1872,
+    "y": 5217,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1873,
+    "y": 5212,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1877,
+    "y": 5218,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1877,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1875,
+    "y": 5218,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1871,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1868,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1861,
+    "y": 5189,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1882,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1874,
+    "y": 5215,
+    "plane": 0
+  },
+  {
+    "id": 4404,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1873,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 6235,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2864,
+    "y": 5270,
+    "plane": 2
+  },
+  {
+    "id": 6235,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5303,
+    "plane": 2
+  },
+  {
+    "id": 6235,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2863,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6235,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6235,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5314,
+    "plane": 2
+  },
+  {
+    "id": 2695,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3013,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3472,
+    "y": 9501,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3495,
+    "y": 9494,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3479,
+    "y": 9484,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3500,
+    "y": 9477,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3470,
+    "y": 9482,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3465,
+    "y": 9481,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3465,
+    "y": 9491,
+    "plane": 2
+  },
+  {
+    "id": 1154,
+    "name": "Kalphite Soldier",
+    "type": "Monster",
+    "x": 3468,
+    "y": 9488,
+    "plane": 2
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3195,
+    "y": 5459,
+    "plane": 0
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3186,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3173,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3179,
+    "y": 5491,
+    "plane": 0
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3185,
+    "y": 5492,
+    "plane": 0
+  },
+  {
+    "id": 421,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3184,
+    "y": 5487,
+    "plane": 0
+  },
+  {
+    "id": 143,
+    "name": "Jungle Wolf",
+    "type": "Monster",
+    "x": 2835,
+    "y": 2934,
+    "plane": 0
+  },
+  {
+    "id": 143,
+    "name": "Jungle Wolf",
+    "type": "Monster",
+    "x": 2889,
+    "y": 2936,
+    "plane": 0
+  },
+  {
+    "id": 143,
+    "name": "Jungle Wolf",
+    "type": "Monster",
+    "x": 2921,
+    "y": 2937,
+    "plane": 0
+  },
+  {
+    "id": 143,
+    "name": "Jungle Wolf",
+    "type": "Monster",
+    "x": 2787,
+    "y": 2929,
+    "plane": 0
+  },
+  {
+    "id": 3253,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2542,
+    "y": 3578,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2821,
+    "y": 3170,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3076,
+    "y": 3282,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3089,
+    "y": 3266,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3091,
+    "y": 3266,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3341,
+    "y": 3267,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3097,
+    "y": 3364,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3102,
+    "y": 3363,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3125,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3127,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2339,
+    "y": 9356,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2354,
+    "y": 9390,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2361,
+    "y": 9403,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2362,
+    "y": 9347,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2603,
+    "y": 9480,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2600,
+    "y": 9477,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9496,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9508,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2571,
+    "y": 9522,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2565,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9510,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9497,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2852,
+    "y": 9642,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2858,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2568,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9612,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9631,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9600,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9614,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2583,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9625,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9644,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2590,
+    "y": 9601,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2590,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9601,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9621,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9636,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9644,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2597,
+    "y": 9604,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9615,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2608,
+    "y": 9628,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2614,
+    "y": 9651,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2614,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2615,
+    "y": 9647,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2615,
+    "y": 9661,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2616,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2618,
+    "y": 9630,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3108,
+    "y": 9754,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3110,
+    "y": 9754,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3108,
+    "y": 9750,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2592,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9825,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2583,
+    "y": 9829,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9841,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2597,
+    "y": 9823,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2576,
+    "y": 9804,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2571,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2576,
+    "y": 9810,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2592,
+    "y": 9800,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2596,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2601,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9801,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2594,
+    "y": 9803,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2590,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2612,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2604,
+    "y": 9810,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9821,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2576,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2580,
+    "y": 9813,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2600,
+    "y": 9813,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2599,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3158,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3160,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3192,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3194,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3206,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3197,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2654,
+    "y": 9640,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2655,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2656,
+    "y": 9639,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2651,
+    "y": 9636,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2648,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2651,
+    "y": 9642,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2654,
+    "y": 9640,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2654,
+    "y": 9635,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2655,
+    "y": 9635,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2664,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2664,
+    "y": 9624,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2661,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2663,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2664,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2930,
+    "y": 9699,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2933,
+    "y": 9697,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2932,
+    "y": 9685,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2930,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3237,
+    "y": 3215,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3227,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3210,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3228,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3237,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3205,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3206,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3205,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3206,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3207,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3208,
+    "y": 3203,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3001,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3243,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3249,
+    "y": 3669,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3252,
+    "y": 3675,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3252,
+    "y": 3680,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3683,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3475,
+    "y": 9840,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3481,
+    "y": 9842,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3486,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3483,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3496,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3490,
+    "y": 9815,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3478,
+    "y": 9834,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3490,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3225,
+    "y": 9862,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3222,
+    "y": 9861,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3220,
+    "y": 9860,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3219,
+    "y": 9865,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3237,
+    "y": 9862,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2536,
+    "y": 2982,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2531,
+    "y": 2980,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2522,
+    "y": 2981,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2545,
+    "y": 2989,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2523,
+    "y": 2970,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3176,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2801,
+    "y": 3158,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2514,
+    "y": 3193,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2507,
+    "y": 3181,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2508,
+    "y": 3178,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2511,
+    "y": 3183,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2515,
+    "y": 3182,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3021,
+    "y": 3205,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2531,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3327,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3331,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3328,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3331,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3334,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2531,
+    "y": 3329,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 2532,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3276,
+    "y": 9871,
+    "plane": 0
+  },
+  {
+    "id": 47,
+    "name": "Rat",
+    "type": "Monster",
+    "x": 3277,
+    "y": 9871,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3220,
+    "y": 3461,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3221,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3213,
+    "y": 3466,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3461,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3215,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3208,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3209,
+    "y": 3460,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3205,
+    "y": 3463,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3273,
+    "y": 3430,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3272,
+    "y": 3429,
+    "plane": 0
+  },
+  {
+    "id": 5920,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3274,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3340,
+    "y": 3678,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3339,
+    "y": 3695,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3344,
+    "y": 3705,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3118,
+    "y": 3820,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 2982,
+    "y": 3618,
+    "plane": 0
+  },
+  {
+    "id": 941,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3307,
+    "y": 5462,
+    "plane": 0
+  },
+  {
+    "id": 201,
+    "name": "Jailer",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 2069,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3313,
+    "y": 9652,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2910,
+    "y": 3332,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2910,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2904,
+    "y": 3331,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3568,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2983,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2981,
+    "y": 3570,
+    "plane": 0
+  },
+  {
+    "id": 3242,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2984,
+    "y": 3561,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3084,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3215,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 2994,
+    "y": 9549,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 2993,
+    "y": 9551,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 2995,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 175,
+    "name": "Mugger",
+    "type": "Monster",
+    "x": 2999,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3174,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3198,
+    "y": 3061,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3199,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3223,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3228,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3251,
+    "y": 3059,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3219,
+    "y": 3125,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3075,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3250,
+    "y": 3126,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3264,
+    "y": 3008,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3266,
+    "y": 3008,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3285,
+    "y": 3066,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3322,
+    "y": 3032,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3323,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3325,
+    "y": 3010,
+    "plane": 0
+  },
+  {
+    "id": 6050,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3310,
+    "y": 3076,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9655,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9659,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2583,
+    "y": 9659,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2586,
+    "y": 9659,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2587,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9654,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9658,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 224,
+    "name": "Dungeon rat",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9659,
+    "plane": 0
+  },
+  {
+    "id": 1155,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3505,
+    "y": 9496,
+    "plane": 2
+  },
+  {
+    "id": 1155,
+    "name": "Kalphite Guardian",
+    "type": "Monster",
+    "x": 3513,
+    "y": 9496,
+    "plane": 2
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2845,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2848,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2822,
+    "y": 9901,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2836,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2838,
+    "y": 9917,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2847,
+    "y": 9919,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2848,
+    "y": 9912,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2834,
+    "y": 9940,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2836,
+    "y": 9953,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2844,
+    "y": 9944,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2958,
+    "y": 3867,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3857,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3862,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2949,
+    "y": 3858,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2955,
+    "y": 3875,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2954,
+    "y": 3874,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3876,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2961,
+    "y": 3877,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2947,
+    "y": 3878,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3884,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3885,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2948,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2947,
+    "y": 3934,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2948,
+    "y": 3917,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2949,
+    "y": 3926,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3913,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3936,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2954,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3930,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2964,
+    "y": 3944,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2970,
+    "y": 3947,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2971,
+    "y": 3938,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3953,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2978,
+    "y": 3942,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 2984,
+    "y": 3933,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3227,
+    "y": 5443,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3220,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3208,
+    "y": 5443,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3207,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3050,
+    "y": 9570,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3043,
+    "y": 9579,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3056,
+    "y": 9585,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3058,
+    "y": 9575,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3052,
+    "y": 9582,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3049,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3042,
+    "y": 9586,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3052,
+    "y": 9588,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3049,
+    "y": 9590,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3060,
+    "y": 9578,
+    "plane": 0
+  },
+  {
+    "id": 125,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3054,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": 1258,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3488,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 1258,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3501,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": 1258,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3478,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 1258,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3497,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 4682,
+    "name": "Blue dragon",
+    "type": "Monster",
+    "x": 2896,
+    "y": 9796,
+    "plane": 0
+  },
+  {
+    "id": 5400,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3175,
+    "y": 4579,
+    "plane": 1
+  },
+  {
+    "id": 5400,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3142,
+    "y": 4560,
+    "plane": 2
+  },
+  {
+    "id": 5400,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3159,
+    "y": 4569,
+    "plane": 2
+  },
+  {
+    "id": 3073,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3217,
+    "y": 5442,
+    "plane": 0
+  },
+  {
+    "id": 3073,
+    "name": "Ice warrior",
+    "type": "Monster",
+    "x": 3231,
+    "y": 5444,
+    "plane": 0
+  },
+  {
+    "id": 6272,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 6272,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2870,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6272,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5332,
+    "plane": 2
+  },
+  {
+    "id": 6272,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2838,
+    "y": 5334,
+    "plane": 2
+  },
+  {
+    "id": 6272,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 912,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3100,
+    "y": 3927,
+    "plane": 0
+  },
+  {
+    "id": 912,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3102,
+    "y": 3938,
+    "plane": 0
+  },
+  {
+    "id": 912,
+    "name": "Battle mage",
+    "type": "Monster",
+    "x": 3116,
+    "y": 3934,
+    "plane": 0
+  },
+  {
+    "id": 5379,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1952,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 5379,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1995,
+    "y": 5240,
+    "plane": 0
+  },
+  {
+    "id": 5379,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2010,
+    "y": 5186,
+    "plane": 0
+  },
+  {
+    "id": 5379,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2023,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 94,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2589,
+    "y": 9881,
+    "plane": 0
+  },
+  {
+    "id": 94,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9882,
+    "plane": 0
+  },
+  {
+    "id": 4678,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3333,
+    "y": 3699,
+    "plane": 0
+  },
+  {
+    "id": 4678,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3350,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": 4678,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3098,
+    "y": 3821,
+    "plane": 0
+  },
+  {
+    "id": 4678,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3305,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 4271,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2596,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2697,
+    "y": 9913,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2695,
+    "y": 9907,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2693,
+    "y": 9901,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2701,
+    "y": 9902,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2704,
+    "y": 9908,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2694,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2694,
+    "y": 9879,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2699,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9869,
+    "plane": 0
+  },
+  {
+    "id": 1020,
+    "name": "Earth elemental",
+    "type": "Monster",
+    "x": 2695,
+    "y": 9870,
+    "plane": 0
+  },
+  {
+    "id": 1339,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3153,
+    "y": 5547,
+    "plane": 0
+  },
+  {
+    "id": 1339,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3150,
+    "y": 5545,
+    "plane": 0
+  },
+  {
+    "id": 357,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3309,
+    "plane": 0
+  },
+  {
+    "id": 357,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 357,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3309,
+    "plane": 0
+  },
+  {
+    "id": 357,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2552,
+    "y": 3320,
+    "plane": 0
+  },
+  {
+    "id": 5633,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3815,
+    "y": 2859,
+    "plane": 0
+  },
+  {
+    "id": 6110,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2532,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 6110,
+    "name": "Mounted terrorbird gnome",
+    "type": "Monster",
+    "x": 2533,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 3350,
+    "name": "White Knight",
+    "type": "Monster",
+    "x": 2959,
+    "y": 3340,
+    "plane": 2
+  },
+  {
+    "id": 5366,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2357,
+    "y": 5196,
+    "plane": 0
+  },
+  {
+    "id": 5366,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2356,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 5366,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2343,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 5366,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2335,
+    "y": 5202,
+    "plane": 0
+  },
+  {
+    "id": 5366,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2323,
+    "y": 5211,
+    "plane": 0
+  },
+  {
+    "id": 1206,
+    "name": "Tyras guard",
+    "type": "Monster",
+    "x": 2185,
+    "y": 3144,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2472,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2483,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2483,
+    "y": 3323,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2490,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2510,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 354,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2524,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": 1076,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3556,
+    "plane": 0
+  },
+  {
+    "id": 1076,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2896,
+    "y": 3566,
+    "plane": 0
+  },
+  {
+    "id": 3276,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3475,
+    "plane": 0
+  },
+  {
+    "id": 6451,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2802,
+    "y": 4243,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3588,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3591,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2866,
+    "y": 3598,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3685,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2840,
+    "y": 10101,
+    "plane": 1
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2857,
+    "y": 10055,
+    "plane": 2
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2836,
+    "y": 10090,
+    "plane": 2
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2925,
+    "y": 10033,
+    "plane": 0
+  },
+  {
+    "id": 1111,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2788,
+    "y": 10131,
+    "plane": 0
+  },
+  {
+    "id": 887,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2570,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 3247,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3567,
+    "plane": 0
+  },
+  {
+    "id": 1817,
+    "name": "Camp dweller",
+    "type": "Monster",
+    "x": 2797,
+    "y": 3672,
+    "plane": 0
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2847,
+    "y": 3541,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3554,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2860,
+    "y": 3542,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2869,
+    "y": 3554,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2872,
+    "y": 3537,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3534,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2857,
+    "y": 3546,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2838,
+    "y": 3554,
+    "plane": 2
+  },
+  {
+    "id": 4292,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2869,
+    "y": 3552,
+    "plane": 2
+  },
+  {
+    "id": 4346,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3714,
+    "y": 2952,
+    "plane": 0
+  },
+  {
+    "id": 4346,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3786,
+    "y": 9463,
+    "plane": 0
+  },
+  {
+    "id": 5346,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3279,
+    "y": 3654,
+    "plane": 0
+  },
+  {
+    "id": 6503,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2775,
+    "y": 4265,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2595,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3143,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3263,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3262,
+    "y": 3253,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3254,
+    "plane": 0
+  },
+  {
+    "id": 1770,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2999,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 6501,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2772,
+    "y": 4256,
+    "plane": 0
+  },
+  {
+    "id": 6203,
+    "name": "K'ril Tsutsaroth",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5322,
+    "plane": 2
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3062,
+    "y": 9550,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3050,
+    "y": 9554,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3048,
+    "y": 9545,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3061,
+    "y": 9542,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3065,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3034,
+    "y": 9544,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3033,
+    "y": 9552,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3029,
+    "y": 9545,
+    "plane": 0
+  },
+  {
+    "id": 3068,
+    "name": "Skeletal Wyvern",
+    "type": "Monster",
+    "x": 3027,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 256,
+    "name": "Khazard Guard",
+    "type": "Monster",
+    "x": 2609,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4625,
+    "y": 5084,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4628,
+    "y": 5134,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4725,
+    "y": 5067,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4695,
+    "y": 5128,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4748,
+    "y": 5076,
+    "plane": 0
+  },
+  {
+    "id": 2615,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4790,
+    "y": 5127,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2886,
+    "y": 3758,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2886,
+    "y": 3762,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3756,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3762,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3753,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2926,
+    "y": 3753,
+    "plane": 0
+  },
+  {
+    "id": 1956,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2895,
+    "y": 3754,
+    "plane": 0
+  },
+  {
+    "id": 6354,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3950,
+    "plane": 0
+  },
+  {
+    "id": 6354,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3956,
+    "plane": 0
+  },
+  {
+    "id": 1640,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2705,
+    "y": 10028,
+    "plane": 0
+  },
+  {
+    "id": 1640,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2704,
+    "y": 10031,
+    "plane": 0
+  },
+  {
+    "id": 1640,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5445,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3021,
+    "y": 4812,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3014,
+    "y": 4838,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4836,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4812,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4842,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3048,
+    "y": 4808,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3021,
+    "y": 4847,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3054,
+    "y": 4849,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3015,
+    "y": 4833,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3035,
+    "y": 4854,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3016,
+    "y": 4829,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3040,
+    "y": 4810,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4815,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3027,
+    "y": 4851,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4819,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4845,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4829,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3018,
+    "y": 4842,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3037,
+    "y": 4906,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3057,
+    "y": 4875,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3016,
+    "y": 4892,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3058,
+    "y": 4877,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3051,
+    "y": 4874,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3029,
+    "y": 4890,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3032,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3024,
+    "y": 4916,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4903,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3061,
+    "y": 4883,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3058,
+    "y": 4889,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3053,
+    "y": 4896,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3038,
+    "y": 4871,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3053,
+    "y": 4900,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3055,
+    "y": 4915,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3037,
+    "y": 4906,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3047,
+    "y": 4886,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3033,
+    "y": 4884,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3030,
+    "y": 4877,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3026,
+    "y": 4879,
+    "plane": 0
+  },
+  {
+    "id": 2263,
+    "name": "Abyssal leech",
+    "type": "Monster",
+    "x": 3024,
+    "y": 4879,
+    "plane": 0
+  },
+  {
+    "id": 3043,
+    "name": "Radat",
+    "type": "Monster",
+    "x": 3445,
+    "y": 2917,
+    "plane": 0
+  },
+  {
+    "id": 4261,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2569,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 4261,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2579,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 4665,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2894,
+    "y": 9766,
+    "plane": 0
+  },
+  {
+    "id": 4665,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2904,
+    "y": 9797,
+    "plane": 0
+  },
+  {
+    "id": 4665,
+    "name": "Baby blue dragon",
+    "type": "Monster",
+    "x": 2918,
+    "y": 9800,
+    "plane": 0
+  },
+  {
+    "id": 1601,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2797,
+    "y": 9997,
+    "plane": 0
+  },
+  {
+    "id": 1601,
+    "name": "Cave crawler",
+    "type": "Monster",
+    "x": 2781,
+    "y": 9996,
+    "plane": 0
+  },
+  {
+    "id": 6052,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2761,
+    "y": 3863,
+    "plane": 0
+  },
+  {
+    "id": 6052,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2764,
+    "y": 3858,
+    "plane": 0
+  },
+  {
+    "id": 6052,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2769,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 6052,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2769,
+    "y": 3861,
+    "plane": 0
+  },
+  {
+    "id": 6028,
+    "name": "Yuri",
+    "type": "Monster",
+    "x": 3497,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2839,
+    "y": 5275,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2832,
+    "y": 5288,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5334,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5337,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2880,
+    "y": 5293,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2926,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2888,
+    "y": 5361,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2881,
+    "y": 5320,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2889,
+    "y": 5322,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5359,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5357,
+    "plane": 2
+  },
+  {
+    "id": 6215,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 2891,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4646,
+    "y": 5107,
+    "plane": 0
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4683,
+    "y": 5098,
+    "plane": 0
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4690,
+    "y": 5113,
+    "plane": 0
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4720,
+    "y": 5118,
+    "plane": 0
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4716,
+    "y": 5097,
+    "plane": 0
+  },
+  {
+    "id": 2611,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4762,
+    "y": 5088,
+    "plane": 0
+  },
+  {
+    "id": 2607,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4638,
+    "y": 5095,
+    "plane": 0
+  },
+  {
+    "id": 2607,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4647,
+    "y": 5141,
+    "plane": 0
+  },
+  {
+    "id": 2607,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4699,
+    "y": 5141,
+    "plane": 0
+  },
+  {
+    "id": 2607,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 4774,
+    "y": 5098,
+    "plane": 0
+  },
+  {
+    "id": 2452,
+    "name": "Giant Rock Crab",
+    "type": "Monster",
+    "x": 2526,
+    "y": 10166,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3683,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3747,
+    "y": 3007,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3735,
+    "y": 2957,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3727,
+    "y": 3003,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3719,
+    "y": 3037,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3770,
+    "y": 3027,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3719,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 4352,
+    "name": "Jungle horror",
+    "type": "Monster",
+    "x": 3787,
+    "y": 3035,
+    "plane": 0
+  },
+  {
+    "id": 5410,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3190,
+    "y": 4561,
+    "plane": 0
+  },
+  {
+    "id": 6243,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5275,
+    "plane": 2
+  },
+  {
+    "id": 6243,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5304,
+    "plane": 2
+  },
+  {
+    "id": 6243,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2850,
+    "y": 5292,
+    "plane": 2
+  },
+  {
+    "id": 6243,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2857,
+    "y": 5300,
+    "plane": 2
+  },
+  {
+    "id": 6243,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2874,
+    "y": 5287,
+    "plane": 2
+  },
+  {
+    "id": 4927,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3533,
+    "plane": 0
+  },
+  {
+    "id": 4927,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3549,
+    "plane": 0
+  },
+  {
+    "id": 4927,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3689,
+    "plane": 0
+  },
+  {
+    "id": 4927,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2971,
+    "y": 3690,
+    "plane": 0
+  },
+  {
+    "id": 4927,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3049,
+    "y": 3695,
+    "plane": 0
+  },
+  {
+    "id": 1340,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3147,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 1340,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3154,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 1935,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2841,
+    "y": 3738,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3190,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5530,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3251,
+    "y": 5455,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3258,
+    "y": 5456,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5451,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5464,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3256,
+    "y": 5473,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3244,
+    "y": 5469,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3225,
+    "y": 5485,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3218,
+    "y": 5482,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3219,
+    "y": 5486,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3207,
+    "y": 5461,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3208,
+    "y": 5458,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3219,
+    "y": 5528,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3223,
+    "y": 5520,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3225,
+    "y": 5511,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3236,
+    "y": 5511,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3232,
+    "y": 5523,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3239,
+    "y": 5530,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3233,
+    "y": 5546,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3222,
+    "y": 5539,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3269,
+    "y": 4829,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3271,
+    "y": 4823,
+    "plane": 0
+  },
+  {
+    "id": 6363,
+    "name": "Zamorak warrior",
+    "type": "Monster",
+    "x": 3283,
+    "y": 4809,
+    "plane": 0
+  },
+  {
+    "id": 4998,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3293,
+    "y": 3027,
+    "plane": 0
+  },
+  {
+    "id": 4998,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3286,
+    "y": 9419,
+    "plane": 0
+  },
+  {
+    "id": 4998,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3296,
+    "y": 9433,
+    "plane": 0
+  },
+  {
+    "id": 4998,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3310,
+    "y": 9457,
+    "plane": 0
+  },
+  {
+    "id": 1632,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2798,
+    "y": 10019,
+    "plane": 0
+  },
+  {
+    "id": 1632,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2800,
+    "y": 10015,
+    "plane": 0
+  },
+  {
+    "id": 1632,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2797,
+    "y": 10018,
+    "plane": 0
+  },
+  {
+    "id": 6454,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2765,
+    "y": 4253,
+    "plane": 0
+  },
+  {
+    "id": 6454,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2779,
+    "y": 4256,
+    "plane": 0
+  },
+  {
+    "id": 3193,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3696,
+    "y": 2993,
+    "plane": 0
+  },
+  {
+    "id": 3193,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3693,
+    "y": 3006,
+    "plane": 0
+  },
+  {
+    "id": 2688,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3127,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 2688,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2906,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 2688,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2910,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 2688,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2699,
+    "y": 9690,
+    "plane": 0
+  },
+  {
+    "id": 2048,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2485,
+    "y": 9398,
+    "plane": 2
+  },
+  {
+    "id": 2048,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2455,
+    "y": 9435,
+    "plane": 0
+  },
+  {
+    "id": 2048,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2457,
+    "y": 9420,
+    "plane": 2
+  },
+  {
+    "id": 2048,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2462,
+    "y": 9431,
+    "plane": 2
+  },
+  {
+    "id": 2048,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2482,
+    "y": 9422,
+    "plane": 2
+  },
+  {
+    "id": 6408,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2770,
+    "y": 4238,
+    "plane": 0
+  },
+  {
+    "id": 473,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2503,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 473,
+    "name": "Khazard trooper",
+    "type": "Monster",
+    "x": 2514,
+    "y": 3159,
+    "plane": 0
+  },
+  {
+    "id": 3851,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2332,
+    "y": 3669,
+    "plane": 0
+  },
+  {
+    "id": 3851,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2325,
+    "y": 3671,
+    "plane": 0
+  },
+  {
+    "id": 3851,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2331,
+    "y": 3670,
+    "plane": 0
+  },
+  {
+    "id": 3851,
+    "name": "Skeleton Mage",
+    "type": "Monster",
+    "x": 2333,
+    "y": 3671,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2831,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2833,
+    "y": 3513,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2848,
+    "y": 3487,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2854,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2856,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2988,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2991,
+    "y": 3924,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2992,
+    "y": 3917,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2994,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 3002,
+    "y": 3924,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 3004,
+    "y": 3917,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 3005,
+    "y": 3926,
+    "plane": 0
+  },
+  {
+    "id": 97,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 3006,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 2689,
+    "name": "Frog",
+    "type": "Monster",
+    "x": 2918,
+    "y": 3319,
+    "plane": 0
+  },
+  {
+    "id": 202,
+    "name": "Black Heather",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3700,
+    "plane": 0
+  },
+  {
+    "id": 2362,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2330,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 671,
+    "name": "Glough",
+    "type": "Monster",
+    "x": 2479,
+    "y": 3463,
+    "plane": 1
+  },
+  {
+    "id": 351,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2465,
+    "y": 3307,
+    "plane": 0
+  },
+  {
+    "id": 351,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 351,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2509,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2922,
+    "y": 5285,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5295,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2891,
+    "y": 5300,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2889,
+    "y": 5310,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2887,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2891,
+    "y": 5297,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2884,
+    "y": 5283,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2885,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5294,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2896,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2908,
+    "y": 5302,
+    "plane": 2
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5290,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5298,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5298,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2911,
+    "y": 5298,
+    "plane": 0
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2919,
+    "y": 5293,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2917,
+    "y": 5294,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5284,
+    "plane": 1
+  },
+  {
+    "id": 6256,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2916,
+    "y": 5267,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2833,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2829,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2825,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2829,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2833,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 190,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2827,
+    "y": 9805,
+    "plane": 0
+  },
+  {
+    "id": 1118,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2906,
+    "y": 3623,
+    "plane": 0
+  },
+  {
+    "id": 363,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 363,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2475,
+    "y": 3325,
+    "plane": 0
+  },
+  {
+    "id": 363,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2479,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 363,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2693,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2697,
+    "y": 9773,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2697,
+    "y": 9779,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9770,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9774,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9777,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2701,
+    "y": 9781,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9770,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9774,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9779,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2705,
+    "y": 9757,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2705,
+    "y": 9760,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2705,
+    "y": 9766,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2706,
+    "y": 9753,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2706,
+    "y": 9763,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2706,
+    "y": 9772,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2707,
+    "y": 9756,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2707,
+    "y": 9761,
+    "plane": 0
+  },
+  {
+    "id": 158,
+    "name": "Shadow warrior",
+    "type": "Monster",
+    "x": 2708,
+    "y": 9758,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3269,
+    "y": 9798,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3269,
+    "y": 9806,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3269,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3275,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3276,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3280,
+    "y": 9803,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3282,
+    "y": 9797,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3285,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3288,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3289,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 3667,
+    "name": "Hopeless creature",
+    "type": "Monster",
+    "x": 3290,
+    "y": 9797,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2826,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2637,
+    "y": 9532,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2634,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2642,
+    "y": 9493,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2645,
+    "y": 9484,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2679,
+    "y": 9592,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2654,
+    "y": 9587,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2650,
+    "y": 9564,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2647,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2637,
+    "y": 9545,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2678,
+    "y": 9548,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2658,
+    "y": 9551,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2691,
+    "y": 3215,
+    "plane": 0
+  },
+  {
+    "id": 1588,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3246,
+    "y": 5558,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2603,
+    "y": 3056,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2598,
+    "y": 3064,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2589,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2930,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2933,
+    "y": 9702,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3000,
+    "y": 9842,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2996,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3003,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2995,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3002,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2994,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3004,
+    "y": 9813,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2998,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3004,
+    "y": 9799,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2997,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2983,
+    "y": 9807,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2964,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3008,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3042,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3042,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3019,
+    "y": 9813,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3012,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3010,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3025,
+    "y": 9801,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3026,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3018,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3028,
+    "y": 9815,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3024,
+    "y": 9811,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3021,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3022,
+    "y": 9832,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3023,
+    "y": 9833,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3027,
+    "y": 9833,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3028,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3023,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3042,
+    "y": 9831,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3024,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3019,
+    "y": 9847,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3034,
+    "y": 9847,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3021,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3043,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3038,
+    "y": 9821,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3044,
+    "y": 9818,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3047,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 118,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3037,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2846,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2834,
+    "y": 3233,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3100,
+    "y": 3563,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2832,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3786,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2885,
+    "y": 9825,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10347,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10350,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10357,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2996,
+    "y": 10343,
+    "plane": 0
+  },
+  {
+    "id": 5337,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2993,
+    "y": 10346,
+    "plane": 0
+  },
+  {
+    "id": 5169,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 5169,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2657,
+    "y": 4705,
+    "plane": 0
+  },
+  {
+    "id": 5169,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3345,
+    "plane": 0
+  },
+  {
+    "id": 4528,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2105,
+    "y": 3848,
+    "plane": 0
+  },
+  {
+    "id": 4528,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2115,
+    "y": 3864,
+    "plane": 0
+  },
+  {
+    "id": 4528,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2122,
+    "y": 3946,
+    "plane": 0
+  },
+  {
+    "id": 3294,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3014,
+    "y": 3339,
+    "plane": 0
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5307,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5325,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2873,
+    "y": 5319,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2867,
+    "y": 5333,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2866,
+    "y": 5333,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2839,
+    "y": 5331,
+    "plane": 2
+  },
+  {
+    "id": 6274,
+    "name": "Ork",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5355,
+    "plane": 2
+  },
+  {
+    "id": 1306,
+    "name": "Freidir",
+    "type": "Monster",
+    "x": 2674,
+    "y": 3677,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3725,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3745,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3741,
+    "y": 3033,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3734,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3142,
+    "plane": 0
+  },
+  {
+    "id": 2706,
+    "name": "Crab",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3139,
+    "plane": 0
+  },
+  {
+    "id": 2045,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 2045,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2459,
+    "y": 9394,
+    "plane": 2
+  },
+  {
+    "id": 2045,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2473,
+    "y": 9430,
+    "plane": 2
+  },
+  {
+    "id": 2045,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2478,
+    "y": 9442,
+    "plane": 2
+  },
+  {
+    "id": 2045,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2487,
+    "y": 9455,
+    "plane": 2
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 2438,
+    "y": 4393,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3313,
+    "y": 5453,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3312,
+    "y": 5452,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3310,
+    "y": 5452,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3311,
+    "y": 5462,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3313,
+    "y": 5554,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3297,
+    "y": 5562,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3305,
+    "y": 5554,
+    "plane": 0
+  },
+  {
+    "id": 3376,
+    "name": "Baby black dragon",
+    "type": "Monster",
+    "x": 3300,
+    "y": 5540,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2392,
+    "y": 3450,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2415,
+    "y": 3415,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2416,
+    "y": 3434,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2423,
+    "y": 3425,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2424,
+    "y": 3442,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2378,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2383,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2402,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2406,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2422,
+    "y": 3485,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2382,
+    "y": 3506,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2418,
+    "y": 3472,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2441,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2446,
+    "y": 3403,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3416,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2468,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3406,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2486,
+    "y": 3400,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2450,
+    "y": 3488,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2473,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2474,
+    "y": 3457,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2479,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2486,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2437,
+    "y": 3463,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3489,
+    "plane": 1
+  },
+  {
+    "id": 169,
+    "name": "Gnome woman",
+    "type": "Monster",
+    "x": 2482,
+    "y": 3508,
+    "plane": 1
+  },
+  {
+    "id": 1131,
+    "name": "Thrower troll",
+    "type": "Monster",
+    "x": 2898,
+    "y": 3698,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3102,
+    "y": 3571,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2855,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3368,
+    "y": 9748,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3378,
+    "y": 9757,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3383,
+    "y": 9746,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3368,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3378,
+    "y": 9821,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3383,
+    "y": 9810,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2887,
+    "y": 9822,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2884,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3008,
+    "y": 3595,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3584,
+    "plane": 0
+  },
+  {
+    "id": 5332,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3022,
+    "y": 3595,
+    "plane": 0
+  },
+  {
+    "id": 4606,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3511,
+    "plane": 1
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3026,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3025,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3027,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3030,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3023,
+    "y": 3514,
+    "plane": 1
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3014,
+    "y": 3516,
+    "plane": 2
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3029,
+    "y": 3852,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3032,
+    "y": 3851,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3023,
+    "y": 3849,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3042,
+    "y": 3856,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3050,
+    "y": 3849,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3054,
+    "y": 3852,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3057,
+    "y": 3842,
+    "plane": 0
+  },
+  {
+    "id": 179,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3058,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3191,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3188,
+    "y": 3279,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3278,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3189,
+    "y": 3278,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3198,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3198,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2677,
+    "y": 3656,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2672,
+    "y": 3654,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2676,
+    "y": 3652,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2681,
+    "y": 3652,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2675,
+    "y": 3652,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3231,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3232,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3292,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2693,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2692,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2785,
+    "y": 3069,
+    "plane": 0
+  },
+  {
+    "id": 1017,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2800,
+    "y": 3072,
+    "plane": 0
+  },
+  {
+    "id": 1134,
+    "name": "Thrower troll",
+    "type": "Monster",
+    "x": 2886,
+    "y": 3698,
+    "plane": 0
+  },
+  {
+    "id": 6041,
+    "name": "Yadviga",
+    "type": "Monster",
+    "x": 3479,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9456,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2717,
+    "y": 9459,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2731,
+    "y": 9460,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2737,
+    "y": 9454,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2737,
+    "y": 9444,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2736,
+    "y": 9432,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2738,
+    "y": 9421,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2727,
+    "y": 9418,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9439,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2715,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2702,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9428,
+    "plane": 0
+  },
+  {
+    "id": 1591,
+    "name": "Iron dragon",
+    "type": "Monster",
+    "x": 2705,
+    "y": 9419,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3207,
+    "y": 5466,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3223,
+    "y": 5462,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3237,
+    "y": 5524,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3229,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3276,
+    "y": 4808,
+    "plane": 0
+  },
+  {
+    "id": 6367,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3291,
+    "y": 4812,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1815,
+    "y": 4405,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1818,
+    "y": 4403,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1813,
+    "y": 4404,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1814,
+    "y": 4407,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1821,
+    "y": 4393,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1823,
+    "y": 4389,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1828,
+    "y": 4387,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1821,
+    "y": 4392,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1826,
+    "y": 4391,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1844,
+    "y": 4360,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1844,
+    "y": 4361,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1851,
+    "y": 4360,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1831,
+    "y": 4378,
+    "plane": 3
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1838,
+    "y": 4379,
+    "plane": 3
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1824,
+    "y": 4376,
+    "plane": 3
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1832,
+    "y": 4380,
+    "plane": 3
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1844,
+    "y": 4373,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1849,
+    "y": 4381,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1846,
+    "y": 4374,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1865,
+    "y": 4377,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1865,
+    "y": 4397,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1857,
+    "y": 4360,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1862,
+    "y": 4362,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1862,
+    "y": 4362,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1864,
+    "y": 4366,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1865,
+    "y": 4383,
+    "plane": 2
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1864,
+    "y": 4390,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1865,
+    "y": 4408,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1877,
+    "y": 4410,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1883,
+    "y": 4411,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1889,
+    "y": 4410,
+    "plane": 1
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1887,
+    "y": 4374,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1890,
+    "y": 4372,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1890,
+    "y": 4366,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1896,
+    "y": 4371,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 1890,
+    "y": 4364,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2457,
+    "y": 10139,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2465,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2449,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2471,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2446,
+    "y": 10145,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2443,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2452,
+    "y": 10161,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2444,
+    "y": 10145,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2462,
+    "y": 10163,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2446,
+    "y": 10141,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2454,
+    "y": 10149,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2476,
+    "y": 10155,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2456,
+    "y": 10153,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2485,
+    "y": 10142,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2457,
+    "y": 10152,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2485,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2475,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2471,
+    "y": 10160,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2453,
+    "y": 10145,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2463,
+    "y": 10158,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2457,
+    "y": 10163,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2471,
+    "y": 10154,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2476,
+    "y": 10151,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2479,
+    "y": 10154,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2486,
+    "y": 10158,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2485,
+    "y": 10165,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2485,
+    "y": 10153,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2474,
+    "y": 10140,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2466,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2464,
+    "y": 10138,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2486,
+    "y": 10150,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2473,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2483,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2456,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2467,
+    "y": 10163,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2477,
+    "y": 10143,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2489,
+    "y": 10139,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2486,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2480,
+    "y": 10141,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2490,
+    "y": 10155,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2459,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2455,
+    "y": 10163,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2494,
+    "y": 10162,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2493,
+    "y": 10132,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2494,
+    "y": 10129,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2496,
+    "y": 10166,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2502,
+    "y": 10167,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2499,
+    "y": 10162,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2502,
+    "y": 10159,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2502,
+    "y": 10166,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2496,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2498,
+    "y": 10128,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2497,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2499,
+    "y": 10128,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2501,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2506,
+    "y": 10125,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2506,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2507,
+    "y": 10128,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2507,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2511,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2513,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2517,
+    "y": 10129,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2513,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2516,
+    "y": 10124,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2520,
+    "y": 10122,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2522,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2524,
+    "y": 10129,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2525,
+    "y": 10125,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2529,
+    "y": 10122,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2529,
+    "y": 10124,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2526,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2529,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2530,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2532,
+    "y": 10121,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2532,
+    "y": 10123,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2538,
+    "y": 10126,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2535,
+    "y": 10125,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2536,
+    "y": 10127,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2539,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2543,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2548,
+    "y": 10131,
+    "plane": 0
+  },
+  {
+    "id": 2455,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 2542,
+    "y": 10128,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2652,
+    "y": 9526,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2656,
+    "y": 9514,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2666,
+    "y": 9522,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2665,
+    "y": 9513,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2666,
+    "y": 9489,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2626,
+    "y": 9535,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2628,
+    "y": 9507,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2635,
+    "y": 9508,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2634,
+    "y": 9483,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2681,
+    "y": 9563,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2677,
+    "y": 9586,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2644,
+    "y": 9587,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2638,
+    "y": 9592,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2633,
+    "y": 9583,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2627,
+    "y": 9545,
+    "plane": 2
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2744,
+    "y": 9503,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2702,
+    "y": 9525,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2704,
+    "y": 9487,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2711,
+    "y": 9485,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2722,
+    "y": 9486,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2717,
+    "y": 9480,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2733,
+    "y": 9494,
+    "plane": 0
+  },
+  {
+    "id": 1593,
+    "name": "Wild dog",
+    "type": "Monster",
+    "x": 2742,
+    "y": 9489,
+    "plane": 0
+  },
+  {
+    "id": 2882,
+    "name": "Dagannoth Prime",
+    "type": "Monster",
+    "x": 2910,
+    "y": 4457,
+    "plane": 0
+  },
+  {
+    "id": 5399,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3140,
+    "y": 4557,
+    "plane": 2
+  },
+  {
+    "id": 5399,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3188,
+    "y": 4578,
+    "plane": 2
+  },
+  {
+    "id": 1143,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2850,
+    "y": 10088,
+    "plane": 0
+  },
+  {
+    "id": 1143,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2854,
+    "y": 10086,
+    "plane": 0
+  },
+  {
+    "id": 4386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3097,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 4386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3130,
+    "y": 3754,
+    "plane": 0
+  },
+  {
+    "id": 4386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3128,
+    "y": 3719,
+    "plane": 0
+  },
+  {
+    "id": 4386,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2311,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 1565,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2788,
+    "y": 10221,
+    "plane": 0
+  },
+  {
+    "id": 1565,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2801,
+    "y": 10216,
+    "plane": 0
+  },
+  {
+    "id": 1138,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2826,
+    "y": 10083,
+    "plane": 1
+  },
+  {
+    "id": 1138,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2837,
+    "y": 10083,
+    "plane": 2
+  },
+  {
+    "id": 1138,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2904,
+    "y": 3642,
+    "plane": 0
+  },
+  {
+    "id": 1138,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2923,
+    "y": 10031,
+    "plane": 0
+  },
+  {
+    "id": 4679,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3332,
+    "y": 3693,
+    "plane": 0
+  },
+  {
+    "id": 4679,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3341,
+    "y": 3685,
+    "plane": 0
+  },
+  {
+    "id": 4679,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3092,
+    "y": 3810,
+    "plane": 0
+  },
+  {
+    "id": 4679,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 2973,
+    "y": 3620,
+    "plane": 0
+  },
+  {
+    "id": 4679,
+    "name": "Green dragon",
+    "type": "Monster",
+    "x": 3312,
+    "y": 5558,
+    "plane": 0
+  },
+  {
+    "id": 6039,
+    "name": "Sofiya",
+    "type": "Monster",
+    "x": 3483,
+    "y": 3495,
+    "plane": 0
+  },
+  {
+    "id": 3244,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2909,
+    "y": 3333,
+    "plane": 0
+  },
+  {
+    "id": 141,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3324,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 141,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3286,
+    "y": 5512,
+    "plane": 0
+  },
+  {
+    "id": 141,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3310,
+    "y": 5524,
+    "plane": 0
+  },
+  {
+    "id": 141,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3289,
+    "y": 5527,
+    "plane": 0
+  },
+  {
+    "id": 141,
+    "name": "Big Wolf",
+    "type": "Monster",
+    "x": 3296,
+    "y": 5519,
+    "plane": 0
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5340,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2875,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2875,
+    "y": 5314,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2878,
+    "y": 5313,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2879,
+    "y": 5322,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5317,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5319,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2878,
+    "y": 5320,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2863,
+    "y": 5337,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2862,
+    "y": 5338,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2867,
+    "y": 5341,
+    "plane": 2
+  },
+  {
+    "id": 6275,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2852,
+    "y": 5312,
+    "plane": 2
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1848,
+    "y": 5176,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1898,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1898,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1893,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1903,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1889,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1889,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1885,
+    "y": 5191,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1900,
+    "y": 5208,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1900,
+    "y": 5210,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1903,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1901,
+    "y": 5245,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1894,
+    "y": 5243,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5242,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1889,
+    "y": 5244,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1897,
+    "y": 5196,
+    "plane": 0
+  },
+  {
+    "id": 4406,
+    "name": "Minotaur",
+    "type": "Monster",
+    "x": 1902,
+    "y": 5207,
+    "plane": 0
+  },
+  {
+    "id": 269,
+    "name": "Bouncer",
+    "type": "Monster",
+    "x": 2608,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 2074,
+    "name": "Cave goblin guard",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9605,
+    "plane": 0
+  },
+  {
+    "id": 3270,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3010,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1774,
+    "y": 5361,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1776,
+    "y": 5350,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1772,
+    "y": 5342,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1772,
+    "y": 5336,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1778,
+    "y": 5328,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1761,
+    "y": 5334,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1754,
+    "y": 5337,
+    "plane": 0
+  },
+  {
+    "id": 5362,
+    "name": "Brutal green dragon",
+    "type": "Monster",
+    "x": 1749,
+    "y": 5331,
+    "plane": 0
+  },
+  {
+    "id": 2133,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 2847,
+    "y": 10190,
+    "plane": 0
+  },
+  {
+    "id": 6044,
+    "name": "Zoja",
+    "type": "Monster",
+    "x": 3505,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 6,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3097,
+    "y": 3259,
+    "plane": 0
+  },
+  {
+    "id": 6,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3246,
+    "y": 3207,
+    "plane": 0
+  },
+  {
+    "id": 6,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 3280,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 5313,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3686,
+    "plane": 0
+  },
+  {
+    "id": 5313,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3243,
+    "y": 3688,
+    "plane": 0
+  },
+  {
+    "id": 5313,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3242,
+    "y": 3687,
+    "plane": 0
+  },
+  {
+    "id": 5634,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3793,
+    "y": 2851,
+    "plane": 0
+  },
+  {
+    "id": 5413,
+    "name": "Possessed pickaxe",
+    "type": "Monster",
+    "x": 3187,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 5413,
+    "name": "Possessed pickaxe",
+    "type": "Monster",
+    "x": 3177,
+    "y": 5453,
+    "plane": 0
+  },
+  {
+    "id": 4274,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2586,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 4274,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2569,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 4274,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9847,
+    "plane": 0
+  },
+  {
+    "id": 4274,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2609,
+    "y": 9826,
+    "plane": 0
+  },
+  {
+    "id": 5929,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3245,
+    "y": 9772,
+    "plane": 0
+  },
+  {
+    "id": 5929,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3239,
+    "y": 9766,
+    "plane": 0
+  },
+  {
+    "id": 1311,
+    "name": "Lensa",
+    "type": "Monster",
+    "x": 2655,
+    "y": 3651,
+    "plane": 0
+  },
+  {
+    "id": 1402,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2603,
+    "y": 3877,
+    "plane": 0
+  },
+  {
+    "id": 6132,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1883,
+    "y": 5029,
+    "plane": 0
+  },
+  {
+    "id": 4699,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3159,
+    "y": 3707,
+    "plane": 0
+  },
+  {
+    "id": 4699,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2629,
+    "y": 9477,
+    "plane": 2
+  },
+  {
+    "id": 4699,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 2640,
+    "y": 9502,
+    "plane": 2
+  },
+  {
+    "id": 4699,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3296,
+    "y": 3872,
+    "plane": 0
+  },
+  {
+    "id": 4699,
+    "name": "Greater demon",
+    "type": "Monster",
+    "x": 3035,
+    "y": 10245,
+    "plane": 0
+  },
+  {
+    "id": 1805,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2760,
+    "y": 3660,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2941,
+    "y": 9779,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2934,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2934,
+    "y": 9768,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2934,
+    "y": 9757,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2930,
+    "y": 9752,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2732,
+    "y": 3225,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2729,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2719,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2722,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2724,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2721,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 108,
+    "name": "Poison Scorpion",
+    "type": "Monster",
+    "x": 2713,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 4898,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 4898,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3128,
+    "y": 9875,
+    "plane": 0
+  },
+  {
+    "id": 1108,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2878,
+    "y": 3592,
+    "plane": 0
+  },
+  {
+    "id": 1108,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3586,
+    "plane": 0
+  },
+  {
+    "id": 1108,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2852,
+    "y": 3673,
+    "plane": 0
+  },
+  {
+    "id": 1108,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2855,
+    "y": 10058,
+    "plane": 2
+  },
+  {
+    "id": 1108,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2783,
+    "y": 10140,
+    "plane": 0
+  },
+  {
+    "id": 2683,
+    "name": "Hengel",
+    "type": "Monster",
+    "x": 2967,
+    "y": 3212,
+    "plane": 1
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9660,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3122,
+    "y": 9656,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3117,
+    "y": 9646,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9651,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3117,
+    "y": 9645,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3082,
+    "y": 9671,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3105,
+    "y": 9672,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3113,
+    "y": 9673,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3094,
+    "y": 9671,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2843,
+    "y": 9767,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2845,
+    "y": 9762,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2842,
+    "y": 9759,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3126,
+    "y": 9865,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3129,
+    "y": 9859,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3121,
+    "y": 9863,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3126,
+    "y": 9862,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3148,
+    "y": 9899,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3147,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3141,
+    "y": 9901,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3142,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3139,
+    "y": 9886,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3148,
+    "y": 9883,
+    "plane": 0
+  },
+  {
+    "id": 74,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3151,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 2077,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3323,
+    "y": 9616,
+    "plane": 0
+  },
+  {
+    "id": 5881,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2436,
+    "y": 5540,
+    "plane": 0
+  },
+  {
+    "id": 2462,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2596,
+    "y": 4773,
+    "plane": 0
+  },
+  {
+    "id": 2462,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2602,
+    "y": 4771,
+    "plane": 0
+  },
+  {
+    "id": 2462,
+    "name": "Pheasant",
+    "type": "Monster",
+    "x": 2596,
+    "y": 4780,
+    "plane": 0
+  },
+  {
+    "id": 6202,
+    "name": "K'ril Tsutsaroth",
+    "type": "Monster",
+    "x": 2912,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": 1623,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2725,
+    "y": 9999,
+    "plane": 0
+  },
+  {
+    "id": 1144,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2856,
+    "y": 10089,
+    "plane": 0
+  },
+  {
+    "id": 1144,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2858,
+    "y": 10089,
+    "plane": 0
+  },
+  {
+    "id": 5303,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2506,
+    "y": 3284,
+    "plane": 0
+  },
+  {
+    "id": 2685,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3124,
+    "y": 9873,
+    "plane": 0
+  },
+  {
+    "id": 2685,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": 2685,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2696,
+    "y": 9689,
+    "plane": 0
+  },
+  {
+    "id": 21,
+    "name": "Hero",
+    "type": "Monster",
+    "x": 2630,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 21,
+    "name": "Hero",
+    "type": "Monster",
+    "x": 2647,
+    "y": 3306,
+    "plane": 0
+  },
+  {
+    "id": 21,
+    "name": "Hero",
+    "type": "Monster",
+    "x": 2667,
+    "y": 3315,
+    "plane": 0
+  },
+  {
+    "id": 182,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3690,
+    "y": 2966,
+    "plane": 0
+  },
+  {
+    "id": 7128,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1625,
+    "y": 4689,
+    "plane": 0
+  },
+  {
+    "id": 7128,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1614,
+    "y": 4704,
+    "plane": 0
+  },
+  {
+    "id": 7128,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1631,
+    "y": 4719,
+    "plane": 0
+  },
+  {
+    "id": 7128,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1651,
+    "y": 4705,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3691,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3091,
+    "y": 3861,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2839,
+    "y": 9560,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2846,
+    "y": 9613,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2931,
+    "y": 9808,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2930,
+    "y": 9799,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2632,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 4696,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3014,
+    "y": 3848,
+    "plane": 0
+  },
+  {
+    "id": 1776,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2999,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 1776,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3264,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 6126,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2351,
+    "y": 9358,
+    "plane": 0
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2906,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2886,
+    "y": 5354,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2885,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2901,
+    "y": 5362,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2914,
+    "y": 5344,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5343,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2918,
+    "y": 5361,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2923,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 6221,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2924,
+    "y": 5352,
+    "plane": 2
+  },
+  {
+    "id": 7768,
+    "name": "TzHaar-Hur",
+    "type": "Monster",
+    "x": 4762,
+    "y": 5156,
+    "plane": 0
+  },
+  {
+    "id": 688,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2668,
+    "y": 3442,
+    "plane": 2
+  },
+  {
+    "id": 688,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2667,
+    "y": 3444,
+    "plane": 2
+  },
+  {
+    "id": 688,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2669,
+    "y": 3444,
+    "plane": 2
+  },
+  {
+    "id": 1122,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2916,
+    "y": 3601,
+    "plane": 0
+  },
+  {
+    "id": 1097,
+    "name": "Pee Hat",
+    "type": "Monster",
+    "x": 2858,
+    "y": 3596,
+    "plane": 0
+  },
+  {
+    "id": 1940,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2853,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 1940,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2856,
+    "y": 3732,
+    "plane": 0
+  },
+  {
+    "id": 1940,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3720,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3348,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3178,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3259,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3238,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3243,
+    "y": 3228,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3322,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3318,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3216,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3218,
+    "y": 3287,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3223,
+    "y": 3281,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3231,
+    "y": 3271,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3267,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3233,
+    "y": 3270,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3265,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3359,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2979,
+    "y": 3357,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 2993,
+    "y": 3384,
+    "plane": 0
+  },
+  {
+    "id": 46,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3015,
+    "y": 3285,
+    "plane": 0
+  },
+  {
+    "id": 1116,
+    "name": "Troll general",
+    "type": "Monster",
+    "x": 2822,
+    "y": 10073,
+    "plane": 2
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 3212,
+    "y": 3820,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 3222,
+    "y": 3829,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2694,
+    "y": 9508,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2710,
+    "y": 9499,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2704,
+    "y": 9520,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2714,
+    "y": 9523,
+    "plane": 0
+  },
+  {
+    "id": 53,
+    "name": "Red dragon",
+    "type": "Monster",
+    "x": 2722,
+    "y": 9520,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3295,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 2957,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 2953,
+    "y": 3240,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 2988,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 2744,
+    "y": 3519,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 3011,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 180,
+    "name": "Highwayman",
+    "type": "Monster",
+    "x": 3009,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": 3915,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2945,
+    "y": 3146,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3150,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3188,
+    "y": 9550,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3148,
+    "y": 9578,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3152,
+    "y": 9556,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3150,
+    "y": 9553,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3167,
+    "y": 9547,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3168,
+    "y": 9546,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3184,
+    "y": 9551,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3191,
+    "y": 9583,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3187,
+    "y": 9583,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3220,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3224,
+    "y": 9574,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3208,
+    "y": 9588,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3210,
+    "y": 9585,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5549,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3275,
+    "y": 5546,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3281,
+    "y": 5545,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3286,
+    "y": 5544,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3285,
+    "y": 5539,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3268,
+    "y": 5553,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3274,
+    "y": 5558,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3281,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3282,
+    "y": 5554,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3269,
+    "y": 5551,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3287,
+    "y": 5549,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3279,
+    "y": 5546,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3283,
+    "y": 5545,
+    "plane": 0
+  },
+  {
+    "id": 1832,
+    "name": "Cave bug",
+    "type": "Monster",
+    "x": 3269,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 3255,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3073,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3093,
+    "y": 3357,
+    "plane": 1
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2894,
+    "y": 9849,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2905,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2915,
+    "y": 9852,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2934,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2935,
+    "y": 9828,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9820,
+    "plane": 0
+  },
+  {
+    "id": 104,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2900,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 6230,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2843,
+    "y": 5265,
+    "plane": 2
+  },
+  {
+    "id": 6230,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2851,
+    "y": 5273,
+    "plane": 2
+  },
+  {
+    "id": 6230,
+    "name": "Spiritual ranger",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5262,
+    "plane": 2
+  },
+  {
+    "id": 6040,
+    "name": "Ksenia",
+    "type": "Monster",
+    "x": 3498,
+    "y": 3472,
+    "plane": 1
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2747,
+    "y": 2782,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2754,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2761,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2765,
+    "y": 2779,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2767,
+    "y": 2784,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2772,
+    "y": 2781,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2774,
+    "y": 2787,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2777,
+    "y": 2790,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2762,
+    "y": 2793,
+    "plane": 0
+  },
+  {
+    "id": 1457,
+    "name": "Monkey Archer",
+    "type": "Monster",
+    "x": 2756,
+    "y": 2789,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2622,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2835,
+    "y": 9526,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2832,
+    "y": 9514,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2825,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2846,
+    "y": 9520,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2838,
+    "y": 9508,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2832,
+    "y": 9495,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2838,
+    "y": 9492,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2851,
+    "y": 9485,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2847,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2865,
+    "y": 9494,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2855,
+    "y": 9502,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2870,
+    "y": 9496,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2851,
+    "y": 9511,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2853,
+    "y": 9519,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2857,
+    "y": 9520,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2863,
+    "y": 9525,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2869,
+    "y": 9530,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2865,
+    "y": 9515,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2868,
+    "y": 9507,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2874,
+    "y": 9512,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2896,
+    "y": 2946,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2918,
+    "y": 2961,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2926,
+    "y": 2986,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2930,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2926,
+    "y": 3056,
+    "plane": 0
+  },
+  {
+    "id": 113,
+    "name": "Jogre",
+    "type": "Monster",
+    "x": 2916,
+    "y": 3065,
+    "plane": 0
+  },
+  {
+    "id": 729,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2536,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 742,
+    "name": "Elvarg",
+    "type": "Monster",
+    "x": 2854,
+    "y": 9636,
+    "plane": 0
+  },
+  {
+    "id": 5168,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3199,
+    "y": 3270,
+    "plane": 0
+  },
+  {
+    "id": 5168,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 2658,
+    "y": 4713,
+    "plane": 0
+  },
+  {
+    "id": 5168,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3209,
+    "y": 3259,
+    "plane": 0
+  },
+  {
+    "id": 5168,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3260,
+    "y": 3349,
+    "plane": 0
+  },
+  {
+    "id": 6026,
+    "name": "Boris",
+    "type": "Monster",
+    "x": 3489,
+    "y": 3490,
+    "plane": 0
+  },
+  {
+    "id": 5396,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3145,
+    "y": 4583,
+    "plane": 1
+  },
+  {
+    "id": 1196,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2217,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": 1196,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2199,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 1196,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2201,
+    "y": 3218,
+    "plane": 0
+  },
+  {
+    "id": 1196,
+    "name": "Grizzly bear cub",
+    "type": "Monster",
+    "x": 2291,
+    "y": 3156,
+    "plane": 0
+  },
+  {
+    "id": 1312,
+    "name": "Jennella",
+    "type": "Monster",
+    "x": 2639,
+    "y": 3651,
+    "plane": 0
+  },
+  {
+    "id": 1941,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2854,
+    "y": 3725,
+    "plane": 0
+  },
+  {
+    "id": 1941,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2862,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 1941,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2862,
+    "y": 3731,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5210,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2322,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5210,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2322,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2327,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2328,
+    "y": 5200,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2326,
+    "y": 5198,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2331,
+    "y": 5198,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2333,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2333,
+    "y": 5199,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3139,
+    "y": 3747,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3141,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3157,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3165,
+    "y": 3746,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3164,
+    "y": 3727,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3713,
+    "plane": 0
+  },
+  {
+    "id": 4382,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 3177,
+    "y": 3724,
+    "plane": 0
+  },
+  {
+    "id": 2044,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2486,
+    "y": 3048,
+    "plane": 0
+  },
+  {
+    "id": 2044,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2484,
+    "y": 9392,
+    "plane": 2
+  },
+  {
+    "id": 2044,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2465,
+    "y": 9454,
+    "plane": 2
+  },
+  {
+    "id": 2044,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2471,
+    "y": 9422,
+    "plane": 2
+  },
+  {
+    "id": 2044,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2448,
+    "y": 9442,
+    "plane": 2
+  },
+  {
+    "id": 6104,
+    "name": "Skeleton brute",
+    "type": "Monster",
+    "x": 1751,
+    "y": 5326,
+    "plane": 0
+  },
+  {
+    "id": 5397,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3155,
+    "y": 4583,
+    "plane": 0
+  },
+  {
+    "id": 5397,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3176,
+    "y": 4576,
+    "plane": 1
+  },
+  {
+    "id": 4689,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2369,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 4689,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2902,
+    "y": 9736,
+    "plane": 0
+  },
+  {
+    "id": 4689,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2440,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3150,
+    "y": 3044,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3172,
+    "y": 3009,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3197,
+    "y": 3012,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3198,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3237,
+    "y": 2968,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3034,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3226,
+    "y": 3060,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3250,
+    "y": 3057,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3092,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3235,
+    "y": 3074,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3252,
+    "y": 3125,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3258,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3265,
+    "y": 3066,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3267,
+    "y": 3066,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3310,
+    "y": 3068,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3322,
+    "y": 3011,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3322,
+    "y": 3052,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3324,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3283,
+    "y": 3108,
+    "plane": 0
+  },
+  {
+    "id": 839,
+    "name": "Desert Wolf",
+    "type": "Monster",
+    "x": 3323,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 5846,
+    "name": "Outlaw",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 6368,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3226,
+    "y": 5458,
+    "plane": 0
+  },
+  {
+    "id": 6368,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3222,
+    "y": 5470,
+    "plane": 0
+  },
+  {
+    "id": 6368,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3238,
+    "y": 5541,
+    "plane": 0
+  },
+  {
+    "id": 6368,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3226,
+    "y": 5540,
+    "plane": 0
+  },
+  {
+    "id": 6368,
+    "name": "Zamorak mage",
+    "type": "Monster",
+    "x": 3222,
+    "y": 5522,
+    "plane": 0
+  },
+  {
+    "id": 4527,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2071,
+    "y": 3877,
+    "plane": 0
+  },
+  {
+    "id": 4527,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2084,
+    "y": 3868,
+    "plane": 0
+  },
+  {
+    "id": 4527,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2089,
+    "y": 3864,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2875,
+    "y": 3588,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3667,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2825,
+    "y": 10087,
+    "plane": 1
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2836,
+    "y": 10080,
+    "plane": 1
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2883,
+    "y": 3586,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2909,
+    "y": 3641,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2923,
+    "y": 10029,
+    "plane": 0
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2784,
+    "y": 10040,
+    "plane": 2
+  },
+  {
+    "id": 1109,
+    "name": "Mountain troll",
+    "type": "Monster",
+    "x": 2784,
+    "y": 10134,
+    "plane": 0
+  },
+  {
+    "id": 6768,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3414,
+    "y": 2844,
+    "plane": 1
+  },
+  {
+    "id": 6768,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3439,
+    "y": 2851,
+    "plane": 1
+  },
+  {
+    "id": 4273,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2564,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 1142,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2851,
+    "y": 10089,
+    "plane": 0
+  },
+  {
+    "id": 1142,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2854,
+    "y": 10092,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3733,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2913,
+    "y": 3736,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2915,
+    "y": 3740,
+    "plane": 0
+  },
+  {
+    "id": 1953,
+    "name": "Ice wolf",
+    "type": "Monster",
+    "x": 2894,
+    "y": 3742,
+    "plane": 0
+  },
+  {
+    "id": 4389,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2013,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 4389,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2043,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4389,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2041,
+    "y": 5231,
+    "plane": 0
+  },
+  {
+    "id": 4389,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2029,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4389,
+    "name": "Flesh Crawler",
+    "type": "Monster",
+    "x": 2020,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 750,
+    "name": "Enraged barbarian spirit",
+    "type": "Monster",
+    "x": 1765,
+    "y": 5321,
+    "plane": 0
+  },
+  {
+    "id": 750,
+    "name": "Enraged barbarian spirit",
+    "type": "Monster",
+    "x": 1744,
+    "y": 5326,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3082,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2602,
+    "y": 9640,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2603,
+    "y": 9635,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2603,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2605,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2605,
+    "y": 9639,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2606,
+    "y": 9635,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2606,
+    "y": 9646,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9637,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9641,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9644,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9648,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2608,
+    "y": 9635,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2608,
+    "y": 9642,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2609,
+    "y": 9639,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2609,
+    "y": 9643,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3102,
+    "y": 9881,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3095,
+    "y": 9883,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3162,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3164,
+    "y": 3242,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3169,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3170,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3166,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3164,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3157,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3163,
+    "y": 3227,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3165,
+    "y": 3223,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3194,
+    "y": 3236,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3146,
+    "y": 3347,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2369,
+    "y": 3374,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2372,
+    "y": 3379,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2378,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2379,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2387,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2394,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2402,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2405,
+    "y": 3381,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2407,
+    "y": 3387,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2412,
+    "y": 3384,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2648,
+    "y": 9766,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2653,
+    "y": 9761,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2483,
+    "y": 2877,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2481,
+    "y": 2876,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2457,
+    "y": 2867,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2481,
+    "y": 2847,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2475,
+    "y": 2854,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2482,
+    "y": 2873,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2485,
+    "y": 2876,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2449,
+    "y": 2865,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2461,
+    "y": 2880,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2489,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2492,
+    "y": 2907,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2888,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2478,
+    "y": 2916,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2485,
+    "y": 2902,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2487,
+    "y": 2902,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2489,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2490,
+    "y": 2905,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2490,
+    "y": 2917,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2484,
+    "y": 2890,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2491,
+    "y": 2927,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3250,
+    "y": 3239,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3249,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3218,
+    "y": 9890,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3220,
+    "y": 9887,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3218,
+    "y": 9887,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3218,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 3213,
+    "y": 9890,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2496,
+    "y": 2890,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2503,
+    "y": 2889,
+    "plane": 0
+  },
+  {
+    "id": 59,
+    "name": "Giant spider",
+    "type": "Monster",
+    "x": 2497,
+    "y": 2939,
+    "plane": 0
+  },
+  {
+    "id": 5644,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3795,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 728,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2540,
+    "y": 3308,
+    "plane": 0
+  },
+  {
+    "id": 6233,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2861,
+    "y": 5261,
+    "plane": 2
+  },
+  {
+    "id": 6233,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2852,
+    "y": 5264,
+    "plane": 2
+  },
+  {
+    "id": 6233,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5263,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5336,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5344,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2842,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2844,
+    "y": 5349,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5323,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2832,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6270,
+    "name": "Cyclops",
+    "type": "Monster",
+    "x": 2848,
+    "y": 5358,
+    "plane": 2
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2875,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2862,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2860,
+    "y": 9762,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2854,
+    "y": 9780,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2866,
+    "y": 9781,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9481,
+    "plane": 0
+  },
+  {
+    "id": 84,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2729,
+    "y": 9483,
+    "plane": 0
+  },
+  {
+    "id": 6979,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2888,
+    "y": 3448,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2400,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2377,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2380,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2383,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2405,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2406,
+    "y": 3440,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2393,
+    "y": 3451,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2408,
+    "y": 3437,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2394,
+    "y": 3500,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2417,
+    "y": 3483,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2456,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2459,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2462,
+    "y": 3431,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2437,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2442,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2456,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2471,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2474,
+    "y": 3508,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2475,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2479,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2486,
+    "y": 3470,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2492,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2443,
+    "y": 3464,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2443,
+    "y": 3502,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2448,
+    "y": 3496,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2449,
+    "y": 3506,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2457,
+    "y": 3498,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2474,
+    "y": 3498,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2480,
+    "y": 3502,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2481,
+    "y": 3482,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2490,
+    "y": 3503,
+    "plane": 1
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3169,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3171,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2556,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 67,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5530,
+    "plane": 1
+  },
+  {
+    "id": 3226,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2996,
+    "y": 3375,
+    "plane": 0
+  },
+  {
+    "id": 372,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2561,
+    "y": 3305,
+    "plane": 0
+  },
+  {
+    "id": 372,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2561,
+    "y": 3303,
+    "plane": 0
+  },
+  {
+    "id": 372,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2559,
+    "y": 3304,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3188,
+    "y": 5511,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3190,
+    "y": 5511,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3300,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3285,
+    "y": 5492,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3285,
+    "y": 5495,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3288,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3268,
+    "y": 5487,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3533,
+    "y": 9691,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3537,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3533,
+    "y": 9696,
+    "plane": 0
+  },
+  {
+    "id": 2033,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3533,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3184,
+    "y": 3386,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3185,
+    "y": 3391,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3392,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3247,
+    "y": 9775,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3240,
+    "y": 9770,
+    "plane": 0
+  },
+  {
+    "id": 5926,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3235,
+    "y": 9766,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3514,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3415,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3416,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3416,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3419,
+    "y": 3512,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3518,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3461,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3427,
+    "y": 3463,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3428,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3428,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3430,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3430,
+    "y": 3467,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3433,
+    "y": 3458,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3433,
+    "y": 3468,
+    "plane": 0
+  },
+  {
+    "id": 1218,
+    "name": "Ghoul",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3464,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2529,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2529,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2531,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 2801,
+    "name": "Ogre",
+    "type": "Monster",
+    "x": 2532,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 1098,
+    "name": "Kraka",
+    "type": "Monster",
+    "x": 2868,
+    "y": 3591,
+    "plane": 0
+  },
+  {
+    "id": 719,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2560,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3074,
+    "y": 3892,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 2841,
+    "y": 9583,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 2841,
+    "y": 9582,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 2839,
+    "y": 9582,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 2837,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 2832,
+    "y": 9580,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3128,
+    "y": 9954,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3127,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3125,
+    "y": 9958,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3117,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3122,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3120,
+    "y": 9952,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3123,
+    "y": 9951,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3125,
+    "y": 9948,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3118,
+    "y": 9950,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9891,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3177,
+    "y": 9886,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3175,
+    "y": 9889,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3177,
+    "y": 9879,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3177,
+    "y": 9888,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3178,
+    "y": 9895,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3182,
+    "y": 9884,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3164,
+    "y": 9888,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3169,
+    "y": 9892,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3213,
+    "y": 3728,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3211,
+    "y": 3734,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3214,
+    "y": 3738,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3215,
+    "y": 3748,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3218,
+    "y": 3746,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3226,
+    "y": 3750,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3239,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3748,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3248,
+    "y": 3746,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3743,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3245,
+    "y": 3737,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3258,
+    "y": 5560,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3258,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3260,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5552,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3260,
+    "y": 5558,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3258,
+    "y": 5556,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3260,
+    "y": 5559,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3257,
+    "y": 5561,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3071,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3062,
+    "y": 3897,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3058,
+    "y": 3889,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3054,
+    "y": 3880,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3054,
+    "y": 3895,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3051,
+    "y": 3879,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3051,
+    "y": 3886,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3047,
+    "y": 3893,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3047,
+    "y": 3881,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3044,
+    "y": 3893,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3041,
+    "y": 3894,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3890,
+    "plane": 0
+  },
+  {
+    "id": 63,
+    "name": "Deadly red spider",
+    "type": "Monster",
+    "x": 3046,
+    "y": 3872,
+    "plane": 0
+  },
+  {
+    "id": 478,
+    "name": "Khazard commander",
+    "type": "Monster",
+    "x": 2509,
+    "y": 3255,
+    "plane": 0
+  },
+  {
+    "id": 478,
+    "name": "Khazard commander",
+    "type": "Monster",
+    "x": 2503,
+    "y": 3254,
+    "plane": 1
+  },
+  {
+    "id": 5378,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1993,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 5378,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1999,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 5378,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1989,
+    "y": 5187,
+    "plane": 0
+  },
+  {
+    "id": 5378,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2008,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 827,
+    "name": "Rowdy slave",
+    "type": "Monster",
+    "x": 3273,
+    "y": 9417,
+    "plane": 0
+  },
+  {
+    "id": 827,
+    "name": "Rowdy slave",
+    "type": "Monster",
+    "x": 3289,
+    "y": 9443,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3451,
+    "y": 3380,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3445,
+    "y": 3374,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3365,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3367,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3413,
+    "y": 3362,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3352,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3435,
+    "y": 3349,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3442,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3448,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3426,
+    "y": 3338,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3335,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3420,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3439,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3448,
+    "y": 3444,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3449,
+    "y": 3420,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3441,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3427,
+    "y": 3421,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3414,
+    "y": 3422,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3423,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3415,
+    "y": 3414,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3410,
+    "y": 3409,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3422,
+    "y": 3405,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3431,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3444,
+    "y": 3405,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3453,
+    "y": 3397,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3470,
+    "y": 3385,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3463,
+    "y": 3379,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3457,
+    "y": 3355,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3461,
+    "y": 3348,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3457,
+    "y": 3343,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3471,
+    "y": 3344,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3458,
+    "y": 3433,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3459,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3467,
+    "y": 3402,
+    "plane": 0
+  },
+  {
+    "id": 1052,
+    "name": "Ghast",
+    "type": "Monster",
+    "x": 3473,
+    "y": 3395,
+    "plane": 0
+  },
+  {
+    "id": 5928,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3249,
+    "y": 9772,
+    "plane": 0
+  },
+  {
+    "id": 1101,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2854,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 2276,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3243,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 4392,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4392,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2033,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4392,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2026,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2842,
+    "y": 3450,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2864,
+    "y": 3453,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2872,
+    "y": 3445,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2846,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2847,
+    "y": 3474,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2860,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 96,
+    "name": "White wolf",
+    "type": "Monster",
+    "x": 2866,
+    "y": 3498,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3251,
+    "plane": 1
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2928,
+    "y": 3244,
+    "plane": 1
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2924,
+    "y": 3253,
+    "plane": 1
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3252,
+    "plane": 1
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2927,
+    "y": 3254,
+    "plane": 1
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2888,
+    "y": 9850,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2901,
+    "y": 9848,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2909,
+    "y": 9848,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2919,
+    "y": 9848,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2937,
+    "y": 9837,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2906,
+    "y": 9818,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2920,
+    "y": 9818,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2968,
+    "y": 3761,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2985,
+    "y": 3761,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2962,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2990,
+    "y": 3755,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2968,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2985,
+    "y": 3749,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2713,
+    "y": 4892,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2711,
+    "y": 4899,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2732,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2729,
+    "y": 4893,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2713,
+    "y": 4907,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3241,
+    "y": 9907,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3243,
+    "y": 9914,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3242,
+    "y": 9913,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3242,
+    "y": 9916,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3239,
+    "y": 9914,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 2501,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 103,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3272,
+    "y": 3664,
+    "plane": 0
+  },
+  {
+    "id": 425,
+    "name": "Shade",
+    "type": "Monster",
+    "x": 2717,
+    "y": 5332,
+    "plane": 0
+  },
+  {
+    "id": 2597,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4621,
+    "y": 5094,
+    "plane": 0
+  },
+  {
+    "id": 2597,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 2446,
+    "y": 5144,
+    "plane": 0
+  },
+  {
+    "id": 2597,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 2470,
+    "y": 5141,
+    "plane": 0
+  },
+  {
+    "id": 2274,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3243,
+    "y": 3245,
+    "plane": 0
+  },
+  {
+    "id": 6973,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2893,
+    "y": 3419,
+    "plane": 0
+  },
+  {
+    "id": 5883,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2436,
+    "y": 5526,
+    "plane": 0
+  },
+  {
+    "id": 5883,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2486,
+    "y": 5525,
+    "plane": 0
+  },
+  {
+    "id": 917,
+    "name": "Jail guard",
+    "type": "Monster",
+    "x": 3125,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 917,
+    "name": "Jail guard",
+    "type": "Monster",
+    "x": 3122,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 5927,
+    "name": "Thief",
+    "type": "Monster",
+    "x": 3250,
+    "y": 9776,
+    "plane": 0
+  },
+  {
+    "id": 1263,
+    "name": "Wizard",
+    "type": "Monster",
+    "x": 3108,
+    "y": 3160,
+    "plane": 1
+  },
+  {
+    "id": 674,
+    "name": "Foreman",
+    "type": "Monster",
+    "x": 3001,
+    "y": 3041,
+    "plane": 0
+  },
+  {
+    "id": 674,
+    "name": "Foreman",
+    "type": "Monster",
+    "x": 2954,
+    "y": 3025,
+    "plane": 0
+  },
+  {
+    "id": 1147,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2853,
+    "y": 10076,
+    "plane": 0
+  },
+  {
+    "id": 3265,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3121,
+    "y": 3427,
+    "plane": 0
+  },
+  {
+    "id": 3265,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2582,
+    "y": 9836,
+    "plane": 0
+  },
+  {
+    "id": 2883,
+    "name": "Dagannoth Rex",
+    "type": "Monster",
+    "x": 2923,
+    "y": 4443,
+    "plane": 0
+  },
+  {
+    "id": 6240,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2837,
+    "y": 5269,
+    "plane": 2
+  },
+  {
+    "id": 6240,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2860,
+    "y": 5300,
+    "plane": 2
+  },
+  {
+    "id": 6240,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2852,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6240,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2879,
+    "y": 5286,
+    "plane": 2
+  },
+  {
+    "id": 6766,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3406,
+    "y": 2837,
+    "plane": 1
+  },
+  {
+    "id": 6766,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3434,
+    "y": 2848,
+    "plane": 1
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2920,
+    "y": 3800,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2883,
+    "y": 9932,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2883,
+    "y": 9965,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3902,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2953,
+    "y": 3889,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2947,
+    "y": 3921,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 2811,
+    "y": 3506,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3043,
+    "y": 9581,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3055,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3061,
+    "y": 9576,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3055,
+    "y": 9571,
+    "plane": 0
+  },
+  {
+    "id": 111,
+    "name": "Ice giant",
+    "type": "Monster",
+    "x": 3052,
+    "y": 9566,
+    "plane": 0
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2409,
+    "y": 3507,
+    "plane": 0
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2412,
+    "y": 3474,
+    "plane": 3
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2458,
+    "y": 3417,
+    "plane": 1
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2460,
+    "y": 3417,
+    "plane": 1
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 2463,
+    "y": 3504,
+    "plane": 2
+  },
+  {
+    "id": 480,
+    "name": "Gnome troop",
+    "type": "Monster",
+    "x": 1964,
+    "y": 5522,
+    "plane": 3
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2825,
+    "y": 3249,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2560,
+    "y": 3406,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3144,
+    "y": 3822,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3168,
+    "y": 9880,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3159,
+    "y": 9903,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3156,
+    "y": 9907,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2699,
+    "y": 3206,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3202,
+    "y": 5490,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3237,
+    "y": 5555,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2554,
+    "y": 3411,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2554,
+    "y": 3400,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2543,
+    "y": 9823,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2540,
+    "y": 9819,
+    "plane": 0
+  },
+  {
+    "id": 112,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2543,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 2566,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3160,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3159,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3161,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3169,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3171,
+    "y": 9634,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3164,
+    "y": 9634,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9631,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3180,
+    "y": 9631,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3183,
+    "y": 9629,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3182,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3172,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3158,
+    "y": 9631,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3160,
+    "y": 9630,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3159,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3150,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3152,
+    "y": 9620,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3159,
+    "y": 9622,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3169,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": 1711,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3169,
+    "y": 9623,
+    "plane": 0
+  },
+  {
+    "id": 2053,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2467,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 1172,
+    "name": "The Shaikahan",
+    "type": "Monster",
+    "x": 2909,
+    "y": 3086,
+    "plane": 0
+  },
+  {
+    "id": 4482,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2952,
+    "y": 3505,
+    "plane": 0
+  },
+  {
+    "id": 4482,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2950,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": 2360,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2335,
+    "y": 3174,
+    "plane": 0
+  },
+  {
+    "id": 2360,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2322,
+    "y": 3172,
+    "plane": 0
+  },
+  {
+    "id": 4921,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3304,
+    "y": 5493,
+    "plane": 0
+  },
+  {
+    "id": 4921,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3303,
+    "y": 5496,
+    "plane": 0
+  },
+  {
+    "id": 4921,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3271,
+    "y": 5490,
+    "plane": 0
+  },
+  {
+    "id": 3249,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3082,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2724,
+    "y": 10008,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2721,
+    "y": 10005,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2724,
+    "y": 10005,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2729,
+    "y": 10004,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2724,
+    "y": 10012,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2718,
+    "y": 10009,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2721,
+    "y": 10001,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2720,
+    "y": 9996,
+    "plane": 0
+  },
+  {
+    "id": 1627,
+    "name": "Turoth",
+    "type": "Monster",
+    "x": 2721,
+    "y": 10006,
+    "plane": 0
+  },
+  {
+    "id": 5923,
+    "name": "Man",
+    "type": "Monster",
+    "x": 3224,
+    "y": 3394,
+    "plane": 1
+  },
+  {
+    "id": 3267,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3134,
+    "y": 3459,
+    "plane": 0
+  },
+  {
+    "id": 5394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3167,
+    "y": 4589,
+    "plane": 0
+  },
+  {
+    "id": 5394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3172,
+    "y": 4598,
+    "plane": 0
+  },
+  {
+    "id": 5394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2677,
+    "y": 9688,
+    "plane": 0
+  },
+  {
+    "id": 5394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2676,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 5394,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2669,
+    "y": 9681,
+    "plane": 0
+  },
+  {
+    "id": 3256,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3080,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 3256,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3084,
+    "y": 3415,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2439,
+    "y": 5170,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2451,
+    "y": 5170,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2453,
+    "y": 5161,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2460,
+    "y": 5160,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2457,
+    "y": 5155,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2480,
+    "y": 5168,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2469,
+    "y": 5166,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2490,
+    "y": 5173,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2488,
+    "y": 5171,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2483,
+    "y": 5156,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2470,
+    "y": 5147,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2468,
+    "y": 5139,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2458,
+    "y": 5141,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2454,
+    "y": 5141,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2452,
+    "y": 5124,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2454,
+    "y": 5122,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2453,
+    "y": 5143,
+    "plane": 0
+  },
+  {
+    "id": 2604,
+    "name": "TzHaar-Xil",
+    "type": "Monster",
+    "x": 2443,
+    "y": 5144,
+    "plane": 0
+  },
+  {
+    "id": 3278,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 3045,
+    "y": 3477,
+    "plane": 0
+  },
+  {
+    "id": 5650,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3800,
+    "y": 2835,
+    "plane": 0
+  },
+  {
+    "id": 1691,
+    "name": "Undead cow",
+    "type": "Monster",
+    "x": 3624,
+    "y": 3530,
+    "plane": 0
+  },
+  {
+    "id": 1691,
+    "name": "Undead cow",
+    "type": "Monster",
+    "x": 3623,
+    "y": 3524,
+    "plane": 0
+  },
+  {
+    "id": 1691,
+    "name": "Undead cow",
+    "type": "Monster",
+    "x": 3618,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": 1691,
+    "name": "Undead cow",
+    "type": "Monster",
+    "x": 3612,
+    "y": 3527,
+    "plane": 0
+  },
+  {
+    "id": 1691,
+    "name": "Undead cow",
+    "type": "Monster",
+    "x": 3609,
+    "y": 3527,
+    "plane": 0
+  },
+  {
+    "id": 645,
+    "name": "Jonny the beard",
+    "type": "Monster",
+    "x": 3223,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 1937,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3732,
+    "plane": 0
+  },
+  {
+    "id": 1937,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2857,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 1937,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2865,
+    "y": 3729,
+    "plane": 0
+  },
+  {
+    "id": 4926,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3227,
+    "y": 3547,
+    "plane": 0
+  },
+  {
+    "id": 4926,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 3251,
+    "y": 3528,
+    "plane": 0
+  },
+  {
+    "id": 4926,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2969,
+    "y": 3686,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2817,
+    "y": 2921,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2775,
+    "y": 2929,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2789,
+    "y": 2926,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2795,
+    "y": 2932,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2775,
+    "y": 2933,
+    "plane": 0
+  },
+  {
+    "id": 48,
+    "name": "Oomlie bird",
+    "type": "Monster",
+    "x": 2769,
+    "y": 2928,
+    "plane": 0
+  },
+  {
+    "id": 1102,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2859,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 3277,
+    "name": "Black Guard",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3471,
+    "plane": 0
+  },
+  {
+    "id": 5170,
+    "name": "Ram",
+    "type": "Monster",
+    "x": 3052,
+    "y": 3516,
+    "plane": 0
+  },
+  {
+    "id": 675,
+    "name": "Shipyard worker",
+    "type": "Monster",
+    "x": 2944,
+    "y": 3041,
+    "plane": 0
+  },
+  {
+    "id": 717,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2513,
+    "y": 3294,
+    "plane": 0
+  },
+  {
+    "id": 717,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3320,
+    "plane": 0
+  },
+  {
+    "id": 717,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 717,
+    "name": "Mourner",
+    "type": "Monster",
+    "x": 2535,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2323,
+    "y": 3790,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2323,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2322,
+    "y": 3795,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2317,
+    "y": 3794,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2317,
+    "y": 3790,
+    "plane": 0
+  },
+  {
+    "id": 5529,
+    "name": "Yak",
+    "type": "Monster",
+    "x": 2321,
+    "y": 3792,
+    "plane": 0
+  },
+  {
+    "id": 5390,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3182,
+    "y": 4562,
+    "plane": 0
+  },
+  {
+    "id": 5390,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3185,
+    "y": 4560,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2714,
+    "y": 9904,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2718,
+    "y": 9906,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2717,
+    "y": 9902,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2720,
+    "y": 9904,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9903,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2727,
+    "y": 9905,
+    "plane": 0
+  },
+  {
+    "id": 1022,
+    "name": "Water elemental",
+    "type": "Monster",
+    "x": 2726,
+    "y": 9907,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2713,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2708,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2706,
+    "y": 10135,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2708,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2703,
+    "y": 10135,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2702,
+    "y": 10131,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2717,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 3707,
+    "name": "Brine rat",
+    "type": "Monster",
+    "x": 2708,
+    "y": 10130,
+    "plane": 0
+  },
+  {
+    "id": 6432,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2766,
+    "y": 4255,
+    "plane": 0
+  },
+  {
+    "id": 6365,
+    "name": "Zamorak ranger",
+    "type": "Monster",
+    "x": 3267,
+    "y": 4817,
+    "plane": 0
+  },
+  {
+    "id": 6365,
+    "name": "Zamorak ranger",
+    "type": "Monster",
+    "x": 3290,
+    "y": 4803,
+    "plane": 0
+  },
+  {
+    "id": 199,
+    "name": "Gunthor the Brave",
+    "type": "Monster",
+    "x": 3079,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 1148,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2858,
+    "y": 10082,
+    "plane": 0
+  },
+  {
+    "id": 6038,
+    "name": "Galina",
+    "type": "Monster",
+    "x": 3490,
+    "y": 3472,
+    "plane": 1
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9632,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2573,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2996,
+    "y": 9574,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3007,
+    "y": 9579,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3001,
+    "y": 9580,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2507,
+    "y": 3726,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2523,
+    "y": 3724,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2535,
+    "y": 9556,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3018,
+    "y": 9580,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3021,
+    "y": 9585,
+    "plane": 0
+  },
+  {
+    "id": 122,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 3024,
+    "y": 9582,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1804,
+    "y": 4369,
+    "plane": 2
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1812,
+    "y": 4363,
+    "plane": 2
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1817,
+    "y": 4368,
+    "plane": 2
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1801,
+    "y": 4404,
+    "plane": 3
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1805,
+    "y": 4405,
+    "plane": 3
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1803,
+    "y": 4404,
+    "plane": 3
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1811,
+    "y": 4394,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1804,
+    "y": 4391,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1798,
+    "y": 4391,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1802,
+    "y": 4389,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1799,
+    "y": 4386,
+    "plane": 2
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1799,
+    "y": 4381,
+    "plane": 2
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1798,
+    "y": 4375,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1803,
+    "y": 4376,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1797,
+    "y": 4380,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1848,
+    "y": 4394,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1850,
+    "y": 4389,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1850,
+    "y": 4391,
+    "plane": 1
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1902,
+    "y": 4367,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1894,
+    "y": 4367,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1893,
+    "y": 4361,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 1886,
+    "y": 4369,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2500,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2505,
+    "y": 10150,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2510,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2511,
+    "y": 10147,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2517,
+    "y": 10151,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2519,
+    "y": 10143,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2529,
+    "y": 10148,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2528,
+    "y": 10144,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2532,
+    "y": 10145,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2532,
+    "y": 10140,
+    "plane": 0
+  },
+  {
+    "id": 2457,
+    "name": "Wallasalki",
+    "type": "Monster",
+    "x": 2520,
+    "y": 10144,
+    "plane": 0
+  },
+  {
+    "id": 1616,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2741,
+    "y": 10011,
+    "plane": 0
+  },
+  {
+    "id": 1616,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2742,
+    "y": 10010,
+    "plane": 0
+  },
+  {
+    "id": 1616,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2739,
+    "y": 10014,
+    "plane": 0
+  },
+  {
+    "id": 1616,
+    "name": "Basilisk",
+    "type": "Monster",
+    "x": 2740,
+    "y": 10006,
+    "plane": 0
+  },
+  {
+    "id": 6405,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2799,
+    "y": 4260,
+    "plane": 0
+  },
+  {
+    "id": 4529,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2070,
+    "y": 3879,
+    "plane": 0
+  },
+  {
+    "id": 4529,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2097,
+    "y": 3862,
+    "plane": 0
+  },
+  {
+    "id": 4529,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2118,
+    "y": 3852,
+    "plane": 0
+  },
+  {
+    "id": 4529,
+    "name": "Suqah",
+    "type": "Monster",
+    "x": 2144,
+    "y": 3853,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2940,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 2938,
+    "y": 3517,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3158,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3157,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3155,
+    "y": 5498,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3140,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3143,
+    "y": 5493,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3142,
+    "y": 5497,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3156,
+    "y": 5494,
+    "plane": 0
+  },
+  {
+    "id": 188,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3148,
+    "y": 5496,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2848,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2819,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3111,
+    "y": 3561,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2840,
+    "y": 9652,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2829,
+    "y": 9657,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3122,
+    "y": 9661,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3123,
+    "y": 9648,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3117,
+    "y": 9671,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2593,
+    "y": 9883,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2590,
+    "y": 9885,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2586,
+    "y": 9883,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9878,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3132,
+    "y": 9915,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3095,
+    "y": 9909,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3143,
+    "y": 3802,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3145,
+    "y": 3779,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3149,
+    "y": 9869,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3138,
+    "y": 9878,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3137,
+    "y": 9869,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2664,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2980,
+    "y": 3763,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3753,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2992,
+    "y": 3942,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3005,
+    "y": 10362,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10358,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3005,
+    "y": 10351,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3003,
+    "y": 10345,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2537,
+    "y": 9845,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2540,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2552,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2556,
+    "y": 9846,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2535,
+    "y": 9844,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2532,
+    "y": 9843,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2530,
+    "y": 9845,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2540,
+    "y": 9820,
+    "plane": 0
+  },
+  {
+    "id": 92,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2544,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2830,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3145,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3141,
+    "y": 3826,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2645,
+    "y": 9489,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2681,
+    "y": 9577,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2673,
+    "y": 9591,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2655,
+    "y": 9575,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2640,
+    "y": 9580,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2646,
+    "y": 9553,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2650,
+    "y": 9536,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2670,
+    "y": 9543,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2663,
+    "y": 9555,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2692,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2695,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 1587,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3237,
+    "y": 5557,
+    "plane": 0
+  },
+  {
+    "id": 1875,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 3354,
+    "y": 2952,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5267,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2861,
+    "y": 5294,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2836,
+    "y": 5290,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5266,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2911,
+    "y": 5268,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2916,
+    "y": 5269,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2906,
+    "y": 5347,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2913,
+    "y": 5358,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2887,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2888,
+    "y": 5314,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2931,
+    "y": 5345,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2903,
+    "y": 5353,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2907,
+    "y": 5346,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 2921,
+    "y": 5351,
+    "plane": 2
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3044,
+    "y": 5347,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3041,
+    "y": 5347,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3031,
+    "y": 5346,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3023,
+    "y": 5346,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3038,
+    "y": 5333,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3048,
+    "y": 5333,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3054,
+    "y": 5345,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3043,
+    "y": 5360,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3030,
+    "y": 5362,
+    "plane": 0
+  },
+  {
+    "id": 6218,
+    "name": "Gorak",
+    "type": "Monster",
+    "x": 3040,
+    "y": 5341,
+    "plane": 0
+  },
+  {
+    "id": 5340,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2848,
+    "y": 3246,
+    "plane": 0
+  },
+  {
+    "id": 5340,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3112,
+    "y": 3573,
+    "plane": 0
+  },
+  {
+    "id": 5340,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2833,
+    "y": 9655,
+    "plane": 0
+  },
+  {
+    "id": 5340,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2982,
+    "y": 3947,
+    "plane": 0
+  },
+  {
+    "id": 2547,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2615,
+    "y": 9525,
+    "plane": 0
+  },
+  {
+    "id": 2547,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 2615,
+    "y": 9521,
+    "plane": 0
+  },
+  {
+    "id": 2547,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3109,
+    "y": 9942,
+    "plane": 0
+  },
+  {
+    "id": 2547,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3111,
+    "y": 9938,
+    "plane": 0
+  },
+  {
+    "id": 2547,
+    "name": "Chaos druid",
+    "type": "Monster",
+    "x": 3116,
+    "y": 9926,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3038,
+    "y": 4809,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3024,
+    "y": 4850,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3052,
+    "y": 4808,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3021,
+    "y": 4847,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3058,
+    "y": 4811,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3055,
+    "y": 4848,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4822,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4837,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4817,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3025,
+    "y": 4812,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3060,
+    "y": 4825,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3062,
+    "y": 4838,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3054,
+    "y": 4850,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3020,
+    "y": 4914,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4890,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3031,
+    "y": 4901,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3044,
+    "y": 4915,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3044,
+    "y": 4883,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3039,
+    "y": 4885,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3048,
+    "y": 4917,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4888,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3047,
+    "y": 4874,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3055,
+    "y": 4908,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3017,
+    "y": 4876,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3029,
+    "y": 4890,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3059,
+    "y": 4906,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3021,
+    "y": 4875,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3032,
+    "y": 4903,
+    "plane": 0
+  },
+  {
+    "id": 2265,
+    "name": "Abyssal walker",
+    "type": "Monster",
+    "x": 3026,
+    "y": 4914,
+    "plane": 0
+  },
+  {
+    "id": 1815,
+    "name": "Camp dweller",
+    "type": "Monster",
+    "x": 2801,
+    "y": 3669,
+    "plane": 0
+  },
+  {
+    "id": 138,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2375,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": 138,
+    "name": "Terrorbird",
+    "type": "Monster",
+    "x": 2379,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 753,
+    "name": "Melzar the Mad",
+    "type": "Monster",
+    "x": 2929,
+    "y": 9649,
+    "plane": 0
+  },
+  {
+    "id": 459,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9507,
+    "plane": 0
+  },
+  {
+    "id": 459,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2565,
+    "y": 9506,
+    "plane": 0
+  },
+  {
+    "id": 459,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9507,
+    "plane": 0
+  },
+  {
+    "id": 353,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2473,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 353,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2504,
+    "y": 3326,
+    "plane": 0
+  },
+  {
+    "id": 353,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2509,
+    "y": 3314,
+    "plane": 0
+  },
+  {
+    "id": 353,
+    "name": "Woman",
+    "type": "Monster",
+    "x": 2546,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 5312,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3210,
+    "y": 3667,
+    "plane": 0
+  },
+  {
+    "id": 5312,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3217,
+    "y": 3688,
+    "plane": 0
+  },
+  {
+    "id": 5312,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3241,
+    "y": 3694,
+    "plane": 0
+  },
+  {
+    "id": 1120,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2923,
+    "y": 3616,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2567,
+    "y": 3440,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2316,
+    "y": 9392,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2319,
+    "y": 9367,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2321,
+    "y": 9402,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2322,
+    "y": 9387,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2325,
+    "y": 9360,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2333,
+    "y": 9346,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2335,
+    "y": 9382,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2337,
+    "y": 9387,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2343,
+    "y": 9360,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2344,
+    "y": 9369,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2348,
+    "y": 9390,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2349,
+    "y": 9380,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2349,
+    "y": 9402,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2359,
+    "y": 9345,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2359,
+    "y": 9359,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2359,
+    "y": 9374,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2359,
+    "y": 9382,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2363,
+    "y": 9403,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2564,
+    "y": 9653,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2565,
+    "y": 9655,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2566,
+    "y": 9626,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2567,
+    "y": 9653,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2569,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2607,
+    "y": 9621,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2551,
+    "y": 3408,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3405,
+    "plane": 0
+  },
+  {
+    "id": 100,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2559,
+    "y": 3452,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3187,
+    "y": 5513,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3186,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3186,
+    "y": 5516,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5511,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3185,
+    "y": 5514,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3549,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9676,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3566,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3560,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3526,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3532,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3534,
+    "y": 9690,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3536,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3542,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3548,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3556,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3554,
+    "y": 9709,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3533,
+    "y": 9708,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3534,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3538,
+    "y": 9721,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9720,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3561,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3552,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3551,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3532,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3531,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 2032,
+    "name": "Crypt rat",
+    "type": "Monster",
+    "x": 3537,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 2055,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2470,
+    "y": 3055,
+    "plane": 0
+  },
+  {
+    "id": 3266,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3094,
+    "y": 3406,
+    "plane": 0
+  },
+  {
+    "id": 345,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": 345,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3369,
+    "plane": 0
+  },
+  {
+    "id": 345,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2531,
+    "y": 3368,
+    "plane": 0
+  },
+  {
+    "id": 3252,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3077,
+    "y": 3424,
+    "plane": 0
+  },
+  {
+    "id": 1621,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2797,
+    "y": 10035,
+    "plane": 0
+  },
+  {
+    "id": 1621,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2787,
+    "y": 10032,
+    "plane": 0
+  },
+  {
+    "id": 1621,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2802,
+    "y": 10031,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3309,
+    "y": 2806,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3312,
+    "y": 2806,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3314,
+    "y": 2752,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3314,
+    "y": 2806,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3315,
+    "y": 2805,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3316,
+    "y": 2780,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3316,
+    "y": 2795,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3317,
+    "y": 2752,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3317,
+    "y": 2762,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3317,
+    "y": 2763,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3317,
+    "y": 2779,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3317,
+    "y": 2794,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3318,
+    "y": 2761,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3318,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3318,
+    "y": 2781,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3318,
+    "y": 2794,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3318,
+    "y": 2795,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3319,
+    "y": 2760,
+    "plane": 0
+  },
+  {
+    "id": 1995,
+    "name": "Locust",
+    "type": "Monster",
+    "x": 3319,
+    "y": 2763,
+    "plane": 0
+  },
+  {
+    "id": 689,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2682,
+    "y": 3428,
+    "plane": 2
+  },
+  {
+    "id": 689,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2684,
+    "y": 3427,
+    "plane": 2
+  },
+  {
+    "id": 689,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2684,
+    "y": 3429,
+    "plane": 2
+  },
+  {
+    "id": 1609,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2700,
+    "y": 9994,
+    "plane": 0
+  },
+  {
+    "id": 1609,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2698,
+    "y": 10001,
+    "plane": 0
+  },
+  {
+    "id": 1609,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9994,
+    "plane": 0
+  },
+  {
+    "id": 1609,
+    "name": "Kurask",
+    "type": "Monster",
+    "x": 2701,
+    "y": 10000,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2239,
+    "y": 3164,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2241,
+    "y": 3166,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 2242,
+    "y": 3163,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 3037,
+    "y": 4492,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 3036,
+    "y": 4502,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 3029,
+    "y": 4520,
+    "plane": 0
+  },
+  {
+    "id": 1404,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 3019,
+    "y": 4512,
+    "plane": 0
+  },
+  {
+    "id": 891,
+    "name": "Alomone",
+    "type": "Monster",
+    "x": 2609,
+    "y": 9670,
+    "plane": 0
+  },
+  {
+    "id": 7125,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1605,
+    "y": 4702,
+    "plane": 0
+  },
+  {
+    "id": 7125,
+    "name": "Rabbit",
+    "type": "Monster",
+    "x": 1649,
+    "y": 4730,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2711,
+    "y": 10028,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 2710,
+    "y": 10030,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3283,
+    "y": 5461,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3285,
+    "y": 5456,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3275,
+    "y": 5455,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5446,
+    "plane": 0
+  },
+  {
+    "id": 1639,
+    "name": "Jelly",
+    "type": "Monster",
+    "x": 3277,
+    "y": 5445,
+    "plane": 0
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2466,
+    "y": 9389,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2449,
+    "y": 9429,
+    "plane": 0
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2436,
+    "y": 9452,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2436,
+    "y": 9465,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2450,
+    "y": 9460,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2455,
+    "y": 9440,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2473,
+    "y": 9439,
+    "plane": 2
+  },
+  {
+    "id": 2046,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2483,
+    "y": 9408,
+    "plane": 2
+  },
+  {
+    "id": 1634,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2757,
+    "y": 10008,
+    "plane": 0
+  },
+  {
+    "id": 1634,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2760,
+    "y": 10005,
+    "plane": 0
+  },
+  {
+    "id": 7753,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4438,
+    "y": 5089,
+    "plane": 0
+  },
+  {
+    "id": 7753,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4428,
+    "y": 5083,
+    "plane": 0
+  },
+  {
+    "id": 7753,
+    "name": "TzHaar-Mej",
+    "type": "Monster",
+    "x": 4437,
+    "y": 5075,
+    "plane": 0
+  },
+  {
+    "id": 3194,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3654,
+    "y": 2992,
+    "plane": 0
+  },
+  {
+    "id": 3194,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3682,
+    "y": 2962,
+    "plane": 0
+  },
+  {
+    "id": 3194,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3704,
+    "y": 3006,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2367,
+    "y": 3832,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2319,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2324,
+    "y": 3891,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2406,
+    "y": 3854,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2405,
+    "y": 3863,
+    "plane": 0
+  },
+  {
+    "id": 5523,
+    "name": "Ice troll female",
+    "type": "Monster",
+    "x": 2400,
+    "y": 3856,
+    "plane": 0
+  },
+  {
+    "id": 1261,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3492,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 1261,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3498,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 1261,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3487,
+    "y": 3302,
+    "plane": 0
+  },
+  {
+    "id": 1261,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3497,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": 1261,
+    "name": "Afflicted",
+    "type": "Monster",
+    "x": 3488,
+    "y": 3273,
+    "plane": 0
+  },
+  {
+    "id": 2483,
+    "name": "Bush snake",
+    "type": "Monster",
+    "x": 2914,
+    "y": 3116,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 3100,
+    "y": 3594,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 3107,
+    "y": 3608,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 3099,
+    "y": 3602,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2632,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2633,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2387,
+    "y": 3376,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2398,
+    "y": 3366,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2412,
+    "y": 3378,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2419,
+    "y": 3372,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2696,
+    "y": 3329,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2708,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3500,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2988,
+    "y": 3671,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 3001,
+    "y": 3674,
+    "plane": 0
+  },
+  {
+    "id": 105,
+    "name": "Grizzly bear",
+    "type": "Monster",
+    "x": 2497,
+    "y": 3164,
+    "plane": 0
+  },
+  {
+    "id": 1084,
+    "name": "Breoca",
+    "type": "Monster",
+    "x": 2915,
+    "y": 3549,
+    "plane": 0
+  },
+  {
+    "id": 3239,
+    "name": "Rusty",
+    "type": "Monster",
+    "x": 2975,
+    "y": 3436,
+    "plane": 0
+  },
+  {
+    "id": 204,
+    "name": "Speedy Keith",
+    "type": "Monster",
+    "x": 3035,
+    "y": 3696,
+    "plane": 0
+  },
+  {
+    "id": 2712,
+    "name": "Air wizard",
+    "type": "Monster",
+    "x": 3001,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 3273,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3030,
+    "y": 3465,
+    "plane": 0
+  },
+  {
+    "id": 1563,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3152,
+    "y": 5453,
+    "plane": 0
+  },
+  {
+    "id": 1563,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2773,
+    "y": 10220,
+    "plane": 0
+  },
+  {
+    "id": 1563,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2788,
+    "y": 10198,
+    "plane": 0
+  },
+  {
+    "id": 1563,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2790,
+    "y": 10220,
+    "plane": 0
+  },
+  {
+    "id": 1563,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2800,
+    "y": 10218,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9631,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3165,
+    "y": 9633,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3160,
+    "y": 9634,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3156,
+    "y": 9630,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3152,
+    "y": 9627,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3148,
+    "y": 9621,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3175,
+    "y": 9630,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3174,
+    "y": 9634,
+    "plane": 0
+  },
+  {
+    "id": 1710,
+    "name": "H.A.M. Guard",
+    "type": "Monster",
+    "x": 3172,
+    "y": 9638,
+    "plane": 0
+  },
+  {
+    "id": 4920,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3188,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 4920,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3194,
+    "y": 5510,
+    "plane": 0
+  },
+  {
+    "id": 4920,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3289,
+    "y": 5496,
+    "plane": 0
+  },
+  {
+    "id": 4920,
+    "name": "Giant crypt rat",
+    "type": "Monster",
+    "x": 3272,
+    "y": 5490,
+    "plane": 0
+  },
+  {
+    "id": 5882,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2437,
+    "y": 5549,
+    "plane": 0
+  },
+  {
+    "id": 5882,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2484,
+    "y": 5531,
+    "plane": 0
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2865,
+    "y": 5306,
+    "plane": 2
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2867,
+    "y": 5304,
+    "plane": 2
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2871,
+    "y": 5281,
+    "plane": 2
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2864,
+    "y": 5279,
+    "plane": 2
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2871,
+    "y": 5312,
+    "plane": 2
+  },
+  {
+    "id": 6216,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2888,
+    "y": 5290,
+    "plane": 2
+  },
+  {
+    "id": 6978,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2896,
+    "y": 3437,
+    "plane": 0
+  },
+  {
+    "id": 6978,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2917,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": 445,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3196,
+    "plane": 0
+  },
+  {
+    "id": 445,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2557,
+    "y": 3197,
+    "plane": 0
+  },
+  {
+    "id": 445,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2538,
+    "y": 3155,
+    "plane": 0
+  },
+  {
+    "id": 4688,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 3139,
+    "y": 3818,
+    "plane": 0
+  },
+  {
+    "id": 4688,
+    "name": "Moss giant",
+    "type": "Monster",
+    "x": 2700,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 1936,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2852,
+    "y": 3735,
+    "plane": 0
+  },
+  {
+    "id": 1936,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2855,
+    "y": 3729,
+    "plane": 0
+  },
+  {
+    "id": 1936,
+    "name": "Ice troll",
+    "type": "Monster",
+    "x": 2861,
+    "y": 3725,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2562,
+    "y": 2927,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2466,
+    "y": 2878,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2464,
+    "y": 2832,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2490,
+    "y": 2877,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2467,
+    "y": 2881,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2557,
+    "y": 2915,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2557,
+    "y": 2921,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2556,
+    "y": 2938,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2551,
+    "y": 2930,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2558,
+    "y": 2912,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2558,
+    "y": 2909,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2557,
+    "y": 2932,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2556,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2555,
+    "y": 2915,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2553,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2559,
+    "y": 2918,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2508,
+    "y": 2909,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2501,
+    "y": 2912,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2507,
+    "y": 2907,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2505,
+    "y": 2902,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2504,
+    "y": 2896,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2522,
+    "y": 2895,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2526,
+    "y": 2897,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2527,
+    "y": 2904,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2507,
+    "y": 2889,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2553,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2556,
+    "y": 2931,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2555,
+    "y": 2915,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2559,
+    "y": 2911,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2559,
+    "y": 2918,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2527,
+    "y": 2896,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2533,
+    "y": 2896,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2508,
+    "y": 2890,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2522,
+    "y": 2895,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2496,
+    "y": 2897,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2506,
+    "y": 2906,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2506,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2506,
+    "y": 2902,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2499,
+    "y": 2942,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2496,
+    "y": 2936,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2498,
+    "y": 2939,
+    "plane": 0
+  },
+  {
+    "id": 5080,
+    "name": "Carnivorous chinchompa",
+    "type": "Monster",
+    "x": 2545,
+    "y": 2948,
+    "plane": 0
+  },
+  {
+    "id": 1104,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2867,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1848,
+    "y": 5176,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1890,
+    "y": 5205,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1897,
+    "y": 5232,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1906,
+    "y": 5236,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1904,
+    "y": 5235,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1895,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 4410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1863,
+    "y": 5221,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3224,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2524,
+    "y": 3221,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2543,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2530,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2557,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2540,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2532,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2527,
+    "y": 3201,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2544,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2519,
+    "y": 3222,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2526,
+    "y": 3227,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2550,
+    "y": 3234,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2553,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2521,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2544,
+    "y": 3230,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2547,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2545,
+    "y": 3212,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2540,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2533,
+    "y": 3202,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2536,
+    "y": 3236,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3204,
+    "plane": 0
+  },
+  {
+    "id": 2249,
+    "name": "Gnome",
+    "type": "Monster",
+    "x": 2539,
+    "y": 3238,
+    "plane": 0
+  },
+  {
+    "id": 4992,
+    "name": "Mercenary",
+    "type": "Monster",
+    "x": 3267,
+    "y": 3029,
+    "plane": 0
+  },
+  {
+    "id": 2687,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2907,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 2687,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2908,
+    "y": 3290,
+    "plane": 0
+  },
+  {
+    "id": 2687,
+    "name": "Hobgoblin",
+    "type": "Monster",
+    "x": 2703,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": 3340,
+    "name": "Giant Mole",
+    "type": "Monster",
+    "x": 1759,
+    "y": 5182,
+    "plane": 0
+  },
+  {
+    "id": 346,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2508,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 346,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2512,
+    "y": 3374,
+    "plane": 0
+  },
+  {
+    "id": 346,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2518,
+    "y": 3371,
+    "plane": 0
+  },
+  {
+    "id": 346,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2525,
+    "y": 3380,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2698,
+    "y": 9503,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2713,
+    "y": 9505,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2717,
+    "y": 9502,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2699,
+    "y": 9523,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2706,
+    "y": 9525,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2719,
+    "y": 9517,
+    "plane": 0
+  },
+  {
+    "id": 1589,
+    "name": "Baby red dragon",
+    "type": "Monster",
+    "x": 2724,
+    "y": 9515,
+    "plane": 0
+  },
+  {
+    "id": 3245,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 2907,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": 1343,
+    "name": "Dagannoth",
+    "type": "Monster",
+    "x": 3145,
+    "y": 5548,
+    "plane": 0
+  },
+  {
+    "id": 1447,
+    "name": "Padulah",
+    "type": "Monster",
+    "x": 2761,
+    "y": 2785,
+    "plane": 0
+  },
+  {
+    "id": 6244,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2847,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6244,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2844,
+    "y": 5283,
+    "plane": 2
+  },
+  {
+    "id": 203,
+    "name": "Donny the Lad",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3695,
+    "plane": 0
+  },
+  {
+    "id": 54,
+    "name": "Black dragon",
+    "type": "Monster",
+    "x": 2834,
+    "y": 9824,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3336,
+    "y": 2778,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3343,
+    "y": 2793,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3367,
+    "y": 2791,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3333,
+    "y": 2864,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3335,
+    "y": 2860,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3338,
+    "y": 2864,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3215,
+    "y": 2841,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3217,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3220,
+    "y": 2841,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3295,
+    "y": 2866,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3297,
+    "y": 2863,
+    "plane": 0
+  },
+  {
+    "id": 3675,
+    "name": "Vulture",
+    "type": "Monster",
+    "x": 3301,
+    "y": 2864,
+    "plane": 0
+  },
+  {
+    "id": 6188,
+    "name": "Renegade knight",
+    "type": "Monster",
+    "x": 1901,
+    "y": 4271,
+    "plane": 0
+  },
+  {
+    "id": 6188,
+    "name": "Renegade knight",
+    "type": "Monster",
+    "x": 1909,
+    "y": 4271,
+    "plane": 0
+  },
+  {
+    "id": 2705,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3185,
+    "plane": 2
+  },
+  {
+    "id": 2035,
+    "name": "Giant crypt spider",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9696,
+    "plane": 0
+  },
+  {
+    "id": 2035,
+    "name": "Giant crypt spider",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 2035,
+    "name": "Giant crypt spider",
+    "type": "Monster",
+    "x": 3566,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 2035,
+    "name": "Giant crypt spider",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": 2035,
+    "name": "Giant crypt spider",
+    "type": "Monster",
+    "x": 3572,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 170,
+    "name": "Man",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3175,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2355,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2347,
+    "y": 5195,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2336,
+    "y": 5202,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2332,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2327,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4384,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2328,
+    "y": 5199,
+    "plane": 0
+  },
+  {
+    "id": 1816,
+    "name": "Camp dweller",
+    "type": "Monster",
+    "x": 2803,
+    "y": 3668,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 2574,
+    "y": 9874,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 2577,
+    "y": 9877,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 2574,
+    "y": 9878,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 2575,
+    "y": 9871,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3289,
+    "y": 5482,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3296,
+    "y": 5472,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3291,
+    "y": 5466,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3294,
+    "y": 5481,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3300,
+    "y": 5479,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3288,
+    "y": 5480,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3293,
+    "y": 5475,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3293,
+    "y": 5481,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3286,
+    "y": 5465,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3279,
+    "y": 5478,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3270,
+    "y": 5464,
+    "plane": 0
+  },
+  {
+    "id": 58,
+    "name": "Shadow spider",
+    "type": "Monster",
+    "x": 3270,
+    "y": 5468,
+    "plane": 0
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3045,
+    "y": 3483,
+    "plane": 0
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3053,
+    "y": 3492,
+    "plane": 0
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3055,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3045,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3046,
+    "y": 3490,
+    "plane": 1
+  },
+  {
+    "id": 7727,
+    "name": "Monk",
+    "type": "Monster",
+    "x": 3057,
+    "y": 3497,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3811,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3812,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2911,
+    "y": 3813,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2925,
+    "y": 3821,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2925,
+    "y": 3822,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2925,
+    "y": 3823,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2929,
+    "y": 3798,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3790,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2936,
+    "y": 3810,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2939,
+    "y": 3823,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3427,
+    "y": 5102,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3428,
+    "y": 5099,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3428,
+    "y": 5102,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3430,
+    "y": 5099,
+    "plane": 0
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2949,
+    "y": 3819,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2949,
+    "y": 3822,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2955,
+    "y": 3822,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 2957,
+    "y": 3822,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3016,
+    "y": 9977,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3021,
+    "y": 9939,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3024,
+    "y": 9954,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3025,
+    "y": 9943,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3025,
+    "y": 9954,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3026,
+    "y": 9966,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3032,
+    "y": 9952,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3039,
+    "y": 9954,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3044,
+    "y": 9967,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3044,
+    "y": 9971,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3057,
+    "y": 9936,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3059,
+    "y": 9953,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3041,
+    "y": 9975,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3043,
+    "y": 9975,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3045,
+    "y": 9975,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3016,
+    "y": 10022,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3017,
+    "y": 10039,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3027,
+    "y": 10028,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3029,
+    "y": 10013,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3036,
+    "y": 10038,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3037,
+    "y": 10006,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3041,
+    "y": 10024,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3043,
+    "y": 10032,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3057,
+    "y": 10002,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3058,
+    "y": 10021,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3065,
+    "y": 10006,
+    "plane": 2
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3027,
+    "y": 10092,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3035,
+    "y": 10097,
+    "plane": 1
+  },
+  {
+    "id": 8324,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3051,
+    "y": 10099,
+    "plane": 1
+  },
+  {
+    "id": 6283,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2877,
+    "y": 5326,
+    "plane": 2
+  },
+  {
+    "id": 6283,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2857,
+    "y": 5328,
+    "plane": 2
+  },
+  {
+    "id": 6283,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2861,
+    "y": 5315,
+    "plane": 2
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1781,
+    "y": 5340,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1782,
+    "y": 5356,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1767,
+    "y": 5343,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1761,
+    "y": 5338,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1767,
+    "y": 5332,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1757,
+    "y": 5326,
+    "plane": 1
+  },
+  {
+    "id": 5363,
+    "name": "Mithril dragon",
+    "type": "Monster",
+    "x": 1784,
+    "y": 5329,
+    "plane": 1
+  },
+  {
+    "id": 6407,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2802,
+    "y": 4246,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3755,
+    "y": 9391,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3723,
+    "y": 9441,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3766,
+    "y": 9459,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3748,
+    "y": 9450,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3765,
+    "y": 9424,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3800,
+    "y": 9414,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3821,
+    "y": 9418,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3810,
+    "y": 9462,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3809,
+    "y": 9440,
+    "plane": 0
+  },
+  {
+    "id": 4356,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3787,
+    "y": 9464,
+    "plane": 0
+  },
+  {
+    "id": 4263,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2584,
+    "y": 9838,
+    "plane": 0
+  },
+  {
+    "id": 381,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2684,
+    "y": 3272,
+    "plane": 0
+  },
+  {
+    "id": 4999,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3280,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 4999,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9439,
+    "plane": 0
+  },
+  {
+    "id": 4999,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3299,
+    "y": 9467,
+    "plane": 0
+  },
+  {
+    "id": 3268,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3012,
+    "y": 3454,
+    "plane": 0
+  },
+  {
+    "id": 6239,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2824,
+    "y": 5216,
+    "plane": 2
+  },
+  {
+    "id": 6239,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2875,
+    "y": 5298,
+    "plane": 2
+  },
+  {
+    "id": 6239,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2846,
+    "y": 5288,
+    "plane": 2
+  },
+  {
+    "id": 6239,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2845,
+    "y": 5281,
+    "plane": 2
+  },
+  {
+    "id": 2807,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3384,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 2807,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3387,
+    "y": 3014,
+    "plane": 0
+  },
+  {
+    "id": 2807,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3441,
+    "y": 3059,
+    "plane": 0
+  },
+  {
+    "id": 2807,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3033,
+    "plane": 0
+  },
+  {
+    "id": 2807,
+    "name": "Small Lizard",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3059,
+    "plane": 0
+  },
+  {
+    "id": 5326,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3232,
+    "y": 3685,
+    "plane": 0
+  },
+  {
+    "id": 1796,
+    "name": "Dwarf gang member",
+    "type": "Monster",
+    "x": 2968,
+    "y": 9809,
+    "plane": 0
+  },
+  {
+    "id": 7643,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3587,
+    "y": 9737,
+    "plane": 0
+  },
+  {
+    "id": 7643,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3592,
+    "y": 9746,
+    "plane": 0
+  },
+  {
+    "id": 7643,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3600,
+    "y": 9740,
+    "plane": 0
+  },
+  {
+    "id": 7643,
+    "name": "Mutated bloodveld",
+    "type": "Monster",
+    "x": 3605,
+    "y": 9738,
+    "plane": 0
+  },
+  {
+    "id": 283,
+    "name": "Head Thief",
+    "type": "Monster",
+    "x": 2569,
+    "y": 9602,
+    "plane": 0
+  },
+  {
+    "id": 6453,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2797,
+    "y": 4272,
+    "plane": 0
+  },
+  {
+    "id": 6030,
+    "name": "Nikolai",
+    "type": "Monster",
+    "x": 3496,
+    "y": 3476,
+    "plane": 0
+  },
+  {
+    "id": 5404,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3143,
+    "y": 4555,
+    "plane": 0
+  },
+  {
+    "id": 5404,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3144,
+    "y": 4549,
+    "plane": 1
+  },
+  {
+    "id": 5404,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3190,
+    "y": 4587,
+    "plane": 1
+  },
+  {
+    "id": 5404,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3186,
+    "y": 4576,
+    "plane": 2
+  },
+  {
+    "id": 5885,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2487,
+    "y": 5538,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3473,
+    "y": 9943,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3488,
+    "y": 9944,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3498,
+    "y": 9937,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3534,
+    "y": 9926,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3553,
+    "y": 9941,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3548,
+    "y": 9956,
+    "plane": 0
+  },
+  {
+    "id": 1678,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3564,
+    "y": 9949,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3632,
+    "y": 3528,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3633,
+    "y": 3525,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3631,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3631,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3628,
+    "y": 3530,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3631,
+    "y": 3530,
+    "plane": 0
+  },
+  {
+    "id": 1692,
+    "name": "Undead chicken",
+    "type": "Monster",
+    "x": 3629,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 3260,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3083,
+    "y": 3425,
+    "plane": 0
+  },
+  {
+    "id": 3260,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2554,
+    "y": 3564,
+    "plane": 0
+  },
+  {
+    "id": 3260,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2547,
+    "y": 3558,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3190,
+    "y": 3251,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3243,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3179,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3146,
+    "y": 3235,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3146,
+    "y": 3261,
+    "plane": 0
+  },
+  {
+    "id": 2278,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3247,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 6031,
+    "name": "Eduard",
+    "type": "Monster",
+    "x": 3511,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 6125,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2323,
+    "y": 9377,
+    "plane": 0
+  },
+  {
+    "id": 1228,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3469,
+    "y": 3346,
+    "plane": 0
+  },
+  {
+    "id": 1228,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3494,
+    "y": 3447,
+    "plane": 0
+  },
+  {
+    "id": 1228,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3530,
+    "y": 3440,
+    "plane": 0
+  },
+  {
+    "id": 1228,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3556,
+    "y": 3453,
+    "plane": 0
+  },
+  {
+    "id": 690,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2654,
+    "y": 3428,
+    "plane": 2
+  },
+  {
+    "id": 690,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2652,
+    "y": 3427,
+    "plane": 2
+  },
+  {
+    "id": 690,
+    "name": "Tower Archer",
+    "type": "Monster",
+    "x": 2652,
+    "y": 3429,
+    "plane": 2
+  },
+  {
+    "id": 6282,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2874,
+    "y": 5318,
+    "plane": 2
+  },
+  {
+    "id": 6282,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2859,
+    "y": 5316,
+    "plane": 2
+  },
+  {
+    "id": 6282,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2878,
+    "y": 5329,
+    "plane": 2
+  },
+  {
+    "id": 6282,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2858,
+    "y": 5330,
+    "plane": 2
+  },
+  {
+    "id": 1555,
+    "name": "Arrg",
+    "type": "Monster",
+    "x": 2829,
+    "y": 10096,
+    "plane": 1
+  },
+  {
+    "id": 6348,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2793,
+    "y": 3158,
+    "plane": 0
+  },
+  {
+    "id": 6348,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2798,
+    "y": 3154,
+    "plane": 0
+  },
+  {
+    "id": 6348,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 2796,
+    "y": 3189,
+    "plane": 0
+  },
+  {
+    "id": 4681,
+    "name": "Blue dragon",
+    "type": "Monster",
+    "x": 2904,
+    "y": 9802,
+    "plane": 0
+  },
+  {
+    "id": 6410,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2766,
+    "y": 4257,
+    "plane": 0
+  },
+  {
+    "id": 1677,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3474,
+    "y": 9933,
+    "plane": 0
+  },
+  {
+    "id": 1677,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3488,
+    "y": 9934,
+    "plane": 0
+  },
+  {
+    "id": 1677,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3547,
+    "y": 9932,
+    "plane": 0
+  },
+  {
+    "id": 1677,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3540,
+    "y": 9958,
+    "plane": 0
+  },
+  {
+    "id": 1677,
+    "name": "Experiment",
+    "type": "Monster",
+    "x": 3564,
+    "y": 9959,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3749,
+    "y": 2978,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3756,
+    "y": 2966,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3759,
+    "y": 2962,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3749,
+    "y": 2968,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3757,
+    "y": 2980,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3728,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3725,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3722,
+    "y": 3021,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3717,
+    "y": 3017,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3723,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3731,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3734,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3743,
+    "y": 3038,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3742,
+    "y": 3036,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3747,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3748,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3748,
+    "y": 3019,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3745,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3741,
+    "y": 3020,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3727,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3734,
+    "y": 3046,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3736,
+    "y": 3050,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3735,
+    "y": 3053,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3741,
+    "y": 3053,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3756,
+    "y": 3030,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3754,
+    "y": 3024,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3769,
+    "y": 3039,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3766,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 4347,
+    "name": "Giant mosquito",
+    "type": "Monster",
+    "x": 3764,
+    "y": 3042,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3290,
+    "y": 5448,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3291,
+    "y": 5452,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3293,
+    "y": 5456,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3551,
+    "y": 9680,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3553,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3551,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3554,
+    "y": 9676,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3548,
+    "y": 9676,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3552,
+    "y": 9691,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3569,
+    "y": 9681,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3577,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3567,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3570,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3568,
+    "y": 9686,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3545,
+    "y": 9721,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3560,
+    "y": 9712,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3552,
+    "y": 9685,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3525,
+    "y": 9698,
+    "plane": 0
+  },
+  {
+    "id": 2031,
+    "name": "Bloodworm",
+    "type": "Monster",
+    "x": 3538,
+    "y": 9668,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3104,
+    "y": 3875,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2372,
+    "y": 3401,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9731,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 2439,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3256,
+    "y": 3624,
+    "plane": 0
+  },
+  {
+    "id": 4690,
+    "name": "Hill Giant",
+    "type": "Monster",
+    "x": 3308,
+    "y": 3661,
+    "plane": 0
+  },
+  {
+    "id": 1132,
+    "name": "Thrower troll",
+    "type": "Monster",
+    "x": 2893,
+    "y": 3700,
+    "plane": 0
+  },
+  {
+    "id": 6409,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2787,
+    "y": 4262,
+    "plane": 0
+  },
+  {
+    "id": 6409,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2792,
+    "y": 4275,
+    "plane": 0
+  },
+  {
+    "id": 2076,
+    "name": "Cave goblin miner",
+    "type": "Monster",
+    "x": 3312,
+    "y": 9628,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3110,
+    "y": 3157,
+    "plane": 2
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3703,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2841,
+    "y": 9557,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2831,
+    "y": 9562,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2838,
+    "y": 9605,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2936,
+    "y": 9652,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2926,
+    "y": 9803,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 2935,
+    "y": 9794,
+    "plane": 0
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3052,
+    "y": 3117,
+    "plane": 2
+  },
+  {
+    "id": 82,
+    "name": "Lesser demon",
+    "type": "Monster",
+    "x": 3311,
+    "y": 3845,
+    "plane": 0
+  },
+  {
+    "id": 142,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2514,
+    "y": 3194,
+    "plane": 0
+  },
+  {
+    "id": 142,
+    "name": "Wolf",
+    "type": "Monster",
+    "x": 2547,
+    "y": 3178,
+    "plane": 0
+  },
+  {
+    "id": 3240,
+    "name": "Jeff",
+    "type": "Monster",
+    "x": 2977,
+    "y": 3442,
+    "plane": 0
+  },
+  {
+    "id": 6353,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3040,
+    "y": 3955,
+    "plane": 0
+  },
+  {
+    "id": 6353,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3039,
+    "y": 3950,
+    "plane": 0
+  },
+  {
+    "id": 1620,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2794,
+    "y": 10036,
+    "plane": 0
+  },
+  {
+    "id": 1620,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2788,
+    "y": 10037,
+    "plane": 0
+  },
+  {
+    "id": 1620,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2795,
+    "y": 10034,
+    "plane": 0
+  },
+  {
+    "id": 1620,
+    "name": "Cockatrice",
+    "type": "Monster",
+    "x": 2785,
+    "y": 10035,
+    "plane": 0
+  },
+  {
+    "id": 5357,
+    "name": "Undead one",
+    "type": "Monster",
+    "x": 2876,
+    "y": 2958,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2446,
+    "y": 5169,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2458,
+    "y": 5159,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2466,
+    "y": 5166,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2471,
+    "y": 5166,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2478,
+    "y": 5164,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2490,
+    "y": 5174,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2485,
+    "y": 5159,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2442,
+    "y": 5173,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2440,
+    "y": 5171,
+    "plane": 0
+  },
+  {
+    "id": 2610,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 2440,
+    "y": 5170,
+    "plane": 0
+  },
+  {
+    "id": 6977,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2890,
+    "y": 3435,
+    "plane": 0
+  },
+  {
+    "id": 6499,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2793,
+    "y": 4247,
+    "plane": 0
+  },
+  {
+    "id": 3167,
+    "name": "Pirate",
+    "type": "Monster",
+    "x": 3662,
+    "y": 2978,
+    "plane": 1
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2768,
+    "y": 3286,
+    "plane": 0
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2777,
+    "y": 3278,
+    "plane": 0
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2783,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2784,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2768,
+    "y": 3289,
+    "plane": 1
+  },
+  {
+    "id": 4891,
+    "name": "Giant lobster",
+    "type": "Monster",
+    "x": 2780,
+    "y": 3288,
+    "plane": 1
+  },
+  {
+    "id": 8328,
+    "name": "Elite Black Knight",
+    "type": "Monster",
+    "x": 3055,
+    "y": 10103,
+    "plane": 1
+  },
+  {
+    "id": 1121,
+    "name": "Troll spectator",
+    "type": "Monster",
+    "x": 2923,
+    "y": 3612,
+    "plane": 0
+  },
+  {
+    "id": 4409,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1864,
+    "y": 5226,
+    "plane": 0
+  },
+  {
+    "id": 4409,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1859,
+    "y": 5220,
+    "plane": 0
+  },
+  {
+    "id": 4409,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 1861,
+    "y": 5224,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3647,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3649,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3665,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3669,
+    "y": 3522,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3672,
+    "y": 3529,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3668,
+    "y": 3534,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3657,
+    "y": 3534,
+    "plane": 0
+  },
+  {
+    "id": 1698,
+    "name": "Tortured soul",
+    "type": "Monster",
+    "x": 3654,
+    "y": 3537,
+    "plane": 0
+  },
+  {
+    "id": 2052,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2464,
+    "y": 3045,
+    "plane": 0
+  },
+  {
+    "id": 4403,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2096,
+    "y": 5248,
+    "plane": 0
+  },
+  {
+    "id": 4403,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2172,
+    "y": 5276,
+    "plane": 0
+  },
+  {
+    "id": 4403,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2172,
+    "y": 5284,
+    "plane": 0
+  },
+  {
+    "id": 4403,
+    "name": "Scorpion",
+    "type": "Monster",
+    "x": 2172,
+    "y": 5281,
+    "plane": 0
+  },
+  {
+    "id": 3246,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 3071,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": 3246,
+    "name": "Barbarian",
+    "type": "Monster",
+    "x": 2548,
+    "y": 3567,
+    "plane": 0
+  },
+  {
+    "id": 240,
+    "name": "Sir Gawain",
+    "type": "Monster",
+    "x": 2760,
+    "y": 3501,
+    "plane": 0
+  },
+  {
+    "id": 6189,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3516,
+    "plane": 0
+  },
+  {
+    "id": 5640,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3817,
+    "y": 2824,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2321,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2321,
+    "y": 5223,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2317,
+    "y": 5229,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2322,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2325,
+    "y": 5231,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2321,
+    "y": 5225,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2314,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2312,
+    "y": 5229,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2330,
+    "y": 5229,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5233,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2320,
+    "y": 5232,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2329,
+    "y": 5229,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2315,
+    "y": 5227,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2318,
+    "y": 5226,
+    "plane": 0
+  },
+  {
+    "id": 4383,
+    "name": "Ankou",
+    "type": "Monster",
+    "x": 2322,
+    "y": 5222,
+    "plane": 0
+  },
+  {
+    "id": 5387,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3158,
+    "y": 4584,
+    "plane": 0
+  },
+  {
+    "id": 5387,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3159,
+    "y": 4577,
+    "plane": 0
+  },
+  {
+    "id": 5387,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3169,
+    "y": 4587,
+    "plane": 0
+  },
+  {
+    "id": 5387,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3152,
+    "y": 4569,
+    "plane": 1
+  },
+  {
+    "id": 4485,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2951,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 5639,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3824,
+    "y": 2857,
+    "plane": 0
+  },
+  {
+    "id": 6431,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2792,
+    "y": 4260,
+    "plane": 0
+  },
+  {
+    "id": 6431,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2796,
+    "y": 4275,
+    "plane": 0
+  },
+  {
+    "id": 1198,
+    "name": "Dire Wolf",
+    "type": "Monster",
+    "x": 2296,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2589,
+    "y": 3120,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2605,
+    "y": 3116,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2923,
+    "y": 3277,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2921,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2923,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3255,
+    "y": 3255,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3255,
+    "y": 3256,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3259,
+    "y": 3261,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3283,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3257,
+    "y": 3268,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2436,
+    "y": 4443,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 2441,
+    "y": 4449,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3038,
+    "y": 3310,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3312,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3028,
+    "y": 3299,
+    "plane": 0
+  },
+  {
+    "id": 81,
+    "name": "Cow",
+    "type": "Monster",
+    "x": 3042,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 6246,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5311,
+    "plane": 2
+  },
+  {
+    "id": 6246,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5299,
+    "plane": 2
+  },
+  {
+    "id": 6246,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2856,
+    "y": 5284,
+    "plane": 2
+  },
+  {
+    "id": 6246,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2872,
+    "y": 5315,
+    "plane": 2
+  },
+  {
+    "id": 6369,
+    "name": "Cave lizard",
+    "type": "Monster",
+    "x": 3268,
+    "y": 4825,
+    "plane": 0
+  },
+  {
+    "id": 6369,
+    "name": "Cave lizard",
+    "type": "Monster",
+    "x": 3268,
+    "y": 4809,
+    "plane": 0
+  },
+  {
+    "id": 6369,
+    "name": "Cave lizard",
+    "type": "Monster",
+    "x": 3288,
+    "y": 4803,
+    "plane": 0
+  },
+  {
+    "id": 6369,
+    "name": "Cave lizard",
+    "type": "Monster",
+    "x": 3298,
+    "y": 4810,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2843,
+    "y": 9774,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2842,
+    "y": 9769,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2842,
+    "y": 9764,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2845,
+    "y": 9754,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2849,
+    "y": 9751,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2850,
+    "y": 9747,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2844,
+    "y": 9758,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2540,
+    "y": 9814,
+    "plane": 0
+  },
+  {
+    "id": 76,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2547,
+    "y": 9817,
+    "plane": 0
+  },
+  {
+    "id": 1307,
+    "name": "Borrokar",
+    "type": "Monster",
+    "x": 2658,
+    "y": 3673,
+    "plane": 0
+  },
+  {
+    "id": 4604,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3017,
+    "y": 3513,
+    "plane": 0
+  },
+  {
+    "id": 4604,
+    "name": "Fortress Guard",
+    "type": "Monster",
+    "x": 3018,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2846,
+    "y": 3374,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2853,
+    "y": 3372,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2847,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2850,
+    "y": 3371,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2851,
+    "y": 3373,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2852,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2819,
+    "y": 3561,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2818,
+    "y": 3559,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3110,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3096,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3138,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3138,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3138,
+    "y": 3094,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3093,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3187,
+    "y": 3276,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3188,
+    "y": 3278,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3197,
+    "y": 3356,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3197,
+    "y": 3353,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3196,
+    "y": 3358,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2655,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2649,
+    "y": 3438,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2649,
+    "y": 3446,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2653,
+    "y": 3444,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2647,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2674,
+    "y": 3652,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2672,
+    "y": 3655,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2677,
+    "y": 3655,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3297,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3288,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3236,
+    "y": 3300,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3234,
+    "y": 3293,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3229,
+    "y": 3298,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 3228,
+    "y": 3296,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2694,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2695,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2965,
+    "y": 3336,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2784,
+    "y": 3062,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2789,
+    "y": 3063,
+    "plane": 0
+  },
+  {
+    "id": 41,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2815,
+    "y": 3560,
+    "plane": 0
+  },
+  {
+    "id": 1927,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3160,
+    "y": 2979,
+    "plane": 0
+  },
+  {
+    "id": 1927,
+    "name": "Bandit",
+    "type": "Monster",
+    "x": 3162,
+    "y": 2989,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3329,
+    "y": 2933,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3330,
+    "y": 2931,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3331,
+    "y": 2933,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3343,
+    "y": 2895,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3345,
+    "y": 2896,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3346,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3348,
+    "y": 2894,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3376,
+    "y": 2934,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3378,
+    "y": 2933,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3378,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3381,
+    "y": 2907,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3383,
+    "y": 2905,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3383,
+    "y": 2908,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3384,
+    "y": 2907,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3400,
+    "y": 2997,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3402,
+    "y": 2999,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3403,
+    "y": 2997,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3445,
+    "y": 2993,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3446,
+    "y": 2992,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3448,
+    "y": 2991,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3448,
+    "y": 2994,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3406,
+    "y": 3014,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3408,
+    "y": 3013,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3408,
+    "y": 3016,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3410,
+    "y": 3015,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3212,
+    "y": 2863,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3213,
+    "y": 2866,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3215,
+    "y": 2863,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3216,
+    "y": 2865,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3216,
+    "y": 2868,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3218,
+    "y": 2831,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3220,
+    "y": 2830,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3220,
+    "y": 2833,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3221,
+    "y": 2831,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3238,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3240,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3241,
+    "y": 2843,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3241,
+    "y": 2847,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3306,
+    "y": 2817,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3308,
+    "y": 2818,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3309,
+    "y": 2816,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3312,
+    "y": 2817,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3314,
+    "y": 2861,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3319,
+    "y": 2873,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3321,
+    "y": 2871,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3324,
+    "y": 2870,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3327,
+    "y": 2858,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3265,
+    "y": 2931,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3265,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3268,
+    "y": 2932,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3268,
+    "y": 2935,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3316,
+    "y": 2900,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3319,
+    "y": 2897,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3320,
+    "y": 2901,
+    "plane": 0
+  },
+  {
+    "id": 1994,
+    "name": "Jackal",
+    "type": "Monster",
+    "x": 3321,
+    "y": 2899,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3728,
+    "y": 9349,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3752,
+    "y": 9398,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3723,
+    "y": 9377,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3749,
+    "y": 9413,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3721,
+    "y": 9419,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3754,
+    "y": 9408,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3810,
+    "y": 9448,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3786,
+    "y": 9412,
+    "plane": 0
+  },
+  {
+    "id": 4355,
+    "name": "Cave horror",
+    "type": "Monster",
+    "x": 3797,
+    "y": 9452,
+    "plane": 0
+  },
+  {
+    "id": 1401,
+    "name": "Chicken",
+    "type": "Monster",
+    "x": 2605,
+    "y": 3878,
+    "plane": 0
+  },
+  {
+    "id": 4484,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2956,
+    "y": 3496,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2844,
+    "y": 3040,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2840,
+    "y": 3049,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2837,
+    "y": 3043,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2834,
+    "y": 3042,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2827,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2824,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2830,
+    "y": 3021,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2832,
+    "y": 3018,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2824,
+    "y": 3084,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2821,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2817,
+    "y": 3078,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2837,
+    "y": 3076,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2877,
+    "y": 3154,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2878,
+    "y": 3153,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2870,
+    "y": 3161,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2822,
+    "y": 3192,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2610,
+    "y": 3274,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2610,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2615,
+    "y": 3276,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2616,
+    "y": 3275,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2616,
+    "y": 3276,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2925,
+    "y": 2969,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2939,
+    "y": 2977,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2936,
+    "y": 2980,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2933,
+    "y": 2976,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2930,
+    "y": 2971,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2928,
+    "y": 2984,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2942,
+    "y": 2983,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2936,
+    "y": 2989,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2887,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2741,
+    "y": 3173,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2746,
+    "y": 3167,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2746,
+    "y": 3147,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2733,
+    "y": 3162,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2730,
+    "y": 3146,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2782,
+    "y": 3104,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2782,
+    "y": 3103,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2777,
+    "y": 3090,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2773,
+    "y": 3089,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2803,
+    "y": 3115,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2808,
+    "y": 3112,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2759,
+    "y": 3179,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2757,
+    "y": 3170,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2781,
+    "y": 3173,
+    "plane": 0
+  },
+  {
+    "id": 128,
+    "name": "Snake",
+    "type": "Monster",
+    "x": 2770,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 5339,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2844,
+    "y": 3239,
+    "plane": 0
+  },
+  {
+    "id": 5339,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 3095,
+    "y": 3554,
+    "plane": 0
+  },
+  {
+    "id": 5339,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2831,
+    "y": 9655,
+    "plane": 0
+  },
+  {
+    "id": 1044,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3408,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 1044,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3408,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 1044,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3410,
+    "y": 3489,
+    "plane": 1
+  },
+  {
+    "id": 1044,
+    "name": "Monk of Zamorak",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3487,
+    "plane": 1
+  },
+  {
+    "id": 1233,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3485,
+    "y": 3443,
+    "plane": 0
+  },
+  {
+    "id": 1233,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3516,
+    "y": 3441,
+    "plane": 0
+  },
+  {
+    "id": 1233,
+    "name": "Blood Blamish Snail",
+    "type": "Monster",
+    "x": 3537,
+    "y": 3428,
+    "plane": 0
+  },
+  {
+    "id": 4659,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3095,
+    "y": 3232,
+    "plane": 0
+  },
+  {
+    "id": 4659,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3095,
+    "y": 3231,
+    "plane": 0
+  },
+  {
+    "id": 4659,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3225,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 4659,
+    "name": "Dark wizard",
+    "type": "Monster",
+    "x": 3230,
+    "y": 3370,
+    "plane": 0
+  },
+  {
+    "id": 6976,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2897,
+    "y": 3432,
+    "plane": 1
+  },
+  {
+    "id": 6976,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2884,
+    "y": 3418,
+    "plane": 0
+  },
+  {
+    "id": 6976,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2884,
+    "y": 3434,
+    "plane": 0
+  },
+  {
+    "id": 6976,
+    "name": "Druid",
+    "type": "Monster",
+    "x": 2902,
+    "y": 3449,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3438,
+    "y": 3562,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3430,
+    "y": 3564,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3555,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3443,
+    "y": 3551,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3442,
+    "y": 3545,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3449,
+    "y": 3536,
+    "plane": 0
+  },
+  {
+    "id": 1612,
+    "name": "Banshee",
+    "type": "Monster",
+    "x": 3440,
+    "y": 3539,
+    "plane": 0
+  },
+  {
+    "id": 6427,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2802,
+    "y": 4259,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3337,
+    "y": 2922,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3343,
+    "y": 2931,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3349,
+    "y": 2922,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3351,
+    "y": 2927,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3357,
+    "y": 2922,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3359,
+    "y": 2927,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3364,
+    "y": 2937,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3258,
+    "y": 2868,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3259,
+    "y": 2823,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3259,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3260,
+    "y": 2830,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3260,
+    "y": 2859,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3261,
+    "y": 2819,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3261,
+    "y": 2851,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3268,
+    "y": 2854,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3269,
+    "y": 2827,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3269,
+    "y": 2866,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3269,
+    "y": 2875,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3270,
+    "y": 2818,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3272,
+    "y": 2841,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3276,
+    "y": 2842,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3282,
+    "y": 2839,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3290,
+    "y": 2847,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3264,
+    "y": 2886,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3267,
+    "y": 2891,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3268,
+    "y": 2881,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3269,
+    "y": 2885,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3296,
+    "y": 2912,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3297,
+    "y": 2919,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3301,
+    "y": 2920,
+    "plane": 0
+  },
+  {
+    "id": 1993,
+    "name": "Crocodile",
+    "type": "Monster",
+    "x": 3308,
+    "y": 2916,
+    "plane": 0
+  },
+  {
+    "id": 5635,
+    "name": "Zombie pirate",
+    "type": "Monster",
+    "x": 3784,
+    "y": 2843,
+    "plane": 0
+  },
+  {
+    "id": 3295,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3020,
+    "y": 3337,
+    "plane": 0
+  },
+  {
+    "id": 1374,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2505,
+    "y": 3854,
+    "plane": 1
+  },
+  {
+    "id": 1374,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2509,
+    "y": 3849,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3181,
+    "y": 3243,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3176,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3182,
+    "y": 3248,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3226,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3140,
+    "y": 3259,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3143,
+    "y": 3260,
+    "plane": 0
+  },
+  {
+    "id": 2279,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3244,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3341,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3343,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3345,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3350,
+    "y": 3493,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3353,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3361,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3364,
+    "y": 3489,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3370,
+    "y": 3497,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3379,
+    "y": 3478,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3379,
+    "y": 3484,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3387,
+    "y": 3483,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3388,
+    "y": 3494,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3389,
+    "y": 3483,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3588,
+    "y": 3472,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3598,
+    "y": 3509,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3599,
+    "y": 3486,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3607,
+    "y": 3462,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3611,
+    "y": 3499,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3613,
+    "y": 3482,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3627,
+    "y": 3511,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3628,
+    "y": 3473,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3636,
+    "y": 3466,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3639,
+    "y": 3510,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3411,
+    "y": 3536,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3418,
+    "y": 3522,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3425,
+    "y": 3525,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3429,
+    "y": 3522,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3432,
+    "y": 3527,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3434,
+    "y": 3521,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3445,
+    "y": 3526,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2728,
+    "y": 10122,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2735,
+    "y": 10123,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2733,
+    "y": 10129,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2728,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2722,
+    "y": 10133,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2736,
+    "y": 10137,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2732,
+    "y": 10142,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2726,
+    "y": 10142,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2729,
+    "y": 10140,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2720,
+    "y": 10144,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 2712,
+    "y": 10142,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3565,
+    "y": 3503,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3567,
+    "y": 3481,
+    "plane": 0
+  },
+  {
+    "id": 412,
+    "name": "Bat",
+    "type": "Monster",
+    "x": 3580,
+    "y": 3491,
+    "plane": 0
+  },
+  {
+    "id": 830,
+    "name": "Mercenary Captain",
+    "type": "Monster",
+    "x": 3271,
+    "y": 3028,
+    "plane": 0
+  },
+  {
+    "id": 1201,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2198,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 1201,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2203,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 1201,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2264,
+    "y": 3147,
+    "plane": 0
+  },
+  {
+    "id": 1201,
+    "name": "Elf warrior",
+    "type": "Monster",
+    "x": 2266,
+    "y": 3145,
+    "plane": 0
+  },
+  {
+    "id": 4997,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3289,
+    "y": 3026,
+    "plane": 0
+  },
+  {
+    "id": 4997,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3317,
+    "y": 9438,
+    "plane": 0
+  },
+  {
+    "id": 3221,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3334,
+    "plane": 0
+  },
+  {
+    "id": 3221,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3016,
+    "y": 3339,
+    "plane": 0
+  },
+  {
+    "id": 3221,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 3019,
+    "y": 3341,
+    "plane": 0
+  },
+  {
+    "id": 4395,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2016,
+    "y": 5237,
+    "plane": 0
+  },
+  {
+    "id": 4395,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 1988,
+    "y": 5190,
+    "plane": 0
+  },
+  {
+    "id": 4395,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2039,
+    "y": 5216,
+    "plane": 0
+  },
+  {
+    "id": 4395,
+    "name": "Giant rat",
+    "type": "Monster",
+    "x": 2017,
+    "y": 5238,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3808,
+    "y": 2845,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3812,
+    "y": 2846,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3815,
+    "y": 2844,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3819,
+    "y": 2839,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3819,
+    "y": 2851,
+    "plane": 0
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3819,
+    "y": 2838,
+    "plane": 1
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3823,
+    "y": 2836,
+    "plane": 1
+  },
+  {
+    "id": 5627,
+    "name": "Sorebones",
+    "type": "Monster",
+    "x": 3823,
+    "y": 2846,
+    "plane": 1
+  },
+  {
+    "id": 6237,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5290,
+    "plane": 2
+  },
+  {
+    "id": 6237,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2841,
+    "y": 5269,
+    "plane": 2
+  },
+  {
+    "id": 6237,
+    "name": "Aviansie",
+    "type": "Monster",
+    "x": 2833,
+    "y": 5292,
+    "plane": 2
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3565,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3416,
+    "y": 3562,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3423,
+    "y": 3559,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3424,
+    "y": 3560,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3558,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3412,
+    "y": 3568,
+    "plane": 1
+  },
+  {
+    "id": 1618,
+    "name": "Bloodveld",
+    "type": "Monster",
+    "x": 3417,
+    "y": 3565,
+    "plane": 1
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3160,
+    "y": 9589,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3167,
+    "y": 9589,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3179,
+    "y": 9585,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3188,
+    "y": 9572,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3190,
+    "y": 9580,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3206,
+    "y": 9586,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3221,
+    "y": 9586,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3226,
+    "y": 9573,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 3223,
+    "y": 9569,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2800,
+    "y": 10017,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2796,
+    "y": 10021,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2805,
+    "y": 10021,
+    "plane": 0
+  },
+  {
+    "id": 1631,
+    "name": "Rockslug",
+    "type": "Monster",
+    "x": 2803,
+    "y": 10013,
+    "plane": 0
+  },
+  {
+    "id": 4702,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2869,
+    "y": 9775,
+    "plane": 0
+  },
+  {
+    "id": 4702,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2853,
+    "y": 9775,
+    "plane": 0
+  },
+  {
+    "id": 4702,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 3084,
+    "y": 9957,
+    "plane": 0
+  },
+  {
+    "id": 4702,
+    "name": "Black demon",
+    "type": "Monster",
+    "x": 2712,
+    "y": 9480,
+    "plane": 0
+  },
+  {
+    "id": 6231,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2870,
+    "y": 5265,
+    "plane": 2
+  },
+  {
+    "id": 6231,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2869,
+    "y": 5266,
+    "plane": 2
+  },
+  {
+    "id": 6231,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2855,
+    "y": 5273,
+    "plane": 2
+  },
+  {
+    "id": 6231,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2840,
+    "y": 5263,
+    "plane": 2
+  },
+  {
+    "id": 6231,
+    "name": "Spiritual mage",
+    "type": "Monster",
+    "x": 2831,
+    "y": 5285,
+    "plane": 2
+  },
+  {
+    "id": 1103,
+    "name": "Thrower Troll",
+    "type": "Monster",
+    "x": 2863,
+    "y": 3600,
+    "plane": 0
+  },
+  {
+    "id": 5406,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 3159,
+    "y": 4603,
+    "plane": 1
+  },
+  {
+    "id": 1773,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3252,
+    "y": 3227,
+    "plane": 0
+  },
+  {
+    "id": 1773,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 3263,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": 1773,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2991,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": 5884,
+    "name": "Dwarf",
+    "type": "Monster",
+    "x": 2439,
+    "y": 5520,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1837,
+    "y": 3244,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1836,
+    "y": 3250,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1845,
+    "y": 3251,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1845,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1849,
+    "y": 3241,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1853,
+    "y": 3247,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1848,
+    "y": 3254,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1858,
+    "y": 3251,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1935,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1933,
+    "y": 3209,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1930,
+    "y": 3208,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1929,
+    "y": 3217,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1927,
+    "y": 3219,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1924,
+    "y": 3211,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1920,
+    "y": 3216,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 1925,
+    "y": 3213,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3263,
+    "y": 9399,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3248,
+    "y": 9374,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3253,
+    "y": 9363,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3249,
+    "y": 9355,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3274,
+    "y": 9397,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3275,
+    "y": 9393,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3271,
+    "y": 9384,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3270,
+    "y": 9380,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3283,
+    "y": 9378,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3285,
+    "y": 9386,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3284,
+    "y": 9401,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3278,
+    "y": 9353,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3299,
+    "y": 9380,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3319,
+    "y": 9402,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 3305,
+    "y": 9350,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2761,
+    "y": 10007,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2757,
+    "y": 10010,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2763,
+    "y": 10000,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2760,
+    "y": 10011,
+    "plane": 0
+  },
+  {
+    "id": 1633,
+    "name": "Pyrefiend",
+    "type": "Monster",
+    "x": 2761,
+    "y": 9997,
+    "plane": 0
+  },
+  {
+    "id": 247,
+    "name": "Sir Mordred",
+    "type": "Monster",
+    "x": 2769,
+    "y": 3402,
+    "plane": 2
+  },
+  {
+    "id": 4276,
+    "name": "Goblin",
+    "type": "Monster",
+    "x": 2581,
+    "y": 9851,
+    "plane": 0
+  },
+  {
+    "id": 1149,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 2861,
+    "y": 10085,
+    "plane": 0
+  },
+  {
+    "id": 5342,
+    "name": "Ghost",
+    "type": "Monster",
+    "x": 3276,
+    "y": 3659,
+    "plane": 0
+  },
+  {
+    "id": 3407,
+    "name": "Guard",
+    "type": "Monster",
+    "x": 3114,
+    "y": 3515,
+    "plane": 0
+  },
+  {
+    "id": 5380,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 1952,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 5380,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2028,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 5380,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2031,
+    "y": 5186,
+    "plane": 0
+  },
+  {
+    "id": 5380,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2027,
+    "y": 5194,
+    "plane": 0
+  },
+  {
+    "id": 5380,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2021,
+    "y": 5188,
+    "plane": 0
+  },
+  {
+    "id": 6113,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3232,
+    "y": 3280,
+    "plane": 0
+  },
+  {
+    "id": 6113,
+    "name": "Duck",
+    "type": "Monster",
+    "x": 3222,
+    "y": 3289,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2350,
+    "y": 5201,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2353,
+    "y": 5192,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2324,
+    "y": 5203,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2333,
+    "y": 5204,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2326,
+    "y": 5197,
+    "plane": 0
+  },
+  {
+    "id": 4385,
+    "name": "Skeleton",
+    "type": "Monster",
+    "x": 2264,
+    "y": 5136,
+    "plane": 0
+  },
+  {
+    "id": 7129,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1625,
+    "y": 4689,
+    "plane": 0
+  },
+  {
+    "id": 7129,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1614,
+    "y": 4704,
+    "plane": 0
+  },
+  {
+    "id": 7129,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1631,
+    "y": 4719,
+    "plane": 0
+  },
+  {
+    "id": 7129,
+    "name": "Farmer",
+    "type": "Monster",
+    "x": 1651,
+    "y": 4705,
+    "plane": 0
+  },
+  {
+    "id": 2049,
+    "name": "Zogre",
+    "type": "Monster",
+    "x": 2452,
+    "y": 9440,
+    "plane": 0
+  },
+  {
+    "id": 5314,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2588,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 5314,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2585,
+    "y": 9492,
+    "plane": 0
+  },
+  {
+    "id": 5314,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2586,
+    "y": 9491,
+    "plane": 0
+  },
+  {
+    "id": 5314,
+    "name": "Zombie",
+    "type": "Monster",
+    "x": 2591,
+    "y": 9492,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3144,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3153,
+    "y": 5454,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3160,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3167,
+    "y": 5450,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 3161,
+    "y": 5451,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2777,
+    "y": 10224,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2784,
+    "y": 10231,
+    "plane": 0
+  },
+  {
+    "id": 1561,
+    "name": "Ice Troll",
+    "type": "Monster",
+    "x": 2792,
+    "y": 10222,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4718,
+    "y": 5148,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4708,
+    "y": 5173,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4716,
+    "y": 5178,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4726,
+    "y": 5173,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4730,
+    "y": 5163,
+    "plane": 0
+  },
+  {
+    "id": 2624,
+    "name": "TzHaar-Ket",
+    "type": "Monster",
+    "x": 4726,
+    "y": 5153,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3096,
+    "y": 3220,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2909,
+    "y": 9690,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2911,
+    "y": 9689,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2905,
+    "y": 9687,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2912,
+    "y": 9682,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2917,
+    "y": 9681,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2918,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2916,
+    "y": 9677,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2911,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2906,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2905,
+    "y": 9673,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2897,
+    "y": 9675,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2899,
+    "y": 9678,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2898,
+    "y": 9682,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2897,
+    "y": 9687,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2903,
+    "y": 9690,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2904,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2902,
+    "y": 9693,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2915,
+    "y": 9691,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2916,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2913,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2908,
+    "y": 9694,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2908,
+    "y": 9702,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2906,
+    "y": 9706,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2915,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2915,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2899,
+    "y": 9700,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2898,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2898,
+    "y": 9708,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2900,
+    "y": 9710,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2907,
+    "y": 9711,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2923,
+    "y": 9710,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2920,
+    "y": 9708,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2919,
+    "y": 9703,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2891,
+    "y": 9679,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2891,
+    "y": 9682,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2890,
+    "y": 9692,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2891,
+    "y": 9695,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2892,
+    "y": 9701,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2893,
+    "y": 9701,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2892,
+    "y": 9709,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2895,
+    "y": 9710,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2942,
+    "y": 9801,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 2938,
+    "y": 9812,
+    "plane": 0
+  },
+  {
+    "id": 178,
+    "name": "Black Knight",
+    "type": "Monster",
+    "x": 3273,
+    "y": 3507,
+    "plane": 0
+  }
+];

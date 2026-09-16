@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11341,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11341,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient page",
+        "weight": 0.003,
+        "value": 0,
+        "examine": "This seems to have been torn from a book...",
+        "item_id": [
+          "11341"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient page#1",
+        "item_name": "Ancient page"
+      }
+    }
+  ]
+}

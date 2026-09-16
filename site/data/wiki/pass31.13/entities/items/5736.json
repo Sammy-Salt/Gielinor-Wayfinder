@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5736,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5736,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black spear",
+        "weight": 2.267,
+        "value": 750,
+        "examine": "A poisoned black tipped spear.",
+        "item_id": [
+          "5736"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black spear#(p++)",
+        "item_name": "Black spear(p++)"
+      }
+    }
+  ]
+}

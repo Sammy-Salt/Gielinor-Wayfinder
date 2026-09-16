@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12402,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12402,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nardah teleport",
+        "weight": 0,
+        "value": 10,
+        "examine": "Teleports you to Nardah.",
+        "item_id": [
+          "12402"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Nardah teleport",
+        "item_name": "Nardah teleport"
+      }
+    }
+  ]
+}

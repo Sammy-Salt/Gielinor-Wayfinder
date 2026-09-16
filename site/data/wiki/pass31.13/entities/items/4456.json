@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4456,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4456,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bowl of hot water",
+        "weight": 0.907,
+        "value": 10,
+        "examine": "It's a bowl of hot water.",
+        "item_id": [
+          "4456"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bowl of hot water",
+        "item_name": "Bowl of hot water"
+      }
+    }
+  ]
+}

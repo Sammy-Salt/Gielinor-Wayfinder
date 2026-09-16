@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9604,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9604,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange pentagon",
+        "weight": 0,
+        "value": 1,
+        "examine": "An orange pentagon-shaped crystalline disc.",
+        "item_id": [
+          "9604"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Orange pentagon",
+        "item_name": "Orange pentagon"
+      }
+    }
+  ]
+}

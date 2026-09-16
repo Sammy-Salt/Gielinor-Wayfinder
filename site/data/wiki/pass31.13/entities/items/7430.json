@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7430,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7430,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fungicide spray",
+        "weight": 2,
+        "value": 1,
+        "examine": "Pumps fungicide.",
+        "item_id": [
+          "7430"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fungicide spray#1",
+        "item_name": "Fungicide spray 1"
+      }
+    }
+  ]
+}

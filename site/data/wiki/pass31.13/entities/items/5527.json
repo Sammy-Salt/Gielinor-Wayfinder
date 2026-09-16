@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5527,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5527,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Air tiara",
+        "weight": 1,
+        "value": 100,
+        "examine": "A tiara infused with the properties of air.",
+        "item_id": [
+          "5527"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Air tiara",
+        "item_name": "Air tiara"
+      }
+    }
+  ]
+}

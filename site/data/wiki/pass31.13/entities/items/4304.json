@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4304,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4304,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ham cloak",
+        "weight": 0.453,
+        "value": 75,
+        "examine": "A HAM cape.",
+        "item_id": [
+          "4304"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ham cloak",
+        "item_name": "Ham cloak"
+      }
+    }
+  ]
+}

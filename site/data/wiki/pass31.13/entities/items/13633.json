@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13633,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13633,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful legs (Hosidius)",
+        "weight": 0.9,
+        "value": 60,
+        "examine": "You have graceful legs. How nice.",
+        "item_id": [
+          "13633"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful legs (Hosidius)#Inventory",
+        "item_name": "Graceful legs"
+      }
+    }
+  ]
+}

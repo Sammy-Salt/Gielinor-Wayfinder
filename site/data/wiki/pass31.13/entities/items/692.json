@@ -1,0 +1,25 @@
+{
+  "canonicalId": 692,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 692,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Level 2 certificate",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "The owner has passed Earth Sciences level 2 exam.",
+        "item_id": [
+          "692"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Level 2 certificate",
+        "item_name": "Level 2 certificate"
+      }
+    }
+  ]
+}

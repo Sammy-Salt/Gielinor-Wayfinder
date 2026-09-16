@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2241,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2241,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Premade s'y crunch",
+        "weight": 0.25,
+        "value": 85,
+        "examine": "Some premade Spicy Crunchies.",
+        "item_id": [
+          "2241"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Premade s'y crunch",
+        "item_name": "Premade s'y crunch"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5935,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5935,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Coconut milk",
+        "weight": 0.035,
+        "value": 1,
+        "examine": "A vial filled with coconut milk",
+        "item_id": [
+          "5935"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Coconut milk",
+        "item_name": "Coconut milk"
+      }
+    }
+  ]
+}

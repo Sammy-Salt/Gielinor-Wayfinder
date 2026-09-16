@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10988,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10988,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Meter",
+        "weight": 1,
+        "value": 0,
+        "examine": "A broken meter.",
+        "item_id": [
+          "10988"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Meter#Broken",
+        "item_name": "Meter"
+      }
+    }
+  ]
+}

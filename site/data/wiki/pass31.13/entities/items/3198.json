@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3198,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3198,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril halberd",
+        "weight": 2.721,
+        "value": 2600,
+        "examine": "A mithril halberd.",
+        "item_id": [
+          "3198"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril halberd",
+        "item_name": "Mithril halberd"
+      }
+    }
+  ]
+}

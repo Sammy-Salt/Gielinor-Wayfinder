@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3142,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3142,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw karambwan",
+        "weight": 0.7,
+        "value": 200,
+        "examine": "A raw green octopus.",
+        "item_id": [
+          "3142"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw karambwan",
+        "item_name": "Raw karambwan"
+      }
+    }
+  ]
+}

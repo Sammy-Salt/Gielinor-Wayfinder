@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4755,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4755,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Verac's flail",
+        "weight": 2.267,
+        "value": 160000,
+        "examine": "Verac the Defiled's flail.",
+        "item_id": [
+          "4755"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Verac's flail#Undamaged",
+        "item_name": "Verac's flail"
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+/* Crafting page: controls bar and recipe list/card layout. */
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.controls input[type="text"],.controls input:not([type]),#search{flex:1;min-width:200px}
+.controls select{min-width:160px}
+.controls .check{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--osrs-text-soft)}
+
+.recipe-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px;margin-top:10px}
+.recipe{background:var(--osrs-panel-2);border:1px solid var(--osrs-border-soft);border-radius:8px;padding:12px}
+.recipe h3{margin:0 0 6px}
+.recipe h3 a{color:var(--osrs-link);text-decoration:none}
+.recipe h3 a:hover{text-decoration:underline}
+
+.recipe-meta{display:flex;flex-wrap:wrap;gap:8px;font-size:12px;color:var(--osrs-muted);margin-bottom:8px}
+.recipe-meta .ready{color:var(--osrs-green-bright);font-weight:600}
+.recipe-meta .missing{color:var(--osrs-red)}
+
+.materials{display:flex;flex-wrap:wrap;gap:6px 10px;font-size:13px}
+.materials a{color:var(--osrs-link);text-decoration:none}
+.materials a:hover{text-decoration:underline}
+
+#summary{margin:6px 0 0;color:var(--osrs-muted);font-size:13px}

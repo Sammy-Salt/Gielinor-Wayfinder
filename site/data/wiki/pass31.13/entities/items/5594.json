@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5594,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5594,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tin (Recruitment Drive)",
+        "weight": 0.101,
+        "value": 20,
+        "examine": "There is an impression of a key embedded in it.",
+        "item_id": [
+          "5594"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tin (Recruitment Drive)#Impression",
+        "item_name": "Tin"
+      }
+    }
+  ]
+}

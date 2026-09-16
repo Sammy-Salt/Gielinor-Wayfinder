@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13628,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13628,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful hood (Hosidius)",
+        "weight": -3,
+        "value": 35,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13628"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful hood (Hosidius)#Worn",
+        "item_name": "Graceful hood"
+      }
+    }
+  ]
+}

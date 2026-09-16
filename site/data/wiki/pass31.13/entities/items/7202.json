@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7202,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7202,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Part wild pie (raw bear meat)",
+        "weight": 0.001,
+        "value": 5,
+        "examine": "Still needs two more ingredients.",
+        "item_id": [
+          "7202"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Part wild pie (raw bear meat)",
+        "item_name": "Part wild pie"
+      }
+    }
+  ]
+}

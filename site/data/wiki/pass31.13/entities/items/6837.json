@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6837,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6837,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Diamond bauble",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "A bauble shaped like a diamond painted blue.",
+        "item_id": [
+          "6837"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Diamond bauble#Blue",
+        "item_name": "Diamond bauble"
+      }
+    }
+  ]
+}

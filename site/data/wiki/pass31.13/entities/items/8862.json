@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8862,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8862,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Three barrels",
+        "weight": 13.607,
+        "value": 1,
+        "examine": "To put on your head.",
+        "item_id": [
+          "8862"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Three barrels",
+        "item_name": "Three barrels"
+      }
+    }
+  ]
+}

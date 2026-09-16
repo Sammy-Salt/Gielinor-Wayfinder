@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13535,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13535,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tristessa's Tragedy",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "The Tragedy of Tristessa.",
+        "item_id": [
+          "13535"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tristessa's Tragedy",
+        "item_name": "Tristessa's Tragedy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8570,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8570,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Carved teak bench (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8570"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Carved teak bench (flatpack)",
+        "item_name": "Carved teak bench"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3775,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3775,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fremennik blue shirt",
+        "weight": 0.907,
+        "value": 250,
+        "examine": "The latest in Fremennik fashion.",
+        "item_id": [
+          "3775"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fremennik blue shirt",
+        "item_name": "Fremennik blue shirt"
+      }
+    }
+  ]
+}

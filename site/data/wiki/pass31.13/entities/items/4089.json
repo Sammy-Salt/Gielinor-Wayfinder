@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4089,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4089,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic hat",
+        "weight": 0.453,
+        "value": 15000,
+        "examine": "A magical hat.",
+        "item_id": [
+          "4089"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic hat",
+        "item_name": "Mystic hat"
+      }
+    }
+  ]
+}

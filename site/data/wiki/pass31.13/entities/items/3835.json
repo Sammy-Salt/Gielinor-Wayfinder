@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3835,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3835,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix page 1",
+        "weight": 0,
+        "value": 200,
+        "examine": "This seems to have been torn from a book...",
+        "item_id": [
+          "3835"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthix page 1",
+        "item_name": "Guthix page 1"
+      }
+    }
+  ]
+}

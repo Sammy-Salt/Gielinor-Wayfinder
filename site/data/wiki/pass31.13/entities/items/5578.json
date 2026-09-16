@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5578,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5578,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Acetic acid",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "A vial of something labelled 'Acetic Acid'.",
+        "item_id": [
+          "5578"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Acetic acid",
+        "item_name": "Acetic acid"
+      }
+    }
+  ]
+}

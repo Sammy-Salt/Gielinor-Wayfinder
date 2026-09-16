@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1751,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1751,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue dragonhide",
+        "weight": 3.175,
+        "value": 140,
+        "examine": "The scaly rough hide from a Blue Dragon.",
+        "item_id": [
+          "1751"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue dragonhide",
+        "item_name": "Blue dragonhide"
+      }
+    }
+  ]
+}

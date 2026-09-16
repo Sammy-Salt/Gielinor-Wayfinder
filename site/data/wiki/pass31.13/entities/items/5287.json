@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5287,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5287,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pineapple seed",
+        "weight": 0,
+        "value": 74,
+        "examine": "Plant in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5287"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pineapple seed",
+        "item_name": "Pineapple seed"
+      }
+    }
+  ]
+}

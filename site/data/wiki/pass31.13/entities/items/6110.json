@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6110,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6110,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ghostly gloves",
+        "weight": 0.001,
+        "value": 30,
+        "examine": "They seem to fade in and out of existence...",
+        "item_id": [
+          "6110"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ghostly gloves",
+        "item_name": "Ghostly gloves"
+      }
+    }
+  ]
+}

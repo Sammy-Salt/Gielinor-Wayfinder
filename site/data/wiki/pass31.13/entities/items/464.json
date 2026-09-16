@@ -1,0 +1,25 @@
+{
+  "canonicalId": 464,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 464,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strange fruit",
+        "weight": 0.085,
+        "value": 1,
+        "examine": "I wonder what this tastes like?",
+        "item_id": [
+          "464"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Strange fruit",
+        "item_name": "Strange fruit"
+      }
+    }
+  ]
+}

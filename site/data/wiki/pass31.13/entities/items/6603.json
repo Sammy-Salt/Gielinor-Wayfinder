@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6603,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6603,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White magic staff",
+        "weight": 2.267,
+        "value": 200,
+        "examine": "A Magical staff.",
+        "item_id": [
+          "6603"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White magic staff",
+        "item_name": "White magic staff"
+      }
+    }
+  ]
+}

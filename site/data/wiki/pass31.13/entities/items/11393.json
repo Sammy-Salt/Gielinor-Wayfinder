@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11393,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11393,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel hasta",
+        "weight": 2.267,
+        "value": 325,
+        "examine": "A poison-tipped, one-handed steel hasta.",
+        "item_id": [
+          "11393"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel hasta#(p)",
+        "item_name": "Steel hasta(p)"
+      }
+    }
+  ]
+}

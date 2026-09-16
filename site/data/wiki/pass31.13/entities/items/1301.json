@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1301,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1301,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant longsword",
+        "weight": 2.041,
+        "value": 3200,
+        "examine": "A razor sharp longsword.",
+        "item_id": [
+          "1301"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant longsword",
+        "item_name": "Adamant longsword"
+      }
+    }
+  ]
+}

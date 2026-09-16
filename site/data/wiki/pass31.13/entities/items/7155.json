@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7155,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7155,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rope (Cabin Fever)",
+        "weight": 1.36,
+        "value": 18,
+        "examine": "A coil of rope.",
+        "item_id": [
+          "7155"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rope (Cabin Fever)",
+        "item_name": "Rope"
+      }
+    }
+  ]
+}

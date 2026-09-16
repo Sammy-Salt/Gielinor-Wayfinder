@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6897,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6897,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune longsword (Mage Training Arena)",
+        "weight": 1.814,
+        "value": 0,
+        "examine": "A razor sharp longsword.",
+        "item_id": [
+          "6897"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rune longsword (Mage Training Arena)",
+        "item_name": "Rune longsword"
+      }
+    }
+  ]
+}

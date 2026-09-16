@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7470,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7470,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cornflour mixture",
+        "weight": 1.36,
+        "value": 1,
+        "examine": "A mixture of milk, cream and cornflour.",
+        "item_id": [
+          "7470"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cornflour mixture",
+        "item_name": "Cornflour mixture"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9189,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9189,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sapphire bolt tips",
+        "weight": 0,
+        "value": 17,
+        "examine": "Sapphire bolt tips.",
+        "item_id": [
+          "9189"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sapphire bolt tips",
+        "item_name": "Sapphire bolt tips"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2378,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2378,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Toban's key",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "Formerly the property of the ogre, Toban (Used in the Watchtower quest).",
+        "item_id": [
+          "2378"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Toban's key",
+        "item_name": "Toban's key"
+      }
+    }
+  ]
+}

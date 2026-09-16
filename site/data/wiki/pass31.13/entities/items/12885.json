@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12885,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12885,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jar of Sand",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "It's just a jar of sand.",
+        "item_id": [
+          "12885"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Jar of Sand",
+        "item_name": "Jar of Sand"
+      }
+    }
+  ]
+}

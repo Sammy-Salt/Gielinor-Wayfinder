@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2423,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2423,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Key print",
+        "weight": 0.01,
+        "value": 30,
+        "examine": "An imprint of a key in a lump of clay.",
+        "item_id": [
+          "2423"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Key print",
+        "item_name": "Key print"
+      }
+    }
+  ]
+}

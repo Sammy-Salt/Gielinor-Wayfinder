@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10850,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10850,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Autumn sq'irkjuice",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Made from 3 autumn sq'irks.",
+        "item_id": [
+          "10850"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Autumn sq'irkjuice",
+        "item_name": "Autumn sq'irkjuice"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6949,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6949,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "A magic scroll",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "This scroll glows with an inner light.",
+        "item_id": [
+          "6949"
+        ],
+        "tradeable": false,
+        "page_name_sub": "A magic scroll",
+        "item_name": "A magic scroll"
+      }
+    }
+  ]
+}

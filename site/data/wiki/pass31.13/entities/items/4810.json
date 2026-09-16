@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4810,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4810,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ruined backpack",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "A broken and useless looking backpack with the moniker,'B.Vahn' in it.",
+        "item_id": [
+          "4810"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ruined backpack",
+        "item_name": "Ruined backpack"
+      }
+    }
+  ]
+}

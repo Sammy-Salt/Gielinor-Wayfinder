@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9624,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9624,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Violet pentagon",
+        "weight": 0,
+        "value": 1,
+        "examine": "A violet pentagon-shaped crystalline disc.",
+        "item_id": [
+          "9624"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Violet pentagon",
+        "item_name": "Violet pentagon"
+      }
+    }
+  ]
+}

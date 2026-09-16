@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2595,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2595,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black full helm (g)",
+        "weight": 2.721,
+        "value": 1056,
+        "examine": "Black full helmet with gold trim.",
+        "item_id": [
+          "2595"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black full helm (g)",
+        "item_name": "Black full helm (g)"
+      }
+    }
+  ]
+}

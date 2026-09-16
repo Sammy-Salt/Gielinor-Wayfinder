@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril crossbow",
+        "weight": 5,
+        "value": 783,
+        "examine": "A mithril crossbow.",
+        "item_id": [
+          "9181"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril crossbow",
+        "item_name": "Mithril crossbow"
+      }
+    }
+  ]
+}

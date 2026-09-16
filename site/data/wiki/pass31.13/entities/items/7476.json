@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7476,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7476,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Brulee supreme",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "A pot of brulee supreme.",
+        "item_id": [
+          "7476"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Brulee supreme",
+        "item_name": "Brulee supreme"
+      }
+    }
+  ]
+}

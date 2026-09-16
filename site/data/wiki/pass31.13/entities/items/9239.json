@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9239,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9239,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Topaz bolts (e)",
+        "weight": 0,
+        "value": 24,
+        "examine": "Enchanted Red Topaz tipped Steel Crossbow Bolts.",
+        "item_id": [
+          "9239"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Topaz bolts (e)",
+        "item_name": "Topaz bolts (e)"
+      }
+    }
+  ]
+}

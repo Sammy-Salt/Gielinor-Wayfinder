@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4500,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4500,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pole (animation item)",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "It's the pole you're holding.",
+        "item_id": [
+          "4500"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pole (animation item)#Normal",
+        "item_name": "Pole"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+/* Map grid diagnostic: preserve layout; visual shell comes from site.css. */
+html,body{height:100%;margin:0}#map{width:100%;height:calc(100vh - 52px)}

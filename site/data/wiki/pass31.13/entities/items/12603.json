@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12603,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12603,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tyrannical ring",
+        "weight": 1,
+        "value": 50000,
+        "examine": "An incredibly heavy ring.",
+        "item_id": [
+          "12603"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tyrannical ring",
+        "item_name": "Tyrannical ring"
+      }
+    }
+  ]
+}

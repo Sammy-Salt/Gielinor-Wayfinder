@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1199,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1199,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant kiteshield",
+        "weight": 5.896,
+        "value": 5440,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "1199"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant kiteshield",
+        "item_name": "Adamant kiteshield"
+      }
+    }
+  ]
+}

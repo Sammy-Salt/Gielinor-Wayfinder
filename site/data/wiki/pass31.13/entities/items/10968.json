@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10968,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10968,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mushrooms",
+        "weight": 0.001,
+        "value": 50,
+        "examine": "Tasty sautéed mushrooms.",
+        "item_id": [
+          "10968"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mushrooms",
+        "item_name": "Mushrooms"
+      }
+    }
+  ]
+}

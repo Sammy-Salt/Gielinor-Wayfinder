@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2876,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2876,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw chompy",
+        "weight": 10,
+        "value": 85,
+        "examine": "I need to cook this first.",
+        "item_id": [
+          "2876"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw chompy",
+        "item_name": "Raw chompy"
+      }
+    }
+  ]
+}

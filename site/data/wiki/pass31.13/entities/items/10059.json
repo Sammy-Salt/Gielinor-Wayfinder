@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10059,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10059,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jungle camo legs",
+        "weight": 0.226,
+        "value": 20,
+        "examine": "These should make me harder to spot in jungle areas.",
+        "item_id": [
+          "10059"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Jungle camo legs#Inventory",
+        "item_name": "Jungle camo legs"
+      }
+    }
+  ]
+}

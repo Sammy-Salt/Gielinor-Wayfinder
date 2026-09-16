@@ -1,0 +1,25 @@
+{
+  "canonicalId": 468,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 468,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken pickaxe (bronze)",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "Nurmof can fix this for me.",
+        "item_id": [
+          "468"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broken pickaxe (bronze)",
+        "item_name": "Broken pickaxe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6988 @@
+{
+  "schemaVersion": 1,
+  "sourcePolicy": {
+    "primary": "2009Scape",
+    "secondary": "OSRS Wiki"
+  },
+  "source": "OSRS Wiki",
+  "snapshot": "PASS31.9",
+  "recipes": [
+    {
+      "id": "wiki31.9-0",
+      "output": {
+        "itemId": 2365,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 446,
+          "quantity": 1,
+          "name": "'perfect' gold ore"
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 40,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Furnace"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "'perfect' gold bar"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-1",
+      "output": {
+        "itemId": 8858,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Strength",
+      "skills": [
+        "Strength"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "18lb shot"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-2",
+      "output": {
+        "itemId": 8859,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Strength",
+      "skills": [
+        "Strength"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "22lb shot"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-3",
+      "output": {
+        "itemId": 890,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 43,
+          "quantity": 15,
+          "name": "Adamant arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 60,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-4",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-5",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-6",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-7",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-8",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-9",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 10,
+          "name": "Adamant bolts(unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-10",
+      "output": {
+        "itemId": 4798,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4823,
+          "quantity": 6,
+          "name": "Adamantite nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 62,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-11",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-12",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-13",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-14",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-15",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-16",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 10,
+          "name": "Adamant dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Adamant dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-17",
+      "output": {
+        "itemId": 6094,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6093,
+          "quantity": 1,
+          "name": "Rotten apples"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 14,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Apple Press"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Apple barrel"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-19",
+      "output": {
+        "itemId": 10499,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 10498,
+          "quantity": 1,
+          "name": "Ava's attractor"
+        },
+        {
+          "itemId": 886,
+          "quantity": 75,
+          "name": "Steel arrow"
+        }
+      ],
+      "skill": "Ranged",
+      "skills": [
+        "Ranged"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Ava's accumulator"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-20",
+      "output": {
+        "itemId": 4135,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Prayer",
+      "skills": [
+        "Prayer"
+      ],
+      "level": 40,
+      "xp": null,
+      "tools": [
+        "Ectoplasmator"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Banshee"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-21",
+      "output": {
+        "itemId": 10489,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 10488,
+          "quantity": 1,
+          "name": "Selected iron"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 19,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bar magnet"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-22",
+      "output": {
+        "itemId": 881,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 877,
+          "quantity": 10,
+          "name": "Bronze bolts"
+        },
+        {
+          "itemId": 47,
+          "quantity": 10,
+          "name": "Barb bolttips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 51,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Barbed bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-24",
+      "output": {
+        "itemId": 4788,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4821,
+          "quantity": 6,
+          "name": "Black nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 38,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Black brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-26",
+      "output": {
+        "itemId": 722,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 721,
+          "quantity": 1,
+          "name": "Gold bowl"
+        }
+      ],
+      "skill": "Prayer",
+      "skills": [
+        "Prayer"
+      ],
+      "level": 42,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Gujuo"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blessed gold bowl"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-27",
+      "output": {
+        "itemId": 9467,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 668,
+          "quantity": 1,
+          "name": "Blurite ore"
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 13,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Furnace"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bar"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-28",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-29",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-30",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-31",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-32",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-33",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 10,
+          "name": "Blurite bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-34",
+      "output": {
+        "itemId": 9376,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9467,
+          "quantity": 1,
+          "name": "Blurite bar"
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 8,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite bolts (unf)"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-35",
+      "output": {
+        "itemId": 9422,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9467,
+          "quantity": 1,
+          "name": "Blurite bar"
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 13,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite limbs"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-36",
+      "output": {
+        "itemId": 668,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Mining",
+      "skills": [
+        "Mining"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [
+        "Pickaxe"
+      ],
+      "facilities": [
+        "Blurite rocks"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Blurite ore"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-37",
+      "output": {
+        "itemId": 698,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Armour stand"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken armour"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-38",
+      "output": {
+        "itemId": 687,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Repair bench",
+        "Whetstone",
+        "Armour stand"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-39",
+      "output": {
+        "itemId": 7540,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7536,
+          "quantity": 1,
+          "name": "Fresh crab claw"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken crab claw"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-40",
+      "output": {
+        "itemId": 7541,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7538,
+          "quantity": 1,
+          "name": "Fresh crab shell"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken crab shell"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-41",
+      "output": {
+        "itemId": 689,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Repair bench",
+        "Whetstone",
+        "Armour stand"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-42",
+      "output": {
+        "itemId": 882,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 39,
+          "quantity": 15,
+          "name": "Bronze arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-43",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-44",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-45",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-46",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-47",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-48",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 10,
+          "name": "Bronze bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-49",
+      "output": {
+        "itemId": 4773,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4819,
+          "quantity": 6,
+          "name": "Bronze nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 7,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-50",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-51",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-52",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-53",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-54",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-55",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 10,
+          "name": "Bronze dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bronze dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-56",
+      "output": {
+        "itemId": 2248,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2250,
+          "quantity": 1,
+          "name": "Raw batta"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Burnt batta"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-57",
+      "output": {
+        "itemId": 2176,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2178,
+          "quantity": 1,
+          "name": "Raw gnomebowl"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Burnt gnomebowl"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-58",
+      "output": {
+        "itemId": 7542,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7543,
+          "quantity": 1,
+          "name": "Raw guide cake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 40,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Cake of Guidance"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-59",
+      "output": {
+        "itemId": 8128,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 20,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Candles"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-60",
+      "output": {
+        "itemId": 707,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 703,
+          "quantity": 1,
+          "name": "Nitroglycerin"
+        },
+        {
+          "itemId": 701,
+          "quantity": 1,
+          "name": "Ammonium nitrate"
+        },
+        {
+          "itemId": 704,
+          "quantity": 1,
+          "name": "Ground charcoal"
+        },
+        {
+          "itemId": 708,
+          "quantity": 1,
+          "name": "Arcenia root"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Chemical compound"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-62",
+      "output": {
+        "itemId": 7530,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7529,
+          "quantity": 1,
+          "name": "Raw fishcake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 31,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Cooked fishcake"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-64",
+      "output": {
+        "itemId": 7537,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7536,
+          "quantity": 1,
+          "name": "Fresh crab claw"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Crab claw"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-65",
+      "output": {
+        "itemId": 7539,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7538,
+          "quantity": 1,
+          "name": "Fresh crab shell"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Crab helmet"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-66",
+      "output": {
+        "itemId": 10977,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Construction",
+      "skills": [
+        "Construction"
+      ],
+      "level": 30,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Curved bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-67",
+      "output": {
+        "itemId": 9632,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Mining",
+      "skills": [
+        "Mining"
+      ],
+      "level": 20,
+      "xp": null,
+      "tools": [
+        "Pickaxe"
+      ],
+      "facilities": [
+        "Daeyalt rocks"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Daeyalt ore"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-68",
+      "output": {
+        "itemId": 697,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Armour stand"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Damaged armour"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-69",
+      "output": {
+        "itemId": 8856,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Defence",
+      "skills": [
+        "Defence"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Defensive shield"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-70",
+      "output": {
+        "itemId": 9340,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9143,
+          "quantity": 10,
+          "name": "Adamant bolts"
+        },
+        {
+          "itemId": 9192,
+          "quantity": 10,
+          "name": "Diamond bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 65,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Diamond bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-71",
+      "output": {
+        "itemId": 11212,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 11237,
+          "quantity": 15,
+          "name": "Dragon arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 90,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-72",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-73",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-74",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-75",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-76",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-77",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 10,
+          "name": "Dragon dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dragon dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-78",
+      "output": {
+        "itemId": 772,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 771,
+          "quantity": 1,
+          "name": "Dramen branch"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 31,
+      "xp": null,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dramen staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-79",
+      "output": {
+        "itemId": 11154,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11155,
+          "quantity": 1,
+          "name": "Ground astral rune"
+        },
+        {
+          "itemId": 11153,
+          "quantity": 1,
+          "name": "Dream vial (herb)"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 31,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dream potion"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-82",
+      "output": {
+        "itemId": 9338,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9142,
+          "quantity": 10,
+          "name": "Mithril bolts"
+        },
+        {
+          "itemId": 9190,
+          "quantity": 10,
+          "name": "Emerald bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 58,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Emerald bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-83",
+      "output": {
+        "itemId": 3243,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Farmer"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-84",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 314,
+          "quantity": 24,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-85",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 24,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-86",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 24,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-87",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 24,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-88",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 24,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-89",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 6,
+          "name": "Ogre arrow shaft"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 24,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Flighted ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-90",
+      "output": {
+        "itemId": 5004,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Fishing",
+      "skills": [
+        "Fishing"
+      ],
+      "level": 33,
+      "xp": null,
+      "tools": [
+        "Small fishing net"
+      ],
+      "facilities": [
+        "Fishing spot (frog spawn, eels)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Frog spawn"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-91",
+      "output": {
+        "itemId": 337,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 338,
+          "quantity": 1,
+          "name": "Raw giant carp"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Giant carp"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-93",
+      "output": {
+        "itemId": 3694,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3693,
+          "quantity": 1,
+          "name": "Golden fleece"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Spinning wheel"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Golden wool"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-95",
+      "output": {
+        "itemId": 9469,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Farming",
+      "skills": [
+        "Farming"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Grand seed pod"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-102",
+      "output": {
+        "itemId": 3249,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 40,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Guard"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-103",
+      "output": {
+        "itemId": 2249,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2250,
+          "quantity": 1,
+          "name": "Raw batta"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Half baked batta"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-104",
+      "output": {
+        "itemId": 2177,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2178,
+          "quantity": 1,
+          "name": "Raw gnomebowl"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Half baked bowl"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-105",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 314,
+          "quantity": 15,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-106",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 15,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-107",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 15,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-108",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 15,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-109",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 15,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-110",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 15,
+          "name": "Arrow shaft"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 15,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Headless arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-111",
+      "output": {
+        "itemId": 3259,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 80,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Hero"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-112",
+      "output": {
+        "itemId": 884,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 40,
+          "quantity": 15,
+          "name": "Iron arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-113",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-114",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-115",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-116",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-117",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-118",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 10,
+          "name": "Iron bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-119",
+      "output": {
+        "itemId": 4778,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4820,
+          "quantity": 6,
+          "name": "Iron nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 18,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-120",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-121",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-122",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-123",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-124",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-125",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 10,
+          "name": "Iron dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Iron dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-126",
+      "output": {
+        "itemId": 9335,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9139,
+          "quantity": 10,
+          "name": "Blurite bolts"
+        },
+        {
+          "itemId": 9187,
+          "quantity": 10,
+          "name": "Jade bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 26,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Jade bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-127",
+      "output": {
+        "itemId": 3151,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3150,
+          "quantity": 1,
+          "name": "Raw karambwanji"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Karambwanji"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-128",
+      "output": {
+        "itemId": 3251,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 55,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Knight of Ardougne"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-129",
+      "output": {
+        "itemId": 2149,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2148,
+          "quantity": 1,
+          "name": "Raw lava eel"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 53,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lava eel"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-130",
+      "output": {
+        "itemId": 10976,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Construction",
+      "skills": [
+        "Construction"
+      ],
+      "level": 30,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Long bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-134",
+      "output": {
+        "itemId": 9077,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9076,
+          "quantity": 1,
+          "name": "Lunar ore"
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Furnace"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar bar"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-135",
+      "output": {
+        "itemId": 9100,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar boots"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-136",
+      "output": {
+        "itemId": 9099,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar gloves"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-137",
+      "output": {
+        "itemId": 9098,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar legs"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-138",
+      "output": {
+        "itemId": 9076,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Mining",
+      "skills": [
+        "Mining"
+      ],
+      "level": 60,
+      "xp": null,
+      "tools": [
+        "Pickaxe"
+      ],
+      "facilities": [
+        "Stalagmites (Lunar Isle)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar ore"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-139",
+      "output": {
+        "itemId": 9084,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9093,
+          "quantity": 1,
+          "name": "Lunar staff - pt3"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Earth Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-140",
+      "output": {
+        "itemId": 9084,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar",
+        "Fire Altar",
+        "Water Altar",
+        "Earth Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-141",
+      "output": {
+        "itemId": 9091,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt1"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-142",
+      "output": {
+        "itemId": 9092,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9091,
+          "quantity": 1,
+          "name": "Lunar staff - pt1"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt2"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-143",
+      "output": {
+        "itemId": 9092,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar",
+        "Fire Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt2"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-144",
+      "output": {
+        "itemId": 9093,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9092,
+          "quantity": 1,
+          "name": "Lunar staff - pt2"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Water Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt3"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-145",
+      "output": {
+        "itemId": 9093,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar",
+        "Fire Altar",
+        "Water Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt3"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-146",
+      "output": {
+        "itemId": 9097,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar torso"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-147",
+      "output": {
+        "itemId": 3689,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3688,
+          "quantity": 1,
+          "name": "Unstrung lyre"
+        },
+        {
+          "itemId": 3694,
+          "quantity": 1,
+          "name": "Golden wool"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 25,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lyre"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-149",
+      "output": {
+        "itemId": 3241,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Man"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-150",
+      "output": {
+        "itemId": 5068,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 38,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Master Farmer"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-151",
+      "output": {
+        "itemId": 6780,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 65,
+      "xp": null,
+      "tools": [
+        "Blackjack"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Menaphite Thug"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-152",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-153",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-154",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-155",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-156",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-157",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 10,
+          "name": "Mithril bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-158",
+      "output": {
+        "itemId": 4793,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4822,
+          "quantity": 6,
+          "name": "Mithril nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 49,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-159",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-160",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-161",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-162",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-163",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-164",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 10,
+          "name": "Mithril dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mithril dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-165",
+      "output": {
+        "itemId": 11804,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Prayer",
+      "skills": [
+        "Prayer"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Mosschin's bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-168",
+      "output": {
+        "itemId": 2866,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 2861,
+          "quantity": 6,
+          "name": "Wolfbone arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Ogre arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-171",
+      "output": {
+        "itemId": 879,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 877,
+          "quantity": 10,
+          "name": "Bronze bolts"
+        },
+        {
+          "itemId": 45,
+          "quantity": 10,
+          "name": "Opal bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 11,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Opal bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-172",
+      "output": {
+        "itemId": 3255,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 70,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Paladin"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-173",
+      "output": {
+        "itemId": 880,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9140,
+          "quantity": 10,
+          "name": "Iron bolts"
+        },
+        {
+          "itemId": 46,
+          "quantity": 10,
+          "name": "Pearl bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 41,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Pearl bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-175",
+      "output": {
+        "itemId": 10496,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 688,
+          "quantity": 1,
+          "name": "Buttons"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 3,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Polished buttons"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-176",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-177",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-178",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-179",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-180",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-181",
+      "output": {
+        "itemId": 1849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1853,
+          "quantity": 1,
+          "name": "Prototype dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Prototype dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-182",
+      "output": {
+        "itemId": 338,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 25,
+          "quantity": 1,
+          "name": "Red vine worm"
+        }
+      ],
+      "skill": "Fishing",
+      "skills": [
+        "Fishing"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [
+        "Fishing rod"
+      ],
+      "facilities": [
+        "Fishing spot (Hemenster)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Raw giant carp"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-183",
+      "output": {
+        "itemId": 3150,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Fishing",
+      "skills": [
+        "Fishing"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [
+        "Small fishing net"
+      ],
+      "facilities": [
+        "Fishing spot (karambwanji)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Raw karambwanji"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-184",
+      "output": {
+        "itemId": 2148,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 313,
+          "quantity": 1,
+          "name": "Fishing bait"
+        }
+      ],
+      "skill": "Fishing",
+      "skills": [
+        "Fishing"
+      ],
+      "level": 53,
+      "xp": null,
+      "tools": [
+        "Oily fishing rod"
+      ],
+      "facilities": [
+        "Fishing spot (lava eel)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Raw lava eel"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-186",
+      "output": {
+        "itemId": 3247,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 32,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rogue"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-187",
+      "output": {
+        "itemId": 9339,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9143,
+          "quantity": 10,
+          "name": "Adamant bolts"
+        },
+        {
+          "itemId": 9191,
+          "quantity": 10,
+          "name": "Ruby bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 63,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Ruby bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-188",
+      "output": {
+        "itemId": 892,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 44,
+          "quantity": 15,
+          "name": "Rune arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 75,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-189",
+      "output": {
+        "itemId": 4803,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 4824,
+          "quantity": 6,
+          "name": "Rune nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 77,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-190",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-191",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-192",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-193",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-194",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-195",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 10,
+          "name": "Rune dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Rune dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-198",
+      "output": {
+        "itemId": 9337,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9142,
+          "quantity": 10,
+          "name": "Mithril bolts"
+        },
+        {
+          "itemId": 9189,
+          "quantity": 10,
+          "name": "Sapphire bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 56,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Sapphire bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-199",
+      "output": {
+        "itemId": 3419,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3414,
+          "quantity": 1,
+          "name": "Serum 207 (1)"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire altar (Flamtaer)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Serum 208"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-200",
+      "output": {
+        "itemId": 3418,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3412,
+          "quantity": 1,
+          "name": "Serum 207 (2)"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire altar (Flamtaer)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Serum 208"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-201",
+      "output": {
+        "itemId": 3417,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3410,
+          "quantity": 1,
+          "name": "Serum 207 (3)"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire altar (Flamtaer)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Serum 208"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-202",
+      "output": {
+        "itemId": 3416,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3408,
+          "quantity": 1,
+          "name": "Serum 207 (4)"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire altar (Flamtaer)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Serum 208"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-203",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-204",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-205",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-206",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-207",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-208",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 10,
+          "name": "Silver bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-212",
+      "output": {
+        "itemId": 6715,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Fishing",
+      "skills": [
+        "Fishing"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [
+        "Fishbowl and net"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Sluglings"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-214",
+      "output": {
+        "itemId": 11803,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Prayer",
+      "skills": [
+        "Prayer"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Snailfeet's bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-215",
+      "output": {
+        "itemId": 11802,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Prayer",
+      "skills": [
+        "Prayer"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Snothead's bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-218",
+      "output": {
+        "itemId": 886,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 15,
+          "name": "Headless arrow"
+        },
+        {
+          "itemId": 41,
+          "quantity": 15,
+          "name": "Steel arrowtips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 30,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel arrow"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-219",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-220",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-221",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-222",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-223",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-224",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 10,
+          "name": "Steel bolts (unf)"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-225",
+      "output": {
+        "itemId": 4783,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2865,
+          "quantity": 6,
+          "name": "Flighted ogre arrow"
+        },
+        {
+          "itemId": 1539,
+          "quantity": 6,
+          "name": "Steel nails"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 33,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel brutal"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-226",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 314,
+          "quantity": 10,
+          "name": "Feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-227",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 10090,
+          "quantity": 10,
+          "name": "Yellow feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-228",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 10091,
+          "quantity": 10,
+          "name": "Orange feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-229",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 10088,
+          "quantity": 10,
+          "name": "Red feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-230",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 10089,
+          "quantity": 10,
+          "name": "Blue feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-231",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 10,
+          "name": "Steel dart tip"
+        },
+        {
+          "itemId": 10087,
+          "quantity": 10,
+          "name": "Stripy feather"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Steel dart"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-233",
+      "output": {
+        "itemId": 7579,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7577,
+          "quantity": 1,
+          "name": "Raw stuffed snake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 70,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Rock (snake cooker)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Stuffed snake"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-234",
+      "output": {
+        "itemId": 1941,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1940,
+          "quantity": 1,
+          "name": "Raw swamp paste"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Swamp paste"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-236",
+      "output": {
+        "itemId": 9336,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9141,
+          "quantity": 10,
+          "name": "Steel bolts"
+        },
+        {
+          "itemId": 9188,
+          "quantity": 10,
+          "name": "Topaz bolt tips"
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 48,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Topaz bolts"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-239",
+      "output": {
+        "itemId": 9087,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9082,
+          "quantity": 1,
+          "name": "Ground tooth"
+        },
+        {
+          "itemId": 9090,
+          "quantity": 1,
+          "name": "Guam-marr vial"
+        }
+      ],
+      "skill": "Herblore",
+      "skills": [
+        "Herblore"
+      ],
+      "level": 5,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Waking sleep vial"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-240",
+      "output": {
+        "itemId": 3253,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Thieving",
+      "skills": [
+        "Thieving"
+      ],
+      "level": 65,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Watchman"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-242",
+      "output": {
+        "itemId": 11035,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Woodcutting",
+      "skills": [
+        "Woodcutting"
+      ],
+      "level": 50,
+      "xp": null,
+      "tools": [
+        "Axe"
+      ],
+      "facilities": [
+        "Windswept tree"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Windswept logs"
+        }
+      ]
+    }
+  ]
+}

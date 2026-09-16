@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1917,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1917,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Beer",
+        "weight": 0.55,
+        "value": 2,
+        "examine": "A glass of frothy ale.",
+        "item_id": [
+          "1917"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Beer",
+        "item_name": "Beer"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "canonicalId": 6125,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6125,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchanted lyre",
+        "weight": 1.814,
+        "value": 1000,
+        "examine": "This will teleport me to the Fremennik province when I play it.",
+        "item_id": [
+          "6125"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Enchanted lyre#(2)",
+        "item_name": "Enchanted lyre(2)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6125,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Enchanted lyre",
+        "page_name_sub": "Enchanted lyre#(2)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

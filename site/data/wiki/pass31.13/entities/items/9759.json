@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9759,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9759,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prayer cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the most pious of heroes.",
+        "item_id": [
+          "9759"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Prayer cape#Untrimmed",
+        "item_name": "Prayer cape"
+      }
+    }
+  ]
+}

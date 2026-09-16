@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5022,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5022,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Minecart ticket",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A ticket to take you from Keldagrim to the passage under White Wolf Mountain.",
+        "item_id": [
+          "5022"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Minecart ticket#Keldagrim to White Wolf Mountain",
+        "item_name": "Minecart ticket"
+      }
+    }
+  ]
+}

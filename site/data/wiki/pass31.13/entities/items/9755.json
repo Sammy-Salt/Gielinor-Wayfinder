@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9755,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9755,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Defence hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Defence skillcape hood.",
+        "item_id": [
+          "9755"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Defence hood",
+        "item_name": "Defence hood"
+      }
+    }
+  ]
+}

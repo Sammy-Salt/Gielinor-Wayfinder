@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9013,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9013,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skull sceptre",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "A fragile magical Sceptre.",
+        "item_id": [
+          "9013"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Skull sceptre",
+        "item_name": "Skull sceptre"
+      }
+    }
+  ]
+}

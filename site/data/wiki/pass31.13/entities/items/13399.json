@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13399,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13399,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery raw meat",
+        "weight": 0.34,
+        "value": 1,
+        "examine": "There's plenty of cattle around Hosidius. Let's assume that's what this is.",
+        "item_id": [
+          "13399"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery raw meat",
+        "item_name": "Servery raw meat"
+      }
+    }
+  ]
+}

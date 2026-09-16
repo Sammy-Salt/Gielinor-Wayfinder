@@ -1,0 +1,25 @@
+{
+  "canonicalId": 723,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 723,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden bowl",
+        "weight": 1,
+        "value": 700,
+        "examine": "A specially-made golden bowl filled with water.",
+        "item_id": [
+          "723"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden bowl#Water",
+        "item_name": "Golden bowl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 47,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 47,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barb bolttips",
+        "weight": 0,
+        "value": 95,
+        "examine": "I can make bolts with these.",
+        "item_id": [
+          "47"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Barb bolttips",
+        "item_name": "Barb bolttips"
+      }
+    }
+  ]
+}

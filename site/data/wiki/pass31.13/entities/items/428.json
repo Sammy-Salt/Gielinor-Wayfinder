@@ -1,0 +1,25 @@
+{
+  "canonicalId": 428,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 428,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Priest gown (bottom)",
+        "weight": 1.814,
+        "value": 5,
+        "examine": "Bottom half of a priest suit.",
+        "item_id": [
+          "428"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Priest gown (bottom)",
+        "item_name": "Priest gown"
+      }
+    }
+  ]
+}

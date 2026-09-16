@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8425,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8425,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bagged maple tree",
+        "weight": 10,
+        "value": 15000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8425"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bagged maple tree",
+        "item_name": "Bagged maple tree"
+      }
+    }
+  ]
+}

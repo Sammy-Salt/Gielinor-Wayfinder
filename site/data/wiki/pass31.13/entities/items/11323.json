@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11323,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11323,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barbarian rod",
+        "weight": 1.36,
+        "value": 76,
+        "examine": "A heavy barbarian Fishing rod.",
+        "item_id": [
+          "11323"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Barbarian rod",
+        "item_name": "Barbarian rod"
+      }
+    }
+  ]
+}

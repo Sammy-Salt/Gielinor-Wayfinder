@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4512,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4512,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Decorative shield (gold)",
+        "weight": 4.535,
+        "value": 5440,
+        "examine": "A very decorative shield.",
+        "item_id": [
+          "4512"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Decorative shield (gold)#Normal",
+        "item_name": "Decorative shield"
+      }
+    }
+  ]
+}

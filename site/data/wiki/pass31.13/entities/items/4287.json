@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4287,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4287,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw beef (undead)",
+        "weight": 0.283,
+        "value": 1,
+        "examine": "This raw beef is rancid.",
+        "item_id": [
+          "4287"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw beef (undead)",
+        "item_name": "Raw beef"
+      }
+    }
+  ]
+}

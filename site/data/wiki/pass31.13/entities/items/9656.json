@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9656,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9656,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tome of experience (Darkness of Hallowvale)",
+        "weight": 1,
+        "value": 1,
+        "examine": "A tome of experience that awards 2,000 XP per chapter.",
+        "item_id": [
+          "9656"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tome of experience (Darkness of Hallowvale)#(3)",
+        "item_name": "Tome of experience (3)"
+      }
+    }
+  ]
+}

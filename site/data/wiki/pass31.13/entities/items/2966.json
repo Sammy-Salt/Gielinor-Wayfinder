@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2966,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2966,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mirror",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "A small mirror, probably used for grooming.",
+        "item_id": [
+          "2966"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mirror",
+        "item_name": "Mirror"
+      }
+    }
+  ]
+}

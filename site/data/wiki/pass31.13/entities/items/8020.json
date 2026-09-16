@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8020,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8020,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchant dragonstone",
+        "weight": 0,
+        "value": 1,
+        "examine": "A tablet containing a magic spell.",
+        "item_id": [
+          "8020"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Enchant dragonstone",
+        "item_name": "Enchant dragonstone"
+      }
+    }
+  ]
+}

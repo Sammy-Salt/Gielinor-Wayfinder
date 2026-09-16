@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10556,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10556,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Attacker icon",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "An icon.",
+        "item_id": [
+          "10556"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Attacker icon#Helmet",
+        "item_name": "Attacker icon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10284,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10284,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic comp bow",
+        "weight": 1.8,
+        "value": 2500,
+        "examine": "A powerful bow made from magic wood.",
+        "item_id": [
+          "10284"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Magic comp bow",
+        "item_name": "Magic comp bow"
+      }
+    }
+  ]
+}

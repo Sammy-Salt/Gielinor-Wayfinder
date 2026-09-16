@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13515,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13515,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark manuscript",
+        "weight": 0.006,
+        "value": 1,
+        "examine": "Dark secrets from ancient times.",
+        "item_id": [
+          "13515"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dark manuscript#2",
+        "item_name": "Dark manuscript"
+      }
+    }
+  ]
+}

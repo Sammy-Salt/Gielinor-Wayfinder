@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9727,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9727,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Primed bar",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "A primed elemental ingot.",
+        "item_id": [
+          "9727"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Primed bar",
+        "item_name": "Primed bar"
+      }
+    }
+  ]
+}

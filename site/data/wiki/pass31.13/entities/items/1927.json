@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1927,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1927,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bucket of milk",
+        "weight": 2.2,
+        "value": 6,
+        "examine": "It's a bucket of milk.",
+        "item_id": [
+          "1927"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bucket of milk",
+        "item_name": "Bucket of milk"
+      }
+    }
+  ]
+}

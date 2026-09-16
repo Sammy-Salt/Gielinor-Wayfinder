@@ -1,0 +1,40 @@
+{
+  "canonicalId": 11812,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11812,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos hilt",
+        "weight": 2.5,
+        "value": 500000,
+        "examine": "Brimming with potential.",
+        "item_id": [
+          "11812"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos hilt",
+        "item_name": "Bandos hilt"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11812,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Goblin potion",
+        "page_name_sub": "Goblin potion#(1)",
+        "name": null,
+        "item_name": "Goblin potion(1)"
+      }
+    }
+  ]
+}

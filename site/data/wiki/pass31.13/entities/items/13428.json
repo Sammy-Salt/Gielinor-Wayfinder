@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13428,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13428,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Logavano fruit",
+        "weight": 0,
+        "value": 3,
+        "examine": "Smells like a combination of honey and cadavers.",
+        "item_id": [
+          "13428"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Logavano fruit",
+        "item_name": "Logavano fruit"
+      }
+    }
+  ]
+}

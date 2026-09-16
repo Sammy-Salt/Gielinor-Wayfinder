@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1530,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1530,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sito foil",
+        "weight": 0.007,
+        "value": 5,
+        "examine": "This herb is Sito Foil.",
+        "item_id": [
+          "1530"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sito foil",
+        "item_name": "Sito foil"
+      }
+    }
+  ]
+}

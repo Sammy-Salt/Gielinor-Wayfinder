@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11864,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11864,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer helmet",
+        "weight": 2.267,
+        "value": 40000,
+        "examine": "You don't want to wear it inside-out.",
+        "item_id": [
+          "11864"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer helmet",
+        "item_name": "Slayer helmet"
+      }
+    }
+  ]
+}

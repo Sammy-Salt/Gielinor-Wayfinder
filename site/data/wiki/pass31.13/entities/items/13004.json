@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril trimmed set (lg)",
+        "weight": 6,
+        "value": 5000,
+        "examine": "A set containing a full helm, platebody, legs and kiteshield.",
+        "item_id": [
+          "13004"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril trimmed set (lg)",
+        "item_name": "Mithril trimmed set (lg)"
+      }
+    }
+  ]
+}

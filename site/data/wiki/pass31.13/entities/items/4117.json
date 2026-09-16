@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4117,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4117,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic boots (light)",
+        "weight": 0.453,
+        "value": 10000,
+        "examine": "Bright magical boots.",
+        "item_id": [
+          "4117"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic boots (light)",
+        "item_name": "Mystic boots (light)"
+      }
+    }
+  ]
+}

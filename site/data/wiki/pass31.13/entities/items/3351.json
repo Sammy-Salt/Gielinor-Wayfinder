@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3351,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3351,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blamish blue shell (round)",
+        "weight": 10,
+        "value": 150,
+        "examine": "A large blue coloured blamish snail shell, looks protective.",
+        "item_id": [
+          "3351"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blamish blue shell (round)",
+        "item_name": "Blamish blue shell"
+      }
+    }
+  ]
+}

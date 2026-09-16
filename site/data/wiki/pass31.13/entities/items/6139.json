@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6139,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6139,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skeletal top",
+        "weight": 4.989,
+        "value": 45000,
+        "examine": "The bones in this armour seem to vibrate with a magical quality...",
+        "item_id": [
+          "6139"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skeletal top",
+        "item_name": "Skeletal top"
+      }
+    }
+  ]
+}

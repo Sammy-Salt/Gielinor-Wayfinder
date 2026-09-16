@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11798,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11798,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Godsword blade",
+        "weight": 7.5,
+        "value": 750000,
+        "examine": "The blade for the ultimate weapon.",
+        "item_id": [
+          "11798"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Godsword blade",
+        "item_name": "Godsword blade"
+      }
+    }
+  ]
+}

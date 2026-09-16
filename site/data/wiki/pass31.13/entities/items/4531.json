@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4531,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4531,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Candle lantern",
+        "weight": 0.907,
+        "value": 15,
+        "examine": "A flickering candle in a glass cage.",
+        "item_id": [
+          "4531"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Candle lantern#Lit (white candle)",
+        "item_name": "Candle lantern"
+      }
+    }
+  ]
+}

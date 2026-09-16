@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5925,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5925,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cider(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 2 pints of mature Cider.",
+        "item_id": [
+          "5925"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cider(m) (keg)#2 pints",
+        "item_name": "Cider(m2)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11048,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11048,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armour shard",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A piece of ancient goblin armour.",
+        "item_id": [
+          "11048"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Armour shard",
+        "item_name": "Armour shard"
+      }
+    }
+  ]
+}

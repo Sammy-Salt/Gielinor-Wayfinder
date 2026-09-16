@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3130,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3130,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Marinated j' bones",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "Burnt Jogre bones marinated in a lovely Karambwanji sauce. Perfect.",
+        "item_id": [
+          "3130"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Marinated j' bones#Burnt",
+        "item_name": "Marinated j' bones"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8859,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8859,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "22lb shot",
+        "weight": 9.979,
+        "value": 1,
+        "examine": "Just landed 22lb shot.",
+        "item_id": [
+          "8859"
+        ],
+        "tradeable": false,
+        "page_name_sub": "22lb shot",
+        "item_name": "22lb shot"
+      }
+    }
+  ]
+}

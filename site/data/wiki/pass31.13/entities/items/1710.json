@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1710,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1710,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Amulet of glory",
+        "weight": 0.01,
+        "value": 17625,
+        "examine": "A dragonstone amulet with 3 magic charges.",
+        "item_id": [
+          "1710"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Amulet of glory#3",
+        "item_name": "Amulet of glory(3)"
+      }
+    }
+  ]
+}

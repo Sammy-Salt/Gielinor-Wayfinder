@@ -1,0 +1,40 @@
+{
+  "canonicalId": 887,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 887,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel arrow",
+        "weight": 0,
+        "value": 12,
+        "examine": "Venomous-looking arrows.",
+        "item_id": [
+          "887"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel arrow#(p)",
+        "item_name": "Steel arrow(p)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 887,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Steel arrow",
+        "page_name_sub": "Steel arrow#(p)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

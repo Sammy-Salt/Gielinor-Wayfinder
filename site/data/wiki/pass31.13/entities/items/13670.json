@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13670,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13670,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful cape (Kourend)",
+        "weight": -4,
+        "value": 40,
+        "examine": "A sign of your grace and unity.",
+        "item_id": [
+          "13670"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful cape (Kourend)#Worn",
+        "item_name": "Graceful cape"
+      }
+    }
+  ]
+}

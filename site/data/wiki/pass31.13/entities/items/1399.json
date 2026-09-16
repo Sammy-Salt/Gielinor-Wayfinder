@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1399,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1399,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Earth battlestaff",
+        "weight": 2.267,
+        "value": 15500,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "1399"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Earth battlestaff",
+        "item_name": "Earth battlestaff"
+      }
+    }
+  ]
+}

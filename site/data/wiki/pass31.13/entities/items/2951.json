@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2951,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2951,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden needle",
+        "weight": 0.001,
+        "value": 300,
+        "examine": "A replica needle made of solid gold.",
+        "item_id": [
+          "2951"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden needle",
+        "item_name": "Golden needle"
+      }
+    }
+  ]
+}

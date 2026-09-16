@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1393,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1393,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire battlestaff",
+        "weight": 2.267,
+        "value": 15500,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "1393"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fire battlestaff",
+        "item_name": "Fire battlestaff"
+      }
+    }
+  ]
+}

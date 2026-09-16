@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12763,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12763,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White dark bow paint",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Paints things white!",
+        "item_id": [
+          "12763"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White dark bow paint",
+        "item_name": "White dark bow paint"
+      }
+    }
+  ]
+}

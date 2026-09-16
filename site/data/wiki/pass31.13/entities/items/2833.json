@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2833,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2833,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (medium) - In a town where the guards are armed with maces",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "2833"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (medium) - In a town where the guards are armed with maces",
+        "item_name": "Clue scroll (medium)"
+      }
+    }
+  ]
+}

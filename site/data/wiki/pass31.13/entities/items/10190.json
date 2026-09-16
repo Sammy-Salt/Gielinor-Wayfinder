@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10190,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10190,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - Wave on Mudskipper Point",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A set of instructions to be followed.",
+        "item_id": [
+          "10190"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - Wave on Mudskipper Point",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

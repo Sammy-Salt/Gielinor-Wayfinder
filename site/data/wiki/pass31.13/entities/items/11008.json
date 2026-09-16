@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11008,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11008,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rat's paper",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A page of Rat's document.",
+        "item_id": [
+          "11008"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rat's paper",
+        "item_name": "Rat's paper"
+      }
+    }
+  ]
+}

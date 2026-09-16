@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5345,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5345,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gardening boots",
+        "weight": 0.34,
+        "value": 25,
+        "examine": "A pair of gardening boots.",
+        "item_id": [
+          "5345"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gardening boots",
+        "item_name": "Gardening boots"
+      }
+    }
+  ]
+}

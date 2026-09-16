@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13103,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13103,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Karamja gloves 4",
+        "weight": 0.226,
+        "value": 0,
+        "examine": "A pair of gloves from Karamja.",
+        "item_id": [
+          "13103"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Karamja gloves 4",
+        "item_name": "Karamja gloves 4"
+      }
+    }
+  ]
+}

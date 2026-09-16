@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11044,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11044,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rotten barrel (unobtainable item)",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "Looks like it might still float...",
+        "item_id": [
+          "11044"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rotten barrel (unobtainable item)",
+        "item_name": "Rotten barrel"
+      }
+    }
+  ]
+}

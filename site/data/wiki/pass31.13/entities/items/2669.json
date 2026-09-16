@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2669,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2669,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix platebody",
+        "weight": 9.979,
+        "value": 65000,
+        "examine": "Rune platebody in the colours of Guthix.",
+        "item_id": [
+          "2669"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthix platebody",
+        "item_name": "Guthix platebody"
+      }
+    }
+  ]
+}

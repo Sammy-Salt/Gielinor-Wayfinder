@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13530,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13530,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Twill Accord",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "The Royal Accord of Twill.",
+        "item_id": [
+          "13530"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Twill Accord",
+        "item_name": "Twill Accord"
+      }
+    }
+  ]
+}

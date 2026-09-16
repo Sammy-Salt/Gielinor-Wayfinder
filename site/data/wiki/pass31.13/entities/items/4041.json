@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4041,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4041,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Saradomin cloak (Castle Wars)",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "The colours of Saradomin.",
+        "item_id": [
+          "4041"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Saradomin cloak (Castle Wars)",
+        "item_name": "Saradomin cloak"
+      }
+    }
+  ]
+}

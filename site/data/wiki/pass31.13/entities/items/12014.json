@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12014,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12014,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prospector jacket",
+        "weight": 1.36,
+        "value": 60,
+        "examine": "Helps you when you're mining.",
+        "item_id": [
+          "12014"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Prospector jacket#Motherlode Mine",
+        "item_name": "Prospector jacket"
+      }
+    }
+  ]
+}

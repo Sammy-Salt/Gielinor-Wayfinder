@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4817,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4817,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of portraiture",
+        "weight": 1,
+        "value": 1,
+        "examine": "A book explaining the art of portraiture.",
+        "item_id": [
+          "4817"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book of portraiture",
+        "item_name": "Book of portraiture"
+      }
+    }
+  ]
+}

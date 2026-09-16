@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2946,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2946,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden tinderbox",
+        "weight": 0.035,
+        "value": 300,
+        "examine": "A replica tinderbox made of solid gold.",
+        "item_id": [
+          "2946"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden tinderbox",
+        "item_name": "Golden tinderbox"
+      }
+    }
+  ]
+}

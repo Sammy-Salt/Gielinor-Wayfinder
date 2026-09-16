@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9867,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9867,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mahogany fancy dress box (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "Mahogany fancy dress box.",
+        "item_id": [
+          "9867"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mahogany fancy dress box (flatpack)",
+        "item_name": "Mahogany fancy dress box"
+      }
+    }
+  ]
+}

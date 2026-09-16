@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9799,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9799,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fishing cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the best fishermen.",
+        "item_id": [
+          "9799"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fishing cape#Trimmed",
+        "item_name": "Fishing cape(t)"
+      }
+    }
+  ]
+}

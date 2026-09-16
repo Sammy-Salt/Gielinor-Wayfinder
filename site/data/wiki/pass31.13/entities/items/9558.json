@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9558,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9558,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half made bowl (tangled toad's legs)",
+        "weight": 0.275,
+        "value": 2,
+        "examine": "This unfinished tangled toads legs requires baking.",
+        "item_id": [
+          "9558"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half made bowl (tangled toad's legs)",
+        "item_name": "Half made bowl"
+      }
+    }
+  ]
+}

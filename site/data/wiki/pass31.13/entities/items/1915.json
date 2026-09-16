@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1915,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1915,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grog",
+        "weight": 0.55,
+        "value": 3,
+        "examine": "A murky glass of some sort of drink.",
+        "item_id": [
+          "1915"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Grog",
+        "item_name": "Grog"
+      }
+    }
+  ]
+}

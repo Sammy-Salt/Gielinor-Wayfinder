@@ -1,0 +1,25 @@
+{
+  "canonicalId": 555,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 555,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Water rune",
+        "weight": 0,
+        "value": 4,
+        "examine": "One of the 4 basic elemental Runes.",
+        "item_id": [
+          "555"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Water rune",
+        "item_name": "Water rune"
+      }
+    }
+  ]
+}

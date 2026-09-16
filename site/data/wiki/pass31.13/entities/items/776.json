@@ -1,0 +1,25 @@
+{
+  "canonicalId": 776,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 776,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Goldsmith gauntlets",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "These gauntlets empower the bearer whilst making gold.",
+        "item_id": [
+          "776"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Goldsmith gauntlets",
+        "item_name": "Goldsmith gauntlets"
+      }
+    }
+  ]
+}

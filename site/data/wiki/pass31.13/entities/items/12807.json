@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12807,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12807,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Odium ward (or)",
+        "weight": 3.628,
+        "value": 45000,
+        "examine": "An ancient, evil and beautiful shield forged by Volcanic heat.",
+        "item_id": [
+          "12807"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Odium ward (or)",
+        "item_name": "Odium ward"
+      }
+    }
+  ]
+}

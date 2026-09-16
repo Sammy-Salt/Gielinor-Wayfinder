@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11737,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11737,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Absorption",
+        "weight": 0.02,
+        "value": 110,
+        "examine": "1 dose of absorption potion.",
+        "item_id": [
+          "11737"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Absorption#(1)",
+        "item_name": "Absorption (1)"
+      }
+    }
+  ]
+}

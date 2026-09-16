@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1513,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1513,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic logs",
+        "weight": 2,
+        "value": 320,
+        "examine": "Logs cut from a magic tree.",
+        "item_id": [
+          "1513"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Magic logs",
+        "item_name": "Magic logs"
+      }
+    }
+  ]
+}

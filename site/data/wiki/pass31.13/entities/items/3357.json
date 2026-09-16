@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3357,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3357,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blamish red shell (pointed)",
+        "weight": 10,
+        "value": 150,
+        "examine": "A large red coloured blamish snail shell, looks protective.",
+        "item_id": [
+          "3357"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blamish red shell (pointed)",
+        "item_name": "Blamish red shell"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2526,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2526,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grey toy horsey",
+        "weight": 0.05,
+        "value": 100,
+        "examine": "A grey toy horse.",
+        "item_id": [
+          "2526"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Grey toy horsey",
+        "item_name": "Grey toy horsey"
+      }
+    }
+  ]
+}

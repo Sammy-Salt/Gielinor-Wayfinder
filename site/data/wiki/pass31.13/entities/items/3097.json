@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3097,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3097,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel claws",
+        "weight": 0.907,
+        "value": 175,
+        "examine": "A set of fighting claws.",
+        "item_id": [
+          "3097"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel claws",
+        "item_name": "Steel claws"
+      }
+    }
+  ]
+}

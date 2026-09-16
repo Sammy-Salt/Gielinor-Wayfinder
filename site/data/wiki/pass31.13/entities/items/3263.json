@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3263,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3263,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dried thistle",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It'll be easier to grind now.",
+        "item_id": [
+          "3263"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dried thistle",
+        "item_name": "Dried thistle"
+      }
+    }
+  ]
+}

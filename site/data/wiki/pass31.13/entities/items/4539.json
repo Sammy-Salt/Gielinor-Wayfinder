@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4539,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4539,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oil lantern",
+        "weight": 0.907,
+        "value": 125,
+        "examine": "It lights your way through the dark places of the earth.",
+        "item_id": [
+          "4539"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Oil lantern#Lit",
+        "item_name": "Oil lantern"
+      }
+    }
+  ]
+}

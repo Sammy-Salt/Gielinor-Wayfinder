@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9193,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9193,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragonstone bolt tips",
+        "weight": 0,
+        "value": 667,
+        "examine": "Dragonstone bolt tips.",
+        "item_id": [
+          "9193"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragonstone bolt tips",
+        "item_name": "Dragonstone bolt tips"
+      }
+    }
+  ]
+}

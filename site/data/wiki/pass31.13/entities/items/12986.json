@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12986,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12986,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel set (sk)",
+        "weight": 6,
+        "value": 1400,
+        "examine": "A set containing a full helm, platebody, skirt and kiteshield.",
+        "item_id": [
+          "12986"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel set (sk)",
+        "item_name": "Steel set (sk)"
+      }
+    }
+  ]
+}

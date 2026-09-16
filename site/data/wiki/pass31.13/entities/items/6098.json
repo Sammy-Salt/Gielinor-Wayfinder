@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6098,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6098,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Toxic powder",
+        "weight": 0.056,
+        "value": 50,
+        "examine": "A pile of toxic powder.",
+        "item_id": [
+          "6098"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Toxic powder",
+        "item_name": "Toxic powder"
+      }
+    }
+  ]
+}

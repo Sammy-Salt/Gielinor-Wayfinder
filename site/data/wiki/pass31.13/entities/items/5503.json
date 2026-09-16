@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5503,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5503,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Calquat sapling",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This sapling is ready to be replanted in a Calquat tree patch.",
+        "item_id": [
+          "5503"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Calquat sapling",
+        "item_name": "Calquat sapling"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13186,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13186,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Volatile mineral",
+        "weight": 0,
+        "value": 1,
+        "examine": "Might explode if it hits the ground hard enough.",
+        "item_id": [
+          "13186"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Volatile mineral",
+        "item_name": "Volatile mineral"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11732,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11732,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Overload (Nightmare Zone)",
+        "weight": 0.025,
+        "value": 165,
+        "examine": "2 doses of overload potion.",
+        "item_id": [
+          "11732"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Overload (Nightmare Zone)#(2)",
+        "item_name": "Overload (2)"
+      }
+    }
+  ]
+}

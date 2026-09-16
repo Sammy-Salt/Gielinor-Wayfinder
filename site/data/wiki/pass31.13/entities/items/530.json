@@ -1,0 +1,25 @@
+{
+  "canonicalId": 530,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 530,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bat bones",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "Ew it's a pile of bones.",
+        "item_id": [
+          "530"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bat bones",
+        "item_name": "Bat bones"
+      }
+    }
+  ]
+}

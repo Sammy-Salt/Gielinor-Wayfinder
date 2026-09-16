@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1833,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1833,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Desert shirt",
+        "weight": 0.907,
+        "value": 40,
+        "examine": "A cool, light desert shirt.",
+        "item_id": [
+          "1833"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Desert shirt",
+        "item_name": "Desert shirt"
+      }
+    }
+  ]
+}

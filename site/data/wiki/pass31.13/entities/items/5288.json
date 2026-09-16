@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5288,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5288,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Papaya tree seed",
+        "weight": 0,
+        "value": 115,
+        "examine": "Plant in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5288"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Papaya tree seed",
+        "item_name": "Papaya tree seed"
+      }
+    }
+  ]
+}

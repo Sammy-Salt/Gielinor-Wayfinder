@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4189,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4189,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Garden cane",
+        "weight": 0.1,
+        "value": 1,
+        "examine": "A length of garden cane.",
+        "item_id": [
+          "4189"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Garden cane",
+        "item_name": "Garden cane"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 699,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 699,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stone tablet (The Dig Site)",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "An old stone slab with writing on it.",
+        "item_id": [
+          "699"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stone tablet (The Dig Site)",
+        "item_name": "Stone tablet"
+      }
+    }
+  ]
+}

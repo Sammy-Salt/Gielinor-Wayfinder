@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1975,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1975,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chocolate dust",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "It's ground up chocolate.",
+        "item_id": [
+          "1975"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chocolate dust",
+        "item_name": "Chocolate dust"
+      }
+    }
+  ]
+}

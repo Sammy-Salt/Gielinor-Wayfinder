@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8435,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8435,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bagged plant 3",
+        "weight": 10,
+        "value": 10000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8435"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bagged plant 3",
+        "item_name": "Bagged plant 3"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9776,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9776,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Herblore hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Herblore skillcape hood.",
+        "item_id": [
+          "9776"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Herblore hood",
+        "item_name": "Herblore hood"
+      }
+    }
+  ]
+}

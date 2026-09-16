@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4980,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4980,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Verac's helm",
+        "weight": 1.36,
+        "value": 103000,
+        "examine": "Verac the Defiled's helm.",
+        "item_id": [
+          "4980"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Verac's helm#(broken)",
+        "item_name": "Verac's helm 0"
+      }
+    }
+  ]
+}

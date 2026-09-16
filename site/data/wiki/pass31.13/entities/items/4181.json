@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mouth grip",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A holding thingy for the zip line.",
+        "item_id": [
+          "4181"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mouth grip",
+        "item_name": "Mouth grip"
+      }
+    }
+  ]
+}

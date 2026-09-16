@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1850,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1850,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Technical plans",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "Plans of a technical nature.",
+        "item_id": [
+          "1850"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Technical plans",
+        "item_name": "Technical plans"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5549,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5549,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blood tiara",
+        "weight": 1,
+        "value": 500,
+        "examine": "A tiara infused with the properties of blood.",
+        "item_id": [
+          "5549"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blood tiara",
+        "item_name": "Blood tiara"
+      }
+    }
+  ]
+}

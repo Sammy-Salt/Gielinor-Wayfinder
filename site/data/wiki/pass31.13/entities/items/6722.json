@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6722,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6722,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zombie head",
+        "weight": 1,
+        "value": 0,
+        "examine": "Alas...I hardly knew him.",
+        "item_id": [
+          "6722"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zombie head",
+        "item_name": "Zombie head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1430,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1430,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant mace",
+        "weight": 2.041,
+        "value": 1440,
+        "examine": "A spiky mace.",
+        "item_id": [
+          "1430"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant mace",
+        "item_name": "Adamant mace"
+      }
+    }
+  ]
+}

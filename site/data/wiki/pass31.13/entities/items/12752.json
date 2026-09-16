@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12752,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12752,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Archaic emblem",
+        "weight": 0.1,
+        "value": 50005,
+        "examine": "An emblem of ancient times, now superseded.",
+        "item_id": [
+          "12752"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Archaic emblem#Tier 6",
+        "item_name": "Archaic emblem (tier 6)"
+      }
+    }
+  ]
+}

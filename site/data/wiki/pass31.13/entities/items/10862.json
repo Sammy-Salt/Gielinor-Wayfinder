@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10862,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10862,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hard hat",
+        "weight": 2,
+        "value": 100,
+        "examine": "Can't get any safer than this.",
+        "item_id": [
+          "10862"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hard hat",
+        "item_name": "Hard hat"
+      }
+    }
+  ]
+}

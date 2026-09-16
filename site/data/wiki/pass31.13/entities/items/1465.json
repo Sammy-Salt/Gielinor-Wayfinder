@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1465,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1465,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Weapon poison (unobtainable item)",
+        "weight": 0.02,
+        "value": 11,
+        "examine": "For use on daggers and projectiles.",
+        "item_id": [
+          "1465"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Weapon poison (unobtainable item)",
+        "item_name": "Weapon poison"
+      }
+    }
+  ]
+}

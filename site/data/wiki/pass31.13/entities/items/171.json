@@ -1,0 +1,25 @@
+{
+  "canonicalId": 171,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 171,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ranging potion",
+        "weight": 0.025,
+        "value": 216,
+        "examine": "2 doses of ranging potion.",
+        "item_id": [
+          "171"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ranging potion#(2)",
+        "item_name": "Ranging potion(2)"
+      }
+    }
+  ]
+}

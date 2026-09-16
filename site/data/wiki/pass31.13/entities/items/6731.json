@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6731,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6731,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seers ring",
+        "weight": 0.004,
+        "value": 10000,
+        "examine": "A mysterious ring that can fill the wearer with magical power...",
+        "item_id": [
+          "6731"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Seers ring",
+        "item_name": "Seers ring"
+      }
+    }
+  ]
+}

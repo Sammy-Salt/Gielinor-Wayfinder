@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1777,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1777,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bow string",
+        "weight": 0.014,
+        "value": 10,
+        "examine": "I need a bow stave to attach this to.",
+        "item_id": [
+          "1777"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bow string",
+        "item_name": "Bow string"
+      }
+    }
+  ]
+}

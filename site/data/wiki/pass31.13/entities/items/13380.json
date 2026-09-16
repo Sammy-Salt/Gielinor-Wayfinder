@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13380,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13380,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien greaves (5)",
+        "weight": 9.071,
+        "value": 75,
+        "examine": "Dress like a tier 5 Shayzien soldier.",
+        "item_id": [
+          "13380"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien greaves (5)",
+        "item_name": "Shayzien greaves (5)"
+      }
+    }
+  ]
+}

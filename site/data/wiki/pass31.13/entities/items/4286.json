@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4286,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4286,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bucket of slime",
+        "weight": 3,
+        "value": 1,
+        "examine": "It's a bucket of ectoplasm.",
+        "item_id": [
+          "4286"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bucket of slime",
+        "item_name": "Bucket of slime"
+      }
+    }
+  ]
+}

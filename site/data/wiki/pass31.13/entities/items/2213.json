@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2213,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2213,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spicy crunchies",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "Yum... smells spicy.",
+        "item_id": [
+          "2213"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spicy crunchies",
+        "item_name": "Spicy crunchies"
+      }
+    }
+  ]
+}

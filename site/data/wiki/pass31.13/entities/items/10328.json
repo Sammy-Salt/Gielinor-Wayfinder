@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10328,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10328,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White logs",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "A number of chemical covered wooden logs.",
+        "item_id": [
+          "10328"
+        ],
+        "tradeable": false,
+        "page_name_sub": "White logs",
+        "item_name": "White logs"
+      }
+    }
+  ]
+}

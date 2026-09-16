@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12416,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12416,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon plateskirt (g)",
+        "weight": 9.071,
+        "value": 270000,
+        "examine": "Heavy protective legwear with a gold trim.",
+        "item_id": [
+          "12416"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dragon plateskirt (g)",
+        "item_name": "Dragon plateskirt (g)"
+      }
+    }
+  ]
+}

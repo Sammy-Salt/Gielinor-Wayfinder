@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2623,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2623,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune platebody (t)",
+        "weight": 9.979,
+        "value": 65000,
+        "examine": "Rune platebody with trim.",
+        "item_id": [
+          "2623"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune platebody (t)",
+        "item_name": "Rune platebody (t)"
+      }
+    }
+  ]
+}

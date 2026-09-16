@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12514,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12514,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Explorer backpack",
+        "weight": 2,
+        "value": 1550,
+        "examine": "I'm the Backpack loaded up with things and knick knacks too.",
+        "item_id": [
+          "12514"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Explorer backpack",
+        "item_name": "Explorer backpack"
+      }
+    }
+  ]
+}

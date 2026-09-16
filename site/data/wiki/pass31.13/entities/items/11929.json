@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11929,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11929,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Odium shard 2",
+        "weight": 0.907,
+        "value": 31000,
+        "examine": "A broken shield piece.",
+        "item_id": [
+          "11929"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Odium shard 2",
+        "item_name": "Odium shard 2"
+      }
+    }
+  ]
+}

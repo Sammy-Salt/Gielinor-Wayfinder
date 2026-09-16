@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7824,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7824,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Giant rat bone",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7824"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Giant rat bone#Unpolished",
+        "item_name": "Giant rat bone"
+      }
+    }
+  ]
+}

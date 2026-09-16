@@ -1,0 +1,25 @@
+{
+  "canonicalId": 835,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 835,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant javelin",
+        "weight": 0,
+        "value": 160,
+        "examine": "An adamant tipped javelin.",
+        "item_id": [
+          "835"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant javelin#Poison",
+        "item_name": "Adamant javelin(p)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11052,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11052,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Helmet fragment",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A piece of ancient goblin helmet.",
+        "item_id": [
+          "11052"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Helmet fragment",
+        "item_name": "Helmet fragment"
+      }
+    }
+  ]
+}

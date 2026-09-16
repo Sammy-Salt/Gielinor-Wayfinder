@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4540,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4540,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oil lantern frame",
+        "weight": 0.453,
+        "value": 90,
+        "examine": "Add the glass to complete.",
+        "item_id": [
+          "4540"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oil lantern frame",
+        "item_name": "Oil lantern frame"
+      }
+    }
+  ]
+}

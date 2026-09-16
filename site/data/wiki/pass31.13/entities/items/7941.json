@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7941,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7941,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron sheet",
+        "weight": 1.814,
+        "value": 30,
+        "examine": "A sturdy sheet of iron.",
+        "item_id": [
+          "7941"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Iron sheet",
+        "item_name": "Iron sheet"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5322,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5322,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tomato seed",
+        "weight": 0,
+        "value": 4,
+        "examine": "A tomato seed - plant in an allotment.",
+        "item_id": [
+          "5322"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tomato seed",
+        "item_name": "Tomato seed"
+      }
+    }
+  ]
+}

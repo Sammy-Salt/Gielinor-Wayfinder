@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4131,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4131,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune boots",
+        "weight": 1.36,
+        "value": 12500,
+        "examine": "These will protect my feet.",
+        "item_id": [
+          "4131"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune boots",
+        "item_name": "Rune boots"
+      }
+    }
+  ]
+}

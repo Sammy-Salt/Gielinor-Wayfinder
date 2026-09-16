@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1885,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1885,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ugthanki kebab",
+        "weight": 0.5,
+        "value": 20,
+        "examine": "A fresh kebab made from ugthanki meat.",
+        "item_id": [
+          "1885"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ugthanki kebab",
+        "item_name": "Ugthanki kebab"
+      }
+    }
+  ]
+}

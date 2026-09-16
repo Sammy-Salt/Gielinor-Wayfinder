@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2273,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2273,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished batta (fruit, historical)",
+        "weight": 0.25,
+        "value": 1,
+        "examine": "This batta is just missing those little finishing touches.",
+        "item_id": [
+          "2273"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Unfinished batta (fruit, historical)#Orange + Pineapple",
+        "item_name": "Unfinished batta"
+      }
+    }
+  ]
+}

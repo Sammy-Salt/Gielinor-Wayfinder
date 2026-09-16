@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2229,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2229,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Premade choc bomb",
+        "weight": 0.35,
+        "value": 160,
+        "examine": "A premade Chocolate Bomb.",
+        "item_id": [
+          "2229"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Premade choc bomb",
+        "item_name": "Premade choc bomb"
+      }
+    }
+  ]
+}

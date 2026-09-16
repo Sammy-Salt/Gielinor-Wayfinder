@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8708,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8708,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel heraldic helm (Skull)",
+        "weight": 2.721,
+        "value": 600,
+        "examine": "The colours represent a skull.",
+        "item_id": [
+          "8708"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel heraldic helm (Skull)",
+        "item_name": "Steel heraldic helm"
+      }
+    }
+  ]
+}

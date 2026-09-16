@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1231,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1231,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon dagger",
+        "weight": 0.453,
+        "value": 24000,
+        "examine": "A powerful dagger.",
+        "item_id": [
+          "1231"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon dagger#(p)",
+        "item_name": "Dragon dagger(p)"
+      }
+    }
+  ]
+}

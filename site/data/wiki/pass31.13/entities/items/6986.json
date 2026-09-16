@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6986,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6986,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sandstone (32kg)",
+        "weight": 32,
+        "value": 1,
+        "examine": "A huge thirty-two-kilo block of sandstone.",
+        "item_id": [
+          "6986"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sandstone (32kg)",
+        "item_name": "Sandstone (32kg)"
+      }
+    }
+  ]
+}

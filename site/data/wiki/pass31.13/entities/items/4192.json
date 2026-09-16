@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4192,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4192,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Extended brush",
+        "weight": 1,
+        "value": 1,
+        "examine": "A typical garden brush, with two canes tied to it.",
+        "item_id": [
+          "4192"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Extended brush#2 canes",
+        "item_name": "Extended brush"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7622,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7622,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bucket of rubble",
+        "weight": 2.5,
+        "value": 1,
+        "examine": "A bucket partially filled with rubble.",
+        "item_id": [
+          "7622"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bucket of rubble#Partially filled",
+        "item_name": "Bucket of rubble"
+      }
+    }
+  ]
+}

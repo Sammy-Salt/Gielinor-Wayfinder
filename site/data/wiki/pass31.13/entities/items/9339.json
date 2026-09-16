@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9339,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9339,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ruby bolts",
+        "weight": 0,
+        "value": 125,
+        "examine": "Ruby tipped Adamantite crossbow bolts.",
+        "item_id": [
+          "9339"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ruby bolts",
+        "item_name": "Ruby bolts"
+      }
+    }
+  ]
+}

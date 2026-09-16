@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5320,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5320,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sweetcorn seed",
+        "weight": 0,
+        "value": 8,
+        "examine": "A sweetcorn seed - plant in an allotment.",
+        "item_id": [
+          "5320"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sweetcorn seed",
+        "item_name": "Sweetcorn seed"
+      }
+    }
+  ]
+}

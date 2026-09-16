@@ -1,0 +1,25 @@
+{
+  "canonicalId": 77,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 77,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Khali brew",
+        "weight": 0.113,
+        "value": 5,
+        "examine": "A bottle of Khazard's worst brew.",
+        "item_id": [
+          "77"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Khali brew",
+        "item_name": "Khali brew"
+      }
+    }
+  ]
+}

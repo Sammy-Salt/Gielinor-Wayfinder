@@ -1,0 +1,25 @@
+{
+  "canonicalId": 958,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 958,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grey wolf fur",
+        "weight": 3,
+        "value": 50,
+        "examine": "This would make warm clothing.",
+        "item_id": [
+          "958"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Grey wolf fur",
+        "item_name": "Grey wolf fur"
+      }
+    }
+  ]
+}

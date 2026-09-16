@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9008,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9008,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Left skull half",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "Ooooh spooky!",
+        "item_id": [
+          "9008"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Left skull half",
+        "item_name": "Left skull half"
+      }
+    }
+  ]
+}

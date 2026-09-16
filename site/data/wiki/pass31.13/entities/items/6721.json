@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6721,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6721,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rusty scimitar",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A decent enough weapon gone rusty.",
+        "item_id": [
+          "6721"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rusty scimitar",
+        "item_name": "Rusty scimitar"
+      }
+    }
+  ]
+}

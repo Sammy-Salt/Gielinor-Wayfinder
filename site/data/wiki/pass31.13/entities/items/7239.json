@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7239,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7239,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (hard) - South-east of the Wilderness Agility Course",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Part of the world map, but where?",
+        "item_id": [
+          "7239"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (hard) - South-east of the Wilderness Agility Course",
+        "item_name": "Clue scroll (hard)"
+      }
+    }
+  ]
+}

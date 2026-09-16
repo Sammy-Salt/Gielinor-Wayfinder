@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11128,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11128,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Berserker necklace",
+        "weight": 0.01,
+        "value": 202000,
+        "examine": "Makes obsidian weapons even stronger!",
+        "item_id": [
+          "11128"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Berserker necklace",
+        "item_name": "Berserker necklace"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 276,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 276,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rubber tube",
+        "weight": 0.028,
+        "value": 3,
+        "examine": "It's slightly charred.",
+        "item_id": [
+          "276"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rubber tube",
+        "item_name": "Rubber tube"
+      }
+    }
+  ]
+}

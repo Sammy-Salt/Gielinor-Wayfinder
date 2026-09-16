@@ -1,0 +1,25 @@
+{
+  "canonicalId": 732,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 732,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Holy water",
+        "weight": 0,
+        "value": 1,
+        "examine": "A vial of holy water, good against certain demons.",
+        "item_id": [
+          "732"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Holy water",
+        "item_name": "Holy water"
+      }
+    }
+  ]
+}

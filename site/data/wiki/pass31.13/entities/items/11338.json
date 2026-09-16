@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11338,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11338,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chewed bones",
+        "weight": 12,
+        "value": 3500,
+        "examine": "The bones of a barbarian warrior, slain by vile dragons.",
+        "item_id": [
+          "11338"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chewed bones",
+        "item_name": "Chewed bones"
+      }
+    }
+  ]
+}

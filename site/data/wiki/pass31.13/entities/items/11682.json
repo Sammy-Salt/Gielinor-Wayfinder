@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11682,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11682,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hair clip",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "I could use this to pick the lock.",
+        "item_id": [
+          "11682"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hair clip",
+        "item_name": "Hair clip"
+      }
+    }
+  ]
+}

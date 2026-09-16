@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11843,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11843,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Knight's notes",
+        "weight": 0.085,
+        "value": 0,
+        "examine": "A scroll for Sir Tiffy. The wax seal is broken.",
+        "item_id": [
+          "11843"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Knight's notes#Unsealed",
+        "item_name": "Knight's notes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1428,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1428,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril mace",
+        "weight": 1.587,
+        "value": 585,
+        "examine": "A spiky mace.",
+        "item_id": [
+          "1428"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril mace",
+        "item_name": "Mithril mace"
+      }
+    }
+  ]
+}

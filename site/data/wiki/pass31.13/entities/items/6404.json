@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6404,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6404,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Menaphite red robe",
+        "weight": 0.005,
+        "value": 40,
+        "examine": "A cool light Menaphite robe.",
+        "item_id": [
+          "6404"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Menaphite red robe",
+        "item_name": "Menaphite red robe"
+      }
+    }
+  ]
+}

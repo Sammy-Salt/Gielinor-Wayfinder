@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8506,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8506,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak armchair (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8506"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak armchair (flatpack)",
+        "item_name": "Teak armchair"
+      }
+    }
+  ]
+}

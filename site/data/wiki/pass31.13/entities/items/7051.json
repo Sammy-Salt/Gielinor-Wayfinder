@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7051,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7051,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bug lantern",
+        "weight": 2.267,
+        "value": 130,
+        "examine": "A lantern to aid attacking Harpie bugs.",
+        "item_id": [
+          "7051"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bug lantern#Unlit",
+        "item_name": "Unlit bug lantern"
+      }
+    }
+  ]
+}

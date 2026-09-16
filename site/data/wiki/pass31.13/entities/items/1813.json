@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1813,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1813,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Criminal's dagger",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A flimsy-looking dagger found at the crime scene.",
+        "item_id": [
+          "1813"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Criminal's dagger#Normal",
+        "item_name": "Criminal's dagger"
+      }
+    }
+  ]
+}

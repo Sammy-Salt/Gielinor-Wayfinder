@@ -1,0 +1,25 @@
+{
+  "canonicalId": 526,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 526,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bones",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "Bones are for burying!",
+        "item_id": [
+          "526"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bones",
+        "item_name": "Bones"
+      }
+    }
+  ]
+}

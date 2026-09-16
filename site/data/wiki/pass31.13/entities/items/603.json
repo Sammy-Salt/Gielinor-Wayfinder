@@ -1,0 +1,25 @@
+{
+  "canonicalId": 603,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 603,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Observatory lens",
+        "weight": 0.003,
+        "value": 3,
+        "examine": "A perfectly circular disc of glass.",
+        "item_id": [
+          "603"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Observatory lens",
+        "item_name": "Observatory lens"
+      }
+    }
+  ]
+}

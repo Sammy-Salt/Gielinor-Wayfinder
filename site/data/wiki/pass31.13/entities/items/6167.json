@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6167,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6167,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fibula piece",
+        "weight": 3.175,
+        "value": 60,
+        "examine": "An interesting looking bone shard.",
+        "item_id": [
+          "6167"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fibula piece",
+        "item_name": "Fibula piece"
+      }
+    }
+  ]
+}

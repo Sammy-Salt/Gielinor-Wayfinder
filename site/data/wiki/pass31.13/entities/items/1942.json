@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1942,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1942,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potato",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "This could be used to make a good stew.",
+        "item_id": [
+          "1942"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potato",
+        "item_name": "Potato"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13570,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13570,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Juniper charcoal",
+        "weight": 0,
+        "value": 45,
+        "examine": "Rich charcoal made from juniper wood.",
+        "item_id": [
+          "13570"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Juniper charcoal",
+        "item_name": "Juniper charcoal"
+      }
+    }
+  ]
+}

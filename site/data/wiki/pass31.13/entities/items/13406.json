@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13406,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13406,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery incomplete pizza",
+        "weight": 0.6,
+        "value": 1,
+        "examine": "I need to add some cheese next.",
+        "item_id": [
+          "13406"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery incomplete pizza",
+        "item_name": "Servery incomplete pizza"
+      }
+    }
+  ]
+}

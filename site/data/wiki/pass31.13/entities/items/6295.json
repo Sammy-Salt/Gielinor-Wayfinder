@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6295,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6295,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spider on shaft (raw)",
+        "weight": 0.9,
+        "value": 20,
+        "examine": "A raw spider threaded onto an arrow shaft.",
+        "item_id": [
+          "6295"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spider on shaft (raw)",
+        "item_name": "Spider on shaft"
+      }
+    }
+  ]
+}

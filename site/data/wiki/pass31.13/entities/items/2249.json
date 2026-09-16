@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2249,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2249,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half baked batta",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "This gnome batta is in the early stages of preparation.",
+        "item_id": [
+          "2249"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half baked batta",
+        "item_name": "Half baked batta"
+      }
+    }
+  ]
+}

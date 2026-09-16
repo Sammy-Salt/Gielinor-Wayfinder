@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13529,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13529,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wintertodt Parable",
+        "weight": 0.51,
+        "value": 1,
+        "examine": "The Parable of the Wintertodt, by Anonymous.",
+        "item_id": [
+          "13529"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Wintertodt Parable",
+        "item_name": "Wintertodt Parable"
+      }
+    }
+  ]
+}

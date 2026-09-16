@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2414,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2414,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak cape",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "A cape from the almighty god Zamorak.",
+        "item_id": [
+          "2414"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zamorak cape",
+        "item_name": "Zamorak cape"
+      }
+    }
+  ]
+}

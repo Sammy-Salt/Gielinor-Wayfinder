@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11769,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11769,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crystal shield (i)",
+        "weight": 2.721,
+        "value": 25000,
+        "examine": "A nice sturdy crystal shield.",
+        "item_id": [
+          "11769"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Crystal shield (i)#1/10",
+        "item_name": "Crystal shield 1/10 (i)"
+      }
+    }
+  ]
+}

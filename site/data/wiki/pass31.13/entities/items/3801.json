@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3801,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3801,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Keg of beer",
+        "weight": 20,
+        "value": 250,
+        "examine": "A lot of beer in a barrel.",
+        "item_id": [
+          "3801"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Keg of beer",
+        "item_name": "Keg of beer"
+      }
+    }
+  ]
+}

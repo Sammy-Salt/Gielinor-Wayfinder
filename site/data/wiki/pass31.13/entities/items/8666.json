@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8666,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8666,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banner (Jogre)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A banner with a picture of a Jogre.",
+        "item_id": [
+          "8666"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Banner (Jogre)",
+        "item_name": "Banner"
+      }
+    }
+  ]
+}

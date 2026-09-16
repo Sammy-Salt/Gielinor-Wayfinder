@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2162,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2162,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "King worm",
+        "weight": 0.12,
+        "value": 2,
+        "examine": "They're a gnome delicacy apparently.",
+        "item_id": [
+          "2162"
+        ],
+        "tradeable": true,
+        "page_name_sub": "King worm",
+        "item_name": "King worm"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 498,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 498,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken axe (steel)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "Bob can fix this for me.",
+        "item_id": [
+          "498"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broken axe (steel)",
+        "item_name": "Broken axe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1434,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1434,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon mace",
+        "weight": 1.814,
+        "value": 50000,
+        "examine": "A spiky mace.",
+        "item_id": [
+          "1434"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon mace",
+        "item_name": "Dragon mace"
+      }
+    }
+  ]
+}

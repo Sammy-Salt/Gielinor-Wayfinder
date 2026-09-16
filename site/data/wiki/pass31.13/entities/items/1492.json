@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1492,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1492,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Doll of Iban",
+        "weight": 0.3,
+        "value": 2,
+        "examine": "A simple doll with Iban's likeness.",
+        "item_id": [
+          "1492"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Doll of Iban",
+        "item_name": "Doll of Iban"
+      }
+    }
+  ]
+}

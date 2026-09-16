@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3705,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3705,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Weather forecast",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "An estimate of expected local weather patterns.",
+        "item_id": [
+          "3705"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Weather forecast",
+        "item_name": "Weather forecast"
+      }
+    }
+  ]
+}

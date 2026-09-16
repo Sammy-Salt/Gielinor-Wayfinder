@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7991,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7991,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Big swordfish",
+        "weight": 0.5,
+        "value": 2500,
+        "examine": "Whopper! I should get this stuffed!",
+        "item_id": [
+          "7991"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Big swordfish",
+        "item_name": "Big swordfish"
+      }
+    }
+  ]
+}

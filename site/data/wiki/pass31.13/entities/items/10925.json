@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10925,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10925,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sanfew serum",
+        "weight": 0.035,
+        "value": 300,
+        "examine": "A 4 dose Sanfew Serum.",
+        "item_id": [
+          "10925"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sanfew serum#(4)",
+        "item_name": "Sanfew serum(4)"
+      }
+    }
+  ]
+}

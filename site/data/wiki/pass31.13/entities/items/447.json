@@ -1,0 +1,25 @@
+{
+  "canonicalId": 447,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 447,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril ore",
+        "weight": 1.814,
+        "value": 162,
+        "examine": "This needs refining.",
+        "item_id": [
+          "447"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril ore",
+        "item_name": "Mithril ore"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3109,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3109,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stone ball",
+        "weight": 3.628,
+        "value": 1,
+        "examine": "Place on the stone mechanism in the right order to open the door.",
+        "item_id": [
+          "3109"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stone ball#Red",
+        "item_name": "Stone ball"
+      }
+    }
+  ]
+}

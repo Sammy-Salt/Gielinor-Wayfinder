@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2349,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2349,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze bar",
+        "weight": 1.814,
+        "value": 8,
+        "examine": "It's a bar of bronze.",
+        "item_id": [
+          "2349"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze bar",
+        "item_name": "Bronze bar"
+      }
+    }
+  ]
+}

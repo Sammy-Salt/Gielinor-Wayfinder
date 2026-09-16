@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11525,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11525,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wimpy feather",
+        "weight": 0,
+        "value": 1,
+        "examine": "Doesn't look very useful.",
+        "item_id": [
+          "11525"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Wimpy feather",
+        "item_name": "Feather"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6954,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6954,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Redberry juice",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Redberry Juice sloshes around in this vial waiting for white berries to be added.",
+        "item_id": [
+          "6954"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Redberry juice",
+        "item_name": "Redberry juice"
+      }
+    }
+  ]
+}

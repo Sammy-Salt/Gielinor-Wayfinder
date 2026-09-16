@@ -1,0 +1,25 @@
+{
+  "canonicalId": 253,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 253,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tarromin",
+        "weight": 0.007,
+        "value": 11,
+        "examine": "A useful herb.",
+        "item_id": [
+          "253"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tarromin",
+        "item_name": "Tarromin"
+      }
+    }
+  ]
+}

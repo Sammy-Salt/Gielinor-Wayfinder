@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2716,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2716,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - South-east Varrock mine",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Part of the world map, but where?",
+        "item_id": [
+          "2716"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - South-east Varrock mine",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

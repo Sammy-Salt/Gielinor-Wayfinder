@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3196,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3196,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black halberd",
+        "weight": 3.175,
+        "value": 1920,
+        "examine": "A black halberd.",
+        "item_id": [
+          "3196"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black halberd",
+        "item_name": "Black halberd"
+      }
+    }
+  ]
+}

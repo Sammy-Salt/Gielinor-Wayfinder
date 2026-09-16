@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9676,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9676,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Proselyte cuisse",
+        "weight": 7.711,
+        "value": 10000,
+        "examine": "A Proselyte Temple Knight's leg armour.",
+        "item_id": [
+          "9676"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Proselyte cuisse",
+        "item_name": "Proselyte cuisse"
+      }
+    }
+  ]
+}

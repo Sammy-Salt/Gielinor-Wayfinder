@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11003,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11003,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "An empty folder",
+        "weight": 0.001,
+        "value": 5,
+        "examine": "A folder for Rat's papers.",
+        "item_id": [
+          "11003"
+        ],
+        "tradeable": false,
+        "page_name_sub": "An empty folder",
+        "item_name": "An empty folder"
+      }
+    }
+  ]
+}

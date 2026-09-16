@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9434,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9434,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bolt mould",
+        "weight": 0.453,
+        "value": 25,
+        "examine": "A mould for creating silver crossbow bolts.",
+        "item_id": [
+          "9434"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bolt mould",
+        "item_name": "Bolt mould"
+      }
+    }
+  ]
+}

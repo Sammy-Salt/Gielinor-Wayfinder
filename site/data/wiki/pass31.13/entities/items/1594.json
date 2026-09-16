@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1594,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1594,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unholy mould",
+        "weight": 0.453,
+        "value": 200,
+        "examine": "Used to make unholy symbols.",
+        "item_id": [
+          "1594"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unholy mould",
+        "item_name": "Unholy mould"
+      }
+    }
+  ]
+}

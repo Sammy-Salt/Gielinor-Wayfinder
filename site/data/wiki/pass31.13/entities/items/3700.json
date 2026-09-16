@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3700,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3700,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sturdy boots",
+        "weight": 0.34,
+        "value": 1,
+        "examine": "A pair of sturdy custom made boots.",
+        "item_id": [
+          "3700"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sturdy boots",
+        "item_name": "Sturdy boots"
+      }
+    }
+  ]
+}

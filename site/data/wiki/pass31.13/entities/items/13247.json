@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13247,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13247,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hellpuppy",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "A fiery little pup!",
+        "item_id": [
+          "13247"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hellpuppy",
+        "item_name": "Hellpuppy"
+      }
+    }
+  ]
+}

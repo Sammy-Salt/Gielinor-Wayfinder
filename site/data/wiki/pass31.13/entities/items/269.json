@@ -1,0 +1,25 @@
+{
+  "canonicalId": 269,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 269,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torstol",
+        "weight": 0.007,
+        "value": 75,
+        "examine": "A powerful herb.",
+        "item_id": [
+          "269"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Torstol",
+        "item_name": "Torstol"
+      }
+    }
+  ]
+}

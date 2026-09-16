@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3062,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3062,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strange box",
+        "weight": 0,
+        "value": 1,
+        "examine": "It seems to be humming...",
+        "item_id": [
+          "3062"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Strange box",
+        "item_name": "Strange box"
+      }
+    }
+  ]
+}

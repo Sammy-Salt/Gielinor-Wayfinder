@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9243,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9243,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Diamond bolts (e)",
+        "weight": 0,
+        "value": 211,
+        "examine": "Enchanted Diamond tipped Adamantite Crossbow Bolts.",
+        "item_id": [
+          "9243"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Diamond bolts (e)",
+        "item_name": "Diamond bolts (e)"
+      }
+    }
+  ]
+}

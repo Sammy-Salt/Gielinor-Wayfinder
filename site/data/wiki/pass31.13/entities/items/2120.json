@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2120,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2120,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lime",
+        "weight": 0.1,
+        "value": 2,
+        "examine": "A fresh lime.",
+        "item_id": [
+          "2120"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lime",
+        "item_name": "Lime"
+      }
+    }
+  ]
+}

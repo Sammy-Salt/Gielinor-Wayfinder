@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1377,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1377,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon battleaxe",
+        "weight": 2.721,
+        "value": 200000,
+        "examine": "A vicious looking axe.",
+        "item_id": [
+          "1377"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon battleaxe",
+        "item_name": "Dragon battleaxe"
+      }
+    }
+  ]
+}

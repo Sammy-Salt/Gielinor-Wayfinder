@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1923,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1923,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bowl",
+        "weight": 0.453,
+        "value": 4,
+        "examine": "Useful for mixing things.",
+        "item_id": [
+          "1923"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bowl",
+        "item_name": "Bowl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2704,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2704,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - Search the crates in the guard house in northern East Ardougne",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "2704"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - Search the crates in the guard house in northern East Ardougne",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

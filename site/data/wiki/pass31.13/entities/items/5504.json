@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5504,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5504,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strawberry",
+        "weight": 0.028,
+        "value": 17,
+        "examine": "A freshly picked strawberry.",
+        "item_id": [
+          "5504"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Strawberry",
+        "item_name": "Strawberry"
+      }
+    }
+  ]
+}

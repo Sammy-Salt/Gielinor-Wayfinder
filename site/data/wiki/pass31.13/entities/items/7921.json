@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7921,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7921,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Empty wine bottle",
+        "weight": 1,
+        "value": 1,
+        "examine": "This one has clearly been taken down and passed around.",
+        "item_id": [
+          "7921"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Empty wine bottle",
+        "item_name": "Empty wine bottle"
+      }
+    }
+  ]
+}

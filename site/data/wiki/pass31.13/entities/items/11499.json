@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11499,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11499,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Super def. mix",
+        "weight": 0.045,
+        "value": 132,
+        "examine": "One dose of fishy super Defence potion.",
+        "item_id": [
+          "11499"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Super def. mix#(1)",
+        "item_name": "Super def. mix(1)"
+      }
+    }
+  ]
+}

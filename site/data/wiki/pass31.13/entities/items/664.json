@@ -1,0 +1,25 @@
+{
+  "canonicalId": 664,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 664,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Turquoise hat",
+        "weight": 0.453,
+        "value": 160,
+        "examine": "A silly turquoise pointed hat.",
+        "item_id": [
+          "664"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Turquoise hat",
+        "item_name": "Turquoise hat"
+      }
+    }
+  ]
+}

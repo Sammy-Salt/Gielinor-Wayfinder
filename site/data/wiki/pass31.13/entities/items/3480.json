@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3480,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3480,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix plateskirt",
+        "weight": 9.071,
+        "value": 64000,
+        "examine": "Rune plateskirt in the colours of Guthix.",
+        "item_id": [
+          "3480"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthix plateskirt",
+        "item_name": "Guthix plateskirt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7746,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7746,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Greenman's ale (Player-owned house)",
+        "weight": 0.55,
+        "value": 2,
+        "examine": "A glass of frothy ale.",
+        "item_id": [
+          "7746"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Greenman's ale (Player-owned house)",
+        "item_name": "Greenman's ale"
+      }
+    }
+  ]
+}

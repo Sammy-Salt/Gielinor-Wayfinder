@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10820,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10820,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cured yak-hide",
+        "weight": 0.453,
+        "value": 100,
+        "examine": "Ready to be cut and sewn into armour.",
+        "item_id": [
+          "10820"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cured yak-hide",
+        "item_name": "Cured yak-hide"
+      }
+    }
+  ]
+}

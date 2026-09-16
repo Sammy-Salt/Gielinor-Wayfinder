@@ -1,0 +1,25 @@
+{
+  "canonicalId": 95,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 95,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tarromin potion (unf)",
+        "weight": 0.056,
+        "value": 11,
+        "examine": "I need another ingredient to finish this Tarromin potion.",
+        "item_id": [
+          "95"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tarromin potion (unf)",
+        "item_name": "Tarromin potion (unf)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10107,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10107,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Long kebbit spike",
+        "weight": 0.04,
+        "value": 150,
+        "examine": "These bone spikes are both very tough and very sharp.",
+        "item_id": [
+          "10107"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Long kebbit spike",
+        "item_name": "Long kebbit spike"
+      }
+    }
+  ]
+}

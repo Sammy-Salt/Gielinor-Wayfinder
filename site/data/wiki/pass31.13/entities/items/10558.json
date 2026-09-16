@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10558,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10558,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Defender icon",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "An icon.",
+        "item_id": [
+          "10558"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Defender icon#Helmet",
+        "item_name": "Defender icon"
+      }
+    }
+  ]
+}

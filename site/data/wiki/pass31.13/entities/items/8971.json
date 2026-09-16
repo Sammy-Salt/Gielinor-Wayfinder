@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8971,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8971,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Phasmatys flag",
+        "weight": 2.267,
+        "value": 600,
+        "examine": "The flag of The Phasmatys Pride.",
+        "item_id": [
+          "8971"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Phasmatys flag",
+        "item_name": "Phasmatys flag"
+      }
+    }
+  ]
+}

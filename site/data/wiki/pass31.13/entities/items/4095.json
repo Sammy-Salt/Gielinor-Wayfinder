@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic gloves",
+        "weight": 0.453,
+        "value": 10000,
+        "examine": "Magical gloves.",
+        "item_id": [
+          "4095"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic gloves",
+        "item_name": "Mystic gloves"
+      }
+    }
+  ]
+}

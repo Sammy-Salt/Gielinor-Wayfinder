@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11407,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11407,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant hasta",
+        "weight": 2.721,
+        "value": 2080,
+        "examine": "A poison-tipped, one-handed adamantite hasta.",
+        "item_id": [
+          "11407"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant hasta#(p)",
+        "item_name": "Adamant hasta(p)"
+      }
+    }
+  ]
+}

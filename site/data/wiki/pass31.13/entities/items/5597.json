@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5597,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5597,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tin (Recruitment Drive)",
+        "weight": 0.101,
+        "value": 20,
+        "examine": "There is an impression of a key, filled with tin and copper ore.",
+        "item_id": [
+          "5597"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tin (Recruitment Drive)#Tin and copper",
+        "item_name": "Tin"
+      }
+    }
+  ]
+}

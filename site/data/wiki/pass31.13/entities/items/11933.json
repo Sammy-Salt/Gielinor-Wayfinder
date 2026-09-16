@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11933,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11933,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Malediction shard 3",
+        "weight": 0.907,
+        "value": 31000,
+        "examine": "A broken shield piece.",
+        "item_id": [
+          "11933"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Malediction shard 3",
+        "item_name": "Malediction shard 3"
+      }
+    }
+  ]
+}

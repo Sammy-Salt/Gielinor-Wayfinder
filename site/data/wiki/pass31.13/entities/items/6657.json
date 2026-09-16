@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6657,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6657,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Camo top (unobtainable item)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Examine what?",
+        "item_id": [
+          "6657"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Camo top (unobtainable item)",
+        "item_name": "Camo top"
+      }
+    }
+  ]
+}

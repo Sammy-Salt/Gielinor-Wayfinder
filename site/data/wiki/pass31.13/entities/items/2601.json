@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2601,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2601,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant platelegs (t)",
+        "weight": 10.432,
+        "value": 6400,
+        "examine": "Adamant platelegs with trim.",
+        "item_id": [
+          "2601"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant platelegs (t)",
+        "item_name": "Adamant platelegs (t)"
+      }
+    }
+  ]
+}

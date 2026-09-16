@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8013,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8013,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teleport to house (tablet)",
+        "weight": 0,
+        "value": 1,
+        "examine": "A teleport to one's own house.",
+        "item_id": [
+          "8013"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teleport to house (tablet)",
+        "item_name": "Teleport to house"
+      }
+    }
+  ]
+}

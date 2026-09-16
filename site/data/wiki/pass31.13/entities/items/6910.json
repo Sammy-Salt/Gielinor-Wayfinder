@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6910,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6910,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Apprentice wand",
+        "weight": 0.255,
+        "value": 1500,
+        "examine": "An apprentice level wand.",
+        "item_id": [
+          "6910"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Apprentice wand",
+        "item_name": "Apprentice wand"
+      }
+    }
+  ]
+}

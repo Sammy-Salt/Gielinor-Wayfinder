@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13307,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13307,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blood money",
+        "weight": 0,
+        "value": 1,
+        "examine": "These can be taken to Deadman Nigel in Lumbridge.",
+        "item_id": [
+          "13307"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blood money",
+        "item_name": "Blood money"
+      }
+    }
+  ]
+}

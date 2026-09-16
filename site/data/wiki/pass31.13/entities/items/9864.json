@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9864,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9864,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "M. treasure chest (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "Mahogany treasure chest.",
+        "item_id": [
+          "9864"
+        ],
+        "tradeable": true,
+        "page_name_sub": "M. treasure chest (flatpack)",
+        "item_name": "M. treasure chest"
+      }
+    }
+  ]
+}

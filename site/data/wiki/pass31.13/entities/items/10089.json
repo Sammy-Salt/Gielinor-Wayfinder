@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10089,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10089,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue feather",
+        "weight": 0,
+        "value": 16,
+        "examine": "A cool blue feather.",
+        "item_id": [
+          "10089"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue feather",
+        "item_name": "Blue feather"
+      }
+    }
+  ]
+}

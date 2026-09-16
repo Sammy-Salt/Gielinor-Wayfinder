@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5958,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5958,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Antidote++",
+        "weight": 0.035,
+        "value": 144,
+        "examine": "1 dose of super strong antipoison potion.",
+        "item_id": [
+          "5958"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Antidote++#(1)",
+        "item_name": "Antidote++(1)"
+      }
+    }
+  ]
+}

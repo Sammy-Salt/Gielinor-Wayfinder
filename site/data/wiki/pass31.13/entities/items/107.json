@@ -1,0 +1,25 @@
+{
+  "canonicalId": 107,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 107,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cadantine potion (unf)",
+        "weight": 0.056,
+        "value": 65,
+        "examine": "I need another ingredient to finish this Cadantine potion.",
+        "item_id": [
+          "107"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cadantine potion (unf)",
+        "item_name": "Cadantine potion (unf)"
+      }
+    }
+  ]
+}

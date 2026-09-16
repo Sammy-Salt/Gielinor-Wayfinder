@@ -1,0 +1,25 @@
+{
+  "canonicalId": 335,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 335,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw trout",
+        "weight": 0.45,
+        "value": 10,
+        "examine": "I should try cooking this.",
+        "item_id": [
+          "335"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw trout",
+        "item_name": "Raw trout"
+      }
+    }
+  ]
+}

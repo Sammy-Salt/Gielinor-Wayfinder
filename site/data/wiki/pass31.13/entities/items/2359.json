@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2359,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2359,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril bar",
+        "weight": 1.587,
+        "value": 300,
+        "examine": "It's a bar of mithril.",
+        "item_id": [
+          "2359"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril bar",
+        "item_name": "Mithril bar"
+      }
+    }
+  ]
+}

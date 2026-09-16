@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9612,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9612,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green pentagon",
+        "weight": 0,
+        "value": 1,
+        "examine": "A green pentagon-shaped crystalline disc.",
+        "item_id": [
+          "9612"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Green pentagon",
+        "item_name": "Green pentagon"
+      }
+    }
+  ]
+}

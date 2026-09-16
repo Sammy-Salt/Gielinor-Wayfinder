@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient symbol",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A very old symbol of Saradomin.",
+        "item_id": [
+          "11181"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient symbol",
+        "item_name": "Ancient symbol"
+      }
+    }
+  ]
+}

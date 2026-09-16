@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5869,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5869,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Greenmans ale(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 2 pints of mature Greenmans Ale.",
+        "item_id": [
+          "5869"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Greenmans ale(m) (keg)#2 pints",
+        "item_name": "Greenmans ale(m2)"
+      }
+    }
+  ]
+}

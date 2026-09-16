@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7528,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7528,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ground cod",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "A smelly paste.",
+        "item_id": [
+          "7528"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ground cod",
+        "item_name": "Ground cod"
+      }
+    }
+  ]
+}

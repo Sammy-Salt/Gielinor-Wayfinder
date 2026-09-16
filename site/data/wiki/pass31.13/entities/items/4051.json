@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4051,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4051,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Toolkit (Castle Wars)",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "I can use this to repair things.",
+        "item_id": [
+          "4051"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Toolkit (Castle Wars)",
+        "item_name": "Toolkit"
+      }
+    }
+  ]
+}

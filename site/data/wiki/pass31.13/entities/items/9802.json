@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9802,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9802,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooking cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the world's best chefs.",
+        "item_id": [
+          "9802"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cooking cape#Trimmed",
+        "item_name": "Cooking cape(t)"
+      }
+    }
+  ]
+}

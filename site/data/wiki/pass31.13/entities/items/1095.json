@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Leather chaps",
+        "weight": 2.721,
+        "value": 20,
+        "examine": "Better than no armour!",
+        "item_id": [
+          "1095"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Leather chaps",
+        "item_name": "Leather chaps"
+      }
+    }
+  ]
+}

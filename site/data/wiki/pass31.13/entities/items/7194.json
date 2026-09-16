@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7194,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7194,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Part admiral pie (tuna)",
+        "weight": 0.001,
+        "value": 154,
+        "examine": "Still needs one more ingredient.",
+        "item_id": [
+          "7194"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Part admiral pie (tuna)",
+        "item_name": "Part admiral pie"
+      }
+    }
+  ]
+}

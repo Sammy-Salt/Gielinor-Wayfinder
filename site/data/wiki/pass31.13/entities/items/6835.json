@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6835,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6835,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Diamond bauble",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "A bauble shaped like a diamond painted yellow.",
+        "item_id": [
+          "6835"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Diamond bauble#Yellow",
+        "item_name": "Diamond bauble"
+      }
+    }
+  ]
+}

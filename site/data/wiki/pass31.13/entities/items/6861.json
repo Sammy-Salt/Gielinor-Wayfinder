@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6861,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6861,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tri-jester scarf",
+        "weight": 0.25,
+        "value": 1,
+        "examine": "A woolly jester scarf.",
+        "item_id": [
+          "6861"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tri-jester scarf",
+        "item_name": "Tri-jester scarf"
+      }
+    }
+  ]
+}

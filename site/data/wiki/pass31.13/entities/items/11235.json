@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11235,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11235,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark bow",
+        "weight": 1.814,
+        "value": 120002,
+        "examine": "A bow from a darker dimension.",
+        "item_id": [
+          "11235"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dark bow#Regular",
+        "item_name": "Dark bow"
+      }
+    }
+  ]
+}

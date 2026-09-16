@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6611,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6611,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White scimitar",
+        "weight": 1.814,
+        "value": 768,
+        "examine": "A vicious, curved sword.",
+        "item_id": [
+          "6611"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White scimitar",
+        "item_name": "White scimitar"
+      }
+    }
+  ]
+}

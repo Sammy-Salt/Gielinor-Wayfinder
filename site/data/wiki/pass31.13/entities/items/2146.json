@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2146,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2146,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Burnt meat",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "Oh dear, it's totally burnt!",
+        "item_id": [
+          "2146"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Burnt meat",
+        "item_name": "Burnt meat"
+      }
+    }
+  ]
+}

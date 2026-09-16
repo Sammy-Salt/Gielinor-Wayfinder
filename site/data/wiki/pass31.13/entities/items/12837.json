@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12837,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12837,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grim robe",
+        "weight": 20,
+        "value": 1,
+        "examine": "Some of the Reaper's garb.",
+        "item_id": [
+          "12837"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Grim robe",
+        "item_name": "Grim robe"
+      }
+    }
+  ]
+}

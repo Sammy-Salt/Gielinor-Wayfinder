@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1191,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1191,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron kiteshield",
+        "weight": 5.443,
+        "value": 238,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "1191"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron kiteshield",
+        "item_name": "Iron kiteshield"
+      }
+    }
+  ]
+}

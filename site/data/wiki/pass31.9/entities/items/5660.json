@@ -1,0 +1,40 @@
+{
+  "canonicalId": 5660,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5660,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune knife",
+        "weight": 0,
+        "value": 166,
+        "examine": "A finely balanced throwing knife.",
+        "item_id": [
+          "5660"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune knife#(p+)",
+        "item_name": "Rune knife(p+)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5660,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Rune knife",
+        "page_name_sub": "Rune knife#(p+)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

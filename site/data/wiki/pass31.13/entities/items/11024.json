@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11024,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11024,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rabbit mould",
+        "weight": 0.1,
+        "value": 1,
+        "examine": "A mould for making chocolate rabbits.",
+        "item_id": [
+          "11024"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rabbit mould",
+        "item_name": "Rabbit mould"
+      }
+    }
+  ]
+}

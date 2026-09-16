@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11715,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11715,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Air rune (nz)",
+        "weight": 0,
+        "value": 0,
+        "examine": "For use in the Nightmare Zone.",
+        "item_id": [
+          "11715"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Air rune (nz)",
+        "item_name": "Air rune (nz)"
+      }
+    }
+  ]
+}

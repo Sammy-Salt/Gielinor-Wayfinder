@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6908,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6908,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Beginner wand",
+        "weight": 0.283,
+        "value": 1200,
+        "examine": "A beginner level wand.",
+        "item_id": [
+          "6908"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Beginner wand",
+        "item_name": "Beginner wand"
+      }
+    }
+  ]
+}

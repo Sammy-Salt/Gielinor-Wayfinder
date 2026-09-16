@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1027,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1027,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green cape",
+        "weight": 0.453,
+        "value": 32,
+        "examine": "A thick green cape.",
+        "item_id": [
+          "1027"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green cape",
+        "item_name": "Green cape"
+      }
+    }
+  ]
+}

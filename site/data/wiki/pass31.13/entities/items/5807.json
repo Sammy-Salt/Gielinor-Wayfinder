@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5807,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5807,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon bitter (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 3 pints of Dragon Bitter.",
+        "item_id": [
+          "5807"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon bitter (keg)#3 pints",
+        "item_name": "Dragon bitter(3)"
+      }
+    }
+  ]
+}

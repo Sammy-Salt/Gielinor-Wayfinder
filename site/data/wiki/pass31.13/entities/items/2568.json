@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2568,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2568,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ring of forging",
+        "weight": 0.006,
+        "value": 2025,
+        "examine": "An enchanted ring.",
+        "item_id": [
+          "2568"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ring of forging",
+        "item_name": "Ring of forging"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5307,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5307,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hammerstone seed",
+        "weight": 0,
+        "value": 2,
+        "examine": "A Hammerstone hop seed - plant in a hops patch.",
+        "item_id": [
+          "5307"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Hammerstone seed",
+        "item_name": "Hammerstone seed"
+      }
+    }
+  ]
+}

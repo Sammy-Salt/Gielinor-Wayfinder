@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12077,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12077,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (elite) - Salute in the Warriors' guild bank",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A set of instructions to be followed.",
+        "item_id": [
+          "12077"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (elite) - Salute in the Warriors' guild bank",
+        "item_name": "Clue scroll (elite)"
+      }
+    }
+  ]
+}

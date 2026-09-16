@@ -1,0 +1,20 @@
+{
+  "release": "PASS31.13",
+  "policy": "deterministic canonical-name/alias reconciliation; no fuzzy matching; ambiguous records never auto-merged; canonical production data unchanged",
+  "newItemAliasMappings": 1113,
+  "newEquipmentAliasMappings": 19,
+  "totalItemMappings": 5296,
+  "totalEquipmentMappings": 132,
+  "fullyLinkedDrops": 4546,
+  "previousFullyLinkedDrops": 3921,
+  "newFullyLinkedDrops": 625,
+  "fullyLinkedRecipes": 2282,
+  "previousFullyLinkedRecipes": 2031,
+  "newFullyLinkedRecipes": 251,
+  "validation": "pending-build-validation",
+  "generatedFrom": "PASS31.13_IDENTITY_INTEGRITY",
+  "identityIntegrityRule": "identity-integrity-v2",
+  "rejectedUnsafeMappings": 5292,
+  "removedUnsafeEntityRecords": 5556,
+  "explicitItemIdConflicts": 5556
+}

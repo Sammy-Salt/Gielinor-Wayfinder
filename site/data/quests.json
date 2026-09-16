@@ -1,0 +1,6029 @@
+[
+  {
+    "id": 0,
+    "name": "A Kingdom Divided",
+    "shortName": "aKingdomDivided",
+    "description": "Investigate the power struggle within Great Kourend and unravel the mystery behind the disappearance of the royal family.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 2,
+    "startLocation": "Martin Holt, entrance to Kourend Castle, Kingstown",
+    "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      },
+      {
+        "type": "quest",
+        "name": "The Depths of Despair"
+      },
+      {
+        "type": "quest",
+        "name": "The Queen of Thieves"
+      },
+      {
+        "type": "quest",
+        "name": "The Ascent of Arceuus"
+      },
+      {
+        "type": "quest",
+        "name": "The Forsaken Tower"
+      },
+      {
+        "type": "quest",
+        "name": "Tale of the Righteous"
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 35,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 38,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 54,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1034,
+    "name": "A Night at the Theatre",
+    "shortName": "aNightAtTheTheatre",
+    "description": "Survive a second run through the Theatre of Blood for unique rewards, fighting all six bosses in sequence.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Theatre",
+    "url": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre",
+    "requirements": []
+  },
+  {
+    "id": 3,
+    "name": "A Porcine of Interest",
+    "shortName": "aPorcineOfInterest",
+    "description": "Ah, the Falador Farm - filled with cabbages, cows, and even a sleepy sheepdog. A peaceful place, where you can learn to churn butter, give a dog a bone, or purchase various Farming supplies. What was once a place of happiness, joy and wholesome dairy goods has of late become dominated by a vile presence. Each morning Sarah wakes to find her crops destroyed, her cows cowering, and her loyal sheepdog looking... sheepish. She's had enough, but she thinks she's got the culprit on the trot. Can you help her track down... A Porcine of Interest?",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Read the town notice board in Draynor Village, behind Fortunato's Wine Shop.",
+    "url": "https://oldschool.runescape.wiki/w/A_Porcine_of_Interest",
+    "requirements": []
+  },
+  {
+    "id": 4,
+    "name": "A Soul's Bane",
+    "shortName": "aSoulsBane",
+    "description": "Help a father rescue his son Tolna from a rift in the ground near Tolna's farm, fighting the monsters manifested from Tolna's tormented mind.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Tolna's rift, south of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
+    "requirements": []
+  },
+  {
+    "id": 5,
+    "name": "A Tail of Two Cats",
+    "shortName": "aTailOfTwoCats",
+    "description": "Help Bob the cat rediscover his past life as a legendary hero while assisting Unferth with his missing cat.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dragonkin",
+    "questPoints": 2,
+    "startLocation": "Bob the Cat (random location, found via Bob's Brilliant Axes, Burthorpe)",
+    "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Icthlarin's Little Helper"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "A Taste of Hope",
+    "shortName": "aTasteOfHope",
+    "description": "Infiltrate the Theatre of Blood to rescue captured vampyre slaves and undermine the power of Lord Lowerniel Drakan.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Myreque",
+    "questPoints": 1,
+    "startLocation": "Garth, Ver Sinhaza, outside the Theatre of Blood",
+    "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Darkness of Hallowvale"
+      },
+      {
+        "type": "quest",
+        "name": "In Aid of the Myreque"
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 38,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Attack",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 48,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "A Theatre of Blood",
+    "shortName": "aTheatreOfBlood",
+    "description": "Assist the vampyres of Darkmeyer in preparing an entertainment venue — the Theatre of Blood — for their elite.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Ver Sinhaza",
+    "url": "https://oldschool.runescape.wiki/w/Theatre_of_Blood",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "quest",
+        "name": "Sins of the Father"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Alfred Grimhand's Barcrawl",
+    "shortName": "alfredGrimhandsBarcrawl",
+    "description": "Complete the barcrawl set up by Alfred Grimhand to gain entry to the Barbarian Outpost.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Guard at the Barbarian Outpost entrance, east of Seers' Village",
+    "url": "https://oldschool.runescape.wiki/w/Alfred_Grimhand%27s_Barcrawl",
+    "requirements": []
+  },
+  {
+    "id": 1,
+    "name": "Animal Magnetism",
+    "shortName": "animalMagnetism",
+    "description": "Help bury the restless dead by collecting a variety of bones and skulls scattered across Gielinor. Investigate a sinister force manipulating these undead creatures.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Port Phasmatys, Barrows area, Ava's workshop",
+    "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Restless Ghost"
+      },
+      {
+        "type": "quest",
+        "name": "Ernest the Chicken"
+      },
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 18,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 19,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 35,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 31,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Another Slice of H.A.M.",
+    "shortName": "anotherSliceOfHAM",
+    "description": "Investigate HAM activity in the Dorgeshuun tunnels and prevent a plot to reignite the human-goblin conflict.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dorgeshuun",
+    "questPoints": 1,
+    "startLocation": "Ur-tag, Dorgesh-Kaan",
+    "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Death to the Dorgeshuun"
+      },
+      {
+        "type": "quest",
+        "name": "The Giant Dwarf"
+      },
+      {
+        "type": "quest",
+        "name": "The Dig Site"
+      },
+      {
+        "type": "skill",
+        "skill": "Attack",
+        "level": 15,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 25,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1035,
+    "name": "At First Light",
+    "shortName": "atFirstLight",
+    "description": "Venture to the Mountains of Fire and help the Phoenix Guard investigate a mysterious threat rising in the volcanic peaks of Varlamore.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Aldarin, Varlamore",
+    "url": "https://oldschool.runescape.wiki/w/At_First_Light",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Sleeping Giants"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Barbarian Training",
+    "shortName": "barbarianTraining",
+    "description": "Learn ancient barbarian skills from Otto Godblessed, including barbarian fishing, firemaking, and herblore.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Barbarian",
+    "questPoints": 0,
+    "startLocation": "Otto\\",
+    "url": "https://oldschool.runescape.wiki/w/Barbarian_Training",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 15,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 15,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 55,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 35,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 4,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 11,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 5,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "Bear Your Soul",
+    "shortName": "bearYourSoul",
+    "description": "Help the spirit of a bear by collecting the pieces of his soul from the Spirit Realm.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to the Odd Old Man near Paterdomus",
+    "url": "https://oldschool.runescape.wiki/w/Bear_Your_Soul",
+    "requirements": []
+  },
+  {
+    "id": 8,
+    "name": "Below Ice Mountain",
+    "shortName": "belowIceMountain",
+    "description": "Explore the ancient Camdozaal ruins beneath Ice Mountain and help a team of archaeologists uncover what lies within.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Willow on the path south of Ice Mountain",
+    "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+    "requirements": [
+      {
+        "type": "quest_points",
+        "level": 16
+      }
+    ]
+  },
+  {
+    "id": 1036,
+    "name": "Beneath Cursed Sands",
+    "shortName": "beneathCursedSands",
+    "description": "Journey to the buried tombs beneath the Kharidian Desert and uncover an ancient secret buried for centuries.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Kharidian",
+    "questPoints": 2,
+    "startLocation": "Desert",
+    "url": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Dream Mentor"
+      },
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      },
+      {
+        "type": "quest_points",
+        "level": 35
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Between a Rock...",
+    "shortName": "betweenARock",
+    "description": "Help the dwarven geologist Rowdy Reynolds uncover the secrets of the keldagrim granite mine and face a powerful golem.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Rise of the Red Axe",
+    "questPoints": 2,
+    "startLocation": "Dondakan the Dwarf, Keldagrim south-west mine",
+    "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Dwarf Cannon"
+      },
+      {
+        "type": "quest",
+        "name": "Fishing Contest"
+      },
+      {
+        "type": "skill",
+        "skill": "Defence",
+        "level": 30,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 40,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 50,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Big Chompy Bird Hunting",
+    "shortName": "bigChompyBirdHunting",
+    "description": "Learn to hunt the mighty chompy bird for Rantz the ogre, and earn the right to wear a chompy bird hat.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Rantz, east of Feldip Hills",
+    "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Zogre Flesh Eaters"
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fletching",
+        "level": 5,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Cooking",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Biohazard",
+    "shortName": "biohazard",
+    "description": "Follow up on the events of Plague City by smuggling plague samples out of West Ardougne for Elena.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 3,
+    "startLocation": "Elena's house, East Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Biohazard",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Plague City"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Black Knights' Fortress",
+    "shortName": "blackKnightsFortress",
+    "description": "Infiltrate the Black Knights' Fortress and discover their secrets.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Just north of Falador, outside the fortress",
+    "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
+    "requirements": [
+      {
+        "type": "quest_points",
+        "level": 12
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bone Voyage",
+    "shortName": "boneVoyage",
+    "description": "Help the Varrock Museum archaeologists set up a dig site on Fossil Island by chartering a boat and arranging supplies.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Curator Haig Halen, Varrock Museum",
+    "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Dig Site"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cabin Fever",
+    "shortName": "cabinFever",
+    "description": "Join the pirate Bill Teach on his vessel and help repel an attack from the Customs and Excise Office using seafaring skills.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Pirate",
+    "questPoints": 2,
+    "startLocation": "Bill Teach, The Green Ghost inn, Port Phasmatys",
+    "url": "https://oldschool.runescape.wiki/w/Cabin_Fever",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Pirate's Treasure"
+      },
+      {
+        "type": "quest",
+        "name": "Rum Deal"
+      },
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1037,
+    "name": "Children of the Sun",
+    "shortName": "childrenOfTheSun",
+    "description": "Sail to a new land and encounter a mysterious civilisation that worships the sun, uncovering their ancient secrets.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twilight Emissaries",
+    "questPoints": 1,
+    "startLocation": "Port Aldarin, Varlamore",
+    "url": "https://oldschool.runescape.wiki/w/Children_of_the_Sun",
+    "requirements": []
+  },
+  {
+    "id": 15,
+    "name": "Client of Kourend",
+    "shortName": "clientOfKourend",
+    "description": "Become a client of the Kourend Council by completing favours for each of the five Great Kourend houses.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Veos, Piscarilius docks, Great Kourend",
+    "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
+    "requirements": []
+  },
+  {
+    "id": 16,
+    "name": "Clock Tower",
+    "shortName": "clockTower",
+    "description": "Help Brother Kojo fix his Clock Tower south of East Ardougne by finding four missing cogs.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Brother Kojo, Clock Tower south of East Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Clock_Tower",
+    "requirements": []
+  },
+  {
+    "id": 17,
+    "name": "Cold War",
+    "shortName": "coldWar",
+    "description": "Help the penguins of the Penguin Intelligence Agency foil a secret penguin operation threatening Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Penguin",
+    "questPoints": 2,
+    "startLocation": "Larry, Ardougne Zoo",
+    "url": "https://oldschool.runescape.wiki/w/Cold_War",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 10,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 34,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 15,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Contact!",
+    "shortName": "contact",
+    "description": "Make contact with a high priest in the desert and complete a sacred mission.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Kharidian",
+    "questPoints": 1,
+    "startLocation": "High Priest of Icthlarin, Sophanem",
+    "url": "https://oldschool.runescape.wiki/w/Contact!",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Prince Ali Rescue"
+      },
+      {
+        "type": "quest",
+        "name": "Icthlarin's Little Helper"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Cook's Assistant",
+    "shortName": "cooksAssistant",
+    "description": "Help the cook in Lumbridge Castle by gathering ingredients for his cake.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Lumbridge Castle kitchen",
+    "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+    "requirements": []
+  },
+  {
+    "id": 20,
+    "name": "Creature of Fenkenstrain",
+    "shortName": "creatureOfFenkenstrain",
+    "description": "Assist Dr Fenkenstrain in his monstrous experiments by gathering body parts to construct a creature.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Dr Fenkenstrain's Castle, north of Canifis",
+    "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "quest",
+        "name": "The Restless Ghost"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 20,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 25,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Current Affairs",
+    "shortName": "currentaffairs",
+    "description": "Help Arhein get past some political red tape and unlock the current duck, a useful Sailing tool.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Catherby docks - speak to Arhein",
+    "url": "https://oldschool.runescape.wiki/w/Current_Affairs",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Pandemonium"
+      },
+      {
+        "type": "skill",
+        "skill": "Sailing",
+        "level": 22,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 10,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Curse of the Empty Lord",
+    "shortName": "curseOfTheEmptyLord",
+    "description": "Discover the story of Sliske and his past by following the footsteps of a tormented Mahjarrat ghost through Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 0,
+    "startLocation": "Speak to Viggora near the Wilderness Chaos Temple",
+    "url": "https://oldschool.runescape.wiki/w/Curse_of_the_Empty_Lord",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Desert Treasure I"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "name": "Daddy's Home",
+    "shortName": "daddysHome",
+    "description": "Help Yanni Salika renovate his home in Shilo Village as a gift for his returning father.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to Yanni Salika in Shilo Village",
+    "url": "https://oldschool.runescape.wiki/w/Daddy%27s_Home",
+    "requirements": []
+  },
+  {
+    "id": 22,
+    "name": "Darkness of Hallowvale",
+    "shortName": "darknessOfHallowvale",
+    "description": "Infiltrate Meiyerditch and work with the myreque to gather intelligence about Darkmeyer from within the vampyre city.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Myreque",
+    "questPoints": 2,
+    "startLocation": "Veliaf Hurtz, basement of Burgh de Rott inn",
+    "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "In Aid of the Myreque"
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 5,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 22,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 26,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 32,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 33,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "name": "Death on the Isle",
+    "shortName": "deathOnTheIsle",
+    "description": "Investigate a mysterious string of deaths occurring on a remote island and uncover the killer\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Isle",
+    "url": "https://oldschool.runescape.wiki/w/Death_on_the_Isle",
+    "requirements": []
+  },
+  {
+    "id": 23,
+    "name": "Death Plateau",
+    "shortName": "deathPlateau",
+    "description": "Help a Burthorpe guard investigate treasonous activity in the Imperial Guard — and find a safe passage through Death Plateau.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 1,
+    "startLocation": "Denulth, Burthorpe",
+    "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
+    "requirements": []
+  },
+  {
+    "id": 24,
+    "name": "Death to the Dorgeshuun",
+    "shortName": "deathToTheDorgeshuun",
+    "description": "Accompany Zanik into the surface world and protect her as she explores Lumbridge, while investigating a HAM plot.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dorgeshuun",
+    "questPoints": 1,
+    "startLocation": "Mistag, Dorgesh-Kaan mine",
+    "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Lost Tribe"
+      },
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 23,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 23,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "name": "Defender of Varrock",
+    "shortName": "defenderOfVarrock",
+    "description": "Help defend the city of Varrock from a zombie army raised by the Zamorakian Mahjarrat Zemouregal.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 2,
+    "startLocation": "Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Defender_of_Varrock",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Shield of Arrav"
+      },
+      {
+        "type": "quest",
+        "name": "Demon Slayer"
+      },
+      {
+        "type": "quest",
+        "name": "Dragon Slayer I"
+      },
+      {
+        "type": "quest",
+        "name": "Ernest the Chicken"
+      },
+      {
+        "type": "quest",
+        "name": "Romeo & Juliet"
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 20,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Demon Slayer",
+    "shortName": "demonSlayer",
+    "description": "A mighty demon is being summoned to destroy the city of Varrock. You find out you are the one destined to stop him (or at least try).",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Speak to Aris in the tent on the western side of Varrock Square. ",
+    "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+    "requirements": []
+  },
+  {
+    "id": 26,
+    "name": "Desert Treasure I",
+    "shortName": "desertTreasure",
+    "description": "Help the archaeologist uncover the secrets of the Ancient Pyramid and unlock Ancient Magicks.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 3,
+    "startLocation": "Bedabin Camp",
+    "url": "https://oldschool.runescape.wiki/w/Ancient_Magicks",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 53,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 10,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "name": "Desert Treasure II - The Fallen Empire",
+    "shortName": "desertTreasureII",
+    "description": "Find treasure in the fallen desert empire.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 5,
+    "startLocation": "Desert",
+    "url": "https://oldschool.runescape.wiki/w/Desert_Treasure_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Desert Treasure I"
+      },
+      {
+        "type": "quest",
+        "name": "Secrets of the North"
+      },
+      {
+        "type": "quest",
+        "name": "Enakhra's Lament"
+      },
+      {
+        "type": "quest",
+        "name": "Beneath Cursed Sands"
+      },
+      {
+        "type": "quest",
+        "name": "Temple of the Eye"
+      },
+      {
+        "type": "quest",
+        "name": "Into the Tombs"
+      },
+      {
+        "type": "quest_points",
+        "level": 150
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 75,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 75,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 70,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Devious Minds",
+    "shortName": "deviousMinds",
+    "description": "Help a suspicious monk near the Paterdomus temple craft a special item — only to discover a sinister ulterior motive.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 1,
+    "startLocation": "Monk of Entrana, Port Sarim",
+    "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Monk's Friend"
+      },
+      {
+        "type": "quest",
+        "name": "Wanted!"
+      },
+      {
+        "type": "skill",
+        "skill": "Fletching",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Runecraft",
+        "level": 65,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 50,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Doric's Quest",
+    "shortName": "doricQuest",
+    "description": "Help Doric the dwarf by gathering materials so he can make pickaxes, and earn access to his anvils.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Doric's hut north of Falador",
+    "url": "https://oldschool.runescape.wiki/w/Anvil",
+    "requirements": []
+  },
+  {
+    "id": 30,
+    "name": "Dragon Slayer I",
+    "shortName": "dragonSlayer",
+    "description": "Prove yourself a true champion. Kill the mighty dragon Elvarg of Crandor and earn the right to buy and wear the Rune platebody.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dragonkin",
+    "questPoints": 3,
+    "startLocation": "Champions' Guild, south of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I",
+    "requirements": [
+      {
+        "type": "quest_points",
+        "level": 32
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 33,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 8,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 37,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 34,
+        "boostable": false
+      },
+      {
+        "type": "combat",
+        "level": 45
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Dragon Slayer II",
+    "shortName": "dragonSlayerII",
+    "description": "Confront the resurrected dragon Galvek and face the greatest dragonslaying challenge Gielinor has ever seen.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dragonkin",
+    "questPoints": 5,
+    "startLocation": "Alec Kincade, Myths' Guild",
+    "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Dragon Slayer I"
+      },
+      {
+        "type": "quest",
+        "name": "Legends' Quest"
+      },
+      {
+        "type": "quest",
+        "name": "Dream Mentor"
+      },
+      {
+        "type": "quest",
+        "name": "A Tail of Two Cats"
+      },
+      {
+        "type": "quest",
+        "name": "Animal Magnetism"
+      },
+      {
+        "type": "quest",
+        "name": "Ghosts Ahoy"
+      },
+      {
+        "type": "quest",
+        "name": "Bone Voyage"
+      },
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      },
+      {
+        "type": "quest_points",
+        "level": 200
+      },
+      {
+        "type": "skill",
+        "skill": "Hitpoints",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 75,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 68,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 62,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dream Mentor",
+    "shortName": "dreamMentor",
+    "description": "Help Cyrisus overcome his fears in the dream world and unlock new Lunar spells.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 2,
+    "startLocation": "Lunar Isle mine",
+    "url": "https://oldschool.runescape.wiki/w/Lunar_spells",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Lunar Diplomacy"
+      },
+      {
+        "type": "combat",
+        "level": 85
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Druidic Ritual",
+    "shortName": "druidicRitual",
+    "description": "Help the druids of Taibwo Taiboa island by performing a ritual during a sacred ceremony.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Taibwo Taiboa island",
+    "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
+    "requirements": []
+  },
+  {
+    "id": 34,
+    "name": "Dwarf Cannon",
+    "shortName": "dwarfCannon",
+    "description": "Help the dwarves by delivering a cannon to a friend in need.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Falador south of the lodestone",
+    "url": "https://oldschool.runescape.wiki/w/Dwarf_Cannon",
+    "requirements": []
+  },
+  {
+    "id": 35,
+    "name": "Eadgar's Ruse",
+    "shortName": "eadgarsRuse",
+    "description": "Help Eadgar, a druid in the Troll Stronghold, discover a cure for a troll curse.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 1,
+    "startLocation": "Sanfew, Taverley herblore shop",
+    "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "quest",
+        "name": "Troll Stronghold"
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 31,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Eagles' Peak",
+    "shortName": "eaglesPeak",
+    "description": "Investigate the disappearance of a naturalist\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Eagle's Peak area (Charlie at Ardougne Zoo)",
+    "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 27,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Elemental Workshop I",
+    "shortName": "elementalWorkshopI",
+    "description": "Discover an ancient workshop beneath Seers\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elemental Workshop",
+    "questPoints": 1,
+    "startLocation": "Bookcase, house south-west of Seers' Village bank",
+    "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 20,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 20,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 20,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Elemental Workshop II",
+    "shortName": "elementalWorkshopII",
+    "description": "Return to the elemental workshop and unlock the secrets of the mind element to craft an elemental mind helmet.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elemental Workshop",
+    "questPoints": 1,
+    "startLocation": "Elemental Workshop, Seers' Village",
+    "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Elemental Workshop I"
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Enakhra's Lament",
+    "shortName": "enakhrasLament",
+    "description": "Enakhra, a Mahjarrat follower of Zamorak, seeks to release her trapped companion Akthanakos from an ancient pyramid.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 2,
+    "startLocation": "Lazim, south-west of Nardah",
+    "url": "https://oldschool.runescape.wiki/w/Enakhra%27s_Lament",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 39,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 43,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Enlightened Journey",
+    "shortName": "enlightenedJourney",
+    "description": "Learn the art of balloon travel from Auguste in Entrana and set up balloon routes across Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Auguste, Entrana",
+    "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
+    "requirements": [
+      {
+        "type": "quest_points",
+        "level": 20
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 36,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "name": "Enter the Abyss",
+    "shortName": "enterTheAbyss",
+    "description": "Help a Zamorakian mage infiltrate the Wizards\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to the Mage of Zamorak north of Edgeville",
+    "url": "https://oldschool.runescape.wiki/w/Abyss",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "Ernest the Chicken",
+    "shortName": "ernestTheChicken",
+    "description": "A farmer named Farmer Fred has lost his chicken, Ernest, a prized white chicken.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Poultry Farm",
+    "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+    "requirements": []
+  },
+  {
+    "id": 1040,
+    "name": "Ethically Acquired Antiquities",
+    "shortName": "ethicallyAcquiredAntiquities",
+    "description": "Work with the Varrock Museum to recover ancient artefacts from those who obtained them through dubious means.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Varrock Museum",
+    "url": "https://oldschool.runescape.wiki/w/Ethically_Acquired_Antiquities",
+    "requirements": []
+  },
+  {
+    "id": 41,
+    "name": "Fairytale I - Growing Pains",
+    "shortName": "fairytaleIGrowingPains",
+    "description": "Help Martin the Master Gardener investigate a blight killing the crops in Zanaris, tracing it back to the fairy godfather.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fairy Tale",
+    "questPoints": 2,
+    "startLocation": "Martin the Master Gardener, Draynor Village",
+    "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "quest",
+        "name": "Lost City"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Fairytale II - Cure a Queen",
+    "shortName": "fairytaleIICureAQueen",
+    "description": "Travel through the fairy rings to cure the Fairy Queen and uncover the Fairy Godfather\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fairy Tale",
+    "questPoints": 2,
+    "startLocation": "Fairy Godfather, Zanaris",
+    "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Fairytale I - Growing Pains"
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 49,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 57,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Family Crest",
+    "shortName": "familyCrest",
+    "description": "The Armours family has fallen on hard times. Gilandor Armours, the patriarch of this noble family, has grown old and is dying. His three sons have not inherited his competence. You must help the youngest son of the Armours family create the family crest so that it can be passed on with pride.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "East Ardougne, Armours house",
+    "url": "https://oldschool.runescape.wiki/w/Family_Crest",
+    "requirements": []
+  },
+  {
+    "id": 207,
+    "name": "Family Pest",
+    "shortName": "familyPest",
+    "description": "Help the Fitzharmon family deal with a pest infestation in their basement.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Family Crest",
+    "questPoints": 0,
+    "startLocation": "Speak to Dimintheis in south-east Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Family_Pest",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Family Crest"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Fight Arena",
+    "shortName": "fightArena",
+    "description": "Rescue the imprisoned Lady Servil from the gladiatorial arena of General Khazard.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 1,
+    "startLocation": "Lady Servil, north-west of East Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
+    "requirements": []
+  },
+  {
+    "id": 45,
+    "name": "Fishing Contest",
+    "shortName": "fishingContest",
+    "description": "The dwarves guarding the White Wolf Mountain tunnel will only let you pass if you bring them a fishing trophy — first prize at the Hemenster fishing competition.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Austri east of White Wolf Mountain, or Vestri to the west",
+    "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 10,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Forgettable Tale...",
+    "shortName": "forgettableTale",
+    "description": "Help the dwarves of Keldagrim recover a key ingredient for their special ale, navigating their bureaucracy along the way.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Rise of the Red Axe",
+    "questPoints": 1,
+    "startLocation": "Banter, Keldagrim",
+    "url": "https://oldschool.runescape.wiki/w/Forgettable_Tale...",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Giant Dwarf"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 22,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Cooking",
+        "level": 22,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 17,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Garden of Tranquillity",
+    "shortName": "gardenOfTranquillity",
+    "description": "Help Queen Ellamaria restore the royal garden of Varrock to its former glory by collecting rare plants from across Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Queen Ellamaria, Varrock Palace",
+    "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 25,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Gertrude's Cat",
+    "shortName": "gertrudesCat",
+    "description": "Help Gertrude find her lost cat Fluffs, who has gone missing somewhere near the Lumber Yard.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Gertrude, west of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
+    "requirements": []
+  },
+  {
+    "id": 49,
+    "name": "Getting Ahead",
+    "shortName": "gettingAhead",
+    "description": "Help Gordon the farmer protect his sheep farm from a headless beast roaming the northern fields.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twisted Tales",
+    "questPoints": 1,
+    "startLocation": "Gordon, north of Camelot",
+    "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 26,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Ghosts Ahoy",
+    "shortName": "ghostsAhoy",
+    "description": "Lay to rest the tormented ghosts of Ecto Island, still bound to the ruins of Port Phasmatys.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Velorina, Port Phasmatys",
+    "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 25,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Cooking",
+        "level": 20,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Goblin Diplomacy",
+    "shortName": "goblinDiplomacy",
+    "description": "Help negotiate peace between feuding goblin generals.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Goblin village, north of Falador",
+    "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+    "requirements": []
+  },
+  {
+    "id": 52,
+    "name": "Grim Tales",
+    "shortName": "grimTales",
+    "description": "Help Sylas the collector obtain three rare fairy tale items — a giant\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Sylas, Taverley, just south of the house portal",
+    "url": "https://oldschool.runescape.wiki/w/Nightmare_Zone",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Witch's House"
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 45,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 52,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 58,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 59,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 71,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Haunted Mine",
+    "shortName": "hauntedMine",
+    "description": "Explore an abandoned mine in Morytania in search of a glowing crystal, but beware the darkness within.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Zealot, Abandoned Mine, south-western Morytania",
+    "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 35,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Hazeel Cult",
+    "shortName": "hazeelCult",
+    "description": "Choose sides in a conflict between the Hazeel cult and the Carnillean family — either help revive the demon Hazeel or stop the cultists.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Ceril Carnillean, Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
+    "requirements": []
+  },
+  {
+    "id": 55,
+    "name": "Heroes' Quest",
+    "shortName": "heroesQuest",
+    "description": "Prove your worth to join the Heroes Guild by completing dangerous challenges that test your skills and courage.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Achietties, Heroes' Guild entrance",
+    "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Shield of Arrav"
+      },
+      {
+        "type": "quest",
+        "name": "Lost City"
+      },
+      {
+        "type": "quest",
+        "name": "Merlin's Crystal"
+      },
+      {
+        "type": "quest",
+        "name": "Dragon Slayer I"
+      },
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "quest_points",
+        "level": 55
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "name": "His Faithful Servants",
+    "shortName": "hisFaithfulServants",
+    "description": "Speak to the shades within the Haunted Mine and learn about their devotion to Zaros.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 0,
+    "startLocation": "Speak to the haunted mine entrance ghost",
+    "url": "https://oldschool.runescape.wiki/w/His_Faithful_Servants",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Haunted Mine"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Holy Grail",
+    "shortName": "holyGrail",
+    "description": "Aid King Arthur and his knights in the sacred quest for the Holy Grail, guided by visions of Merlin.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Camelot",
+    "questPoints": 3,
+    "startLocation": "King Arthur, Camelot",
+    "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
+    "requirements": []
+  },
+  {
+    "id": 211,
+    "name": "Hopespear's Will",
+    "shortName": "hopespearsWill",
+    "description": "Assist Hopespear, a goblin spirit, in returning the remains of the goblin high priests to Yu'biusk, the ancestral goblin homeland.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Goblin",
+    "questPoints": 0,
+    "startLocation": "Hopespear, crypt of the Goblin Temple",
+    "url": "https://oldschool.runescape.wiki/w/Hopespear%27s_Will",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Restless Ghost"
+      },
+      {
+        "type": "quest",
+        "name": "Desert Treasure I"
+      },
+      {
+        "type": "quest",
+        "name": "Fairytale II - Cure a Queen"
+      },
+      {
+        "type": "quest",
+        "name": "Land of the Goblins"
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 50,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Horror from the Deep",
+    "shortName": "horrorFromTheDeep",
+    "description": "A horrifying creature has emerged from the deep. Help defeat it to protect the shores and unlock ancient barrow dungeons.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 2,
+    "startLocation": "Lighthouse, northeast of Morytania",
+    "url": "https://oldschool.runescape.wiki/w/Barrows",
+    "requirements": []
+  },
+  {
+    "id": 58,
+    "name": "Icthlarin's Little Helper",
+    "shortName": "icthlarinsLittleHelper",
+    "description": "Help the god Icthlarin retrieve his escaped soul for the Sophanem temple by journeying through the Kharidian Desert.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Kharidian",
+    "questPoints": 1,
+    "startLocation": "Wanderer, south of Shantay Pass",
+    "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Gertrude's Cat"
+      },
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "quest",
+        "name": "Shades of Mort'ton"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Imp Catcher",
+    "shortName": "impCatcher",
+    "description": "Help a wizard catch imps for an experiment and learn to summon allies.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Wizard tower, south of Yanille",
+    "url": "https://oldschool.runescape.wiki/w/Familiar",
+    "requirements": []
+  },
+  {
+    "id": 60,
+    "name": "In Aid of the Myreque",
+    "shortName": "inAidOfTheMyreque",
+    "description": "Help the Myreque resistance in Burgh de Rott survive the vampyre threat and establish a vital base of operations.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Myreque",
+    "questPoints": 2,
+    "startLocation": "Veliaf Hurtz, Myreque Hideout, below Canifis pub",
+    "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "In Search of the Myreque"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 25,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 25,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 15,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 7,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "name": "In Search of Knowledge",
+    "shortName": "inSearchOfKnowledge",
+    "description": "Assist Brother Aimeri in uncovering the mysteries that lie in the Forthos Dungeon.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Kourend",
+    "questPoints": 0,
+    "startLocation": "Brother Aimeri, south-eastern end of Forthos Dungeon",
+    "url": "https://oldschool.runescape.wiki/w/In_Search_of_Knowledge",
+    "requirements": []
+  },
+  {
+    "id": 61,
+    "name": "In Search of the Myreque",
+    "shortName": "inSearchOfTheMyreque",
+    "description": "Track down the secretive Myreque resistance group hidden in the swamps of Morytania.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Myreque",
+    "questPoints": 1,
+    "startLocation": "Stranger, Canifis",
+    "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Nature Spirit"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 25,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Into the Tombs",
+    "shortName": "intoTheTombs",
+    "description": "Investigate the ancient tombs beneath the Kharidian Desert and uncover the secrets hidden within.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Desert",
+    "questPoints": 0,
+    "startLocation": "Speak to Maisa in the Ruins of Unkah",
+    "url": "https://oldschool.runescape.wiki/w/Tombs_of_Amascut",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Beneath Cursed Sands"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Jungle Potion",
+    "shortName": "junglePotion",
+    "description": "Trufitus Shakaya of Tai Bwo Wannai needs five special jungle herbs collected to commune with his gods.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Trufitus, Tai Bwo Wannai",
+    "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 3,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "King's Ransom",
+    "shortName": "kingsRansom",
+    "description": "Investigate the disappearance of the Camelot knights and unravel a conspiracy reaching to the heart of the kingdom.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Camelot",
+    "questPoints": 1,
+    "startLocation": "Gossip, outside Sinclair Mansion",
+    "url": "https://oldschool.runescape.wiki/w/Knight_Waves_Training_Grounds",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Black Knights' Fortress"
+      },
+      {
+        "type": "quest",
+        "name": "Holy Grail"
+      },
+      {
+        "type": "quest",
+        "name": "Murder Mystery"
+      },
+      {
+        "type": "quest",
+        "name": "One Small Favour"
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Defence",
+        "level": 65,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "name": "Lair of Tarn Razorlor",
+    "shortName": "lairOfTarnRazorlor",
+    "description": "Track down and defeat Tarn Razorlor, a deranged necromancer who has taken up residence in the Haunted Mine.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Enter the Haunted Mine and navigate to Tarn\\",
+    "url": "https://oldschool.runescape.wiki/w/Salve_amulet_(e)",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Haunted Mine"
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1041,
+    "name": "Land of the Goblins",
+    "shortName": "landOfTheGoblins",
+    "description": "Help the goblins of Goblin Village discover their ancestral homeland beneath the sea by navigating goblin politics.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Dorgeshuun",
+    "questPoints": 2,
+    "startLocation": "Goblin Camp",
+    "url": "https://oldschool.runescape.wiki/w/Land_of_the_Goblins",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Goblin Diplomacy"
+      },
+      {
+        "type": "quest",
+        "name": "Jungle Potion"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 31,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1000,
+    "name": "Learning the Ropes",
+    "shortName": "learningTheRopes",
+    "description": "Tutorial quest teaching the basics of Old School RuneScape.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Tutorial Island",
+    "url": "https://oldschool.runescape.wiki/w/Learning_the_Ropes",
+    "requirements": []
+  },
+  {
+    "id": 64,
+    "name": "Legends' Quest",
+    "shortName": "legendsQuest",
+    "description": "Embark on the most legendary adventure in RuneScape — exploring the Kharazi Jungle to restore an ancient tablet.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Legend's Guild gates",
+    "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Family Crest"
+      },
+      {
+        "type": "quest",
+        "name": "Heroes' Quest"
+      },
+      {
+        "type": "quest",
+        "name": "Shilo Village"
+      },
+      {
+        "type": "quest",
+        "name": "Underground Pass"
+      },
+      {
+        "type": "quest",
+        "name": "Waterfall Quest"
+      },
+      {
+        "type": "quest_points",
+        "level": 107
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 56,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 50,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Lost City",
+    "shortName": "lostCity",
+    "description": "Find the legendary lost city of Zanaris, hidden somewhere in Lumbridge Swamp.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Warrior, northwest corner of Lumbridge Swamp",
+    "url": "https://oldschool.runescape.wiki/w/Lost_City",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 31,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 36,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Lunar Diplomacy",
+    "shortName": "lunarDiplomacy",
+    "description": "Broker peace between the Fremennik and the Moon Clan of Lunar Isle, unlocking the Lunar spellbook.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 2,
+    "startLocation": "Lokar Searunner, Rellekka docks",
+    "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Fremennik Trials"
+      },
+      {
+        "type": "quest",
+        "name": "Lost City"
+      },
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "quest",
+        "name": "Shilo Village"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 61,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Defence",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 49,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 5,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 65,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 55,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "name": "Mage Arena I",
+    "shortName": "mageArenaI",
+    "description": "Prove your magical prowess in the Mage Arena deep in the Wilderness to earn a God Cape.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to Kolodion in the Mage Arena bank (level 56 Wilderness)",
+    "url": "https://oldschool.runescape.wiki/w/God_cape",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 60,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "name": "Mage Arena II",
+    "shortName": "mageArenaII",
+    "description": "Return to the Mage Arena to face three powerful champions of the gods and earn an imbued God Cape.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to Kolodion in the Mage Arena bank (level 56 Wilderness)",
+    "url": "https://oldschool.runescape.wiki/w/Imbued_god_cape",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Mage Arena I"
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 75,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1042,
+    "name": "Making Friends with My Arm",
+    "shortName": "makingFriendsWithMyArm",
+    "description": "Help My Arm the troll build a rooftop farming patch on Death Plateau, navigating trolls and mountain dangers.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 2,
+    "startLocation": "Troll Land",
+    "url": "https://oldschool.runescape.wiki/w/Making_Friends_with_My_Arm",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "My Arm's Big Adventure"
+      },
+      {
+        "type": "quest",
+        "name": "Troll Stronghold"
+      },
+      {
+        "type": "quest",
+        "name": "Death Plateau"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 68,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 72,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 60,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Making History",
+    "shortName": "makingHistory",
+    "description": "Investigate the history of Outpost and Ardougne by speaking to ghosts and finding lost records across Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Jorral, outpost west of Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Making_History",
+    "requirements": []
+  },
+  {
+    "id": 68,
+    "name": "Meat and Greet",
+    "shortName": "meatAndGreet",
+    "description": "Help the Varrock Cook prepare a feast by gathering special meats from around Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Varrock Square, speak to the Cook",
+    "url": "https://oldschool.runescape.wiki/w/Meat_and_Greet",
+    "requirements": []
+  },
+  {
+    "id": 69,
+    "name": "Merlin's Crystal",
+    "shortName": "merlinsCrystal",
+    "description": "Rescue the wizard Merlin from a crystal prison in Camelot, trapped there by the dark witch Morgan Le Faye.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Camelot",
+    "questPoints": 6,
+    "startLocation": "King Arthur, Camelot",
+    "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal",
+    "requirements": []
+  },
+  {
+    "id": 1012,
+    "name": "Misthalin Mystery",
+    "shortName": "misthalinMystery",
+    "description": "Investigate a series of murders occurring in an eerie mansion on the outskirts of Varrock.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Misthalin",
+    "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
+    "requirements": []
+  },
+  {
+    "id": 70,
+    "name": "Monkey Madness I",
+    "shortName": "monkeyMadnessI",
+    "description": "Help King Narnode Shareen investigate what happened to his 10th Squad, sent to guard the gnomes' shipyard on Ape Atoll.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 3,
+    "startLocation": "King Narnode Shareen, Grand Tree",
+    "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_I",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Grand Tree"
+      },
+      {
+        "type": "quest",
+        "name": "Tree Gnome Village"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Monkey Madness II",
+    "shortName": "monkeyMadnessII",
+    "description": "Return to Ape Atoll to confront Glough and his army of enhanced demonic gorillas threatening Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 4,
+    "startLocation": "King Narnode Shareen, the Grand Tree",
+    "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Monkey Madness I"
+      },
+      {
+        "type": "quest",
+        "name": "Recipe for Disaster"
+      },
+      {
+        "type": "quest",
+        "name": "Enlightened Journey"
+      },
+      {
+        "type": "quest",
+        "name": "The Eyes of Glouphrie"
+      },
+      {
+        "type": "quest",
+        "name": "Tree Gnome Village"
+      },
+      {
+        "type": "quest",
+        "name": "The Grand Tree"
+      },
+      {
+        "type": "quest",
+        "name": "Troll Stronghold"
+      },
+      {
+        "type": "quest",
+        "name": "Watchtower"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 55,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 55,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 69,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Monk's Friend",
+    "shortName": "monksFriend",
+    "description": "Help the monks of Ardougne monastery find their missing child oblate, who has gone to hide in the woods.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Brother Omad, Monastery south of Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
+    "requirements": []
+  },
+  {
+    "id": 139,
+    "name": "Mountain Daughter",
+    "shortName": "mountainDaughter",
+    "description": "Help a mountain tribe chieftain reconcile with his estranged daughter by fulfilling an ancient ritual to appease the lake spirits.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Mountain",
+    "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Barbarian Training"
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "name": "Mourning's End Part I",
+    "shortName": "mourningsEndPartI",
+    "description": "Infiltrate the Mourners headquarters in West Ardougne to uncover the sinister secret behind their mysterious activities.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 2,
+    "startLocation": "Elf Land",
+    "url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_I",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Regicide"
+      },
+      {
+        "type": "quest",
+        "name": "Roving Elves"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 50,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "name": "Mourning's End Part II",
+    "shortName": "mourningsEndPartII",
+    "description": "Descend into the Temple of Light and navigate a series of deadly mirror puzzles to reach the Death Altar hidden within.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 2,
+    "startLocation": "Elf Land",
+    "url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Mourning's End Part I"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Murder Mystery",
+    "shortName": "murderMystery",
+    "description": "Solve the murder of Lord Sinclair in his mansion by gathering clues and identifying the culprit.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Sinclair Mansion, north of Camelot",
+    "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
+    "requirements": []
+  },
+  {
+    "id": 74,
+    "name": "My Arm's Big Adventure",
+    "shortName": "myArmsBigAdventure",
+    "description": "Help My Arm the troll learn to farm by taking him on a series of increasingly dangerous farming expeditions.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 1,
+    "startLocation": "My Arm, Troll Stronghold",
+    "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
+    "requirements": []
+  },
+  {
+    "id": 75,
+    "name": "Nature Spirit",
+    "shortName": "natureSpirit",
+    "description": "Follow up on Priest in Peril by entering Mort Myre and helping the nature spirit Filliman Tarlock achieve peace.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Drezel, Mort Myre",
+    "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
+    "requirements": []
+  },
+  {
+    "id": 76,
+    "name": "Observatory Quest",
+    "shortName": "observatoryQuest",
+    "description": "Help the Professor at the Observatory repair the telescope so he can resume his astronomical research.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Observatory Professor, Observatory",
+    "url": "https://oldschool.runescape.wiki/w/Observatory_Quest",
+    "requirements": []
+  },
+  {
+    "id": 77,
+    "name": "Olaf's Quest",
+    "shortName": "olafsQuest",
+    "description": "Help an old viking named Olaf Hradson complete his father\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 1,
+    "startLocation": "Olaf Hradson, east of Rellekka",
+    "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Fremennik Trials"
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 40,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 50,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "One Small Favour",
+    "shortName": "oneSmallFavour",
+    "description": "Help Aggie the witch with one small favour — which spirals into a chain of increasingly complicated tasks across Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Yanni Salika, Shilo Village",
+    "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "quest",
+        "name": "Shilo Village"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 18,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 25,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Pandemonium",
+    "shortName": "pandemonium",
+    "description": "Set sail on your first voyage aboard the Pandemonium and learn the basics of the Sailing skill.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Wizard Borann, Wizards' Tower",
+    "url": "https://oldschool.runescape.wiki/w/Pandemonium",
+    "requirements": []
+  },
+  {
+    "id": 1022,
+    "name": "Perilous Moons",
+    "shortName": "perilousMoons",
+    "description": "Navigate the dangerous lunar cycles of Cam Torum and help its inhabitants survive the periodic waves of magical creatures.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Cam Torum, Zeah",
+    "url": "https://oldschool.runescape.wiki/w/Perilous_Moons",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 47,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 49,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "name": "Pirate's Treasure",
+    "shortName": "piratesTreasure",
+    "description": "Follow a series of clues from the pirate Redbeard Frank to find a buried treasure hidden somewhere on Karamja.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Port Sarim",
+    "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+    "requirements": []
+  },
+  {
+    "id": 80,
+    "name": "Plague City",
+    "shortName": "plagueCity",
+    "description": "Travel into the quarantined West Ardougne to rescue Elena, trapped by the plague that has devastated the city.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 1,
+    "startLocation": "Edmond's house, East Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Plague_City",
+    "requirements": []
+  },
+  {
+    "id": 81,
+    "name": "Priest in Peril",
+    "shortName": "priestInPeril",
+    "description": "Rescue a priest who has been trapped in a cursed temple by dark forces.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Morytania, near the entrance to the temple",
+    "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "name": "Prince Ali Rescue",
+    "shortName": "princeAliRescue",
+    "description": "Rescue Prince Ali of Al Kharid from Lady Keli\\",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Kharidian",
+    "questPoints": 3,
+    "startLocation": "Al Kharid",
+    "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+    "requirements": []
+  },
+  {
+    "id": 82,
+    "name": "Prying Times",
+    "shortName": "pryingTimes",
+    "description": "Help Steve Beanie recover some \"pirate treasure\" and unlock the crowbar, a useful Sailing tool.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Speak to Steve Beanie on the Pandemonium.",
+    "url": "https://oldschool.runescape.wiki/w/Prying_Times",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Pandemonium"
+      },
+      {
+        "type": "quest",
+        "name": "The Knight's Sword"
+      },
+      {
+        "type": "skill",
+        "skill": "Sailing",
+        "level": 12,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Rag and Bone Man I",
+    "shortName": "ragAndBoneManI",
+    "description": "Collect the bones of various creatures across Gielinor for the Odd Old Man, who is assembling a strange collection.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Rag and Bone Man",
+    "questPoints": 1,
+    "startLocation": "Odd Old Man, north of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I",
+    "requirements": []
+  },
+  {
+    "id": 1024,
+    "name": "Rag and Bone Man II",
+    "shortName": "ragAndBoneManII",
+    "description": "Collect a second set of unusual bones from more exotic creatures across Gielinor for the strange collector near the Wilderness.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Rag and Bone Man",
+    "questPoints": 1,
+    "startLocation": "Odd Old Man, north of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rag and Bone Man I"
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Ratcatchers",
+    "shortName": "ratcatchers",
+    "description": "Follow a trail of mischief as your cat helps track down rats — from a Varrock mansion to the sewers of Pollnivneach.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Jimmy Dazzler, Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Ratcatchers",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Gertrude's Cat"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Recipe for Disaster",
+    "shortName": "recipeForDisaster",
+    "description": "Break the magical freeze on the Lumbridge Cook and his banquet guests by gathering a series of exotic ingredients.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "Lumbridge Castle, cook's kitchen",
+    "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Cook's Assistant"
+      },
+      {
+        "type": "quest",
+        "name": "Fishing Contest"
+      },
+      {
+        "type": "quest",
+        "name": "Goblin Diplomacy"
+      },
+      {
+        "type": "quest",
+        "name": "Big Chompy Bird Hunting"
+      },
+      {
+        "type": "quest",
+        "name": "Murder Mystery"
+      },
+      {
+        "type": "quest",
+        "name": "Nature Spirit"
+      },
+      {
+        "type": "quest",
+        "name": "Gertrude's Cat"
+      },
+      {
+        "type": "quest",
+        "name": "Shadow of the Storm"
+      },
+      {
+        "type": "quest",
+        "name": "The Golem"
+      },
+      {
+        "type": "quest",
+        "name": "Demon Slayer"
+      },
+      {
+        "type": "quest",
+        "name": "Temple of Ikov"
+      },
+      {
+        "type": "quest",
+        "name": "The Tourist Trap"
+      },
+      {
+        "type": "quest",
+        "name": "Troll Romance"
+      },
+      {
+        "type": "quest",
+        "name": "Desert Treasure I"
+      },
+      {
+        "type": "quest",
+        "name": "Horror from the Deep"
+      },
+      {
+        "type": "quest",
+        "name": "Witch's House"
+      },
+      {
+        "type": "quest",
+        "name": "Lost City"
+      },
+      {
+        "type": "quest",
+        "name": "Monkey Madness I"
+      },
+      {
+        "type": "quest",
+        "name": "Shilo Village"
+      },
+      {
+        "type": "quest",
+        "name": "Underground Pass"
+      },
+      {
+        "type": "quest",
+        "name": "Waterfall Quest"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Recruitment Drive",
+    "shortName": "recruitmentDrive",
+    "description": "Prove your worth to Sir Tiffy Cashien of the Temple Knights by passing a series of puzzling tests at their recruitment facility.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Temple Knight",
+    "questPoints": 1,
+    "startLocation": "Speak to Sir Amik Varze on the 3rd floor[US] of the White Knights' Castle's western tower in Falador",
+    "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Black Knights' Fortress"
+      },
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Regicide",
+    "shortName": "regicide",
+    "description": "Assassinate a tyrant king threatening the elf kingdom. A dangerous mission requiring cunning and combat prowess.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 3,
+    "startLocation": "Zanaris palace, elf kingdom",
+    "url": "https://oldschool.runescape.wiki/w/Regicide",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Underground Pass"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 10,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 56,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "Romeo & Juliet",
+    "shortName": "romeoAndJuliet",
+    "description": "A tale of star-crossed lovers in Varrock.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 5,
+    "startLocation": "Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+    "requirements": []
+  },
+  {
+    "id": 88,
+    "name": "Roving Elves",
+    "shortName": "rovingElves",
+    "description": "Help Islwyn and Eluned complete a task for the Elven Crystal and gain passage into the Elven Lands.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 1,
+    "startLocation": "Islwyn, Isafdar",
+    "url": "https://oldschool.runescape.wiki/w/Roving_Elves",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Regicide"
+      },
+      {
+        "type": "quest",
+        "name": "Waterfall Quest"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 56,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Royal Trouble",
+    "shortName": "royalTrouble",
+    "description": "Investigate a threat to the kingdoms of Miscellania and Etceteria, and reunite the two squabbling rulers.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Miscellania",
+    "questPoints": 1,
+    "startLocation": "King Vargas, Miscellania",
+    "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Throne of Miscellania"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 40,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Rum Deal",
+    "shortName": "rumDeal",
+    "description": "Help the monks of Braindeath Island deal with a zombie plague threatening their famous rum operation.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Pirate",
+    "questPoints": 2,
+    "startLocation": "Captain Braindeath, Braindeath Island",
+    "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Zogre Flesh Eaters"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 42,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 50,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 47,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 42,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "name": "Rune Mysteries",
+    "shortName": "runeMysteries",
+    "description": "Discover the secrets of the rune essence mine and unlock the ability to craft your own runes at the altars.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Order of Wizards",
+    "questPoints": 1,
+    "startLocation": "Lumbridge",
+    "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+    "requirements": []
+  },
+  {
+    "id": 91,
+    "name": "Scorpion Catcher",
+    "shortName": "scorpionCatcher",
+    "description": "Help the wizard Thormac recover his three scorpions, escaped from his tower and scattered across Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Thormac, Sorcerer's Tower",
+    "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 31,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Scrambled!",
+    "shortName": "scrambled",
+    "description": "Help the Egg Shrine priest recover the lost eggs and restore the shrine.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Egg Shrine, south of Falador",
+    "url": "https://oldschool.runescape.wiki/w/Scrambled!",
+    "requirements": []
+  },
+  {
+    "id": 93,
+    "name": "Sea Slug",
+    "shortName": "seaSlug",
+    "description": "Investigate an attack on the Witchaven fishing platform, where its workers have fallen under the influence of sea slugs.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Temple Knight",
+    "questPoints": 1,
+    "startLocation": "Caroline, Witchaven",
+    "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1043,
+    "name": "Secrets of the North",
+    "shortName": "secretsOfTheNorth",
+    "description": "Investigate a brutal murder in the frozen north and uncover a conspiracy that could shake the foundations of Gielinor.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 2,
+    "startLocation": "North",
+    "url": "https://oldschool.runescape.wiki/w/Secrets_of_the_North",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Desert Treasure I"
+      },
+      {
+        "type": "quest",
+        "name": "A Kingdom Divided"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 56,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 62,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Runecraft",
+        "level": 49,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 56,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Shades of Mort'ton",
+    "shortName": "shadesOfMortton",
+    "description": "Help restore the ruined village of Mort\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Shade relic, Mort'ton",
+    "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort'ton",
+    "requirements": []
+  },
+  {
+    "id": 95,
+    "name": "Shadow of the Storm",
+    "shortName": "shadowOfTheStorm",
+    "description": "Confront the demonic Agrith-Naar summoned by the Dark Mage and prevent chaos from consuming the Kharid desert.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Father Reen, south of Al Kharid",
+    "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Golem"
+      },
+      {
+        "type": "quest",
+        "name": "Demon Slayer"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Shadows of Custodia",
+    "shortName": "shadowsOfCustodia",
+    "description": "Investigate the mysterious shadows appearing in Custodia and help restore peace to the region.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Speak to the Custodian in Lumbridge",
+    "url": "https://oldschool.runescape.wiki/w/Shadows_of_Custodia",
+    "requirements": []
+  },
+  {
+    "id": 97,
+    "name": "Sheep Herder",
+    "shortName": "sheepHerder",
+    "description": "Doctor Orbon in East Ardougne needs your help — plague-infected sheep have wandered into the city and must be rounded up and incinerated before they spread disease.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Dr Orbon, East Ardougne church courtyard",
+    "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
+    "requirements": []
+  },
+  {
+    "id": 1003,
+    "name": "Sheep Shearer",
+    "shortName": "sheepShearer",
+    "description": "Shear 20 sheep for Fred the Farmer near Lumbridge and return the wool to earn a small reward.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Lumbridge Farm",
+    "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+    "requirements": []
+  },
+  {
+    "id": 1004,
+    "name": "Shield of Arrav",
+    "shortName": "shieldOfArrav",
+    "description": "Reunite the two halves of the legendary Shield of Arrav by infiltrating one of Varrock\\",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Varrock",
+    "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+    "requirements": []
+  },
+  {
+    "id": 98,
+    "name": "Shilo Village",
+    "shortName": "shiloVillage",
+    "description": "A foul mist and a plague of undead have overtaken Shilo Village. Delve into ancient Karamjan history to stop the queen of the dead and open the village to travellers.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Mosol Rei, outside Shilo Village (south Karamja)",
+    "url": "https://oldschool.runescape.wiki/w/Shilo_Village",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Jungle Potion"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 32,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 4,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "name": "Sins of the Father",
+    "shortName": "sinsOfTheFather",
+    "description": "Confront the twisted dragonkin and end the Vyrewatch lord Damien Leucurte\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Myreque",
+    "questPoints": 2,
+    "startLocation": "Darkmeyer",
+    "url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "A Taste of Hope"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 62,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Attack",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 56,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 62,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Skippy and the Mogres",
+    "shortName": "skippyAndTheMogres",
+    "description": "Help Skippy near Mudskipper Point discover what is lurking beneath the water, and unlock access to Mogre hunting.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Speak to Skippy near Mudskipper Point, south-west of Port Sarim",
+    "url": "https://oldschool.runescape.wiki/w/Mogre",
+    "requirements": []
+  },
+  {
+    "id": 1045,
+    "name": "Sleeping Giants",
+    "shortName": "sleepingGiants",
+    "description": "Investigate a strange disturbance at the Giants Foundry and help awaken ancient sleeping giants from their slumber.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Giants' Foundry",
+    "url": "https://oldschool.runescape.wiki/w/Sleeping_Giants",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Song of the Elves",
+    "shortName": "songOfTheElves",
+    "description": "Unlock the gates of Prifddinas, the lost elven city, by breaking the curse placed upon it centuries ago.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 4,
+    "startLocation": "Eluned, Lletya",
+    "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Mourning's End Part II"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 70,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Spirits of the Elid",
+    "shortName": "spiritsOfTheElid",
+    "description": "Help the spirits of the river Elid restore water to the parched desert of the Kharidian.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Ghaslor the Elder, Nardah",
+    "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
+    "requirements": []
+  },
+  {
+    "id": 102,
+    "name": "Swan Song",
+    "shortName": "swanSong",
+    "description": "Help the Piscatoris Fishing Colony defend itself against a merciless sea troll invasion.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Herman Carrocк, Piscatoris Fishing Colony",
+    "url": "https://oldschool.runescape.wiki/w/Swan_Song",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "One Small Favour"
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 66,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Cooking",
+        "level": 62,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 62,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 42,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Tai Bwo Wannai Trio",
+    "shortName": "taiBwoWannaiTrio",
+    "description": "Reunite three brothers in the Tai Bwo Wannai jungle by completing a series of tasks for each of them.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Timfraku, Tai Bwo Wannai",
+    "url": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Jungle Potion"
+      },
+      {
+        "type": "skill",
+        "skill": "Cooking",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fishing",
+        "level": 15,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 15,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "name": "Tears of Guthix",
+    "shortName": "tearsOfGuthix",
+    "description": "Seek out Juna the serpent deep within the Lumbridge Swamp Caves to collect Guthix\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Undercity",
+    "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "quest_points",
+        "level": 43
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 49,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 20,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1047,
+    "name": "Temple of the Eye",
+    "shortName": "templeOfTheEye",
+    "description": "Help the Wizards Tower investigate a mysterious eye-shaped ruin and establish a link to a powerful new runecrafting altar.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Order of Wizards",
+    "questPoints": 1,
+    "startLocation": "Temple",
+    "url": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "quest",
+        "name": "Enter the Abyss"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "The Ascent of Arceuus",
+    "shortName": "theAscentOfArceuus",
+    "description": "Help the Arceuus Library by tracking down a thief who has stolen several valuable books and taken refuge in the caverns below.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Mori, Mount Karuulm",
+    "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "name": "The Corsair Curse",
+    "shortName": "theCorsairCurse",
+    "description": "Help the corsair captain Arsen and his crew lift a mysterious curse that has befallen their hidden cove.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Port",
+    "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+    "requirements": []
+  },
+  {
+    "id": 170,
+    "name": "The Curse of Arrav",
+    "shortName": "theCurseOfArrav",
+    "description": "Battle the curse that has affected Arrav through the ages.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 2,
+    "startLocation": "Varrock Palace",
+    "url": "https://oldschool.runescape.wiki/w/The_Curse_of_Arrav",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "While Guthix Sleeps"
+      },
+      {
+        "type": "quest",
+        "name": "Defender of Varrock"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 61,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 63,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 64,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 64,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 63,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 67,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 64,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 63,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "The Depths of Despair",
+    "shortName": "theDepthsOfDespair",
+    "description": "Investigate the source of a disease afflicting the Port Piscarilius fishing industry.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Lord Kandur Hosidius, Hosidius",
+    "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
+    "requirements": []
+  },
+  {
+    "id": 1026,
+    "name": "The Dig Site",
+    "shortName": "theDigSite",
+    "description": "Assist the Varrock Museum archaeologists at their dig site east of Varrock to uncover ancient Zarosian artefacts.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 2,
+    "startLocation": "Dig Site",
+    "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 10,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 10,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 25,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "name": "The Enchanted Key",
+    "shortName": "theEnchantedKey",
+    "description": "Use an enchanted key to locate buried treasure chests scattered across Misthalin and Asgarnia.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 0,
+    "startLocation": "Silver merchant, East Ardougne (reclaim enchanted key if lost)",
+    "url": "https://oldschool.runescape.wiki/w/The_Enchanted_Key",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Making History"
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "name": "The Eyes of Glouphrie",
+    "shortName": "theEyesOfGlouphrie",
+    "description": "Investigate the gnome illusionist Glouphrie\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 2,
+    "startLocation": "Gnome Land",
+    "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Grand Tree"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 5,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 5,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "name": "The Feud",
+    "shortName": "theFeud",
+    "description": "Go undercover in Pollnivneach to mediate the violent feud between the Menaphite thugs and the Bandit gang.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Osamodas Castle",
+    "url": "https://oldschool.runescape.wiki/w/The_Feud",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1049,
+    "name": "The Final Dawn",
+    "shortName": "theFinalDawn",
+    "description": "Access to the Crypt of Tonali",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twilight Emissaries",
+    "questPoints": 3,
+    "startLocation": "Servius, Sunrise Palace",
+    "url": "https://oldschool.runescape.wiki/w/The_Final_Dawn",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Heart of Darkness"
+      },
+      {
+        "type": "quest",
+        "name": "Perilous Moons"
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 66,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Runecraft",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fletching",
+        "level": 52,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "The Forsaken Tower",
+    "shortName": "theForsakenTower",
+    "description": "Restore power to the Forsaken Tower in the Lovakengj house by solving its internal puzzles.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Ish, Lovakengj",
+    "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "The Fremennik Exiles",
+    "shortName": "theFremennikExiles",
+    "description": "Uncover a plot to disgrace the Fremennik people and bring justice to those who framed an innocent man.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 3,
+    "startLocation": "Brundt the Chieftain, Rellekka",
+    "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Fremennik Isles"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 25,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Runecraft",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Defence",
+        "level": 60,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "The Fremennik Isles",
+    "shortName": "theFremennikIsles",
+    "description": "Broker peace between the Fremennik and the Icefiends of Neitiznot and Jatizso.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 3,
+    "startLocation": "Mord Gunnars, Rellekka",
+    "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 20,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 56,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "The Fremennik Trials",
+    "shortName": "theFremennikTrials",
+    "description": "Prove yourself worthy of becoming a Fremennik by completing a series of tests set by the Fremennik people.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 2,
+    "startLocation": "Brundt the Chieftain, Rellekka",
+    "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Fletching",
+        "level": 25,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 40,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "The Frozen Door",
+    "shortName": "theFrozenDoor",
+    "description": "Investigate a mysterious frozen door on Lunar Isle and discover what lies behind it.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Fremennik",
+    "questPoints": 0,
+    "startLocation": "Lunar Isle, near the bank",
+    "url": "https://oldschool.runescape.wiki/w/The_Frozen_Door",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Lunar Diplomacy"
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "name": "The Garden of Death",
+    "shortName": "theGardenOfDeath",
+    "description": "Help restore a peculiar garden in Lovakengj by tending to its unusual and dangerous magical flora.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twisted Tales",
+    "questPoints": 1,
+    "startLocation": "Maledict, Lovakengj",
+    "url": "https://oldschool.runescape.wiki/w/The_Garden_of_Death",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "name": "The General's Shadow",
+    "shortName": "theGeneralsShadow",
+    "description": "Help the spirit of a Zarosian general complete his unfinished business in the God Wars Dungeon.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 0,
+    "startLocation": "Speak to the shadowy figure near the God Wars Dungeon",
+    "url": "https://oldschool.runescape.wiki/w/The_General%27s_Shadow",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Curse of the Empty Lord"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "The Giant Dwarf",
+    "shortName": "theGiantDwarf",
+    "description": "Represent the Consortium as an ambassador to the giant dwarves and influence the political climate of Keldagrim.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Rise of the Red Axe",
+    "questPoints": 2,
+    "startLocation": "Keldagrim",
+    "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Firemaking",
+        "level": 16,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 14,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 14,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "The Golem",
+    "shortName": "theGolem",
+    "description": "Deep in the desert, an ancient clay golem forever paces the ruins of Uzer. Uncover the secret of the lost city and put the golem to rest.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Clay golem, Ruins of Uzer (east of Shantay Pass)",
+    "url": "https://oldschool.runescape.wiki/w/The_Golem",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 20,
+        "boostable": true
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 25,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "The Grand Tree",
+    "shortName": "theGrandTree",
+    "description": "Investigate why the Grand Tree of the Tree Gnome Stronghold is dying, following a trail of treachery and deceit.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 3,
+    "startLocation": "King Narnode Shareen, Tree Gnome Stronghold",
+    "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 25,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "The Great Brain Robbery",
+    "shortName": "theGreatBrainRobbery",
+    "description": "Travel to the island of Mos Le'Harmless and uncover a mad scientist plot involving mind control and theft of consciousness. Stop the nefarious experiments.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Pirate",
+    "questPoints": 2,
+    "startLocation": "Brother Tranquility, Mos Le'Harmless",
+    "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Creature of Fenkenstrain"
+      },
+      {
+        "type": "quest",
+        "name": "Cabin Fever"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 16,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Prayer",
+        "level": 50,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "The Hand in the Sand",
+    "shortName": "theHandInTheSand",
+    "description": "Investigate the mystery of a severed hand found in Bert's sandpit at Yanille and expose the conspiracy behind it.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Bert, Yanille, near the sand pit",
+    "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 17,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 49,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "name": "The Heart of Darkness",
+    "shortName": "theHeartOfDarkness",
+    "description": "Venture into the corrupted heart of a dark power at sea and confront the evil lurking within its depths.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twilight Emissaries",
+    "questPoints": 2,
+    "startLocation": "Darkness",
+    "url": "https://oldschool.runescape.wiki/w/The_Heart_of_Darkness",
+    "requirements": []
+  },
+  {
+    "id": 1011,
+    "name": "The Ides of Milk",
+    "shortName": "theIdesOfMilk",
+    "description": "Embark on a peculiar Sailing voyage to resolve a strange dispute involving a missing cargo of milk.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Port Aldarin, Varlamore",
+    "url": "https://oldschool.runescape.wiki/w/The_Ides_of_Milk",
+    "requirements": []
+  },
+  {
+    "id": 116,
+    "name": "The Knight's Sword",
+    "shortName": "theKnightsSword",
+    "description": "Help Sir Vyvin\\",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Squire, Falador",
+    "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 10,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "The Lost Tribe",
+    "shortName": "theLostTribe",
+    "description": "Investigate a hole that has opened in the Lumbridge Castle cellar and make peace with the tribe living below.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Duke Horacio, Lumbridge Castle",
+    "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe",
+    "requirements": []
+  },
+  {
+    "id": 1031,
+    "name": "The Path of Glouphrie",
+    "shortName": "thePathOfGlouphrie",
+    "description": "Delve deeper into Glouphrie\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 2,
+    "startLocation": "Gnome Land",
+    "url": "https://oldschool.runescape.wiki/w/The_Path_of_Glouphrie",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "The Eyes of Glouphrie"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 56,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 60,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 56,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "The Queen of Thieves",
+    "shortName": "theQueenOfThieves",
+    "description": "Infiltrate the criminal underworld of Great Kourend\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Tomas Lawry, Port Piscarilius, Great Kourend",
+    "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
+    "requirements": []
+  },
+  {
+    "id": 1050,
+    "name": "The Red Reef",
+    "shortName": "theRedReef",
+    "description": "Help Floopa overcome her injury while investigating the dealings of the Red Reef Trading Company, a potential new threat to the Tortugan way of life.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Tortugan",
+    "questPoints": 2,
+    "startLocation": "Elder Raley, the Great Conch",
+    "url": "https://oldschool.runescape.wiki/w/The_Red_Reef",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Troubled Tortugans"
+      },
+      {
+        "type": "skill",
+        "skill": "Sailing",
+        "level": 52,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 48,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "name": "The Restless Ghost",
+    "shortName": "theRestlessGhost",
+    "description": "Help a restless ghost in Lumbridge\\",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Lumbridge Church",
+    "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+    "requirements": []
+  },
+  {
+    "id": 1032,
+    "name": "The Ribbiting Tale of a Lily Pad Labour Dispute",
+    "shortName": "theRibbitingTaleOfALilyPadLabourDispute",
+    "description": "Help the frogs of the Kourend Woodland negotiate an end to their heated lily pad labour dispute.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Swamp",
+    "url": "https://oldschool.runescape.wiki/w/The_Ribbiting_Tale_of_a_Lily_Pad_Labour_Dispute",
+    "requirements": []
+  },
+  {
+    "id": 119,
+    "name": "The Slug Menace",
+    "shortName": "theSlugMenace",
+    "description": "Investigate the sea slug infestation spreading from Witchaven and stop it from reaching Kandarin\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Temple Knight",
+    "questPoints": 2,
+    "startLocation": "Maledict, Witchaven",
+    "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Sea Slug"
+      },
+      {
+        "type": "quest",
+        "name": "Wanted!"
+      },
+      {
+        "type": "quest",
+        "name": "The Lost Tribe"
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Runecraft",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 30,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Tale of the Righteous",
+    "shortName": "taleOfTheRighteous",
+    "description": "Learn the tale of a righteous knight from ancient Kourend and help settle unfinished business. A spiritual story of honor and redemption in the mystical lands.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Kourend Castle grounds",
+    "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Client of Kourend"
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 16,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Temple of Ikov",
+    "shortName": "theTempleOfIkov",
+    "description": "Retrieve the Staff of Armadyl from the Temple of Ikov for Lucien — or betray him and destroy it instead.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Lucien, Flying Horse Inn, Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
+    "requirements": []
+  },
+  {
+    "id": 122,
+    "name": "The Tourist Trap",
+    "shortName": "theTouristTrap",
+    "description": "Go undercover in the Desert Mining Company\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Irena, south of Al Kharid",
+    "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
+    "requirements": []
+  },
+  {
+    "id": 123,
+    "name": "Throne of Miscellania",
+    "shortName": "throneOfMiscellania",
+    "description": "A king has gone missing on the island of Miscellania. Investigate the disappearance, challenge for leadership, and restore order to the troubled kingdom.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Miscellania",
+    "questPoints": 1,
+    "startLocation": "King Vargas, Miscellania Castle",
+    "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Heroes' Quest"
+      },
+      {
+        "type": "quest",
+        "name": "The Fremennik Trials"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Tower of Life",
+    "shortName": "towerOfLife",
+    "description": "Investigate a mysterious tower in Taverley where a mad alchemist is performing strange experiments on human bodies. Help put an end to the dark rituals.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "Effigy, Tower of Life, east of Ardougne Monastery",
+    "url": "https://oldschool.runescape.wiki/w/Tower_of_Life",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 10,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Tree Gnome Village",
+    "shortName": "treeGnomeVillage",
+    "description": "Protect the Tree Gnome village by defeating invaders and helping the gnomes prepare their defenses.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Gnome",
+    "questPoints": 2,
+    "startLocation": "Tree Gnome Village, northwest of Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree",
+    "requirements": []
+  },
+  {
+    "id": 126,
+    "name": "Tribal Totem",
+    "shortName": "tribalTotem",
+    "description": "Lord Handelmort of Ardougne has acquired a sacred totem belonging to Karamja's Rantuki tribe. Help Kangai Mau reclaim it.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Kangai Mau, The Shrimp and Parrot restaurant, Brimhaven",
+    "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 21,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Troll Romance",
+    "shortName": "trollRomance",
+    "description": "Help Ug the troll find a mate by completing a dangerous task to win the heart of Aga.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 2,
+    "startLocation": "Ug, Trollheim",
+    "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
+    "requirements": []
+  },
+  {
+    "id": 128,
+    "name": "Troll Stronghold",
+    "shortName": "trollStronghold",
+    "description": "Rescue two captured soldiers held within the Troll Stronghold on Death Plateau.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Troll",
+    "questPoints": 2,
+    "startLocation": "Dunstan, Burthorpe",
+    "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold",
+    "requirements": []
+  },
+  {
+    "id": 129,
+    "name": "Troubled Tortugans",
+    "shortName": "troubledTortugans",
+    "description": "Help the tortugan pirates of The Pandemonium recover their buried plunder.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Tortugan",
+    "questPoints": 2,
+    "startLocation": "Talk to Floopa, an Injured Tortugan, on a Remote Island in the Unquiet Ocean.",
+    "url": "https://oldschool.runescape.wiki/w/Troubled_Tortugans",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Pandemonium"
+      },
+      {
+        "type": "skill",
+        "skill": "Construction",
+        "level": 48,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Sailing",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Hunter",
+        "level": 45,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Woodcutting",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 34,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 51,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 1048,
+    "name": "Twilight's Promise",
+    "shortName": "twilightsPromise",
+    "description": "Fulfill an ancient promise made at twilight by resolving a long-standing conflict between two forgotten peoples at sea.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Twilight Emissaries",
+    "questPoints": 1,
+    "startLocation": "Port Aldarin, Varlamore",
+    "url": "https://oldschool.runescape.wiki/w/Twilight%27s_Promise",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Children of the Sun"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "name": "Underground Pass",
+    "shortName": "undergroundPass",
+    "description": "Travel through a dangerous underground passage to reach the land of the elves, avoiding traps and dark magic.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 5,
+    "startLocation": "King Lathas, Ardougne Castle",
+    "url": "https://oldschool.runescape.wiki/w/Underground_Pass",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Biohazard"
+      },
+      {
+        "type": "quest",
+        "name": "Plague City"
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 25,
+        "boostable": true
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Vale Totems",
+    "shortName": "valeTotems",
+    "description": "Restore the ancient totems in the Elven Vale to unlock a new teleport destination within Tirannwn.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": true,
+    "age": "Fifth Age",
+    "series": "Elf",
+    "questPoints": 0,
+    "startLocation": "The Elven Vale in Tirannwn",
+    "url": "https://oldschool.runescape.wiki/w/Vale_Totems",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Song of the Elves"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "name": "Vampyre Slayer",
+    "shortName": "vampyreSlayer",
+    "description": "Help a citizen by slaying a vampire that has been terrorizing the area.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 3,
+    "startLocation": "St. Bride temple, south of Morytania",
+    "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+    "requirements": []
+  },
+  {
+    "id": 132,
+    "name": "Wanted!",
+    "shortName": "wanted",
+    "description": "A wanted man is on the loose. Can you track him down?",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Temple Knight",
+    "questPoints": 1,
+    "startLocation": "Sir Tiffy Cashien, Falador Park",
+    "url": "https://oldschool.runescape.wiki/w/Wanted!",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Recruitment Drive"
+      },
+      {
+        "type": "quest",
+        "name": "Black Knights' Fortress"
+      },
+      {
+        "type": "quest",
+        "name": "Druidic Ritual"
+      },
+      {
+        "type": "quest",
+        "name": "The Lost Tribe"
+      },
+      {
+        "type": "quest",
+        "name": "Rune Mysteries"
+      },
+      {
+        "type": "quest",
+        "name": "Goblin Diplomacy"
+      },
+      {
+        "type": "quest",
+        "name": "Priest in Peril"
+      },
+      {
+        "type": "quest",
+        "name": "Enter the Abyss"
+      },
+      {
+        "type": "quest_points",
+        "level": 32
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Watchtower",
+    "shortName": "watchtower",
+    "description": "Help the Watchtower wizards near Yanille reclaim a stolen crystal from the ogres below.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Watchtower, north of Yanille",
+    "url": "https://oldschool.runescape.wiki/w/Watchtower",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Magic",
+        "level": 14,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 14,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Defence",
+        "level": 40,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 15,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Waterfall Quest",
+    "shortName": "waterfallQuest",
+    "description": "Help a tribesperson recover a sacred totem from a mysterious waterfall.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Arandar, east of Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Waterfall_Dungeon",
+    "requirements": []
+  },
+  {
+    "id": 135,
+    "name": "What Lies Below",
+    "shortName": "whatLiesBelow",
+    "description": "A travelling trader has been stranded south of Varrock after his cart was attacked by local outlaws. He needs the help of a hero to recover his lost documents, but that's not all... The Varrock Palace Secret Guard (VPSG) are on the trail of treacherous dealings with the Monks of Zamorak. Will you be able to help the VPSG and uncover what lies below?",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 2,
+    "startLocation": "South of Varrock",
+    "url": "https://oldschool.runescape.wiki/w/What_Lies_Below",
+    "requirements": []
+  },
+  {
+    "id": 1033,
+    "name": "While Guthix Sleeps",
+    "shortName": "whileGuthixSleeps",
+    "description": "Investigate the resurgent Mahjarrat threat while Guthix slumbers, culminating in a confrontation at the Stone of Jas.",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Mahjarrat",
+    "questPoints": 5,
+    "startLocation": "Draynor Village",
+    "url": "https://oldschool.runescape.wiki/w/While_Guthix_Sleeps",
+    "requirements": [
+      {
+        "type": "quest",
+        "name": "Dream Mentor"
+      },
+      {
+        "type": "quest",
+        "name": "Defender of Varrock"
+      },
+      {
+        "type": "quest",
+        "name": "Legends' Quest"
+      },
+      {
+        "type": "quest",
+        "name": "Swan Song"
+      },
+      {
+        "type": "quest",
+        "name": "One Small Favour"
+      },
+      {
+        "type": "quest",
+        "name": "Death to the Dorgeshuun"
+      },
+      {
+        "type": "quest",
+        "name": "The Slug Menace"
+      },
+      {
+        "type": "quest_points",
+        "level": 140
+      },
+      {
+        "type": "skill",
+        "skill": "Agility",
+        "level": 23,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Crafting",
+        "level": 61,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Farming",
+        "level": 68,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 65,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Mining",
+        "level": 72,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 68,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Strength",
+        "level": 70,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Slayer",
+        "level": 55,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Thieving",
+        "level": 72,
+        "boostable": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Witch's Potion",
+    "shortName": "witchesPotion",
+    "description": "Help the witch by collecting ingredients for her potion in exchange for an artifact.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Witch house, south of Draynor Manor",
+    "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+    "requirements": []
+  },
+  {
+    "id": 137,
+    "name": "Witch's House",
+    "shortName": "witchsHouse",
+    "description": "Recover a boy\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 4,
+    "startLocation": "Boy, Taverley",
+    "url": "https://oldschool.runescape.wiki/w/Witch%27s_House",
+    "requirements": []
+  },
+  {
+    "id": 1009,
+    "name": "X Marks the Spot",
+    "shortName": "xMarksTheSpot",
+    "description": "Follow the clues of a hand-drawn treasure map to dig up a buried chest somewhere near Draynor Manor.",
+    "difficulty": null,
+    "length": null,
+    "members": false,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": "Great Kourend",
+    "questPoints": 1,
+    "startLocation": "Great Kourend",
+    "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
+    "requirements": []
+  },
+  {
+    "id": 138,
+    "name": "Zogre Flesh Eaters",
+    "shortName": "zogreFleshEaters",
+    "description": "Investigate an outbreak of zombified ogres (Zogres) on Gu\\",
+    "difficulty": null,
+    "length": null,
+    "members": true,
+    "miniquest": false,
+    "age": "Fifth Age",
+    "series": null,
+    "questPoints": 1,
+    "startLocation": "Grish, south of Castle Wars",
+    "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
+    "requirements": [
+      {
+        "type": "skill",
+        "skill": "Herblore",
+        "level": 8,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Smithing",
+        "level": 4,
+        "boostable": false
+      },
+      {
+        "type": "skill",
+        "skill": "Ranged",
+        "level": 30,
+        "boostable": false
+      }
+    ]
+  }
+]

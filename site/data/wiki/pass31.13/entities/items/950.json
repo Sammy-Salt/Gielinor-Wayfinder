@@ -1,0 +1,25 @@
+{
+  "canonicalId": 950,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 950,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silk",
+        "weight": 1,
+        "value": 30,
+        "examine": "It's a sheet of silk.",
+        "item_id": [
+          "950"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silk",
+        "item_name": "Silk"
+      }
+    }
+  ]
+}

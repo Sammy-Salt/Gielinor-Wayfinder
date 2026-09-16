@@ -1,0 +1,25 @@
+{
+  "canonicalId": 165,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 165,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Super defence",
+        "weight": 0.025,
+        "value": 198,
+        "examine": "2 doses of super Defence potion.",
+        "item_id": [
+          "165"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Super defence#(2)",
+        "item_name": "Super defence(2)"
+      }
+    }
+  ]
+}

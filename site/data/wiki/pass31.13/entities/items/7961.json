@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7961,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7961,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Burnt diary",
+        "weight": 0.01,
+        "value": 10,
+        "examine": "A diary with one page.",
+        "item_id": [
+          "7961"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Burnt diary#One page",
+        "item_name": "Burnt diary"
+      }
+    }
+  ]
+}

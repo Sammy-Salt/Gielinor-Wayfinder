@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6800,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6800,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Giant champion scroll",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It's a challenge from the Giant Champion!",
+        "item_id": [
+          "6800"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Giant champion scroll",
+        "item_name": "Giant champion scroll"
+      }
+    }
+  ]
+}

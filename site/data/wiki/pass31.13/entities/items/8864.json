@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8864,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8864,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Five barrels",
+        "weight": 22.679,
+        "value": 1,
+        "examine": "To put on your head.",
+        "item_id": [
+          "8864"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Five barrels",
+        "item_name": "Five barrels"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 701,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 701,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ammonium nitrate",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "An acrid chemical.",
+        "item_id": [
+          "701"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ammonium nitrate#Ammonium nitrate",
+        "item_name": "Ammonium nitrate"
+      }
+    }
+  ]
+}

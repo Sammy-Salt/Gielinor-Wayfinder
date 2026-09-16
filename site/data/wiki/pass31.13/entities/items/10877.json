@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10877,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10877,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Plain satchel",
+        "weight": 0.15,
+        "value": 100,
+        "examine": "I can keep my grub in here!",
+        "item_id": [
+          "10877"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Plain satchel",
+        "item_name": "Plain satchel"
+      }
+    }
+  ]
+}

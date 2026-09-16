@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7084,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7084,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fried onions",
+        "weight": 0.5,
+        "value": 7,
+        "examine": "A bowl of sliced, fried onions.",
+        "item_id": [
+          "7084"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fried onions",
+        "item_name": "Fried onions"
+      }
+    }
+  ]
+}

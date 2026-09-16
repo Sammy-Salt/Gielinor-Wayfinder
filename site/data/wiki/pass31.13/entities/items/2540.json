@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2540,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2540,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune fire arrow",
+        "weight": 0,
+        "value": 3,
+        "examine": "Arrows with rune heads wrapped in oily cloth.",
+        "item_id": [
+          "2540"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune fire arrow#Unlit",
+        "item_name": "Rune fire arrow"
+      }
+    }
+  ]
+}

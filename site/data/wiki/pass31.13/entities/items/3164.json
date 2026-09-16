@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3164,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3164,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Karamjan rum (sliced banana)",
+        "weight": 0.907,
+        "value": 30,
+        "examine": "The Karamjan rum has slices of banana floating in it.",
+        "item_id": [
+          "3164"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Karamjan rum (sliced banana)",
+        "item_name": "Karamjan rum"
+      }
+    }
+  ]
+}

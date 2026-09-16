@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1820,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1820,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Elizabeth's print",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "An imprint of Elizabeth's fingerprint.",
+        "item_id": [
+          "1820"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Elizabeth's print",
+        "item_name": "Elizabeth's print"
+      }
+    }
+  ]
+}

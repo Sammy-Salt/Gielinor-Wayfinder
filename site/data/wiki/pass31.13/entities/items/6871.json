@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6871,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6871,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red marionette (torso)",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "The torso of a marionette.",
+        "item_id": [
+          "6871"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red marionette (torso)",
+        "item_name": "Red marionette"
+      }
+    }
+  ]
+}

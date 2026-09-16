@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6969,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6969,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shark (My Arm's Big Adventure)",
+        "weight": 0.65,
+        "value": 6,
+        "examine": "I'd better be careful eating this.",
+        "item_id": [
+          "6969"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shark (My Arm's Big Adventure)",
+        "item_name": "Shark"
+      }
+    }
+  ]
+}

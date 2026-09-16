@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4289,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4289,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw chicken (undead)",
+        "weight": 0.17,
+        "value": 1,
+        "examine": "This raw chicken is rancid.",
+        "item_id": [
+          "4289"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw chicken (undead)",
+        "item_name": "Raw chicken"
+      }
+    }
+  ]
+}

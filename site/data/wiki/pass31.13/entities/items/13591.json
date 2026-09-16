@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13591,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13591,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful hood (Piscarilius)",
+        "weight": 0.6,
+        "value": 35,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13591"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful hood (Piscarilius)#Inventory",
+        "item_name": "Graceful hood"
+      }
+    }
+  ]
+}

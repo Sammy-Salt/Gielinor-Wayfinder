@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13260,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13260,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Angler waders",
+        "weight": 1,
+        "value": 50,
+        "examine": "This will help with fishing.",
+        "item_id": [
+          "13260"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Angler waders",
+        "item_name": "Angler waders"
+      }
+    }
+  ]
+}

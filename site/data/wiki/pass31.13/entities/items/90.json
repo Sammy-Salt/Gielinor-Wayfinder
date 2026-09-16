@@ -1,0 +1,25 @@
+{
+  "canonicalId": 90,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 90,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Child's blanket",
+        "weight": 0.907,
+        "value": 5,
+        "examine": "It's very soft!",
+        "item_id": [
+          "90"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Child's blanket",
+        "item_name": "Child's blanket"
+      }
+    }
+  ]
+}

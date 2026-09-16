@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4249,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4249,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Translation manual",
+        "weight": 0.51,
+        "value": 1,
+        "examine": "A translation manual.",
+        "item_id": [
+          "4249"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Translation manual",
+        "item_name": "Translation manual"
+      }
+    }
+  ]
+}

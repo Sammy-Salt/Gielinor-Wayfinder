@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2538,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2538,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant fire arrow",
+        "weight": 0,
+        "value": 3,
+        "examine": "Arrows with adamant heads wrapped in oily cloth.",
+        "item_id": [
+          "2538"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant fire arrow#Unlit",
+        "item_name": "Adamant fire arrow"
+      }
+    }
+  ]
+}

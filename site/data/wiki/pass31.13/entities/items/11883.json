@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11883,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11883,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bait pack",
+        "weight": 0.3,
+        "value": 300,
+        "examine": "A pack containing 100 sets of fishing bait.",
+        "item_id": [
+          "11883"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bait pack",
+        "item_name": "Bait pack"
+      }
+    }
+  ]
+}

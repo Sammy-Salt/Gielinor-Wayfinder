@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5976,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5976,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half coconut",
+        "weight": 0.028,
+        "value": 87,
+        "examine": "It's a coconut.",
+        "item_id": [
+          "5976"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Half coconut",
+        "item_name": "Half coconut"
+      }
+    }
+  ]
+}

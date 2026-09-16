@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3103,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3103,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iou",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "The guard wrote the IOU on the back of some paper.",
+        "item_id": [
+          "3103"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Iou",
+        "item_name": "Iou"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6870,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6870,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red marionette (strung)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "I want to be a real boy!",
+        "item_id": [
+          "6870"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red marionette (strung)",
+        "item_name": "Red marionette"
+      }
+    }
+  ]
+}

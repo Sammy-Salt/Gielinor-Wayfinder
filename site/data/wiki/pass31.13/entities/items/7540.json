@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7540,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7540,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken crab claw",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "Darn, it's useless now.",
+        "item_id": [
+          "7540"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Broken crab claw",
+        "item_name": "Broken crab claw"
+      }
+    }
+  ]
+}

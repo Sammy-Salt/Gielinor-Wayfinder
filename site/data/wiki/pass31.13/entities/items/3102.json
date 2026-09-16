@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3102,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3102,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Combination",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "The combination to Burthorpe Castle's equipment room.",
+        "item_id": [
+          "3102"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Combination",
+        "item_name": "Combination"
+      }
+    }
+  ]
+}

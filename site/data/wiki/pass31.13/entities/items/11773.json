@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11773,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11773,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Berserker ring (i)",
+        "weight": 0.004,
+        "value": 10000,
+        "examine": "A ring reputed to bring out a berserk fury in its wearer.",
+        "item_id": [
+          "11773"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Berserker ring (i)#Nightmare Zone",
+        "item_name": "Berserker ring (i)"
+      }
+    }
+  ]
+}

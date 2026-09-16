@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11449,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11449,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Restore mix",
+        "weight": 0.075,
+        "value": 66,
+        "examine": "Two doses of fishy restore potion.",
+        "item_id": [
+          "11449"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Restore mix#(2)",
+        "item_name": "Restore mix(2)"
+      }
+    }
+  ]
+}

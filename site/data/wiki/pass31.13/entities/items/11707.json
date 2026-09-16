@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11707,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11707,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cursed goblin hammer",
+        "weight": 2.267,
+        "value": 30,
+        "examine": "A curse has been placed on this warhammer.",
+        "item_id": [
+          "11707"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cursed goblin hammer",
+        "item_name": "Cursed goblin hammer"
+      }
+    }
+  ]
+}

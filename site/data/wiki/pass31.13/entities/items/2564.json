@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2564,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2564,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ring of dueling",
+        "weight": 0.006,
+        "value": 1275,
+        "examine": "An enchanted ring.",
+        "item_id": [
+          "2564"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ring of dueling#(2)",
+        "item_name": "Ring of dueling(2)"
+      }
+    }
+  ]
+}

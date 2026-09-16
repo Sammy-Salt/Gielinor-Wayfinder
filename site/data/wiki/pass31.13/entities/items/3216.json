@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3216,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3216,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barrel",
+        "weight": 10,
+        "value": 1,
+        "examine": "An empty barrel.",
+        "item_id": [
+          "3216"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Barrel",
+        "item_name": "Barrel"
+      }
+    }
+  ]
+}

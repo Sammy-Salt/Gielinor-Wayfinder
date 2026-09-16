@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5592,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5592,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tin (Recruitment Drive)",
+        "weight": 0.1,
+        "value": 10,
+        "examine": "I could probably pour something into this.",
+        "item_id": [
+          "5592"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tin (Recruitment Drive)#Empty",
+        "item_name": "Tin"
+      }
+    }
+  ]
+}

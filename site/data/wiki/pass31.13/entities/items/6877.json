@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6877,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6877,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue marionette (arms)",
+        "weight": 0.6,
+        "value": 1,
+        "examine": "Needs legs.",
+        "item_id": [
+          "6877"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue marionette (arms)",
+        "item_name": "Blue marionette"
+      }
+    }
+  ]
+}

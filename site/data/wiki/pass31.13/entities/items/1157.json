@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1157,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1157,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel full helm",
+        "weight": 2.721,
+        "value": 550,
+        "examine": "A full face helmet.",
+        "item_id": [
+          "1157"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel full helm",
+        "item_name": "Steel full helm"
+      }
+    }
+  ]
+}

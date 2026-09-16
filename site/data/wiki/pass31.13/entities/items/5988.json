@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5988,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5988,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked sweetcorn",
+        "weight": 0.028,
+        "value": 9,
+        "examine": "Delicious cooked sweetcorn.",
+        "item_id": [
+          "5988"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked sweetcorn",
+        "item_name": "Cooked sweetcorn"
+      }
+    }
+  ]
+}

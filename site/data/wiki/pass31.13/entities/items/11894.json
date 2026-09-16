@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11894,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11894,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Decorative armour (white plateskirt)",
+        "weight": 9.071,
+        "value": 2600,
+        "examine": "Very decorative armour.",
+        "item_id": [
+          "11894"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Decorative armour (white plateskirt)",
+        "item_name": "Decorative armour"
+      }
+    }
+  ]
+}

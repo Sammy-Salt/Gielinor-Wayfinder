@@ -1,0 +1,25 @@
+{
+  "canonicalId": 646,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 646,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pink robe bottoms",
+        "weight": 0.907,
+        "value": 180,
+        "examine": "Made by Tree Gnomes with a thing for pink.",
+        "item_id": [
+          "646"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pink robe bottoms",
+        "item_name": "Pink robe bottoms"
+      }
+    }
+  ]
+}

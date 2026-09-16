@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4230,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4230,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crystal shield (historical)",
+        "weight": 2.721,
+        "value": 350000,
+        "examine": "A nice sturdy crystal shield.",
+        "item_id": [
+          "4230"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Crystal shield (historical)#5/10",
+        "item_name": "Crystal shield 5/10"
+      }
+    }
+  ]
+}

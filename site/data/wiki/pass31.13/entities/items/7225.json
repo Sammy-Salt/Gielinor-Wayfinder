@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7225,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7225,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron spit",
+        "weight": 1.5,
+        "value": 64,
+        "examine": "An iron spit.",
+        "item_id": [
+          "7225"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron spit",
+        "item_name": "Iron spit"
+      }
+    }
+  ]
+}

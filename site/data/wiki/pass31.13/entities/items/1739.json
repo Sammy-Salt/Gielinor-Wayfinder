@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1739,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1739,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cowhide",
+        "weight": 2.721,
+        "value": 2,
+        "examine": "I should take this to the tannery.",
+        "item_id": [
+          "1739"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cowhide",
+        "item_name": "Cowhide"
+      }
+    }
+  ]
+}

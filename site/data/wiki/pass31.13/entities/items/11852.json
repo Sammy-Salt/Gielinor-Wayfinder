@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11852,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11852,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful cape",
+        "weight": 0.8,
+        "value": 40,
+        "examine": "A sign of your grace.",
+        "item_id": [
+          "11852"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful cape#Inventory",
+        "item_name": "Graceful cape"
+      }
+    }
+  ]
+}

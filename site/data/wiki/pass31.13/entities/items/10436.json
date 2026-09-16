@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10436,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10436,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple elegant blouse",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A well made elegant ladies' purple blouse.",
+        "item_id": [
+          "10436"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple elegant blouse",
+        "item_name": "Purple elegant blouse"
+      }
+    }
+  ]
+}

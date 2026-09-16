@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11242,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11242,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gourmet impling jar",
+        "weight": 2.267,
+        "value": 50,
+        "examine": "A gourmet impling in a jar.",
+        "item_id": [
+          "11242"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gourmet impling jar",
+        "item_name": "Gourmet impling jar"
+      }
+    }
+  ]
+}

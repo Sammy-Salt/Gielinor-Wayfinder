@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4254,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4254,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Model ship",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A small wooden ship with a silk flag.",
+        "item_id": [
+          "4254"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Model ship#With flag",
+        "item_name": "Model ship"
+      }
+    }
+  ]
+}

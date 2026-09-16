@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13022,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13022,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant gold-trimmed set (sk)",
+        "weight": 6,
+        "value": 8000,
+        "examine": "A set containing a full helm, platebody, skirt and kiteshield.",
+        "item_id": [
+          "13022"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant gold-trimmed set (sk)",
+        "item_name": "Adamant gold-trimmed set (sk)"
+      }
+    }
+  ]
+}

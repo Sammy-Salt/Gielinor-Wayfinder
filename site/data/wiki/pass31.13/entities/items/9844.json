@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9844,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9844,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak cape rack (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "9844"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak cape rack (flatpack)",
+        "item_name": "Teak cape rack"
+      }
+    }
+  ]
+}

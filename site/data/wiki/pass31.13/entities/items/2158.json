@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2158,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2158,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seasoned legs",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "They're a gnome delicacy apparently.",
+        "item_id": [
+          "2158"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Seasoned legs",
+        "item_name": "Seasoned legs"
+      }
+    }
+  ]
+}

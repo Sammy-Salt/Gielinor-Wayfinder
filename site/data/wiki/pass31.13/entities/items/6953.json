@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6953,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6953,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bottled water",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "A bottle of water.",
+        "item_id": [
+          "6953"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bottled water",
+        "item_name": "Bottled water"
+      }
+    }
+  ]
+}

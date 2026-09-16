@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2365,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2365,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "'perfect' gold bar",
+        "weight": 1.814,
+        "value": 300,
+        "examine": "It's a bar of 'perfect' gold.",
+        "item_id": [
+          "2365"
+        ],
+        "tradeable": false,
+        "page_name_sub": "'perfect' gold bar",
+        "item_name": "'perfect' gold bar"
+      }
+    }
+  ]
+}

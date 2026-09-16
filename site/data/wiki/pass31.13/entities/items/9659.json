@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9659,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9659,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bucket of water (Meiyerditch)",
+        "weight": 3,
+        "value": 1,
+        "examine": "It's a bucket of water.",
+        "item_id": [
+          "9659"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bucket of water (Meiyerditch)",
+        "item_name": "Bucket of water"
+      }
+    }
+  ]
+}

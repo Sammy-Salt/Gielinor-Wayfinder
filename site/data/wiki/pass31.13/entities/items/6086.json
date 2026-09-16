@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6086,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6086,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue dye bellows",
+        "weight": 0.538,
+        "value": 20,
+        "examine": "A large pair of ogre bellows filled with blue dye.",
+        "item_id": [
+          "6086"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue dye bellows",
+        "item_name": "Blue dye bellows"
+      }
+    }
+  ]
+}

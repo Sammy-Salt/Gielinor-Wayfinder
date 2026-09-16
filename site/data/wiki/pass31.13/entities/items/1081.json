@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1081,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1081,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron plateskirt",
+        "weight": 8.164,
+        "value": 280,
+        "examine": "Designer leg protection.",
+        "item_id": [
+          "1081"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron plateskirt",
+        "item_name": "Iron plateskirt"
+      }
+    }
+  ]
+}

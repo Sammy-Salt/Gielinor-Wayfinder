@@ -1,0 +1,25 @@
+{
+  "canonicalId": 291,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 291,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Research notes (Rune Mysteries)",
+        "weight": 0.028,
+        "value": 30,
+        "examine": "They seem to be written in some kind of code.",
+        "item_id": [
+          "291"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Research notes (Rune Mysteries)",
+        "item_name": "Research notes"
+      }
+    }
+  ]
+}

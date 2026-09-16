@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7899,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7899,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Basilisk bone",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7899"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Basilisk bone#Unpolished",
+        "item_name": "Basilisk bone"
+      }
+    }
+  ]
+}

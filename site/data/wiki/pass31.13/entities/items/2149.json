@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2149,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2149,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lava eel",
+        "weight": 0.198,
+        "value": 150,
+        "examine": "Strange, it looks cooler now it's been cooked.",
+        "item_id": [
+          "2149"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lava eel",
+        "item_name": "Lava eel"
+      }
+    }
+  ]
+}

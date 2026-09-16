@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9481,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9481,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished batta (worm)",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "This worm batta needs garnishing with equa leaves.",
+        "item_id": [
+          "9481"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unfinished batta (worm)",
+        "item_name": "Unfinished batta"
+      }
+    }
+  ]
+}

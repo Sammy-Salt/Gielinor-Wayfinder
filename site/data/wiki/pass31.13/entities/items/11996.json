@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11996,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11996,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Holiday tool",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "Spawns an allowance of holiday gifts each day.",
+        "item_id": [
+          "11996"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Holiday tool",
+        "item_name": "Holiday tool"
+      }
+    }
+  ]
+}

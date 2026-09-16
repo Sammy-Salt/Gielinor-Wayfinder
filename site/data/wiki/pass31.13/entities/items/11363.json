@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11363,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11363,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient page",
+        "weight": 0.003,
+        "value": 0,
+        "examine": "Has both sorts of watermark.",
+        "item_id": [
+          "11363"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient page#23",
+        "item_name": "Ancient page"
+      }
+    }
+  ]
+}

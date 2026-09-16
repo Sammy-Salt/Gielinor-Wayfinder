@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13187,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13187,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Package",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A heavy package I must deliver for Little Mo.",
+        "item_id": [
+          "13187"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Package",
+        "item_name": "Package"
+      }
+    }
+  ]
+}

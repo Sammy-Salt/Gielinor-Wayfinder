@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1177,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1177,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel sq shield",
+        "weight": 3.628,
+        "value": 600,
+        "examine": "A medium square shield.",
+        "item_id": [
+          "1177"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel sq shield",
+        "item_name": "Steel sq shield"
+      }
+    }
+  ]
+}

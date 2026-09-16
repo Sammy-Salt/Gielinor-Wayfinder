@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8943,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8943,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue monkey",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Bluuuuuuuue Monkeeeeeey!",
+        "item_id": [
+          "8943"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue monkey#Normal",
+        "item_name": "Blue monkey"
+      }
+    }
+  ]
+}

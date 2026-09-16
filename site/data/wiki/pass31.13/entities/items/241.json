@@ -1,0 +1,25 @@
+{
+  "canonicalId": 241,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 241,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon scale dust",
+        "weight": 0.007,
+        "value": 52,
+        "examine": "Finely ground scale of Dragon.",
+        "item_id": [
+          "241"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon scale dust",
+        "item_name": "Dragon scale dust"
+      }
+    }
+  ]
+}

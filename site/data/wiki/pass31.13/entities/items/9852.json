@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9852,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9852,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak magic wardrobe (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "9852"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak magic wardrobe (flatpack)",
+        "item_name": "Oak magic wardrobe"
+      }
+    }
+  ]
+}

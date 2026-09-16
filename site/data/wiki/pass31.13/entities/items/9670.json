@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9670,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9670,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Proselyte harness f",
+        "weight": 14.514,
+        "value": 25000,
+        "examine": "Proselyte level armour pack.",
+        "item_id": [
+          "9670"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Proselyte harness f",
+        "item_name": "Proselyte harness f"
+      }
+    }
+  ]
+}

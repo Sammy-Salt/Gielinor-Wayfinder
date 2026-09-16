@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10416,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10416,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple elegant shirt",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A well made elegant men's purple shirt.",
+        "item_id": [
+          "10416"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple elegant shirt",
+        "item_name": "Purple elegant shirt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3185,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3185,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Small zombie monkey bones",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "These are smallish monkey bones. They smell extremely nauseating.",
+        "item_id": [
+          "3185"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Small zombie monkey bones",
+        "item_name": "Small zombie monkey bones"
+      }
+    }
+  ]
+}

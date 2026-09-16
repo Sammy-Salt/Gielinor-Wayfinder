@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6770,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6770,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Directions",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "Jimmy Dazzler's directions.",
+        "item_id": [
+          "6770"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Directions",
+        "item_name": "Directions"
+      }
+    }
+  ]
+}

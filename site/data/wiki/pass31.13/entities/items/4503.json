@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4503,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4503,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Decorative sword (white)",
+        "weight": 1.587,
+        "value": 1300,
+        "examine": "A very decorative sword.",
+        "item_id": [
+          "4503"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Decorative sword (white)",
+        "item_name": "Decorative sword"
+      }
+    }
+  ]
+}

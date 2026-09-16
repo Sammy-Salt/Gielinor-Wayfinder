@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4425,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4425,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stodgy mattress",
+        "weight": 10,
+        "value": 1,
+        "examine": "A half-filled feather mattress.",
+        "item_id": [
+          "4425"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stodgy mattress",
+        "item_name": "Stodgy mattress"
+      }
+    }
+  ]
+}

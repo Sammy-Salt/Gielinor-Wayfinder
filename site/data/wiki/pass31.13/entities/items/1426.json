@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1426,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1426,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black mace",
+        "weight": 1.814,
+        "value": 432,
+        "examine": "A spiky mace.",
+        "item_id": [
+          "1426"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black mace",
+        "item_name": "Black mace"
+      }
+    }
+  ]
+}

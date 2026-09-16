@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7833,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7833,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bat wing",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7833"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bat wing#Unpolished",
+        "item_name": "Bat wing"
+      }
+    }
+  ]
+}

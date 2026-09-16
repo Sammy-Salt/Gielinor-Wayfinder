@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9705,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9705,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Training bow",
+        "weight": 1.36,
+        "value": 1,
+        "examine": "Light and flexible, good for a beginner.",
+        "item_id": [
+          "9705"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Training bow",
+        "item_name": "Training bow"
+      }
+    }
+  ]
+}

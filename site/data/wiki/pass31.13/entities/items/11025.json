@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11025,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11025,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chocolate chunks (2013 Easter event)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Chocolate kebbit chunks.",
+        "item_id": [
+          "11025"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chocolate chunks (2013 Easter event)",
+        "item_name": "Chocolate chunks"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6171,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6171,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Flattened hide",
+        "weight": 3.175,
+        "value": 60,
+        "examine": "A tattered chunk of dagannoth hide.",
+        "item_id": [
+          "6171"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Flattened hide",
+        "item_name": "Flattened hide"
+      }
+    }
+  ]
+}

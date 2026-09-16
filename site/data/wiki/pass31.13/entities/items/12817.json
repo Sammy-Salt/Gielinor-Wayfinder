@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12817,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12817,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Elysian spirit shield",
+        "weight": 2,
+        "value": 2000000,
+        "examine": "An ethereal shield with an elysian sigil attached to it.",
+        "item_id": [
+          "12817"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Elysian spirit shield",
+        "item_name": "Elysian spirit shield"
+      }
+    }
+  ]
+}

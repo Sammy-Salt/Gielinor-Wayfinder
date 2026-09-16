@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9338,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9338,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Emerald bolts",
+        "weight": 0,
+        "value": 53,
+        "examine": "Emerald tipped Mithril crossbow bolts.",
+        "item_id": [
+          "9338"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Emerald bolts",
+        "item_name": "Emerald bolts"
+      }
+    }
+  ]
+}

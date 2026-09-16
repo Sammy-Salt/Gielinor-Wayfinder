@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8616,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8616,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak drawers (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8616"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak drawers (flatpack)",
+        "item_name": "Teak drawers"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13448,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13448,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled goblin head",
+        "weight": 0.453,
+        "value": 52,
+        "examine": "The creature's soul is still in here. I could reanimate it with Basic Reanimation.",
+        "item_id": [
+          "13448"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ensouled goblin head#Item",
+        "item_name": "Ensouled goblin head"
+      }
+    }
+  ]
+}

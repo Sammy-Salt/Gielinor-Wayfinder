@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2412,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2412,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Saradomin cape",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "A cape from the almighty god Saradomin.",
+        "item_id": [
+          "2412"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Saradomin cape",
+        "item_name": "Saradomin cape"
+      }
+    }
+  ]
+}

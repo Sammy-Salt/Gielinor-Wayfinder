@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6145,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6145,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rock-shell boots",
+        "weight": 3.175,
+        "value": 650,
+        "examine": "Some Fremennik boots, made from the shards of a rock crab's shell.",
+        "item_id": [
+          "6145"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rock-shell boots",
+        "item_name": "Rock-shell boots"
+      }
+    }
+  ]
+}

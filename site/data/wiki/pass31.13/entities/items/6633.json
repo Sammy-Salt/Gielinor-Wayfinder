@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6633,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6633,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White kiteshield",
+        "weight": 5.443,
+        "value": 1632,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "6633"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White kiteshield",
+        "item_name": "White kiteshield"
+      }
+    }
+  ]
+}

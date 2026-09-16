@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2301,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2301,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pineapple pizza",
+        "weight": 0.9,
+        "value": 100,
+        "examine": "A tropicana pizza.",
+        "item_id": [
+          "2301"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pineapple pizza#Full",
+        "item_name": "Pineapple pizza"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9672,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9672,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Proselyte sallet",
+        "weight": 2.267,
+        "value": 8000,
+        "examine": "A Proselyte Temple Knight's helm.",
+        "item_id": [
+          "9672"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Proselyte sallet",
+        "item_name": "Proselyte sallet"
+      }
+    }
+  ]
+}

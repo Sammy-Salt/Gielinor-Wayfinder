@@ -1,0 +1,25 @@
+{
+  "canonicalId": 17,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 17,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grail bell",
+        "weight": 0.028,
+        "value": 10,
+        "examine": "I wonder what happens when I ring it?",
+        "item_id": [
+          "17"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Grail bell",
+        "item_name": "Grail bell"
+      }
+    }
+  ]
+}

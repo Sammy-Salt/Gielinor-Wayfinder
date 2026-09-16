@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7990,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7990,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stuffed big bass",
+        "weight": 0.35,
+        "value": 1000,
+        "examine": "I should mount this on my wall!",
+        "item_id": [
+          "7990"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stuffed big bass",
+        "item_name": "Stuffed big bass"
+      }
+    }
+  ]
+}

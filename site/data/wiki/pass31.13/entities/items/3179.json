@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3179,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3179,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Small ninja monkey bones",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "These are smallish monkey bones.",
+        "item_id": [
+          "3179"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Small ninja monkey bones",
+        "item_name": "Small ninja monkey bones"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2996,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2996,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Agility arena ticket (discontinued)",
+        "weight": 0,
+        "value": 1,
+        "examine": "I can exchange these for further experience or items.",
+        "item_id": [
+          "2996"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Agility arena ticket (discontinued)",
+        "item_name": "Agility arena ticket"
+      }
+    }
+  ]
+}

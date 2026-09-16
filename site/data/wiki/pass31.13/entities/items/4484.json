@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4484,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4484,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Safety guarantee",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "The strange characters supposedly grant Svidi safe passage into Rellekka.",
+        "item_id": [
+          "4484"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Safety guarantee",
+        "item_name": "Safety guarantee"
+      }
+    }
+  ]
+}

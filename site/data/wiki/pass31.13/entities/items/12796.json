@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12796,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12796,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic steam staff (or)",
+        "weight": 2.267,
+        "value": 45000,
+        "examine": "It's a beautiful and slightly magical stick.",
+        "item_id": [
+          "12796"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mystic steam staff (or)",
+        "item_name": "Mystic steam staff"
+      }
+    }
+  ]
+}

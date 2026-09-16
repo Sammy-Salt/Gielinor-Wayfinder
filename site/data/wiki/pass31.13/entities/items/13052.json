@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13052,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13052,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armadyl rune armour set (lg)",
+        "weight": 6,
+        "value": 80000,
+        "examine": "A set containing a full helm, platebody, legs and kiteshield.",
+        "item_id": [
+          "13052"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Armadyl rune armour set (lg)",
+        "item_name": "Armadyl rune armour set (lg)"
+      }
+    }
+  ]
+}

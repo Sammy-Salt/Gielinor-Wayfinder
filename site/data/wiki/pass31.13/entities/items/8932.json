@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8932,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8932,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lumber patch",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Repairs made with this will be patchy at best.",
+        "item_id": [
+          "8932"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lumber patch",
+        "item_name": "Lumber patch"
+      }
+    }
+  ]
+}

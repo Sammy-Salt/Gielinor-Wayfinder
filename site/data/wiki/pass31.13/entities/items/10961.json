@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10961,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10961,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frogspawn gumbo",
+        "weight": 0.001,
+        "value": 10,
+        "examine": "A big bowl of frogspawn gumbo.",
+        "item_id": [
+          "10961"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frogspawn gumbo",
+        "item_name": "Frogspawn gumbo"
+      }
+    }
+  ]
+}

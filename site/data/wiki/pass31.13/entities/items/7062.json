@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7062,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7062,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chilli con carne",
+        "weight": 0.5,
+        "value": 13,
+        "examine": "A bowl of meat in chilli-con-carne sauce.",
+        "item_id": [
+          "7062"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chilli con carne",
+        "item_name": "Chilli con carne"
+      }
+    }
+  ]
+}

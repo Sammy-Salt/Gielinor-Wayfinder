@@ -1,0 +1,25 @@
+{
+  "canonicalId": 415,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 415,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ethenea",
+        "weight": 0.03,
+        "value": 10,
+        "examine": "An expensive colourless liquid.",
+        "item_id": [
+          "415"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ethenea",
+        "item_name": "Ethenea"
+      }
+    }
+  ]
+}

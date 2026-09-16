@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7679,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7679,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pugel",
+        "weight": 1.36,
+        "value": 1,
+        "examine": "A good tool for bashing someone.",
+        "item_id": [
+          "7679"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pugel",
+        "item_name": "Pugel"
+      }
+    }
+  ]
+}

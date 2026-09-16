@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13376,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13376,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien platebody (4)",
+        "weight": 9.979,
+        "value": 70,
+        "examine": "Dress like a tier 4 Shayzien soldier.",
+        "item_id": [
+          "13376"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien platebody (4)",
+        "item_name": "Shayzien platebody (4)"
+      }
+    }
+  ]
+}

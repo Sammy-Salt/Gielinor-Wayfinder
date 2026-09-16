@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6396,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6396,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Menaphite purple robe",
+        "weight": 0.005,
+        "value": 40,
+        "examine": "A cool light Menaphite robe.",
+        "item_id": [
+          "6396"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Menaphite purple robe",
+        "item_name": "Menaphite purple robe"
+      }
+    }
+  ]
+}

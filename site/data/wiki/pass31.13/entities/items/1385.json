@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1385,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1385,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Staff of earth",
+        "weight": 2.267,
+        "value": 1500,
+        "examine": "A Magical staff.",
+        "item_id": [
+          "1385"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Staff of earth",
+        "item_name": "Staff of earth"
+      }
+    }
+  ]
+}

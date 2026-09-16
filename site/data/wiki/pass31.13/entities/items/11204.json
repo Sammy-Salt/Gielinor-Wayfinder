@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11204,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11204,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shrink-me-quick",
+        "weight": 0.035,
+        "value": 1,
+        "examine": "Apparently it shrinks you. Very fast.",
+        "item_id": [
+          "11204"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shrink-me-quick",
+        "item_name": "Shrink-me-quick"
+      }
+    }
+  ]
+}

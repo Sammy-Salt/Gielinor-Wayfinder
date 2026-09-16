@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13281,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13281,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Max hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "The hood worn by only the most experienced players.",
+        "item_id": [
+          "13281"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Max hood",
+        "item_name": "Max hood"
+      }
+    }
+  ]
+}

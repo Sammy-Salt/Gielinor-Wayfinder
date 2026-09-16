@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5686,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5686,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron dagger",
+        "weight": 0.453,
+        "value": 35,
+        "examine": "The blade is covered with poison.",
+        "item_id": [
+          "5686"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron dagger#(p++)",
+        "item_name": "Iron dagger(p++)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2495,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2495,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red d'hide chaps",
+        "weight": 5.443,
+        "value": 5180,
+        "examine": "Made from 100% real dragonhide.",
+        "item_id": [
+          "2495"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red d'hide chaps",
+        "item_name": "Red d'hide chaps"
+      }
+    }
+  ]
+}

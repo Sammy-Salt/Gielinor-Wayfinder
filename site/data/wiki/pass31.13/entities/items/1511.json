@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1511,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1511,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Logs",
+        "weight": 2,
+        "value": 4,
+        "examine": "A number of wooden logs.",
+        "item_id": [
+          "1511"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Logs",
+        "item_name": "Logs"
+      }
+    }
+  ]
+}

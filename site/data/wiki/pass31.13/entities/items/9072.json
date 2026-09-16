@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9072,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9072,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Moonclan gloves",
+        "weight": 0.907,
+        "value": 900,
+        "examine": "These should keep my hands safe.",
+        "item_id": [
+          "9072"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Moonclan gloves",
+        "item_name": "Moonclan gloves"
+      }
+    }
+  ]
+}

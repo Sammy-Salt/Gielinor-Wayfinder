@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1800,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1800,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver bottle",
+        "weight": 0.09,
+        "value": 1,
+        "examine": "Carol's shiny silver coated bottle.",
+        "item_id": [
+          "1800"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Silver bottle#Normal",
+        "item_name": "Silver bottle"
+      }
+    }
+  ]
+}

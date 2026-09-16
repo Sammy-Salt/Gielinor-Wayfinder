@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9020,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9020,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Queen's secateurs",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Contains the Fairy Queen's magic essence.",
+        "item_id": [
+          "9020"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Queen's secateurs#Fairytale II",
+        "item_name": "Queen's secateurs"
+      }
+    }
+  ]
+}

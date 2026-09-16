@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3803,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3803,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Beer tankard",
+        "weight": 0.55,
+        "value": 20,
+        "examine": "Frothy and alcoholic.",
+        "item_id": [
+          "3803"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Beer tankard",
+        "item_name": "Beer tankard"
+      }
+    }
+  ]
+}

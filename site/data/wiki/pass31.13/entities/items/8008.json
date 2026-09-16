@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8008,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8008,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lumbridge teleport (tablet)",
+        "weight": 0,
+        "value": 1,
+        "examine": "A teleport to Lumbridge.",
+        "item_id": [
+          "8008"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lumbridge teleport (tablet)",
+        "item_name": "Lumbridge teleport"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10985,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10985,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fuse",
+        "weight": 1,
+        "value": 0,
+        "examine": "A fuse.",
+        "item_id": [
+          "10985"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fuse#Normal",
+        "item_name": "Fuse"
+      }
+    }
+  ]
+}

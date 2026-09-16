@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9984,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9984,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skewered bird meat",
+        "weight": 1.65,
+        "value": 81,
+        "examine": "Skewered bird meat.",
+        "item_id": [
+          "9984"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skewered bird meat",
+        "item_name": "Skewered bird meat"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6855,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6855,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bauble box",
+        "weight": 2,
+        "value": 1,
+        "examine": "A box full of painted baubles. Give to a Pixie or use to decorate a tree.",
+        "item_id": [
+          "6855"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bauble box#Full",
+        "item_name": "Bauble box"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11173,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11173,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half certificate",
+        "weight": 0,
+        "value": 10,
+        "examine": "I can use this to claim a reward from King Roald, if I get the other half.",
+        "item_id": [
+          "11173"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Half certificate#Left",
+        "item_name": "Half certificate"
+      }
+    }
+  ]
+}

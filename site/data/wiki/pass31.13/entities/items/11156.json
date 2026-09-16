@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11156,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11156,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Astral rune shards",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "An astral rune that has been broken into shards.",
+        "item_id": [
+          "11156"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Astral rune shards",
+        "item_name": "Astral rune shards"
+      }
+    }
+  ]
+}

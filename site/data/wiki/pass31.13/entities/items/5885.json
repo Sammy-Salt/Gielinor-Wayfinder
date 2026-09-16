@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5885,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5885,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon bitter(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 2 pints of mature Dragon Bitter.",
+        "item_id": [
+          "5885"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon bitter(m) (keg)#2 pints",
+        "item_name": "Dragon bitter(m2)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13157,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13157,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of Law page set",
+        "weight": 0.05,
+        "value": 7500,
+        "examine": "A set containing the four pages of Armadyl's Book of Law.",
+        "item_id": [
+          "13157"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Book of Law page set",
+        "item_name": "Book of Law page set"
+      }
+    }
+  ]
+}

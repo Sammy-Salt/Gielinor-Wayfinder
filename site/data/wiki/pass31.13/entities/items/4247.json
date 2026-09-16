@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4247,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4247,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystical robes",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "The Robes of Necrovarus.",
+        "item_id": [
+          "4247"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mystical robes",
+        "item_name": "Mystical robes"
+      }
+    }
+  ]
+}

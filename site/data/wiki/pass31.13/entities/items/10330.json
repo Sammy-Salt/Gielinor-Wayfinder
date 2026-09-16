@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10330,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10330,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "3rd Age range top",
+        "weight": 4,
+        "value": 50800,
+        "examine": "Fabulously ancient range protection crafted from white dragonhide.",
+        "item_id": [
+          "10330"
+        ],
+        "tradeable": true,
+        "page_name_sub": "3rd Age range top",
+        "item_name": "3rd Age range top"
+      }
+    }
+  ]
+}

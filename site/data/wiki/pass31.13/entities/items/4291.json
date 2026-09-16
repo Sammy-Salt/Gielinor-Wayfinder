@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4291,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4291,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked chicken (undead)",
+        "weight": 0.141,
+        "value": 4,
+        "examine": "This cooked chicken looks disgusting.",
+        "item_id": [
+          "4291"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked chicken (undead)",
+        "item_name": "Cooked chicken"
+      }
+    }
+  ]
+}

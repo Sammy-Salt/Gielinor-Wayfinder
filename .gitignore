@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Local test/build output
+*.log
+coverage.xml
+htmlcov/
+
+# Temporary project reports
+.audit-tmp/
+.release-tmp/

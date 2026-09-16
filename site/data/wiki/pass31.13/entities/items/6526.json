@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6526,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6526,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Toktz-mej-tal",
+        "weight": 1.814,
+        "value": 35000,
+        "examine": "A staff of obsidian.",
+        "item_id": [
+          "6526"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Toktz-mej-tal",
+        "item_name": "Toktz-mej-tal"
+      }
+    }
+  ]
+}

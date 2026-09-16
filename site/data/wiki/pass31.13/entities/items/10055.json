@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10055,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10055,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wood camo legs",
+        "weight": 0.226,
+        "value": 20,
+        "examine": "These should make me harder to spot in wooded areas.",
+        "item_id": [
+          "10055"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Wood camo legs#Inventory",
+        "item_name": "Wood camo legs"
+      }
+    }
+  ]
+}

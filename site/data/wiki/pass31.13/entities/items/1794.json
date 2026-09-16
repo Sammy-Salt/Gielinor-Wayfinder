@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1794,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1794,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze wire",
+        "weight": 0.005,
+        "value": 20,
+        "examine": "Useful for Crafting items.",
+        "item_id": [
+          "1794"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze wire",
+        "item_name": "Bronze wire"
+      }
+    }
+  ]
+}

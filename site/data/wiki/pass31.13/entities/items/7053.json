@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7053,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7053,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bug lantern",
+        "weight": 2.267,
+        "value": 130,
+        "examine": "A lantern to aid attacking Harpie bugs.",
+        "item_id": [
+          "7053"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bug lantern#Lit",
+        "item_name": "Lit bug lantern"
+      }
+    }
+  ]
+}

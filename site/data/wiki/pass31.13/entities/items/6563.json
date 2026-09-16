@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6563,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6563,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic mud staff",
+        "weight": 2.267,
+        "value": 45000,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "6563"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic mud staff",
+        "item_name": "Mystic mud staff"
+      }
+    }
+  ]
+}

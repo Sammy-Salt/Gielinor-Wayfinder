@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5682,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5682,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black dagger",
+        "weight": 0.453,
+        "value": 240,
+        "examine": "This dagger is poisoned.",
+        "item_id": [
+          "5682"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black dagger#(p+)",
+        "item_name": "Black dagger(p+)"
+      }
+    }
+  ]
+}

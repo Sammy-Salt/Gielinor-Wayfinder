@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5297,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5297,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Irit seed",
+        "weight": 0,
+        "value": 5,
+        "examine": "An irit seed - plant in a herb patch.",
+        "item_id": [
+          "5297"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Irit seed",
+        "item_name": "Irit seed"
+      }
+    }
+  ]
+}

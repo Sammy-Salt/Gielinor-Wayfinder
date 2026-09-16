@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2178,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2178,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw gnomebowl",
+        "weight": 0.3,
+        "value": 2,
+        "examine": "This gnome bowl needs cooking.",
+        "item_id": [
+          "2178"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Raw gnomebowl",
+        "item_name": "Raw gnomebowl"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1797,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1797,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver necklace",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "Anna's shiny silver coated necklace coated with a thin layer of flour.",
+        "item_id": [
+          "1797"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Silver necklace#Dusted",
+        "item_name": "Silver necklace"
+      }
+    }
+  ]
+}

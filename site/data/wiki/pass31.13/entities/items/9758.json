@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9758,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9758,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ranging hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Range skillcape hood.",
+        "item_id": [
+          "9758"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ranging hood",
+        "item_name": "Ranging hood"
+      }
+    }
+  ]
+}

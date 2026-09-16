@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9241,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9241,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Emerald bolts (e)",
+        "weight": 0,
+        "value": 59,
+        "examine": "Enchanted Emerald tipped Mithril Crossbow Bolts.",
+        "item_id": [
+          "9241"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Emerald bolts (e)",
+        "item_name": "Emerald bolts (e)"
+      }
+    }
+  ]
+}

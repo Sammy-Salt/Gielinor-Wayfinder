@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11377,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11377,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune hasta",
+        "weight": 2.267,
+        "value": 20800,
+        "examine": "A rune-tipped, one-handed hasta.",
+        "item_id": [
+          "11377"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune hasta#(unp)",
+        "item_name": "Rune hasta"
+      }
+    }
+  ]
+}

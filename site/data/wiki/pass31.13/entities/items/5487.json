@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5487,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5487,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Calquat seedling",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "A Calquat tree seed has been sown in this plant pot.",
+        "item_id": [
+          "5487"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Calquat seedling#Unwatered",
+        "item_name": "Calquat seedling"
+      }
+    }
+  ]
+}

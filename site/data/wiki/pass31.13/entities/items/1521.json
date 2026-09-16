@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1521,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1521,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak logs",
+        "weight": 2,
+        "value": 20,
+        "examine": "Logs cut from an oak tree.",
+        "item_id": [
+          "1521"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak logs",
+        "item_name": "Oak logs"
+      }
+    }
+  ]
+}

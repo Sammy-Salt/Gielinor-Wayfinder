@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9921,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9921,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skeleton boots",
+        "weight": 1,
+        "value": 1,
+        "examine": "Skeleton feet.",
+        "item_id": [
+          "9921"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Skeleton boots",
+        "item_name": "Skeleton boots"
+      }
+    }
+  ]
+}

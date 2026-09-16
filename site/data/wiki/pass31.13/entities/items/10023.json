@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10023,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10023,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Falconer's glove",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "A very large, single leather glove.",
+        "item_id": [
+          "10023"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Falconer's glove#No Falcon",
+        "item_name": "Falconer's glove"
+      }
+    }
+  ]
+}

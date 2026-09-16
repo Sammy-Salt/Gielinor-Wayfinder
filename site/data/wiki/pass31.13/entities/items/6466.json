@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6466,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6466,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune shards",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A rune essence chip that has been broken into shards.",
+        "item_id": [
+          "6466"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rune shards",
+        "item_name": "Rune shards"
+      }
+    }
+  ]
+}

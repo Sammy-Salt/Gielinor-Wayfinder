@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5525,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5525,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tiara",
+        "weight": 1,
+        "value": 100,
+        "examine": "Makes me feel like a Princess.",
+        "item_id": [
+          "5525"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tiara",
+        "item_name": "Tiara"
+      }
+    }
+  ]
+}

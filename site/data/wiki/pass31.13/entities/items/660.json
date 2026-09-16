@@ -1,0 +1,25 @@
+{
+  "canonicalId": 660,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 660,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue hat",
+        "weight": 0.453,
+        "value": 160,
+        "examine": "A silly blue pointed hat.",
+        "item_id": [
+          "660"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue hat",
+        "item_name": "Blue hat"
+      }
+    }
+  ]
+}

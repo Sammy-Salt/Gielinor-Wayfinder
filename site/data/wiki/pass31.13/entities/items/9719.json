@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9719,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9719,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lever schematic",
+        "weight": 0.1,
+        "value": 1,
+        "examine": "A scroll with a lever schematic drawn on it.",
+        "item_id": [
+          "9719"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lever schematic",
+        "item_name": "Lever schematic"
+      }
+    }
+  ]
+}

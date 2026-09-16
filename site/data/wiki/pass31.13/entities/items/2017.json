@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2017,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2017,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Whisky",
+        "weight": 1,
+        "value": 5,
+        "examine": "A bottle of Draynor Malt.",
+        "item_id": [
+          "2017"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Whisky",
+        "item_name": "Whisky"
+      }
+    }
+  ]
+}

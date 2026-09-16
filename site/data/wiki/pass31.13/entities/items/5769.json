@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5769,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5769,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Calquat keg",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "Sliced and hollowed out to form a keg.",
+        "item_id": [
+          "5769"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Calquat keg",
+        "item_name": "Calquat keg"
+      }
+    }
+  ]
+}

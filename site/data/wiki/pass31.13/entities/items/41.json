@@ -1,0 +1,25 @@
+{
+  "canonicalId": 41,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 41,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel arrowtips",
+        "weight": 0,
+        "value": 6,
+        "examine": "I can make some arrows with these.",
+        "item_id": [
+          "41"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel arrowtips",
+        "item_name": "Steel arrowtips"
+      }
+    }
+  ]
+}

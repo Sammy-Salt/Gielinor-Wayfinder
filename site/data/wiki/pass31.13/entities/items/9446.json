@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9446,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9446,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak stock",
+        "weight": 3,
+        "value": 77,
+        "examine": "A teak crossbow stock.",
+        "item_id": [
+          "9446"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak stock",
+        "item_name": "Teak stock"
+      }
+    }
+  ]
+}

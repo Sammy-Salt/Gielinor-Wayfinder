@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5050,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5050,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skirt (lilac)",
+        "weight": 0.08,
+        "value": 550,
+        "examine": "Lilac skirt.",
+        "item_id": [
+          "5050"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skirt (lilac)",
+        "item_name": "Skirt"
+      }
+    }
+  ]
+}

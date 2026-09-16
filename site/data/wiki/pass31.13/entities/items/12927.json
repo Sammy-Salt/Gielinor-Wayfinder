@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12927,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12927,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Serpentine visage",
+        "weight": 1,
+        "value": 105000,
+        "examine": "Maybe you could use a chisel to craft this into a helmet.",
+        "item_id": [
+          "12927"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Serpentine visage",
+        "item_name": "Serpentine visage"
+      }
+    }
+  ]
+}

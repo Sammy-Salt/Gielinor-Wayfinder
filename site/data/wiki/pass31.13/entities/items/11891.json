@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11891,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11891,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Saradomin banner",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "The Saradomin Team Standard.",
+        "item_id": [
+          "11891"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Saradomin banner#Reward",
+        "item_name": "Saradomin banner"
+      }
+    }
+  ]
+}

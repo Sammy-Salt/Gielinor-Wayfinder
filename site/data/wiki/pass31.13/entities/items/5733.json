@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5733,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5733,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rotten potato",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "Yuk!",
+        "item_id": [
+          "5733"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rotten potato",
+        "item_name": "Rotten potato"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11384,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11384,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze hasta",
+        "weight": 2.267,
+        "value": 26,
+        "examine": "A poison-tipped, one-handed bronze hasta.",
+        "item_id": [
+          "11384"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze hasta#(p++)",
+        "item_name": "Bronze hasta(p++)"
+      }
+    }
+  ]
+}

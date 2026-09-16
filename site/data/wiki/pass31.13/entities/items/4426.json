@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4426,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4426,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Comfy mattress",
+        "weight": 15,
+        "value": 1,
+        "examine": "A comfy-looking feather mattress.",
+        "item_id": [
+          "4426"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Comfy mattress",
+        "item_name": "Comfy mattress"
+      }
+    }
+  ]
+}

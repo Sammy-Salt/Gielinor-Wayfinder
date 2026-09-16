@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4562,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4562,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red sweets",
+        "weight": 0.01,
+        "value": 0,
+        "examine": "Not likely to last until next Halloween.",
+        "item_id": [
+          "4562"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red sweets",
+        "item_name": "Red sweets"
+      }
+    }
+  ]
+}

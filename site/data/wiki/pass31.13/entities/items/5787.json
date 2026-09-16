@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5787,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5787,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Greenmans ale (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 1 pint of Greenmans Ale.",
+        "item_id": [
+          "5787"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Greenmans ale (keg)#1 pint",
+        "item_name": "Greenmans ale(1)"
+      }
+    }
+  ]
+}

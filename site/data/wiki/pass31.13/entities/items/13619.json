@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13619,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13619,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful top (Shayzien)",
+        "weight": 0.9,
+        "value": 55,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13619"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful top (Shayzien)#Inventory",
+        "item_name": "Graceful top"
+      }
+    }
+  ]
+}

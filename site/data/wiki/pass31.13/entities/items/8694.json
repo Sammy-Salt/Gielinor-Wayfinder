@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8694,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8694,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel heraldic helm (HAM)",
+        "weight": 2.721,
+        "value": 600,
+        "examine": "The colours represent the HAM cult.",
+        "item_id": [
+          "8694"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel heraldic helm (HAM)",
+        "item_name": "Steel heraldic helm"
+      }
+    }
+  ]
+}

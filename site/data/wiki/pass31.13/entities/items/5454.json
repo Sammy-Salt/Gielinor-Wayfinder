@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5454,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5454,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Onions",
+        "weight": 4.082,
+        "value": 1,
+        "examine": "There are 8 onions in this sack.",
+        "item_id": [
+          "5454"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Onions#8",
+        "item_name": "Onions(8)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 34,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 34,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lit candle (unobtainable item)",
+        "weight": 0,
+        "value": 0,
+        "examine": "A lit candle.",
+        "item_id": [
+          "34"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lit candle (unobtainable item)",
+        "item_name": "Lit candle"
+      }
+    }
+  ]
+}

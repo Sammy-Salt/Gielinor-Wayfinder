@@ -1,0 +1,25 @@
+{
+  "canonicalId": 449,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 449,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamantite ore",
+        "weight": 2.721,
+        "value": 400,
+        "examine": "This needs refining.",
+        "item_id": [
+          "449"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamantite ore",
+        "item_name": "Adamantite ore"
+      }
+    }
+  ]
+}

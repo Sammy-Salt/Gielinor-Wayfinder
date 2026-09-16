@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6326,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6326,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Snakeskin bandana",
+        "weight": 0.907,
+        "value": 300,
+        "examine": "Lightweight head protection.",
+        "item_id": [
+          "6326"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Snakeskin bandana",
+        "item_name": "Snakeskin bandana"
+      }
+    }
+  ]
+}

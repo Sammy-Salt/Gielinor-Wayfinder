@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1595,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1595,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Amulet mould",
+        "weight": 0.453,
+        "value": 5,
+        "examine": "Used to make amulets.",
+        "item_id": [
+          "1595"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Amulet mould",
+        "item_name": "Amulet mould"
+      }
+    }
+  ]
+}

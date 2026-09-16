@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4819,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4819,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze nails",
+        "weight": 0,
+        "value": 2,
+        "examine": "Keeps things in place fairly permanently.",
+        "item_id": [
+          "4819"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze nails",
+        "item_name": "Bronze nails"
+      }
+    }
+  ]
+}

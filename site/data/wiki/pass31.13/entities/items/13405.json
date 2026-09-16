@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13405,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13405,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery tomato",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "This would make good pizza topping.",
+        "item_id": [
+          "13405"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery tomato",
+        "item_name": "Servery tomato"
+      }
+    }
+  ]
+}

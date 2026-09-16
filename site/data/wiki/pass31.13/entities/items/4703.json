@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4703,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4703,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic stone (Tears of Guthix)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "Doesn't look very special.",
+        "item_id": [
+          "4703"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic stone (Tears of Guthix)",
+        "item_name": "Magic stone"
+      }
+    }
+  ]
+}

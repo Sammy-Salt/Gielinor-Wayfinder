@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12157,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12157,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (elite) - 'See you in your dreams' said the vegetable man",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "12157"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (elite) - 'See you in your dreams' said the vegetable man",
+        "item_name": "Clue scroll (elite)"
+      }
+    }
+  ]
+}

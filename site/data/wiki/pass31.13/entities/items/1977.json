@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1977,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1977,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chocolatey milk",
+        "weight": 2,
+        "value": 2,
+        "examine": "Milk with chocolate in it.",
+        "item_id": [
+          "1977"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chocolatey milk",
+        "item_name": "Chocolatey milk"
+      }
+    }
+  ]
+}

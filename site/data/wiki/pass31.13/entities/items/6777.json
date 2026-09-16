@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6777,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6777,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rat pole",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A pole with four rats on it.",
+        "item_id": [
+          "6777"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rat pole#Four rats",
+        "item_name": "Rat pole"
+      }
+    }
+  ]
+}

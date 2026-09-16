@@ -1,0 +1,134 @@
+{
+  "formatVersion": 1,
+  "release": "PASS31.8",
+  "generatedFrom": "PASS31.7_REAL_WIKI_SNAPSHOTS",
+  "policy": "conservative-exact-resolution; ambiguous and unmatched records are never auto-merged",
+  "snapshots": [
+    {
+      "filename": "drops.json",
+      "sha256": "57fd68971aa5ef5e0597b1bb45e9bdb9a426f644491629c2db74a96f54ed6e6d",
+      "bytes": 22452029,
+      "rowCount": 39529,
+      "snapshotVersion": 2,
+      "source": "osrs-wiki",
+      "fetchedAt": "2026-09-10T20:24:49.897046+00:00",
+      "omittedFields": [
+        "needs_exact_rarity"
+      ]
+    },
+    {
+      "filename": "equipment.json",
+      "sha256": "5cc227583f4ce41642c8c0be68ea528094d47d305cd15a0641b73e99c8a3d557",
+      "bytes": 2948364,
+      "rowCount": 5767,
+      "snapshotVersion": 2,
+      "source": "osrs-wiki",
+      "fetchedAt": "2026-09-10T20:24:36.053879+00:00",
+      "omittedFields": [
+        "ranged_attack_bonus",
+        "ranged_defence_bonus",
+        "equipment_type"
+      ]
+    },
+    {
+      "filename": "items.json",
+      "sha256": "d48063345b845028debdddb814e3e636af3fc02116060d1099b692888b64ae56",
+      "bytes": 5268216,
+      "rowCount": 16887,
+      "snapshotVersion": 2,
+      "source": "osrs-wiki",
+      "fetchedAt": "2026-09-10T20:24:33.366992+00:00",
+      "omittedFields": [
+        "members"
+      ]
+    },
+    {
+      "filename": "monsters.json",
+      "sha256": "5e23202c9da795c000b47fc0438044967585383ad8bfeb0bf6c6c562f41e74fb",
+      "bytes": 1065598,
+      "rowCount": 3241,
+      "snapshotVersion": 2,
+      "source": "osrs-wiki",
+      "fetchedAt": "2026-09-10T20:24:37.031110+00:00",
+      "omittedFields": [
+        "monster_id"
+      ]
+    },
+    {
+      "filename": "recipe.json",
+      "sha256": "968d31ca600a70e3f21a118037b149e9e5558a6fc08721b0b161629c6eff8f00",
+      "bytes": 5725034,
+      "rowCount": 7708,
+      "snapshotVersion": 2,
+      "source": "osrs-wiki",
+      "fetchedAt": "2026-09-10T20:24:55.233556+00:00",
+      "omittedFields": [
+        "sequence",
+        "production_main_output",
+        "production_output",
+        "uses_process",
+        "ticks",
+        "ticks_secondary",
+        "ticks_note"
+      ]
+    }
+  ],
+  "statistics": {
+    "items": {
+      "rows": 16887,
+      "resolved": 7487,
+      "ambiguous": 456,
+      "unmatched": 8944,
+      "methods": {
+        "exact-id": 7223,
+        "exact-name": 264
+      }
+    },
+    "equipment": {
+      "rows": 5767,
+      "resolved": 279,
+      "ambiguous": 771,
+      "unmatched": 4717,
+      "methods": {
+        "exact-name": 279
+      }
+    },
+    "monsters": {
+      "rows": 3241,
+      "resolved": 812,
+      "ambiguous": 1173,
+      "unmatched": 1256,
+      "methods": {
+        "exact-name+stats": 390,
+        "exact-name": 422
+      }
+    },
+    "drops": {
+      "rows": 39529,
+      "fullyLinked": 907,
+      "itemLinked": 6981,
+      "itemAmbiguous": 21929,
+      "itemUnmatched": 10619,
+      "monsterLinked": 5464,
+      "monsterAmbiguous": 6054,
+      "monsterUnmatched": 28011
+    },
+    "recipes": {
+      "rows": 7708,
+      "fullyLinked": 243,
+      "outputLinked": 851,
+      "outputAmbiguous": 1378,
+      "outputUnmatched": 5479,
+      "materialsTotal": 11382,
+      "materialsLinked": 1467,
+      "materialsAmbiguous": 5142,
+      "materialsUnmatched": 4773
+    }
+  },
+  "artifacts": {
+    "resolvedEntitySidecars": "entities/",
+    "fullyLinkedDrops": "relationships/drops.json",
+    "fullyLinkedRecipes": "relationships/recipes.json",
+    "reviewQueues": "review/"
+  }
+}

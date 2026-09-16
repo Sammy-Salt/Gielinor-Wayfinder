@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7508,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7508,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Asgoldian ale",
+        "weight": 0.55,
+        "value": 2,
+        "examine": "There appears to be a coin in the bottom. Liked by dwarves.",
+        "item_id": [
+          "7508"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Asgoldian ale",
+        "item_name": "Asgoldian ale"
+      }
+    }
+  ]
+}

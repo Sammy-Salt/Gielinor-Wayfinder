@@ -1,0 +1,25 @@
+{
+  "canonicalId": 60,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 60,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Willow shortbow (u)",
+        "weight": 0.992,
+        "value": 100,
+        "examine": "An unstrung willow shortbow; I need a bowstring for this.",
+        "item_id": [
+          "60"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Willow shortbow (u)",
+        "item_name": "Willow shortbow (u)"
+      }
+    }
+  ]
+}

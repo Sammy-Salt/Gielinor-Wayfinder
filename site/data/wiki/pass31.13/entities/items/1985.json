@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1985,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1985,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cheese",
+        "weight": 0.2,
+        "value": 4,
+        "examine": "It's got holes in it.",
+        "item_id": [
+          "1985"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cheese",
+        "item_name": "Cheese"
+      }
+    }
+  ]
+}

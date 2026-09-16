@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1856,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1856,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guide book",
+        "weight": 7.257,
+        "value": 1,
+        "examine": "A Tourist's Guide To Ardougne.",
+        "item_id": [
+          "1856"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guide book",
+        "item_name": "Guide book"
+      }
+    }
+  ]
+}

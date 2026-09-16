@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7145,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7145,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cannon barrel (Cabin Fever)",
+        "weight": 32,
+        "value": 1,
+        "examine": "A working cannon barrel.",
+        "item_id": [
+          "7145"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cannon barrel (Cabin Fever)",
+        "item_name": "Cannon barrel"
+      }
+    }
+  ]
+}

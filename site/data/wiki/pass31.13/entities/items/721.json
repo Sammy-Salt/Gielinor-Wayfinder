@@ -1,0 +1,25 @@
+{
+  "canonicalId": 721,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 721,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gold bowl",
+        "weight": 0.8,
+        "value": 700,
+        "examine": "A specially-made bowl constructed out of pure gold.",
+        "item_id": [
+          "721"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Gold bowl",
+        "item_name": "Gold bowl"
+      }
+    }
+  ]
+}

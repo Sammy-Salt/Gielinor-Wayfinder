@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7995,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7995,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Arthur portrait",
+        "weight": 1,
+        "value": 1000,
+        "examine": "A portrait of King Arthur.",
+        "item_id": [
+          "7995"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Arthur portrait",
+        "item_name": "Arthur portrait"
+      }
+    }
+  ]
+}

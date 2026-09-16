@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9056,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9056,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yellow goblin mail",
+        "weight": 3.628,
+        "value": 40,
+        "examine": "Some yellow armour designed to fit goblins.",
+        "item_id": [
+          "9056"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yellow goblin mail",
+        "item_name": "Yellow goblin mail"
+      }
+    }
+  ]
+}

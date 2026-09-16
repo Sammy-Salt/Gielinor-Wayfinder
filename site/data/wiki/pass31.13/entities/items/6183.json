@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6183,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6183,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frog token",
+        "weight": 0.01,
+        "value": 0,
+        "examine": "Valid at Thessalia's Fine Clothes, in Varrock.",
+        "item_id": [
+          "6183"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frog token",
+        "item_name": "Frog token"
+      }
+    }
+  ]
+}

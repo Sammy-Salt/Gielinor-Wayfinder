@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4829,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4829,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of 'H.A.M'",
+        "weight": 1,
+        "value": 1,
+        "examine": "A book of H.A.M affiliation.",
+        "item_id": [
+          "4829"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book of 'H.A.M'",
+        "item_name": "Book of 'H.A.M'"
+      }
+    }
+  ]
+}

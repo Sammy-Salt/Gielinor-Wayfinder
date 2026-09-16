@@ -1,0 +1,25 @@
+{
+  "canonicalId": 117,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 117,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strength potion",
+        "weight": 0.025,
+        "value": 13,
+        "examine": "2 doses of Strength potion.",
+        "item_id": [
+          "117"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Strength potion#(2)",
+        "item_name": "Strength potion(2)"
+      }
+    }
+  ]
+}

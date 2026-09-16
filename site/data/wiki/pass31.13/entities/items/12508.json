@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12508,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12508,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armadyl d'hide body",
+        "weight": 6,
+        "value": 13000,
+        "examine": "Armadyl blessed dragonhide body armour.",
+        "item_id": [
+          "12508"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Armadyl d'hide body",
+        "item_name": "Armadyl d'hide body"
+      }
+    }
+  ]
+}

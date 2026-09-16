@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5067,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5067,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Exquisite clothes",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Clothes for the sculptor's model.",
+        "item_id": [
+          "5067"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Exquisite clothes",
+        "item_name": "Exquisite clothes"
+      }
+    }
+  ]
+}

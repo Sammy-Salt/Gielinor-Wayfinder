@@ -1,0 +1,25 @@
+{
+  "canonicalId": 101,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 101,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Irit potion (unf)",
+        "weight": 0.056,
+        "value": 40,
+        "examine": "I need another ingredient to finish this Irit potion.",
+        "item_id": [
+          "101"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Irit potion (unf)",
+        "item_name": "Irit potion (unf)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11816,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11816,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak hilt",
+        "weight": 2.5,
+        "value": 500000,
+        "examine": "Brimming with potential.",
+        "item_id": [
+          "11816"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak hilt",
+        "item_name": "Zamorak hilt"
+      }
+    }
+  ]
+}

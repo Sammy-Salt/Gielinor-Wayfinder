@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1401,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1401,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic fire staff",
+        "weight": 2.267,
+        "value": 42500,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "1401"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic fire staff",
+        "item_name": "Mystic fire staff"
+      }
+    }
+  ]
+}

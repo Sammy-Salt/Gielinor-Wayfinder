@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11344,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11344,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient page",
+        "weight": 0.003,
+        "value": 0,
+        "examine": "Was this once a shopping list?",
+        "item_id": [
+          "11344"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient page#4",
+        "item_name": "Ancient page"
+      }
+    }
+  ]
+}

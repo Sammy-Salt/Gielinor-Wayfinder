@@ -1,0 +1,25 @@
+{
+  "canonicalId": 265,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 265,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cadantine",
+        "weight": 0.007,
+        "value": 65,
+        "examine": "A powerful herb.",
+        "item_id": [
+          "265"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cadantine",
+        "item_name": "Cadantine"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12742,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12742,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Box trap pack",
+        "weight": 4.989,
+        "value": 3200,
+        "examine": "A pack containing 100 box traps.",
+        "item_id": [
+          "12742"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Box trap pack",
+        "item_name": "Box trap pack"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2995,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2995,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chompy bird hat (expert dragon archer)",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A symbol of your chompy bird hunting prowess: Expert Dragon Archer (4,000 kills)",
+        "item_id": [
+          "2995"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chompy bird hat (expert dragon archer)",
+        "item_name": "Chompy bird hat"
+      }
+    }
+  ]
+}

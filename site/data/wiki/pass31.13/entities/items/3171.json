@@ -1,0 +1,40 @@
+{
+  "canonicalId": 3171,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3171,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron spear",
+        "weight": 2.267,
+        "value": 91,
+        "examine": "A Karambwan poisoned iron tipped spear.",
+        "item_id": [
+          "3171"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Iron spear#(kp)",
+        "item_name": "Iron spear(kp)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3171,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Iron spear",
+        "page_name_sub": "Iron spear#(kp)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

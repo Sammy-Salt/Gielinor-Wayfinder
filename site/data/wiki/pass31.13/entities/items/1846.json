@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1846,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1846,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slave boots",
+        "weight": 0.68,
+        "value": 1,
+        "examine": "A set of filthy, smelly, flea infested desert slave boots.",
+        "item_id": [
+          "1846"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slave boots",
+        "item_name": "Slave boots"
+      }
+    }
+  ]
+}

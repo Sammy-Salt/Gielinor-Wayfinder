@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2225,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2225,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Premade fr't batta",
+        "weight": 0.25,
+        "value": 120,
+        "examine": "A premade Fruit Batta.",
+        "item_id": [
+          "2225"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Premade fr't batta",
+        "item_name": "Premade fr't batta"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7463,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7463,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cornflour",
+        "weight": 0.5,
+        "value": 2,
+        "examine": "A little heap of cornflour.",
+        "item_id": [
+          "7463"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cornflour#Untradeable",
+        "item_name": "Cornflour"
+      }
+    }
+  ]
+}

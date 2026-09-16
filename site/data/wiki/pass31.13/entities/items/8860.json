@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8860,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8860,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "One barrel",
+        "weight": 4.535,
+        "value": 1,
+        "examine": "To put on your head.",
+        "item_id": [
+          "8860"
+        ],
+        "tradeable": false,
+        "page_name_sub": "One barrel",
+        "item_name": "One barrel"
+      }
+    }
+  ]
+}

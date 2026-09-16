@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8964,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8964,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple tricorn hat",
+        "weight": 0.003,
+        "value": 50,
+        "examine": "I could never look square in this.",
+        "item_id": [
+          "8964"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Purple tricorn hat",
+        "item_name": "Purple tricorn hat"
+      }
+    }
+  ]
+}

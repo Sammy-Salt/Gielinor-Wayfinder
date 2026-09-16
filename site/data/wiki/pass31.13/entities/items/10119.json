@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10119,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10119,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Feldip weasel fur",
+        "weight": 0.453,
+        "value": 14,
+        "examine": "Not actually from a weasel, but it is, at least, furry.",
+        "item_id": [
+          "10119"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Feldip weasel fur",
+        "item_name": "Feldip weasel fur"
+      }
+    }
+  ]
+}

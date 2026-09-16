@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7986,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7986,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stuffed abyssal head",
+        "weight": 10,
+        "value": 12000,
+        "examine": "I could mount this on my wall!",
+        "item_id": [
+          "7986"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stuffed abyssal head",
+        "item_name": "Stuffed abyssal head"
+      }
+    }
+  ]
+}

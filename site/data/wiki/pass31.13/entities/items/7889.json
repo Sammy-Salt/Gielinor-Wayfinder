@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7889,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7889,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seagull wing",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This bone belongs in a museum!",
+        "item_id": [
+          "7889"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seagull wing#Polished",
+        "item_name": "Seagull wing"
+      }
+    }
+  ]
+}

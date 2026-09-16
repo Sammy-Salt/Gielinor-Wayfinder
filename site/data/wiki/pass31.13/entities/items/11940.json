@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11940,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11940,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark fishing bait",
+        "weight": 0,
+        "value": 3,
+        "examine": "What on earth would eat this?",
+        "item_id": [
+          "11940"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dark fishing bait",
+        "item_name": "Dark fishing bait"
+      }
+    }
+  ]
+}

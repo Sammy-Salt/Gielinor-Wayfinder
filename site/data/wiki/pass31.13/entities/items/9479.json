@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9479,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9479,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished batta (fruit)",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "This fruit batta needs garnishing with spice.",
+        "item_id": [
+          "9479"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unfinished batta (fruit)",
+        "item_name": "Unfinished batta"
+      }
+    }
+  ]
+}

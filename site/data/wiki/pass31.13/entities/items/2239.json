@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2239,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2239,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Premade ch' crunch",
+        "weight": 0.25,
+        "value": 85,
+        "examine": "Some Premade chocchip crunchies.",
+        "item_id": [
+          "2239"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Premade ch' crunch",
+        "item_name": "Premade ch' crunch"
+      }
+    }
+  ]
+}

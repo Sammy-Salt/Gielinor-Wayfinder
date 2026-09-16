@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4730,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4730,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthan's chainskirt",
+        "weight": 8.164,
+        "value": 275000,
+        "examine": "Guthan the Infested's chainskirt.",
+        "item_id": [
+          "4730"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthan's chainskirt#Undamaged",
+        "item_name": "Guthan's chainskirt"
+      }
+    }
+  ]
+}

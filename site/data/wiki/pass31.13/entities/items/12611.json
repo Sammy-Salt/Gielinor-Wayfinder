@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12611,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12611,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Damaged book (Ancient)",
+        "weight": 1,
+        "value": 200,
+        "examine": "An incomplete book of a forgotten god.",
+        "item_id": [
+          "12611"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Damaged book (Ancient)",
+        "item_name": "Damaged book"
+      }
+    }
+  ]
+}

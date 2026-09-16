@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12494,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12494,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient chaps",
+        "weight": 5,
+        "value": 6000,
+        "examine": "Ancient blessed dragonhide chaps.",
+        "item_id": [
+          "12494"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient chaps",
+        "item_name": "Ancient chaps"
+      }
+    }
+  ]
+}

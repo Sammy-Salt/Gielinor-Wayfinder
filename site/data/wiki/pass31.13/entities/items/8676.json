@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8676,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8676,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banner (Skull)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A banner with a picture of a skull.",
+        "item_id": [
+          "8676"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Banner (Skull)",
+        "item_name": "Banner"
+      }
+    }
+  ]
+}

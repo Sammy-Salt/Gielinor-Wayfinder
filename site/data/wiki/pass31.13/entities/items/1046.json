@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1046,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1046,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple partyhat",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "A nice hat from a cracker.",
+        "item_id": [
+          "1046"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple partyhat",
+        "item_name": "Purple partyhat"
+      }
+    }
+  ]
+}

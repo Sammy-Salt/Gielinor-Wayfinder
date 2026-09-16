@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7148,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7148,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Repair plank",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "A plank of wood to repair the hull with.",
+        "item_id": [
+          "7148"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Repair plank",
+        "item_name": "Repair plank"
+      }
+    }
+  ]
+}

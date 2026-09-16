@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8979,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8979,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bridge section",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Caution; not for use over troubled water.",
+        "item_id": [
+          "8979"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bridge section",
+        "item_name": "Bridge section"
+      }
+    }
+  ]
+}

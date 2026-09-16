@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4544,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4544,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bullseye lantern (unf)",
+        "weight": 1.36,
+        "value": 300,
+        "examine": "You need to add a lens before you can use it.",
+        "item_id": [
+          "4544"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bullseye lantern (unf)",
+        "item_name": "Bullseye lantern (unf)"
+      }
+    }
+  ]
+}

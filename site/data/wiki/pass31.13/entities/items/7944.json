@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7944,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7944,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw monkfish",
+        "weight": 0.45,
+        "value": 230,
+        "examine": "I should try cooking this.",
+        "item_id": [
+          "7944"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw monkfish",
+        "item_name": "Raw monkfish"
+      }
+    }
+  ]
+}

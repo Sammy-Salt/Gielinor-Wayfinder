@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4970,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4970,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torag's platelegs",
+        "weight": 9.071,
+        "value": 275000,
+        "examine": "Torag the Corrupted's plate leg armour.",
+        "item_id": [
+          "4970"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Torag's platelegs#100",
+        "item_name": "Torag's platelegs 100"
+      }
+    }
+  ]
+}

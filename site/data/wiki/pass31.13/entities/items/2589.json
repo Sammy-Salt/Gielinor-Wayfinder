@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2589,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2589,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black kiteshield (t)",
+        "weight": 5.443,
+        "value": 1632,
+        "examine": "Black kiteshield with trim.",
+        "item_id": [
+          "2589"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black kiteshield (t)",
+        "item_name": "Black kiteshield (t)"
+      }
+    }
+  ]
+}

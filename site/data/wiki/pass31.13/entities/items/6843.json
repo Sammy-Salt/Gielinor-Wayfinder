@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6843,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6843,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tree bauble",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "A bauble shaped like a wintumber tree painted blue.",
+        "item_id": [
+          "6843"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tree bauble#Blue",
+        "item_name": "Tree bauble"
+      }
+    }
+  ]
+}

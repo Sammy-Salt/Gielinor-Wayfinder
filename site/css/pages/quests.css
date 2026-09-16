@@ -1,0 +1,4 @@
+/* Quests: layout-only rules. */
+.quest-toolbar{margin:20px 0}.quest-summary{margin:15px 0}.quest-card{padding:15px;margin:12px 0}.quest-title{font-size:20px;margin-bottom:6px}.quest-meta{margin-bottom:10px}.quest-status{margin:10px 0;padding:8px}.req-list{margin:8px 0;padding-left:20px}.quest-buttons{margin-top:12px}.plan-preview{margin-top:12px}.plan-item{padding:5px 0}.quest-debug{font-family:monospace;font-size:13px}
+
+.quest-card-link{display:block;color:inherit;text-decoration:none}.quest-card-link:hover .quest-title{text-decoration:underline}.quest-requirements{color:var(--osrs-muted);font-size:.86rem}

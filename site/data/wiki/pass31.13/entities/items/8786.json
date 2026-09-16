@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8786,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8786,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Marble block",
+        "weight": 13.607,
+        "value": 250000,
+        "examine": "A beautifully carved marble block.",
+        "item_id": [
+          "8786"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Marble block",
+        "item_name": "Marble block"
+      }
+    }
+  ]
+}

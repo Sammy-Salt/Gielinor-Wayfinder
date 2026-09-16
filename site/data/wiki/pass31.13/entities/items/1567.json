@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1567,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1567,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Overgrown cat",
+        "weight": 2.5,
+        "value": 1,
+        "examine": "This cat is so well fed it can hardly move.",
+        "item_id": [
+          "1567"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Overgrown cat#Grey and black",
+        "item_name": "Pet cat"
+      }
+    }
+  ]
+}

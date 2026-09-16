@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1037,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1037,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bunny ears",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "A rabbit-like adornment.",
+        "item_id": [
+          "1037"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bunny ears",
+        "item_name": "Bunny ears"
+      }
+    }
+  ]
+}

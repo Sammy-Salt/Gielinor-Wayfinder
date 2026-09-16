@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8880,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8880,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dorgeshuun crossbow",
+        "weight": 2.267,
+        "value": 2000,
+        "examine": "This fires crossbow bolts.",
+        "item_id": [
+          "8880"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dorgeshuun crossbow",
+        "item_name": "Dorgeshuun crossbow"
+      }
+    }
+  ]
+}

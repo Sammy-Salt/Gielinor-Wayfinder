@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6703,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6703,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potato with butter",
+        "weight": 0.5,
+        "value": 8,
+        "examine": "A baked potato with butter.",
+        "item_id": [
+          "6703"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potato with butter",
+        "item_name": "Potato with butter"
+      }
+    }
+  ]
+}

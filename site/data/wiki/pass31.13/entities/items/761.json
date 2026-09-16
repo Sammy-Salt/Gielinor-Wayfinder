@@ -1,0 +1,25 @@
+{
+  "canonicalId": 761,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 761,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Intel report",
+        "weight": 0.02,
+        "value": 10,
+        "examine": "An intelligence report.",
+        "item_id": [
+          "761"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Intel report",
+        "item_name": "Intel report"
+      }
+    }
+  ]
+}

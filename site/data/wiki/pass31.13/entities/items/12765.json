@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12765,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12765,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark bow",
+        "weight": 1.814,
+        "value": 120002,
+        "examine": "A bow from a darker dimension, painted green.",
+        "item_id": [
+          "12765"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dark bow#Green",
+        "item_name": "Dark bow"
+      }
+    }
+  ]
+}

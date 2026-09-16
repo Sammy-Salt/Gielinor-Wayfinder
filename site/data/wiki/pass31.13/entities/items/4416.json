@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4416,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4416,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Herbal tincture",
+        "weight": 0.15,
+        "value": 100,
+        "examine": "A strong medicinal brew for heavy chests.",
+        "item_id": [
+          "4416"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Herbal tincture",
+        "item_name": "Herbal tincture"
+      }
+    }
+  ]
+}

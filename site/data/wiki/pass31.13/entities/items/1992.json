@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1992,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1992,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jug of bad wine (unobtainable item)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Oh dear, this wine is terrible!",
+        "item_id": [
+          "1992"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Jug of bad wine (unobtainable item)",
+        "item_name": "Jug of bad wine"
+      }
+    }
+  ]
+}

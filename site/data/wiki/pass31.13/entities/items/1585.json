@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1585,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1585,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oily fishing rod",
+        "weight": 1.36,
+        "value": 15,
+        "examine": "Useful for catching lava eels.",
+        "item_id": [
+          "1585"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Oily fishing rod",
+        "item_name": "Oily fishing rod"
+      }
+    }
+  ]
+}

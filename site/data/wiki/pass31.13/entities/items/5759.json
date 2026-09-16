@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5759,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5759,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer's respite",
+        "weight": 0.55,
+        "value": 2,
+        "examine": "Ale with bite.",
+        "item_id": [
+          "5759"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Slayer's respite",
+        "item_name": "Slayer's respite"
+      }
+    }
+  ]
+}

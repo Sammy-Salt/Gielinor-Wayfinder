@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10589,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10589,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Granite helm",
+        "weight": 4.535,
+        "value": 46000,
+        "examine": "A stone helmet.",
+        "item_id": [
+          "10589"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Granite helm",
+        "item_name": "Granite helm"
+      }
+    }
+  ]
+}

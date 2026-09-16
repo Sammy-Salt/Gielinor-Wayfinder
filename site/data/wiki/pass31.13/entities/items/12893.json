@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12893,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12893,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Antisanta jacket",
+        "weight": 0.3,
+        "value": 0,
+        "examine": "Keeps your bones warm.",
+        "item_id": [
+          "12893"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Antisanta jacket",
+        "item_name": "Antisanta jacket"
+      }
+    }
+  ]
+}

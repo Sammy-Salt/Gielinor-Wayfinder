@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2934,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2934,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple boots",
+        "weight": 0.34,
+        "value": 500,
+        "examine": "Very stylish!",
+        "item_id": [
+          "2934"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple boots",
+        "item_name": "Purple boots"
+      }
+    }
+  ]
+}

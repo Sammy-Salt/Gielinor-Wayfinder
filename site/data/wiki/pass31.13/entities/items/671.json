@@ -1,0 +1,25 @@
+{
+  "canonicalId": 671,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 671,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Animal skull",
+        "weight": 0.085,
+        "value": 1,
+        "examine": "A carefully-kept-safe skull sample.",
+        "item_id": [
+          "671"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Animal skull",
+        "item_name": "Animal skull"
+      }
+    }
+  ]
+}

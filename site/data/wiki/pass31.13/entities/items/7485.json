@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7485,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7485,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange spice",
+        "weight": 0.001,
+        "value": 130,
+        "examine": "Allows for equal distribution of spice.",
+        "item_id": [
+          "7485"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Orange spice#(3)",
+        "item_name": "Orange spice (3)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8560,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8560,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Opulent table (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8560"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Opulent table (flatpack)",
+        "item_name": "Opulent table"
+      }
+    }
+  ]
+}

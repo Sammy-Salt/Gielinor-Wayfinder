@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10533,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10533,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue egg",
+        "weight": 0.02,
+        "value": 100,
+        "examine": "Stun your foes!",
+        "item_id": [
+          "10533"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue egg",
+        "item_name": "Blue egg"
+      }
+    }
+  ]
+}

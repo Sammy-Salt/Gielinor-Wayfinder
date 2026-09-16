@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5306,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5306,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jute seed",
+        "weight": 0,
+        "value": 5,
+        "examine": "A jute plant seed - plant in a hops patch.",
+        "item_id": [
+          "5306"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Jute seed",
+        "item_name": "Jute seed"
+      }
+    }
+  ]
+}

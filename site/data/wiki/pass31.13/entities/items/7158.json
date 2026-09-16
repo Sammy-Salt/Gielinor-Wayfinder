@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7158,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7158,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon 2h sword",
+        "weight": 3.628,
+        "value": 220000,
+        "examine": "A two-handed Dragon Sword.",
+        "item_id": [
+          "7158"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon 2h sword",
+        "item_name": "Dragon 2h sword"
+      }
+    }
+  ]
+}

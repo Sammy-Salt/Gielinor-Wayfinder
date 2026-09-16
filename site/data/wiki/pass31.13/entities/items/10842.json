@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Decapitated head (The Fremennik Isles)",
+        "weight": 3.628,
+        "value": 1,
+        "examine": "The head of the Troll King...nice!",
+        "item_id": [
+          "10842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Decapitated head (The Fremennik Isles)",
+        "item_name": "Decapitated head"
+      }
+    }
+  ]
+}

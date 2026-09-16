@@ -1,0 +1,25 @@
+{
+  "canonicalId": 975,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 975,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Machete",
+        "weight": 1.36,
+        "value": 40,
+        "examine": "A jungle-specific slashing device.",
+        "item_id": [
+          "975"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Machete",
+        "item_name": "Machete"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1769,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1769,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange dye",
+        "weight": 0.02,
+        "value": 5,
+        "examine": "A little bottle of orange dye.",
+        "item_id": [
+          "1769"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Orange dye",
+        "item_name": "Orange dye"
+      }
+    }
+  ]
+}

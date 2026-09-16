@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9592,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9592,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic glue",
+        "weight": 2.5,
+        "value": 1,
+        "examine": "Glue made from tree sap and ground mud runes.",
+        "item_id": [
+          "9592"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic glue",
+        "item_name": "Magic glue"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6886,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6886,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Progress hat",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A magic training arena progress hat.",
+        "item_id": [
+          "6886"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Progress hat#Energised",
+        "item_name": "Progress hat"
+      }
+    }
+  ]
+}

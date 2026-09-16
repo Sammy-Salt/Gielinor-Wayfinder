@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12500,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12500,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos d'hide body",
+        "weight": 6,
+        "value": 13000,
+        "examine": "Bandos blessed dragonhide body armour.",
+        "item_id": [
+          "12500"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos d'hide body",
+        "item_name": "Bandos d'hide body"
+      }
+    }
+  ]
+}

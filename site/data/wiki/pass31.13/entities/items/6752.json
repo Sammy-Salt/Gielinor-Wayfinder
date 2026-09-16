@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6752,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6752,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black desert robe",
+        "weight": 0.907,
+        "value": 30,
+        "examine": "A desert robe stained black.",
+        "item_id": [
+          "6752"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black desert robe",
+        "item_name": "Black desert robe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13155,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13155,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of War page set",
+        "weight": 0.05,
+        "value": 7500,
+        "examine": "A set containing the four pages of Bandos' Book of War.",
+        "item_id": [
+          "13155"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Book of War page set",
+        "item_name": "Book of War page set"
+      }
+    }
+  ]
+}

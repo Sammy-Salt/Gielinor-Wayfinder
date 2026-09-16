@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9081,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9081,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Suqah leather",
+        "weight": 3.175,
+        "value": 60,
+        "examine": "A piece of Suqah hide that has been expertly tanned into leather.",
+        "item_id": [
+          "9081"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Suqah leather",
+        "item_name": "Suqah leather"
+      }
+    }
+  ]
+}

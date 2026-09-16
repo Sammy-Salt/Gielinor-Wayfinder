@@ -1,0 +1,25 @@
+{
+  "canonicalId": 484,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 484,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel pick head",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "It's missing a handle.",
+        "item_id": [
+          "484"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel pick head",
+        "item_name": "Steel pick head"
+      }
+    }
+  ]
+}

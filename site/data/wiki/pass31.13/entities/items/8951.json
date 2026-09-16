@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8951,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8951,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pieces of eight (discontinued)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Piratical currency.",
+        "item_id": [
+          "8951"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pieces of eight (discontinued)",
+        "item_name": "Pieces of eight"
+      }
+    }
+  ]
+}

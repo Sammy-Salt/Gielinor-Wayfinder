@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frog spawn",
+        "weight": 0.5,
+        "value": 5,
+        "examine": "That's disgusting!",
+        "item_id": [
+          "5004"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frog spawn",
+        "item_name": "Frog spawn"
+      }
+    }
+  ]
+}

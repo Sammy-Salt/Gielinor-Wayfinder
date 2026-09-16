@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4083,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4083,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sled",
+        "weight": 0.018,
+        "value": 150,
+        "examine": "It needs waxing before I can use it.",
+        "item_id": [
+          "4083"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sled#Unwaxed",
+        "item_name": "Sled"
+      }
+    }
+  ]
+}

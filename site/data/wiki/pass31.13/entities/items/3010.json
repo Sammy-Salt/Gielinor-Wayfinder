@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3010,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3010,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Energy potion",
+        "weight": 0.03,
+        "value": 110,
+        "examine": "3 doses of energy potion.",
+        "item_id": [
+          "3010"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Energy potion#(3)",
+        "item_name": "Energy potion(3)"
+      }
+    }
+  ]
+}

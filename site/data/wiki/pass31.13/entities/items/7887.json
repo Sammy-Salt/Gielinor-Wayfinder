@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7887,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7887,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seagull wing",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7887"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seagull wing#Unpolished",
+        "item_name": "Seagull wing"
+      }
+    }
+  ]
+}

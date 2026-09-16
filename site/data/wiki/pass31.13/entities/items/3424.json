@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3424,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3424,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Olive oil",
+        "weight": 0.03,
+        "value": 20,
+        "examine": "3 doses of olive oil.",
+        "item_id": [
+          "3424"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Olive oil#(3)",
+        "item_name": "Olive oil(3)"
+      }
+    }
+  ]
+}

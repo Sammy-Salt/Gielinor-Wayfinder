@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6122,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6122,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "A chair",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "For sitting on.",
+        "item_id": [
+          "6122"
+        ],
+        "tradeable": false,
+        "page_name_sub": "A chair",
+        "item_name": "A chair"
+      }
+    }
+  ]
+}

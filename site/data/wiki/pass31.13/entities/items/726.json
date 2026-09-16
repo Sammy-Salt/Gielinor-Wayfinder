@@ -1,0 +1,25 @@
+{
+  "canonicalId": 726,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 726,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden bowl",
+        "weight": 1,
+        "value": 700,
+        "examine": "A blessed golden bowl. It has pure, sacred water in it.",
+        "item_id": [
+          "726"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden bowl#Blessed pure water",
+        "item_name": "Golden bowl"
+      }
+    }
+  ]
+}

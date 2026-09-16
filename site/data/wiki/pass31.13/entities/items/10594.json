@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10594,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10594,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clockwork book",
+        "weight": 1,
+        "value": 1,
+        "examine": "A book about clockwork mechanisms.",
+        "item_id": [
+          "10594"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clockwork book",
+        "item_name": "Clockwork book"
+      }
+    }
+  ]
+}

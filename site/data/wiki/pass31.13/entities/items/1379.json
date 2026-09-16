@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1379,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1379,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Staff",
+        "weight": 1.814,
+        "value": 15,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "1379"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Staff",
+        "item_name": "Staff"
+      }
+    }
+  ]
+}

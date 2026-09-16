@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3698,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3698,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Exotic flower",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "Some flowers from a distant land.",
+        "item_id": [
+          "3698"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Exotic flower",
+        "item_name": "Exotic flower"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5688,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5688,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze dagger",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "This dagger is poisoned.",
+        "item_id": [
+          "5688"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze dagger#(p++)",
+        "item_name": "Bronze dagger(p++)"
+      }
+    }
+  ]
+}

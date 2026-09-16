@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13159,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13159,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of Darkness page set",
+        "weight": 0.05,
+        "value": 7500,
+        "examine": "A set containing the four pages of the Ancient Book of Darkness.",
+        "item_id": [
+          "13159"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Book of Darkness page set",
+        "item_name": "Book of Darkness page set"
+      }
+    }
+  ]
+}

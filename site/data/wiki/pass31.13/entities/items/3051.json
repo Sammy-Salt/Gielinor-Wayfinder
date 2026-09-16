@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3051,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3051,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grimy snapdragon",
+        "weight": 0.007,
+        "value": 21,
+        "examine": "It needs cleaning.",
+        "item_id": [
+          "3051"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Grimy snapdragon",
+        "item_name": "Grimy snapdragon"
+      }
+    }
+  ]
+}

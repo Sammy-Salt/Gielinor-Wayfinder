@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4859,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4859,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ahrim's hood",
+        "weight": 0.907,
+        "value": 13000,
+        "examine": "Ahrim the Blighted's leather hood.",
+        "item_id": [
+          "4859"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ahrim's hood#25",
+        "item_name": "Ahrim's hood 25"
+      }
+    }
+  ]
+}

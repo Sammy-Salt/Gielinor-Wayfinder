@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10382,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10382,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix coif",
+        "weight": 0.9,
+        "value": 2000,
+        "examine": "Guthix blessed dragonhide coif.",
+        "item_id": [
+          "10382"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthix coif",
+        "item_name": "Guthix coif"
+      }
+    }
+  ]
+}

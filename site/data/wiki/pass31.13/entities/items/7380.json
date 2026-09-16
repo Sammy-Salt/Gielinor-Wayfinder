@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7380,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7380,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green d'hide chaps (t)",
+        "weight": 5.443,
+        "value": 3900,
+        "examine": "Made from 100% real dragonhide. With colourful trim!",
+        "item_id": [
+          "7380"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green d'hide chaps (t)",
+        "item_name": "Green d'hide chaps (t)"
+      }
+    }
+  ]
+}

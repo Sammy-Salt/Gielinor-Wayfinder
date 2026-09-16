@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1438,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1438,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Air talisman",
+        "weight": 0.015,
+        "value": 4,
+        "examine": "A mysterious power emanates from the talisman...",
+        "item_id": [
+          "1438"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Air talisman",
+        "item_name": "Air talisman"
+      }
+    }
+  ]
+}

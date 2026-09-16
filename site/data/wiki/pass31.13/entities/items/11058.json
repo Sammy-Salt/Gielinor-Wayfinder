@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11058,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11058,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mace (H.A.M.)",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A powerful looking mace.",
+        "item_id": [
+          "11058"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mace (H.A.M.)",
+        "item_name": "Mace"
+      }
+    }
+  ]
+}

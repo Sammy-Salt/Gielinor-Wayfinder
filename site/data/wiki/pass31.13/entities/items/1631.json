@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1631,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1631,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Uncut dragonstone",
+        "weight": 0.003,
+        "value": 1000,
+        "examine": "This would be worth more cut.",
+        "item_id": [
+          "1631"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Uncut dragonstone",
+        "item_name": "Uncut dragonstone"
+      }
+    }
+  ]
+}

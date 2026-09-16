@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11871,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11871,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer ring",
+        "weight": 0.01,
+        "value": 950,
+        "examine": "A beautifully mounted Slayer gem.",
+        "item_id": [
+          "11871"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer ring#(3)",
+        "item_name": "Slayer ring (3)"
+      }
+    }
+  ]
+}

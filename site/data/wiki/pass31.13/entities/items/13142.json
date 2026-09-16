@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13142,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13142,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Western banner 2",
+        "weight": 2.267,
+        "value": 0,
+        "examine": "A mysterious crystal banner.",
+        "item_id": [
+          "13142"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Western banner 2",
+        "item_name": "Western banner 2"
+      }
+    }
+  ]
+}

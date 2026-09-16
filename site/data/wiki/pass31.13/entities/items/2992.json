@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2992,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2992,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chompy bird hat (ogre dragon archer)",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A symbol of your chompy bird hunting prowess: Ogre Dragon Archer (1,700 kills)",
+        "item_id": [
+          "2992"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chompy bird hat (ogre dragon archer)",
+        "item_name": "Chompy bird hat"
+      }
+    }
+  ]
+}

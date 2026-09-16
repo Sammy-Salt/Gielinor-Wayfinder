@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2019,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2019,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gin",
+        "weight": 1,
+        "value": 5,
+        "examine": "A strong spirit that tastes of Juniper.",
+        "item_id": [
+          "2019"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gin",
+        "item_name": "Gin"
+      }
+    }
+  ]
+}

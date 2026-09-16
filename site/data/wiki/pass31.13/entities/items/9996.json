@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9996,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9996,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spicy minced meat",
+        "weight": 0.5,
+        "value": 8,
+        "examine": "A bowl of fiery minced meat.",
+        "item_id": [
+          "9996"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spicy minced meat",
+        "item_name": "Spicy minced meat"
+      }
+    }
+  ]
+}

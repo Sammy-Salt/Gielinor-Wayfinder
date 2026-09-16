@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4655,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4655,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Translation",
+        "weight": 0.51,
+        "value": 250,
+        "examine": "A rough translation made from archaeological etchings.",
+        "item_id": [
+          "4655"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Translation",
+        "item_name": "Translation"
+      }
+    }
+  ]
+}

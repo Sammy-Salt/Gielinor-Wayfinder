@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12895,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12895,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Antisanta gloves",
+        "weight": 0.1,
+        "value": 0,
+        "examine": "Keeps the coal-dust off.",
+        "item_id": [
+          "12895"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Antisanta gloves",
+        "item_name": "Antisanta gloves"
+      }
+    }
+  ]
+}

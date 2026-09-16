@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4488,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4488,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Corpse of woman",
+        "weight": 1,
+        "value": 1,
+        "examine": "The corpse of a woman who died long ago.",
+        "item_id": [
+          "4488"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Corpse of woman",
+        "item_name": "Corpse of woman"
+      }
+    }
+  ]
+}

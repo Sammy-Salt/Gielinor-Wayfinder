@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8962,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8962,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Brown tricorn hat",
+        "weight": 0.003,
+        "value": 50,
+        "examine": "I could never look square in this.",
+        "item_id": [
+          "8962"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Brown tricorn hat",
+        "item_name": "Brown tricorn hat"
+      }
+    }
+  ]
+}

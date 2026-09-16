@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4221,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4221,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crystal bow (historical)",
+        "weight": 1.814,
+        "value": 125000,
+        "examine": "A nice sturdy magical bow.",
+        "item_id": [
+          "4221"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Crystal bow (historical)#3/10",
+        "item_name": "Crystal bow 3/10"
+      }
+    }
+  ]
+}

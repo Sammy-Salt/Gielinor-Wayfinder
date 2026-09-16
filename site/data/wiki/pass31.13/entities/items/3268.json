@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3268,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3268,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fake man",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It's good enough to fool a troll.",
+        "item_id": [
+          "3268"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fake man",
+        "item_name": "Fake man"
+      }
+    }
+  ]
+}

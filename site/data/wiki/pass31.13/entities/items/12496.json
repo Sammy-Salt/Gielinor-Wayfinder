@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12496,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12496,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient coif",
+        "weight": 0.9,
+        "value": 2000,
+        "examine": "Ancient blessed dragonhide coif.",
+        "item_id": [
+          "12496"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient coif",
+        "item_name": "Ancient coif"
+      }
+    }
+  ]
+}

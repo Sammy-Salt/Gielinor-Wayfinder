@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12740,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12740,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bird snare pack",
+        "weight": 5.443,
+        "value": 505,
+        "examine": "A pack containing 100 bird snares.",
+        "item_id": [
+          "12740"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bird snare pack",
+        "item_name": "Bird snare pack"
+      }
+    }
+  ]
+}

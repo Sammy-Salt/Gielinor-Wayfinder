@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11447,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11447,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Combat mix",
+        "weight": 0.045,
+        "value": 52,
+        "examine": "One dose of fishy combat potion.",
+        "item_id": [
+          "11447"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Combat mix#(1)",
+        "item_name": "Combat mix(1)"
+      }
+    }
+  ]
+}

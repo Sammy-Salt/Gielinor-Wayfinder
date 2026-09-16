@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4811,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4811,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon inn tankard",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A white ceramic mug with a dragon insignia.",
+        "item_id": [
+          "4811"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dragon inn tankard",
+        "item_name": "Dragon inn tankard"
+      }
+    }
+  ]
+}

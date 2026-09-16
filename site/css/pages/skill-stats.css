@@ -1,0 +1,3 @@
+/* Skill calculator: layout-only rules. */
+main{max-width:800px}.grid{grid-template-columns:1fr 1fr}.card{margin-bottom:16px}.bar{height:18px;margin-top:12px}
+@media(max-width:600px){.grid{grid-template-columns:1fr}}

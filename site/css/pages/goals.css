@@ -1,0 +1,3 @@
+/* Goals: layout-only rules. */
+.goal-form{display:grid;gap:10px;margin:20px 0}.goal-card{padding:15px;margin:12px 0}.goal-name{font-size:1.1rem}.goal-progress{margin-top:10px}.empty{padding:20px 0}
+.quest-planner{display:grid;gap:10px}.quest-planner input{width:100%;box-sizing:border-box}.quest-planner button{position:static;justify-self:start;margin:0}.plan-preview{min-height:1.2em}

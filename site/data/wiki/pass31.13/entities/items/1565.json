@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1565,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1565,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cat",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "This cat definitely likes you.",
+        "item_id": [
+          "1565"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cat#Grey and brown",
+        "item_name": "Pet cat"
+      }
+    }
+  ]
+}

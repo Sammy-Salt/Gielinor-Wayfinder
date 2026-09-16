@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Knight's notes",
+        "weight": 0.085,
+        "value": 0,
+        "examine": "A scroll for Sir Tiffy. It is sealed with a wax insignia.",
+        "item_id": [
+          "11842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Knight's notes#Sealed",
+        "item_name": "Knight's notes"
+      }
+    }
+  ]
+}

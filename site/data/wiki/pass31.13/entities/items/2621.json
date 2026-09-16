@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2621,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2621,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune kiteshield (g)",
+        "weight": 5.443,
+        "value": 54400,
+        "examine": "Rune kiteshield with gold trim.",
+        "item_id": [
+          "2621"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune kiteshield (g)",
+        "item_name": "Rune kiteshield (g)"
+      }
+    }
+  ]
+}

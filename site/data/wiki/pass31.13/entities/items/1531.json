@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1531,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1531,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grimy volencia moss",
+        "weight": 0.007,
+        "value": 0,
+        "examine": "It needs cleaning.",
+        "item_id": [
+          "1531"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Grimy volencia moss",
+        "item_name": "Grimy volencia moss"
+      }
+    }
+  ]
+}

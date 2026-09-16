@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6867,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6867,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red marionette",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "I've got no strings ... oh hang on!",
+        "item_id": [
+          "6867"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red marionette",
+        "item_name": "Red marionette"
+      }
+    }
+  ]
+}

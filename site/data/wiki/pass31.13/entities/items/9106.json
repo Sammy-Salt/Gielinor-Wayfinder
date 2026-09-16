@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9106,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9106,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Astral tiara",
+        "weight": 1,
+        "value": 100,
+        "examine": "A tiara infused with the properties of the heavens.",
+        "item_id": [
+          "9106"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Astral tiara",
+        "item_name": "Astral tiara"
+      }
+    }
+  ]
+}

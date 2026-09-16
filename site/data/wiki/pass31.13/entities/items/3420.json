@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3420,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3420,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Limestone brick",
+        "weight": 1.36,
+        "value": 20,
+        "examine": "A well carved limestone brick.",
+        "item_id": [
+          "3420"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Limestone brick",
+        "item_name": "Limestone brick"
+      }
+    }
+  ]
+}

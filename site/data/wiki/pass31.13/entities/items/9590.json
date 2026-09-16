@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9590,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9590,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dossier (animation item)",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "A dossier containing info on the Black Knight plot.",
+        "item_id": [
+          "9590"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dossier (animation item)",
+        "item_name": "Dossier"
+      }
+    }
+  ]
+}

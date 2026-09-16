@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze claws",
+        "weight": 0.907,
+        "value": 15,
+        "examine": "A set of fighting claws.",
+        "item_id": [
+          "3095"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze claws",
+        "item_name": "Bronze claws"
+      }
+    }
+  ]
+}

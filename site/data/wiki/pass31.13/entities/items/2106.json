@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2106,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2106,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lemon slices",
+        "weight": 0.08,
+        "value": 2,
+        "examine": "Fresh lemon slices.",
+        "item_id": [
+          "2106"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lemon slices",
+        "item_name": "Lemon slices"
+      }
+    }
+  ]
+}

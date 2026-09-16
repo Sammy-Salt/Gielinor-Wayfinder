@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2641,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2641,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark cavalier",
+        "weight": 0.001,
+        "value": 200,
+        "examine": "All for one and one for all!",
+        "item_id": [
+          "2641"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dark cavalier",
+        "item_name": "Dark cavalier"
+      }
+    }
+  ]
+}

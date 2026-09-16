@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6878,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6878,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue marionette (legs)",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "No strings attached.",
+        "item_id": [
+          "6878"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue marionette (legs)",
+        "item_name": "Blue marionette"
+      }
+    }
+  ]
+}

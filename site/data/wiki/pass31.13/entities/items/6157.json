@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6157,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6157,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rock-shell chunk",
+        "weight": 3.175,
+        "value": 60,
+        "examine": "A spherical chunk of rock-shell.",
+        "item_id": [
+          "6157"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rock-shell chunk",
+        "item_name": "Rock-shell chunk"
+      }
+    }
+  ]
+}

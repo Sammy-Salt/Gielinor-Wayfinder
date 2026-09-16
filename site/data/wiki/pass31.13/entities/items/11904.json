@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11904,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11904,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Entomologist's diary",
+        "weight": 0.51,
+        "value": 1,
+        "examine": "It's actually in better condition than its former owner.",
+        "item_id": [
+          "11904"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Entomologist's diary",
+        "item_name": "Entomologist's diary"
+      }
+    }
+  ]
+}

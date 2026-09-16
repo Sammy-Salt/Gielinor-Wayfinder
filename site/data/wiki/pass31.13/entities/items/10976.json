@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10976,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10976,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Long bone",
+        "weight": 1,
+        "value": 5,
+        "examine": "A Construction bone.",
+        "item_id": [
+          "10976"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Long bone",
+        "item_name": "Long bone"
+      }
+    }
+  ]
+}

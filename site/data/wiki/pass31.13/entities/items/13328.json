@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13328,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13328,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green banner",
+        "weight": 1,
+        "value": 49,
+        "examine": "Makes me think of whales... I wish I knew why.",
+        "item_id": [
+          "13328"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Green banner",
+        "item_name": "Green banner"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2142,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2142,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked meat",
+        "weight": 0.283,
+        "value": 4,
+        "examine": "Mmm this looks tasty.",
+        "item_id": [
+          "2142"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked meat",
+        "item_name": "Cooked meat"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13244,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13244,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Infernal pickaxe",
+        "weight": 2.4,
+        "value": 99800,
+        "examine": "A very powerful, fiery pickaxe.",
+        "item_id": [
+          "13244"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Infernal pickaxe#Uncharged",
+        "item_name": "Infernal pickaxe (uncharged)"
+      }
+    }
+  ]
+}

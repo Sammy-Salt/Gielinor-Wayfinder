@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5996,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5996,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Asgarnian hops",
+        "weight": 0.028,
+        "value": 5,
+        "examine": "A handful of Asgarnian Hops.",
+        "item_id": [
+          "5996"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Asgarnian hops",
+        "item_name": "Asgarnian hops"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5586,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5586,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Metal spade",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "It's a metal spade with a wooden handle.",
+        "item_id": [
+          "5586"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Metal spade#Spade",
+        "item_name": "Metal spade"
+      }
+    }
+  ]
+}

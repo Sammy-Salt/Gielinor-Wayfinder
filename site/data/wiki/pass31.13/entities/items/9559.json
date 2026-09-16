@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9559,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9559,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half made bowl (worm hole)",
+        "weight": 0.275,
+        "value": 2,
+        "examine": "This unfinished worm hole needs baking and garnishing with equa leaves.",
+        "item_id": [
+          "9559"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half made bowl (worm hole)",
+        "item_name": "Half made bowl"
+      }
+    }
+  ]
+}

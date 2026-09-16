@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8977,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8977,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scrapey bark",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Greasy bark from the Scrapey Tree.",
+        "item_id": [
+          "8977"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Scrapey bark",
+        "item_name": "Scrapey bark"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9757,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9757,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ranging cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by master archers.",
+        "item_id": [
+          "9757"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ranging cape#Trimmed",
+        "item_name": "Ranging cape(t)"
+      }
+    }
+  ]
+}

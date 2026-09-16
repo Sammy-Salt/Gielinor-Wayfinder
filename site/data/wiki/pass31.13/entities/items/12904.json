@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12904,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12904,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Toxic staff of the dead",
+        "weight": 1.5,
+        "value": 1000006,
+        "examine": "A ghastly weapon with evil origins, with a toxic fang attached.",
+        "item_id": [
+          "12904"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Toxic staff of the dead#Charged",
+        "item_name": "Toxic staff of the dead"
+      }
+    }
+  ]
+}

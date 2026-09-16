@@ -1,0 +1,25 @@
+{
+  "canonicalId": 459,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 459,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scorpion cage",
+        "weight": 0.2,
+        "value": 10,
+        "examine": "There are 2 scorpions inside.",
+        "item_id": [
+          "459"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Scorpion cage#Taverley + Monastery",
+        "item_name": "Scorpion cage"
+      }
+    }
+  ]
+}

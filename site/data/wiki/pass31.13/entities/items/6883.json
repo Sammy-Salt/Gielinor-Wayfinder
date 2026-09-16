@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6883,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6883,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Peach",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A tasty fruit.",
+        "item_id": [
+          "6883"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Peach",
+        "item_name": "Peach"
+      }
+    }
+  ]
+}

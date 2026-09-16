@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3221,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3221,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barrel of naphtha",
+        "weight": 32,
+        "value": 1,
+        "examine": "A barrel full of naphtha.",
+        "item_id": [
+          "3221"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Barrel of naphtha",
+        "item_name": "Barrel of naphtha"
+      }
+    }
+  ]
+}

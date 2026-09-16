@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13071,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13071,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chompy chick",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "A small boisterous bird, a delicacy for ogres.",
+        "item_id": [
+          "13071"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chompy chick",
+        "item_name": "Chompy chick"
+      }
+    }
+  ]
+}

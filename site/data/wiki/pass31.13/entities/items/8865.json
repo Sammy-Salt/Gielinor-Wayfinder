@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8865,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8865,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ground ashes",
+        "weight": 0.056,
+        "value": 2,
+        "examine": "A heap of finely ground ashes.",
+        "item_id": [
+          "8865"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ground ashes",
+        "item_name": "Ground ashes"
+      }
+    }
+  ]
+}

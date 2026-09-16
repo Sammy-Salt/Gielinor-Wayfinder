@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5585,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5585,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze key (Recruitment Drive)",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "I hope the mould was accurate enough... (Used in the Recruitment Drive quest).",
+        "item_id": [
+          "5585"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bronze key (Recruitment Drive)",
+        "item_name": "Bronze key"
+      }
+    }
+  ]
+}

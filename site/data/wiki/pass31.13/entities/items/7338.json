@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7338,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7338,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black shield (h2)",
+        "weight": 5.443,
+        "value": 1632,
+        "examine": "A shield with a heraldic design",
+        "item_id": [
+          "7338"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black shield (h2)",
+        "item_name": "Black shield (h2)"
+      }
+    }
+  ]
+}

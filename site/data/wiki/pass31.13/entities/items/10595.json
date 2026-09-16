@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10595,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10595,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clockwork suit",
+        "weight": 2,
+        "value": 1,
+        "examine": "A clockwork penguin suit.",
+        "item_id": [
+          "10595"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clockwork suit#Unwound",
+        "item_name": "Clockwork suit"
+      }
+    }
+  ]
+}

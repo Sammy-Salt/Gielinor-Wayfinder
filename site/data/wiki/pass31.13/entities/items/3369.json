@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3369,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3369,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Thin snail meat",
+        "weight": 3,
+        "value": 10,
+        "examine": "A succulently slimy slice of sumptuous snail.",
+        "item_id": [
+          "3369"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Thin snail meat",
+        "item_name": "Thin snail meat"
+      }
+    }
+  ]
+}

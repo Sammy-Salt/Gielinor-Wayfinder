@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6544,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6544,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Catspeak amulet(e)",
+        "weight": 1.36,
+        "value": 1,
+        "examine": "It's an amulet of cat speak. It makes vague purring noises.",
+        "item_id": [
+          "6544"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Catspeak amulet(e)",
+        "item_name": "Catspeak amulet(e)"
+      }
+    }
+  ]
+}

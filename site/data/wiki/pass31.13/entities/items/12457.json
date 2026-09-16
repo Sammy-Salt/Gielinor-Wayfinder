@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12457,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12457,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dark infinity hat",
+        "weight": 0.453,
+        "value": 17000,
+        "examine": "A mystic hat with a dark recolour.",
+        "item_id": [
+          "12457"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dark infinity hat",
+        "item_name": "Dark infinity hat"
+      }
+    }
+  ]
+}

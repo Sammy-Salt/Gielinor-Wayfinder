@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1893,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1893,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cake",
+        "weight": 0.2,
+        "value": 30,
+        "examine": "Someone has eaten a big chunk of this cake.",
+        "item_id": [
+          "1893"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cake#2/3",
+        "item_name": "2/3 cake"
+      }
+    }
+  ]
+}

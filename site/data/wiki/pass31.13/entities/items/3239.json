@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3239,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3239,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bark",
+        "weight": 1,
+        "value": 1,
+        "examine": "Bark from a hollow tree.",
+        "item_id": [
+          "3239"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bark",
+        "item_name": "Bark"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4494,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4494,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pole",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "It's just a long stick, really.",
+        "item_id": [
+          "4494"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pole",
+        "item_name": "Pole"
+      }
+    }
+  ]
+}

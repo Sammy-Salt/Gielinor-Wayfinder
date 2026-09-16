@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5309,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5309,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yanillian seed",
+        "weight": 0,
+        "value": 6,
+        "examine": "A Yanillian hop seed - plant in a hops patch.",
+        "item_id": [
+          "5309"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Yanillian seed",
+        "item_name": "Yanillian seed"
+      }
+    }
+  ]
+}

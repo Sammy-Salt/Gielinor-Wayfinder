@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12843,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12843,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Human eye",
+        "weight": 20,
+        "value": 1,
+        "examine": "That's gross. Why am I carrying it around?",
+        "item_id": [
+          "12843"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Human eye",
+        "item_name": "Human eye"
+      }
+    }
+  ]
+}

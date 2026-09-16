@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1197,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1197,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril kiteshield",
+        "weight": 4.535,
+        "value": 2210,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "1197"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril kiteshield",
+        "item_name": "Mithril kiteshield"
+      }
+    }
+  ]
+}

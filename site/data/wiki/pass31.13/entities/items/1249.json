@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1249,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1249,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon spear",
+        "weight": 2.267,
+        "value": 62400,
+        "examine": "A dragon tipped spear.",
+        "item_id": [
+          "1249"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon spear#(unp)",
+        "item_name": "Dragon spear"
+      }
+    }
+  ]
+}

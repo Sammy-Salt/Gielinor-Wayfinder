@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6555,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6555,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wily cat",
+        "weight": 0.75,
+        "value": 1,
+        "examine": "Wild.",
+        "item_id": [
+          "6555"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Wily cat#White",
+        "item_name": "Wily cat"
+      }
+    }
+  ]
+}

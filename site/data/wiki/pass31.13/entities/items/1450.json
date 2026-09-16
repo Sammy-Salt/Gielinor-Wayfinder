@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1450,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1450,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blood talisman",
+        "weight": 0.015,
+        "value": 4,
+        "examine": "A mysterious power emanates from the talisman...",
+        "item_id": [
+          "1450"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blood talisman",
+        "item_name": "Blood talisman"
+      }
+    }
+  ]
+}

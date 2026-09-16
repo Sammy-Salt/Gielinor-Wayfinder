@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7789,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7789,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer tome",
+        "weight": 1,
+        "value": 5000,
+        "examine": "A tome of learning which focuses on the Slayer skill.",
+        "item_id": [
+          "7789"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer tome#Yellow",
+        "item_name": "Slayer tome"
+      }
+    }
+  ]
+}

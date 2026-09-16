@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10172,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10172,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fake beak",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A cheaply made fake beak.",
+        "item_id": [
+          "10172"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fake beak",
+        "item_name": "Fake beak"
+      }
+    }
+  ]
+}

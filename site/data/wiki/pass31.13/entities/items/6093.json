@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6093,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6093,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rotten apples",
+        "weight": 15,
+        "value": 1,
+        "examine": "A barrel full of rotten apples.",
+        "item_id": [
+          "6093"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rotten apples",
+        "item_name": "Rotten apples"
+      }
+    }
+  ]
+}

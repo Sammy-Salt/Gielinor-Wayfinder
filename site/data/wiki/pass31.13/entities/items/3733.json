@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3733,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3733,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frozen jug",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "This jug of water is frozen solid.",
+        "item_id": [
+          "3733"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frozen jug",
+        "item_name": "Frozen jug"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2961,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2961,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver sickle",
+        "weight": 1.587,
+        "value": 175,
+        "examine": "It's a silver sickle.",
+        "item_id": [
+          "2961"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silver sickle",
+        "item_name": "Silver sickle"
+      }
+    }
+  ]
+}

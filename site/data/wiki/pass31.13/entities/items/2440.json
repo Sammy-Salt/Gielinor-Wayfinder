@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2440,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2440,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Super strength",
+        "weight": 0.035,
+        "value": 275,
+        "examine": "4 doses of super Strength potion.",
+        "item_id": [
+          "2440"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Super strength#(4)",
+        "item_name": "Super strength(4)"
+      }
+    }
+  ]
+}

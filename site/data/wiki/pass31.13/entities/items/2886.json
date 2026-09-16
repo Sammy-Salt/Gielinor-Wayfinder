@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2886,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2886,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Battered book",
+        "weight": 0.113,
+        "value": 10,
+        "examine": "Book of the elemental shield.",
+        "item_id": [
+          "2886"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Battered book",
+        "item_name": "Battered book"
+      }
+    }
+  ]
+}

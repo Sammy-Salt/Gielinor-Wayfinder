@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7596,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7596,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zombie boots",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "Thrilling.",
+        "item_id": [
+          "7596"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zombie boots",
+        "item_name": "Zombie boots"
+      }
+    }
+  ]
+}

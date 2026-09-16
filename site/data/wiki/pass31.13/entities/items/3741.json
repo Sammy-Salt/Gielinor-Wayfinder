@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3741,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3741,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frozen key (The Fremennik Trials)",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A key encased in ice.",
+        "item_id": [
+          "3741"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frozen key (The Fremennik Trials)",
+        "item_name": "Frozen key"
+      }
+    }
+  ]
+}

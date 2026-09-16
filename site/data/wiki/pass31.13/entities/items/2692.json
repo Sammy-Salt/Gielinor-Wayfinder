@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2692,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2692,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - Search the boxes of Falador's general store",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "2692"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - Search the boxes of Falador's general store",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

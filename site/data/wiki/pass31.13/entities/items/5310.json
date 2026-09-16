@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5310,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5310,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Krandorian seed",
+        "weight": 0,
+        "value": 8,
+        "examine": "A Krandorian hop seed - plant in a hops patch.",
+        "item_id": [
+          "5310"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Krandorian seed",
+        "item_name": "Krandorian seed"
+      }
+    }
+  ]
+}

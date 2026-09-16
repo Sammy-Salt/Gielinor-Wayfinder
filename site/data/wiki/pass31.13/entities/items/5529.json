@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5529,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5529,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mind tiara",
+        "weight": 1,
+        "value": 100,
+        "examine": "A tiara infused with the properties of the mind.",
+        "item_id": [
+          "5529"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mind tiara",
+        "item_name": "Mind tiara"
+      }
+    }
+  ]
+}

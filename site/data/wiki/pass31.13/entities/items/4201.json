@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4201,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4201,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Conductor",
+        "weight": 3.628,
+        "value": 1,
+        "examine": "A silver lightning conductor.",
+        "item_id": [
+          "4201"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Conductor",
+        "item_name": "Conductor"
+      }
+    }
+  ]
+}

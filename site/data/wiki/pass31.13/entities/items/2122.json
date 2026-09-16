@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2122,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2122,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lime chunks",
+        "weight": 0.08,
+        "value": 1,
+        "examine": "Fresh chunks of lime.",
+        "item_id": [
+          "2122"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lime chunks",
+        "item_name": "Lime chunks"
+      }
+    }
+  ]
+}

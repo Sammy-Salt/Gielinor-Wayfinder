@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7574,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7574,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sliced red banana",
+        "weight": 0.008,
+        "value": 5,
+        "examine": "Perfect for stuffing snakes.",
+        "item_id": [
+          "7574"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sliced red banana",
+        "item_name": "Sliced red banana"
+      }
+    }
+  ]
+}

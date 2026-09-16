@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2150,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2150,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Swamp toad (item)",
+        "weight": 0.5,
+        "value": 2,
+        "examine": "A slippery little blighter.",
+        "item_id": [
+          "2150"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Swamp toad (item)",
+        "item_name": "Swamp toad"
+      }
+    }
+  ]
+}

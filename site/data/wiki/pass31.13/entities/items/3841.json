@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3841,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3841,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Damaged book (Zamorak)",
+        "weight": 1,
+        "value": 200,
+        "examine": "An incomplete book of Zamorak.",
+        "item_id": [
+          "3841"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Damaged book (Zamorak)",
+        "item_name": "Damaged book"
+      }
+    }
+  ]
+}

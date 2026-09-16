@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7362,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7362,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Studded body (g)",
+        "weight": 5.443,
+        "value": 850,
+        "examine": "Those studs should provide a bit more protection. Nice trim too!",
+        "item_id": [
+          "7362"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Studded body (g)",
+        "item_name": "Studded body (g)"
+      }
+    }
+  ]
+}

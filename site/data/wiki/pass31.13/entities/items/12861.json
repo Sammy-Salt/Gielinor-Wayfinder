@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12861,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12861,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Thanksgiving dinner",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "''During event:'' With all the trimmings! <br>''After event:'' It's out of date.",
+        "item_id": [
+          "12861"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Thanksgiving dinner",
+        "item_name": "Thanksgiving dinner"
+      }
+    }
+  ]
+}

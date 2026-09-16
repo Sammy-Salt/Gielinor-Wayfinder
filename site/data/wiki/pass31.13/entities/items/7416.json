@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7416,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7416,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mole claw",
+        "weight": 0.001,
+        "value": 600,
+        "examine": "A mole claw.",
+        "item_id": [
+          "7416"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mole claw",
+        "item_name": "Mole claw"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5311,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5311,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wildblood seed",
+        "weight": 0,
+        "value": 14,
+        "examine": "A Wildblood hop seed - plant in a hops patch.",
+        "item_id": [
+          "5311"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Wildblood seed",
+        "item_name": "Wildblood seed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8504,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8504,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak armchair (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8504"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak armchair (flatpack)",
+        "item_name": "Oak armchair"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6705,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6705,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potato with cheese",
+        "weight": 0.5,
+        "value": 8,
+        "examine": "A baked potato with butter and cheese.",
+        "item_id": [
+          "6705"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potato with cheese",
+        "item_name": "Potato with cheese"
+      }
+    }
+  ]
+}

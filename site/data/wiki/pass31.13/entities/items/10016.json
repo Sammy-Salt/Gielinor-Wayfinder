@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10016,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10016,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Snowy knight (item)",
+        "weight": 0.02,
+        "value": 50,
+        "examine": "There's a snowy knight butterfly in here.",
+        "item_id": [
+          "10016"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Snowy knight (item)",
+        "item_name": "Snowy knight"
+      }
+    }
+  ]
+}

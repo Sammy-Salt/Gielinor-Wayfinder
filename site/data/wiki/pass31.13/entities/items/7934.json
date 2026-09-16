@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7934,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7934,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Field ration",
+        "weight": 0.001,
+        "value": 300,
+        "examine": "A field ration to help your wounds go away.",
+        "item_id": [
+          "7934"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Field ration",
+        "item_name": "Field ration"
+      }
+    }
+  ]
+}

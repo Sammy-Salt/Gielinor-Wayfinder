@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5289,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5289,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Palm tree seed",
+        "weight": 0,
+        "value": 254,
+        "examine": "Plant in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5289"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Palm tree seed",
+        "item_name": "Palm tree seed"
+      }
+    }
+  ]
+}

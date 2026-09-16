@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2205,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2205,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Worm crunchies",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "It actually smells quite good.",
+        "item_id": [
+          "2205"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Worm crunchies",
+        "item_name": "Worm crunchies"
+      }
+    }
+  ]
+}

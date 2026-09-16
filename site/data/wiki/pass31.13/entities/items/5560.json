@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5560,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5560,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stethoscope",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "A useful hearing aid.",
+        "item_id": [
+          "5560"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stethoscope",
+        "item_name": "Stethoscope"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11453,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11453,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Energy mix",
+        "weight": 0.075,
+        "value": 72,
+        "examine": "Two doses of fishy energy potion.",
+        "item_id": [
+          "11453"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Energy mix#(2)",
+        "item_name": "Energy mix(2)"
+      }
+    }
+  ]
+}

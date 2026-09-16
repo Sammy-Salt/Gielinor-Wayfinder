@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13395,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13395,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Intelligence",
+        "weight": 0.005,
+        "value": 0,
+        "examine": "Looted from a gangster whose meeting ended violently.",
+        "item_id": [
+          "13395"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Intelligence",
+        "item_name": "Intelligence"
+      }
+    }
+  ]
+}

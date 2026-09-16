@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6804,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6804,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jogre champion scroll",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "It's a challenge from the Jogre Champion!",
+        "item_id": [
+          "6804"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Jogre champion scroll",
+        "item_name": "Jogre champion scroll"
+      }
+    }
+  ]
+}

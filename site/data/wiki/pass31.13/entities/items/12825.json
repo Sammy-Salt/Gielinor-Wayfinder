@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12825,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12825,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Arcane spirit shield",
+        "weight": 2,
+        "value": 2000000,
+        "examine": "An ethereal shield with an arcane sigil attached to it.",
+        "item_id": [
+          "12825"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Arcane spirit shield",
+        "item_name": "Arcane spirit shield"
+      }
+    }
+  ]
+}

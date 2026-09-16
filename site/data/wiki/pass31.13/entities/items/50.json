@@ -1,0 +1,25 @@
+{
+  "canonicalId": 50,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 50,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shortbow (u)",
+        "weight": 0.992,
+        "value": 23,
+        "examine": "I need to find a string for this.",
+        "item_id": [
+          "50"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Shortbow (u)",
+        "item_name": "Shortbow (u)"
+      }
+    }
+  ]
+}

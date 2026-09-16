@@ -1,0 +1,25 @@
+{
+  "canonicalId": 257,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 257,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ranarr weed",
+        "weight": 0.007,
+        "value": 25,
+        "examine": "A useful herb.",
+        "item_id": [
+          "257"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ranarr weed",
+        "item_name": "Ranarr weed"
+      }
+    }
+  ]
+}

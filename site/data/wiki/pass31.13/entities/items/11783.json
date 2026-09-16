@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11783,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11783,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black mask (i)",
+        "weight": 10,
+        "value": 3000,
+        "examine": "A magic cave horror mask.",
+        "item_id": [
+          "11783"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Black mask (i)#(1)",
+        "item_name": "Black mask (1) (i)"
+      }
+    }
+  ]
+}

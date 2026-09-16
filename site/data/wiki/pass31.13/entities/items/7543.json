@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7543,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7543,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw guide cake",
+        "weight": 0.5,
+        "value": 20,
+        "examine": "Now all I need to do is cook it.",
+        "item_id": [
+          "7543"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Raw guide cake",
+        "item_name": "Raw guide cake"
+      }
+    }
+  ]
+}

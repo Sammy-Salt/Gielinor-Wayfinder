@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9145,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9145,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver bolts",
+        "weight": 0,
+        "value": 5,
+        "examine": "Silver crossbow bolts.",
+        "item_id": [
+          "9145"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silver bolts#Unpoisoned",
+        "item_name": "Silver bolts"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13121,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13121,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ardougne cloak 1",
+        "weight": 0.453,
+        "value": 0,
+        "examine": "A shadowy Ardougne cloak.",
+        "item_id": [
+          "13121"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ardougne cloak 1",
+        "item_name": "Ardougne cloak 1"
+      }
+    }
+  ]
+}

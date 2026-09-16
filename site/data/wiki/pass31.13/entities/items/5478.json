@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5478,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5478,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cabbages",
+        "weight": 4.989,
+        "value": 1,
+        "examine": "There are 10 cabbages in this sack.",
+        "item_id": [
+          "5478"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cabbages#10",
+        "item_name": "Cabbages(10)"
+      }
+    }
+  ]
+}

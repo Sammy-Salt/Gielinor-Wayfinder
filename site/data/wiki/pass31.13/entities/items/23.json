@@ -1,0 +1,25 @@
+{
+  "canonicalId": 23,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 23,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red cog",
+        "weight": 1,
+        "value": 1,
+        "examine": "A cog from some machinery.",
+        "item_id": [
+          "23"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red cog",
+        "item_name": "Red cog"
+      }
+    }
+  ]
+}

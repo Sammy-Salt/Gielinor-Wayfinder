@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6347,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6347,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Villager armband (brown)",
+        "weight": 0.68,
+        "value": 150,
+        "examine": "A brown armband, as worn by the Tai Bwo Wannai locals.",
+        "item_id": [
+          "6347"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Villager armband (brown)",
+        "item_name": "Villager armband"
+      }
+    }
+  ]
+}

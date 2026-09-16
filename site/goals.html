@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>OSRS Goals</title>
+
+    <link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="css/pages/goals.css">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
+<body>
+<nav id="site-nav" aria-label="Primary navigation">
+<a class="site-brand" href="index.html">⚔ OSRS Guide</a>
+<a href="character.html">🧙 Character</a><a href="quests.html">⚔ Quests</a>
+<a href="progress.html">📈 Progress</a>
+<a href="goals.html">🎯 Goals</a>
+<a href="map.html">🗺 Map</a><a href="crafting.html">🔨 Crafting</a>
+<details class="nav-menu"><summary>📚 Encyclopedia</summary><div class="nav-menu-panel"><a href="monsters.html">☠ Monsters</a><a href="bosses.html">👑 Bosses</a><a href="items.html">🛡 Items</a><a href="npcs.html">👤 NPCs</a></div></details>
+<details class="nav-menu"><summary>🧮 Calculators</summary><div class="nav-menu-panel"><a href="calculators.html">🧮 Calculators</a><a href="combat-stats.html">⚔ Combat</a><a href="skill-stats.html">📈 Skill</a><a href="drop-stats.html">📊 Drop Stats</a><a href="drop-time.html">🎯 Drop Time</a></div></details>
+</nav><div id="app-tools-host" aria-label="Application tools"><div id="app-tools" class="app-tools" aria-label="Search and application tools">
+<div class="app-search-row"><input id="globalSearch" type="search" autocomplete="off" placeholder="Items, monsters, NPCs, quests..." aria-label="Search the encyclopedia"><button type="button" class="global-search-submit">Search</button></div>
+<div id="globalSearchResults" class="global-search-results" role="listbox" aria-label="Search results"></div>
+<div class="app-tool-actions"><a href="index.html">⌂ Home</a><button type="button" id="installApp" hidden>Install app</button><button type="button" data-action="export-player">Export player</button><label class="button-like">Import player<input type="file" accept="application/json,.json" hidden></label><span id="offlineStatus" class="offline-status">Checking offline support…</span></div>
+</div></div>
+
+
+<a href="index.html">← Dashboard</a>
+
+<h1>🎯 Goals</h1>
+
+<div class="goal-form">
+
+    <input
+        id="goalName"
+        placeholder="Goal name"
+     aria-label="Goal name">
+
+    <textarea
+        id="goalDetails"
+        rows="3"
+        placeholder="Details (optional)"
+     aria-label="Goal details"></textarea>
+
+    <button type="button" id="addGoal">
+        ➕ Add Goal
+    </button>
+
+</div>
+
+<div class="card quest-planner">
+<h2>🧭 Quest Goal Planner</h2>
+<input id="questPlanName" placeholder="Quest name" aria-label="Quest name">
+<button type="button" id="planQuestBtn">Plan Quest</button>
+<div id="questPlanResult" class="plan-preview"></div>
+</div>
+
+<div id="goalList"></div>
+
+<script src="js/local-loader.js?v=39"></script>
+</body>
+</html>

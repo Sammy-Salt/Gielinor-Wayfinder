@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11165,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11165,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Phoenix crossbow (unobtainable item)",
+        "weight": 3.628,
+        "value": 10,
+        "examine": "Former property of the Phoenix Gang.",
+        "item_id": [
+          "11165"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Phoenix crossbow (unobtainable item)#1",
+        "item_name": "Phoenix crossbow"
+      }
+    }
+  ]
+}

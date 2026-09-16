@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13635,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13635,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful gloves (Hosidius)",
+        "weight": 0.1,
+        "value": 30,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13635"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful gloves (Hosidius)#Inventory",
+        "item_name": "Graceful gloves"
+      }
+    }
+  ]
+}

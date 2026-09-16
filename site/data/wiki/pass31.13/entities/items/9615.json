@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9615,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9615,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue square",
+        "weight": 0,
+        "value": 1,
+        "examine": "A blue square-shaped crystalline disc.",
+        "item_id": [
+          "9615"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blue square",
+        "item_name": "Blue square"
+      }
+    }
+  ]
+}

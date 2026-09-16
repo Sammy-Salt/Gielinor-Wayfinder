@@ -1,0 +1,25 @@
+{
+  "canonicalId": 490,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 490,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune pick head",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "It's missing a handle.",
+        "item_id": [
+          "490"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune pick head",
+        "item_name": "Rune pick head"
+      }
+    }
+  ]
+}

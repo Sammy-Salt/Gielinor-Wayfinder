@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12510,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12510,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armadyl chaps",
+        "weight": 5,
+        "value": 6000,
+        "examine": "Armadyl blessed dragonhide chaps.",
+        "item_id": [
+          "12510"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Armadyl chaps",
+        "item_name": "Armadyl chaps"
+      }
+    }
+  ]
+}

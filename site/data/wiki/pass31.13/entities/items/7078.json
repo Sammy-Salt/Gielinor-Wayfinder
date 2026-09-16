@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7078,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7078,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scrambled egg",
+        "weight": 0.5,
+        "value": 8,
+        "examine": "A bowl of scrambled egg.",
+        "item_id": [
+          "7078"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Scrambled egg",
+        "item_name": "Scrambled egg"
+      }
+    }
+  ]
+}

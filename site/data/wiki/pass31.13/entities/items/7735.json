@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7735,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7735,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Porcelain cup (trimmed)",
+        "weight": 0.05,
+        "value": 2,
+        "examine": "A porcelain cup.",
+        "item_id": [
+          "7735"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Porcelain cup (trimmed)",
+        "item_name": "Porcelain cup"
+      }
+    }
+  ]
+}

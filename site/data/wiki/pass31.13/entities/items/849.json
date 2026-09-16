@@ -1,0 +1,25 @@
+{
+  "canonicalId": 849,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 849,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Willow shortbow",
+        "weight": 1.36,
+        "value": 200,
+        "examine": "A shortbow made out of willow, still effective.",
+        "item_id": [
+          "849"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Willow shortbow",
+        "item_name": "Willow shortbow"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 16,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 16,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic whistle",
+        "weight": 0.005,
+        "value": 10,
+        "examine": "A small tin whistle.",
+        "item_id": [
+          "16"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic whistle",
+        "item_name": "Magic whistle"
+      }
+    }
+  ]
+}

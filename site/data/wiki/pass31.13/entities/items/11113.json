@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11113,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11113,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skills necklace",
+        "weight": 0.01,
+        "value": 20200,
+        "examine": "You will need to recharge the necklace at the Legends Guild.",
+        "item_id": [
+          "11113"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skills necklace#Uncharged",
+        "item_name": "Skills necklace"
+      }
+    }
+  ]
+}

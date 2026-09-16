@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11804,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11804,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos godsword",
+        "weight": 10,
+        "value": 1250000,
+        "examine": "A brutally heavy sword.",
+        "item_id": [
+          "11804"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos godsword",
+        "item_name": "Bandos godsword"
+      }
+    }
+  ]
+}

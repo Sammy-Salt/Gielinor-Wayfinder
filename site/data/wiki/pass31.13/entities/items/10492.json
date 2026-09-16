@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10492,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10492,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Research notes (Animal Magnetism)",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "These make no sense at all.",
+        "item_id": [
+          "10492"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Research notes (Animal Magnetism)",
+        "item_name": "Research notes"
+      }
+    }
+  ]
+}

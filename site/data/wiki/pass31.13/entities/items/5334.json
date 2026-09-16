@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5334,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5334,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Watering can",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "This watering can is three-quarters empty.",
+        "item_id": [
+          "5334"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Watering can#(2)",
+        "item_name": "Watering can(2)"
+      }
+    }
+  ]
+}

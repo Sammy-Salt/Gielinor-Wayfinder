@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13600,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13600,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful gloves (Piscarilius)",
+        "weight": -3,
+        "value": 30,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13600"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful gloves (Piscarilius)#Worn",
+        "item_name": "Graceful gloves"
+      }
+    }
+  ]
+}

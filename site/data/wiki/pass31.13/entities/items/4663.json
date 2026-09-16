@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4663,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4663,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blessed pot",
+        "weight": 0.453,
+        "value": 250,
+        "examine": "A blessed silver pot filled with blood and garlic.",
+        "item_id": [
+          "4663"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Blessed pot#Garlic",
+        "item_name": "Blessed pot"
+      }
+    }
+  ]
+}

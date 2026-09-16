@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6659,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6659,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Camo helmet (unobtainable item)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Examine what?",
+        "item_id": [
+          "6659"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Camo helmet (unobtainable item)",
+        "item_name": "Camo helmet"
+      }
+    }
+  ]
+}

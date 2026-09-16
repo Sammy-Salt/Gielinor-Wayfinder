@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12620,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12620,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armadyl page 4",
+        "weight": 0,
+        "value": 400,
+        "examine": "This seems to have been torn from a book...",
+        "item_id": [
+          "12620"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Armadyl page 4",
+        "item_name": "Armadyl page 4"
+      }
+    }
+  ]
+}

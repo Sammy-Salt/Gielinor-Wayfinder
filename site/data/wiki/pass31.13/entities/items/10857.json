@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10857,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10857,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Severed leg (The General's Shadow)",
+        "weight": 1.814,
+        "value": 0,
+        "examine": "A severed human leg.",
+        "item_id": [
+          "10857"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Severed leg (The General's Shadow)",
+        "item_name": "Severed leg"
+      }
+    }
+  ]
+}

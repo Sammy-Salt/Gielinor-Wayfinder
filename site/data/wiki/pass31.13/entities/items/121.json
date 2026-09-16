@@ -1,0 +1,25 @@
+{
+  "canonicalId": 121,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 121,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Attack potion",
+        "weight": 0.03,
+        "value": 12,
+        "examine": "3 doses of Attack potion.",
+        "item_id": [
+          "121"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Attack potion#(3)",
+        "item_name": "Attack potion(3)"
+      }
+    }
+  ]
+}

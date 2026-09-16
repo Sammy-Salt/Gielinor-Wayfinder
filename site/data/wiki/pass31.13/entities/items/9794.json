@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9794,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9794,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mining hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Mining skillcape hood.",
+        "item_id": [
+          "9794"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mining hood",
+        "item_name": "Mining hood"
+      }
+    }
+  ]
+}

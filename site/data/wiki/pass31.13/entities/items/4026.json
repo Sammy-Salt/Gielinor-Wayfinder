@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4026,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4026,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gorilla greegree",
+        "weight": 0.085,
+        "value": 1000,
+        "examine": "A magical talisman in the shape of a gorilla head.",
+        "item_id": [
+          "4026"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Gorilla greegree",
+        "item_name": "Gorilla greegree"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10354,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10354,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Amulet of glory (t)",
+        "weight": 0.01,
+        "value": 17625,
+        "examine": "A very powerful dragonstone amulet.",
+        "item_id": [
+          "10354"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Amulet of glory (t)#(t4)",
+        "item_name": "Amulet of glory (t4)"
+      }
+    }
+  ]
+}

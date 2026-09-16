@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3709,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3709,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Promissory note",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "A legally binding contract promising not to enter the longhall.",
+        "item_id": [
+          "3709"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Promissory note",
+        "item_name": "Promissory note"
+      }
+    }
+  ]
+}

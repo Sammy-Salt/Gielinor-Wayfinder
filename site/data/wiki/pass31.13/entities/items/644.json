@@ -1,0 +1,25 @@
+{
+  "canonicalId": 644,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 644,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Turquoise robe top",
+        "weight": 0.907,
+        "value": 180,
+        "examine": "The ultimate in gnome design, now in turquoise!",
+        "item_id": [
+          "644"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Turquoise robe top",
+        "item_name": "Turquoise robe top"
+      }
+    }
+  ]
+}

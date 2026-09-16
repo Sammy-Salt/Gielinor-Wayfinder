@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13002,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13002,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril set (sk)",
+        "weight": 6,
+        "value": 5000,
+        "examine": "A set containing a full helm, platebody, skirt and kiteshield.",
+        "item_id": [
+          "13002"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril set (sk)",
+        "item_name": "Mithril set (sk)"
+      }
+    }
+  ]
+}

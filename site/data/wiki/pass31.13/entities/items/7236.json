@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7236,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7236,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - North of Falador.",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Part of the world map, but where?",
+        "item_id": [
+          "7236"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - North of Falador.",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

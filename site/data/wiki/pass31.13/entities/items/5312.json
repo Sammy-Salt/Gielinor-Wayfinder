@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5312,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5312,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Acorn",
+        "weight": 0,
+        "value": 6,
+        "examine": "Plant this in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5312"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Acorn",
+        "item_name": "Acorn"
+      }
+    }
+  ]
+}

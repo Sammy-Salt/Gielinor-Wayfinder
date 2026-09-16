@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2987,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2987,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chompy bird hat (forester)",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A symbol of your chompy bird hunting prowess: Forester (400 kills)",
+        "item_id": [
+          "2987"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chompy bird hat (forester)",
+        "item_name": "Chompy bird hat"
+      }
+    }
+  ]
+}

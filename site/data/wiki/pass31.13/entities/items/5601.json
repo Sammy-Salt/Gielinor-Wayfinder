@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5601,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5601,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chisel (Recruitment Drive)",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Good for detailed crafting.",
+        "item_id": [
+          "5601"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chisel (Recruitment Drive)",
+        "item_name": "Chisel"
+      }
+    }
+  ]
+}

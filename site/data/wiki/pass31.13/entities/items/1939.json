@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1939,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1939,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Swamp tar",
+        "weight": 0,
+        "value": 1,
+        "examine": "A foul smelling thick tar-like substance.",
+        "item_id": [
+          "1939"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Swamp tar",
+        "item_name": "Swamp tar"
+      }
+    }
+  ]
+}

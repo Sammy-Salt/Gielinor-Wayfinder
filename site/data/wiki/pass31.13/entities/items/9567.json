@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9567,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9567,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mixed sgg",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "This Short Green Guy cocktail needs pouring, a lime slice and equa leaves..",
+        "item_id": [
+          "9567"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mixed sgg",
+        "item_name": "Mixed sgg"
+      }
+    }
+  ]
+}

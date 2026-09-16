@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6305,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6305,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skewer stick",
+        "weight": 0,
+        "value": 10,
+        "examine": "A sharp pointed stick, quite resistant to fire.",
+        "item_id": [
+          "6305"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skewer stick",
+        "item_name": "Skewer stick"
+      }
+    }
+  ]
+}

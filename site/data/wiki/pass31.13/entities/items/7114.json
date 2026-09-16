@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7114,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7114,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pirate boots",
+        "weight": 4,
+        "value": 350,
+        "examine": "Not for land lubbers.",
+        "item_id": [
+          "7114"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pirate boots",
+        "item_name": "Pirate boots"
+      }
+    }
+  ]
+}

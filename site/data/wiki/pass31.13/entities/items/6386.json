@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6386,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6386,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Desert robes",
+        "weight": 0.005,
+        "value": 25,
+        "examine": "Has a coarse hard wearing texture.",
+        "item_id": [
+          "6386"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Desert robes",
+        "item_name": "Desert robes"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7869,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7869,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Moss giant bone",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7869"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Moss giant bone#Unpolished",
+        "item_name": "Moss giant bone"
+      }
+    }
+  ]
+}

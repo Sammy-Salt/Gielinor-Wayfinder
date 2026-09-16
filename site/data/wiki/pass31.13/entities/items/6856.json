@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6856,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6856,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bobble hat",
+        "weight": 0.25,
+        "value": 1,
+        "examine": "A woolly bobble hat.",
+        "item_id": [
+          "6856"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bobble hat",
+        "item_name": "Bobble hat"
+      }
+    }
+  ]
+}

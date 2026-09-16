@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9788,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9788,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Slayer skillcape hood.",
+        "item_id": [
+          "9788"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer hood",
+        "item_name": "Slayer hood"
+      }
+    }
+  ]
+}

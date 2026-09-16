@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4242,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4242,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cup of tea (nettle)",
+        "weight": 0.15,
+        "value": 10,
+        "examine": "A nice cup of nettle tea.",
+        "item_id": [
+          "4242"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cup of tea (nettle)",
+        "item_name": "Cup of tea"
+      }
+    }
+  ]
+}

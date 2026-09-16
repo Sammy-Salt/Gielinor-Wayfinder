@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ogre ribs",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ogre ribs#Unpolished",
+        "item_name": "Ogre ribs"
+      }
+    }
+  ]
+}

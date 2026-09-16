@@ -1,0 +1,25 @@
+{
+  "canonicalId": 139,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 139,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prayer potion",
+        "weight": 0.03,
+        "value": 152,
+        "examine": "3 doses of Prayer restore potion.",
+        "item_id": [
+          "139"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Prayer potion#(3)",
+        "item_name": "Prayer potion(3)"
+      }
+    }
+  ]
+}

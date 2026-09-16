@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6714,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6714,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Holy wrench",
+        "weight": 0.005,
+        "value": 5,
+        "examine": "A shining paragon of wrenchly virtue.",
+        "item_id": [
+          "6714"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Holy wrench",
+        "item_name": "Holy wrench"
+      }
+    }
+  ]
+}

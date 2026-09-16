@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6981,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6981,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Granite",
+        "weight": 2,
+        "value": 1,
+        "examine": "A small chunk of granite.",
+        "item_id": [
+          "6981"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Granite#2kg",
+        "item_name": "Granite (2kg)"
+      }
+    }
+  ]
+}

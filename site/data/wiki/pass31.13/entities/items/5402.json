@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5402,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5402,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strawberries",
+        "weight": 0.113,
+        "value": 1,
+        "examine": "A fruit basket filled with strawberries.",
+        "item_id": [
+          "5402"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Strawberries#(3)",
+        "item_name": "Strawberries(3)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4031,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4031,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Karamjan monkey greegree",
+        "weight": 0.085,
+        "value": 500,
+        "examine": "A magical talisman in the shape of a Karamjan monkey head.",
+        "item_id": [
+          "4031"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Karamjan monkey greegree",
+        "item_name": "Karamjan monkey greegree"
+      }
+    }
+  ]
+}

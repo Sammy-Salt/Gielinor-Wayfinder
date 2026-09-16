@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6668,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6668,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fishbowl",
+        "weight": 2.267,
+        "value": 0,
+        "examine": "A fishless fishbowl.",
+        "item_id": [
+          "6668"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fishbowl#Water",
+        "item_name": "Fishbowl"
+      }
+    }
+  ]
+}

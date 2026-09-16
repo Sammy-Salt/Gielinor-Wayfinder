@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2983,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2983,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chompy bird hat (marksman)",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A symbol of your chompy bird hunting prowess: Marksman (125 kills)",
+        "item_id": [
+          "2983"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Chompy bird hat (marksman)",
+        "item_name": "Chompy bird hat"
+      }
+    }
+  ]
+}

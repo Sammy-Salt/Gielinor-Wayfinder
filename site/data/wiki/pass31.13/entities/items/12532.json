@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12532,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12532,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon sq shield ornament kit",
+        "weight": 0.5,
+        "value": 5000,
+        "examine": "Use on a dragon square shield to make it look fancier!",
+        "item_id": [
+          "12532"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon sq shield ornament kit",
+        "item_name": "Dragon sq shield ornament kit"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1333,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1333,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune scimitar",
+        "weight": 1.814,
+        "value": 25600,
+        "examine": "A vicious, curved sword.",
+        "item_id": [
+          "1333"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune scimitar",
+        "item_name": "Rune scimitar"
+      }
+    }
+  ]
+}

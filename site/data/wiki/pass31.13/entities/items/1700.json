@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1700,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1700,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Diamond amulet",
+        "weight": 0.007,
+        "value": 3525,
+        "examine": "I wonder if I can get this enchanted.",
+        "item_id": [
+          "1700"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Diamond amulet",
+        "item_name": "Diamond amulet"
+      }
+    }
+  ]
+}

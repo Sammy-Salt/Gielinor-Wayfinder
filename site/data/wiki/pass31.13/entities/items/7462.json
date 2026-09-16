@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7462,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7462,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barrows gloves",
+        "weight": 0.226,
+        "value": 100000,
+        "examine": "A pair of very nice gloves.",
+        "item_id": [
+          "7462"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Barrows gloves",
+        "item_name": "Barrows gloves"
+      }
+    }
+  ]
+}

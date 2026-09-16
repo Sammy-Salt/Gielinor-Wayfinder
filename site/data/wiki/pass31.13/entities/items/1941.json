@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1941,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1941,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Swamp paste",
+        "weight": 0,
+        "value": 30,
+        "examine": "A tar-like substance mixed with flour and warmed.",
+        "item_id": [
+          "1941"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Swamp paste",
+        "item_name": "Swamp paste"
+      }
+    }
+  ]
+}

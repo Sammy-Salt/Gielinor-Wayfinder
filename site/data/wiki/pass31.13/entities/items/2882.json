@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2882,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2882,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seasoned chompy",
+        "weight": 10,
+        "value": 10,
+        "examine": "It has been deliciously seasoned to taste wonderful for ogres.",
+        "item_id": [
+          "2882"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seasoned chompy",
+        "item_name": "Seasoned chompy"
+      }
+    }
+  ]
+}

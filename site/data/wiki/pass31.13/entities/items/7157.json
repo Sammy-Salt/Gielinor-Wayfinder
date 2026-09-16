@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7157,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7157,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Braindeath 'rum'",
+        "weight": 0.907,
+        "value": 30,
+        "examine": "I think it is eating through the bottle.",
+        "item_id": [
+          "7157"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Braindeath 'rum'",
+        "item_name": "Braindeath 'rum'"
+      }
+    }
+  ]
+}

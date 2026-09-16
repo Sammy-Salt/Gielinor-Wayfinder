@@ -1,0 +1,25 @@
+{
+  "canonicalId": 695,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 695,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Old tooth",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Now, if I can just find a tooth fairy to sell this to...",
+        "item_id": [
+          "695"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Old tooth",
+        "item_name": "Old tooth"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11461,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11461,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Agility mix",
+        "weight": 0.075,
+        "value": 100,
+        "examine": "Two doses of fishy Agility potion.",
+        "item_id": [
+          "11461"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Agility mix#(2)",
+        "item_name": "Agility mix(2)"
+      }
+    }
+  ]
+}

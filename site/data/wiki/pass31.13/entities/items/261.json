@@ -1,0 +1,25 @@
+{
+  "canonicalId": 261,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 261,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Avantoe",
+        "weight": 0.007,
+        "value": 48,
+        "examine": "A useful herb.",
+        "item_id": [
+          "261"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Avantoe",
+        "item_name": "Avantoe"
+      }
+    }
+  ]
+}

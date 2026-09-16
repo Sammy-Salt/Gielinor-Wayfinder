@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1167,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1167,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Leather cowl",
+        "weight": 0.907,
+        "value": 24,
+        "examine": "Better than no armour!",
+        "item_id": [
+          "1167"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Leather cowl",
+        "item_name": "Leather cowl"
+      }
+    }
+  ]
+}

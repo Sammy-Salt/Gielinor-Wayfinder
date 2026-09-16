@@ -1,0 +1,25 @@
+{
+  "canonicalId": 197,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 197,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Poison chalice",
+        "weight": 0.056,
+        "value": 20,
+        "examine": "A cup of a strange brew...",
+        "item_id": [
+          "197"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Poison chalice",
+        "item_name": "Poison chalice"
+      }
+    }
+  ]
+}

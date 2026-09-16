@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9423,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9423,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron limbs",
+        "weight": 1,
+        "value": 70,
+        "examine": "A pair of iron crossbow limbs.",
+        "item_id": [
+          "9423"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron limbs",
+        "item_name": "Iron limbs"
+      }
+    }
+  ]
+}

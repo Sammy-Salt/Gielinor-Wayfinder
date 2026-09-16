@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2745,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2745,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (hard) - 16.43N 19.13E",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Perhaps someone at the observatory can teach me to navigate?",
+        "item_id": [
+          "2745"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (hard) - 16.43N 19.13E",
+        "item_name": "Clue scroll (hard)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5921,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5921,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer's respite(m) (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 4 pints of mature Slayer's Respite.",
+        "item_id": [
+          "5921"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Slayer's respite(m) (keg)#4 pints",
+        "item_name": "Slayer's respite(m4)"
+      }
+    }
+  ]
+}

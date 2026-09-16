@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12211,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12211,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze full helm (g)",
+        "weight": 2.721,
+        "value": 48,
+        "examine": "Bronze full helm with gold trim.",
+        "item_id": [
+          "12211"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze full helm (g)",
+        "item_name": "Bronze full helm (g)"
+      }
+    }
+  ]
+}

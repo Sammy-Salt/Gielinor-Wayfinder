@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10117,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10117,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Polar kebbit fur",
+        "weight": 0.453,
+        "value": 10,
+        "examine": "A thick fur for a cold climate.",
+        "item_id": [
+          "10117"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Polar kebbit fur",
+        "item_name": "Polar kebbit fur"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3508,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3508,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (easy) - Search upstairs in the houses of Seers' Village for some drawers",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "3508"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (easy) - Search upstairs in the houses of Seers' Village for some drawers",
+        "item_name": "Clue scroll (easy)"
+      }
+    }
+  ]
+}

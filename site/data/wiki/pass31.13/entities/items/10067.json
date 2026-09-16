@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10067,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10067,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Polar camo legs",
+        "weight": 0.226,
+        "value": 20,
+        "examine": "These should make me harder to spot in polar areas.",
+        "item_id": [
+          "10067"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Polar camo legs#Inventory",
+        "item_name": "Polar camo legs"
+      }
+    }
+  ]
+}

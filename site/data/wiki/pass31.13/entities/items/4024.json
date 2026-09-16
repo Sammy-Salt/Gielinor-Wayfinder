@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4024,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4024,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ninja monkey greegree (small)",
+        "weight": 0.085,
+        "value": 3000,
+        "examine": "A magical talisman in the shape of a small ninja monkey head.",
+        "item_id": [
+          "4024"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ninja monkey greegree (small)",
+        "item_name": "Ninja monkey greegree"
+      }
+    }
+  ]
+}

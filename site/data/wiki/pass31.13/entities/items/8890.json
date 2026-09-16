@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8890,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8890,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Coins (Mage Training Arena)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Lovely money!",
+        "item_id": [
+          "8890"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Coins (Mage Training Arena)",
+        "item_name": "Coins"
+      }
+    }
+  ]
+}

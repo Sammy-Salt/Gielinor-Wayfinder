@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13391,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13391,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lizardman fang",
+        "weight": 0,
+        "value": 60,
+        "examine": "Ripped from the maw of a dying lizardman of Kourend.",
+        "item_id": [
+          "13391"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lizardman fang",
+        "item_name": "Lizardman fang"
+      }
+    }
+  ]
+}

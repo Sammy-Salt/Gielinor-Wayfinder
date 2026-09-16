@@ -1,0 +1,25 @@
+{
+  "canonicalId": 39,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 39,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze arrowtips",
+        "weight": 0,
+        "value": 1,
+        "examine": "I can make some arrows with these.",
+        "item_id": [
+          "39"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze arrowtips",
+        "item_name": "Bronze arrowtips"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9064,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9064,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Emerald lantern",
+        "weight": 1.36,
+        "value": 20,
+        "examine": "A mystical lantern.",
+        "item_id": [
+          "9064"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Emerald lantern#Unlit",
+        "item_name": "Emerald lantern"
+      }
+    }
+  ]
+}

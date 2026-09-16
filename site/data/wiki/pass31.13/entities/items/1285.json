@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1285,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1285,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril sword",
+        "weight": 1.587,
+        "value": 845,
+        "examine": "A razor sharp sword.",
+        "item_id": [
+          "1285"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril sword",
+        "item_name": "Mithril sword"
+      }
+    }
+  ]
+}

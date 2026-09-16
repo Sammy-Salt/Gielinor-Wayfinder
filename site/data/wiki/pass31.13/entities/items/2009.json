@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2009,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2009,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Uncooked curry",
+        "weight": 1.5,
+        "value": 10,
+        "examine": "I need to cook this.",
+        "item_id": [
+          "2009"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Uncooked curry",
+        "item_name": "Uncooked curry"
+      }
+    }
+  ]
+}

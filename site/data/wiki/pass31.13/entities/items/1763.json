@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1763,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1763,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red dye",
+        "weight": 0.02,
+        "value": 5,
+        "examine": "A little bottle of red dye.",
+        "item_id": [
+          "1763"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red dye",
+        "item_name": "Red dye"
+      }
+    }
+  ]
+}

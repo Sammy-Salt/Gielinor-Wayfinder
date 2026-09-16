@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6958,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6958,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sand",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A handful of sand from Sandy's pocket.",
+        "item_id": [
+          "6958"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sand",
+        "item_name": "Sand"
+      }
+    }
+  ]
+}

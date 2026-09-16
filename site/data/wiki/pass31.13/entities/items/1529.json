@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1529,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1529,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Grimy sito foil",
+        "weight": 0.007,
+        "value": 0,
+        "examine": "It needs cleaning.",
+        "item_id": [
+          "1529"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Grimy sito foil",
+        "item_name": "Grimy sito foil"
+      }
+    }
+  ]
+}

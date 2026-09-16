@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13193,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13193,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone bolt pack",
+        "weight": 0.453,
+        "value": 350,
+        "examine": "A pack containing 100 bone crossbow bolts.",
+        "item_id": [
+          "13193"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bone bolt pack",
+        "item_name": "Bone bolt pack"
+      }
+    }
+  ]
+}

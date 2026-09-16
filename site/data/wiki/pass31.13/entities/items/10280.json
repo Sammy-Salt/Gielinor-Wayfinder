@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10280,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10280,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Willow comp bow",
+        "weight": 1.8,
+        "value": 300,
+        "examine": "A powerful bow made from willow wood.",
+        "item_id": [
+          "10280"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Willow comp bow",
+        "item_name": "Willow comp bow"
+      }
+    }
+  ]
+}

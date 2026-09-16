@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10322,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10322,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bob's black shirt",
+        "weight": 1,
+        "value": 3,
+        "examine": "'Bob says: A bank pin will keep your items secure.'",
+        "item_id": [
+          "10322"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bob's black shirt",
+        "item_name": "Bob's black shirt"
+      }
+    }
+  ]
+}

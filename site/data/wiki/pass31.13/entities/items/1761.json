@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1761,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1761,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Soft clay",
+        "weight": 0.907,
+        "value": 2,
+        "examine": "Clay soft enough to mould.",
+        "item_id": [
+          "1761"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Soft clay",
+        "item_name": "Soft clay"
+      }
+    }
+  ]
+}

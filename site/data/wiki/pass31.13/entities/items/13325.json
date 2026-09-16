@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13325,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13325,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Baby chinchompa",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "Fluffy and cute, keep away from fire!",
+        "item_id": [
+          "13325"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Baby chinchompa#Black",
+        "item_name": "Baby chinchompa"
+      }
+    }
+  ]
+}

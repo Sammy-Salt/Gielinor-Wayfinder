@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9073,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9073,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Moonclan boots",
+        "weight": 0.907,
+        "value": 900,
+        "examine": "Groovy foot protection.",
+        "item_id": [
+          "9073"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Moonclan boots",
+        "item_name": "Moonclan boots"
+      }
+    }
+  ]
+}

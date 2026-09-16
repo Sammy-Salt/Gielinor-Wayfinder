@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7542,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7542,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cake of Guidance",
+        "weight": 0.3,
+        "value": 50,
+        "examine": "Imbued with knowledge itself.",
+        "item_id": [
+          "7542"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cake of Guidance",
+        "item_name": "Cake of Guidance"
+      }
+    }
+  ]
+}

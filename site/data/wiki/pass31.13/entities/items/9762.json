@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9762,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9762,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the most powerful mages.",
+        "item_id": [
+          "9762"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic cape#Untrimmed",
+        "item_name": "Magic cape"
+      }
+    }
+  ]
+}

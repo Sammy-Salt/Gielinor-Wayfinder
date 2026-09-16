@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4103,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4103,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic robe bottom (dark)",
+        "weight": 1.814,
+        "value": 80000,
+        "examine": "The lower half of a dark magical robe.",
+        "item_id": [
+          "4103"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic robe bottom (dark)",
+        "item_name": "Mystic robe bottom (dark)"
+      }
+    }
+  ]
+}

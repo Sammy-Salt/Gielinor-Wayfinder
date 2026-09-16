@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9684,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9684,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Page 1",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A page from Maledict's holy book.",
+        "item_id": [
+          "9684"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Page 1",
+        "item_name": "Page 1"
+      }
+    }
+  ]
+}

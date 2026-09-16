@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6903,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6903,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragonstone (Mage Training Arena)",
+        "weight": 0.002,
+        "value": 0,
+        "examine": "This looks valuable.",
+        "item_id": [
+          "6903"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dragonstone (Mage Training Arena)",
+        "item_name": "Dragonstone"
+      }
+    }
+  ]
+}

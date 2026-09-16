@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4196,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4196,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Legs",
+        "weight": 6.35,
+        "value": 1,
+        "examine": "A pair of lifeless, rotting legs.",
+        "item_id": [
+          "4196"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Legs",
+        "item_name": "Legs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 25,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 25,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red vine worm",
+        "weight": 0,
+        "value": 1,
+        "examine": "Wormy.",
+        "item_id": [
+          "25"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red vine worm",
+        "item_name": "Red vine worm"
+      }
+    }
+  ]
+}

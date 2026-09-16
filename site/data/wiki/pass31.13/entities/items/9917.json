@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9917,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9917,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yellow destabiliser",
+        "weight": 0,
+        "value": 1,
+        "examine": "A yellow destabiliser for use in a Ghost Buster.",
+        "item_id": [
+          "9917"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yellow destabiliser",
+        "item_name": "Yellow destabiliser"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 440,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 440,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron ore",
+        "weight": 2.267,
+        "value": 17,
+        "examine": "This needs refining.",
+        "item_id": [
+          "440"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron ore",
+        "item_name": "Iron ore"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9699,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9699,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire rune (The Slug Menace)",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A fire rune.",
+        "item_id": [
+          "9699"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fire rune (The Slug Menace)",
+        "item_name": "Fire rune"
+      }
+    }
+  ]
+}

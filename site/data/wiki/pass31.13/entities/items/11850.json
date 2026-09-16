@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11850,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11850,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful hood",
+        "weight": 0.6,
+        "value": 35,
+        "examine": "A sign of your grace.",
+        "item_id": [
+          "11850"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful hood#Inventory",
+        "item_name": "Graceful hood"
+      }
+    }
+  ]
+}

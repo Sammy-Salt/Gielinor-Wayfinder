@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5302,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5302,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lantadyme seed",
+        "weight": 0,
+        "value": 9,
+        "examine": "A lantadyme seed - plant in a herb patch.",
+        "item_id": [
+          "5302"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lantadyme seed",
+        "item_name": "Lantadyme seed"
+      }
+    }
+  ]
+}

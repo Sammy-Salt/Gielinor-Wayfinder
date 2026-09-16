@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tree bauble",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "A bauble shaped like a wintumber tree painted red.",
+        "item_id": [
+          "6842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tree bauble#Red",
+        "item_name": "Tree bauble"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7511,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7511,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slop of compromise",
+        "weight": 0.001,
+        "value": 10,
+        "examine": "Two out of two goblin generals prefer it!",
+        "item_id": [
+          "7511"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slop of compromise",
+        "item_name": "Slop of compromise"
+      }
+    }
+  ]
+}

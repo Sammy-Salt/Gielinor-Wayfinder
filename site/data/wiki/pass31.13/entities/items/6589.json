@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6589,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6589,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White battleaxe",
+        "weight": 2.721,
+        "value": 1248,
+        "examine": "A vicious looking axe.",
+        "item_id": [
+          "6589"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White battleaxe",
+        "item_name": "White battleaxe"
+      }
+    }
+  ]
+}

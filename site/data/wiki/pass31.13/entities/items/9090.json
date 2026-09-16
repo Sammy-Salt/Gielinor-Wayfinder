@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9090,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9090,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guam-marr vial",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "A vessel with water, Guam and Marrentill inside.",
+        "item_id": [
+          "9090"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guam-marr vial",
+        "item_name": "Guam-marr vial"
+      }
+    }
+  ]
+}

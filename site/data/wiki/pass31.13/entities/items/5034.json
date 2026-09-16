@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5034,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5034,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shirt (lilac)",
+        "weight": 0.07,
+        "value": 625,
+        "examine": "Tiny!",
+        "item_id": [
+          "5034"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Shirt (lilac)",
+        "item_name": "Shirt"
+      }
+    }
+  ]
+}

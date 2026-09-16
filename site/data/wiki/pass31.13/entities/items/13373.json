@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13373,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13373,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien boots (4)",
+        "weight": 1.36,
+        "value": 55,
+        "examine": "Dress like a tier 4 Shayzien soldier.",
+        "item_id": [
+          "13373"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien boots (4)",
+        "item_name": "Shayzien boots (4)"
+      }
+    }
+  ]
+}

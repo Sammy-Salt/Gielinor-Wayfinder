@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2167,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2167,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gianne's cook book",
+        "weight": 0.51,
+        "value": 2,
+        "examine": "Aluft Gianne's favorite<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> dishes.",
+        "item_id": [
+          "2167"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gianne's cook book",
+        "item_name": "Gianne's cook book"
+      }
+    }
+  ]
+}

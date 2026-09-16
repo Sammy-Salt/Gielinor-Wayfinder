@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13580,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13580,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful hood (Arceuus)",
+        "weight": -3,
+        "value": 35,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13580"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful hood (Arceuus)#Worn",
+        "item_name": "Graceful hood"
+      }
+    }
+  ]
+}

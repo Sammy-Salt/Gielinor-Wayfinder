@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10808,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10808,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Arctic pyre logs",
+        "weight": 1.36,
+        "value": 200,
+        "examine": "Arctic pine logs prepared with sacred oil for a funeral pyre.",
+        "item_id": [
+          "10808"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Arctic pyre logs",
+        "item_name": "Arctic pyre logs"
+      }
+    }
+  ]
+}

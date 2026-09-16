@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7509,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7509,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dwarven rock cake",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Red hot and glowing, ouch! Only for dwarf consumption.",
+        "item_id": [
+          "7509"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dwarven rock cake#Hot",
+        "item_name": "Dwarven rock cake"
+      }
+    }
+  ]
+}

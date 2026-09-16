@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2357,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2357,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gold bar",
+        "weight": 1.814,
+        "value": 300,
+        "examine": "It's a bar of gold.",
+        "item_id": [
+          "2357"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gold bar",
+        "item_name": "Gold bar"
+      }
+    }
+  ]
+}

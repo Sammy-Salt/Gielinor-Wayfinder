@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4430,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4430,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Directionals",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "The weathervane directionals should work now.",
+        "item_id": [
+          "4430"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Directionals",
+        "item_name": "Directionals"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "product": "OSRS Guide",
+  "release": "PASS31.26",
+  "buildId": "pass31.26-20260916-1",
+  "cacheNamespace": "osrs-guide-pass31.26-20260916-1",
+  "canonicalEntrypoint": "js/local-loader.js",
+  "loaderVersion": "39",
+  "bootstrap": "js/bootstrap.js",
+  "generatedFrom": "PASS31.25 + PASS31.26 repository governance; application data corpus unchanged",
+  "mapBoundary": "site/data/map/**, site/map.html, site/js/pages/map.js, site/css/pages/map.css",
+  "dataFoundation": "2009Scape-primary-osrs-wiki-secondary"
+}

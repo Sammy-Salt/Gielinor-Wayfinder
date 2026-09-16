@@ -1,0 +1,53 @@
+{
+  "formatVersion": 1,
+  "generatedFrom": "local game data",
+  "counts": {
+    "items": 11978,
+    "monsters": 2865,
+    "npcs": 6804,
+    "quests": 200,
+    "relationshipEdges": 52309,
+    "relationshipEntities": 22074
+  },
+  "quality": {
+    "items": {
+      "missingId": 0,
+      "blankName": 0,
+      "duplicateId": 0,
+      "duplicateName": 5940
+    },
+    "monsters": {
+      "missingId": 0,
+      "blankName": 0,
+      "duplicateId": 0,
+      "duplicateName": 2178
+    },
+    "npcs": {
+      "missingId": 0,
+      "blankName": 0,
+      "duplicateId": 0,
+      "duplicateName": 2539
+    },
+    "quests": {
+      "missingId": 0,
+      "blankName": 0,
+      "duplicateId": 0,
+      "duplicateName": 0
+    },
+    "jsonDetails": {
+      "items": {
+        "files": 11980,
+        "invalid": 0
+      },
+      "monsters": {
+        "files": 2867,
+        "invalid": 0
+      },
+      "npcs": {
+        "files": 6805,
+        "invalid": 0
+      }
+    }
+  },
+  "issues": []
+}

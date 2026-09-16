@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1658,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1658,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Emerald necklace",
+        "weight": 0.01,
+        "value": 1425,
+        "examine": "I wonder if this is valuable.",
+        "item_id": [
+          "1658"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Emerald necklace",
+        "item_name": "Emerald necklace"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2221,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2221,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Premade t'd batta",
+        "weight": 0.25,
+        "value": 120,
+        "examine": "A Premade Toad Batta.",
+        "item_id": [
+          "2221"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Premade t'd batta",
+        "item_name": "Premade t'd batta"
+      }
+    }
+  ]
+}

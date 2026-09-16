@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4446,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4446,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel key ring",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "I can store my keys here.",
+        "item_id": [
+          "4446"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel key ring",
+        "item_name": "Steel key ring"
+      }
+    }
+  ]
+}

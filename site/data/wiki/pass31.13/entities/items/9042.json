@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9042,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9042,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stone seal",
+        "weight": 0.01,
+        "value": 20,
+        "examine": "A seal. Made out of stone obviously.",
+        "item_id": [
+          "9042"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Stone seal",
+        "item_name": "Stone seal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8439,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8439,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nice hedge (bagged)",
+        "weight": 10,
+        "value": 10000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8439"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Nice hedge (bagged)",
+        "item_name": "Nice hedge"
+      }
+    }
+  ]
+}

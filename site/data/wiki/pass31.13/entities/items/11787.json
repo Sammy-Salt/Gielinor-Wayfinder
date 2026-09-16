@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11787,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11787,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steam battlestaff",
+        "weight": 2.267,
+        "value": 17000,
+        "examine": "It's a slightly magical stick.",
+        "item_id": [
+          "11787"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steam battlestaff",
+        "item_name": "Steam battlestaff"
+      }
+    }
+  ]
+}

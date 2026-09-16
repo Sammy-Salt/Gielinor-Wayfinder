@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1063,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1063,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Leather vambraces",
+        "weight": 0.226,
+        "value": 18,
+        "examine": "Better than no armour!",
+        "item_id": [
+          "1063"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Leather vambraces",
+        "item_name": "Leather vambraces"
+      }
+    }
+  ]
+}

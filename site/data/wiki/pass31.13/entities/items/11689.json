@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11689,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11689,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Earth rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 1,
+        "examine": "One of the 4 basic elemental Runes.",
+        "item_id": [
+          "11689"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Earth rune (Barbarian Assault)",
+        "item_name": "Earth rune"
+      }
+    }
+  ]
+}

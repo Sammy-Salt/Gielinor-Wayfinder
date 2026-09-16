@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9098,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9098,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lunar legs",
+        "weight": 3.628,
+        "value": 100,
+        "examine": "These should protect my legs.",
+        "item_id": [
+          "9098"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lunar legs",
+        "item_name": "Lunar legs"
+      }
+    }
+  ]
+}

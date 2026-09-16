@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5531,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5531,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Water tiara",
+        "weight": 1,
+        "value": 100,
+        "examine": "A tiara infused with the properties of water.",
+        "item_id": [
+          "5531"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Water tiara",
+        "item_name": "Water tiara"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1785,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1785,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Glassblowing pipe",
+        "weight": 0.056,
+        "value": 2,
+        "examine": "Used to form molten glass into useful items.",
+        "item_id": [
+          "1785"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Glassblowing pipe",
+        "item_name": "Glassblowing pipe"
+      }
+    }
+  ]
+}

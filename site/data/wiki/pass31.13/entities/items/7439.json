@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7439,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7439,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spatula",
+        "weight": 3.628,
+        "value": 1920,
+        "examine": "A large spatula... of doom!",
+        "item_id": [
+          "7439"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spatula",
+        "item_name": "Spatula"
+      }
+    }
+  ]
+}

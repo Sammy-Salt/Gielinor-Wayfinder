@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8656,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8656,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banner (Dragon)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A banner with a picture of a dragon.",
+        "item_id": [
+          "8656"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Banner (Dragon)",
+        "item_name": "Banner"
+      }
+    }
+  ]
+}

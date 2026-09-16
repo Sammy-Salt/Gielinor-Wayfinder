@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stronghold notes",
+        "weight": 0.01,
+        "value": 2,
+        "examine": "Information regarding the Stronghold of Security.",
+        "item_id": [
+          "9004"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Stronghold notes",
+        "item_name": "Stronghold notes"
+      }
+    }
+  ]
+}

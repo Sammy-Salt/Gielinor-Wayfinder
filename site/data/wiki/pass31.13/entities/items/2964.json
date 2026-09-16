@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2964,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2964,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Washing bowl",
+        "weight": 0.453,
+        "value": 4,
+        "examine": "Used for washing your face, amongst other things.",
+        "item_id": [
+          "2964"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Washing bowl",
+        "item_name": "Washing bowl"
+      }
+    }
+  ]
+}

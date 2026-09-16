@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6988,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6988,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sandstone base",
+        "weight": 23,
+        "value": 1,
+        "examine": "The base and legs of a sandstone statue.",
+        "item_id": [
+          "6988"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sandstone base",
+        "item_name": "Sandstone base"
+      }
+    }
+  ]
+}

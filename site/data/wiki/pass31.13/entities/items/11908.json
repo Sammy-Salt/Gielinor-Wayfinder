@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11908,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11908,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Trident of the Seas",
+        "weight": 1.814,
+        "value": 68000,
+        "examine": "It needs to be charged with death runes, chaos runes, fire runes and coins.",
+        "item_id": [
+          "11908"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Trident of the Seas#Uncharged",
+        "item_name": "Uncharged trident"
+      }
+    }
+  ]
+}

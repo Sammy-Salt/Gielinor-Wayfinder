@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5024,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5024,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Woven top (brown)",
+        "weight": 0.07,
+        "value": 500,
+        "examine": "Far too small to wear.",
+        "item_id": [
+          "5024"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Woven top (brown)",
+        "item_name": "Woven top"
+      }
+    }
+  ]
+}

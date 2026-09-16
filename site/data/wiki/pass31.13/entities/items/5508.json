@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5508,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5508,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of folklore",
+        "weight": 0.07,
+        "value": 1,
+        "examine": "A tatty old book belonging to the Wise Old Man of Draynor Village.",
+        "item_id": [
+          "5508"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book of folklore",
+        "item_name": "Book of folklore"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6745,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6745,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silverlight",
+        "weight": 1.814,
+        "value": 50,
+        "examine": "The magical sword 'Silverlight', stained black.",
+        "item_id": [
+          "6745"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Silverlight#Dyed",
+        "item_name": "Silverlight"
+      }
+    }
+  ]
+}

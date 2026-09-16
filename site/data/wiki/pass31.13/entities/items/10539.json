@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10539,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10539,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Poisoned tofu",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Some poisoned tofu.",
+        "item_id": [
+          "10539"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Poisoned tofu",
+        "item_name": "Poisoned tofu"
+      }
+    }
+  ]
+}

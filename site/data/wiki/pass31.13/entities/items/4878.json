@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4878,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4878,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ahrim's robeskirt",
+        "weight": 11.339,
+        "value": 47000,
+        "examine": "Ahrim the Blighted's armoured robe skirt.",
+        "item_id": [
+          "4878"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ahrim's robeskirt#(broken)",
+        "item_name": "Ahrim's robeskirt 0"
+      }
+    }
+  ]
+}

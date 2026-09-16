@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5559,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5559,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Flash powder",
+        "weight": 0,
+        "value": 1,
+        "examine": "A small satchel of bright powder!",
+        "item_id": [
+          "5559"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Flash powder",
+        "item_name": "Flash powder"
+      }
+    }
+  ]
+}

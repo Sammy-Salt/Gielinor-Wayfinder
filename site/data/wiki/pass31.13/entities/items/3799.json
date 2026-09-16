@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3799,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3799,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fremennik gloves",
+        "weight": 0.453,
+        "value": 500,
+        "examine": "These will keep my hands warm!",
+        "item_id": [
+          "3799"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fremennik gloves",
+        "item_name": "Fremennik gloves"
+      }
+    }
+  ]
+}

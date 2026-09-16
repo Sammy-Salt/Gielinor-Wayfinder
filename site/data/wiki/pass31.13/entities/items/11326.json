@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11326,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11326,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Caviar",
+        "weight": 0.05,
+        "value": 50,
+        "examine": "Caviar, or expensive fishy eggs.",
+        "item_id": [
+          "11326"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Caviar",
+        "item_name": "Caviar"
+      }
+    }
+  ]
+}

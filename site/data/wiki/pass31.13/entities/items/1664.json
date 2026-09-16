@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1664,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1664,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon necklace",
+        "weight": 0.01,
+        "value": 18375,
+        "examine": "I wonder if this is valuable.",
+        "item_id": [
+          "1664"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon necklace",
+        "item_name": "Dragon necklace"
+      }
+    }
+  ]
+}

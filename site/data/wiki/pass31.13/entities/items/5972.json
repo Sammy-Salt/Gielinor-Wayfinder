@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5972,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5972,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Papaya fruit",
+        "weight": 0.028,
+        "value": 64,
+        "examine": "Looks delicious.",
+        "item_id": [
+          "5972"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Papaya fruit",
+        "item_name": "Papaya fruit"
+      }
+    }
+  ]
+}

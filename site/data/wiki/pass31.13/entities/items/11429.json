@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11429,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11429,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Attack mix",
+        "weight": 0.075,
+        "value": 9,
+        "examine": "Two doses of fishy Attack potion.",
+        "item_id": [
+          "11429"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Attack mix#(2)",
+        "item_name": "Attack mix(2)"
+      }
+    }
+  ]
+}

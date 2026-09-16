@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12955,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12955,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Free to play starter pack",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "Contains free items to help you on your way!",
+        "item_id": [
+          "12955"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Free to play starter pack",
+        "item_name": "Free to play starter pack"
+      }
+    }
+  ]
+}

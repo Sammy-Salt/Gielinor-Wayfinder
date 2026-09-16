@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11863,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11863,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rainbow partyhat",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "A colourful hat produced by Shanty Claws.",
+        "item_id": [
+          "11863"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rainbow partyhat",
+        "item_name": "Rainbow partyhat"
+      }
+    }
+  ]
+}

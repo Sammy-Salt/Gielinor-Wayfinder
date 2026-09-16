@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11513,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11513,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic mix",
+        "weight": 0.075,
+        "value": 200,
+        "examine": "Two doses of fishy Magic potion.",
+        "item_id": [
+          "11513"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Magic mix#(2)",
+        "item_name": "Magic mix(2)"
+      }
+    }
+  ]
+}

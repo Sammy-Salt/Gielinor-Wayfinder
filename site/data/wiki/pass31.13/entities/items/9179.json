@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9179,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9179,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel crossbow",
+        "weight": 5,
+        "value": 360,
+        "examine": "A steel crossbow.",
+        "item_id": [
+          "9179"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel crossbow",
+        "item_name": "Steel crossbow"
+      }
+    }
+  ]
+}

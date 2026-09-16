@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1999,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1999,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Incomplete stew",
+        "weight": 1.2,
+        "value": 4,
+        "examine": "I need to add some potato too.",
+        "item_id": [
+          "1999"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Incomplete stew#Meat",
+        "item_name": "Incomplete stew"
+      }
+    }
+  ]
+}

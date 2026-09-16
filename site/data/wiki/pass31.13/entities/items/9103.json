@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9103,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9103,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "A special tiara",
+        "weight": 0.01,
+        "value": 30,
+        "examine": "I'll be the talk of the town with this... maybe.",
+        "item_id": [
+          "9103"
+        ],
+        "tradeable": false,
+        "page_name_sub": "A special tiara",
+        "item_name": "A special tiara"
+      }
+    }
+  ]
+}

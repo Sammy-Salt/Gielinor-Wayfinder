@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2424,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2424,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Paste",
+        "weight": 0.015,
+        "value": 30,
+        "examine": "A bottle of skin paste.",
+        "item_id": [
+          "2424"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Paste",
+        "item_name": "Paste"
+      }
+    }
+  ]
+}

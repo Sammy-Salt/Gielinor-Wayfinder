@@ -1,0 +1,25 @@
+{
+  "canonicalId": 680,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 680,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nuggets",
+        "weight": 0,
+        "value": 1,
+        "examine": "Pure, lovely gold!",
+        "item_id": [
+          "680"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Nuggets",
+        "item_name": "Nuggets"
+      }
+    }
+  ]
+}

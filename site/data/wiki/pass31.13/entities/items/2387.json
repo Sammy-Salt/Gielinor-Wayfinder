@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2387,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2387,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Damaged dagger",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Pointy.",
+        "item_id": [
+          "2387"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Damaged dagger",
+        "item_name": "Damaged dagger"
+      }
+    }
+  ]
+}

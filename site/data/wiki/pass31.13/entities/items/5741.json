@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5741,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5741,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mature wmb",
+        "weight": 0.55,
+        "value": 2,
+        "examine": "This looks a good deal stronger than normal Wizards Mind Bomb.",
+        "item_id": [
+          "5741"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mature wmb",
+        "item_name": "Mature wmb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 546,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 546,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shade robe top",
+        "weight": 0.907,
+        "value": 40,
+        "examine": "I feel closer to the gods when I am wearing this.",
+        "item_id": [
+          "546"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Shade robe top",
+        "item_name": "Shade robe top"
+      }
+    }
+  ]
+}

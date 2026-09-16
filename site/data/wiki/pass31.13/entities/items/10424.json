@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10424,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10424,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red elegant blouse",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A well made elegant ladies' red blouse.",
+        "item_id": [
+          "10424"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red elegant blouse",
+        "item_name": "Red elegant blouse"
+      }
+    }
+  ]
+}

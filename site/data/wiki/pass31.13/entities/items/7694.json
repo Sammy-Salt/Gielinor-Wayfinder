@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7694,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7694,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pot of tea (clay)",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "I'd really like a nice cup of tea.",
+        "item_id": [
+          "7694"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pot of tea (clay)#3 cups",
+        "item_name": "Pot of tea (3)"
+      }
+    }
+  ]
+}

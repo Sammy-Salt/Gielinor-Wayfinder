@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12203,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12203,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient mitre",
+        "weight": 0.3,
+        "value": 5000,
+        "examine": "An Ancient mitre.",
+        "item_id": [
+          "12203"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient mitre",
+        "item_name": "Ancient mitre"
+      }
+    }
+  ]
+}

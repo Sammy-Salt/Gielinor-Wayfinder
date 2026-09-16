@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4458,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4458,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cup of water",
+        "weight": 0.05,
+        "value": 10,
+        "examine": "A cup of water.",
+        "item_id": [
+          "4458"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cup of water",
+        "item_name": "Cup of water"
+      }
+    }
+  ]
+}

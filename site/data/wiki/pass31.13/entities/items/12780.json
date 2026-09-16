@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12780,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12780,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lassar teleport (tablet)",
+        "weight": 0,
+        "value": 1,
+        "examine": "A teleport to Lassar.",
+        "item_id": [
+          "12780"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lassar teleport (tablet)",
+        "item_name": "Lassar teleport"
+      }
+    }
+  ]
+}

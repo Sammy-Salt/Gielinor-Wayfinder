@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8756,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8756,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel kiteshield (Guthix)",
+        "weight": 5.443,
+        "value": 900,
+        "examine": "A shield with the symbol of Guthix.",
+        "item_id": [
+          "8756"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel kiteshield (Guthix)",
+        "item_name": "Steel kiteshield"
+      }
+    }
+  ]
+}

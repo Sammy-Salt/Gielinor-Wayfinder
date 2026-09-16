@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3894,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3894,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Awful anthem",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "It's not very good.",
+        "item_id": [
+          "3894"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Awful anthem",
+        "item_name": "Awful anthem"
+      }
+    }
+  ]
+}

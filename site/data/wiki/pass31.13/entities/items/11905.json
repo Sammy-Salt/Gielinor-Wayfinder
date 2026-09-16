@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11905,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11905,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Trident of the Seas",
+        "weight": 1.814,
+        "value": 69000,
+        "examine": "A weapon from the deep.",
+        "item_id": [
+          "11905"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Trident of the Seas#Charged",
+        "item_name": "Trident of the Seas (full)"
+      }
+    }
+  ]
+}

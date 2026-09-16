@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6607,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6607,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White longsword",
+        "weight": 1.814,
+        "value": 960,
+        "examine": "A razor sharp longsword.",
+        "item_id": [
+          "6607"
+        ],
+        "tradeable": true,
+        "page_name_sub": "White longsword",
+        "item_name": "White longsword"
+      }
+    }
+  ]
+}

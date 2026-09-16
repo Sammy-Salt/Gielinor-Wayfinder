@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8021,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8021,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchant onyx",
+        "weight": 0,
+        "value": 1,
+        "examine": "A tablet containing a magic spell.",
+        "item_id": [
+          "8021"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Enchant onyx",
+        "item_name": "Enchant onyx"
+      }
+    }
+  ]
+}

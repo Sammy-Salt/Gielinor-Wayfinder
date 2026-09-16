@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2607,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2607,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant platebody (g)",
+        "weight": 11.339,
+        "value": 16640,
+        "examine": "Adamant platebody with gold trim.",
+        "item_id": [
+          "2607"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant platebody (g)",
+        "item_name": "Adamant platebody (g)"
+      }
+    }
+  ]
+}

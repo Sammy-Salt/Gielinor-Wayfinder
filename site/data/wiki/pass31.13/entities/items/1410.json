@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1410,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1410,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iban's staff",
+        "weight": 1.814,
+        "value": 20,
+        "examine": "I'll need to get this repaired before I can use it.",
+        "item_id": [
+          "1410"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Iban's staff#Broken",
+        "item_name": "Iban's staff"
+      }
+    }
+  ]
+}

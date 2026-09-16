@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11056,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11056,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sword fragment",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A piece of an ancient goblin sword.",
+        "item_id": [
+          "11056"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sword fragment",
+        "item_name": "Sword fragment"
+      }
+    }
+  ]
+}

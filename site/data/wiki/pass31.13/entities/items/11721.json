@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11721,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11721,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron pickaxe (nz)",
+        "weight": 2.267,
+        "value": 0,
+        "examine": "For use in the Nightmare Zone. Doesn't work for mining.",
+        "item_id": [
+          "11721"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Iron pickaxe (nz)",
+        "item_name": "Iron pickaxe (nz)"
+      }
+    }
+  ]
+}

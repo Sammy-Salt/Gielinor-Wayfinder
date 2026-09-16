@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12217,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12217,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze platelegs (t)",
+        "weight": 9.071,
+        "value": 80,
+        "examine": "Bronze platelegs with trim.",
+        "item_id": [
+          "12217"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze platelegs (t)",
+        "item_name": "Bronze platelegs (t)"
+      }
+    }
+  ]
+}

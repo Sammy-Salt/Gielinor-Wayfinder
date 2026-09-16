@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13642,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13642,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Farmer's jacket",
+        "weight": 0.907,
+        "value": 60,
+        "examine": "This will help with farming.",
+        "item_id": [
+          "13642"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Farmer's jacket",
+        "item_name": "Farmer's jacket"
+      }
+    }
+  ]
+}

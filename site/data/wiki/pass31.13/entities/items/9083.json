@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9083,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9083,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seal of passage",
+        "weight": 4.535,
+        "value": 1,
+        "examine": "A seal of passage issued by Brundt the Chieftain of the Fremennik.",
+        "item_id": [
+          "9083"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seal of passage",
+        "item_name": "Seal of passage"
+      }
+    }
+  ]
+}

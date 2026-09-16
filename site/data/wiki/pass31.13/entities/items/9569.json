@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9569,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9569,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mixed punch",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "This Pineapple Punch needs pouring, lime and pineapple chunks and a<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> orange slice.",
+        "item_id": [
+          "9569"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mixed punch",
+        "item_name": "Mixed punch"
+      }
+    }
+  ]
+}

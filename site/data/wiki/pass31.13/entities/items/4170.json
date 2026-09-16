@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4170,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4170,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer's staff",
+        "weight": 1.814,
+        "value": 21000,
+        "examine": "An old and magical staff.",
+        "item_id": [
+          "4170"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Slayer's staff",
+        "item_name": "Slayer's staff"
+      }
+    }
+  ]
+}

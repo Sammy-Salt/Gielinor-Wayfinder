@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9444,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9444,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Willow stock",
+        "weight": 3,
+        "value": 53,
+        "examine": "A willow crossbow stock.",
+        "item_id": [
+          "9444"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Willow stock",
+        "item_name": "Willow stock"
+      }
+    }
+  ]
+}

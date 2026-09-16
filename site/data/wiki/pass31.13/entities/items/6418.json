@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6418,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6418,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Maple blackjack(o)",
+        "weight": 1.814,
+        "value": 1600,
+        "examine": "An offensive blackjack.",
+        "item_id": [
+          "6418"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Maple blackjack(o)",
+        "item_name": "Maple blackjack(o)"
+      }
+    }
+  ]
+}

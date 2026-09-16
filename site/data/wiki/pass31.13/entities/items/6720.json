@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6720,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6720,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Slayer gloves",
+        "weight": 0.226,
+        "value": 200,
+        "examine": "Especially good against diseased arachnids.",
+        "item_id": [
+          "6720"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Slayer gloves",
+        "item_name": "Slayer gloves"
+      }
+    }
+  ]
+}

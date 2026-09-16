@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril sq shield",
+        "weight": 3.175,
+        "value": 1560,
+        "examine": "A medium square shield.",
+        "item_id": [
+          "1181"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril sq shield",
+        "item_name": "Mithril sq shield"
+      }
+    }
+  ]
+}

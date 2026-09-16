@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8662,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8662,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banner (HAM)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A banner with the symbol of the HAM cult.",
+        "item_id": [
+          "8662"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Banner (HAM)",
+        "item_name": "Banner"
+      }
+    }
+  ]
+}

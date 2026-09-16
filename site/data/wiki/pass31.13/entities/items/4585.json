@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4585,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4585,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon plateskirt",
+        "weight": 9.071,
+        "value": 270000,
+        "examine": "This looks pretty heavy.",
+        "item_id": [
+          "4585"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon plateskirt",
+        "item_name": "Dragon plateskirt"
+      }
+    }
+  ]
+}

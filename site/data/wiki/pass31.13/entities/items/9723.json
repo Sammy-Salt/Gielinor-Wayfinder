@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9723,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9723,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pipe (Elemental Workshop II)",
+        "weight": 3.175,
+        "value": 1,
+        "examine": "A spare section of pipe.",
+        "item_id": [
+          "9723"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pipe (Elemental Workshop II)",
+        "item_name": "Pipe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 305,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 305,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Big fishing net",
+        "weight": 8.164,
+        "value": 20,
+        "examine": "Useful for catching lots of fish.",
+        "item_id": [
+          "305"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Big fishing net",
+        "item_name": "Big fishing net"
+      }
+    }
+  ]
+}

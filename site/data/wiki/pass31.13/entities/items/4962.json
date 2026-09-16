@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4962,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4962,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torag's hammers",
+        "weight": 3.628,
+        "value": 160000,
+        "examine": "Torag the Corrupted's twin hammers.",
+        "item_id": [
+          "4962"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Torag's hammers#(broken)",
+        "item_name": "Torag's hammers 0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9764,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9764,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Magic skillcape hood.",
+        "item_id": [
+          "9764"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic hood",
+        "item_name": "Magic hood"
+      }
+    }
+  ]
+}

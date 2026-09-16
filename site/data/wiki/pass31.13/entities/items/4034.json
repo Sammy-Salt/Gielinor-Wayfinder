@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4034,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4034,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Monkey skull",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "It's a very ancient skull from some kind of ape.",
+        "item_id": [
+          "4034"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Monkey skull",
+        "item_name": "Monkey skull"
+      }
+    }
+  ]
+}

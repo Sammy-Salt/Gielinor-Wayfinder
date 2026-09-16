@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7936,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7936,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pure essence",
+        "weight": 0.002,
+        "value": 4,
+        "examine": "An unimbued rune of extra capability.",
+        "item_id": [
+          "7936"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pure essence",
+        "item_name": "Pure essence"
+      }
+    }
+  ]
+}

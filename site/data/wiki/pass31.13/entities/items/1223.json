@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1223,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1223,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel dagger",
+        "weight": 0.453,
+        "value": 125,
+        "examine": "The blade has been poisoned.",
+        "item_id": [
+          "1223"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel dagger#(p)",
+        "item_name": "Steel dagger(p)"
+      }
+    }
+  ]
+}

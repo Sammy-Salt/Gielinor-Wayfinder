@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6455,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6455,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pink rose seed",
+        "weight": 0,
+        "value": 1,
+        "examine": "A pink rosebush seed.",
+        "item_id": [
+          "6455"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pink rose seed",
+        "item_name": "Pink rose seed"
+      }
+    }
+  ]
+}

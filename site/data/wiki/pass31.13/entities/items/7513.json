@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7513,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7513,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spicy maggots",
+        "weight": 0.001,
+        "value": 3,
+        "examine": "They clearly taste so much better this way!",
+        "item_id": [
+          "7513"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Spicy maggots",
+        "item_name": "Spicy maggots"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7142,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7142,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rapier",
+        "weight": 1.814,
+        "value": 25600,
+        "examine": "The very butcher of a silk button.",
+        "item_id": [
+          "7142"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rapier",
+        "item_name": "Rapier"
+      }
+    }
+  ]
+}

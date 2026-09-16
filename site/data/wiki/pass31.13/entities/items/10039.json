@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10039,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10039,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kyatt hat",
+        "weight": 0.226,
+        "value": 1000,
+        "examine": "This should make me harder to spot in polar areas.",
+        "item_id": [
+          "10039"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Kyatt hat",
+        "item_name": "Kyatt hat"
+      }
+    }
+  ]
+}

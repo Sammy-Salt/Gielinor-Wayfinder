@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9602,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9602,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange triangle",
+        "weight": 0,
+        "value": 1,
+        "examine": "An orange triangular crystalline disc.",
+        "item_id": [
+          "9602"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Orange triangle",
+        "item_name": "Orange triangle"
+      }
+    }
+  ]
+}

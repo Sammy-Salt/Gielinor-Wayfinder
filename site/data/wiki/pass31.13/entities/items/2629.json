@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2629,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2629,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune kiteshield (t)",
+        "weight": 5.443,
+        "value": 54400,
+        "examine": "Rune kiteshield with trim.",
+        "item_id": [
+          "2629"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune kiteshield (t)",
+        "item_name": "Rune kiteshield (t)"
+      }
+    }
+  ]
+}

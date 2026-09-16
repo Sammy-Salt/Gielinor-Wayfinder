@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13330,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13330,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire max hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "The hood worn by only the most experienced players.",
+        "item_id": [
+          "13330"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fire max hood",
+        "item_name": "Fire max hood"
+      }
+    }
+  ]
+}

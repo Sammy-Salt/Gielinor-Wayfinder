@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2110,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2110,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange chunks",
+        "weight": 0.09,
+        "value": 2,
+        "examine": "Fresh chunks of orange.",
+        "item_id": [
+          "2110"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Orange chunks",
+        "item_name": "Orange chunks"
+      }
+    }
+  ]
+}

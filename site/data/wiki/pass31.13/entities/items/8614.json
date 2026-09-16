@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8614,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8614,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak wardrobe (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8614"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak wardrobe (flatpack)",
+        "item_name": "Oak wardrobe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6181,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6181,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lederhosen shorts",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "Brown leather shorts with bright white socks?",
+        "item_id": [
+          "6181"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lederhosen shorts",
+        "item_name": "Lederhosen shorts"
+      }
+    }
+  ]
+}

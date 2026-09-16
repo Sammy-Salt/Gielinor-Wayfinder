@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4689,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4689,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pile of salt",
+        "weight": 0.5,
+        "value": 20,
+        "examine": "A little heap of salt.",
+        "item_id": [
+          "4689"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pile of salt",
+        "item_name": "Pile of salt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7793,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7793,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mining tome",
+        "weight": 1,
+        "value": 5000,
+        "examine": "A tome of learning which focuses on the Mining skill.",
+        "item_id": [
+          "7793"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mining tome#Red",
+        "item_name": "Mining tome"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 596,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 596,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torch",
+        "weight": 0.5,
+        "value": 4,
+        "examine": "An unlit home-made torch.",
+        "item_id": [
+          "596"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Torch#Unlit",
+        "item_name": "Unlit torch"
+      }
+    }
+  ]
+}

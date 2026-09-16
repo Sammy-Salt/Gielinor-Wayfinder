@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7810,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7810,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jug of vinegar",
+        "weight": 1,
+        "value": 1,
+        "examine": "This wine clearly did not age well.",
+        "item_id": [
+          "7810"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Jug of vinegar",
+        "item_name": "Jug of vinegar"
+      }
+    }
+  ]
+}

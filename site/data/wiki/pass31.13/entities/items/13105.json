@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13105,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13105,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Varrock armour 2",
+        "weight": 1,
+        "value": 0,
+        "examine": "Varrock smithing armour.",
+        "item_id": [
+          "13105"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Varrock armour 2",
+        "item_name": "Varrock armour 2"
+      }
+    }
+  ]
+}

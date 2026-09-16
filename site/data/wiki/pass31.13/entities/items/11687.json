@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11687,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11687,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Water rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 1,
+        "examine": "One of the 4 basic elemental Runes.",
+        "item_id": [
+          "11687"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Water rune (Barbarian Assault)",
+        "item_name": "Water rune"
+      }
+    }
+  ]
+}

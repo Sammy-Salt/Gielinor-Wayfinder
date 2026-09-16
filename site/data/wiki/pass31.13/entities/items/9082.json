@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9082,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9082,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ground tooth",
+        "weight": 0.007,
+        "value": 20,
+        "examine": "A ground Suqah tooth.",
+        "item_id": [
+          "9082"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ground tooth",
+        "item_name": "Ground tooth"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2574,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2574,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sextant",
+        "weight": 0.2,
+        "value": 50,
+        "examine": "Used by navigators to find their position in Gielinor.",
+        "item_id": [
+          "2574"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Sextant",
+        "item_name": "Sextant"
+      }
+    }
+  ]
+}

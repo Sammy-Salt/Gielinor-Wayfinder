@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8847,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8847,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black defender",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A defensive weapon.",
+        "item_id": [
+          "8847"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Black defender#Normal",
+        "item_name": "Black defender"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12922,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12922,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tanzanite fang",
+        "weight": 0.35,
+        "value": 110000,
+        "examine": "Maybe you could use a chisel to fletch this into a blowpipe.",
+        "item_id": [
+          "12922"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tanzanite fang",
+        "item_name": "Tanzanite fang"
+      }
+    }
+  ]
+}

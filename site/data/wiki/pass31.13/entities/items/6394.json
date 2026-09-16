@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6394,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6394,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Menaphite purple top",
+        "weight": 0.005,
+        "value": 20,
+        "examine": "Colourful.",
+        "item_id": [
+          "6394"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Menaphite purple top",
+        "item_name": "Menaphite purple top"
+      }
+    }
+  ]
+}

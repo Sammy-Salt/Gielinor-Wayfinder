@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1189,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1189,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze kiteshield",
+        "weight": 5.443,
+        "value": 68,
+        "examine": "A large metal shield.",
+        "item_id": [
+          "1189"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze kiteshield",
+        "item_name": "Bronze kiteshield"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10428,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10428,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue elegant blouse",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A well made elegant ladies' blue blouse.",
+        "item_id": [
+          "10428"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue elegant blouse",
+        "item_name": "Blue elegant blouse"
+      }
+    }
+  ]
+}

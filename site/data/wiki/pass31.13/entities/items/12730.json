@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12730,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12730,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Water rune pack",
+        "weight": 4.535,
+        "value": 430,
+        "examine": "A pack containing 100 water runes.",
+        "item_id": [
+          "12730"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Water rune pack",
+        "item_name": "Water rune pack"
+      }
+    }
+  ]
+}

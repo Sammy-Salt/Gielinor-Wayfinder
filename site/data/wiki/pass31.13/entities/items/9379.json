@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9379,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9379,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril bolts (unf)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Unfeathered mithril crossbow bolts.",
+        "item_id": [
+          "9379"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril bolts (unf)",
+        "item_name": "Mithril bolts (unf)"
+      }
+    }
+  ]
+}

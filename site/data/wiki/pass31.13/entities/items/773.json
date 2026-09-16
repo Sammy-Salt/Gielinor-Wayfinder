@@ -1,0 +1,25 @@
+{
+  "canonicalId": 773,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 773,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "'perfect' ring",
+        "weight": 0.007,
+        "value": 2025,
+        "examine": "A perfect ruby ring.",
+        "item_id": [
+          "773"
+        ],
+        "tradeable": false,
+        "page_name_sub": "'perfect' ring",
+        "item_name": "'perfect' ring"
+      }
+    }
+  ]
+}

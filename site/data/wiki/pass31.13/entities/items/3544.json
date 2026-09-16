@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3544,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3544,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (hard) - 08.03N 31.16E",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Perhaps someone at the observatory can teach me to navigate?",
+        "item_id": [
+          "3544"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (hard) - 08.03N 31.16E",
+        "item_name": "Clue scroll (hard)"
+      }
+    }
+  ]
+}

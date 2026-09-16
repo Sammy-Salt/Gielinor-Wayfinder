@@ -1,0 +1,25 @@
+{
+  "canonicalId": 195,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 195,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potion (Apothecary)",
+        "weight": 0.025,
+        "value": 1,
+        "examine": "This is meant to be good for spots.",
+        "item_id": [
+          "195"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potion (Apothecary)",
+        "item_name": "Potion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3865,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3865,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Games necklace",
+        "weight": 0.01,
+        "value": 1050,
+        "examine": "An enchanted necklace.",
+        "item_id": [
+          "3865"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Games necklace#2",
+        "item_name": "Games necklace(2)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6410,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6410,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak blackjack(d)",
+        "weight": 1.814,
+        "value": 400,
+        "examine": "A defensive blackjack.",
+        "item_id": [
+          "6410"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak blackjack(d)",
+        "item_name": "Oak blackjack(d)"
+      }
+    }
+  ]
+}

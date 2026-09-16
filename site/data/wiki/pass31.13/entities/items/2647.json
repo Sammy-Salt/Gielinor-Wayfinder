@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2647,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2647,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black headband",
+        "weight": 0.04,
+        "value": 40,
+        "examine": "A minimalist's hat.",
+        "item_id": [
+          "2647"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black headband",
+        "item_name": "Black headband"
+      }
+    }
+  ]
+}

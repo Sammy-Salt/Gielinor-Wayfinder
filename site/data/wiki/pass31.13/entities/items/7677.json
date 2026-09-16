@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7677,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7677,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Treasure stone",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "It knows where the treasure is.",
+        "item_id": [
+          "7677"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Treasure stone",
+        "item_name": "Treasure stone"
+      }
+    }
+  ]
+}

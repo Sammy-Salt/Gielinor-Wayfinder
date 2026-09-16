@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5509,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5509,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Small pouch",
+        "weight": 1,
+        "value": 150,
+        "examine": "A small pouch used for storing essence.",
+        "item_id": [
+          "5509"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Small pouch",
+        "item_name": "Small pouch"
+      }
+    }
+  ]
+}

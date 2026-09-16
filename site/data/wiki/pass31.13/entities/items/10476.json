@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10476,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10476,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple sweets",
+        "weight": 0,
+        "value": 15,
+        "examine": "Remember to brush after eating!",
+        "item_id": [
+          "10476"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple sweets",
+        "item_name": "Purple sweets"
+      }
+    }
+  ]
+}

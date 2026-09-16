@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8650,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8650,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banner (Arrav)",
+        "weight": 2.267,
+        "value": 1,
+        "examine": "A banner with the symbol of Arrav.",
+        "item_id": [
+          "8650"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Banner (Arrav)",
+        "item_name": "Banner"
+      }
+    }
+  ]
+}

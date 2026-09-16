@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9640,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9640,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Citizen top",
+        "weight": 0.907,
+        "value": 5,
+        "examine": "Ghetto disguise!",
+        "item_id": [
+          "9640"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Citizen top",
+        "item_name": "Citizen top"
+      }
+    }
+  ]
+}

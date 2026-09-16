@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12802,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12802,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ward upgrade kit",
+        "weight": 0.5,
+        "value": 1500,
+        "examine": "Makes a malediction or odium ward more beautiful.",
+        "item_id": [
+          "12802"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ward upgrade kit",
+        "item_name": "Ward upgrade kit"
+      }
+    }
+  ]
+}

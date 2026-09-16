@@ -1,0 +1,8 @@
+import {Data} from '../core/data-service.js';
+import {normalize} from '../core/utils.js';
+let graphPromise,searchPromise,byKey,adjacency;
+async function loadGraph(){if(!graphPromise)graphPromise=Data.get('knowledge/index.json');const g=await graphPromise;if(!byKey){byKey=new Map((g.entities||[]).map(e=>[`${e.type}:${e.id}`,e]));adjacency=new Map();for(const edge of g.edges||[]){if(!Array.isArray(edge)||edge.length<3)continue;const [a,b,relation]=edge;for(const [from,to] of [[a,b],[b,a]]){if(!adjacency.has(from))adjacency.set(from,[]);adjacency.get(from).push({relation,entity:byKey.get(to)});}}}return g;}
+export async function related(type,id,{limit=18}={}){await loadGraph();return (adjacency.get(`${type}:${id}`)||[]).filter(x=>x.entity).slice(0,limit);}
+export async function search(query,{types=null,limit=20}={}){if(!searchPromise)searchPromise=Data.get('knowledge/search-index.json');const rows=await searchPromise,q=normalize(query),wanted=types?new Set(types):null;if(!q)return[];const out=[];for(const x of rows){if(wanted&&!wanted.has(x.type))continue;const n=normalize(x.name),aliases=(x.aliases||[]).map(normalize);let score=n===q?1000:n.startsWith(q)?700:n.includes(q)?500:aliases.includes(q)?450:aliases.some(a=>a.includes(q))?300:0;if(score)out.push({...x,score});}return out.sort((a,b)=>b.score-a.score||String(a.name).localeCompare(String(b.name))).slice(0,limit);}
+export async function stats(){const g=await loadGraph();return {entities:g.entities?.length||0,edges:g.edges?.length||0,entityCounts:g.entityCounts||{}};}
+export const Knowledge=Object.freeze({related,search,stats,clear:()=>{graphPromise=null;searchPromise=null;byKey=null;adjacency=null;}});

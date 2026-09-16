@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7907,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7907,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cave goblin skull",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This bone belongs in a museum!",
+        "item_id": [
+          "7907"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cave goblin skull#Polished",
+        "item_name": "Cave goblin skull"
+      }
+    }
+  ]
+}

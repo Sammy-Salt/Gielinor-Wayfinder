@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1335,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1335,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron warhammer",
+        "weight": 1.814,
+        "value": 173,
+        "examine": "I don't think it's intended for joinery.",
+        "item_id": [
+          "1335"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron warhammer",
+        "item_name": "Iron warhammer"
+      }
+    }
+  ]
+}

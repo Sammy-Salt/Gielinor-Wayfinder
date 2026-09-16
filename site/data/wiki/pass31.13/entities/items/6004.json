@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mushroom",
+        "weight": 0.028,
+        "value": 38,
+        "examine": "A Bittercap Mushroom",
+        "item_id": [
+          "6004"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mushroom",
+        "item_name": "Mushroom"
+      }
+    }
+  ]
+}

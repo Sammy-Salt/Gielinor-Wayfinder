@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10394,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10394,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Flared trousers",
+        "weight": 1,
+        "value": 2000,
+        "examine": "These'll help me stay alive.",
+        "item_id": [
+          "10394"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Flared trousers",
+        "item_name": "Flared trousers"
+      }
+    }
+  ]
+}

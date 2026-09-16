@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2283,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2283,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pizza base",
+        "weight": 0.1,
+        "value": 4,
+        "examine": "I need to add some tomato next.",
+        "item_id": [
+          "2283"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pizza base",
+        "item_name": "Pizza base"
+      }
+    }
+  ]
+}

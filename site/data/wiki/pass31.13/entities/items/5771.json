@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5771,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5771,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dwarven stout (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 1 pint of Dwarven Stout.",
+        "item_id": [
+          "5771"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dwarven stout (keg)#1 pint",
+        "item_name": "Dwarven stout(1)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5325,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5325,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gardening trowel",
+        "weight": 0.056,
+        "value": 12,
+        "examine": "Not suitable for archaeological digs.",
+        "item_id": [
+          "5325"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gardening trowel",
+        "item_name": "Gardening trowel"
+      }
+    }
+  ]
+}

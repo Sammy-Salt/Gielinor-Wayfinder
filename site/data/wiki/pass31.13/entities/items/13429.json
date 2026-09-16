@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13429,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13429,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fresh fish",
+        "weight": 0.7,
+        "value": 0,
+        "examine": "Some freshly caught fish.",
+        "item_id": [
+          "13429"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fresh fish",
+        "item_name": "Fresh fish"
+      }
+    }
+  ]
+}

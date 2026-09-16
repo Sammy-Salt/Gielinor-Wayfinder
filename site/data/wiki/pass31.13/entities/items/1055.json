@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1055,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1055,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue halloween mask",
+        "weight": 0.34,
+        "value": 15,
+        "examine": "Aaaarrrghhh ... I'm a monster.",
+        "item_id": [
+          "1055"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue halloween mask",
+        "item_name": "Blue halloween mask"
+      }
+    }
+  ]
+}

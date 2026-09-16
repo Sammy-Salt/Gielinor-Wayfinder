@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4248,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4248,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Book of Haricanto",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "The Book of Haricanto.",
+        "item_id": [
+          "4248"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Book of Haricanto",
+        "item_name": "Book of Haricanto"
+      }
+    }
+  ]
+}

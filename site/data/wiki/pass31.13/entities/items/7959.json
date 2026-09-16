@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7959,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7959,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Heavy box",
+        "weight": 0.01,
+        "value": 10,
+        "examine": "A box full of stolen Etceterian items.",
+        "item_id": [
+          "7959"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Heavy box",
+        "item_name": "Heavy box"
+      }
+    }
+  ]
+}

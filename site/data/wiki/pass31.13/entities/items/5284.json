@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5284,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5284,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Banana tree seed",
+        "weight": 0,
+        "value": 20,
+        "examine": "Plant in a plantpot of soil to grow a sapling.",
+        "item_id": [
+          "5284"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Banana tree seed",
+        "item_name": "Banana tree seed"
+      }
+    }
+  ]
+}

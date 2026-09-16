@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5106,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5106,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Poison ivy seed",
+        "weight": 0,
+        "value": 166,
+        "examine": "A poison ivy bush seed - plant in a bush patch.",
+        "item_id": [
+          "5106"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Poison ivy seed",
+        "item_name": "Poison ivy seed"
+      }
+    }
+  ]
+}

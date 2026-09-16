@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3779,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3779,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fremennik grey cloak",
+        "weight": 0.453,
+        "value": 250,
+        "examine": "The latest fashion in Rellekka.",
+        "item_id": [
+          "3779"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fremennik grey cloak",
+        "item_name": "Fremennik grey cloak"
+      }
+    }
+  ]
+}

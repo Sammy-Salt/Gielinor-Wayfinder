@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9598,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9598,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red triangle",
+        "weight": 0,
+        "value": 1,
+        "examine": "A red triangular crystalline disc.",
+        "item_id": [
+          "9598"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red triangle",
+        "item_name": "Red triangle"
+      }
+    }
+  ]
+}

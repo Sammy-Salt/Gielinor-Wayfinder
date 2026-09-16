@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10418,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10418,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple elegant legs",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A rather elegant pair of men's purple pantaloons.",
+        "item_id": [
+          "10418"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple elegant legs",
+        "item_name": "Purple elegant legs"
+      }
+    }
+  ]
+}

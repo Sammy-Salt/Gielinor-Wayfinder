@@ -1,0 +1,19 @@
+{
+  "formatVersion": 2,
+  "generatedBy": "Pass 17-25 data quality audit",
+  "counts": {
+    "quests": 200,
+    "knowledgeEntities": 22074,
+    "knowledgeEdges": 52309,
+    "searchRecords": 21847
+  },
+  "integrity": {
+    "brokenKnowledgeEdges": 0,
+    "duplicateEntityKeys": 0,
+    "duplicateSearchKeys": 0
+  },
+  "relations": {
+    "drops": 52094,
+    "requires_quest": 215
+  }
+}

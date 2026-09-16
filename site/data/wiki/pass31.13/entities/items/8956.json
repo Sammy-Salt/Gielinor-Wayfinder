@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8956,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8956,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black naval shirt",
+        "weight": 0.003,
+        "value": 100,
+        "examine": "...You can sail the seven seas...",
+        "item_id": [
+          "8956"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Black naval shirt",
+        "item_name": "Black naval shirt"
+      }
+    }
+  ]
+}

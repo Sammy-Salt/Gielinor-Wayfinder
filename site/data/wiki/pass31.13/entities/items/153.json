@@ -1,0 +1,25 @@
+{
+  "canonicalId": 153,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 153,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fishing potion",
+        "weight": 0.025,
+        "value": 150,
+        "examine": "2 doses of Fishing potion.",
+        "item_id": [
+          "153"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fishing potion#(2)",
+        "item_name": "Fishing potion(2)"
+      }
+    }
+  ]
+}

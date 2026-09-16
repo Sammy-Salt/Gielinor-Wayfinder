@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4908,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4908,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthan's helm",
+        "weight": 2.721,
+        "value": 103000,
+        "examine": "Guthan the Infested's helm.",
+        "item_id": [
+          "4908"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Guthan's helm#(broken)",
+        "item_name": "Guthan's helm 0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10316,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10316,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bob's red shirt",
+        "weight": 1,
+        "value": 3,
+        "examine": "'Bob says: Never give your password out to anyone.'",
+        "item_id": [
+          "10316"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bob's red shirt",
+        "item_name": "Bob's red shirt"
+      }
+    }
+  ]
+}

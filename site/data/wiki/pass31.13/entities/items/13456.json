@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13456,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13456,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled minotaur head",
+        "weight": 0.453,
+        "value": 228,
+        "examine": "The creature's soul is still in here. I could reanimate it with Basic Reanimation.",
+        "item_id": [
+          "13456"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ensouled minotaur head#Drop",
+        "item_name": "Ensouled minotaur head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10880,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10880,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black satchel",
+        "weight": 0.15,
+        "value": 100,
+        "examine": "I can keep my grub in here!",
+        "item_id": [
+          "10880"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black satchel",
+        "item_name": "Black satchel"
+      }
+    }
+  ]
+}

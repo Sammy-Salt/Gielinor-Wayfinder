@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9913,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9913,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "White destabiliser",
+        "weight": 0,
+        "value": 1,
+        "examine": "A white destabiliser for use in a Ghost Buster.",
+        "item_id": [
+          "9913"
+        ],
+        "tradeable": false,
+        "page_name_sub": "White destabiliser",
+        "item_name": "White destabiliser"
+      }
+    }
+  ]
+}

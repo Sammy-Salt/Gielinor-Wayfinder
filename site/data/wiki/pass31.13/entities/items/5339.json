@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5339,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5339,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Watering can",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "This watering can is almost completely full.",
+        "item_id": [
+          "5339"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Watering can#(7)",
+        "item_name": "Watering can(7)"
+      }
+    }
+  ]
+}

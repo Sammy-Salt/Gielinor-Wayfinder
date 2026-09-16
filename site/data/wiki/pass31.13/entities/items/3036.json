@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3036,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3036,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Agility potion",
+        "weight": 0.025,
+        "value": 100,
+        "examine": "2 doses of Agility potion.",
+        "item_id": [
+          "3036"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Agility potion#(2)",
+        "item_name": "Agility potion(2)"
+      }
+    }
+  ]
+}

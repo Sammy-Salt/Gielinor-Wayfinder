@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width,initial-scale=1">
+
+<title>OSRS World Map</title>
+
+<link rel="stylesheet" href="data/map/leaflet/leaflet.css">
+
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="css/pages/map.css">
+</head>
+
+<body>
+<div id="toolbar">
+
+    <label class="sr-only" for="search">Search locations</label>
+    <input
+        id="search"
+        type="search"
+        placeholder="Search locations..."
+        autocomplete="off"
+    >
+
+    <select id="plane">
+        <option value="0">Surface</option>
+        <option value="1">Plane 1</option>
+        <option value="2">Plane 2</option>
+        <option value="3">Plane 3</option>
+    </select>
+
+</div>
+
+<div id="results"></div>
+
+<div id="info"></div>
+
+
+<div id="legend">
+ <button id="legendHeader" type="button" aria-expanded="true">🗺️ Map Key <span aria-hidden="true">▼</span></button>
+ <div id="legendBody">
+  <label class="sr-only" for="legendSearch">Search legend</label>
+  <input id="legendSearch" type="search" placeholder="Search legend...">
+  <div id="legendContent"></div>
+  <button id="legendClear" type="button">Clear markers</button>
+ </div>
+</div>
+<div id="map"></div>
+
+<script src="data/map/leaflet/leaflet.js"></script>
+<script src="data/map/locations.js?v=2"></script>
+<script src="data/map/shops.js"></script>
+
+<script src="js/core/utils.js"></script>
+<script src="js/pages/map.js"></script>
+
+<script src="js/core/shell.js"></script>
+</body>
+</html>
+

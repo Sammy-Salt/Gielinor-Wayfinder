@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1694,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1694,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sapphire amulet",
+        "weight": 0.007,
+        "value": 900,
+        "examine": "I wonder if I can get this enchanted.",
+        "item_id": [
+          "1694"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sapphire amulet",
+        "item_name": "Sapphire amulet"
+      }
+    }
+  ]
+}

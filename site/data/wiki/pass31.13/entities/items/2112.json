@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2112,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2112,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Orange slices",
+        "weight": 0.09,
+        "value": 2,
+        "examine": "Fresh orange slices.",
+        "item_id": [
+          "2112"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Orange slices",
+        "item_name": "Orange slices"
+      }
+    }
+  ]
+}

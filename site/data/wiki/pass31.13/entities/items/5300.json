@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5300,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5300,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Snapdragon seed",
+        "weight": 0,
+        "value": 60,
+        "examine": "A snapdragon seed - plant in a herb patch.",
+        "item_id": [
+          "5300"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Snapdragon seed",
+        "item_name": "Snapdragon seed"
+      }
+    }
+  ]
+}

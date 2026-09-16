@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13115,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13115,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Morytania legs 4",
+        "weight": 9.071,
+        "value": 0,
+        "examine": "Platelegs adorned with the crest of Morytania.",
+        "item_id": [
+          "13115"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Morytania legs 4",
+        "item_name": "Morytania legs 4"
+      }
+    }
+  ]
+}

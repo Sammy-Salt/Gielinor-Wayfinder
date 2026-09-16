@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9859,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9859,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak armour case (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "9859"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak armour case (flatpack)",
+        "item_name": "Oak armour case"
+      }
+    }
+  ]
+}

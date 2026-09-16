@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10514,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10514,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tofu",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A block of tofu.",
+        "item_id": [
+          "10514"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Tofu",
+        "item_name": "Tofu"
+      }
+    }
+  ]
+}

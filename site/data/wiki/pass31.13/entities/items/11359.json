@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11359,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11359,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient page",
+        "weight": 0.003,
+        "value": 0,
+        "examine": "It looks pretty old.",
+        "item_id": [
+          "11359"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ancient page#19",
+        "item_name": "Ancient page"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13481,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13481,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled elf head",
+        "weight": 0.453,
+        "value": 358,
+        "examine": "The creature's soul is still in here. I could reanimate it with Adept Reanimation.",
+        "item_id": [
+          "13481"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ensouled elf head#Item",
+        "item_name": "Ensouled elf head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13573,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13573,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dynamite",
+        "weight": 1.36,
+        "value": 50,
+        "examine": "A pot of dynamite for blast mining, with a fuse ready to light.",
+        "item_id": [
+          "13573"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dynamite",
+        "item_name": "Dynamite"
+      }
+    }
+  ]
+}

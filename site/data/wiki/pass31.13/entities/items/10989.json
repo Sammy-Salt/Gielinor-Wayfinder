@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10989,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10989,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Capacitor",
+        "weight": 1,
+        "value": 0,
+        "examine": "A capacitor.",
+        "item_id": [
+          "10989"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Capacitor#Normal",
+        "item_name": "Capacitor"
+      }
+    }
+  ]
+}

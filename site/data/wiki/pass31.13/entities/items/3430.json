@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3430,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3430,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sacred oil",
+        "weight": 0.035,
+        "value": 100,
+        "examine": "4 doses of sacred Oil.",
+        "item_id": [
+          "3430"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sacred oil#(4)",
+        "item_name": "Sacred oil(4)"
+      }
+    }
+  ]
+}

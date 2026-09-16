@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9806,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9806,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Firemaking hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Firemaking skillcape hood.",
+        "item_id": [
+          "9806"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Firemaking hood",
+        "item_name": "Firemaking hood"
+      }
+    }
+  ]
+}

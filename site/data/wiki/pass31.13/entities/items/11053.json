@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11053,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11053,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Artefact",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "An ancient goblin object encrusted in dirt.",
+        "item_id": [
+          "11053"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Artefact#Helmet",
+        "item_name": "Artefact"
+      }
+    }
+  ]
+}

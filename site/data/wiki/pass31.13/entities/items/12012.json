@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12012,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12012,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Golden nugget",
+        "weight": 0,
+        "value": 100,
+        "examine": "A nugget of gold from the Motherlode Mine.",
+        "item_id": [
+          "12012"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Golden nugget",
+        "item_name": "Golden nugget"
+      }
+    }
+  ]
+}

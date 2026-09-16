@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8526,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8526,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chef's delight (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8526"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chef's delight (flatpack)",
+        "item_name": "Chef's delight"
+      }
+    }
+  ]
+}

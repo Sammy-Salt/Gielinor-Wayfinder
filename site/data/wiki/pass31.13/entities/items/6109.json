@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6109,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6109,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ghostly hood",
+        "weight": 0.001,
+        "value": 30,
+        "examine": "A ghostly hood, fit for a ghostly head.",
+        "item_id": [
+          "6109"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ghostly hood",
+        "item_name": "Ghostly hood"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6772,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6772,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Smouldering pot",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "Contains slowly burning garden weeds.",
+        "item_id": [
+          "6772"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Smouldering pot",
+        "item_name": "Smouldering pot"
+      }
+    }
+  ]
+}

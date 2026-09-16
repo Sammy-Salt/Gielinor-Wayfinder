@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2048,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2048,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pineapple punch",
+        "weight": 0.5,
+        "value": 30,
+        "examine": "A fresh healthy fruit mix.",
+        "item_id": [
+          "2048"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pineapple punch",
+        "item_name": "Pineapple punch"
+      }
+    }
+  ]
+}

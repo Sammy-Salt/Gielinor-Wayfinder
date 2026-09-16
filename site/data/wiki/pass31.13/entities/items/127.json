@@ -1,0 +1,25 @@
+{
+  "canonicalId": 127,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 127,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Restore potion",
+        "weight": 0.03,
+        "value": 88,
+        "examine": "3 doses of restore potion.",
+        "item_id": [
+          "127"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Restore potion#(3)",
+        "item_name": "Restore potion(3)"
+      }
+    }
+  ]
+}

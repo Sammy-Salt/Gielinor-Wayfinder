@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6570,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6570,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire cape",
+        "weight": 1.814,
+        "value": 65007,
+        "examine": "A cape of fire.",
+        "item_id": [
+          "6570"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fire cape#Normal",
+        "item_name": "Fire cape"
+      }
+    }
+  ]
+}

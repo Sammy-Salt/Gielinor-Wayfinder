@@ -1,0 +1,25 @@
+{
+  "canonicalId": 736,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 736,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yommi tree seeds",
+        "weight": 0,
+        "value": 1,
+        "examine": "These seeds are germinated and ready to be planted in fertile soil.",
+        "item_id": [
+          "736"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yommi tree seeds#Germinated",
+        "item_name": "Yommi tree seeds"
+      }
+    }
+  ]
+}

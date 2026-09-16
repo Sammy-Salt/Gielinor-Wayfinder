@@ -1,0 +1,25 @@
+{
+  "canonicalId": 93,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 93,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Marrentill potion (unf)",
+        "weight": 0.056,
+        "value": 5,
+        "examine": "I need another ingredient to finish this Marrentill potion.",
+        "item_id": [
+          "93"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Marrentill potion (unf)",
+        "item_name": "Marrentill potion (unf)"
+      }
+    }
+  ]
+}

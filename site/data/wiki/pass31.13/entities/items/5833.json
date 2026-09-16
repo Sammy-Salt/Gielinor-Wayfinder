@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5833,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5833,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chef's delight (keg)",
+        "weight": 0.028,
+        "value": 1,
+        "examine": "This keg contains 4 pints of Chef's Delight.",
+        "item_id": [
+          "5833"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chef's delight (keg)#4 pints",
+        "item_name": "Chef's delight(4)"
+      }
+    }
+  ]
+}

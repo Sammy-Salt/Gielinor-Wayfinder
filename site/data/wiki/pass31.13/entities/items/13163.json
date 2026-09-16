@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13163,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13163,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Saradomin dragonhide set",
+        "weight": 0.05,
+        "value": 9000,
+        "examine": "A set containing a Saradomin dragonhide coif, body, chaps and vambraces.",
+        "item_id": [
+          "13163"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Saradomin dragonhide set",
+        "item_name": "Saradomin dragonhide set"
+      }
+    }
+  ]
+}

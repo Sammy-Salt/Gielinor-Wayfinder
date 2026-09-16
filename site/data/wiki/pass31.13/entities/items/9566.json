@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9566,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9566,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mixed blizzard",
+        "weight": 0.15,
+        "value": 2,
+        "examine": "This Wizzard Blizzard needs pouring, a lime slice and pineapple chunks.",
+        "item_id": [
+          "9566"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mixed blizzard",
+        "item_name": "Mixed blizzard"
+      }
+    }
+  ]
+}

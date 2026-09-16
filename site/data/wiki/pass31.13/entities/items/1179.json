@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1179,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1179,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black sq shield",
+        "weight": 3.628,
+        "value": 1152,
+        "examine": "A medium square shield.",
+        "item_id": [
+          "1179"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black sq shield",
+        "item_name": "Black sq shield"
+      }
+    }
+  ]
+}

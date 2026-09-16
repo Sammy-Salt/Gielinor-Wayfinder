@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12007,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12007,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jar of Dirt",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "It's just a jar of dirt.",
+        "item_id": [
+          "12007"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Jar of Dirt",
+        "item_name": "Jar of Dirt"
+      }
+    }
+  ]
+}

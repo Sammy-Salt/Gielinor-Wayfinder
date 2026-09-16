@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13276,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13276,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bludgeon axon",
+        "weight": 2.5,
+        "value": 230000,
+        "examine": "An axon from a deceased Abyssal Sire.",
+        "item_id": [
+          "13276"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bludgeon axon",
+        "item_name": "Bludgeon axon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7112,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7112,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pirate bandana (white)",
+        "weight": 1,
+        "value": 100,
+        "examine": "Essential pirate wear.",
+        "item_id": [
+          "7112"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pirate bandana (white)",
+        "item_name": "Pirate bandana"
+      }
+    }
+  ]
+}

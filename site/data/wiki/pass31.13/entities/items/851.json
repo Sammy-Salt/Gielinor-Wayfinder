@@ -1,0 +1,25 @@
+{
+  "canonicalId": 851,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 851,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Maple longbow",
+        "weight": 1.814,
+        "value": 640,
+        "examine": "A nice sturdy bow made out of Maple.",
+        "item_id": [
+          "851"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Maple longbow",
+        "item_name": "Maple longbow"
+      }
+    }
+  ]
+}

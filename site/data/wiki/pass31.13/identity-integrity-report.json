@@ -1,0 +1,12 @@
+{
+  "release": "PASS31.13",
+  "rule": "identity-integrity-v2",
+  "unsafeMappingMethodsRejected": {
+    "wiki-game-id": 4179,
+    "canonical-alias-exact": 1113
+  },
+  "unsafeEntityRecordsRemoved": 5556,
+  "explicitItemIdConflicts": 5556,
+  "conservativeItemMappingsRetained": 4,
+  "relationshipBaseline": "PASS31.9"
+}

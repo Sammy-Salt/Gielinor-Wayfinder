@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8856,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8856,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Defensive shield",
+        "weight": 3.628,
+        "value": 1,
+        "examine": "Large, round, heavy shield.",
+        "item_id": [
+          "8856"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Defensive shield",
+        "item_name": "Defensive shield"
+      }
+    }
+  ]
+}

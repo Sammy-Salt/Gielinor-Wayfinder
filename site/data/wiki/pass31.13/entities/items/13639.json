@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13639,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13639,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seed box",
+        "weight": 1,
+        "value": 10,
+        "examine": "A handy box for carrying some seeds.",
+        "item_id": [
+          "13639"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seed box#Closed",
+        "item_name": "Seed box"
+      }
+    }
+  ]
+}

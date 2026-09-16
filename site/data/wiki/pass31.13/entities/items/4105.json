@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4105,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4105,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic gloves (dark)",
+        "weight": 0.453,
+        "value": 10000,
+        "examine": "Dark magical gloves.",
+        "item_id": [
+          "4105"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic gloves (dark)",
+        "item_name": "Mystic gloves (dark)"
+      }
+    }
+  ]
+}

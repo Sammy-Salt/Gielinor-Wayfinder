@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8851,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8851,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Warrior guild token",
+        "weight": 0,
+        "value": 1,
+        "examine": "Warrior Guild Token.",
+        "item_id": [
+          "8851"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Warrior guild token",
+        "item_name": "Warrior guild token"
+      }
+    }
+  ]
+}

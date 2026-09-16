@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6120,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6120,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Square stone",
+        "weight": 0,
+        "value": 1,
+        "examine": "There is a strange green marking on this stone.",
+        "item_id": [
+          "6120"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Square stone#Green",
+        "item_name": "Square stone"
+      }
+    }
+  ]
+}

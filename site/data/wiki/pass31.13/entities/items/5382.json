@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5382,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5382,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Apples",
+        "weight": 0.113,
+        "value": 1,
+        "examine": "A fruit basket filled with apples.",
+        "item_id": [
+          "5382"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Apples#(3)",
+        "item_name": "Apples(3)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6922,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6922,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Infinity gloves",
+        "weight": 0.453,
+        "value": 12000,
+        "examine": "Mystical gloves.",
+        "item_id": [
+          "6922"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Infinity gloves",
+        "item_name": "Infinity gloves"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4682,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4682,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Holy symbol (Icthlarin's Little Helper)",
+        "weight": 2.267,
+        "value": 50,
+        "examine": "A Menaphite lucky charm.",
+        "item_id": [
+          "4682"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Holy symbol (Icthlarin's Little Helper)",
+        "item_name": "Holy symbol"
+      }
+    }
+  ]
+}

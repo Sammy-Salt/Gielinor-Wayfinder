@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11680,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11680,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Address form",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A change of address form.",
+        "item_id": [
+          "11680"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Address form",
+        "item_name": "Address form"
+      }
+    }
+  ]
+}

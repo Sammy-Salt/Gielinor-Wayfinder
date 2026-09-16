@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10540,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10540,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Poisoned worms",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Some poisoned worms.",
+        "item_id": [
+          "10540"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Poisoned worms",
+        "item_name": "Poisoned worms"
+      }
+    }
+  ]
+}

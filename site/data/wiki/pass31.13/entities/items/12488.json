@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12488,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12488,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandos kiteshield",
+        "weight": 5.443,
+        "value": 54400,
+        "examine": "Rune kiteshield in the colours of Bandos.",
+        "item_id": [
+          "12488"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandos kiteshield",
+        "item_name": "Bandos kiteshield"
+      }
+    }
+  ]
+}

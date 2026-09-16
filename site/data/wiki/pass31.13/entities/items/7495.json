@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7495,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7495,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yellow spice",
+        "weight": 0.001,
+        "value": 110,
+        "examine": "Allows for equal distribution of spice.",
+        "item_id": [
+          "7495"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yellow spice#(1)",
+        "item_name": "Yellow spice (1)"
+      }
+    }
+  ]
+}

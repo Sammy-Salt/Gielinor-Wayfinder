@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1161,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1161,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant full helm",
+        "weight": 3.175,
+        "value": 3520,
+        "examine": "A full face helmet.",
+        "item_id": [
+          "1161"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant full helm",
+        "item_name": "Adamant full helm"
+      }
+    }
+  ]
+}

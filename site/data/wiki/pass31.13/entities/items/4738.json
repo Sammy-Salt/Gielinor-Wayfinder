@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4738,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4738,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Karil's leatherskirt",
+        "weight": 5.443,
+        "value": 47000,
+        "examine": "Karil the Tainted's leather skirt.",
+        "item_id": [
+          "4738"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Karil's leatherskirt#Undamaged",
+        "item_name": "Karil's leatherskirt"
+      }
+    }
+  ]
+}

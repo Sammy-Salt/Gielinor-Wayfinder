@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11808,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11808,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak godsword",
+        "weight": 10,
+        "value": 1250000,
+        "examine": "A terrifying, heavy sword.",
+        "item_id": [
+          "11808"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak godsword",
+        "item_name": "Zamorak godsword"
+      }
+    }
+  ]
+}

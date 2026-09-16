@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13369,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13369,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shayzien helm (3)",
+        "weight": 2.721,
+        "value": 50,
+        "examine": "Dress like a tier 3 Shayzien soldier.",
+        "item_id": [
+          "13369"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shayzien helm (3)",
+        "item_name": "Shayzien helm (3)"
+      }
+    }
+  ]
+}

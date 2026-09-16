@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9809,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9809,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Woodcutting hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Woodcutting skillcape hood.",
+        "item_id": [
+          "9809"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Woodcutting hood",
+        "item_name": "Woodcutting hood"
+      }
+    }
+  ]
+}

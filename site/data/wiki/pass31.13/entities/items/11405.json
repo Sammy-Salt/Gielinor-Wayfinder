@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11405,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11405,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril hasta",
+        "weight": 1.814,
+        "value": 845,
+        "examine": "A poison-tipped, one-handed mithril hasta.",
+        "item_id": [
+          "11405"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril hasta#(p++)",
+        "item_name": "Mithril hasta(p++)"
+      }
+    }
+  ]
+}

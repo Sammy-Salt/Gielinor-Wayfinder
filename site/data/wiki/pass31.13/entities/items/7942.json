@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7942,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7942,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fresh monkfish",
+        "weight": 0.45,
+        "value": 10,
+        "examine": "Freshly caught. Needs cooking.",
+        "item_id": [
+          "7942"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fresh monkfish#Raw",
+        "item_name": "Fresh monkfish"
+      }
+    }
+  ]
+}

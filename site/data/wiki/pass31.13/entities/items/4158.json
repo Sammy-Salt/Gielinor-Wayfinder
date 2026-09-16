@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4158,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4158,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Leaf-bladed spear",
+        "weight": 2.267,
+        "value": 31000,
+        "examine": "A spear with a leaf-shaped point.",
+        "item_id": [
+          "4158"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Leaf-bladed spear",
+        "item_name": "Leaf-bladed spear"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11515,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11515,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic mix",
+        "weight": 0.045,
+        "value": 150,
+        "examine": "One dose of fishy Magic potion.",
+        "item_id": [
+          "11515"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Magic mix#(1)",
+        "item_name": "Magic mix(1)"
+      }
+    }
+  ]
+}

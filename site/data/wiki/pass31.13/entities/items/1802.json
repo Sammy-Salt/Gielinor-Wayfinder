@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1802,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1802,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver book",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "David's shiny silver coated book.",
+        "item_id": [
+          "1802"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Silver book#Normal",
+        "item_name": "Silver book"
+      }
+    }
+  ]
+}

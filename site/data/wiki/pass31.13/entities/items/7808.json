@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7808,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7808,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Anger mace",
+        "weight": 1.814,
+        "value": 18,
+        "examine": "A heavy duty mace.",
+        "item_id": [
+          "7808"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Anger mace",
+        "item_name": "Anger mace"
+      }
+    }
+  ]
+}

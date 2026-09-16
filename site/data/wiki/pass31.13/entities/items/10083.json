@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10083,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10083,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red spiky vambraces",
+        "weight": 0.283,
+        "value": 3600,
+        "examine": "Vambraces made from 100% real dragonhide. Now with added spikiness.",
+        "item_id": [
+          "10083"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Red spiky vambraces",
+        "item_name": "Red spiky vambraces"
+      }
+    }
+  ]
+}

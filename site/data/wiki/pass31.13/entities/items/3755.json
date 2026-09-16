@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3755,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3755,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Farseer helm",
+        "weight": 2.721,
+        "value": 60000,
+        "examine": "This helmet is worn by farseers.",
+        "item_id": [
+          "3755"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Farseer helm",
+        "item_name": "Farseer helm"
+      }
+    }
+  ]
+}

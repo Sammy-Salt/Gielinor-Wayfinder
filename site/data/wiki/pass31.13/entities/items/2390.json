@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2390,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2390,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Vial (jangerberries and guam leaf)",
+        "weight": 0.025,
+        "value": 1,
+        "examine": "A mixture of jangerberries and a guam leaf in a vial.",
+        "item_id": [
+          "2390"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Vial (jangerberries and guam leaf)",
+        "item_name": "Vial"
+      }
+    }
+  ]
+}

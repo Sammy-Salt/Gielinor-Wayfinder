@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4284,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4284,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bedsheet",
+        "weight": 1,
+        "value": 1,
+        "examine": "It's a bedsheet.",
+        "item_id": [
+          "4284"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bedsheet#Regular",
+        "item_name": "Bedsheet"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13345,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13345,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Anti-present",
+        "weight": 1,
+        "value": 1,
+        "examine": "I don't even want to think about what could be inside!",
+        "item_id": [
+          "13345"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Anti-present",
+        "item_name": "Anti-present"
+      }
+    }
+  ]
+}

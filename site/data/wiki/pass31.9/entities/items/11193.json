@@ -1,0 +1,40 @@
+{
+  "canonicalId": 11193,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11193,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Digsite pendant",
+        "weight": 0.01,
+        "value": 2400,
+        "examine": "An enchanted necklace.",
+        "item_id": [
+          "11193"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Digsite pendant#(4)",
+        "item_name": "Digsite pendant (4)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11193,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Digsite pendant",
+        "page_name_sub": "Digsite pendant#(4)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

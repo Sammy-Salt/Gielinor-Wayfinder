@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2207,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2207,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished crunchy (chocchip, historical)",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "These crunchies are just missing those little finishing touches.",
+        "item_id": [
+          "2207"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Unfinished crunchy (chocchip, historical)",
+        "item_name": "Unfinished crunchy"
+      }
+    }
+  ]
+}

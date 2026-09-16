@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10043,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10043,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Larupia top",
+        "weight": 0.226,
+        "value": 100,
+        "examine": "This should make me harder to spot in woodland and jungle areas.",
+        "item_id": [
+          "10043"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Larupia top",
+        "item_name": "Larupia top"
+      }
+    }
+  ]
+}

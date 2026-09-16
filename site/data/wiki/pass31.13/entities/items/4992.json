@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4992,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4992,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Verac's brassard",
+        "weight": 4.989,
+        "value": 280000,
+        "examine": "Verac the Defiled's brassard.",
+        "item_id": [
+          "4992"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Verac's brassard#(broken)",
+        "item_name": "Verac's brassard 0"
+      }
+    }
+  ]
+}

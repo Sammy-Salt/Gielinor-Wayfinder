@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1283,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1283,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black sword",
+        "weight": 1.814,
+        "value": 624,
+        "examine": "A razor sharp sword.",
+        "item_id": [
+          "1283"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black sword",
+        "item_name": "Black sword"
+      }
+    }
+  ]
+}

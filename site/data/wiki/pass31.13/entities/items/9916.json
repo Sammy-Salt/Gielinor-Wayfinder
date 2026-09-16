@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9916,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9916,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green destabiliser",
+        "weight": 0,
+        "value": 1,
+        "examine": "A green destabiliser for use in a Ghost Buster.",
+        "item_id": [
+          "9916"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Green destabiliser",
+        "item_name": "Green destabiliser"
+      }
+    }
+  ]
+}

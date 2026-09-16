@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9101,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9101,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lunar cape",
+        "weight": 0.453,
+        "value": 2,
+        "examine": "Oooo pretty!",
+        "item_id": [
+          "9101"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lunar cape",
+        "item_name": "Lunar cape"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3133,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3133,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Marinated j' bones",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "Jogre Bones marinated in Karambwanji sauce. Not quite right.",
+        "item_id": [
+          "3133"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Marinated j' bones#Normal",
+        "item_name": "Marinated j' bones"
+      }
+    }
+  ]
+}

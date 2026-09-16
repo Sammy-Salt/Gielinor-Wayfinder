@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4081,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4081,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Salve amulet",
+        "weight": 0.007,
+        "value": 1,
+        "examine": "Increases the wearer's strength and accuracy by 15%<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"actually 1/6th\">sic</span>&#93;</sup> when fighting the undead.",
+        "item_id": [
+          "4081"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Salve amulet",
+        "item_name": "Salve amulet"
+      }
+    }
+  ]
+}

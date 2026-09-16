@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11992,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11992,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lava scale",
+        "weight": 0.01,
+        "value": 50,
+        "examine": "A scale from the hide of a lava dragon.",
+        "item_id": [
+          "11992"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Lava scale",
+        "item_name": "Lava scale"
+      }
+    }
+  ]
+}

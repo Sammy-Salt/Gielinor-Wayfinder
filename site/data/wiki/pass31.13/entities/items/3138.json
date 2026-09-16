@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3138,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3138,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potato cactus",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "How am I supposed to eat that?!",
+        "item_id": [
+          "3138"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Potato cactus",
+        "item_name": "Potato cactus"
+      }
+    }
+  ]
+}

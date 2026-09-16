@@ -1,0 +1,25 @@
+{
+  "canonicalId": 697,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 697,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Damaged armour",
+        "weight": 7.711,
+        "value": 1,
+        "examine": "It would be hard to repair this!",
+        "item_id": [
+          "697"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Damaged armour",
+        "item_name": "Damaged armour"
+      }
+    }
+  ]
+}

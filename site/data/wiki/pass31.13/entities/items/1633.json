@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1633,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1633,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Crushed gem",
+        "weight": 0.003,
+        "value": 1,
+        "examine": "This gem is crushed and broken.",
+        "item_id": [
+          "1633"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Crushed gem",
+        "item_name": "Crushed gem"
+      }
+    }
+  ]
+}

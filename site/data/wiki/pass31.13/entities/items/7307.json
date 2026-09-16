@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7307,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7307,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (medium) - 05.20S 04.28E",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "Perhaps someone at the observatory can teach me to navigate?",
+        "item_id": [
+          "7307"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (medium) - 05.20S 04.28E",
+        "item_name": "Clue scroll (medium)"
+      }
+    }
+  ]
+}

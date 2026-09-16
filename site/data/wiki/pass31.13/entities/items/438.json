@@ -1,0 +1,25 @@
+{
+  "canonicalId": 438,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 438,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tin ore",
+        "weight": 2.267,
+        "value": 3,
+        "examine": "This needs refining.",
+        "item_id": [
+          "438"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tin ore",
+        "item_name": "Tin ore"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5101,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5101,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Redberry seed",
+        "weight": 0,
+        "value": 4,
+        "examine": "A redberry bush seed - plant in a bush patch.",
+        "item_id": [
+          "5101"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Redberry seed",
+        "item_name": "Redberry seed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7845,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7845,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Jogre bone",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "This needs a good polish.",
+        "item_id": [
+          "7845"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Jogre bone#Unpolished",
+        "item_name": "Jogre bone"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12601,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12601,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ring of the gods",
+        "weight": 0.3,
+        "value": 50000,
+        "examine": "An ancient ring said to bring you closer to the Gods.",
+        "item_id": [
+          "12601"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ring of the gods",
+        "item_name": "Ring of the gods"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2299,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2299,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Anchovy pizza",
+        "weight": 0.45,
+        "value": 30,
+        "examine": "Half of this anchovy pizza has been eaten.",
+        "item_id": [
+          "2299"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Anchovy pizza#Half",
+        "item_name": "1/2 anchovy pizza"
+      }
+    }
+  ]
+}

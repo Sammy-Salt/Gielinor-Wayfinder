@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5347,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5347,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rake handle",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "I need to reattach this to its head.",
+        "item_id": [
+          "5347"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rake handle",
+        "item_name": "Rake handle"
+      }
+    }
+  ]
+}

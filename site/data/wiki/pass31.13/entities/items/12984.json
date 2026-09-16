@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12984,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12984,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel set (lg)",
+        "weight": 6,
+        "value": 1400,
+        "examine": "A set containing a full helm, platebody, legs and kiteshield.",
+        "item_id": [
+          "12984"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel set (lg)",
+        "item_name": "Steel set (lg)"
+      }
+    }
+  ]
+}

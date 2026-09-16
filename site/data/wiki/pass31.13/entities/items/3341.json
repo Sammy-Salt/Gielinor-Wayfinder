@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3341,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3341,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pointed ochre snelm",
+        "weight": 2,
+        "value": 300,
+        "examine": "A muddy yellow coloured pointed snail shell helmet.",
+        "item_id": [
+          "3341"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pointed ochre snelm",
+        "item_name": "Pointed ochre snelm"
+      }
+    }
+  ]
+}

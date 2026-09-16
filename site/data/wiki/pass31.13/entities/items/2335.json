@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2335,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2335,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Apple pie",
+        "weight": 0.225,
+        "value": 15,
+        "examine": "Mmm half an apple pie.",
+        "item_id": [
+          "2335"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Apple pie#Half an apple pie",
+        "item_name": "Half an apple pie"
+      }
+    }
+  ]
+}

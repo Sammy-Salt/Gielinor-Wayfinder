@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11678,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11678,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black knight helm",
+        "weight": 2.721,
+        "value": 1,
+        "examine": "A black helm, too small for your head.",
+        "item_id": [
+          "11678"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Black knight helm",
+        "item_name": "Black knight helm"
+      }
+    }
+  ]
+}

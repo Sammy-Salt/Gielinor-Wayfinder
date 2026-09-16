@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3265,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3265,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Troll potion",
+        "weight": 0.056,
+        "value": 1,
+        "examine": "It's part of Eadgar's plan.",
+        "item_id": [
+          "3265"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Troll potion",
+        "item_name": "Troll potion"
+      }
+    }
+  ]
+}

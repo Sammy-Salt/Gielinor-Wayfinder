@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13336,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13336,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guthix max hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "The hood worn by only the most experienced players.",
+        "item_id": [
+          "13336"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guthix max hood",
+        "item_name": "Guthix max hood"
+      }
+    }
+  ]
+}

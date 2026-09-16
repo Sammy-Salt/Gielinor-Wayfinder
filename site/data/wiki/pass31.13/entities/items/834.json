@@ -1,0 +1,25 @@
+{
+  "canonicalId": 834,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 834,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril javelin",
+        "weight": 0,
+        "value": 64,
+        "examine": "A mithril tipped javelin.",
+        "item_id": [
+          "834"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril javelin#Poison",
+        "item_name": "Mithril javelin(p)"
+      }
+    }
+  ]
+}

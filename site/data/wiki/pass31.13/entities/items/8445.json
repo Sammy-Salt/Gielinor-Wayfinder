@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8445,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8445,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fancy hedge (bagged)",
+        "weight": 10,
+        "value": 25000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8445"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fancy hedge (bagged)",
+        "item_name": "Fancy hedge"
+      }
+    }
+  ]
+}

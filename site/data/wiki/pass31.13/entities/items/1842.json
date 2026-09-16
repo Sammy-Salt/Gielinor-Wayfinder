@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ana in a barrel",
+        "weight": 32,
+        "value": 1,
+        "examine": "A mining barrel with Ana in it.",
+        "item_id": [
+          "1842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ana in a barrel",
+        "item_name": "Ana in a barrel"
+      }
+    }
+  ]
+}

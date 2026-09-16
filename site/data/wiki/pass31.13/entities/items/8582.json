@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8582,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8582,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Teak bed (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8582"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Teak bed (flatpack)",
+        "item_name": "Teak bed"
+      }
+    }
+  ]
+}

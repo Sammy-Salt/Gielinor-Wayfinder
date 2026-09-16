@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9584,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9584,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfinished crunchy (worm)",
+        "weight": 0.35,
+        "value": 2,
+        "examine": "This worm crunchy needs garnishing with gnome spices.",
+        "item_id": [
+          "9584"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unfinished crunchy (worm)",
+        "item_name": "Unfinished crunchy"
+      }
+    }
+  ]
+}

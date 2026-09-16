@@ -1,0 +1,25 @@
+{
+  "canonicalId": 274,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 274,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Poisoned fish food",
+        "weight": 0.03,
+        "value": 1,
+        "examine": "Doesn't seem very nice to the poor fishes.",
+        "item_id": [
+          "274"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Poisoned fish food",
+        "item_name": "Poisoned fish food"
+      }
+    }
+  ]
+}

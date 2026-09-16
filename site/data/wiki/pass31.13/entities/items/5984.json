@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5984,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5984,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Watermelon slice",
+        "weight": 0.028,
+        "value": 16,
+        "examine": "A slice of watermelon.",
+        "item_id": [
+          "5984"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Watermelon slice",
+        "item_name": "Watermelon slice"
+      }
+    }
+  ]
+}

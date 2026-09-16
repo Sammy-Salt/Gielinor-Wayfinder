@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13329,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13329,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire max cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by only the most experienced players.",
+        "item_id": [
+          "13329"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fire max cape#Normal",
+        "item_name": "Fire max cape"
+      }
+    }
+  ]
+}

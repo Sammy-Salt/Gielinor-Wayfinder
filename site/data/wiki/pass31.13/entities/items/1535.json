@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1535,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1535,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Map part (Melzar)",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "A piece of the map to Crandor.",
+        "item_id": [
+          "1535"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Map part (Melzar)",
+        "item_name": "Map part"
+      }
+    }
+  ]
+}

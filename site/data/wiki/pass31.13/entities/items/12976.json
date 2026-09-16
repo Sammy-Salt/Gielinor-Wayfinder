@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12976,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12976,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron trimmed set (lg)",
+        "weight": 6,
+        "value": 900,
+        "examine": "A set containing a full helm, platebody, legs and kiteshield.",
+        "item_id": [
+          "12976"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron trimmed set (lg)",
+        "item_name": "Iron trimmed set (lg)"
+      }
+    }
+  ]
+}

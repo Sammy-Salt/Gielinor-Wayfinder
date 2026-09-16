@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3440,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3440,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak pyre logs",
+        "weight": 1.814,
+        "value": 40,
+        "examine": "Oak logs prepared with sacred oil for a funeral pyre.",
+        "item_id": [
+          "3440"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak pyre logs",
+        "item_name": "Oak pyre logs"
+      }
+    }
+  ]
+}

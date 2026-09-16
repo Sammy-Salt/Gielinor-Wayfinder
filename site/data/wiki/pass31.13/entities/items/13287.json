@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13287,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13287,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gravedigger gloves",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "They protect your hands from the rough handles of spades.",
+        "item_id": [
+          "13287"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Gravedigger gloves#Reward",
+        "item_name": "Gravedigger gloves"
+      }
+    }
+  ]
+}

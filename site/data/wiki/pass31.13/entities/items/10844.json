@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10844,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10844,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spring sq'irk",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A slightly sq'irky, I mean quirky, fruit.",
+        "item_id": [
+          "10844"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Spring sq'irk",
+        "item_name": "Spring sq'irk"
+      }
+    }
+  ]
+}

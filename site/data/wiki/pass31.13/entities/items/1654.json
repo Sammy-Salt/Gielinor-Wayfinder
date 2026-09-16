@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1654,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1654,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gold necklace",
+        "weight": 0.007,
+        "value": 450,
+        "examine": "I wonder if this is valuable.",
+        "item_id": [
+          "1654"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gold necklace",
+        "item_name": "Gold necklace"
+      }
+    }
+  ]
+}

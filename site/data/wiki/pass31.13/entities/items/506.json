@@ -1,0 +1,25 @@
+{
+  "canonicalId": 506,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 506,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken axe (rune)",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "Bob can fix this for me.",
+        "item_id": [
+          "506"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broken axe (rune)",
+        "item_name": "Broken axe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1089,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1089,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black plateskirt",
+        "weight": 8.164,
+        "value": 1920,
+        "examine": "Big, black and heavy looking.",
+        "item_id": [
+          "1089"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black plateskirt",
+        "item_name": "Black plateskirt"
+      }
+    }
+  ]
+}

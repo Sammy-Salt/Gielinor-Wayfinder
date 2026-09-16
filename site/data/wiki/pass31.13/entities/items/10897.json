@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10897,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10897,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shipping order",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A shipping order list.",
+        "item_id": [
+          "10897"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Shipping order",
+        "item_name": "Shipping order"
+      }
+    }
+  ]
+}

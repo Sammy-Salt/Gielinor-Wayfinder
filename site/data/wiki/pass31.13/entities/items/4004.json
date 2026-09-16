@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4004,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4004,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gnome royal seal",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "It's the official Gnome Royal Seal, signed by King Narnode Shareen.",
+        "item_id": [
+          "4004"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Gnome royal seal",
+        "item_name": "Gnome royal seal"
+      }
+    }
+  ]
+}

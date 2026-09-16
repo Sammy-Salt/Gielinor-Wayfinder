@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3831,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3831,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak page 1",
+        "weight": 0,
+        "value": 200,
+        "examine": "This seems to have been torn from a book...",
+        "item_id": [
+          "3831"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak page 1",
+        "item_name": "Zamorak page 1"
+      }
+    }
+  ]
+}

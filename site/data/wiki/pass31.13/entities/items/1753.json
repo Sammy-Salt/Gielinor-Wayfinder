@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1753,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1753,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green dragonhide",
+        "weight": 3.175,
+        "value": 135,
+        "examine": "The scaly rough hide from a Green Dragon.",
+        "item_id": [
+          "1753"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green dragonhide",
+        "item_name": "Green dragonhide"
+      }
+    }
+  ]
+}

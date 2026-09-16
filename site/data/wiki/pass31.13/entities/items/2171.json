@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2171,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2171,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gianne dough",
+        "weight": 0.5,
+        "value": 2,
+        "examine": "It's made from a secret recipe.",
+        "item_id": [
+          "2171"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gianne dough",
+        "item_name": "Gianne dough"
+      }
+    }
+  ]
+}

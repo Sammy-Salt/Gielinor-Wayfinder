@@ -1,0 +1,25 @@
+{
+  "canonicalId": 618,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 618,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bone beads",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Beads carved out of a bone.",
+        "item_id": [
+          "618"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bone beads",
+        "item_name": "Bone beads"
+      }
+    }
+  ]
+}

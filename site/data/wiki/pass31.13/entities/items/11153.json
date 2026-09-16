@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11153,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11153,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dream vial",
+        "weight": 0.025,
+        "value": 1,
+        "examine": "A vessel containing water and goutweed.",
+        "item_id": [
+          "11153"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Dream vial#Herb",
+        "item_name": "Dream vial (herb)"
+      }
+    }
+  ]
+}

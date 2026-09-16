@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11874,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11874,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broad arrowheads",
+        "weight": 0,
+        "value": 55,
+        "examine": "Arrowheads with broad tips.",
+        "item_id": [
+          "11874"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broad arrowheads",
+        "item_name": "Broad arrowheads"
+      }
+    }
+  ]
+}

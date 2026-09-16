@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7398,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7398,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchanted robe",
+        "weight": 1.814,
+        "value": 80000,
+        "examine": "Enchanted Wizards robes.",
+        "item_id": [
+          "7398"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Enchanted robe",
+        "item_name": "Enchanted robe"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6946,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6946,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Beer soaked hand",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "A severed hand dripping with beer.",
+        "item_id": [
+          "6946"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Beer soaked hand",
+        "item_name": "Beer soaked hand"
+      }
+    }
+  ]
+}

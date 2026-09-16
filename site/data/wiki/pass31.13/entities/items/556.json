@@ -1,0 +1,25 @@
+{
+  "canonicalId": 556,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 556,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Air rune",
+        "weight": 0,
+        "value": 4,
+        "examine": "One of the 4 basic elemental Runes.",
+        "item_id": [
+          "556"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Air rune",
+        "item_name": "Air rune"
+      }
+    }
+  ]
+}

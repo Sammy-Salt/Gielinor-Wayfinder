@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2351,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2351,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron bar",
+        "weight": 1.814,
+        "value": 28,
+        "examine": "It's a bar of iron.",
+        "item_id": [
+          "2351"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron bar",
+        "item_name": "Iron bar"
+      }
+    }
+  ]
+}

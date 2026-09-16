@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11897,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11897,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Decorative armour (magic legs)",
+        "weight": 8.164,
+        "value": 45000,
+        "examine": "Very decorative armour.",
+        "item_id": [
+          "11897"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Decorative armour (magic legs)#Normal",
+        "item_name": "Decorative armour"
+      }
+    }
+  ]
+}

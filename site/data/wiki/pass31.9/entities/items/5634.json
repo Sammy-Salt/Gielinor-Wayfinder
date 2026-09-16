@@ -1,0 +1,40 @@
+{
+  "canonicalId": 5634,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5634,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune dart",
+        "weight": 0,
+        "value": 350,
+        "examine": "A deadly poisoned dart with a rune tip.",
+        "item_id": [
+          "5634"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune dart#(p+)",
+        "item_name": "Rune dart(p+)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5634,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Rune dart",
+        "page_name_sub": "Rune dart#(p+)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

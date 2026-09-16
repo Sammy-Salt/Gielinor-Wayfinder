@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5678,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5678,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune dagger",
+        "weight": 0.453,
+        "value": 8000,
+        "examine": "The blade is covered with a nasty poison.",
+        "item_id": [
+          "5678"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rune dagger#(p+)",
+        "item_name": "Rune dagger(p+)"
+      }
+    }
+  ]
+}

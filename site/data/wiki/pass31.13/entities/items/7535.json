@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7535,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7535,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Diving apparatus",
+        "weight": 10,
+        "value": 1,
+        "examine": "I'll need a helmet to make this work.",
+        "item_id": [
+          "7535"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Diving apparatus",
+        "item_name": "Diving apparatus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8746,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8746,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel kiteshield (Arrav)",
+        "weight": 5.443,
+        "value": 900,
+        "examine": "A shield with the symbol of Arrav.",
+        "item_id": [
+          "8746"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel kiteshield (Arrav)",
+        "item_name": "Steel kiteshield"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 442,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 442,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver ore",
+        "weight": 2.267,
+        "value": 75,
+        "examine": "This needs refining.",
+        "item_id": [
+          "442"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silver ore",
+        "item_name": "Silver ore"
+      }
+    }
+  ]
+}

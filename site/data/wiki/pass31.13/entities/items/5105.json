@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5105,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5105,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Whiteberry seed",
+        "weight": 0,
+        "value": 133,
+        "examine": "A whiteberry bush seed - plant in a bush patch.",
+        "item_id": [
+          "5105"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Whiteberry seed",
+        "item_name": "Whiteberry seed"
+      }
+    }
+  ]
+}

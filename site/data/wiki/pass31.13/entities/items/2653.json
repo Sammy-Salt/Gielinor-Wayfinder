@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2653,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2653,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak platebody",
+        "weight": 9.979,
+        "value": 65000,
+        "examine": "Rune platebody in the colours of Zamorak.",
+        "item_id": [
+          "2653"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak platebody",
+        "item_name": "Zamorak platebody"
+      }
+    }
+  ]
+}

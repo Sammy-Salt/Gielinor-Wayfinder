@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1583,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1583,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fire feather",
+        "weight": 0.002,
+        "value": 2,
+        "examine": "Firebird feather.",
+        "item_id": [
+          "1583"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Fire feather",
+        "item_name": "Fire feather"
+      }
+    }
+  ]
+}

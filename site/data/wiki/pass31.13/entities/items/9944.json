@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9944,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9944,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bomber jacket",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "For all your flying needs.",
+        "item_id": [
+          "9944"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bomber jacket",
+        "item_name": "Bomber jacket"
+      }
+    }
+  ]
+}

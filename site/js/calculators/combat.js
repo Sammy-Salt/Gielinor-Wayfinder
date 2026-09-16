@@ -1,0 +1,5 @@
+export function calculate({monster,style="melee",attack=1,power=1,attackBonus=0,strengthBonus=0,weaponMax=0,speed=4}={}){
+ if(!monster)return null; const atk=Math.max(1,Number(attack)||1),pwr=Math.max(1,Number(power)||1),ab=Number(attackBonus)||0,sb=Number(strengthBonus)||0,wm=Math.max(0,Number(weaponMax)||0),ticks=Math.max(1,Number(speed)||4);
+ const defence=style==="ranged"?Number(monster.range_level??monster.defence_level??1):style==="magic"?Number(monster.magic_level??monster.defence_level??1):Number(monster.defence_level??1);
+ const attackRoll=(atk+8)*(ab+64),defenceRoll=defence*64;let accuracy=attackRoll>=defenceRoll?1-(defenceRoll+2)/(2*(attackRoll+1)):attackRoll/(2*(defenceRoll+1));accuracy=Math.max(0,Math.min(1,accuracy));let maxHit=Math.floor((pwr+8)*(sb+64)/640);if(wm>0)maxHit=Math.min(maxHit,wm);maxHit=Math.max(0,maxHit);const avgHit=maxHit/2,dps=avgHit*accuracy/(ticks*.6),hp=Math.max(1,Number(monster.lifepoints)||1),killsPerHour=dps>0?3600*dps/hp:0;return {defence,accuracy,maxHit,avgHit,dps,killsPerHour,xpHour:hp/4*killsPerHour,hp,ticks};
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7983,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7983,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stuffed cockatrice head",
+        "weight": 10,
+        "value": 2000,
+        "examine": "I could mount this on my wall!",
+        "item_id": [
+          "7983"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stuffed cockatrice head",
+        "item_name": "Stuffed cockatrice head"
+      }
+    }
+  ]
+}

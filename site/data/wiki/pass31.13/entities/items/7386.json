@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7386,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7386,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blue skirt (g)",
+        "weight": 0.907,
+        "value": 2,
+        "examine": "Leg covering favoured by women and wizards. With a colourful trim!",
+        "item_id": [
+          "7386"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blue skirt (g)",
+        "item_name": "Blue skirt (g)"
+      }
+    }
+  ]
+}

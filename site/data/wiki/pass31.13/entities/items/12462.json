@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12462,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12462,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ancient platelegs",
+        "weight": 9.071,
+        "value": 64000,
+        "examine": "Rune platelegs in the colours of a long-forgotten god.",
+        "item_id": [
+          "12462"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ancient platelegs",
+        "item_name": "Ancient platelegs"
+      }
+    }
+  ]
+}

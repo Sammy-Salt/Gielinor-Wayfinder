@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6901,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6901,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pentamid",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "A red pentamid.",
+        "item_id": [
+          "6901"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Pentamid",
+        "item_name": "Pentamid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4119,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4119,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze boots",
+        "weight": 1.36,
+        "value": 24,
+        "examine": "These will protect my feet.",
+        "item_id": [
+          "4119"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze boots",
+        "item_name": "Bronze boots"
+      }
+    }
+  ]
+}

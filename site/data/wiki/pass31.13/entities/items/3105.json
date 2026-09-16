@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3105,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3105,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Climbing boots",
+        "weight": 0.34,
+        "value": 12,
+        "examine": "Boots made for climbing.",
+        "item_id": [
+          "3105"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Climbing boots",
+        "item_name": "Climbing boots"
+      }
+    }
+  ]
+}

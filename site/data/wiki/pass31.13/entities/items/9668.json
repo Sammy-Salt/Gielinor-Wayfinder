@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9668,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9668,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Initiate harness m",
+        "weight": 14.514,
+        "value": 20000,
+        "examine": "Initiate level armour pack.",
+        "item_id": [
+          "9668"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Initiate harness m",
+        "item_name": "Initiate harness m"
+      }
+    }
+  ]
+}

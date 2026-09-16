@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5046,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5046,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shorts (blue)",
+        "weight": 0.1,
+        "value": 390,
+        "examine": "Blue shorts, these would look great on dwarves!",
+        "item_id": [
+          "5046"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Shorts (blue)",
+        "item_name": "Shorts"
+      }
+    }
+  ]
+}

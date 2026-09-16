@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9088,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9088,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Guam vial",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "A vessel with water and Guam inside.",
+        "item_id": [
+          "9088"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Guam vial",
+        "item_name": "Guam vial"
+      }
+    }
+  ]
+}

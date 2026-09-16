@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7411,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7411,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Symptoms list",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "A list of the Fairy Queen's symptoms.",
+        "item_id": [
+          "7411"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Symptoms list",
+        "item_name": "Symptoms list"
+      }
+    }
+  ]
+}

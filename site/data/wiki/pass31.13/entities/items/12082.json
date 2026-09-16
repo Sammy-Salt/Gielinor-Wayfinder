@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12082,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12082,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (elite) - Laugh by the fountain of heroes",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A set of instructions to be followed.",
+        "item_id": [
+          "12082"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (elite) - Laugh by the fountain of heroes",
+        "item_name": "Clue scroll (elite)"
+      }
+    }
+  ]
+}

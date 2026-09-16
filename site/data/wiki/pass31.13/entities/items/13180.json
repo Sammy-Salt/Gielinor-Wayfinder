@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13180,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13180,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Vet'ion Jr.",
+        "weight": 0.015,
+        "value": 1,
+        "examine": "Only the true lord & king of the lands can lift his burden.",
+        "item_id": [
+          "13180"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Vet'ion Jr.#Reborn",
+        "item_name": "Vet'ion Jr."
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7585,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7585,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hellcat",
+        "weight": 0.75,
+        "value": 1,
+        "examine": "Your hellish pet cat!!",
+        "item_id": [
+          "7585"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hellcat#Wily",
+        "item_name": "Wily hellcat"
+      }
+    }
+  ]
+}

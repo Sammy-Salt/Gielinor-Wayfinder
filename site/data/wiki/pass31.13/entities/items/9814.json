@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9814,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9814,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Quest point hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Quest point cape hood.",
+        "item_id": [
+          "9814"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Quest point hood",
+        "item_name": "Quest point hood"
+      }
+    }
+  ]
+}

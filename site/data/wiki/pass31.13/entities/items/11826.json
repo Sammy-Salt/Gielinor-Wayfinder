@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11826,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11826,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Armadyl helmet",
+        "weight": 0.5,
+        "value": 289000,
+        "examine": "A helmet of great craftsmanship.",
+        "item_id": [
+          "11826"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Armadyl helmet",
+        "item_name": "Armadyl helmet"
+      }
+    }
+  ]
+}

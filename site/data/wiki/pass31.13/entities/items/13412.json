@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13412,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13412,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Servery pineapple pizza",
+        "weight": 0.9,
+        "value": 1,
+        "examine": "Put it on the servery table to feed the troops.",
+        "item_id": [
+          "13412"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Servery pineapple pizza",
+        "item_name": "Servery pineapple pizza"
+      }
+    }
+  ]
+}

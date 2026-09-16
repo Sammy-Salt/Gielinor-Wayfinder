@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1745,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1745,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green dragon leather",
+        "weight": 3.175,
+        "value": 50,
+        "examine": "It's a piece of prepared green dragonhide.",
+        "item_id": [
+          "1745"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green dragon leather",
+        "item_name": "Green dragon leather"
+      }
+    }
+  ]
+}

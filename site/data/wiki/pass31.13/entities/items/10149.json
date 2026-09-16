@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10149,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10149,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Swamp lizard",
+        "weight": 4,
+        "value": 50,
+        "examine": "A very slimy and generally disgusting green lizard.",
+        "item_id": [
+          "10149"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Swamp lizard",
+        "item_name": "Swamp lizard"
+      }
+    }
+  ]
+}

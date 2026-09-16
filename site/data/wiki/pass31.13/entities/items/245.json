@@ -1,0 +1,25 @@
+{
+  "canonicalId": 245,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 245,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Wine of Zamorak",
+        "weight": 0.085,
+        "value": 1,
+        "examine": "An evil wine for an evil god.",
+        "item_id": [
+          "245"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Wine of Zamorak",
+        "item_name": "Wine of Zamorak"
+      }
+    }
+  ]
+}

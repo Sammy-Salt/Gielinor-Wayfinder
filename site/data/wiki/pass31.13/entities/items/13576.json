@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13576,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13576,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Dragon warhammer",
+        "weight": 2,
+        "value": 120000,
+        "examine": "Spikey, close combat weapon.",
+        "item_id": [
+          "13576"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Dragon warhammer",
+        "item_name": "Dragon warhammer"
+      }
+    }
+  ]
+}

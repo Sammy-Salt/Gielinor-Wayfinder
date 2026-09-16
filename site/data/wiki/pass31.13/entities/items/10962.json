@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10962,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10962,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Frogburger",
+        "weight": 0.001,
+        "value": 10,
+        "examine": "A juicy frogburger.",
+        "item_id": [
+          "10962"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Frogburger",
+        "item_name": "Frogburger"
+      }
+    }
+  ]
+}

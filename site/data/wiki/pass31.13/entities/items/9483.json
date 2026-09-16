@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9483,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9483,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Half made batta (cheese+tom)",
+        "weight": 0.25,
+        "value": 2,
+        "examine": "This cheese and tom batta needs baking and garnishing with equa leaves.",
+        "item_id": [
+          "9483"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Half made batta (cheese+tom)",
+        "item_name": "Half made batta"
+      }
+    }
+  ]
+}

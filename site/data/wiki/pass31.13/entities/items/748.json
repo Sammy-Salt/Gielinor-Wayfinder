@@ -1,0 +1,25 @@
+{
+  "canonicalId": 748,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 748,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Holy force",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "A powerful spell for good.",
+        "item_id": [
+          "748"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Holy force",
+        "item_name": "Holy force"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6095,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6095,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Naphtha apple mix",
+        "weight": 32,
+        "value": 1,
+        "examine": "A barrel full of rotten apples and naphtha.",
+        "item_id": [
+          "6095"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Naphtha apple mix",
+        "item_name": "Naphtha apple mix"
+      }
+    }
+  ]
+}

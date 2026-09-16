@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13631,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13631,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Graceful top (Hosidius)",
+        "weight": 0.9,
+        "value": 55,
+        "examine": "A sign of your grace and loyalty.",
+        "item_id": [
+          "13631"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Graceful top (Hosidius)#Inventory",
+        "item_name": "Graceful top"
+      }
+    }
+  ]
+}

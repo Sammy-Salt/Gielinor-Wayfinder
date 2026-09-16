@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6687,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6687,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Saradomin brew",
+        "weight": 0.03,
+        "value": 175,
+        "examine": "3 doses of Saradomin brew.",
+        "item_id": [
+          "6687"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Saradomin brew#(3)",
+        "item_name": "Saradomin brew(3)"
+      }
+    }
+  ]
+}

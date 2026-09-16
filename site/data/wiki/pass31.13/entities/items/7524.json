@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7524,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7524,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked giant crab meat",
+        "weight": 0.907,
+        "value": 30,
+        "examine": "Nice and tasty!",
+        "item_id": [
+          "7524"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Cooked giant crab meat#Three",
+        "item_name": "Cooked giant crab meat"
+      }
+    }
+  ]
+}

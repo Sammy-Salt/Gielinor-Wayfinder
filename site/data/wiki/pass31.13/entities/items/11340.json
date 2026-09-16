@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11340,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11340,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barbarian skills",
+        "weight": 0.01,
+        "value": 0,
+        "examine": "A record of Otto's instructions to me.",
+        "item_id": [
+          "11340"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Barbarian skills",
+        "item_name": "Barbarian skills"
+      }
+    }
+  ]
+}

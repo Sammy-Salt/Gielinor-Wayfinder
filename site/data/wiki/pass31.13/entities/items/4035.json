@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4035,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4035,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "10th squad sigil",
+        "weight": 0.085,
+        "value": 1,
+        "examine": "It's the official sigil of the 10th squad of the Royal Guard.",
+        "item_id": [
+          "4035"
+        ],
+        "tradeable": false,
+        "page_name_sub": "10th squad sigil",
+        "item_name": "10th squad sigil"
+      }
+    }
+  ]
+}

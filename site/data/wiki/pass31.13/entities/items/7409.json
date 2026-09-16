@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7409,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7409,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic secateurs",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "The only way to kill a Tanglefoot.",
+        "item_id": [
+          "7409"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Magic secateurs",
+        "item_name": "Magic secateurs"
+      }
+    }
+  ]
+}

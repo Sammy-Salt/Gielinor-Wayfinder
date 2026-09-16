@@ -1,0 +1,25 @@
+{
+  "canonicalId": 137,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 137,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Defence potion",
+        "weight": 0.02,
+        "value": 60,
+        "examine": "1 dose of Defence potion.",
+        "item_id": [
+          "137"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Defence potion#(1)",
+        "item_name": "Defence potion(1)"
+      }
+    }
+  ]
+}

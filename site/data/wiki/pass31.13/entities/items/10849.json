@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10849,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10849,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Summer sq'irkjuice",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Made from 2 summer sq'irks.",
+        "item_id": [
+          "10849"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Summer sq'irkjuice",
+        "item_name": "Summer sq'irkjuice"
+      }
+    }
+  ]
+}

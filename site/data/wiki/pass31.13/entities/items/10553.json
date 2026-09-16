@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10553,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10553,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Penance gloves",
+        "weight": 0.34,
+        "value": 65001,
+        "examine": "These gloves seem unbelieveably light!<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup>",
+        "item_id": [
+          "10553"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Penance gloves#Inventory",
+        "item_name": "Penance gloves"
+      }
+    }
+  ]
+}

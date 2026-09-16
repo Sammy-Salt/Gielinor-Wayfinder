@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8924,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8924,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bandana eyepatch (white)",
+        "weight": 1,
+        "value": 100,
+        "examine": "Essential pirate wear.",
+        "item_id": [
+          "8924"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bandana eyepatch (white)",
+        "item_name": "Bandana eyepatch (white)"
+      }
+    }
+  ]
+}

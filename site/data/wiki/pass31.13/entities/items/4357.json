@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4357,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4357,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Team-22 cape",
+        "weight": 0.453,
+        "value": 50,
+        "examine": "Ooohhh look at the pretty colours...",
+        "item_id": [
+          "4357"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Team-22 cape",
+        "item_name": "Team-22 cape"
+      }
+    }
+  ]
+}

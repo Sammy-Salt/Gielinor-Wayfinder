@@ -1,0 +1,25 @@
+{
+  "canonicalId": 609,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 609,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rashiliyia corpse",
+        "weight": 0.3,
+        "value": 1,
+        "examine": "The remains of the Zombie Queen.",
+        "item_id": [
+          "609"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rashiliyia corpse",
+        "item_name": "Rashiliyia corpse"
+      }
+    }
+  ]
+}

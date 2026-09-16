@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6550,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6550,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Lazy cat",
+        "weight": 0.75,
+        "value": 1,
+        "examine": "Lethargic.",
+        "item_id": [
+          "6550"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Lazy cat#Grey and black",
+        "item_name": "Lazy cat"
+      }
+    }
+  ]
+}

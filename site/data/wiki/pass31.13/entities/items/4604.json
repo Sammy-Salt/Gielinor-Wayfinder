@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4604,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4604,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Hag's poison",
+        "weight": 0.2,
+        "value": 1,
+        "examine": "A red viscous liquid in a vial.",
+        "item_id": [
+          "4604"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Hag's poison",
+        "item_name": "Hag's poison"
+      }
+    }
+  ]
+}

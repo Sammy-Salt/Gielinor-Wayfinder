@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3060,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3060,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mime gloves",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A mime would wear these.",
+        "item_id": [
+          "3060"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mime gloves",
+        "item_name": "Mime gloves"
+      }
+    }
+  ]
+}

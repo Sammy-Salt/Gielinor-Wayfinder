@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11665,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11665,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Void melee helm",
+        "weight": 0.453,
+        "value": 9851,
+        "examine": "A melee helm from the order of the Void Knights.",
+        "item_id": [
+          "11665"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Void melee helm#Normal",
+        "item_name": "Void melee helm"
+      }
+    }
+  ]
+}

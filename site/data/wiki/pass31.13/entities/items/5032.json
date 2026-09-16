@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5032,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5032,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Shirt (yellow)",
+        "weight": 0.07,
+        "value": 600,
+        "examine": "Tiny!",
+        "item_id": [
+          "5032"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Shirt (yellow)",
+        "item_name": "Shirt"
+      }
+    }
+  ]
+}

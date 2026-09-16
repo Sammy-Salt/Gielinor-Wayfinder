@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1677,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1677,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Emerald amulet (u)",
+        "weight": 0.004,
+        "value": 1275,
+        "examine": "It needs a string so I can wear it.",
+        "item_id": [
+          "1677"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Emerald amulet (u)",
+        "item_name": "Emerald amulet (u)"
+      }
+    }
+  ]
+}

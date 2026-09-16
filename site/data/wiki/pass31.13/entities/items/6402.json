@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6402,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6402,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Menaphite red top",
+        "weight": 0.005,
+        "value": 20,
+        "examine": "Colourful.",
+        "item_id": [
+          "6402"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Menaphite red top",
+        "item_name": "Menaphite red top"
+      }
+    }
+  ]
+}

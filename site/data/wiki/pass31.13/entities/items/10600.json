@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10600,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10600,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kgp id card",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "So you can be a penguin too!",
+        "item_id": [
+          "10600"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Kgp id card",
+        "item_name": "Kgp id card"
+      }
+    }
+  ]
+}

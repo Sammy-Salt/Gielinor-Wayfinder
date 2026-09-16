@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7228,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7228,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked chompy (roasted)",
+        "weight": 1,
+        "value": 85,
+        "examine": "Roasted chompy bird.",
+        "item_id": [
+          "7228"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked chompy (roasted)",
+        "item_name": "Cooked chompy"
+      }
+    }
+  ]
+}

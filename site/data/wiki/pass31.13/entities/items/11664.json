@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11664,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11664,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Void ranger helm",
+        "weight": 0.453,
+        "value": 9851,
+        "examine": "A ranger helm from the order of the Void Knights.",
+        "item_id": [
+          "11664"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Void ranger helm#Normal",
+        "item_name": "Void ranger helm"
+      }
+    }
+  ]
+}

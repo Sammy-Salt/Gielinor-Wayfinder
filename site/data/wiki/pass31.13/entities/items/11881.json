@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11881,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11881,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Feather pack",
+        "weight": 0.3,
+        "value": 200,
+        "examine": "A pack containing 100 feathers.",
+        "item_id": [
+          "11881"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Feather pack",
+        "item_name": "Feather pack"
+      }
+    }
+  ]
+}

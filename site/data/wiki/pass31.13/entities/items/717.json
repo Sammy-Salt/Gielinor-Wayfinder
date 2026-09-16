@@ -1,0 +1,25 @@
+{
+  "canonicalId": 717,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 717,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Scrawled note",
+        "weight": 0.02,
+        "value": 1,
+        "examine": "A scrawled note with spidery writing on it.",
+        "item_id": [
+          "717"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Scrawled note",
+        "item_name": "Scrawled note"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6406,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6406,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Menaphite red kilt",
+        "weight": 0.005,
+        "value": 20,
+        "examine": "Look at those nobbily knees.",
+        "item_id": [
+          "6406"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Menaphite red kilt",
+        "item_name": "Menaphite red kilt"
+      }
+    }
+  ]
+}

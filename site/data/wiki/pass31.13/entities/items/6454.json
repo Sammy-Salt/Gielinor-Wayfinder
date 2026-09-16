@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6454,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6454,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Red rose seed",
+        "weight": 0,
+        "value": 1,
+        "examine": "A red rosebush seed.",
+        "item_id": [
+          "6454"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Red rose seed",
+        "item_name": "Red rose seed"
+      }
+    }
+  ]
+}

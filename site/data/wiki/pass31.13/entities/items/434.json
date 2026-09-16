@@ -1,0 +1,25 @@
+{
+  "canonicalId": 434,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 434,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clay",
+        "weight": 1,
+        "value": 1,
+        "examine": "Some hard dry clay.",
+        "item_id": [
+          "434"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Clay",
+        "item_name": "Clay"
+      }
+    }
+  ]
+}

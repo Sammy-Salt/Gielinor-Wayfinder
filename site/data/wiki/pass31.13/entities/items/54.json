@@ -1,0 +1,25 @@
+{
+  "canonicalId": 54,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 54,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak shortbow (u)",
+        "weight": 0.992,
+        "value": 50,
+        "examine": "An unstrung oak shortbow; I need a bowstring for this.",
+        "item_id": [
+          "54"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak shortbow (u)",
+        "item_name": "Oak shortbow (u)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1207,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1207,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel dagger",
+        "weight": 0.453,
+        "value": 125,
+        "examine": "Short but pointy.",
+        "item_id": [
+          "1207"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Steel dagger#(unp)",
+        "item_name": "Steel dagger"
+      }
+    }
+  ]
+}

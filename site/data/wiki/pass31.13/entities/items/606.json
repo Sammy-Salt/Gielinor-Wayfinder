@@ -1,0 +1,25 @@
+{
+  "canonicalId": 606,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 606,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stone-plaque",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "A stone plaque with carved letters in it.",
+        "item_id": [
+          "606"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stone-plaque",
+        "item_name": "Stone-plaque"
+      }
+    }
+  ]
+}

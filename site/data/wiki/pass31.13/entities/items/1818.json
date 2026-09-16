@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1818,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1818,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Carol's print",
+        "weight": 0.01,
+        "value": 1,
+        "examine": "An imprint of Carol's fingerprint.",
+        "item_id": [
+          "1818"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Carol's print",
+        "item_name": "Carol's print"
+      }
+    }
+  ]
+}

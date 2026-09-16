@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2605,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2605,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant full helm (t)",
+        "weight": 3.175,
+        "value": 3520,
+        "examine": "Adamant full helmet with trim.",
+        "item_id": [
+          "2605"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant full helm (t)",
+        "item_name": "Adamant full helm (t)"
+      }
+    }
+  ]
+}

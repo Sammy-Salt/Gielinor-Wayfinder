@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13239,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13239,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Primordial boots",
+        "weight": 1.814,
+        "value": 75000,
+        "examine": "A pair of upgraded dragon boots.",
+        "item_id": [
+          "13239"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Primordial boots",
+        "item_name": "Primordial boots"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1996,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1996,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unfermented wine (unobtainable item)",
+        "weight": 0,
+        "value": 1,
+        "examine": "This wine needs to ferment before it can be drunk.",
+        "item_id": [
+          "1996"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unfermented wine (unobtainable item)",
+        "item_name": "Unfermented wine"
+      }
+    }
+  ]
+}

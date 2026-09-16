@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4679,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4679,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Canopic jar",
+        "weight": 0.1,
+        "value": 50,
+        "examine": "It has a lid shaped like an ape. Eeew! I think it contains someone's intestines.",
+        "item_id": [
+          "4679"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Canopic jar#Apmeken",
+        "item_name": "Canopic jar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10494,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10494,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "A pattern",
+        "weight": 0.05,
+        "value": 10,
+        "examine": "Attach tab A to button B then fold along line C...",
+        "item_id": [
+          "10494"
+        ],
+        "tradeable": false,
+        "page_name_sub": "A pattern",
+        "item_name": "A pattern"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6143,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6143,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spined boots",
+        "weight": 3.175,
+        "value": 650,
+        "examine": "Some finely crafted Fremennik boots, made from spined dagannoth hide.",
+        "item_id": [
+          "6143"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spined boots",
+        "item_name": "Spined boots"
+      }
+    }
+  ]
+}

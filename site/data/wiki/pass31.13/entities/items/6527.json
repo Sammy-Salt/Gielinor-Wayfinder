@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6527,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6527,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tzhaar-ket-em",
+        "weight": 1.814,
+        "value": 30000,
+        "examine": "A mace of obsidian.",
+        "item_id": [
+          "6527"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tzhaar-ket-em",
+        "item_name": "Tzhaar-ket-em"
+      }
+    }
+  ]
+}

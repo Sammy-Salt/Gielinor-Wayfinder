@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7994,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7994,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stuffed big shark",
+        "weight": 0.65,
+        "value": 5000,
+        "examine": "I should mount this on my wall!",
+        "item_id": [
+          "7994"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stuffed big shark",
+        "item_name": "Stuffed big shark"
+      }
+    }
+  ]
+}

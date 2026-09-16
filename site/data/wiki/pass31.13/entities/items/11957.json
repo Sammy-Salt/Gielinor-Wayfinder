@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11957,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11957,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Extended antifire",
+        "weight": 0.02,
+        "value": 110,
+        "examine": "1 dose of extended anti-firebreath potion.",
+        "item_id": [
+          "11957"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Extended antifire#(1)",
+        "item_name": "Extended antifire(1)"
+      }
+    }
+  ]
+}

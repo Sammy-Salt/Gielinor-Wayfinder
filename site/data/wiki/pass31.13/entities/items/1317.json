@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1317,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1317,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Adamant 2h sword",
+        "weight": 4.082,
+        "value": 6400,
+        "examine": "A two handed sword.",
+        "item_id": [
+          "1317"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Adamant 2h sword",
+        "item_name": "Adamant 2h sword"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 845,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 845,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Oak longbow",
+        "weight": 2.267,
+        "value": 160,
+        "examine": "A nice sturdy bow made out of oak.",
+        "item_id": [
+          "845"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Oak longbow",
+        "item_name": "Oak longbow"
+      }
+    }
+  ]
+}

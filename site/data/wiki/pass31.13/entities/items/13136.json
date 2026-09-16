@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13136,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13136,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Desert amulet 4",
+        "weight": 0.01,
+        "value": 0,
+        "examine": "A heart shaped amulet containing sand.",
+        "item_id": [
+          "13136"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Desert amulet 4",
+        "item_name": "Desert amulet 4"
+      }
+    }
+  ]
+}

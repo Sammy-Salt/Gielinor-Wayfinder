@@ -1,0 +1,20 @@
+{
+  "canonicalId": 14590,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 14590,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Enchanted lyre",
+        "page_name_sub": "Enchanted lyre#(5)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 954,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 954,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rope",
+        "weight": 1.36,
+        "value": 18,
+        "examine": "A coil of rope.",
+        "item_id": [
+          "954"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rope",
+        "item_name": "Rope"
+      }
+    }
+  ]
+}

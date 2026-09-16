@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6012,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6012,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nasturtiums",
+        "weight": 0.028,
+        "value": 4,
+        "examine": "A bunch of nasturtiums.",
+        "item_id": [
+          "6012"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Nasturtiums",
+        "item_name": "Nasturtiums"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9761,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9761,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Prayer hood",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Prayer skillcape hood.",
+        "item_id": [
+          "9761"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Prayer hood",
+        "item_name": "Prayer hood"
+      }
+    }
+  ]
+}

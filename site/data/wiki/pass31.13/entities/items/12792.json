@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12792,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12792,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Nest box",
+        "weight": 1.6,
+        "value": 10,
+        "examine": "A box of empty nests.",
+        "item_id": [
+          "12792"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Nest box#Empty",
+        "item_name": "Nest box (empty)"
+      }
+    }
+  ]
+}

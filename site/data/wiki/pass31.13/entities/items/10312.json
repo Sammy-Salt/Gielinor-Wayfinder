@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10312,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10312,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black helm (h4)",
+        "weight": 2.721,
+        "value": 1056,
+        "examine": "A black helmet with a heraldic design.",
+        "item_id": [
+          "10312"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black helm (h4)",
+        "item_name": "Black helm (h4)"
+      }
+    }
+  ]
+}

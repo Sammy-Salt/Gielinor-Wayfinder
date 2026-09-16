@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8772,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8772,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Steel kiteshield (Skull)",
+        "weight": 5.443,
+        "value": 900,
+        "examine": "A shield with a picture of a skull.",
+        "item_id": [
+          "8772"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Steel kiteshield (Skull)",
+        "item_name": "Steel kiteshield"
+      }
+    }
+  ]
+}

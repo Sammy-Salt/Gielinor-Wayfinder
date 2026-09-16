@@ -1,0 +1,25 @@
+{
+  "canonicalId": 46,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 46,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pearl bolt tips",
+        "weight": 0,
+        "value": 12,
+        "examine": "Pearl bolt tips.",
+        "item_id": [
+          "46"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pearl bolt tips",
+        "item_name": "Pearl bolt tips"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5099,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5099,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Woad seed",
+        "weight": 0,
+        "value": 11,
+        "examine": "A woad seed - plant in a flower patch.",
+        "item_id": [
+          "5099"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Woad seed",
+        "item_name": "Woad seed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13432,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13432,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sandworms pack",
+        "weight": 0.3,
+        "value": 9000,
+        "examine": "A pack containing 100 sets of sandworms.",
+        "item_id": [
+          "13432"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sandworms pack",
+        "item_name": "Sandworms pack"
+      }
+    }
+  ]
+}

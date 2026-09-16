@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4115,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4115,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mystic gloves (light)",
+        "weight": 0.453,
+        "value": 10000,
+        "examine": "Bright magical gloves.",
+        "item_id": [
+          "4115"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mystic gloves (light)",
+        "item_name": "Mystic gloves (light)"
+      }
+    }
+  ]
+}

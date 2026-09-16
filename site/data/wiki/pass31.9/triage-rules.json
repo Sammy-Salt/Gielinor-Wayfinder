@@ -1,0 +1,33 @@
+{
+  "formatVersion": 1,
+  "release": "PASS31.10",
+  "generatedAt": "2026-09-11T19:43:11.825136+00:00",
+  "policy": "classification-only hardening; no new canonical mappings; no fuzzy matching; no relationship promotion",
+  "rules": [
+    {
+      "dataset": "items",
+      "ruleId": "page-fragment-v1",
+      "description": "Classify clue-scroll page titles whose item_name is the generic clue-scroll base as page fragments; do not map them to canonical IDs.",
+      "matched": 345
+    },
+    {
+      "dataset": "items",
+      "ruleId": "non-entity-page-v1",
+      "description": "Classify explicitly identified documentation/helper/log pages as likely non-entities; no canonical mapping.",
+      "matched": 10
+    },
+    {
+      "dataset": "equipment",
+      "ruleId": "variant-marker-v1",
+      "description": "Classify unresolved equipment records with explicit # variant markers as variant_or_versioned; do not auto-merge.",
+      "matched": 2229
+    },
+    {
+      "dataset": "items",
+      "ruleId": "variant-marker-v1",
+      "description": "Classify unresolved item records with explicit # variant markers as variant_or_versioned; do not auto-merge.",
+      "matched": 146
+    }
+  ],
+  "changesApplied": 2730
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2874,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2874,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ogre bellows",
+        "weight": 0.51,
+        "value": 1,
+        "examine": "A large pair of ogre bellows, it has one load of swamp gas in it.",
+        "item_id": [
+          "2874"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ogre bellows#1 load",
+        "item_name": "Ogre bellows (1)"
+      }
+    }
+  ]
+}

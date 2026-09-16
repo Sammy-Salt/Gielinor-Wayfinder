@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13259,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13259,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Angler top",
+        "weight": 1,
+        "value": 50,
+        "examine": "This will help with fishing.",
+        "item_id": [
+          "13259"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Angler top",
+        "item_name": "Angler top"
+      }
+    }
+  ]
+}

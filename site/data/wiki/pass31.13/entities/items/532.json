@@ -1,0 +1,25 @@
+{
+  "canonicalId": 532,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 532,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Big bones",
+        "weight": 0.8,
+        "value": 1,
+        "examine": "Ew it's a pile of bones.",
+        "item_id": [
+          "532"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Big bones",
+        "item_name": "Big bones"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7545,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7545,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchanted milk",
+        "weight": 2.2,
+        "value": 6,
+        "examine": "Guiding milk.",
+        "item_id": [
+          "7545"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Enchanted milk",
+        "item_name": "Enchanted milk"
+      }
+    }
+  ]
+}

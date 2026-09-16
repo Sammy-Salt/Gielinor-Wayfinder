@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3226,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3226,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Raw rabbit",
+        "weight": 0.17,
+        "value": 20,
+        "examine": "Might taste better cooked.",
+        "item_id": [
+          "3226"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Raw rabbit",
+        "item_name": "Raw rabbit"
+      }
+    }
+  ]
+}

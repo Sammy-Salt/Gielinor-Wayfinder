@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11848,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11848,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rancid turkey",
+        "weight": 0.17,
+        "value": 1,
+        "examine": "It's gone manky.",
+        "item_id": [
+          "11848"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rancid turkey",
+        "item_name": "Rancid turkey"
+      }
+    }
+  ]
+}

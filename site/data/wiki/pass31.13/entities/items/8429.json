@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8429,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8429,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bagged magic tree",
+        "weight": 10,
+        "value": 50000,
+        "examine": "You can plant this in your garden.",
+        "item_id": [
+          "8429"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bagged magic tree",
+        "item_name": "Bagged magic tree"
+      }
+    }
+  ]
+}

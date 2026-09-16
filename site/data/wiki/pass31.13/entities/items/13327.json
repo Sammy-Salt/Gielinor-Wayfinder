@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13327,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13327,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rotten onion",
+        "weight": 0.001,
+        "value": 0,
+        "examine": "Spawns green banners.",
+        "item_id": [
+          "13327"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rotten onion",
+        "item_name": "Rotten onion"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7803,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7803,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yin yang amulet",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "A non-magical copy of the Makeover Mage's amulet.",
+        "item_id": [
+          "7803"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yin yang amulet",
+        "item_name": "Yin yang amulet"
+      }
+    }
+  ]
+}

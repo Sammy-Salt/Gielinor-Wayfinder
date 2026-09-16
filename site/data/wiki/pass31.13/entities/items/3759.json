@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3759,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3759,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Fremennik cyan cloak",
+        "weight": 0.453,
+        "value": 250,
+        "examine": "The latest fashion in Rellekka.",
+        "item_id": [
+          "3759"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Fremennik cyan cloak",
+        "item_name": "Fremennik cyan cloak"
+      }
+    }
+  ]
+}

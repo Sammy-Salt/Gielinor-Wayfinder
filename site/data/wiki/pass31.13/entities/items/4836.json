@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4836,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4836,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strange potion",
+        "weight": 0.001,
+        "value": 1,
+        "examine": "Some strange liquid given to you by Zavistic Rarve.",
+        "item_id": [
+          "4836"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Strange potion",
+        "item_name": "Strange potion"
+      }
+    }
+  ]
+}

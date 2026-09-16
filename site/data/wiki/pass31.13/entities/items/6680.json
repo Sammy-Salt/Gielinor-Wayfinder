@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6680,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6680,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Seaweed in a box?",
+        "weight": 0.028,
+        "value": 5,
+        "examine": "'Ingredients: Ground Guam and Ground Seaweed.' Well, I have the seaweed...",
+        "item_id": [
+          "6680"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Seaweed in a box?",
+        "item_name": "Seaweed in a box?"
+      }
+    }
+  ]
+}

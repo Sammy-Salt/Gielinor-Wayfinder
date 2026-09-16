@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12865,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12865,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green dragonhide set",
+        "weight": 0.05,
+        "value": 5000,
+        "examine": "A set containing a green dragonhide body, chaps and vambraces.",
+        "item_id": [
+          "12865"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green dragonhide set",
+        "item_name": "Green dragonhide set"
+      }
+    }
+  ]
+}

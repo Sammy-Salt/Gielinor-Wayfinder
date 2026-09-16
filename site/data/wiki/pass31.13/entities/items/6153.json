@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6153,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6153,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Skeletal gloves",
+        "weight": 3.175,
+        "value": 650,
+        "examine": "Fremennik gloves stitched together from wallasalki bones fragments.",
+        "item_id": [
+          "6153"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Skeletal gloves",
+        "item_name": "Skeletal gloves"
+      }
+    }
+  ]
+}

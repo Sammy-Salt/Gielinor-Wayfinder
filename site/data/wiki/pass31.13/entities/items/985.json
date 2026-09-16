@@ -1,0 +1,25 @@
+{
+  "canonicalId": 985,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 985,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tooth half of key",
+        "weight": 0.005,
+        "value": 100,
+        "examine": "The tooth end of the mysterious Crystal Key. Can you find the other half?",
+        "item_id": [
+          "985"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tooth half of key",
+        "item_name": "Tooth half of key"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3144,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3144,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Cooked karambwan",
+        "weight": 0.65,
+        "value": 250,
+        "examine": "Cooked octopus. It looks very nutritious.",
+        "item_id": [
+          "3144"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Cooked karambwan",
+        "item_name": "Cooked karambwan"
+      }
+    }
+  ]
+}

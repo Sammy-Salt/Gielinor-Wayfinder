@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3377,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3377,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Sample bottle",
+        "weight": 0.02,
+        "value": 5,
+        "examine": "An empty sample bottle.",
+        "item_id": [
+          "3377"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Sample bottle",
+        "item_name": "Sample bottle"
+      }
+    }
+  ]
+}

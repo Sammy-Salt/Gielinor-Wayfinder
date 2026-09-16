@@ -1,0 +1,25 @@
+{
+  "canonicalId": 884,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 884,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron arrow",
+        "weight": 0,
+        "value": 3,
+        "examine": "Arrows with iron heads.",
+        "item_id": [
+          "884"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron arrow#(unp)",
+        "item_name": "Iron arrow"
+      }
+    }
+  ]
+}

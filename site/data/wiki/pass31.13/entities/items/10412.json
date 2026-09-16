@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10412,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10412,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Green elegant shirt",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A well made elegant men's green shirt.",
+        "item_id": [
+          "10412"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Green elegant shirt",
+        "item_name": "Green elegant shirt"
+      }
+    }
+  ]
+}

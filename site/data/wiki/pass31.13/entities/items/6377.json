@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6377,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6377,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Villager sandals (pink)",
+        "weight": 0.68,
+        "value": 100,
+        "examine": "A brightly coloured pair of local sandals.",
+        "item_id": [
+          "6377"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Villager sandals (pink)",
+        "item_name": "Villager sandals"
+      }
+    }
+  ]
+}

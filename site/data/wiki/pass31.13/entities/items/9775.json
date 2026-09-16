@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9775,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9775,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Herblore cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by the most skilled at the art of Herblore.",
+        "item_id": [
+          "9775"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Herblore cape#Trimmed",
+        "item_name": "Herblore cape(t)"
+      }
+    }
+  ]
+}

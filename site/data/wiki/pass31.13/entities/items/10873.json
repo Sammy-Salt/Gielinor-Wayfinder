@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10873,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10873,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Metal sheet",
+        "weight": 0.6,
+        "value": 1,
+        "examine": "A sheet of metal.",
+        "item_id": [
+          "10873"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Metal sheet",
+        "item_name": "Metal sheet"
+      }
+    }
+  ]
+}

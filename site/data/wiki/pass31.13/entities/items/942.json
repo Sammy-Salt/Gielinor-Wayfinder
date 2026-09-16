@@ -1,0 +1,25 @@
+{
+  "canonicalId": 942,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 942,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze fire arrow",
+        "weight": 0,
+        "value": 10,
+        "examine": "These bronze-headed arrows are ablaze with fire.",
+        "item_id": [
+          "942"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze fire arrow#Lit",
+        "item_name": "Bronze fire arrow (lit)"
+      }
+    }
+  ]
+}

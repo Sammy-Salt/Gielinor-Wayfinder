@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8740,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8740,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rune kiteshield (Skull)",
+        "weight": 5.443,
+        "value": 54400,
+        "examine": "A shield with a picture of a skull.",
+        "item_id": [
+          "8740"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Rune kiteshield (Skull)",
+        "item_name": "Rune kiteshield"
+      }
+    }
+  ]
+}

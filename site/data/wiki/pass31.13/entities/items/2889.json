@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2889,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2889,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "A stone bowl",
+        "weight": 0.226,
+        "value": 1,
+        "examine": "This is a stone bowl full of lava.",
+        "item_id": [
+          "2889"
+        ],
+        "tradeable": false,
+        "page_name_sub": "A stone bowl#Full",
+        "item_name": "A stone bowl"
+      }
+    }
+  ]
+}

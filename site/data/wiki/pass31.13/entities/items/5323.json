@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5323,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5323,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Strawberry seed",
+        "weight": 0,
+        "value": 18,
+        "examine": "A strawberry seed - plant in an allotment.",
+        "item_id": [
+          "5323"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Strawberry seed",
+        "item_name": "Strawberry seed"
+      }
+    }
+  ]
+}

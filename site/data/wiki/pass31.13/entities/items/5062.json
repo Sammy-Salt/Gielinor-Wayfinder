@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5062,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5062,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Left boot",
+        "weight": 0.5,
+        "value": 1,
+        "examine": "One of a pair I assume.",
+        "item_id": [
+          "5062"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Left boot",
+        "item_name": "Left boot"
+      }
+    }
+  ]
+}

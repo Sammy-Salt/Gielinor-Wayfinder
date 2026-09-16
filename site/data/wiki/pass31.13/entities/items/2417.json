@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2417,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2417,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak staff",
+        "weight": 2.267,
+        "value": 80000,
+        "examine": "A magical staff imbued with the power of Zamorak.",
+        "item_id": [
+          "2417"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Zamorak staff",
+        "item_name": "Zamorak staff"
+      }
+    }
+  ]
+}

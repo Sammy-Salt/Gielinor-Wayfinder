@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9795,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9795,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Smithing cape",
+        "weight": 0.453,
+        "value": 99000,
+        "examine": "The cape worn by master smiths.",
+        "item_id": [
+          "9795"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Smithing cape#Untrimmed",
+        "item_name": "Smithing cape"
+      }
+    }
+  ]
+}

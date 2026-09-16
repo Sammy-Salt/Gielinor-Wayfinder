@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10438,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10438,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Purple elegant skirt",
+        "weight": 1,
+        "value": 2000,
+        "examine": "A rather elegant purple skirt.",
+        "item_id": [
+          "10438"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Purple elegant skirt",
+        "item_name": "Purple elegant skirt"
+      }
+    }
+  ]
+}

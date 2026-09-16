@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1173,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1173,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze sq shield",
+        "weight": 3.628,
+        "value": 48,
+        "examine": "A medium square shield.",
+        "item_id": [
+          "1173"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Bronze sq shield",
+        "item_name": "Bronze sq shield"
+      }
+    }
+  ]
+}

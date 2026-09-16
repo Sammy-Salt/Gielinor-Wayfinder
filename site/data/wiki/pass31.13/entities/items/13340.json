@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13340,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13340,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Agility cape",
+        "weight": -4,
+        "value": 99000,
+        "examine": "The cape worn by the most agile of heroes.",
+        "item_id": [
+          "13340"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Agility cape#Untrimmed",
+        "item_name": "Agility cape"
+      }
+    }
+  ]
+}

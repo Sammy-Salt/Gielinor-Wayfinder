@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6081,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6081,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken device",
+        "weight": 4,
+        "value": 10,
+        "examine": "A strange broken device of gnomic design.",
+        "item_id": [
+          "6081"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Broken device",
+        "item_name": "Broken device"
+      }
+    }
+  ]
+}

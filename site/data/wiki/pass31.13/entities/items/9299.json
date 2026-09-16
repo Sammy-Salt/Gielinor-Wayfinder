@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9299,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9299,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Silver bolts",
+        "weight": 0,
+        "value": 5,
+        "examine": "Some poisoned silver bolts.",
+        "item_id": [
+          "9299"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Silver bolts#Poison+",
+        "item_name": "Silver bolts (p+)"
+      }
+    }
+  ]
+}

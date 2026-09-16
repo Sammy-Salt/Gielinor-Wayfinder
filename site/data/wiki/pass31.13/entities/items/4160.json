@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4160,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4160,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broad arrows",
+        "weight": 0,
+        "value": 60,
+        "examine": "Arrows with a wider than normal tip.",
+        "item_id": [
+          "4160"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Broad arrows",
+        "item_name": "Broad arrows"
+      }
+    }
+  ]
+}

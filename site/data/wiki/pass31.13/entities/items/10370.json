@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10370,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10370,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Zamorak d'hide body",
+        "weight": 6,
+        "value": 13000,
+        "examine": "Zamorak blessed dragonhide body armour.",
+        "item_id": [
+          "10370"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Zamorak d'hide body",
+        "item_name": "Zamorak d'hide body"
+      }
+    }
+  ]
+}

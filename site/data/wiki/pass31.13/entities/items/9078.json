@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9078,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9078,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Moonclan manual",
+        "weight": 0.51,
+        "value": 1,
+        "examine": "A book of Moonclan history",
+        "item_id": [
+          "9078"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Moonclan manual",
+        "item_name": "Moonclan manual"
+      }
+    }
+  ]
+}

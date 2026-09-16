@@ -1,0 +1,25 @@
+{
+  "canonicalId": 689,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 689,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broken staff",
+        "weight": 1.814,
+        "value": 1,
+        "examine": "I pity the poor person beaten with this!",
+        "item_id": [
+          "689"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Broken staff",
+        "item_name": "Broken staff"
+      }
+    }
+  ]
+}

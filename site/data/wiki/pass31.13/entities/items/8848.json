@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8848,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8848,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril defender",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "A defensive weapon.",
+        "item_id": [
+          "8848"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Mithril defender#Normal",
+        "item_name": "Mithril defender"
+      }
+    }
+  ]
+}

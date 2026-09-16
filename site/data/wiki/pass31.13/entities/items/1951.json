@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1951,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1951,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Redberries",
+        "weight": 0.007,
+        "value": 3,
+        "examine": "Very bright red berries.",
+        "item_id": [
+          "1951"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Redberries",
+        "item_name": "Redberries"
+      }
+    }
+  ]
+}

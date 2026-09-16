@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10167,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10167,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Eagle feather",
+        "weight": 0,
+        "value": 1,
+        "examine": "Probably a bit too big for fly fishing.",
+        "item_id": [
+          "10167"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Eagle feather",
+        "item_name": "Eagle feather"
+      }
+    }
+  ]
+}

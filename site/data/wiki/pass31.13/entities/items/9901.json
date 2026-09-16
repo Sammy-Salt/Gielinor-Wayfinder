@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9901,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9901,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Goutweedy lump",
+        "weight": 0.1,
+        "value": 5,
+        "examine": "A lump that might at some point have been a gout tuber.",
+        "item_id": [
+          "9901"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Goutweedy lump",
+        "item_name": "Goutweedy lump"
+      }
+    }
+  ]
+}

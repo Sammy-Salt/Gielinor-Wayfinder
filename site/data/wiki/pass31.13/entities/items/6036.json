@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6036,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6036,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Plant cure",
+        "weight": 0.035,
+        "value": 40,
+        "examine": "Use this on plants to cure disease.",
+        "item_id": [
+          "6036"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Plant cure",
+        "item_name": "Plant cure"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4998,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4998,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Verac's plateskirt",
+        "weight": 4.535,
+        "value": 275000,
+        "examine": "Verac the Defiled's plate skirt.",
+        "item_id": [
+          "4998"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Verac's plateskirt#(broken)",
+        "item_name": "Verac's plateskirt 0"
+      }
+    }
+  ]
+}

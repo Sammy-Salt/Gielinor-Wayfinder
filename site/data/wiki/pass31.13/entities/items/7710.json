@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7710,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7710,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Pot of tea (porcelain)",
+        "weight": 1.5,
+        "value": 1,
+        "examine": "I'd really like a nice cup of tea.",
+        "item_id": [
+          "7710"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Pot of tea (porcelain)#1 cup",
+        "item_name": "Pot of tea (1)"
+      }
+    }
+  ]
+}

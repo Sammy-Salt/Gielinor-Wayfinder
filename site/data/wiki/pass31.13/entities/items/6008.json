@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6008,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6008,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barley malt",
+        "weight": 0.028,
+        "value": 4,
+        "examine": "A handful of barley malt.",
+        "item_id": [
+          "6008"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Barley malt",
+        "item_name": "Barley malt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10490,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10490,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Undead twigs",
+        "weight": 0.453,
+        "value": 1,
+        "examine": "Were they trying to escape just then?",
+        "item_id": [
+          "10490"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Undead twigs",
+        "item_name": "Undead twigs"
+      }
+    }
+  ]
+}

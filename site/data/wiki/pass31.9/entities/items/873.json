@@ -1,0 +1,40 @@
+{
+  "canonicalId": 873,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 873,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Mithril knife",
+        "weight": 0,
+        "value": 27,
+        "examine": "A finely balanced throwing knife.",
+        "item_id": [
+          "873"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Mithril knife#(p)",
+        "item_name": "Mithril knife(p)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 873,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Mithril knife",
+        "page_name_sub": "Mithril knife#(p)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

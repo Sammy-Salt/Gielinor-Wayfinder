@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10031,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10031,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Rabbit snare",
+        "weight": 0,
+        "value": 15,
+        "examine": "The snare will tighten around animals passing through.",
+        "item_id": [
+          "10031"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Rabbit snare",
+        "item_name": "Rabbit snare"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "canonicalId": 11381,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11381,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Bronze hasta",
+        "weight": 2.267,
+        "value": 26,
+        "examine": "A karambwan poison-tipped, one-handed bronze hasta.",
+        "item_id": [
+          "11381"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Bronze hasta#(kp)",
+        "item_name": "Bronze hasta(kp)"
+      }
+    },
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11381,
+        "method": "normalized-format-alias",
+        "confidence": 99,
+        "ruleId": "format-alias-v1"
+      },
+      "source": {
+        "page_name": "Bronze hasta",
+        "page_name_sub": "Bronze hasta#(kp)",
+        "name": null,
+        "item_name": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11489,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11489,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Magic essence mix",
+        "weight": 0.075,
+        "value": 180,
+        "examine": "Two doses of fishy Magic essence.",
+        "item_id": [
+          "11489"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Magic essence mix#(2)",
+        "item_name": "Magic essence mix(2)"
+      }
+    }
+  ]
+}

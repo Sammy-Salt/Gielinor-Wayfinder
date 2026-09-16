@@ -1,0 +1,25 @@
+{
+  "canonicalId": 8588,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 8588,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Gilded four-poster (flatpack)",
+        "weight": 1,
+        "value": 10,
+        "examine": "How does it all fit in there?",
+        "item_id": [
+          "8588"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Gilded four-poster (flatpack)",
+        "item_name": "Gilded four-poster"
+      }
+    }
+  ]
+}

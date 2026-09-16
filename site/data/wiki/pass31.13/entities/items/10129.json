@@ -1,0 +1,25 @@
+{
+  "canonicalId": 10129,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 10129,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Barb-tail harpoon",
+        "weight": 1.36,
+        "value": 36,
+        "examine": "A mighty Hunter weapon. One previous owner.",
+        "item_id": [
+          "10129"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Barb-tail harpoon",
+        "item_name": "Barb-tail harpoon"
+      }
+    }
+  ]
+}

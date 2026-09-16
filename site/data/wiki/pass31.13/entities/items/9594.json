@@ -1,0 +1,25 @@
+{
+  "canonicalId": 9594,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 9594,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ground mud runes",
+        "weight": 0.15,
+        "value": 1,
+        "examine": "Mud runes ground into a powder.",
+        "item_id": [
+          "9594"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ground mud runes",
+        "item_name": "Ground mud runes"
+      }
+    }
+  ]
+}

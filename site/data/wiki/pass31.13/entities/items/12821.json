@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12821,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12821,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Spectral spirit shield",
+        "weight": 2,
+        "value": 2000000,
+        "examine": "An ethereal shield with a spectral sigil attached to it.",
+        "item_id": [
+          "12821"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Spectral spirit shield",
+        "item_name": "Spectral spirit shield"
+      }
+    }
+  ]
+}

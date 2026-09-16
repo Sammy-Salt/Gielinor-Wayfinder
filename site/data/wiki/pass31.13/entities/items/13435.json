@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13435,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13435,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Stolen garnet ring",
+        "weight": 0.05,
+        "value": 1,
+        "examine": "Somebody is going to miss this.",
+        "item_id": [
+          "13435"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Stolen garnet ring",
+        "item_name": "Stolen garnet ring"
+      }
+    }
+  ]
+}

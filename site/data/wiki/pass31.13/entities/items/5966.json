@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5966,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5966,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Tomatoes",
+        "weight": 0.141,
+        "value": 1,
+        "examine": "A fruit basket filled with tomatoes.",
+        "item_id": [
+          "5966"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Tomatoes#(4)",
+        "item_name": "Tomatoes(4)"
+      }
+    }
+  ]
+}

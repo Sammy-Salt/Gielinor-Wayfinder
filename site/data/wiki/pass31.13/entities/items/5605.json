@@ -1,0 +1,25 @@
+{
+  "canonicalId": 5605,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 5605,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Knife (Recruitment Drive)",
+        "weight": 0.02,
+        "value": 6,
+        "examine": "A dangerous looking knife.",
+        "item_id": [
+          "5605"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Knife (Recruitment Drive)",
+        "item_name": "Knife"
+      }
+    }
+  ]
+}

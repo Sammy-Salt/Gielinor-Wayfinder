@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3329,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3329,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Blood'n'tar snelm",
+        "weight": 2,
+        "value": 300,
+        "examine": "A red and black Snail shell helmet.",
+        "item_id": [
+          "3329"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Blood'n'tar snelm",
+        "item_name": "Blood'n'tar snelm"
+      }
+    }
+  ]
+}

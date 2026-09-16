@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7970,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7970,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Long pulley beam",
+        "weight": 0.01,
+        "value": 5,
+        "examine": "A long beam with a pulley attached.",
+        "item_id": [
+          "7970"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Long pulley beam",
+        "item_name": "Long pulley beam"
+      }
+    }
+  ]
+}

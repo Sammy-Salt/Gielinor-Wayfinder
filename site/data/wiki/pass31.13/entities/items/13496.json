@@ -1,0 +1,25 @@
+{
+  "canonicalId": 13496,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 13496,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ensouled bloodveld head",
+        "weight": 0.453,
+        "value": 494,
+        "examine": "The creature's soul is still in here. I could reanimate it with Expert Reanimation.",
+        "item_id": [
+          "13496"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Ensouled bloodveld head#Item",
+        "item_name": "Ensouled bloodveld head"
+      }
+    }
+  ]
+}

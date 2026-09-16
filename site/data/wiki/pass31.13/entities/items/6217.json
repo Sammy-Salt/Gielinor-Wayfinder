@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6217,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6217,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Broodoo shield (poison)",
+        "weight": 5.443,
+        "value": 2750,
+        "examine": "A scary broodoo shield.",
+        "item_id": [
+          "6217"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Broodoo shield (poison)#(9)",
+        "item_name": "Broodoo shield (9)"
+      }
+    }
+  ]
+}

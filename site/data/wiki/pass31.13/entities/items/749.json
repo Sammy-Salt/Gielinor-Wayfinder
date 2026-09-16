@@ -1,0 +1,25 @@
+{
+  "canonicalId": 749,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 749,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Yommi totem",
+        "weight": 3,
+        "value": 1,
+        "examine": "A well-carved totem pole made from the trunk of a Yommi tree.",
+        "item_id": [
+          "749"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Yommi totem",
+        "item_name": "Yommi totem"
+      }
+    }
+  ]
+}

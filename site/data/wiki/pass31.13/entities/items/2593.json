@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2593,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2593,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Black platelegs (g)",
+        "weight": 9.071,
+        "value": 1920,
+        "examine": "Black platelegs with gold trim.",
+        "item_id": [
+          "2593"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Black platelegs (g)",
+        "item_name": "Black platelegs (g)"
+      }
+    }
+  ]
+}

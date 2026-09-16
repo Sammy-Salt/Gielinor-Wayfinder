@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3610,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3610,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Clue scroll (medium) - Find a crate close to the monks that like to paaarty!",
+        "weight": 0.02,
+        "value": 20,
+        "examine": "A clue!",
+        "item_id": [
+          "3610"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Clue scroll (medium) - Find a crate close to the monks that like to paaarty!",
+        "item_name": "Clue scroll (medium)"
+      }
+    }
+  ]
+}

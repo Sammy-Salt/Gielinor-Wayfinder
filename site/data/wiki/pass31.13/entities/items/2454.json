@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2454,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2454,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Antifire potion",
+        "weight": 0.03,
+        "value": 264,
+        "examine": "3 doses of anti-firebreath potion.",
+        "item_id": [
+          "2454"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Antifire potion#(3)",
+        "item_name": "Antifire potion(3)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7515,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7515,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Breadcrumbs",
+        "weight": 0.907,
+        "value": 1,
+        "examine": "Glad these aren't in my bed.",
+        "item_id": [
+          "7515"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Breadcrumbs",
+        "item_name": "Breadcrumbs"
+      }
+    }
+  ]
+}

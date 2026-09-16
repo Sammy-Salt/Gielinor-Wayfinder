@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1115,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1115,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Iron platebody",
+        "weight": 9.979,
+        "value": 560,
+        "examine": "Provides excellent protection.",
+        "item_id": [
+          "1115"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Iron platebody",
+        "item_name": "Iron platebody"
+      }
+    }
+  ]
+}

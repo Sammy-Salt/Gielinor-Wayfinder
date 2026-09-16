@@ -1,0 +1,25 @@
+{
+  "canonicalId": 6788,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 6788,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Torn robe (top)",
+        "weight": 0.005,
+        "value": 1,
+        "examine": "This robe is too torn to wear.",
+        "item_id": [
+          "6788"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Torn robe (top)",
+        "item_name": "Torn robe"
+      }
+    }
+  ]
+}

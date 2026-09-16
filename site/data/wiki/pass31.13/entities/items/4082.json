@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4082,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4082,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Salve shard",
+        "weight": 0.007,
+        "value": 1,
+        "examine": "An unstrung crystal imbued with the power of Saradomin.",
+        "item_id": [
+          "4082"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Salve shard",
+        "item_name": "Salve shard"
+      }
+    }
+  ]
+}

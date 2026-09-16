@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2291,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2291,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Plain pizza",
+        "weight": 0.4,
+        "value": 20,
+        "examine": "Half of this plain pizza has been eaten.",
+        "item_id": [
+          "2291"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Plain pizza#Half",
+        "item_name": "1/2 plain pizza"
+      }
+    }
+  ]
+}

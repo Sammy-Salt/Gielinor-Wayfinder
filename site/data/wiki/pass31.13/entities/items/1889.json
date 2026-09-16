@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1889,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1889,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Uncooked cake",
+        "weight": 0.5,
+        "value": 20,
+        "examine": "Now all I need to do is cook it.",
+        "item_id": [
+          "1889"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Uncooked cake",
+        "item_name": "Uncooked cake"
+      }
+    }
+  ]
+}

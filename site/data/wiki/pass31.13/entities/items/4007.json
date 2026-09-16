@@ -1,0 +1,25 @@
+{
+  "canonicalId": 4007,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 4007,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Enchanted bar",
+        "weight": 1.814,
+        "value": 800,
+        "examine": "A gold bar invested with a talkative monkey spirit.",
+        "item_id": [
+          "4007"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Enchanted bar",
+        "item_name": "Enchanted bar"
+      }
+    }
+  ]
+}

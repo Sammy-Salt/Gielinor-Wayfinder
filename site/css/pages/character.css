@@ -1,0 +1,25 @@
+/* Character page: layout for skills, inventory/equipment/bank grids, quests. */
+.skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px}
+.character-skill{background:var(--osrs-panel-2);border:1px solid var(--osrs-border-soft);border-radius:6px;padding:8px 10px}
+.character-skill .top{display:flex;justify-content:space-between;align-items:baseline;font-weight:600}
+.character-skill .top b{color:var(--osrs-gold-bright)}
+.character-skill .xp{font-size:12px;color:var(--osrs-muted);margin-top:2px}
+
+.item-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
+.item-chip{background:var(--osrs-panel-2);border:1px solid var(--osrs-border-soft);border-radius:6px;padding:8px 10px}
+.item-chip a{color:var(--osrs-link);text-decoration:none;font-weight:600}
+.item-chip a:hover{text-decoration:underline}
+.item-chip small{display:block;color:var(--osrs-muted);margin-top:2px;font-size:11px}
+
+.quest-row{display:flex;justify-content:space-between;align-items:center;padding:6px 10px;border-bottom:1px solid var(--osrs-border-soft)}
+.quest-row:last-child{border-bottom:0}
+.quest-complete{color:var(--osrs-green-bright);font-weight:600}
+.muted{color:var(--osrs-muted)}
+
+#combat.grid,#stats.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+#combat .stat,#stats .stat{background:var(--osrs-panel-2);border:1px solid var(--osrs-border-soft);border-radius:6px;padding:10px;text-align:center}
+#combat .stat-label,#stats .stat-label{font-size:11px;color:var(--osrs-muted);letter-spacing:.04em}
+#combat .stat b,#stats .stat b{display:block;font-size:18px;color:var(--osrs-gold-bright);margin-top:2px}
+
+.empty{color:var(--osrs-muted);padding:8px 0}
+@media(max-width:520px){.skills,.item-grid{grid-template-columns:1fr 1fr}}

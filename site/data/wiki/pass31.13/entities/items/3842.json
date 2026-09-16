@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3842,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3842,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Unholy book",
+        "weight": 1,
+        "value": 200,
+        "examine": "The unholy book of Zamorak.",
+        "item_id": [
+          "3842"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Unholy book",
+        "item_name": "Unholy book"
+      }
+    }
+  ]
+}

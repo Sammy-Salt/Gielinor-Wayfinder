@@ -1,0 +1,25 @@
+{
+  "canonicalId": 7786,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 7786,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Thieving tome",
+        "weight": 1,
+        "value": 5000,
+        "examine": "A tome of learning which focuses on Thieving.",
+        "item_id": [
+          "7786"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Thieving tome#Yellow",
+        "item_name": "Thieving tome"
+      }
+    }
+  ]
+}

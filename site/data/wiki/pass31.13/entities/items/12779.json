@@ -1,0 +1,25 @@
+{
+  "canonicalId": 12779,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 12779,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Kharyrll teleport (tablet)",
+        "weight": 0,
+        "value": 1,
+        "examine": "A teleport to Kharyrll.",
+        "item_id": [
+          "12779"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Kharyrll teleport (tablet)",
+        "item_name": "Kharyrll teleport"
+      }
+    }
+  ]
+}

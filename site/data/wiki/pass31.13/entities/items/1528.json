@@ -1,0 +1,25 @@
+{
+  "canonicalId": 1528,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 1528,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ardrigal",
+        "weight": 0.007,
+        "value": 5,
+        "examine": "This herb is Ardrigal.",
+        "item_id": [
+          "1528"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ardrigal",
+        "item_name": "Ardrigal"
+      }
+    }
+  ]
+}

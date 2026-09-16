@@ -1,0 +1,25 @@
+{
+  "canonicalId": 2394,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 2394,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Potion (Watchtower)",
+        "weight": 0.025,
+        "value": 120,
+        "examine": "A strange brew.",
+        "item_id": [
+          "2394"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Potion (Watchtower)",
+        "item_name": "Potion"
+      }
+    }
+  ]
+}

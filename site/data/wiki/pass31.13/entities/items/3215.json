@@ -1,0 +1,25 @@
+{
+  "canonicalId": 3215,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 3215,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Ground sulphur",
+        "weight": 0.056,
+        "value": 5,
+        "examine": "A pile of ground sulphur.",
+        "item_id": [
+          "3215"
+        ],
+        "tradeable": false,
+        "page_name_sub": "Ground sulphur",
+        "item_name": "Ground sulphur"
+      }
+    }
+  ]
+}

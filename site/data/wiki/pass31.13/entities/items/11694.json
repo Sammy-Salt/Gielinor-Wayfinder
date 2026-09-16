@@ -1,0 +1,25 @@
+{
+  "canonicalId": 11694,
+  "records": [
+    {
+      "resolution": {
+        "status": "resolved",
+        "id": 11694,
+        "method": "exact-id",
+        "confidence": 100
+      },
+      "source": {
+        "page_name": "Chaos rune (Barbarian Assault)",
+        "weight": 0,
+        "value": 1,
+        "examine": "Used for low level missile spells.",
+        "item_id": [
+          "11694"
+        ],
+        "tradeable": true,
+        "page_name_sub": "Chaos rune (Barbarian Assault)",
+        "item_name": "Chaos rune"
+      }
+    }
+  ]
+}
