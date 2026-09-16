@@ -1,8 +1,8 @@
-# Project Deep Analysis — PASS31.26 Baseline
+# Project Deep Analysis — PASS31.27 Baseline
 
 ## Purpose
 
-This is the maintained architectural assessment of the current Gielinor Wayfinder repository. It records what the project actually contains at the PASS31.25 baseline, where responsibilities live, what invariants are important, and which areas require special care during future AI-assisted development.
+This is the maintained architectural assessment of the current Gielinor Wayfinder repository. It records what the project actually contains at the PASS31.27 baseline, where responsibilities live, what invariants are important, and which areas require special care during future AI-assisted development.
 
 ## 1. Product boundary
 
@@ -71,7 +71,7 @@ Ragger is not a valid production source. Production scans must continue to enfor
 
 The relationship generator is `data-pipeline/generate_drop_relationships.py`.
 
-The current dataset records 52,094 monster→item relationships. The PASS31.25 baseline contains 348 Wiki-enriched exact rates, 11 conflicting Wiki-rate cases withheld from calculation, and 51,735 relationships without a trusted exact rate.
+The current dataset records 52,094 monster→item relationships. PASS31.27 retains 348 Wiki-enriched exact rates, 11 conflicting Wiki-rate cases withheld from calculation, and 51,735 relationships without a trusted exact rate. No external third-party drop table is substituted for missing 2009Scape evidence.
 
 The important architectural property is that Drop Time and Drop Statistics use the same canonical relationship source. A standalone duplicate rate database must not become the hidden source of truth again.
 
@@ -138,10 +138,10 @@ This structure is intentionally similar to a conventional Android/software proje
 - The existing documentation was organized but many documents were too terse to act as an onboarding contract for an independent AI.
 - The root `scripts/` directory existed but was empty.
 - Generated Python cache files were present in the source archive even though they are not project source.
-- Release-manifest files still contained PASS31.24 metadata while `site/release.json` and `catalog-manifest.json` identified PASS31.25.
-- ADR-0005's status wording still described implementation details as superseded even though PASS31.25 had made the static-shell rule the current contract.
+- Release metadata is now synchronized at PASS31.27; historical metadata mismatches are retained only in PASS history.
+- The previous PASS31.26 governance baseline did not yet cover all runtime data-access duplication found during the PASS31.27 polish audit.
 
-PASS31.26 addresses these governance inconsistencies without changing the PWA's feature behavior.
+PASS31.27 addresses the remaining architecture/data-integrity inconsistencies while preserving the working shell and map boundary.
 
 ## 12. Future-change risk map
 
@@ -176,3 +176,12 @@ Low-risk changes are still subject to the same documentation and Git rules when 
 8. Canonical relationships are consumed by their runtime consumers.
 9. Map boundaries remain protected unless a map-specific change is authorized.
 10. Every completed change is documented, tested, reviewed in Git, and committed.
+
+## 14. PASS31.27 polish findings
+
+- Item, Character, and Crafting pages now use the shared data-access layer instead of page-local `fetch()` calls.
+- Item and Monster drop displays consume the canonical monster-drop relationship service instead of the older acquisition/relationship duplication path.
+- Drop Time and Drop Statistics share the same structured exact-rate adapter and explicitly distinguish unavailable/conflicting rates from calculable rates.
+- The calculator defaults to a monster with an exact trusted rate when one exists, while still preserving unknown relationships as unknown.
+- Obsolete map/test CSS was moved out of the shipped PWA into `audit/map-tests/`.
+- The obsolete runtime relationship component was removed after its consumers were eliminated; detail pages now own their canonical relationship presentation.

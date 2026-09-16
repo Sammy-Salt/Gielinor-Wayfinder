@@ -31,9 +31,9 @@
     "knowledge/quest-dependencies.json",
     "relationships/monster-drops.json"
   ],
-  "release": "PASS31.26",
-  "buildId": "pass31.26-20260916-1",
-  "generatedFrom": "PASS31.25 + PASS31.26 repository governance; application data corpus unchanged",
+  "release": "PASS31.27",
+  "buildId": "pass31.27-20260916-1",
+  "generatedFrom": "PASS31.27 architecture/data-integrity polish",
   "displayViews": {
     "monsters": {
       "identityCount": 687,

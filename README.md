@@ -32,7 +32,7 @@ Completed work must end at a Git checkpoint unless the user explicitly asks for 
 
 ## Current baseline
 
-**PASS31.26** is a project-governance and repository-integrity pass built from the validated PASS31.25 baseline. It establishes committed Git history, machine-readable AI instructions, a formal AI change protocol, a deeper architecture assessment, stronger documentation governance, reproducible verification tooling, and synchronized release metadata without changing the PWA's feature behavior.
+**PASS31.27** is a project-governance and repository-integrity pass built from the validated PASS31.25 baseline. It establishes committed Git history, machine-readable AI instructions, a formal AI change protocol, a deeper architecture assessment, stronger documentation governance, reproducible verification tooling, and synchronized release metadata without changing the PWA's feature behavior.
 
 ## Runtime baseline
 
@@ -41,3 +41,7 @@ PASS31.25 established static application-tools markup and bootstrap parity acros
 ## Release confidence
 
 Replacement ZIPs require a minimum **96% confidence gate** and fresh extraction/validation before delivery.
+
+
+## PASS31.27 polish baseline
+The project-wide stabilization pass standardizes shared data access, removes obsolete production test styles, uses the canonical monster-drop relationship service for item/monster drop displays, and keeps Drop Time/Drop Stats on the same structured probability model.

@@ -1,7 +1,7 @@
 import { OSRS } from "../core/osrs.js";
 import { Catalog } from "../services/catalog-service.js";
 import { Drops } from "../services/drop-service.js";
-import { escapeHTML as esc, escapeHTML } from "../core/utils.js";
+
 
 (async function(){
 const M=document.getElementById("monster");
@@ -20,8 +20,6 @@ n.toLocaleString(undefined,{maximumFractionDigits:2}):"—";
 
 const pct=n=>Number.isFinite(n)?
 (n*100).toLocaleString(undefined,{maximumFractionDigits:4})+"%":"—";
-
-function rate(v){ return OSRS.parseDropRate(v); }
 
 function time(seconds){
  if(!Number.isFinite(seconds))return "—";
@@ -45,16 +43,16 @@ function calc(){
  let o=D.selectedOptions[0];
  let numerator=Number(o?.dataset.rateNumerator);
  let denominator=Number(o?.dataset.rateDenominator);
- let r=(Number.isFinite(numerator)&&Number.isFinite(denominator)&&numerator>0&&denominator>0)?denominator/numerator:null;
+ let p=Drops.probability({rateNumerator:numerator,rateDenominator:denominator,rateStatus:o?.dataset.rateStatus,rateApproximate:o?.dataset.rateApproximate==="true"});
+ let r=p==null?null:1/p;
+ let expectedKills=r;
  let kph=Math.max(1,Number(K.value)||1);
 
- if(!Number.isFinite(r) || r <= 0){
-  OSRS.setHTML(R, '<div class="card"><div class="warn">⚠️ This drop has a variable or unsupported rate and cannot be calculated reliably.</div></div>');
+ if(r==null || r <= 0){
+  OSRS.setHTML(R, '<div class="card"><div class="warn">⚠️ No trusted exact drop rate is available for this relationship. Conflicting, approximate, variable, and unknown rates are intentionally not calculated.</div></div>');
   return;
  }
 
- let p=1/r;
- let expectedKills=r;
  let expectedTime=expectedKills/kph*3600;
 
  let levels=[
@@ -74,12 +72,12 @@ function calc(){
 
  OSRS.setHTML(R, `
  <div class="card">
- <h2 class="result-heading">${esc(o.dataset.item)}</h2>
- <div class="small">${esc(o.dataset.monster)} · Monster ID: ${esc(o.dataset.id)}</div>
- <div class="small">Rate source: ${esc(o.dataset.rateSource||"unknown")}</div>
+ <h2 class="result-heading">${OSRS.escapeHTML(o.dataset.item)}</h2>
+ <div class="small">${OSRS.escapeHTML(o.dataset.monster)} · Monster ID: ${OSRS.escapeHTML(o.dataset.id)}</div>
+ <div class="small">Rate source: ${OSRS.escapeHTML(o.dataset.rateSource||"unknown")}</div>
 
  <div class="grid result-grid">
-  <div class="stat">Drop rate<b>${esc(o.dataset.rateDisplay||(`1 / ${fmt(r)}`))}</b></div>
+  <div class="stat">Drop rate<b>${OSRS.escapeHTML(o.dataset.rateDisplay||(`1 / ${fmt(1/r)}`))}</b></div>
   <div class="stat">Chance per kill<b>${pct(p)}</b></div>
   <div class="stat">Kills / hour<b>${fmt(kph)}</b></div>
   <div class="stat">Expected kills<b>${fmt(expectedKills)}</b></div>
@@ -112,6 +110,7 @@ async function choose(){
   let drops=await OSRS.Relationships.monsterDrops(data.id||m.id);
 
   D.replaceChildren();
+  drops.sort((a,b)=>Number(Drops.isExactRate(b))-Number(Drops.isExactRate(a))||String(a.itemName||a.name||"").localeCompare(String(b.itemName||b.name||"")));
   if (!drops.length) {
    D.appendChild(Object.assign(document.createElement("option"), {textContent:"No drops found"}));
   } else {
@@ -120,11 +119,13 @@ async function choose(){
     option.dataset.rateNumerator=x.rateNumerator??"";
     option.dataset.rateDenominator=x.rateDenominator??"";
     option.dataset.rateSource=x.rateSource??"";
+    option.dataset.rateStatus=x.rateStatus??"unknown";
+    option.dataset.rateApproximate=String(Boolean(x.rateApproximate));
     option.dataset.rateDisplay=x.rateDisplay??"";
     option.dataset.item=x.itemName||x.name||"Unknown";
     option.dataset.monster=data.name||m.name;
     option.dataset.id=String(data.id||m.id);
-    option.textContent=(x.itemName||x.name||"Unknown")+(x.rateDisplay?` — ${x.rateDisplay}${x.rateSource?` (${x.rateSource})`:""}`:" — Rate unavailable");
+    option.textContent=`${x.itemName||x.name||"Unknown"} — ${Drops.rateLabel(x)}`;
     D.appendChild(option);
    }
   }
@@ -148,6 +149,7 @@ D.onchange=calc;
 K.oninput=calc;
 K.onchange=calc;
 
-choose();
+const preferred=await OSRS.Relationships.firstMonsterWithExactRate(monsters);
+if(preferred){M.value=String(preferred.id);await choose();}else choose();
 
 })();

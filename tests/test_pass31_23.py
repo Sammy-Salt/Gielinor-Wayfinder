@@ -9,8 +9,8 @@ def check(condition, message):
         raise AssertionError(message)
 
 release = (S / "release.json").read_text()
-check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26)), "release mismatch")
-check('pass31.26-' in release or 'pass31.25-' in release or 'pass31.24-' in release, "build ID missing")
+check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26,27)), "release mismatch")
+check('pass31.27-' in release or 'pass31.26-' in release or 'pass31.25-' in release or 'pass31.24-' in release, "build ID missing")
 
 shell = (S / "js/core/shell.js").read_text()
 check('document.getElementById("site-nav")' in shell, "shell must use existing nav")

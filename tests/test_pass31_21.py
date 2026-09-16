@@ -2,10 +2,10 @@ import json, pathlib, subprocess, hashlib
 R=pathlib.Path(__file__).resolve().parents[1]; S=R/'site'
 def chk(ok,msg):
     if not ok: raise AssertionError(msg)
-rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
+rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
 p=json.loads((S/'data/player-sync.json').read_text()); chk(p['formatVersion']==2,'player format')
 cp=S/'data/relationships/monster-drops.json'; chk(cp.exists(),'canonical drop relationship file missing')
-d=json.loads(cp.read_text()); chk(d['formatVersion']==2,'relationship format'); chk(d['relationshipCount']==len(d['relationships']),'relationship count'); chk(d['relationshipCount']>50000,'relationship count too low')
+d=json.loads(cp.read_text()); chk(d['formatVersion']==2,'relationship format'); chk(d['relationshipCount']==len(d['relationships']),'relationship count'); chk('relationshipsByItem' in d,'item relationship index missing'); chk(len(d['relationshipsByItem'])>1000,'item relationship index too small'); chk(d['relationshipCount']>50000,'relationship count too low')
 rels=d['relationships']; chk(all(x['source']=='2009Scape' and x['status']=='authoritative' for x in rels),'relationship authority')
 fb=[x for x in rels if x['rate']['status']=='fallback']; conflict=[x for x in rels if x['rate']['status']=='conflict']; unknown=[x for x in rels if x['rate']['status']=='unknown']
 chk(len(fb)>100,'too few Wiki-enriched canonical rates'); chk(len(conflict)>0,'conflicting-rate guard missing'); chk(len(unknown)>50000,'unknown-rate population unexpectedly low')

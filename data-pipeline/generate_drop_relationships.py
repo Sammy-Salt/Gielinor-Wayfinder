@@ -21,6 +21,9 @@ entities={(e.get('type'), int(e['id'])): e for e in GRAPH.get('entities',[]) if 
 
 # Parse Wiki evidence by exact monster/item pair. A pair is usable only when all
 # retained exact evidence agrees. Approximate Wiki rows are not calculator rates.
+# The Wiki snapshot uses its own identity layer, so a secondary evidence row is
+# also eligible when its monster/item names each resolve to exactly one local
+# 2009Scape entity. This is deterministic identity resolution, not fuzzy matching.
 wiki=defaultdict(list)
 for mid_s, rows in (WIKI.get('byMonster') or {}).items():
     try: mid=int(mid_s)
@@ -29,6 +32,8 @@ for mid_s, rows in (WIKI.get('byMonster') or {}).items():
         try: iid=int(row.get('itemId'))
         except Exception: continue
         src=row.get('source') or {}
+        if not isinstance(src, dict):
+            continue
         raw=src.get('drop_json')
         if not raw: continue
         try: dj=json.loads(raw)
@@ -50,18 +55,89 @@ for mid_s, rows in (WIKI.get('byMonster') or {}).items():
             'quantity': {'min': dj.get('Quantity Low'), 'max': dj.get('Quantity High')}
         })
 
+# Build deterministic exact-name indexes for secondary evidence.
+def normalize_name(value):
+    return re.sub(r'[^a-z0-9]+', ' ', str(value or '').lower()).strip()
+
+monster_name_ids=defaultdict(list)
+item_name_ids=defaultdict(list)
+for (etype,eid), entity in entities.items():
+    key=normalize_name(entity.get('name'))
+    if not key:
+        continue
+    if etype == 'monster':
+        monster_name_ids[key].append(eid)
+    elif etype == 'item':
+        item_name_ids[key].append(eid)
+
+# A second index lets us safely map Wiki evidence when the Wiki snapshot's
+# numeric IDs differ from the local 2009Scape IDs. Ambiguous names are skipped.
+wiki_name_evidence=defaultdict(list)
+for mid_s, rows in (WIKI.get('byMonster') or {}).items():
+    for row in rows or []:
+        src=row.get('source') or {}
+        if not isinstance(src, dict):
+            continue
+        raw=src.get('drop_json')
+        if not raw:
+            continue
+        try:
+            dj=json.loads(raw)
+        except Exception:
+            continue
+        mname=normalize_name(dj.get('Dropped from') or src.get('page_name') or src.get('page_name_sub'))
+        iname=normalize_name(dj.get('Dropped item') or src.get('item_name'))
+        mids=monster_name_ids.get(mname,[])
+        iids=item_name_ids.get(iname,[])
+        if len(mids)==1 and len(iids)==1:
+            wiki_name_evidence[(mids[0],iids[0])].append(row)
+
 def same(a,b):
     return abs(float(a)-float(b)) <= max(1e-12, abs(float(a))*1e-12)
 
-def wiki_rate(mid,iid):
-    rows=wiki.get((mid,iid),[])
-    if not rows: return None
-    first=rows[0]
-    if any(not same(x['numerator'],first['numerator']) or not same(x['denominator'],first['denominator']) for x in rows[1:]):
+def parse_wiki_rows(rows):
+    evidence=[]
+    for row in rows or []:
+        src=row.get('source') or {}
+        if not isinstance(src, dict):
+            continue
+        raw=src.get('drop_json')
+        if not raw:
+            continue
+        try: dj=json.loads(raw)
+        except Exception: continue
+        rarity=str(dj.get('Rarity') or '').strip()
+        approx=bool(dj.get('Approx'))
+        if approx or not rarity or rarity in {'-', 'N/A', 'n/a'}: continue
+        m=re.fullmatch(r'\s*(\d+(?:\.\d+)?)\s*/\s*([\d,]+(?:\.\d+)?)\s*', rarity)
+        if not m: continue
+        num=float(m.group(1)); den=float(m.group(2).replace(',',''))
+        if not (num>0 and den>0): continue
+        evidence.append({
+            'display': rarity, 'numerator': num, 'denominator': den,
+            'approximate': False, 'source': 'OSRS Wiki',
+            'page': src.get('page_name') or src.get('page_name_sub')
+        })
+    if not evidence: return None
+    first=evidence[0]
+    if any(not same(x['numerator'],first['numerator']) or not same(x['denominator'],first['denominator']) for x in evidence[1:]):
         return {'status':'conflict','source':'OSRS Wiki','reason':'Conflicting exact Wiki rates were found.'}
     return {'status':'fallback','source':'OSRS Wiki','display':first['display'],
             'numerator':first['numerator'], 'denominator':first['denominator'],
-            'approximate':False, 'evidencePage':first['page']}
+            'approximate':False, 'evidencePage':first['page'], 'sourcePolicy':'secondary'}
+
+def wiki_rate(mid,iid):
+    direct=wiki.get((mid,iid),[])
+    rate=parse_wiki_rows(direct)
+    if rate: return rate
+    named=wiki_name_evidence.get((mid,iid),[])
+    rate=parse_wiki_rows(named)
+    if rate and rate.get('status')=='fallback':
+        rate['resolution']='exact-unique-name'
+    elif rate and rate.get('status')=='conflict':
+        rate['resolution']='exact-unique-name'
+    return rate
+
 
 records=[]
 seen=set()
@@ -96,7 +172,10 @@ for edge in GRAPH.get('edges',[]):
 
 records.sort(key=lambda r:(r['monsterId'],r['itemId']))
 by_monster=defaultdict(list)
-for r in records: by_monster[str(r['monsterId'])].append(r)
+by_item=defaultdict(list)
+for r in records:
+    by_monster[str(r['monsterId'])].append(r)
+    by_item[str(r['itemId'])].append(r)
 
 data={
  'formatVersion':2,
@@ -110,6 +189,7 @@ data={
    'unknownRates':sum(1 for r in records if r['rate'].get('status')=='unknown')
  },
  'byMonster':dict(by_monster),
+ 'relationshipsByItem':dict(by_item),
  'relationships':records
 }
 OUT.parent.mkdir(parents=True,exist_ok=True)

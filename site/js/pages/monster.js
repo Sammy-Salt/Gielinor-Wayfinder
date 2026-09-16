@@ -212,7 +212,7 @@ ${section("Special Properties",specialKeys,monster)}
                     </summary>
                     <div class="drop-table">
                         <div class="drop-row drop-header"><div>Item</div><div>Source</div></div>
-                        ${rows.map(d=>`<div class="drop-row"><div class="drop-item"><a href="item.html?id=${encodeURIComponent(d.itemId)}">${esc(d.itemName || d.name || "Unknown")}</a></div><div class="drop-quantity">2009Scape</div></div>`).join("")}
+                        ${rows.map(d=>`<div class="drop-row"><div class="drop-item"><a href="item.html?id=${encodeURIComponent(d.itemId)}">${esc(d.itemName || d.name || "Unknown")}</a></div><div class="drop-quantity">${esc(d.rateDisplay || (d.rateStatus === "conflict" ? "Rate unresolved" : "Rate unavailable"))}</div></div>`).join("")}
                     </div>
                 </details>`;
             })()}

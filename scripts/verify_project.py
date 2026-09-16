@@ -26,11 +26,16 @@ for required in [
 release = json.loads((SITE / "release.json").read_text())
 root_manifest = json.loads((ROOT / "release-manifest.json").read_text())
 site_manifest = json.loads((SITE / "release-manifest.json").read_text())
-check(release["release"] == "PASS31.26", "site release must be PASS31.26")
+check(release["release"] == "PASS31.27", "site release must be PASS31.27")
 check(root_manifest["release"] == release["release"], "root manifest release mismatch")
 check(site_manifest["release"] == release["release"], "site manifest release mismatch")
 check(root_manifest["buildId"] == release["buildId"], "root manifest build mismatch")
 check(site_manifest["buildId"] == release["buildId"], "site manifest build mismatch")
+
+drops = json.loads((SITE / 'data/relationships/monster-drops.json').read_text())
+check('relationshipsByItem' in drops, 'canonical drop item index missing')
+check(len(drops['relationshipsByItem']) > 1000, 'canonical item drop index unexpectedly small')
+check(not (SITE / 'js/components/relationships.js').exists(), 'obsolete runtime relationship component still shipped')
 
 pages = [p for p in SITE.glob("*.html") if '<nav id="site-nav"' in read(p)]
 check(len(pages) == 21, f"expected 21 shell pages, found {len(pages)}")
@@ -76,4 +81,4 @@ if ERRORS:
         print("-", error)
     raise SystemExit(1)
 
-print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.26 | git=present")
+print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.27 | git=present")

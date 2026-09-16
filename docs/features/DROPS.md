@@ -20,3 +20,7 @@ Rates are represented as numerator/denominator rather than assuming every rate i
 ## Unknown data
 
 The UI must say that a rate is unavailable rather than manufacture a probability. This is intentional data integrity behavior.
+
+
+## PASS31.27 runtime behavior
+Drop Time, Drop Statistics, Item details, Monster details, and Boss details consume the canonical relationship service. Exact structured rates are shown first in calculator drop lists. Unknown and conflicting rates are displayed as unavailable/unresolved and are never converted into probabilities.
