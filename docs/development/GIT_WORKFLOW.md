@@ -42,3 +42,7 @@ Completed work should end with a clean working tree. A dirty tree is allowed onl
 ## History safety
 
 Never delete or reinitialize `.git` to solve a development problem. Preserve existing commits and investigate discrepancies first.
+
+## Generated release manifests
+
+`release-manifest.json` and `site/release-manifest.json` are generated integrity records. They may be committed without a separate documentation change when they are the only files changing, but they must always be regenerated after release metadata or shipped files change.

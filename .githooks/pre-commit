@@ -9,7 +9,8 @@ git diff --cached --check
 
 # Behavioral/source changes require a documented record in the same commit.
 changed="$(git diff --cached --name-only)"
-if printf '%s\n' "$changed" | grep -Eq '^(site/|data-pipeline/|scripts/|tests/)'; then
+behavioral="$(printf '%s\n' "$changed" | grep -Ev '^(release-manifest\.json|site/release-manifest\.json)$' || true)"
+if printf '%s\n' "$behavioral" | grep -Eq '^(site/|data-pipeline/|scripts/|tests/)'; then
     if ! printf '%s\n' "$changed" | grep -Eq '^(docs/|README\.md|AGENTS\.md|CLAUDE\.md|CONTRIBUTING\.md|\.github/)'; then
         echo 'PRE-COMMIT: source/test/tooling changes require an accompanying documentation update.' >&2
         exit 1
