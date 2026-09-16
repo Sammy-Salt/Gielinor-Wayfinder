@@ -24,10 +24,11 @@ def test_release_metadata_is_synchronized():
     assert root["release"] == rel["release"] and root["buildId"] == rel["buildId"]
     assert site["release"] == rel["release"] and site["buildId"] == rel["buildId"]
 
-def test_generated_caches_are_not_shipped():
-    assert not list(ROOT.rglob("__pycache__"))
-    assert not list(ROOT.rglob("*.pyc"))
-    assert not list(ROOT.rglob(".pytest_cache"))
+def test_generated_caches_are_not_tracked():
+    tracked = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True, check=True).stdout.splitlines()
+    assert not any("__pycache__/" in path or path.endswith(".pyc") or ".pytest_cache/" in path for path in tracked)
+    assert "__pycache__/" in (ROOT / ".gitignore").read_text()
+    assert ".pytest_cache/" in (ROOT / ".gitignore").read_text()
 
 def test_project_verifier_passes():
     result = subprocess.run(["python3", "scripts/verify_project.py"], cwd=ROOT, capture_output=True, text=True)

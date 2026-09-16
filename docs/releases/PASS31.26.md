@@ -25,7 +25,7 @@ PASS31.26 is a development/governance pass. It does not intentionally change PWA
 
 ### Repository hygiene
 
-- Removed generated Python cache/test cache artifacts from the source tree.
+- Removed generated Python cache/test cache artifacts from the source tree and added Git-tracked checks that keep such generated files out of releases.
 - Expanded `.gitignore` for common generated/local files.
 - Synchronized stale PASS31.24 release manifests to the PASS31.26 governance baseline.
 
