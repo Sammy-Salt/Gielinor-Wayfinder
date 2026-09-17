@@ -185,3 +185,8 @@ Low-risk changes are still subject to the same documentation and Git rules when 
 - The calculator defaults to a monster with an exact trusted rate when one exists, while still preserving unknown relationships as unknown.
 - Obsolete map/test CSS was moved out of the shipped PWA into `audit/map-tests/`.
 - The obsolete runtime relationship component was removed after its consumers were eliminated; detail pages now own their canonical relationship presentation.
+
+
+## PASS31.28 canonical drop-data update
+
+PASS31.28 supersedes the PASS31.27 drop relationship runtime with the pinned 2009Scape `drop_tables.json` payload. The source expands to 52,194 unique monster→item relationships, including 100 tertiary relationships. Weighted probabilities are calculated from source weights, and runtime access uses lazy gzip-compressed per-monster/per-item shards. The supplied source payload is pinned by SHA-256 because it does not embed an upstream commit identifier.

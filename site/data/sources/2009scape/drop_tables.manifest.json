@@ -1,0 +1,11 @@
+{
+  "formatVersion": 1,
+  "provider": "2009Scape",
+  "path": "Server/data/configs/drop_tables.json",
+  "url": "https://gitlab.com/2009scape/2009scape/-/blob/master/Server/data/configs/drop_tables.json",
+  "revision": null,
+  "contentSha256": "3f6b1f4d2f49f72d54d71545a8397bc0ca04c44bb4aaa6f58325a27dac59e856",
+  "tableCount": 434,
+  "relationshipCount": 52194,
+  "note": "Exact source payload pinned by SHA-256; upstream revision metadata was not embedded in the supplied JSON."
+}

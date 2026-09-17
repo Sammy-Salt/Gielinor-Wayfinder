@@ -26,15 +26,19 @@ for required in [
 release = json.loads((SITE / "release.json").read_text())
 root_manifest = json.loads((ROOT / "release-manifest.json").read_text())
 site_manifest = json.loads((SITE / "release-manifest.json").read_text())
-check(release["release"] == "PASS31.27", "site release must be PASS31.27")
+check(release["release"] == "PASS31.28", "site release must be PASS31.28")
 check(root_manifest["release"] == release["release"], "root manifest release mismatch")
 check(site_manifest["release"] == release["release"], "site manifest release mismatch")
 check(root_manifest["buildId"] == release["buildId"], "root manifest build mismatch")
 check(site_manifest["buildId"] == release["buildId"], "site manifest build mismatch")
 
-drops = json.loads((SITE / 'data/relationships/monster-drops.json').read_text())
-check('relationshipsByItem' in drops, 'canonical drop item index missing')
-check(len(drops['relationshipsByItem']) > 1000, 'canonical item drop index unexpectedly small')
+drop_index = json.loads((SITE / 'data/relationships/index.json').read_text())
+check(drop_index['relationshipCount'] == 52194, 'canonical drop relationship count mismatch')
+check(drop_index['categoryCounts']['tertiary'] == 100, 'canonical tertiary relationship count mismatch')
+check(drop_index['monsterCount'] == 2125, 'canonical monster shard count mismatch')
+check(drop_index['itemCount'] == 1081, 'canonical item shard count mismatch')
+check((SITE / 'data/sources/2009scape/drop_tables.json').is_file(), 'canonical 2009Scape source payload missing')
+check(not (SITE / 'data/relationships/monster-drops.json').exists(), 'obsolete monolithic drop payload still shipped')
 check(not (SITE / 'js/components/relationships.js').exists(), 'obsolete runtime relationship component still shipped')
 
 pages = [p for p in SITE.glob("*.html") if '<nav id="site-nav"' in read(p)]
@@ -81,4 +85,4 @@ if ERRORS:
         print("-", error)
     raise SystemExit(1)
 
-print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.27 | git=present")
+print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.28 | git=present")

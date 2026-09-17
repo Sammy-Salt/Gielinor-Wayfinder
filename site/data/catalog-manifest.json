@@ -29,10 +29,11 @@
     "knowledge/index.json",
     "knowledge/search-index.json",
     "knowledge/quest-dependencies.json",
-    "relationships/monster-drops.json"
+    "relationships/index.json",
+    "sources/2009scape/drop_tables.json"
   ],
-  "release": "PASS31.27",
-  "buildId": "pass31.27-20260916-1",
+  "release": "PASS31.28",
+  "buildId": "pass31.28-20260917-1",
   "generatedFrom": "PASS31.27 architecture/data-integrity polish",
   "displayViews": {
     "monsters": {

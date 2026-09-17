@@ -15,7 +15,7 @@ const routes = Object.freeze({
   "calculators.html":"./pages/calculators.js","combat-stats.html":"./pages/combat-stats.js","skill-stats.html":"./pages/skill-stats.js",
   "drop-stats.html":"./pages/drop-stats.js","drop-time.html":"./pages/drop-time.js"
 });
-for(const [path,modulePath] of Object.entries(routes)) Router.register(path,()=>import(`${modulePath}?v=39`));
+for(const [path,modulePath] of Object.entries(routes)) Router.register(path,()=>import(`${modulePath}?v=40`));
 
 initShell();
 enhanceAppShell();

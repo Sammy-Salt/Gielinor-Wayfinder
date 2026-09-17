@@ -32,7 +32,7 @@ Completed work must end at a Git checkpoint unless the user explicitly asks for 
 
 ## Current baseline
 
-**PASS31.27** is a project-governance and repository-integrity pass built from the validated PASS31.25 baseline. It establishes committed Git history, machine-readable AI instructions, a formal AI change protocol, a deeper architecture assessment, stronger documentation governance, reproducible verification tooling, and synchronized release metadata without changing the PWA's feature behavior.
+**PASS31.28** is the canonical 2009Scape drop-data and lazy-loading pass built from the governed PASS31.27 repository. It pins the supplied 2009Scape drop-table payload, calculates authoritative weighted probabilities, adds the missing tertiary relationships, and replaces the monolithic relationship payload with lazy gzip shards.
 
 ## Runtime baseline
 
@@ -43,5 +43,5 @@ PASS31.25 established static application-tools markup and bootstrap parity acros
 Replacement ZIPs require a minimum **96% confidence gate** and fresh extraction/validation before delivery.
 
 
-## PASS31.27 polish baseline
-The project-wide stabilization pass standardizes shared data access, removes obsolete production test styles, uses the canonical monster-drop relationship service for item/monster drop displays, and keeps Drop Time/Drop Stats on the same structured probability model.
+## PASS31.28 drop-data baseline
+The canonical drop source is pinned by SHA-256 `3f6b1f4d2f49f72d54d71545a8397bc0ca04c44bb4aaa6f58325a27dac59e856`. It produces 52,194 unique monster→item relationships, including 100 tertiary relationships. Drop probabilities are calculated from 2009Scape weights and loaded through lazy gzip-compressed shards.

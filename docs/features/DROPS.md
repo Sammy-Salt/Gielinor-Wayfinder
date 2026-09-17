@@ -2,25 +2,39 @@
 
 ## Canonical model
 
-Monster→item drop relationships are generated from the local 2009Scape-derived relationship graph. The relationship itself is authoritative. A relationship may additionally carry a structured probability record.
+Monster→item drop relationships are generated directly from the pinned 2009Scape `Server/data/configs/drop_tables.json` payload shipped with the PWA. The source payload is content-pinned by SHA-256:
+
+`3f6b1f4d2f49f72d54d71545a8397bc0ca04c44bb4aaa6f58325a27dac59e856`
+
+The current canonical payload contains 434 drop tables and produces **52,194 unique monster→item relationships** after excluding the `id: 0` "nothing" roll outcome. The 52,194 relationships comprise 45,256 main-table relationships, 2,077 default/guaranteed relationships, 4,780 charm relationships, and 100 tertiary relationships. The category counts overlap where the same item is represented by more than one roll category.
 
 ## Probability provenance
 
-2009Scape is preferred when an authoritative probability is present in the source data. OSRS Wiki can provide secondary evidence only for an already-existing relationship, and only when its published probability is exact and unambiguous. Approximate, conflicting, variable, or unsupported rates remain unknown.
+2009Scape is primary. Its weighted tables are calculated exactly from the source weights. `default` entries are guaranteed; `main`, `charm`, and `tertiary` probabilities are calculated as entry weight divided by the complete roll-table weight, including the `id: 0` "nothing" weight.
 
-Rates are represented as numerator/denominator rather than assuming every rate is `1/N`. This supports values such as `9/128` correctly.
+Where a monster/item pair has multiple independent source categories, the relationship probability is combined exactly as:
+
+`1 - product(1 - p_category)`
+
+Rates are represented as exact numerator/denominator values rather than assuming every rate is `1/N`. This supports values such as `9/128` and combined independent rolls without rounding.
+
+The OSRS Wiki remains a secondary source for evidence when a primary source genuinely cannot calculate a value. The current canonical drop-table payload supplies a calculable rate for every shipped relationship, so PASS31.28 has **0 Wiki fallback rates** and **0 unresolved primary rates**.
 
 ## Runtime consumers
 
-- Monster detail: canonical drop relationships.
+- Monster detail: lazy-loaded canonical drop relationships.
+- Item detail: lazy-loaded item-side relationship shards.
 - Drop Statistics: canonical relationship + structured probability.
 - Drop Time: canonical relationship + structured probability.
+- Boss detail: canonical relationship service.
 - Item acquisition: existing acquisition pipeline remains separate because it also contains shops and ground-spawn state.
 
-## Unknown data
+## Lazy loading
 
-The UI must say that a rate is unavailable rather than manufacture a probability. This is intentional data integrity behavior.
+The previous 50+ MB monolithic relationship JSON is no longer shipped as a runtime payload. Relationships are emitted as gzip-compressed per-monster and per-item shards with a small index. The shared `Data` service decompresses and caches shards on demand, while the service worker caches fetched shards for offline reuse.
 
+## Source limitations
 
-## PASS31.27 runtime behavior
-Drop Time, Drop Statistics, Item details, Monster details, and Boss details consume the canonical relationship service. Exact structured rates are shown first in calculator drop lists. Unknown and conflicting rates are displayed as unavailable/unresolved and are never converted into probabilities.
+The supplied source payload did not embed an upstream Git commit/revision. The exact bytes are nevertheless reproducible because the shipped source payload and generated relationship records are pinned by SHA-256. The project does not silently claim a revision it cannot verify.
+
+Ragger remains excluded.
