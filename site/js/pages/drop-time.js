@@ -77,7 +77,7 @@ function calc(){
  <div class="small">Rate source: ${OSRS.escapeHTML(o.dataset.rateSource||"unknown")}</div>
 
  <div class="grid result-grid">
-  <div class="stat">Drop rate<b>${OSRS.escapeHTML(o.dataset.rateDisplay||(`1 / ${fmt(1/r)}`))}</b></div>
+  <div class="stat">Drop rate<b>${OSRS.escapeHTML(Drops.rateDisplay({rateNumerator:Number(o.dataset.rateNumerator),rateDenominator:Number(o.dataset.rateDenominator),rateStatus:o.dataset.rateStatus,rateApproximate:o.dataset.rateApproximate==="true"})||"Rate unavailable")}</b></div>
   <div class="stat">Chance per kill<b>${pct(p)}</b></div>
   <div class="stat">Kills / hour<b>${fmt(kph)}</b></div>
   <div class="stat">Expected kills<b>${fmt(expectedKills)}</b></div>

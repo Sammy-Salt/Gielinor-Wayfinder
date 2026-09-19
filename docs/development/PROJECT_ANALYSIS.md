@@ -190,3 +190,7 @@ Low-risk changes are still subject to the same documentation and Git rules when 
 ## PASS31.28 canonical drop-data update
 
 PASS31.28 supersedes the PASS31.27 drop relationship runtime with the pinned 2009Scape `drop_tables.json` payload. The source expands to 52,194 unique monster→item relationships, including 100 tertiary relationships. Weighted probabilities are calculated from source weights, and runtime access uses lazy gzip-compressed per-monster/per-item shards. The supplied source payload is pinned by SHA-256 because it does not embed an upstream commit identifier.
+
+## PASS31.29 drop-rate presentation update
+
+PASS31.29 preserves the PASS31.28 canonical probability model and normalizes all player-facing exact drop-rate displays to `1/X`. The shared runtime formatter derives presentation from the exact numerator/denominator fields, while the generator emits the same normalized display into canonical shards.

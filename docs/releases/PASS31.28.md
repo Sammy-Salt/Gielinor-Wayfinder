@@ -31,4 +31,4 @@ Replace the PASS31.27 relationship graph/rate gap with the canonical 2009Scape w
 
 ## Release gate
 
-The repository must finish with a clean Git checkpoint, a passing full regression suite, fresh archive extraction validation, JSON/JavaScript syntax validation, source-provenance checks, and release-manifest consistency.
+The PASS31.28 repository finished with a clean Git checkpoint, a passing full regression suite, fresh archive extraction validation, JSON/JavaScript syntax validation, source-provenance checks, and release-manifest consistency.

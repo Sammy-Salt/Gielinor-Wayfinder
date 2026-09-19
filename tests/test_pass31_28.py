@@ -6,10 +6,10 @@ def chk(ok,msg):
     if not ok: raise AssertionError(msg)
 
 release=json.loads((S/'release.json').read_text())
-chk(release['release']=='PASS31.28','release mismatch')
+chk(release['release']=='PASS31.29','release mismatch')
 chk(release['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
-chk('osrs-guide-pass31.28' in (S/'sw.js').read_text(),'cache namespace mismatch')
-chk('?v=40' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
+chk('osrs-guide-pass31.29' in (S/'sw.js').read_text(),'cache namespace mismatch')
+chk('?v=41' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
 
 idx=json.loads((S/'data/relationships/index.json').read_text())
 chk(idx['relationshipCount']==52194,'relationship count must be 52194')
@@ -31,7 +31,7 @@ whip=json.loads(gzip.decompress((S/'data/relationships/monsters/1615.json.gz').r
 row=next(x for x in whip['relationships'] if x['itemId']==4151)
 chk(row['rate']['status']=='authoritative','Abyssal whip rate is not authoritative')
 chk(row['rate']['numerator']==1 and row['rate']['denominator']==513,'Abyssal whip rate must be 1/513')
-chk(row['rate']['display']=='513','Abyssal whip display mismatch')
+chk(row['rate']['display']=='1/513','Abyssal whip display mismatch')
 
 # Generator output has already validated every source row. Spot-check representative
 # shards and verify the index counts cover the generated files.

@@ -1,5 +1,6 @@
 import {OSRS} from "../core/osrs.js";
 import {Catalog} from "../services/catalog-service.js";
+import {Drops} from "../services/drop-service.js";
 
 const params=new URLSearchParams(location.search);
 const id=params.get("id");
@@ -17,7 +18,7 @@ function yesNo(value){
   return "Unknown";
 }
 function rateText(drop){
-  if(drop.rateStatus==="fallback"&&drop.rateDisplay) return `${drop.rateDisplay} · OSRS Wiki`;
+  if(drop.rateStatus==="fallback"&&Drops.rateDisplay(drop)) return `${Drops.rateDisplay(drop)} · OSRS Wiki`;
   if(drop.rateStatus==="conflict") return "Rate unresolved · conflicting Wiki evidence";
   return "Rate unavailable";
 }

@@ -18,7 +18,13 @@ Where a monster/item pair has multiple independent source categories, the relati
 
 Rates are represented as exact numerator/denominator values rather than assuming every rate is `1/N`. This supports values such as `9/128` and combined independent rolls without rounding.
 
-The OSRS Wiki remains a secondary source for evidence when a primary source genuinely cannot calculate a value. The current canonical drop-table payload supplies a calculable rate for every shipped relationship, so PASS31.28 has **0 Wiki fallback rates** and **0 unresolved primary rates**.
+The OSRS Wiki remains a secondary source for evidence when a primary source genuinely cannot calculate a value. The current canonical drop-table payload supplies a calculable rate for every shipped relationship, so PASS31.29 has **0 Wiki fallback rates** and **0 unresolved primary rates**.
+
+## Player-facing rate format
+
+All exact drop-rate displays use a consistent reciprocal format: `1/X`. The underlying probability remains the exact numerator/denominator value; only the presentation is normalized. Integer reciprocals remain exact (`1/513`), finite decimal reciprocals are shown without unnecessary trailing zeroes (`1/25.6`), and repeating decimal reciprocals are rounded to at most two decimal places (`1/11.64`). This applies across monster drops, item-side sources, boss drops, Drop Statistics, Drop Time, and secondary-source rates.
+
+The formatter is shared by the runtime drop service, while the canonical relationship generator writes the same normalized display into generated records so offline data and UI consumers remain consistent.
 
 ## Runtime consumers
 

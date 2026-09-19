@@ -9,6 +9,7 @@ never emitted as a monster->item relationship.
 """
 from __future__ import annotations
 import gzip, hashlib, json, shutil
+from decimal import Decimal, ROUND_HALF_UP
 from collections import defaultdict
 from fractions import Fraction
 from pathlib import Path
@@ -26,10 +27,21 @@ def fraction_obj(value: Fraction) -> dict[str, int]:
     return {"numerator": value.numerator, "denominator": value.denominator}
 
 def reciprocal_display(probability: Fraction) -> str:
+    """Return every exact drop rate in player-facing 1/X form.
+
+    The source probability remains exact as a numerator/denominator Fraction.
+    Only the UI display is rounded, to at most two decimal places when the
+    reciprocal is not an integer or finite short decimal.
+    """
     if probability <= 0:
-        return "0"
+        return "Rate unavailable"
     rate = Fraction(1, 1) / probability
-    return str(rate.numerator) if rate.denominator == 1 else f"{rate.numerator}/{rate.denominator}"
+    if rate.denominator == 1:
+        value = str(rate.numerator)
+    else:
+        decimal = (Decimal(rate.numerator) / Decimal(rate.denominator)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
+        value = format(decimal, "f").rstrip("0").rstrip(".")
+    return f"1/{value}"
 
 def write_gzip_json(path: Path, value: object) -> None:
     raw = (json.dumps(value, ensure_ascii=False, separators=(",", ":")) + "\n").encode()

@@ -43,5 +43,8 @@ PASS31.25 established static application-tools markup and bootstrap parity acros
 Replacement ZIPs require a minimum **96% confidence gate** and fresh extraction/validation before delivery.
 
 
+
+**PASS31.29** normalizes all exact drop-rate displays to the player-facing `1/X` format while preserving exact underlying probabilities and adds a shared runtime formatter across all drop-rate consumers.
+
 ## PASS31.28 drop-data baseline
 The canonical drop source is pinned by SHA-256 `3f6b1f4d2f49f72d54d71545a8397bc0ca04c44bb4aaa6f58325a27dac59e856`. It produces 52,194 unique monster→item relationships, including 100 tertiary relationships. Drop probabilities are calculated from 2009Scape weights and loaded through lazy gzip-compressed shards.
