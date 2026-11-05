@@ -48,7 +48,7 @@ export function enhanceAppShell() {
       message.className = "search-error";
       message.textContent = "Search unavailable. Try again or check offline data.";
       results.appendChild(message);
-      console.warn("[OSRS Guide] global search failed", error);
+      console.warn("[Gielinor Wayfinder] global search failed", error);
     }
   };
 

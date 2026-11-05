@@ -9,8 +9,8 @@ def check(condition, message):
         raise AssertionError(message)
 
 release = (S / "release.json").read_text()
-check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26,27,28,29)), "release mismatch")
-check('"loaderVersion": "41"' in release, "loader version mismatch")
+check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26,27,28,29,30)), "release mismatch")
+check('"loaderVersion": "42"' in release, "loader version mismatch")
 
 shell = (S / "js/core/shell.js").read_text()
 check('document.getElementById("site-nav")' in shell, "shell must use existing nav")
@@ -42,10 +42,10 @@ for page in S.glob("*.html"):
     check('href="crafting.html"' in nav, f"Crafting not in nav: {page.name}")
 
 sw = (S / "sw.js").read_text()
-check("pass31.29-20260918-1" in sw, "service-worker build ID mismatch")
+check("pass31.30-20261105-1" in sw, "service-worker build ID mismatch")
 check("SKIP_WAITING" in sw, "service-worker update message missing")
-check('"./js/core/shell.js?v=41"' in sw, "shell missing from app-code shell")
-check('"./js/components/app-enhancer.js?v=41"' in sw, "enhancer missing from app-code shell")
+check('"./js/core/shell.js?v=42"' in sw, "shell missing from app-code shell")
+check('"./js/components/app-enhancer.js?v=42"' in sw, "enhancer missing from app-code shell")
 
 loader = (S / "js/local-loader.js").read_text()
 check('postMessage({type:"SKIP_WAITING"})' in loader, "loader must activate waiting worker")

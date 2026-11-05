@@ -1,12 +1,12 @@
 {
-  "product": "OSRS Guide",
-  "release": "PASS31.29",
-  "buildId": "pass31.29-20260918-1",
-  "cacheNamespace": "osrs-guide-pass31.29-20260918-1",
+  "product": "Gielinor Wayfinder",
+  "release": "PASS31.30",
+  "buildId": "pass31.30-20261105-1",
+  "cacheNamespace": "gielinor-wayfinder-pass31.30-20261105-1",
   "canonicalEntrypoint": "js/local-loader.js",
-  "loaderVersion": "41",
+  "loaderVersion": "42",
   "bootstrap": "js/bootstrap.js",
-  "generatedFrom": "PASS31.28 + canonical 2009Scape drop-rate presentation normalization",
+  "generatedFrom": "PASS31.29 + Gielinor Wayfinder product identity",
   "mapBoundary": "site/data/map/**, site/map.html, site/js/pages/map.js, site/css/pages/map.css",
   "dataFoundation": "2009Scape-primary-osrs-wiki-secondary"
 }

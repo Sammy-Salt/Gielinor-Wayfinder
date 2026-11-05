@@ -194,3 +194,9 @@ PASS31.28 supersedes the PASS31.27 drop relationship runtime with the pinned 200
 ## PASS31.29 drop-rate presentation update
 
 PASS31.29 preserves the PASS31.28 canonical probability model and normalizes all player-facing exact drop-rate displays to `1/X`. The shared runtime formatter derives presentation from the exact numerator/denominator fields, while the generator emits the same normalized display into canonical shards.
+
+## PASS31.30 identity and validation update
+
+PASS31.30 establishes Gielinor Wayfinder as the shipped product identity across the PWA shell, page titles, manifest, release metadata, runtime diagnostics, and backup metadata. Legitimate `OSRS Wiki` references remain because they describe the approved secondary source rather than the product name. The service-worker namespace and loader version are bumped so existing clients do not retain the prior product shell.
+
+The repository now includes `.github/workflows/ci.yml`, which runs the project verifier, the complete pytest regression suite, JSON parsing, and JavaScript syntax checks on every push and pull request. The internal IndexedDB name remains stable as a compatibility namespace so the branding-only release does not orphan existing local player data.

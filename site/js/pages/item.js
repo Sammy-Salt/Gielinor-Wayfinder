@@ -37,7 +37,7 @@ async function loadItem(){
     ]);
     render(item,drops,shops,item?._acquisition?.groundSpawns||{status:"unknown"});
   }catch(error){
-    console.error("[OSRS Guide] item load failed",error);
+    console.error("[Gielinor Wayfinder] item load failed",error);
     OSRS.setHTML(content,`<div class="card"><h1>Item Not Found</h1><div class="muted">${esc(error?.message||`No item data exists for ID ${id}.`)}</div></div>`);
   }
 }

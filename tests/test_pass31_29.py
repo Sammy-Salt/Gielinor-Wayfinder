@@ -14,10 +14,10 @@ def expected_display(n,d):
     return f'1/{value}'
 
 release=json.loads((S/'release.json').read_text())
-chk(release['release']=='PASS31.29','release mismatch')
+chk(release['release']=='PASS31.30','release mismatch')
 chk(release['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
-chk('osrs-guide-pass31.29-20260918-1' in (S/'sw.js').read_text(),'cache namespace mismatch')
-chk('?v=41' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
+chk('gielinor-wayfinder-pass31.30-20261105-1' in (S/'sw.js').read_text(),'cache namespace mismatch')
+chk('?v=42' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
 
 # Representative exact rates, including integer, finite decimal, repeating decimal,
 # and a combined relationship.
@@ -54,4 +54,4 @@ for p in S.rglob('*.json'):
     try: json.loads(p.read_text())
     except Exception as e: chk(False,f'JSON: {p}: {e}')
 
-print(f'PASS31.29 drop display tests: exactDisplaysChecked={checked} format=1/X canonical=PASS runtime=PASS syntax=PASS')
+print(f'PASS31.30 drop display tests: exactDisplaysChecked={checked} format=1/X canonical=PASS runtime=PASS syntax=PASS')

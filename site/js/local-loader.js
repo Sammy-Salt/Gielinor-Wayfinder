@@ -7,7 +7,7 @@
     const card=document.createElement('div');
     card.className='card';
     const h=document.createElement('h2');
-    h.textContent='Unable to start OSRS Guide';
+    h.textContent='Unable to start Gielinor Wayfinder';
     const p=document.createElement('p');
     p.textContent=String(error?.message||error);
     card.append(h,p);
@@ -24,7 +24,7 @@
         const keys=await caches.keys();
         await Promise.all(keys.map(k=>caches.delete(k)));
       }
-    }catch(e){ console.warn('[OSRS Guide] localhost cache cleanup:',e); }
+    }catch(e){ console.warn('[Gielinor Wayfinder] localhost cache cleanup:',e); }
     return controlled;
   }
 
@@ -49,7 +49,7 @@
           watch();
         });
       }
-    }catch(e){ console.warn('[OSRS Guide] service worker refresh:',e); }
+    }catch(e){ console.warn('[Gielinor Wayfinder] service worker refresh:',e); }
   }
 
   try{
@@ -63,7 +63,7 @@
     if(!/^\d+$/.test(loaderVersion))throw new Error('Invalid release loaderVersion');
     await import(`./bootstrap.js?v=${encodeURIComponent(loaderVersion)}`);
   }catch(error){
-    console.error('[OSRS Guide] bootstrap failed',error);
+    console.error('[Gielinor Wayfinder] bootstrap failed',error);
     showStartupError(error);
   }
 })();

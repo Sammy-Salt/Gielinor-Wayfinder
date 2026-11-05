@@ -1,6 +1,6 @@
 {
-  "name": "OSRS Companion",
-  "short_name": "OSRS Guide",
+  "name": "Gielinor Wayfinder",
+  "short_name": "Gielinor Wayfinder",
   "description": "Offline OSRS / 2009Scape companion encyclopedia, trackers, calculators and map.",
   "start_url": "./index.html",
   "scope": "./",

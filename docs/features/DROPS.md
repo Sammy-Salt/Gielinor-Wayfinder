@@ -18,7 +18,7 @@ Where a monster/item pair has multiple independent source categories, the relati
 
 Rates are represented as exact numerator/denominator values rather than assuming every rate is `1/N`. This supports values such as `9/128` and combined independent rolls without rounding.
 
-The OSRS Wiki remains a secondary source for evidence when a primary source genuinely cannot calculate a value. The current canonical drop-table payload supplies a calculable rate for every shipped relationship, so PASS31.29 has **0 Wiki fallback rates** and **0 unresolved primary rates**.
+The OSRS Wiki remains a secondary source for evidence when a primary source genuinely cannot calculate a value. The current canonical drop-table payload supplies a calculable rate for every shipped relationship, so PASS31.30 has **0 Wiki fallback rates** and **0 unresolved primary rates**.
 
 ## Player-facing rate format
 

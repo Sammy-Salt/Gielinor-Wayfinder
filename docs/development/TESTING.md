@@ -18,6 +18,10 @@ Every release-level change should cover the applicable subset of:
 - representative navigation and invalid-ID behavior;
 - target-runtime Firefox/Android smoke testing when runtime behavior is involved.
 
+## Continuous validation
+
+`.github/workflows/ci.yml` runs the project verifier, the complete pytest regression suite, JSON parsing for every shipped JSON file, and Node.js syntax checks for every shipped JavaScript file on every push and pull request. Local validation remains required before a PASS commit; CI provides the shared remote gate rather than replacing release-specific fresh-extraction or runtime smoke testing.
+
 ## Shared-shell invariants
 
 Every normal shell page must have exactly one static `#site-nav`, one static `#app-tools-host`, and one static `#app-tools`. Character and Crafting each appear once in the canonical navigation.

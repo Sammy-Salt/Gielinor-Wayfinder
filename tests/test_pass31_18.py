@@ -14,7 +14,7 @@ for i in ids:
 for p in S.rglob('*'):
  if p.is_file() and p.suffix.lower() in {'.js','.json','.html','.css','.webmanifest'}: chk('ragger' not in p.read_text(errors='ignore').lower(),f'retired source reference: {p.relative_to(R)}')
 rel=json.loads((S/'release.json').read_text()); cat=json.loads((S/'data/catalog-manifest.json').read_text()); sw=(S/'sw.js').read_text()
-chk(rel['release'] in ('PASS31.19','PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.29'),'release mismatch'); chk(cat['release']==rel['release'],'catalog release mismatch'); chk(cat['buildId']==rel['buildId'],'catalog build mismatch'); chk(rel['buildId'] in sw,'service worker build mismatch'); chk('js/pages/item.js?v=41' in sw,'item.js missing from precache')
+chk(rel['release'] in ('PASS31.19','PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.30'),'release mismatch'); chk(cat['release']==rel['release'],'catalog release mismatch'); chk(cat['buildId']==rel['buildId'],'catalog build mismatch'); chk(rel['buildId'] in sw,'service worker build mismatch'); chk('js/pages/item.js?v=42' in sw,'item.js missing from precache')
 bad=[]
 for p in S.rglob('*.js'):
  r=subprocess.run(['node','--check',str(p)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)

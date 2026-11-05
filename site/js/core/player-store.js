@@ -10,7 +10,7 @@ function migrate(raw){
  const p=raw&&typeof raw==="object"?raw:{}; const completed=Array.isArray(p.quests?.completed)?p.quests.completed:Array.isArray(p.completedQuests)?p.completedQuests:[];
  return {...fresh(),...p,version:PLAYER_SCHEMA_VERSION,skills:{...(p.skills||{})},quests:{...fresh().quests,...(p.quests||{}),completed:[...new Map(completed.map(q=>[String(q?.name??q).trim().toLowerCase(),q])).values()]},goals:Array.isArray(p.goals)?p.goals:[],settings:{...fresh().settings,...(p.settings||{})},sync:{...fresh().sync,...(p.sync||{})}};
 }
-function emit(){const snap=clone(state);for(const fn of listeners){try{fn(snap)}catch(e){console.error("[OSRS Guide] player subscriber",e)}}Events.emit("player:changed",snap)}
+function emit(){const snap=clone(state);for(const fn of listeners){try{fn(snap)}catch(e){console.error("[Gielinor Wayfinder] player subscriber",e)}}Events.emit("player:changed",snap)}
 function persist(){Storage.jsonSet(PLAYER_KEY,state)}
 export function load(){if(state)return clone(state);const raw=Storage.jsonGet(PLAYER_KEY,null);state=migrate(raw);persist();return clone(state)}
 export function get(){return load()}

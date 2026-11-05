@@ -6,10 +6,10 @@ def chk(ok,msg):
     if not ok: raise AssertionError(msg)
 
 release=json.loads((S/'release.json').read_text())
-chk(release['release']=='PASS31.29','release mismatch')
+chk(release['release']=='PASS31.30','release mismatch')
 chk(release['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
-chk('osrs-guide-pass31.29' in (S/'sw.js').read_text(),'cache namespace mismatch')
-chk('?v=41' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
+chk('gielinor-wayfinder-pass31.30' in (S/'sw.js').read_text(),'cache namespace mismatch')
+chk('?v=42' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
 
 idx=json.loads((S/'data/relationships/index.json').read_text())
 chk(idx['relationshipCount']==52194,'relationship count must be 52194')

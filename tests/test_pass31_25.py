@@ -28,4 +28,4 @@ def test_item_uses_same_static_shell():
     text=(ROOT/"item.html").read_text()
     assert 'id="app-tools-host"' in text
     assert 'id="app-tools"' in text
-    assert 'js/pages/item.js?v=41' in text
+    assert 'js/pages/item.js?v=42' in text

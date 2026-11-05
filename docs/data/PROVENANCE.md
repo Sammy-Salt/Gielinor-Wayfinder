@@ -24,6 +24,6 @@ Each emitted relationship records `source=2009Scape`, `status=authoritative`, th
 
 OSRS Wiki may enrich a relationship only when the primary source cannot calculate a value and the Wiki evidence is exact and unambiguous. Approximate, conflicting, variable, or unsupported evidence remains unavailable.
 
-The current PASS31.29 canonical source calculates all 52,194 shipped relationship rates, so no Wiki fallback rates are required.
+The current PASS31.30 canonical source calculates all 52,194 shipped relationship rates, so no Wiki fallback rates are required.
 
 Ragger is retired and must remain absent from production data, code, HTML, CSS, and manifests.
