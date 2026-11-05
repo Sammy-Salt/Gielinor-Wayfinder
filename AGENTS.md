@@ -2,7 +2,7 @@
 
 **STOP. READ THIS FILE BEFORE CHANGING ANY PROJECT FILE.**
 
-This repository is deliberately governed by Git, architecture documentation, data-source rules, and PASS release records. Any AI agent, coding assistant, or automated contributor working here MUST treat those artifacts as the project's source of truth.
+This repository is deliberately governed by Git, architecture documentation, data-source rules, and PASS release records. Any AI agent, coding assistant, or automated contributor working here MUST treat those artifacts as the project's source of truth
 
 ## Mandatory first actions
 
