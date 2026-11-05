@@ -1,5 +1,6 @@
 # Gielinor Wayfinder
 
+a test build is currently on the website
 **Gielinor Wayfinder** is an offline-first companion and reference Progressive Web App (PWA) for **2009Scape**. It aims to make useful game information easy to find, explore, and use on desktop and mobile—even when an internet connection is unavailable.
 
 ## Project Goals
@@ -11,6 +12,8 @@
 - **Keep information organized and traceable:** Maintain consistent data structures, clear source provenance, and documented development practices.
 
 ## Launching the PWA
+
+To test it. Download the zip. Copy it into a new directory in your terminal. Unzip it. Launch a server, I use 8000. Open Web browser and use something like localhost:8000/ in the address bar to open the PWA.
 
 Gielinor Wayfinder is intended to run in a modern web browser. Once the app is published at a web address, use the steps below to open it and, where supported, add it to your device.
 
