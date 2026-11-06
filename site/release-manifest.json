@@ -327359,8 +327359,8 @@
       "bytes": 3220
     },
     "js/pages/crafting.js": {
-      "sha256": "a8746c70b886d6e07b48888ea0570ab3b083cb7ab95616394713e65f46ae425e",
-      "bytes": 2935
+      "sha256": "bb03b09cc9f3d8b6a17790c2a4c8e03a4c32c445fa5e584744e9594392f64eae",
+      "bytes": 8313
     },
     "js/pages/drop-stats.js": {
       "sha256": "d6cb0d29adce121c181c2b5059cf1233a8e72410cff1ef698bb26a6de5da6005",
@@ -327387,8 +327387,8 @@
       "bytes": 1562
     },
     "js/pages/map.js": {
-      "sha256": "8dea37be7ae24a0bb188fcd2aa54dd14b115f226fd4839cd1d3b6bb07b8249e0",
-      "bytes": 18698
+      "sha256": "593dc08fd538b216dd4697795d3cf1e74eb14eea11343266c055f47a48a99af6",
+      "bytes": 20052
     },
     "js/pages/monster.js": {
       "sha256": "44a8d763b22cd758b6e5dd603caa40592444e5323c0663a589db8c5ee1e84cde",
@@ -327503,8 +327503,8 @@
       "bytes": 619
     },
     "map.html": {
-      "sha256": "ee0e52aa44d0555b3d5a1fab25f4e88f94f916dfb5e644647ca60595fc5b9d94",
-      "bytes": 1540
+      "sha256": "7f56d793c1c6c96e79abdf1c0cc9c6a7a573834e74724d0a3bf6fe45bc195a2f",
+      "bytes": 1633
     },
     "monster.html": {
       "sha256": "905d003473496ed8d679f16dbd3e80c4e7ffe45622f45e8563bf8ada1e10cfaa",

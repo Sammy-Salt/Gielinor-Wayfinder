@@ -15,6 +15,10 @@
       "sha256": "ba1e6acacf1960695a4b8cb6e92264ffeca7953481097f02b1d96ebdbe3ca5e6",
       "bytes": 511
     },
+    ".github/workflows/ci.yml": {
+      "sha256": "d929ecc7905a3a06c7f30eb5696e30f5a7e31bd42b2352c8db640df04c1ecb0a",
+      "bytes": 1568
+    },
     ".gitignore": {
       "sha256": "b3ffd2860209974e15fd66adb8984eeb0d3cad254ddb4e02efa702cf602811c5",
       "bytes": 243
@@ -32,11 +36,11 @@
       "bytes": 1072
     },
     "README.md": {
-      "sha256": "42ad42aa882b1b2dbd5fcc822d167cd0cbcd4f9c4aa515c9279aeb2433bbd8ce",
-      "bytes": 3514
+      "sha256": "0d9481c7dd08ad3f60d10445a7688a70bc735c7c85a2323883c51e621ab3481d",
+      "bytes": 3874
     },
     "audit/map-boundary.sha256": {
-      "sha256": "181406529245aa178c40db43fcdc4424bac2730ebdb0652edeee1fc4b9280287",
+      "sha256": "33838f289fff4e1cbb8558a01b19daa9d2e4d5edcb78eb115f1197b33e55b85f",
       "bytes": 525
     },
     "audit/map-tests/map-grid-test.css": {
@@ -160,8 +164,8 @@
       "bytes": 539
     },
     "docs/features/CRAFTING.md": {
-      "sha256": "549d3e49c118b1d05cff5b5bd836dce1c635f92b917028d33cc84808f5b94f4a",
-      "bytes": 493
+      "sha256": "5c2cdc17521c7a6aa7afb35e5a191c72ae3d84cbbf8950beeac0783f851665c3",
+      "bytes": 850
     },
     "docs/features/DROPS.md": {
       "sha256": "f2d3130de9a0a057cea18ae507920f7fa573d1cfc9492ab2769bff75a40476b8",
@@ -191,9 +195,17 @@
       "sha256": "cad36642ade200d1b81b422e6d78c826f3d6cb9717f9d71f21fac8408c251a82",
       "bytes": 162
     },
+    "docs/history/CRAFTING_DATA_WIRING_2026-11-06.md": {
+      "sha256": "0613ed1cab7e4a77da15b6d95033af3b3e66ed93e74f5b74275d33cf4d9d7f97",
+      "bytes": 6549
+    },
     "docs/history/EXTERNAL_REVIEWS.md": {
       "sha256": "f561a25cfdcee080f11ae466c501246e8f92d0dc4861fe7aadc6678f0fb9945d",
       "bytes": 1499
+    },
+    "docs/history/MAP_DATA_WIRING_2026-11-06.md": {
+      "sha256": "2bb4f06f339d73a5b303319a129e435e2236f9fdfe34da135792f8f7105d4f96",
+      "bytes": 6048
     },
     "docs/releases/PASS31.13.md": {
       "sha256": "4bbf8c596208b75117565fd5992783c18fb9227b1ec65d457f1cdd2268d01d50",
@@ -262,6 +274,10 @@
     "docs/releases/PASS31.29.md": {
       "sha256": "1198c0edf7e38634f1765c3e751d44d855ff85c96f77574b701c09bdcf348413",
       "bytes": 1562
+    },
+    "docs/releases/PASS31.30.md": {
+      "sha256": "b49c136091af5d6aa1595b18b66057792b89a47236a05210e9b12f29fa9ea65a",
+      "bytes": 1861
     },
     "index.html": {
       "sha256": "2eb074560be14a12bcc34e6e70d19070072fe391a36e7b7e9193183690bd3946",
@@ -327628,8 +327644,8 @@
       "bytes": 3220
     },
     "site/js/pages/crafting.js": {
-      "sha256": "a8746c70b886d6e07b48888ea0570ab3b083cb7ab95616394713e65f46ae425e",
-      "bytes": 2935
+      "sha256": "bb03b09cc9f3d8b6a17790c2a4c8e03a4c32c445fa5e584744e9594392f64eae",
+      "bytes": 8313
     },
     "site/js/pages/drop-stats.js": {
       "sha256": "d6cb0d29adce121c181c2b5059cf1233a8e72410cff1ef698bb26a6de5da6005",
@@ -327656,8 +327672,8 @@
       "bytes": 1562
     },
     "site/js/pages/map.js": {
-      "sha256": "8dea37be7ae24a0bb188fcd2aa54dd14b115f226fd4839cd1d3b6bb07b8249e0",
-      "bytes": 18698
+      "sha256": "593dc08fd538b216dd4697795d3cf1e74eb14eea11343266c055f47a48a99af6",
+      "bytes": 20052
     },
     "site/js/pages/monster.js": {
       "sha256": "44a8d763b22cd758b6e5dd603caa40592444e5323c0663a589db8c5ee1e84cde",
@@ -327772,8 +327788,8 @@
       "bytes": 619
     },
     "site/map.html": {
-      "sha256": "ee0e52aa44d0555b3d5a1fab25f4e88f94f916dfb5e644647ca60595fc5b9d94",
-      "bytes": 1540
+      "sha256": "7f56d793c1c6c96e79abdf1c0cc9c6a7a573834e74724d0a3bf6fe45bc195a2f",
+      "bytes": 1633
     },
     "site/monster.html": {
       "sha256": "905d003473496ed8d679f16dbd3e80c4e7ffe45622f45e8563bf8ada1e10cfaa",
@@ -327808,7 +327824,7 @@
       "bytes": 2923
     },
     "site/release-manifest.json": {
-      "sha256": "17b20da5d85f9bb0339b4ee9a87d84d3c95d98d550bf9a799e14e0671fa6079b",
+      "sha256": "fa6db96328dca59ab8591e05113466a1ecc5b85d05b17bcf57db03da1f4b3e4b",
       "bytes": 12460674
     },
     "site/release.json": {
@@ -327875,13 +327891,9 @@
       "sha256": "0926e753315f41cd3eb6d932594df1a90d84264d056ab3f543c74a47c6b8a49a",
       "bytes": 2906
     },
-    ".github/workflows/ci.yml": {
-      "sha256": "d929ecc7905a3a06c7f30eb5696e30f5a7e31bd42b2352c8db640df04c1ecb0a",
-      "bytes": 1568
-    },
-    "docs/releases/PASS31.30.md": {
-      "sha256": "b49c136091af5d6aa1595b18b66057792b89a47236a05210e9b12f29fa9ea65a",
-      "bytes": 1861
+    "tests/test_pass31_32.py": {
+      "sha256": "42764f1a5a3979d55ef2e0584e49e533d81e5a6208af0032f80475de5023563e",
+      "bytes": 2385
     }
   }
 }
