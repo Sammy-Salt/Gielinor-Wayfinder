@@ -56,4 +56,5 @@ This project is under active development. Features, data coverage, and platform 
 ---
 
 *Gielinor Wayfinder is an independent fan-made project and is not affiliated with or endorsed by Jagex, 2009scape, 2009scape mobile, the entire world and everyone and every company in it*
+
 Released under the AGPLv3
