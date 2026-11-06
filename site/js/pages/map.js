@@ -204,11 +204,20 @@ const markerLayer =
 const npcLayer =
     L.layerGroup().addTo(map);
 
+const monsterLayer =
+    L.layerGroup().addTo(map);
+
 const shopLayer =
     L.layerGroup().addTo(map);
 
 const npcs =
     window.OSRS_MAP_NPCS || [];
+
+// monsters.js currently declares a classic-script global named `monsters`.
+// Prefer a future window export, but retain compatibility with the shipped file.
+const monsterRecords =
+    window.OSRS_MAP_MONSTERS ||
+    (typeof monsters !== "undefined" ? monsters : []);
 
 const shops =
     window.OSRS_MAP_SHOPS || [];
@@ -225,15 +234,22 @@ const markerIcons = {
         html:"<span>🏪</span>",
         iconSize:[28,28],
         iconAnchor:[14,14]
+    }),
+    Monster: L.divIcon({
+        className:"map-marker",
+        html:"<span>⚔️</span>",
+        iconSize:[28,28],
+        iconAnchor:[14,14]
     })
 };
 
 function markerIcon(type){
-    return markerIcons[type === "Shop" ? "Shop" : "NPC"];
+    return markerIcons[type] || markerIcons.NPC;
 }
 
 const locationByPlane = new Map();
 const npcByPlane = new Map();
+const monsterByPlane = new Map();
 const shopByPlane = new Map();
 
 function indexByPlane(items, target){
@@ -250,6 +266,7 @@ function indexByPlane(items, target){
 
 indexByPlane(locations, locationByPlane);
 indexByPlane(npcs, npcByPlane);
+indexByPlane(monsterRecords, monsterByPlane);
 indexByPlane(shops, shopByPlane);
 
 function planeItems(index, plane){
@@ -259,6 +276,7 @@ function planeItems(index, plane){
 function addInteractiveMarkers(){
 
     npcLayer.clearLayers();
+    monsterLayer.clearLayers();
     shopLayer.clearLayers();
 
     planeItems(npcByPlane, currentPlane).forEach(function(npc){
@@ -289,6 +307,37 @@ function addInteractiveMarkers(){
         });
 
         npcLayer.addLayer(marker);
+    });
+
+    planeItems(monsterByPlane, currentPlane).forEach(function(monster){
+
+        const target =
+            osrsToLatLng(monster.x,monster.y);
+
+        const marker =
+            L.marker(
+                [target.lat,target.lng],
+                {
+                    icon:markerIcon("Monster")
+                }
+            );
+
+        marker.on("click",function(){
+
+            showLocation({
+                name:monster.name,
+                description:monster.description ||
+                    monster.examine || "Monster",
+                category:"Monster",
+                id:monster.id,
+                x:monster.x,
+                y:monster.y,
+                plane:monster.plane ?? 0
+            });
+
+        });
+
+        monsterLayer.addLayer(marker);
     });
 
     planeItems(shopByPlane, currentPlane).forEach(function(shop){
