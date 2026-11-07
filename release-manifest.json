@@ -63,6 +63,10 @@
       "sha256": "3b04c31db3ee4a3f80f77b75e7e911116dd8d90a84f8da295ef630f66b60cc5b",
       "bytes": 9645
     },
+    "data-pipeline/generate_smithing_recipes.py": {
+      "sha256": "9c8de0eab5b6ab9ff3f65712d469955abd688d6e1ec09f3ead28d7ff1e6caa08",
+      "bytes": 7545
+    },
     "docs/README.md": {
       "sha256": "fe432d31baa0a718ffdad304da545afb962d0369cbc2cc9779a4f2e8323efebd",
       "bytes": 1099
@@ -164,8 +168,8 @@
       "bytes": 539
     },
     "docs/features/CRAFTING.md": {
-      "sha256": "5c2cdc17521c7a6aa7afb35e5a191c72ae3d84cbbf8950beeac0783f851665c3",
-      "bytes": 850
+      "sha256": "af3d9bf39add968568d32ac425fa32ad8642c8ab4c3c1f1d521d500113c94078",
+      "bytes": 1997
     },
     "docs/features/DROPS.md": {
       "sha256": "f2d3130de9a0a057cea18ae507920f7fa573d1cfc9492ab2769bff75a40476b8",
@@ -206,6 +210,10 @@
     "docs/history/MAP_DATA_WIRING_2026-11-06.md": {
       "sha256": "2bb4f06f339d73a5b303319a129e435e2236f9fdfe34da135792f8f7105d4f96",
       "bytes": 6048
+    },
+    "docs/history/SMITHING_RECIPES_2009SCAPE_2026-11-06.md": {
+      "sha256": "aa6981ac3941c0c190ddecf7b7e5cd442e8e722f820f8b3f024a61c5f550f1ed",
+      "bytes": 1728
     },
     "docs/releases/PASS31.13.md": {
       "sha256": "4bbf8c596208b75117565fd5992783c18fb9227b1ec65d457f1cdd2268d01d50",
@@ -282,6 +290,10 @@
     "index.html": {
       "sha256": "2eb074560be14a12bcc34e6e70d19070072fe391a36e7b7e9193183690bd3946",
       "bytes": 258
+    },
+    "scripts/generate_release_manifest.py": {
+      "sha256": "e27bc9d6f2264aee4dc7bce7fdb6d762fb0bfc4d6610478504c3bed435fde924",
+      "bytes": 2964
     },
     "scripts/setup-git-hooks.sh": {
       "sha256": "48e2019e70f92d00546d0123a830f118c7a12e4871e0e493af1098b0027ea2f1",
@@ -209960,8 +209972,8 @@
       "bytes": 157090
     },
     "site/data/recipes.json": {
-      "sha256": "442a8322ad1cf0b663ab396c3aeabe11554cc69f9aaff82abdbb53517955aa1c",
-      "bytes": 135431
+      "sha256": "f6028db18e21ce5e098fdb4db5592428def8f2fb6ebfbb1f42527bbe8a26ace2",
+      "bytes": 259155
     },
     "site/data/relationships/index.json": {
       "sha256": "5b5ed09d9bd064dfffc05204b47eaecfbd64fbae45ab3833bf922878eddd8aec",
@@ -327824,7 +327836,7 @@
       "bytes": 2923
     },
     "site/release-manifest.json": {
-      "sha256": "fa6db96328dca59ab8591e05113466a1ecc5b85d05b17bcf57db03da1f4b3e4b",
+      "sha256": "686cd93fd4022c70f806eace7b1aa54b427f0ed42e3798a0538a3d664f61872e",
       "bytes": 12460674
     },
     "site/release.json": {
@@ -327848,8 +327860,8 @@
       "bytes": 2522
     },
     "tests/test_pass31_19.py": {
-      "sha256": "756d267b225fa1fc75d8d63073d72a0b54b9dfc0308e9fd8d147a9a9a862b04d",
-      "bytes": 2422
+      "sha256": "397f9e992b365350a10ef3194855b8dc3d10ca99d457e935ac7eaae59446ca82",
+      "bytes": 2547
     },
     "tests/test_pass31_20.py": {
       "sha256": "86a5d26d92adff93b3fa96b013abeaa46e403362f65a4ce1520930457555304d",
