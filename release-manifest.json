@@ -55,42 +55,6 @@
       "sha256": "9e71ddc09be3f863b5520a3e571a626651e8e89d7a69a7868adce6ff5cfd5446",
       "bytes": 170
     },
-    "data-pipeline/__pycache__/extract_authoritative_catalogs.cpython-312.pyc": {
-      "sha256": "ab34a4e2b9a034e160e0d7d7944e2c400f04a793f2da76614e95ffef1c43ed66",
-      "bytes": 14427
-    },
-    "data-pipeline/__pycache__/generate_acquisition.cpython-312.pyc": {
-      "sha256": "6f77f4481cc9903c630f205e27f9272addbd3ded6af2a36fb6812db0e41845b2",
-      "bytes": 6631
-    },
-    "data-pipeline/__pycache__/generate_drop_relationships.cpython-312.pyc": {
-      "sha256": "28e9d92f26abecf338d31f8aa17ea7edf4e0c3153484780a9a3ad71db31e4ec9",
-      "bytes": 12276
-    },
-    "data-pipeline/__pycache__/generate_fletching_recipes.cpython-312.pyc": {
-      "sha256": "05359be0b446d52602b616099ac495a7ab4c963f30a437a4b4aefda94df8ccae",
-      "bytes": 18639
-    },
-    "data-pipeline/__pycache__/generate_smithing_recipes.cpython-312.pyc": {
-      "sha256": "f17dc7750d48fd5e7567f4309e93e2b1deab3ed3cec96b685bafc7abeaa3aead",
-      "bytes": 9516
-    },
-    "data-pipeline/__pycache__/normalize_item_catalog.cpython-312.pyc": {
-      "sha256": "b78d366209a028a834c93912d82709d0025617870648e993921f21b1df41349d",
-      "bytes": 4150
-    },
-    "data-pipeline/__pycache__/refresh_2009scape_core.cpython-312.pyc": {
-      "sha256": "855880916a6bd80ad5476b6ffb9a489ccee8f0948e3480251c62758304eae570",
-      "bytes": 36091
-    },
-    "data-pipeline/__pycache__/refresh_2009scape_shops.cpython-312.pyc": {
-      "sha256": "2369a50367e26c84d14439639f362457f5521f20bc715064a7517e09b968f4c5",
-      "bytes": 11745
-    },
-    "data-pipeline/__pycache__/refresh_2009scape_spawns.cpython-312.pyc": {
-      "sha256": "38487c86db2ac315ae8b0bfe74181e7c3f9a76efea74698668681adc3ccd5dd0",
-      "bytes": 12098
-    },
     "data-pipeline/extract_authoritative_catalogs.py": {
       "sha256": "55fb15fa89c441227b136a6afff4fad089aee37b01f27adacb0ed80c08ead37c",
       "bytes": 8519
@@ -110,6 +74,14 @@
     "data-pipeline/generate_smithing_recipes.py": {
       "sha256": "c387794e5561fcf1bc840bca793573de1fd5f580a86639a3752fb9407c7616c5",
       "bytes": 4993
+    },
+    "data-pipeline/mapgen/cache.py": {
+      "sha256": "c82c4b8f810bf68a1fa0d62108550f2fdb28f32ab34b27c5bae6b92599be3d45",
+      "bytes": 5336
+    },
+    "data-pipeline/mapgen/world.py": {
+      "sha256": "5b4aba67fc2465718aa36bd4d97fc7fc0cd662f2cc6ca14f5339327bd53fca5f",
+      "bytes": 4354
     },
     "data-pipeline/normalize_item_catalog.py": {
       "sha256": "15a28abcbc848ca16ee0f029966609e1bdf4e677afc9fe2df853a65e0bd7ccf1",
@@ -308620,7 +308592,7 @@
       "bytes": 2923
     },
     "site/release-manifest.json": {
-      "sha256": "4d847d1feda999948519128dfcc469c4217420fb99acdf6888b3bb1cb6bff0ff",
+      "sha256": "3de82ec02118303188fe744c9a2a10928eddb0c9de9f098e2b6dbb7ae079d952",
       "bytes": 11793999
     },
     "site/release.json": {
@@ -308638,14 +308610,6 @@
     "site/sw.js": {
       "sha256": "23f2e2c3755ec0572bf3d77efe3a4a5db0cfe39b7e825818920ef26c17127c49",
       "bytes": 4302
-    },
-    "tests/__pycache__/test_pass31_33.cpython-312.pyc": {
-      "sha256": "3636afae98c523d6eeb198ab3eb1be9edd7ca71c176b8da09bd044078ee69c29",
-      "bytes": 3095
-    },
-    "tests/__pycache__/test_pass31_37.cpython-312.pyc": {
-      "sha256": "533d017474a069e1406f2d87d9e1e9113466787a2b0498c1c25a43a23484eca7",
-      "bytes": 4376
     },
     "tests/test_pass31_18.py": {
       "sha256": "ecf4be305f48c3d5258059cdecfaf988231c553176701310e8c13900a9988f71",
