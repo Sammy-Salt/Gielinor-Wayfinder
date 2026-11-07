@@ -1,1 +1,11 @@
-{"schemaVersion":1,"sourcePolicy":{"primary":"2009Scape","secondary":"OSRS Wiki"},"sources":[{"source":"2009Scape","role":"primary","detail":"Server Bars.java, SmithingType.java, BarType.java, smelting/Bar.java, item_configs.json"},{"source":"OSRS Wiki","role":"secondary","snapshot":"PASS31.9","detail":"Non-conflicting secondary recipes retained from prior snapshot"}],"snapshot":"PASS31.33-smithing-primary","counts":{"total":369,"from2009ScapeSmithing":167,"fromWikiSecondary":202},"recipes":[]}
+{
+  "schemaVersion": 1,
+  "sourcePolicy": {
+    "primary": "2009Scape",
+    "secondary": "OSRS Wiki"
+  },
+  "source": "OSRS Wiki",
+  "snapshot": "PASS31.9",
+  "recipes": [],
+  "_note": "Temporary stub. Replace with recipes.generated.json from agent artifacts (369 recipes, PASS31.33-smithing-primary). Previous full Wiki snapshot is in git history before placeholder commits."
+}
