@@ -1,0 +1,101 @@
+name: Build APK (TWA)
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_name:
+        description: 'Version name (e.g. 1.0.0)'
+        required: true
+        default: '1.0.0'
+      version_code:
+        description: 'Version code (integer)'
+        required: true
+        default: '1'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Install Bubblewrap CLI
+        run: npm install -g @bubblewrap/cli
+
+      - name: Create Android keystore (temporary for CI)
+        run: |
+          keytool -genkey -v \
+            -keystore android.keystore \
+            -alias android \
+            -keyalg RSA \
+            -keysize 2048 \
+            -validity 10000 \
+            -storepass android \
+            -keypass android \
+            -dname "CN=Gielinor Wayfinder, OU=Dev, O=Sammy-Salt, L=Unknown, ST=Unknown, C=US"
+
+      - name: Update twa-manifest version
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("android/twa-manifest.json")
+          data = json.loads(p.read_text())
+          data["appVersionName"] = "${{ github.event.inputs.version_name }}"
+          data["appVersionCode"] = int("${{ github.event.inputs.version_code }}")
+          p.write_text(json.dumps(data, indent=2) + "\n")
+          print("Updated version to", data["appVersionName"], data["appVersionCode"])
+          PY
+
+      - name: Initialize Bubblewrap project
+        run: |
+          mkdir -p twa-build
+          cp android/twa-manifest.json twa-build/twa-manifest.json
+          cp android.keystore twa-build/
+          cd twa-build
+          # Non-interactive init using existing manifest
+          bubblewrap init \
+            --manifest=https://sammy-salt.github.io/Gielinor-Wayfinder/manifest.webmanifest \
+            --directory=. \
+            --skipPwaValidation \
+            || true
+          # Ensure our manifest is used
+          cp ../android/twa-manifest.json ./twa-manifest.json
+
+      - name: Build APK
+        working-directory: twa-build
+        run: |
+          bubblewrap build \
+            --skipPwaValidation \
+            --signingKeyPath=./android.keystore \
+            --signingKeyAlias=android \
+            --signingKeyStorePassword=android \
+            --signingKeyPassword=android \
+            || bubblewrap build --skipPwaValidation
+
+      - name: Find and upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: gielinor-wayfinder-apk
+          path: |
+            twa-build/app-release-signed.apk
+            twa-build/app/build/outputs/apk/release/*.apk
+            twa-build/*.apk
+          if-no-files-found: warn
+
+      - name: List build outputs
+        run: find twa-build -name "*.apk" -o -name "*.aab" | head -20 || true
