@@ -23,6 +23,10 @@ function tileCenter(x, y) {
 
 let currentPlane = 0;
 
+function escapeHtml(value){
+    return String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+
 function planeMaxZoom(plane){
     return Number(plane) === 0 ? 8 : 8;
 }
@@ -37,6 +41,9 @@ const map = L.map("map",{
 /*
  * The original OSRS tile system uses TMS numbering.
  */
+// Solid-black tiles were pruned (PASS31.39); a missing tile shows the black map background.
+const BLANK_TILE = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+
 let tileLayer =
     L.tileLayer(
         `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
@@ -44,6 +51,7 @@ let tileLayer =
             minZoom:4,
             maxZoom:planeMaxZoom(currentPlane),
             tms:true,
+            errorTileUrl:BLANK_TILE,
             tileSize:256,
             noWrap:true,
             keepBuffer:2,
@@ -111,9 +119,11 @@ function osrsToLatLng(x, y){
         MAP_HEIGHT_MAX_ZOOM_PX -
         ((Number(y) - RS_OFFSET_Y) * RS_TILE_HEIGHT_PX);
 
+    // Pixel constants above are in zoom-11 space (matches mapToOSRS). Do not use
+    // map.getMaxZoom(): the tile pyramid stops at 8, so that value gave clamped lat/lng.
     return map.unproject(
         L.point(px, py),
-        map.getMaxZoom()
+        11
     );
 }
 
@@ -273,105 +283,104 @@ function planeItems(index, plane){
     return index.get(Number(plane)) || [];
 }
 
-function addInteractiveMarkers(){
+/*
+ * Clustered NPC / monster / shop markers. There are ~14,000 spawn markers, so markers are
+ * bucketed into screen-space cells at the current zoom and only the visible area is drawn.
+ */
+const CLUSTER_CELL_PX = 56;
+const CLUSTER_ZOOM_STOP = 8;       // at/above this zoom every marker is drawn individually
+const clusterKinds = [
+    { type:"NPC", layer:npcLayer, index:npcByPlane, label:"NPC" },
+    { type:"Monster", layer:monsterLayer, index:monsterByPlane, label:"Monster" },
+    { type:"Shop", layer:shopLayer, index:shopByPlane, label:"Shop" }
+];
 
-    npcLayer.clearLayers();
-    monsterLayer.clearLayers();
-    shopLayer.clearLayers();
-
-    planeItems(npcByPlane, currentPlane).forEach(function(npc){
-
-        const target =
-            osrsToLatLng(npc.x,npc.y);
-
-        const marker =
-            L.marker(
-                [target.lat,target.lng],
-                {
-                    icon:markerIcon("NPC")
-                }
-            );
-
-        marker.on("click",function(){
-
-            showLocation({
-                name:npc.name,
-                description:npc.description ||
-                    npc.examine || "NPC",
-                category:"NPC",
-                x:npc.x,
-                y:npc.y,
-                plane:npc.plane ?? 0
-            });
-
-        });
-
-        npcLayer.addLayer(marker);
-    });
-
-    planeItems(monsterByPlane, currentPlane).forEach(function(monster){
-
-        const target =
-            osrsToLatLng(monster.x,monster.y);
-
-        const marker =
-            L.marker(
-                [target.lat,target.lng],
-                {
-                    icon:markerIcon("Monster")
-                }
-            );
-
-        marker.on("click",function(){
-
-            showLocation({
-                name:monster.name,
-                description:monster.description ||
-                    monster.examine || "Monster",
-                category:"Monster",
-                id:monster.id,
-                x:monster.x,
-                y:monster.y,
-                plane:monster.plane ?? 0
-            });
-
-        });
-
-        monsterLayer.addLayer(marker);
-    });
-
-    planeItems(shopByPlane, currentPlane).forEach(function(shop){
-
-        const target =
-            osrsToLatLng(shop.x,shop.y);
-
-        const marker =
-            L.marker(
-                [target.lat,target.lng],
-                {
-                    icon:markerIcon("Shop")
-                }
-            );
-
-        marker.on("click",function(){
-
-            showLocation({
-                name:shop.name,
-                description:
-                    shop.description ||
-                    shop.type ||
-                    "Shop",
-                category:"Shop",
-                x:shop.x,
-                y:shop.y,
-                plane:shop.plane ?? 0
-            });
-
-        });
-
-        shopLayer.addLayer(marker);
+function clusterIcon(type, count){
+    const size = count > 99 ? 40 : 34;
+    return L.divIcon({
+        className:"map-cluster map-cluster-" + type.toLowerCase(),
+        html:"<span>" + count + "</span>",
+        iconSize:[size,size],
+        iconAnchor:[size/2,size/2]
     });
 }
+
+function markerDetails(type, rec){
+    return {
+        name:rec.name,
+        description:rec.description || rec.examine || rec.type || type,
+        category:type,
+        id:rec.id,
+        x:rec.x,
+        y:rec.y,
+        plane:rec.plane ?? 0,
+        owner:rec.owner,
+        shopType:rec.shopType
+    };
+}
+
+function drawKind(kind, bounds, zoom){
+    kind.layer.clearLayers();
+    const cells = new Map();
+    for (const rec of planeItems(kind.index, currentPlane)) {
+        const ll = osrsToLatLng(rec.x, rec.y);
+        if (!bounds.contains(ll)) continue;
+        if (zoom >= CLUSTER_ZOOM_STOP) {
+            cells.set(cells.size + ":" + rec.x + ":" + rec.y + ":" + rec.name, [{ rec, ll }]);
+            continue;
+        }
+        const pt = map.project(ll, zoom);
+        const key = Math.floor(pt.x / CLUSTER_CELL_PX) + ":" + Math.floor(pt.y / CLUSTER_CELL_PX);
+        let cell = cells.get(key);
+        if (!cell) cells.set(key, cell = []);
+        cell.push({ rec, ll });
+    }
+    for (const group of cells.values()) {
+        if (group.length === 1) {
+            const { rec, ll } = group[0];
+            const marker = L.marker(ll, { icon: markerIcon(kind.type) });
+            marker.on("click", () => showLocation(markerDetails(kind.type, rec)));
+            kind.layer.addLayer(marker);
+            continue;
+        }
+        const lat = group.reduce((t, g) => t + g.ll.lat, 0) / group.length;
+        const lng = group.reduce((t, g) => t + g.ll.lng, 0) / group.length;
+        const cluster = L.marker([lat, lng], { icon: clusterIcon(kind.type, group.length) });
+        cluster.on("click", () => {
+            const b = L.latLngBounds(group.map(g => g.ll));
+            map.fitBounds(b.pad(0.2), { maxZoom: CLUSTER_ZOOM_STOP, animate: true });
+            if (map.getZoom() <= zoom) map.setZoom(Math.min(zoom + 2, map.getMaxZoom()));
+        });
+        kind.layer.addLayer(cluster);
+    }
+}
+
+let clusterTimer = null;
+function addInteractiveMarkers(){
+    const bounds = map.getBounds().pad(0.25);
+    const zoom = map.getZoom();
+    for (const kind of clusterKinds) drawKind(kind, bounds, zoom);
+}
+
+function scheduleMarkerRefresh(){
+    clearTimeout(clusterTimer);
+    clusterTimer = setTimeout(addInteractiveMarkers, 80);
+}
+map.on("moveend zoomend", scheduleMarkerRefresh);window.__dbg={map,osrsToLatLng};
+
+// The shared nav sits above the map, so overlays are positioned from the map's real top edge.
+function layoutOverlays(){
+    const nav = document.getElementById("site-nav");
+    if (nav) document.body.style.paddingTop = Math.ceil(nav.getBoundingClientRect().bottom) + "px";
+    const top = document.getElementById("map").getBoundingClientRect().top;
+    document.documentElement.style.setProperty("--map-top", Math.max(0, Math.round(top)) + "px");
+    map.invalidateSize();
+    scheduleMarkerRefresh();
+}
+window.addEventListener("resize", layoutOverlays);
+window.addEventListener("load", layoutOverlays);
+setTimeout(layoutOverlays, 400);
+setTimeout(layoutOverlays, 1500);   // the shell/app-tools bar is injected asynchronously
 
 function addLocations(){
 
@@ -568,6 +577,7 @@ search.addEventListener(
                                     minZoom:4,
                                     maxZoom:planeMaxZoom(currentPlane),
                                     tms:true,
+            errorTileUrl:BLANK_TILE,
                                     tileSize:256,
                                     noWrap:true,
                                     attribution:"OSRS map tiles © Explv"
@@ -634,6 +644,7 @@ document
                         minZoom:4,
                         maxZoom:planeMaxZoom(currentPlane),
                         tms:true,
+            errorTileUrl:BLANK_TILE,
                         tileSize:256,
                         noWrap:true,
                         attribution:
