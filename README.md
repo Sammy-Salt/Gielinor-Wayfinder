@@ -1,6 +1,6 @@
 # Gielinor Wayfinder
 
-a test build is currently on the website
+An outdated test build is currently on the website but gives proof of concept.
 **Gielinor Wayfinder** is an offline-first companion and reference Progressive Web App (PWA) for **2009Scape**. It aims to make useful game information easy to find, explore, and use on desktop and mobile—even when an internet connection is unavailable.
 
 ## Project Goals
