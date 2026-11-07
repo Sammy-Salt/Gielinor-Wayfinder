@@ -27,18 +27,21 @@ def xtea_decrypt(data: bytes, key: list[int]) -> bytes:
 
 
 def unpack_container(raw: bytes, key: list[int] | None = None) -> bytes:
+    """Container = compression byte, u32 length, [u32 uncompressed length], payload.
+    XTEA covers everything after the first 5 bytes (including the uncompressed-length field)."""
     comp = raw[0]
     length = struct.unpack(">I", raw[1:5])[0]
-    if comp == 0:
-        body = raw[5:5 + length]
-        return xtea_decrypt(body, key) if key else body
-    body = raw[9:9 + length]
-    if key:
+    end = 5 + length + (0 if comp == 0 else 4)
+    body = raw[5:end]
+    if key and any(key):
         body = xtea_decrypt(body, key)
+    if comp == 0:
+        return body
+    body = body[4:]
     if comp == 1:
         return bz2.decompress(b"BZh1" + body)
     if comp == 2:
-        return zlib.decompress(body, 31)
+        return gzip.decompress(body)
     raise ValueError(f"unknown compression {comp}")
 
 

@@ -50,7 +50,8 @@ def load_floor_defs(cache: Cache) -> tuple[dict, dict]:
             if op == 1: d["rgb"] = r.u24()
             elif op == 2:
                 t = r.u8(); d["texture"] = -1 if t == 255 else t
-            elif op == 3: r.u16()
+            elif op == 3:
+                t = r.u16(); d["texture"] = -1 if t == 0xFFFF else t
             elif op == 5: d["hide"] = False
             elif op == 7: d["secondary"] = r.u24()
             elif op == 8: pass
