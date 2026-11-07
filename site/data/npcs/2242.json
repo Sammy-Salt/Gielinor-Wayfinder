@@ -1,1 +1,1 @@
-{"id":2242,"name":"Piglet","examine":"Porcine.","options":null,"locations":[{"x":3076,"y":3260,"plane":0,"walks":true,"direction":1},{"x":3078,"y":3260,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":2242,"name":"Piglet","examine":"Porcine.","options":null,"locations":[{"x":3076,"y":3260,"plane":0,"walks":true,"direction":1},{"x":3078,"y":3260,"plane":0,"walks":true,"direction":6}],"aliases":[]}

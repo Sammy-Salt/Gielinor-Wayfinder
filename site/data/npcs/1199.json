@@ -1,1 +1,1 @@
-{"id":1199,"name":"Elf Tracker","examine":"An elf tracker.","options":null,"locations":[{"x":2194,"y":3255,"plane":0,"walks":false,"direction":6},{"x":2262,"y":3151,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}
+{"id":1199,"name":"Elf Tracker","examine":"An elf tracker.","options":null,"locations":[{"x":2194,"y":3255,"plane":0,"walks":false,"direction":6},{"x":2262,"y":3151,"plane":0,"walks":true,"direction":0}],"aliases":[]}

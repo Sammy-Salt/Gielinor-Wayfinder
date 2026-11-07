@@ -1,6 +1,7 @@
 import { OSRS } from "../core/osrs.js";
 import { escapeHTML as esc } from "../core/utils.js";
 import { Catalog } from "../services/catalog-service.js";
+import { shopsHTML } from "../services/shop-service.js";
 
 const params = new URLSearchParams(location.search);
 const id = Number(params.get("id"));
@@ -201,6 +202,8 @@ ${section("Special Properties",specialKeys,monster)}
                     ${locationHTML}
                 </div>
             </details>
+
+            ${await shopsHTML(monster.id ?? id)}
 
             ${await (async()=>{
                 const rows = await OSRS.Relationships.monsterDrops(monster.id ?? id);

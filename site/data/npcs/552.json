@@ -1,1 +1,1 @@
-{"id":552,"name":"Shop assistant","examine":"Helps the shopkeeper sell swords.","options":null,"locations":[{"x":3206,"y":3400,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}
+{"id":552,"name":"Shop assistant","examine":"Helps the shopkeeper sell swords.","options":null,"locations":[{"x":3206,"y":3400,"plane":0,"walks":true,"direction":3}],"aliases":[]}

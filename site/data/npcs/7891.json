@@ -1,1 +1,1 @@
-{"id":7891,"name":"Melee dummy","examine":"A melee training dummy","options":null,"locations":[{"x":3207,"y":3250,"plane":0,"walks":false,"direction":0},{"x":3208,"y":3250,"plane":0,"walks":false,"direction":0},{"x":3209,"y":3250,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":7891,"name":"Melee dummy","examine":"A melee training dummy","options":null,"locations":[{"x":3207,"y":3250,"plane":0,"walks":false,"direction":0},{"x":3208,"y":3250,"plane":0,"walks":false,"direction":0},{"x":3209,"y":3250,"plane":0,"walks":false,"direction":0}],"aliases":[]}

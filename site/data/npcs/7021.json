@@ -1,1 +1,1 @@
-{"id":7021,"name":"Platypus","examine":"A most unlikely creature.","options":null,"locations":[{"x":2510,"y":2822,"plane":0,"walks":true,"direction":3},{"x":2511,"y":2823,"plane":0,"walks":true,"direction":4},{"x":2509,"y":2825,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":7021,"name":"Platypus","examine":"A most unlikely creature.","options":null,"locations":[{"x":2510,"y":2822,"plane":0,"walks":true,"direction":3},{"x":2511,"y":2823,"plane":0,"walks":true,"direction":4},{"x":2509,"y":2825,"plane":0,"walks":true,"direction":6}],"aliases":[]}

@@ -1,1 +1,1 @@
-{"id":498,"name":"Banker","examine":"Manages money momentarily.","options":null,"locations":[{"x":2384,"y":4457,"plane":0,"walks":false,"direction":7},{"x":2385,"y":4461,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}
+{"id":498,"name":"Banker","examine":"Manages money momentarily.","options":null,"locations":[{"x":2384,"y":4457,"plane":0,"walks":false,"direction":7},{"x":2385,"y":4461,"plane":0,"walks":false,"direction":1}],"aliases":[]}

@@ -1,1 +1,1 @@
-{"id":380,"name":"Customs officer","examine":"Inspects people's packages.","options":null,"locations":[{"x":2953,"y":3149,"plane":0,"walks":false,"direction":0},{"x":2770,"y":3226,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":380,"name":"Customs officer","examine":"Inspects people's packages.","options":null,"locations":[{"x":2953,"y":3149,"plane":0,"walks":false,"direction":0},{"x":2770,"y":3226,"plane":0,"walks":false,"direction":0}],"aliases":[]}

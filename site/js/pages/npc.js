@@ -1,6 +1,7 @@
 import { OSRS } from "../core/osrs.js";
 import { escapeHTML as esc } from "../core/utils.js";
 import { Catalog } from "../services/catalog-service.js";
+import { shopsHTML } from "../services/shop-service.js";
 
 const params=new URLSearchParams(location.search);
 const id=Number(params.get("id"));
@@ -23,7 +24,6 @@ try {
 meta=(await OSRS.Data.list("npcs")).find(x=>Number(x.id)===id)||null;
 if(!meta){OSRS.setHTML(app,'<div class="card">NPC not found.</div>');return;}
 const npc=await Catalog.get("npcs",id);
-const itemNameIndex=await OSRS.Data.itemNameIndex();
 
 document.title=npc.name||"NPC";
 
@@ -80,38 +80,7 @@ html+=`
 <div>${locationHTML}</div>
 </details>`;
 
-if(npc.shops?.length){
-html+=`<details>
-<summary>🏪 Shops — ${npc.shops.length} ▸</summary><div>`;
-
-for(const shop of npc.shops){
-html+=`<div class="location">
-<strong>${esc(shop.name)}</strong>
-<div class="muted">${esc(shop.location||"")}</div>`;
-
-if(shop.items?.length){
-html+=`<div class="table-scroll"><table>
-<thead><tr><th>Item</th><th>Stock</th><th>Restock</th><th>Sell</th><th>Buy</th></tr></thead><tbody>`;
-
-for(const item of shop.items){
-let name=esc(item.item_name);
-const iid=itemNameIndex[String(item.item_name).toLowerCase()];
-if(iid)name=`<a href="item.html?id=${encodeURIComponent(iid)}">${name}</a>`;
-
-html+=`<tr>
-<td>${name}</td>
-<td>${esc(item.stock)}</td>
-<td>${esc(item.restock)}</td>
-<td>${esc(item.sell_price)}</td>
-<td>${esc(item.buy_price)}</td>
-</tr>`;
-}
-html+=`</tbody></table></div>`;
-}
-html+=`</div>`;
-}
-html+=`</div></details>`;
-}
+html+=await shopsHTML(id);
 
 OSRS.setHTML(app,html);
 } catch(error) { OSRS.setHTML(app,'<div class="card">NPC detail data could not be loaded.</div>'); }

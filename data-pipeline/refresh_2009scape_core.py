@@ -357,6 +357,36 @@ def write_compact(rel: str, obj, newline: str = "", ascii_only: bool = False) ->
     (DATA / rel).write_text(text, encoding="utf-8")
 
 
+def rewrite_derived(items, monsters, npcs, tables) -> dict:
+    """Rewrite every file derived from the three catalogs (indexes, search, graph, counts)."""
+    old_graph = read_json(DATA / "knowledge/index.json")
+    quests = [e for e in old_graph["entities"] if e["type"] == "quest"]
+    quest_edges = [e for e in old_graph["edges"] if e[2] != "drops"]
+    write_compact("items/index.json", derive_item_index(items))
+    write_compact("monsters/index.json", derive_monster_index(monsters))
+    write_compact("monsters/display-index.json", derive_display_index(monsters))
+    write_compact("monsters/bosses.json", derive_bosses(monsters))
+    write_compact("npcs/index.json", derive_npc_index(npcs))
+    pairs = pairs_from_tables(tables)
+    left = {nid: next((e["name"] for e in old_graph["entities"] if e["type"] == "monster" and e["id"] == nid), None)
+            for nid in drop_npc_ids(tables) if nid not in monsters}
+    ents = derive_entities(items, monsters, npcs, quests, {k: v for k, v in left.items() if v})
+    graph = derive_graph(ents, pairs, quest_edges)
+    write_compact("knowledge/index.json", graph, ascii_only=True)
+    search = derive_search_index(items, monsters, npcs, quests)
+    write_compact("knowledge/search-index.json", search)
+    qp = DATA / "quality-report.json"; q = read_json(qp)
+    q["counts"].update(knowledgeEntities=len(ents), knowledgeEdges=len(graph["edges"]), searchRecords=len(search))
+    qp.write_text(json.dumps(q, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    cp = DATA / "catalog-manifest.json"; c = read_json(cp)
+    c["counts"].update(items=len(items), monsters=len(monsters), npcs=len(npcs))
+    c["detailFiles"].update(items=len(items) + 2, monsters=len(monsters) + 2, npcs=len(npcs) + 1)
+    c["searchRecords"] = len(search)
+    c["knowledge"].update(entities=len(ents), edges=len(graph["edges"]), searchRecords=len(search))
+    cp.write_text(json.dumps(c, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return {"entities": len(ents), "edges": len(graph["edges"]), "search": len(search)}
+
+
 def refresh(upstream: Path) -> int:
     up_items = {int(x["id"]): x for x in read_json(upstream / "item_configs.json")}
     up_npcs = {int(x["id"]): x for x in read_json(upstream / "npc_configs.json")}

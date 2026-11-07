@@ -1,1 +1,1 @@
-{"id":858,"name":"Ogre guard","examine":"These ogres protect the city.","options":null,"locations":[{"x":2549,"y":3029,"plane":0,"walks":true,"direction":0},{"x":2551,"y":3031,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}
+{"id":858,"name":"Ogre guard","examine":"These ogres protect the city.","options":null,"locations":[{"x":2549,"y":3029,"plane":0,"walks":true,"direction":0},{"x":2551,"y":3031,"plane":0,"walks":true,"direction":0}],"aliases":[]}

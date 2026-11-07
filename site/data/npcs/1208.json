@@ -1,1 +1,1 @@
-{"id":1208,"name":"Quartermaster","examine":"Responsible for the food and equipment of the troops.","options":null,"locations":[{"x":2194,"y":3140,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}
+{"id":1208,"name":"Quartermaster","examine":"Responsible for the food and equipment of the troops.","options":null,"locations":[{"x":2194,"y":3140,"plane":0,"walks":true,"direction":5}],"aliases":[]}

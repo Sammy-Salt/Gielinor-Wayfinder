@@ -1,1 +1,1 @@
-{"id":3287,"name":"Raccoon","examine":"A raccoon.","options":null,"locations":[{"x":3073,"y":3443,"plane":0,"walks":true,"direction":0},{"x":2987,"y":3444,"plane":0,"walks":true,"direction":0},{"x":3046,"y":3453,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":3287,"name":"Raccoon","examine":"A raccoon.","options":null,"locations":[{"x":3073,"y":3443,"plane":0,"walks":true,"direction":0},{"x":2987,"y":3444,"plane":0,"walks":true,"direction":0},{"x":3046,"y":3453,"plane":0,"walks":true,"direction":6}],"aliases":[]}

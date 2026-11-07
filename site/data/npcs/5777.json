@@ -1,1 +1,1 @@
-{"id":5777,"name":"Banker","examine":"Looks after cave goblin money.","options":null,"locations":[{"x":2699,"y":5348,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}
+{"id":5777,"name":"Banker","examine":"Looks after cave goblin money.","options":null,"locations":[{"x":2699,"y":5348,"plane":0,"walks":false,"direction":4}],"aliases":[]}

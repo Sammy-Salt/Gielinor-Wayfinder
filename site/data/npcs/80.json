@@ -1,1 +1,1 @@
-{"id":80,"name":"Camel","examine":"Oh, it's a camel.","options":null,"locations":[{"x":2619,"y":3265,"plane":0,"walks":true,"direction":0},{"x":2619,"y":3265,"plane":0,"walks":true,"direction":3},{"x":2615,"y":3267,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}
+{"id":80,"name":"Camel","examine":"Oh, it's a camel.","options":null,"locations":[{"x":2619,"y":3265,"plane":0,"walks":true,"direction":0},{"x":2619,"y":3265,"plane":0,"walks":true,"direction":3},{"x":2615,"y":3267,"plane":0,"walks":true,"direction":4}],"aliases":[]}

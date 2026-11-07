@@ -1,1 +1,1 @@
-{"id":851,"name":"Gnome Waiter","examine":"He can serve you gnome food.","options":null,"locations":[{"x":2449,"y":3503,"plane":1,"walks":true,"direction":4}],"aliases":[],"shops":[]}
+{"id":851,"name":"Gnome Waiter","examine":"He can serve you gnome food.","options":null,"locations":[{"x":2449,"y":3503,"plane":1,"walks":true,"direction":4}],"aliases":[]}

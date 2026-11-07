@@ -1,1 +1,1 @@
-{"id":3310,"name":"Sheep","examine":"White and fluffy","options":null,"locations":[{"x":2415,"y":4451,"plane":0,"walks":true,"direction":6},{"x":2416,"y":4435,"plane":0,"walks":true,"direction":7},{"x":2423,"y":4432,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}
+{"id":3310,"name":"Sheep","examine":"White and fluffy","options":null,"locations":[{"x":2415,"y":4451,"plane":0,"walks":true,"direction":6},{"x":2416,"y":4435,"plane":0,"walks":true,"direction":7},{"x":2423,"y":4432,"plane":0,"walks":true,"direction":4}],"aliases":[]}

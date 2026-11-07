@@ -1,1 +1,1 @@
-{"id":3198,"name":"Banker","examine":"He can look after my money.","options":null,"locations":[{"x":3682,"y":2982,"plane":0,"walks":false,"direction":3}],"aliases":[],"shops":[]}
+{"id":3198,"name":"Banker","examine":"He can look after my money.","options":null,"locations":[{"x":3682,"y":2982,"plane":0,"walks":false,"direction":3}],"aliases":[]}

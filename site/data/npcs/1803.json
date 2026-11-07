@@ -1,1 +1,1 @@
-{"id":1803,"name":"Rock pile","examine":"A pile of boulders.","options":null,"locations":[{"x":2620,"y":9833,"plane":0,"walks":false,"direction":0},{"x":2620,"y":9836,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":1803,"name":"Rock pile","examine":"A pile of boulders.","options":null,"locations":[{"x":2620,"y":9833,"plane":0,"walks":false,"direction":0},{"x":2620,"y":9836,"plane":0,"walks":false,"direction":0}],"aliases":[]}

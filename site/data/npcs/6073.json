@@ -1,1 +1,1 @@
-{"id":6073,"name":"Wandering impling","examine":"He looks a little lost.","options":null,"locations":[{"x":2594,"y":4319,"plane":0,"walks":true,"direction":6},{"x":2424,"y":4436,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":6073,"name":"Wandering impling","examine":"He looks a little lost.","options":null,"locations":[{"x":2594,"y":4319,"plane":0,"walks":true,"direction":6},{"x":2424,"y":4436,"plane":0,"walks":false,"direction":0}],"aliases":[]}

@@ -1,1 +1,1 @@
-{"id":3285,"name":"Squirrel","examine":"Bushy tail!","options":null,"locations":[{"x":2952,"y":3376,"plane":0,"walks":false,"direction":0},{"x":3036,"y":3430,"plane":0,"walks":true,"direction":3},{"x":3025,"y":3442,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":3285,"name":"Squirrel","examine":"Bushy tail!","options":null,"locations":[{"x":2952,"y":3376,"plane":0,"walks":false,"direction":0},{"x":3036,"y":3430,"plane":0,"walks":true,"direction":3},{"x":3025,"y":3442,"plane":0,"walks":false,"direction":0}],"aliases":[]}

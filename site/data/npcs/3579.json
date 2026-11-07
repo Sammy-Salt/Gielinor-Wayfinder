@@ -1,1 +1,1 @@
-{"id":3579,"name":"Sheep","examine":"Is it a sheep?","options":null,"locations":[{"x":3195,"y":3263,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}
+{"id":3579,"name":"Sheep","examine":"Is it a sheep?","options":null,"locations":[{"x":3195,"y":3263,"plane":0,"walks":true,"direction":0}],"aliases":[]}

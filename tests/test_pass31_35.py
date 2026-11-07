@@ -7,9 +7,10 @@ def chk(c, m):
     if not c: errors.append(m)
 npcs = {int(p.stem): json.loads(p.read_text()) for p in (D / "npcs").glob("[0-9]*.json")}
 mons = {int(p.stem): json.loads(p.read_text()) for p in (D / "monsters").glob("[0-9]*.json")}
-chk(len(npcs) == 1646, f"npc count {len(npcs)}")
+chk(len(npcs) == 1668, f"npc count {len(npcs)} (1646 spawned + 22 shopkeepers added in PASS31.36)")
 chk(not set(npcs) & set(mons), "an id is both an NPC and a monster")
-chk(all(n.get("locations") for n in npcs.values()), "NPC without a spawn")
+shop_npcs = {n for s in json.loads((D / "shops.json").read_text())["shops"] for n in s["npcs"]}
+chk(all(n.get("locations") or n["id"] in shop_npcs for n in npcs.values()), "NPC without a spawn that is not a shopkeeper")
 chk((npcs.get(0) or mons.get(0) or {}).get("name") == "Hans", "id 0 must be Hans (2009Scape id space)")
 for r in list(npcs.values()) + list(mons.values()):
     for l in r.get("locations", []):

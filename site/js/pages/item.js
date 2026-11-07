@@ -66,7 +66,7 @@ function render(item,drops,shops,ground){
 
   html+=`<details><summary>🏪 Shops <span class="count">(${shops.length})</span></summary><div class="source-body">`;
   if(!shops.length) html+=`<div class="empty">No trusted 2009Scape shop relationships.</div>`;
-  else for(const shop of shops){html+=`<div class="source-entry"><strong>${esc(shop.shopName||"Unknown Shop")}</strong>${row("Shop ID",shop.shopId)}${row("Location",shop.location)}${row("Owner",shop.owner)}${row("Shop Type",shop.shopType)}${row("Stock",shop.stock)}${row("Restock",shop.restock)}<div class="muted">Primary source: 2009Scape.</div></div>`;}
+  else for(const shop of shops){html+=`<div class="source-entry"><strong>${esc(shop.shopName||"Unknown Shop")}</strong>${row("Shop ID",shop.shopId)}${row("Location",shop.location)}${row("Owner",shop.owner)}${row("Shop Type",shop.shopType)}${row("Stock",shop.stock<0?"Unlimited":shop.stock)}${row("Restock",shop.restock)}<div class="muted">Primary source: 2009Scape.</div></div>`;}
   html+=`</div></details>`;
 
   if(ground?.status==="known"&&Array.isArray(ground.spawns)&&ground.spawns.length) html+=`<div class="source-entry"><strong>🪨 Ground Spawns (${ground.spawns.length})</strong><div class="muted">Source: 2009Scape. Respawn is in game ticks.</div>${ground.spawns.map(s=>`<div>X: ${esc(s.x)}&nbsp;&nbsp;Y: ${esc(s.y)}&nbsp;&nbsp;Plane: ${esc(s.plane)}&nbsp;&nbsp;Amount: ${esc(s.amount)}&nbsp;&nbsp;Respawn: ${esc(s.respawn)}</div>`).join("")}</div>`;

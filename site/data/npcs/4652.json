@@ -1,1 +1,1 @@
-{"id":4652,"name":"Trader Crewmember","examine":"That suit looks a little briny around the edges.","options":null,"locations":[{"x":2674,"y":3144,"plane":0,"walks":true,"direction":3},{"x":3701,"y":3501,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":4652,"name":"Trader Crewmember","examine":"That suit looks a little briny around the edges.","options":null,"locations":[{"x":2674,"y":3144,"plane":0,"walks":true,"direction":3},{"x":3701,"y":3501,"plane":0,"walks":true,"direction":6}],"aliases":[]}

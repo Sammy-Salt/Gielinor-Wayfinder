@@ -1,1 +1,1 @@
-{"id":2067,"name":"Fishing spot","examine":"I can see fish swimming in the water.","options":null,"locations":[{"x":3154,"y":9544,"plane":0,"walks":false,"direction":0},{"x":3245,"y":9570,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":2067,"name":"Fishing spot","examine":"I can see fish swimming in the water.","options":null,"locations":[{"x":3154,"y":9544,"plane":0,"walks":false,"direction":0},{"x":3245,"y":9570,"plane":0,"walks":false,"direction":0}],"aliases":[]}

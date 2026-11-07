@@ -1,1 +1,1 @@
-{"id":4474,"name":"Magic dummy","examine":"A magic training dummy","options":null,"locations":[{"x":3214,"y":3252,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3253,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3254,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}
+{"id":4474,"name":"Magic dummy","examine":"A magic training dummy","options":null,"locations":[{"x":3214,"y":3252,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3253,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3254,"plane":0,"walks":false,"direction":0}],"aliases":[]}

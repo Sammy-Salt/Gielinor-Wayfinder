@@ -1,1 +1,1 @@
-{"id":131,"name":"Penguin","examine":"An inhabitant of icy regions.","options":null,"locations":[{"x":2594,"y":3271,"plane":0,"walks":true,"direction":4},{"x":2593,"y":3269,"plane":0,"walks":true,"direction":1},{"x":2592,"y":3272,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":131,"name":"Penguin","examine":"An inhabitant of icy regions.","options":null,"locations":[{"x":2594,"y":3271,"plane":0,"walks":true,"direction":4},{"x":2593,"y":3269,"plane":0,"walks":true,"direction":1},{"x":2592,"y":3272,"plane":0,"walks":true,"direction":6}],"aliases":[]}

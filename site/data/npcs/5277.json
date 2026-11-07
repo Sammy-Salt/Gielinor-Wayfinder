@@ -1,1 +1,1 @@
-{"id":5277,"name":"Menaphite guard","examine":"A guard of Menaphos.","options":null,"locations":[{"x":3264,"y":2784,"plane":0,"walks":false,"direction":1},{"x":3264,"y":2785,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}
+{"id":5277,"name":"Menaphite guard","examine":"A guard of Menaphos.","options":null,"locations":[{"x":3264,"y":2784,"plane":0,"walks":false,"direction":1},{"x":3264,"y":2785,"plane":0,"walks":false,"direction":6}],"aliases":[]}

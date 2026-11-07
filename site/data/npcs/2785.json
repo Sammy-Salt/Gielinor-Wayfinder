@@ -1,1 +1,1 @@
-{"id":2785,"name":"Slave","examine":"Digging.","options":null,"locations":[{"x":2000,"y":4613,"plane":0,"walks":false,"direction":0},{"x":2000,"y":4611,"plane":0,"walks":false,"direction":5}],"aliases":[],"shops":[]}
+{"id":2785,"name":"Slave","examine":"Digging.","options":null,"locations":[{"x":2000,"y":4613,"plane":0,"walks":false,"direction":0},{"x":2000,"y":4611,"plane":0,"walks":false,"direction":5}],"aliases":[]}

@@ -1,1 +1,1 @@
-{"id":5910,"name":"Cook","examine":"A greasy, grimy gourmet.","options":null,"locations":[{"x":3230,"y":3401,"plane":0,"walks":false,"direction":0},{"x":3284,"y":3491,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}
+{"id":5910,"name":"Cook","examine":"A greasy, grimy gourmet.","options":null,"locations":[{"x":3230,"y":3401,"plane":0,"walks":false,"direction":0},{"x":3284,"y":3491,"plane":0,"walks":true,"direction":1}],"aliases":[]}

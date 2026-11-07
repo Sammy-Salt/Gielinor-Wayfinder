@@ -1,1 +1,1 @@
-{"id":398,"name":"Legends guard","examine":"A Legends Guild guard; he protects the entrance to the Legends Guild.","options":null,"locations":[{"x":2849,"y":5091,"plane":0,"walks":false,"direction":0},{"x":2726,"y":3349,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}
+{"id":398,"name":"Legends guard","examine":"A Legends Guild guard; he protects the entrance to the Legends Guild.","options":null,"locations":[{"x":2849,"y":5091,"plane":0,"walks":false,"direction":0},{"x":2726,"y":3349,"plane":0,"walks":true,"direction":6}],"aliases":[]}
