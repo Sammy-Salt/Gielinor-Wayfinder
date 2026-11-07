@@ -1,1 +1,1 @@
-{"id":2319,"name":"Fishing spot (Piscatoris Fishing Colony)","version":null,"options":"Fish","locations":[],"aliases":["Fishing spot (piscatoris fishing colony)"],"shops":[]}
+{"id":2319,"name":"Piglet","examine":"Porcine.","options":null,"locations":[{"x":3017,"y":3309,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

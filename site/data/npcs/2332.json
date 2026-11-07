@@ -1,1 +1,1 @@
-{"id":2332,"name":"Fishing spot (lantern)","version":null,"options":"Harpoon","locations":[],"aliases":["Lantern fishing spot"],"shops":[]}
+{"id":2332,"name":"Selena","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":2573,"y":3102,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

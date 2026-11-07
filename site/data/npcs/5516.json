@@ -1,1 +1,1 @@
-{"id":5516,"name":"Sigismund","version":null,"options":"Talk-to","locations":[{"name":"Sigismund","x":3135,"y":3622}],"aliases":[],"shops":[]}
+{"id":5516,"name":"Honour guard","examine":"The Burgher's protectors.","options":null,"locations":[{"x":2329,"y":3808,"plane":1,"walks":true,"direction":4},{"x":2347,"y":3890,"plane":0,"walks":true,"direction":0},{"x":2347,"y":3890,"plane":0,"walks":true,"direction":0},{"x":2393,"y":3861,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

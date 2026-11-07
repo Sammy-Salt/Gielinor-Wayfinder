@@ -1,1 +1,1 @@
-{"id":460,"name":"Banker (Shayzien)","version":"2","options":"Talk-to, Bank, Collect","locations":[],"aliases":["Banker (Shayzien","Banker (shayzien)"],"shops":[]}
+{"id":460,"name":"Wizard Frumscone","examine":"A Wizard of the Magic Guild.","options":null,"locations":[{"x":2590,"y":9488,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

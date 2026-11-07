@@ -1,1 +1,1 @@
-{"id":705,"name":"Boulder (Mac)","version":null,"options":"Push","locations":[{"name":"Boulder (Mac)","x":2814,"y":3534}],"aliases":[],"shops":[]}
+{"id":705,"name":"Melee tutor","examine":"Harlan, ready to teach swordplay.","options":null,"locations":[{"x":3208,"y":3252,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

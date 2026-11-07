@@ -1,1 +1,1 @@
-{"id":4902,"name":"Quiz Master","version":"Random event","options":"None","locations":[{"name":"Quiz Master","x":1952,"y":4768}],"aliases":["Game show","Odd one out","Quix master","Quiz event","Quiz game","Quiz maste","Quiz master","Quiz random","Quiz random event","Quiz show","Quizmaster","Quizz master"],"shops":[]}
+{"id":4902,"name":"Mining Tutor","examine":"Monlum, surveying the rocks.","options":null,"locations":[{"x":3227,"y":3147,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

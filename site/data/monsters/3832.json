@@ -1,1 +1,1 @@
-{"name":"Kalphite Queen","id":3832,"locations":[{"x":2345,"y":3651,"plane":0,"face":0,"walk":0}],"boss":true,"combat_level":333,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Kalphite Queen","id":3832,"locations":[{"x":2345,"y":3651,"plane":0,"walks":false,"direction":0}],"boss":true,"combat_level":333,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

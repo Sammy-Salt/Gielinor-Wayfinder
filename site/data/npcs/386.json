@@ -1,1 +1,1 @@
-{"id":386,"name":"Bandit Leader","version":null,"options":"Talk-to","locations":[{"name":"Bandit Leader","x":3355,"y":3000}],"aliases":["Bandit leader"],"shops":[]}
+{"id":386,"name":"Kharid Scorpion","examine":"Looks vicious!","options":null,"locations":[{"x":2877,"y":9797,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

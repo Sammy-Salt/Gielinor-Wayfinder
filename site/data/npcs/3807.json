@@ -1,1 +1,1 @@
-{"id":3807,"name":"Mac","version":null,"options":"Talk-to","locations":[{"name":"Mac","x":2787,"y":3536},{"name":"Mac","x":2796,"y":3536},{"name":"Mac","x":2796,"y":3543}],"aliases":["Mack"],"shops":[]}
+{"id":3807,"name":"Gillie Groats","examine":"Gillie the Milkmaid milks cows. She's udderly fantastic at it.","options":null,"locations":[{"x":3254,"y":3274,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

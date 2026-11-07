@@ -1,1 +1,1 @@
-{"id":1873,"name":"Dwarf (Deepfin Point)","version":"10","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":1873,"name":"Ali the Camel","examine":"A foul tempered ugly lumpy yellow horse prone to spitting.","options":null,"locations":[{"x":3343,"y":2962,"plane":0,"walks":true,"direction":0},{"x":3343,"y":2964,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

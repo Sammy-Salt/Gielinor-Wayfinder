@@ -1,1 +1,1 @@
-{"id":6122,"name":"Tower Mage","version":"Purple","options":"Talk-to","locations":[],"aliases":["Tower mage"],"shops":[]}
+{"id":6122,"name":"Sleeping guard","examine":"Sleeping like an ugly baby.","options":null,"locations":[{"x":2327,"y":9394,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

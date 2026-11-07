@@ -1,1 +1,1 @@
-{"id":437,"name":"Banker (Hunter Guild)","version":null,"options":"Talk-To, Bank, Collect","locations":[{"name":"Banker (Hunter Guild)","x":1542,"y":3041}],"aliases":[],"shops":[]}
+{"id":437,"name":"Cap'n Izzy No-Beard","examine":"Entrance clerk for the Brimhaven Agility Arena.","options":null,"locations":[{"x":2807,"y":3191,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

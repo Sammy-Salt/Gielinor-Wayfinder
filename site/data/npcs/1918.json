@@ -1,1 +1,1 @@
-{"id":1918,"name":"Easter Bunny","version":"2026","options":"Talk-to","locations":[{"name":"Easter Bunny","x":3159,"y":3458}],"aliases":["E.B.","Easter bunny","Eggrabbit","Harvey","Long Ears Johnson"],"shops":[]}
+{"id":1918,"name":"Archaeologist","examine":"Hardened by the cutthroat world of archaeology.","options":null,"locations":[{"x":3180,"y":3043,"plane":0,"walks":true,"direction":2}],"aliases":[],"shops":[]}

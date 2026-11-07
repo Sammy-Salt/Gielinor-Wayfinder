@@ -1,1 +1,1 @@
-{"id":384,"name":"Bandit (Children of the Sun)","version":"Bearded (#4)","options":"","locations":[],"aliases":[],"shops":[]}
+{"id":384,"name":"Barbarian guard","examine":"Not very civilised looking.","options":null,"locations":[{"x":2545,"y":3568,"plane":0,"walks":true,"direction":7},{"x":2545,"y":3571,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

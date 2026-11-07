@@ -1,1 +1,1 @@
-{"id":943,"name":"Carpenter Kjallak","version":null,"options":"Talk-to, Check-Approval","locations":[{"name":"Carpenter Kjallak","x":2595,"y":3892}],"aliases":["Carpenter Kjallac","Carpenter kjallak","Kjallac","Kjallak"],"shops":[]}
+{"id":943,"name":"Survival expert","examine":"Very much an outdoors type.","options":null,"locations":[{"x":3103,"y":3096,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

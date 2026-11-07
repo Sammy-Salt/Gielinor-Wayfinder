@@ -1,1 +1,1 @@
-{"id":3331,"name":"Jimmy the Chisel","version":null,"options":"Talk-to","locations":[{"name":"Jimmy the Chisel","x":3184,"y":9610}],"aliases":["Jimmy the chisel"],"shops":[]}
+{"id":3331,"name":"Barfy Bill","examine":"Looks a little green around the gills.","options":null,"locations":[{"x":3242,"y":3240,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}

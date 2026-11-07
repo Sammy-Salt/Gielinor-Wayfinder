@@ -1,1 +1,1 @@
-{"id":820,"name":"Butterfly (troll)","version":null,"options":null,"locations":[{"name":"Butterfly (troll)","x":2860,"y":3936},{"name":"Butterfly (troll)","x":2860,"y":3936}],"aliases":["Butterfly (troll"],"shops":[]}
+{"id":820,"name":"Poison Salesman","examine":"He sure likes to sell stuff!","options":null,"locations":[{"x":2697,"y":3496,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

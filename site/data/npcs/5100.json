@@ -1,1 +1,1 @@
-{"id":5100,"name":"Riki the sculptor's model","version":"Torso","options":"Talk-to","locations":[],"aliases":["He Do Pose It Is Cultrrl Mk","He Do Pose. It Is Cultrrl, Mk?","He do pose it is cultrrl mk","He do pose. It is cultrrl, mk?","Riki"],"shops":[]}
+{"id":5100,"name":"Dashing kebbit","examine":"Now you see it; now you don't.","options":null,"locations":[{"x":2369,"y":3579,"plane":0,"walks":true,"direction":5},{"x":2373,"y":3575,"plane":0,"walks":true,"direction":1},{"x":2390,"y":3588,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

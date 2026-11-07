@@ -1,1 +1,1 @@
-{"id":6754,"name":"Mummy","locations":[],"boss":false,"combat_level":null,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"id":6754,"name":"Mummy","locations":[{"x":3386,"y":2824,"plane":1,"walks":true,"direction":0},{"x":3066,"y":4680,"plane":1,"walks":true,"direction":0}],"boss":false,"combat_level":null,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

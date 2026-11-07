@@ -1,1 +1,1 @@
-{"name":"Bandit","id":1929,"locations":[{"x":3158,"y":2987,"plane":0,"face":0,"walk":3}],"boss":false,"combat_level":22,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Bandit","id":1929,"locations":[{"x":3158,"y":2987,"plane":0,"walks":false,"direction":3}],"boss":false,"combat_level":22,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

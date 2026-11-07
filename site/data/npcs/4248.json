@@ -1,1 +1,1 @@
-{"id":4248,"name":"Mummy ashes","version":"2","options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":4248,"name":"Stonemason","examine":"Someone has to get rid of all the stone they dug Keldagrim out of.","options":null,"locations":[{"x":2849,"y":10183,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

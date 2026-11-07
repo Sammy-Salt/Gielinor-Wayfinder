@@ -1,1 +1,1 @@
-{"id":4474,"name":"Omart","version":null,"options":null,"locations":[{"name":"Omart","x":2560,"y":3266},{"name":"Omart","x":2560,"y":3266},{"name":"Omart","x":2560,"y":3266},{"name":"Omart","x":2560,"y":3266}],"aliases":["Omar"],"shops":[]}
+{"id":4474,"name":"Magic dummy","examine":"A magic training dummy","options":null,"locations":[{"x":3214,"y":3252,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3253,"plane":0,"walks":false,"direction":0},{"x":3214,"y":3254,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2127,"name":"Ex-Captain Siad","version":"Dock","options":"Talk-to, Bank-cargo","locations":[{"name":"Ex-Captain Siad","x":3290,"y":3032}],"aliases":["Capt said","Captan siad","Ec captain siad","Ec captian siad","Ex captain","Ex captain said","Ex captian siad","Ex siad","Ex-CApt","Excaptain"],"shops":[]}
+{"id":2127,"name":"Trade Referee","examine":"He is regulating the flow of goods on the trade floor and maintaining order.","options":null,"locations":[{"x":2880,"y":10199,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

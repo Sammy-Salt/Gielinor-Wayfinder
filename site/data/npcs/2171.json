@@ -1,1 +1,1 @@
-{"id":2171,"name":"Fancy Dan","version":null,"options":"Talk-To, Join-Crew","locations":[{"name":"Fancy Dan","x":3801,"y":3015}],"aliases":["Fancy dan"],"shops":[]}
+{"id":2171,"name":"Factory Manager","examine":"Looks after the factory.","options":null,"locations":[{"x":2931,"y":10184,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

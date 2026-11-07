@@ -1,1 +1,1 @@
-{"id":4874,"name":"Purple Pewter Secretary","version":null,"options":"Talk-to","locations":[{"name":"Purple Pewter Secretary","x":2870,"y":10196}],"aliases":["Purple pewter secretary"],"shops":[]}
+{"id":4874,"name":"Mayor Hobb","examine":"There's something fishy about him.","options":null,"locations":[{"x":2709,"y":3291,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

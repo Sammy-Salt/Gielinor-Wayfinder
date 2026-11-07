@@ -1,1 +1,1 @@
-{"id":1820,"name":"Druid (unused NPC)","version":null,"options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":1820,"name":"Mountain Goat","examine":"This goat belongs to the mountain camp people.","options":null,"locations":[{"x":2812,"y":3685,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

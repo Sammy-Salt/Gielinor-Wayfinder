@@ -1,1 +1,1 @@
-{"id":4540,"name":"Oziach (2025 Christmas event)","version":null,"options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":4540,"name":"Captain Bentley","examine":"The High Priest has been transformed into an avatar of Bandos.","options":null,"locations":[{"x":2137,"y":3899,"plane":2,"walks":true,"direction":2},{"x":2221,"y":3797,"plane":2,"walks":true,"direction":3}],"aliases":[],"shops":[]}

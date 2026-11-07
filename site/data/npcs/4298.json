@@ -1,1 +1,1 @@
-{"id":4298,"name":"Nasty Nick","version":null,"options":"Talk-to","locations":[{"name":"Nasty Nick","x":1356,"y":2862}],"aliases":["Nasty rick"],"shops":[]}
+{"id":4298,"name":"Jimmy","examine":"He looks a bit drunk.","options":null,"locations":[{"x":2864,"y":3541,"plane":1,"walks":true,"direction":3}],"aliases":[],"shops":[]}

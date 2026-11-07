@@ -52,7 +52,7 @@ let locationHTML="";
 if(locations.length){
 const groups={};
 locations.forEach(loc=>{
-const name=loc.name||"Unknown Location";
+const name=loc.name||(Number(loc.plane)?`Floor ${loc.plane}`:"Ground floor");
 (groups[name]??=[]).push(loc);
 });
 
@@ -65,7 +65,8 @@ locationHTML=Object.entries(groups).map(([name,spawns])=>`
 ${spawns.map(loc=>`
 <div>
 X: ${esc(loc.x??"—")}&nbsp;&nbsp;
-Y: ${esc(loc.y??"—")}
+Y: ${esc(loc.y??"—")}&nbsp;&nbsp;
+Plane: ${esc(loc.plane??0)}
 </div>`).join("")}
 </div>
 </details>`).join("");

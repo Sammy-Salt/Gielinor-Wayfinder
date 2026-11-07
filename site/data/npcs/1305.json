@@ -1,1 +1,1 @@
-{"id":1305,"name":"Clue turtle","version":null,"options":"Retrieve","locations":[],"aliases":["Clue turtles","Clurtle","Sailing clues","Turtle clue","Turtle clue scroll"],"shops":[]}
+{"id":1305,"name":"Agnar","examine":"One of Rellekka's many citizens.","options":null,"locations":[{"x":2643,"y":3676,"plane":0,"walks":true,"direction":7}],"aliases":[],"shops":[]}

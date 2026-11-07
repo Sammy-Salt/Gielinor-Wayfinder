@@ -1,1 +1,1 @@
-{"id":1567,"name":"Councillor Andrews","version":"Councillor","options":"Talk-to","locations":[{"name":"Councillor Andrews","x":1621,"y":3674},{"name":"Councillor Andrews","x":1621,"y":3674},{"name":"Councillor Andrews","x":1434,"y":9949}],"aliases":["Andrews","Councillor David Andrews","Councillor andrews","David Andrews"],"shops":[]}
+{"id":1567,"name":"Cyreg Paddlehorn","examine":"A tall and imposing man who's more than familiar with boating.","options":null,"locations":[{"x":3521,"y":3284,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

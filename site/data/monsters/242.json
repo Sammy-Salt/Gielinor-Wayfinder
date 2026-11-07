@@ -1,1 +1,1 @@
-{"name":"Sir Bedivere","id":242,"locations":[{"x":2764,"y":3509,"plane":1,"face":0,"walk":0}],"boss":false,"combat_level":110,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Sir Bedivere","id":242,"locations":[{"x":2764,"y":3509,"plane":1,"walks":false,"direction":0}],"boss":false,"combat_level":110,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

@@ -1,1 +1,1 @@
-{"id":5966,"name":"Tau","version":null,"options":"Talk-to","locations":[{"name":"Tau","x":3047,"y":3343}],"aliases":["Tau falador"],"shops":[]}
+{"id":5966,"name":"Natural historian","examine":"An aged expert in natural history.","options":null,"locations":[{"x":1754,"y":4960,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

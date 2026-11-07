@@ -1,1 +1,1 @@
-{"id":1548,"name":"Copper ore (Blast Furnace)","version":null,"options":"None","locations":[{"name":"Copper ore (Blast Furnace)","x":1944,"y":4966}],"aliases":[],"shops":[]}
+{"id":1548,"name":"Mine cart","examine":"Big, metal and wheeled.","options":null,"locations":[{"x":2739,"y":4528,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1702,"name":"Denulth","version":"Dragon Slayer II","options":"Talk-to","locations":[{"name":"Denulth","x":2896,"y":3528},{"name":"Denulth","x":3224,"y":3486}],"aliases":["Commander Denulth","Delnuth","Denuth"],"shops":[]}
+{"id":1702,"name":"Ghost banker","examine":"A ghost banker.","options":null,"locations":[{"x":3690,"y":3464,"plane":0,"walks":false,"direction":1},{"x":3691,"y":3464,"plane":0,"walks":false,"direction":1},{"x":3688,"y":3464,"plane":0,"walks":false,"direction":1},{"x":3687,"y":3464,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":3810,"name":"Macaw","version":"Sitting","options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":3810,"name":"Captain Bleemadge","examine":"Huzzah!","options":null,"locations":[{"x":2847,"y":3499,"plane":0,"walks":true,"direction":7},{"x":2970,"y":2973,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

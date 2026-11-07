@@ -1,1 +1,1 @@
-{"id":4571,"name":"Patchy","version":null,"options":"Talk-to, Sew","locations":[{"name":"Patchy","x":3677,"y":2978}],"aliases":[],"shops":[]}
+{"id":4571,"name":"Crow","options":null,"locations":[{"x":3098,"y":3225,"plane":0,"walks":true,"direction":4},{"x":3095,"y":3286,"plane":0,"walks":true,"direction":4},{"x":3205,"y":3298,"plane":0,"walks":true,"direction":3},{"x":3056,"y":3248,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":5963,"name":"Tassie Slipcast","version":null,"options":"Talk-to","locations":[{"name":"Tassie Slipcast","x":3085,"y":3409}],"aliases":["Tassie","Tassie slipcast"],"shops":[]}
+{"id":5963,"name":"Barge foreman","examine":"Working hard.","options":null,"locations":[{"x":3363,"y":3445,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

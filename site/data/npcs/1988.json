@@ -1,1 +1,1 @@
-{"id":1988,"name":"Elder Raley","version":null,"options":"Talk-to","locations":[{"name":"Elder Raley","x":3187,"y":2404}],"aliases":[],"shops":[]}
+{"id":1988,"name":"Priest","examine":"Preach my brother!","options":null,"locations":[{"x":3282,"y":2772,"plane":3,"walks":true,"direction":6},{"x":3281,"y":2765,"plane":0,"walks":true,"direction":1},{"x":3278,"y":2767,"plane":0,"walks":true,"direction":1},{"x":3283,"y":2768,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

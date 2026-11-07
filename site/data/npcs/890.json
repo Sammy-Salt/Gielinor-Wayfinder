@@ -1,1 +1,1 @@
-{"id":890,"name":"Captain Ginea","version":"Normal","options":"Talk-to","locations":[],"aliases":["Capitain ginea","Capitan ginea","Captain ginea","Captian ginea","Ginea"],"shops":[]}
+{"id":890,"name":"Butler Jones","examine":"The Carnellian family butler.","options":null,"locations":[{"x":2569,"y":3272,"plane":0,"walks":true,"direction":0},{"x":2573,"y":3269,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

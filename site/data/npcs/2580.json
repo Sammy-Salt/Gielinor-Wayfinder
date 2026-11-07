@@ -1,1 +1,1 @@
-{"id":2580,"name":"Ghaslor the Elder","version":null,"options":"Talk-to","locations":[{"name":"Ghaslor the Elder","x":3443,"y":2933}],"aliases":["Ghaslor","Ghaslor the elder"],"shops":[]}
+{"id":2580,"name":"Bernald","examine":"Looks after the Burthorpe vinery.","options":null,"locations":[{"x":2918,"y":3535,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

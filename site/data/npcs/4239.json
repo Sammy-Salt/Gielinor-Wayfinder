@@ -1,1 +1,1 @@
-{"id":4239,"name":"Movario","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Movario","x":2706,"y":5240}],"aliases":["Mavario","Moravio","Morvario"],"shops":[]}
+{"id":4239,"name":"Cook","examine":"I hope she can find all the ingredients!","options":null,"locations":[{"x":2669,"y":3331,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

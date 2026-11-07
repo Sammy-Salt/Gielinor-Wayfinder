@@ -1,1 +1,1 @@
-{"id":1289,"name":"Claus the Chef","version":null,"options":"Talk-to","locations":[{"name":"Claus the Chef","x":2542,"y":9697}],"aliases":["Claus the chef"],"shops":[]}
+{"id":1289,"name":"Thorvald the Warrior","examine":"A Fremennik hero.","options":null,"locations":[{"x":2667,"y":3692,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":278,"name":"Argo","version":null,"options":"Talk-to, Pay, Trade","locations":[{"name":"Argo","x":2471,"y":2706}],"aliases":[],"shops":[]}
+{"id":278,"name":"Cook","examine":"Lumbridge Castle's head cook.","options":null,"locations":[{"x":3209,"y":3215,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

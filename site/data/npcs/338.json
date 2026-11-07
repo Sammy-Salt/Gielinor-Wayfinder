@@ -1,1 +1,1 @@
-{"id":338,"name":"Ava (Civitas illa Fortis)","version":null,"options":"Talk-to, Check","locations":[{"name":"Ava (Civitas illa Fortis)","x":1631,"y":3128}],"aliases":[],"shops":[]}
+{"id":338,"name":"Chancy","examine":"He's ready for a bet.","options":null,"locations":[{"x":2929,"y":3222,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

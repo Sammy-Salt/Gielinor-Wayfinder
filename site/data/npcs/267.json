@@ -1,1 +1,1 @@
-{"id":267,"name":"Aredhel","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Aredhel","x":3309,"y":6056}],"aliases":[],"shops":[]}
+{"id":267,"name":"Justin Servil","examine":"Jeremy father, Sir Servil.","options":null,"locations":[{"x":2601,"y":3168,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":325,"name":"Attala","version":"After Perilous Moons","options":"Talk-to","locations":[{"name":"Attala","x":1435,"y":3124},{"name":"Attala","x":1440,"y":9549}],"aliases":[],"shops":[]}
+{"id":325,"name":"Fishing spot","options":null,"locations":[{"x":2671,"y":3160,"plane":0,"walks":false,"direction":4},{"x":2672,"y":3160,"plane":0,"walks":false,"direction":4},{"x":2678,"y":3160,"plane":0,"walks":false,"direction":4},{"x":2682,"y":3160,"plane":0,"walks":false,"direction":4},{"x":2683,"y":3160,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}

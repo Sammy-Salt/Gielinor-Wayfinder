@@ -1,1 +1,1 @@
-{"id":4567,"name":"Party Pete (2014 April Fools)","version":null,"options":null,"locations":[],"aliases":["Party Pete (2014 April Fools","Party pete (2014 april fools)"],"shops":[]}
+{"id":4567,"name":"Examiner","examine":"Upon examining the examiner you examine it is indeed an examiner!","options":null,"locations":[{"x":3364,"y":3339,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

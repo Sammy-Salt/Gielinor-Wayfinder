@@ -1,1 +1,1 @@
-{"id":2330,"name":"Fishing spot (karambwan)","version":null,"options":"Fish","locations":[],"aliases":["Fishing spot (karambwan","Karambwan fishing spot","Karambwan spot","Karamwan fishing"],"shops":[]}
+{"id":2330,"name":"Garth","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":2766,"y":3211,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2177,"name":"Farmer (Kastori)","version":"2","options":"Talk-to, Pickpocket","locations":[],"aliases":[],"shops":[]}
+{"id":2177,"name":"Inn Keeper","examine":"A rich landlord, fat and jolly.","options":null,"locations":[{"x":2843,"y":10191,"plane":1,"walks":false,"direction":1}],"aliases":[],"shops":[]}

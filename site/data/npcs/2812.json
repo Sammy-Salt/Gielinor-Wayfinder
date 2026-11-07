@@ -1,1 +1,1 @@
-{"id":2812,"name":"Grum (unused)","version":null,"options":"Talk-to, Trade","locations":[],"aliases":[],"shops":[]}
+{"id":2812,"name":"Cam the Camel","examine":"A camel who likes to rest.","options":null,"locations":[{"x":3296,"y":3227,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

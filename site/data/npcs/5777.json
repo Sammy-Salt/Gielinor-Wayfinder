@@ -1,1 +1,1 @@
-{"id":5777,"name":"Spotter Virginia","version":"Cargo 1","options":"None","locations":[{"name":"Spotter Virginia","x":3183,"y":2848}],"aliases":["Spotter virginia","Virginia"],"shops":[]}
+{"id":5777,"name":"Banker","examine":"Looks after cave goblin money.","options":null,"locations":[{"x":2699,"y":5348,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1785,"name":"Dr Fenkenstrain","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Dr Fenkenstrain","x":3549,"y":3555}],"aliases":["Dr fenkenstrain","Dr frankenstrain","Dr. Fenkenstrain","Fekenstrain","Fenken","Fenkenstain","Fenkenstein","Fenkenstrain","Fenkenstrein","Franken","Frankenstrain","Frenkenstein","Frenkenstrain"],"shops":[]}
+{"id":1785,"name":"Edmond","examine":"A very brave merchant.","options":null,"locations":[{"x":3144,"y":3788,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

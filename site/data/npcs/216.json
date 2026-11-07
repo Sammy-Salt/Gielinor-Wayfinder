@@ -1,1 +1,1 @@
-{"id":216,"name":"Anita","version":"After Quest","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":216,"name":"High Priest","examine":"High Priest of Entrana.","options":null,"locations":[{"x":2851,"y":3348,"plane":0,"walks":false,"direction":7}],"aliases":[],"shops":[]}

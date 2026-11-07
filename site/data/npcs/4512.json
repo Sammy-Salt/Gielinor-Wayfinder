@@ -1,1 +1,1 @@
-{"id":4512,"name":"Osmumten","version":"Spirit","options":"Talk-to","locations":[],"aliases":["Osmum","Osmumtem","Osmunt","Osmunten","Osmuten","Ostumen","Ozmuten"],"shops":[]}
+{"id":4512,"name":"House","examine":"The craziest house I ever did see!","options":null,"locations":[{"x":2092,"y":3930,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

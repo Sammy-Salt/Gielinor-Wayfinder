@@ -1,1 +1,1 @@
-{"id":746,"name":"Brother Althric","version":null,"options":"Talk-to","locations":[{"name":"Brother Althric","x":3052,"y":3505}],"aliases":["Althric","Brother althric"],"shops":[]}
+{"id":746,"name":"Oracle","options":null,"locations":[{"x":3010,"y":3502,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

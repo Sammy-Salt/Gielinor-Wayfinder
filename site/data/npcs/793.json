@@ -1,1 +1,1 @@
-{"id":793,"name":"Burntmeat","version":null,"options":"Talk-to","locations":[{"name":"Burntmeat","x":2909,"y":10088}],"aliases":["Burntweed","Troll Cook","Troll chef","Troll cook"],"shops":[]}
+{"id":793,"name":"Alfonse the waiter","examine":"Smartly dressed, and ready to deliver food.","options":null,"locations":[{"x":2790,"y":3189,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":682,"name":"Bonzo","version":null,"options":"Talk-to, Pay","locations":[{"name":"Bonzo","x":2640,"y":3437}],"aliases":[],"shops":[]}
+{"id":682,"name":"Armour salesman","examine":"Supplier of Rangers armour.","options":null,"locations":[{"x":2671,"y":3434,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

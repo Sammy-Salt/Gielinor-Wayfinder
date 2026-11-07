@@ -1,1 +1,1 @@
-{"id":312,"name":"Assistant","version":null,"options":"Talk-to","locations":[{"name":"Assistant","x":2862,"y":10225}],"aliases":[],"shops":[]}
+{"id":312,"name":"Fishing spot","options":null,"locations":[{"x":2860,"y":3426,"plane":0,"walks":false,"direction":1},{"x":2421,"y":3789,"plane":0,"walks":false,"direction":0},{"x":2410,"y":3780,"plane":0,"walks":false,"direction":0},{"x":2414,"y":3780,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1807,"name":"Drew","version":null,"options":"Talk-to, Claim Sand, Check, Deposit buckets","locations":[{"name":"Drew","x":3152,"y":2909}],"aliases":["Darude","Sand drew"],"shops":[]}
+{"id":1807,"name":"Hamal the Chieftain","examine":"The Chieftain of the mountain camp.","options":null,"locations":[{"x":2811,"y":3673,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

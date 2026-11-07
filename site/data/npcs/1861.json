@@ -1,1 +1,1 @@
-{"id":1861,"name":"Dusty Aliv","version":null,"options":"Talk-to","locations":[{"name":"Dusty Aliv","x":3191,"y":9364}],"aliases":[],"shops":[]}
+{"id":1861,"name":"Ranged Tutor","examine":"Nemarti looks ready to teach you about ranged combat.","options":null,"locations":[{"x":3208,"y":3256,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

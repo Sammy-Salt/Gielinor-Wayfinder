@@ -1,1 +1,1 @@
-{"id":8037,"name":"Wizard","examine":"She's doing arcane research.","locations":[],"boss":false,"combat_level":9,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"id":8037,"name":"Wizard","examine":"She's doing arcane research.","locations":[{"x":1701,"y":5472,"plane":2,"walks":true,"direction":0}],"boss":false,"combat_level":9,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

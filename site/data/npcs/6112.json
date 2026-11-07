@@ -1,1 +1,1 @@
-{"id":6112,"name":"Toucan","version":"Red","options":null,"locations":[],"aliases":["Toucans"],"shops":[]}
+{"id":6112,"name":"Ducklings","examine":"Aww, cute.","options":null,"locations":[{"x":3238,"y":3247,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

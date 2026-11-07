@@ -1,1 +1,1 @@
-{"id":4607,"name":"Pet dagannoth prime","version":null,"options":"Talk-to, Pick-up","locations":[],"aliases":["Dagannoth Prime Jr.","Pet prime","Prime jr","Prime pet"],"shops":[]}
+{"id":4607,"name":"Black Cat","examine":"A witch's black cat.","options":null,"locations":[{"x":3030,"y":3505,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

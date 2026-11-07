@@ -1,1 +1,1 @@
-{"id":3097,"name":"Hewey","version":"Normal","options":"Talk-to","locations":[{"name":"Hewey","x":3236,"y":3155}],"aliases":["Hewey (Killer)"],"shops":[]}
+{"id":3097,"name":"Entrance Guardian","examine":"A guardian of the arena.","options":null,"locations":[{"x":3364,"y":3304,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

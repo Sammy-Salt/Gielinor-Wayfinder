@@ -1,1 +1,1 @@
-{"id":2549,"name":"General Hining","version":"Normal","options":"Talk-to","locations":[{"name":"General Hining","x":2187,"y":3148},{"name":"General Hining","x":2446,"y":6094}],"aliases":["A general who","A general who sets","A general who sets a shining","A general who sets a shining example","General hining","General hinning","Hining","Shining example"],"shops":[]}
+{"id":2549,"name":"Ali the dyer","examine":"A colourful character.","options":null,"locations":[{"x":3364,"y":3001,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":5166,"name":"Rohak","version":"An old Dwarf","options":"Talk-to","locations":[],"aliases":["An old Dwarf"],"shops":[]}
+{"id":5166,"name":"Mountain Goat","examine":"This goat belongs to the mountain camp people.","options":null,"locations":[{"x":2811,"y":3687,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

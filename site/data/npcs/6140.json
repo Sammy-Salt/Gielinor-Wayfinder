@@ -1,1 +1,1 @@
-{"id":6140,"name":"Trader (The Blue Opal)","version":"1","options":null,"locations":[{"name":"Trader (The Blue Opal)","x":2877,"y":10201},{"name":"Trader (The Blue Opal)","x":2877,"y":10202}],"aliases":["Trader (The Blue Opal","Trader (the blue opal)"],"shops":[]}
+{"id":6140,"name":"Squire (Intermediate)","examine":"A squire of balance.","options":null,"locations":[{"x":2644,"y":2641,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

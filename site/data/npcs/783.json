@@ -1,1 +1,1 @@
-{"id":783,"name":"Buneir","version":null,"options":"Talk-to, Travel","locations":[{"name":"Buneir","x":1572,"y":3465}],"aliases":[],"shops":[]}
+{"id":783,"name":"Wilough","examine":"One of Gertrude's Sons.","options":null,"locations":[{"x":3221,"y":3435,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

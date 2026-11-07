@@ -1,1 +1,1 @@
-{"id":1315,"name":"Cocktail seller","version":"Thanksgiving","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1315,"name":"Fish monger","examine":"Fish-tastic!","options":null,"locations":[{"x":2646,"y":3675,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":809,"name":"Butler Jones","version":"Butler","options":"Talk-to","locations":[{"name":"Butler Jones","x":2570,"y":3272},{"name":"Butler Jones","x":2570,"y":3272},{"name":"Butler Jones","x":2574,"y":9705}],"aliases":["Butler jones"],"shops":[]}
+{"id":809,"name":"Louisa","examine":"She looks like she enjoys her job.","options":null,"locations":[{"x":2734,"y":3581,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

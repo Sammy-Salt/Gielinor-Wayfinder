@@ -1,1 +1,1 @@
-{"id":810,"name":"Butler Jones","version":"Former butler","options":"None","locations":[{"name":"Butler Jones","x":2570,"y":3272},{"name":"Butler Jones","x":2570,"y":3272},{"name":"Butler Jones","x":2574,"y":9705}],"aliases":["Butler jones"],"shops":[]}
+{"id":810,"name":"Mary","examine":"She looks very nervous...","options":null,"locations":[{"x":2736,"y":3576,"plane":1,"walks":true,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":6119,"name":"Tower Advisor","version":null,"options":"Talk-to","locations":[{"name":"Tower Advisor","x":2668,"y":3429},{"name":"Tower Advisor","x":2668,"y":3429},{"name":"Tower Advisor","x":2668,"y":3429},{"name":"Tower Advisor","x":2668,"y":3429}],"aliases":["Tower advisor"],"shops":[]}
+{"id":6119,"name":"Observatory professor","examine":"A man, learned in the ways of the stars.","options":null,"locations":[{"x":2439,"y":3186,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

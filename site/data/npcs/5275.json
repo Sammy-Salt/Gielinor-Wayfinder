@@ -1,1 +1,1 @@
-{"id":5275,"name":"San Fan","version":null,"options":"Talk-To, Join-Crew","locations":[{"name":"San Fan","x":3824,"y":3015}],"aliases":["San fan","San fran"],"shops":[]}
+{"id":5275,"name":"Sophanem guard","options":null,"locations":[{"x":3287,"y":2783,"plane":0,"walks":true,"direction":3},{"x":3299,"y":2802,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":487,"name":"Barbarian guard","version":"After quest","options":"Talk-to, Toggle-vials","locations":[],"aliases":["Auto smash vials","Auto smasher","Barb guard","Barbarian Guard","Barbarian vial","Break vial","Break vials","Crush vial","How to get vials to not smash?","Smashing vial","Vial smash","Vial smashing"],"shops":[]}
+{"id":487,"name":"Giant","examine":"I guess he wants to be more than just the muscle.","options":null,"locations":[{"x":1885,"y":5029,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

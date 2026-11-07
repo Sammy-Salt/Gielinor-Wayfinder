@@ -1,1 +1,1 @@
-{"id":3282,"name":"Jardric","version":"NPC","options":null,"locations":[{"name":"Jardric","x":3582,"y":3973},{"name":"Jardric","x":3582,"y":3973},{"name":"Jardric","x":3582,"y":3973},{"name":"Jardric","x":3582,"y":3973},{"name":"Jardric","x":3582,"y":3973}],"aliases":["Jadric","Jardic"],"shops":[]}
+{"id":3282,"name":"Engineer","examine":"He's building a cannon.","options":null,"locations":[{"x":3008,"y":3442,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

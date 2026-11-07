@@ -1,1 +1,1 @@
-{"id":680,"name":"Bones (kitten)","version":null,"options":"Talk-to","locations":[{"name":"Bones (kitten)","x":2565,"y":3317}],"aliases":["Bones (kitten"],"shops":[]}
+{"id":680,"name":"Leatherworker","examine":"An expert leatherworker.","options":null,"locations":[{"x":2679,"y":3432,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

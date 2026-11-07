@@ -1,1 +1,1 @@
-{"id":3709,"name":"Loading crane","version":null,"options":null,"locations":[{"name":"Loading crane","x":2782,"y":4458},{"name":"Loading crane","x":2787,"y":4446},{"name":"Loading crane","x":2787,"y":4451},{"name":"Loading crane","x":2793,"y":4458}],"aliases":[],"shops":[]}
+{"id":3709,"name":"Boulder","examine":"A Wilderness fighter of massive repute.","options":null,"locations":[{"x":2847,"y":5075,"plane":0,"walks":false,"direction":0},{"x":2974,"y":2906,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1181,"name":"Citizen (Aldarin)","version":"15","options":"Talk-to, Pickpocket","locations":[],"aliases":[],"shops":[]}
+{"id":1181,"name":"Pelican","examine":"A sea bird.","options":null,"locations":[{"x":2902,"y":3101,"plane":0,"walks":true,"direction":1},{"x":2922,"y":3105,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

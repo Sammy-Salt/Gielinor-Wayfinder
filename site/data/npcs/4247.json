@@ -1,1 +1,1 @@
-{"id":4247,"name":"Mummy ashes","version":"1","options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":4247,"name":"Estate agent","examine":"A fancy businessman with a mighty fine hat.","options":null,"locations":[{"x":2639,"y":3291,"plane":0,"walks":false,"direction":0},{"x":2981,"y":3370,"plane":0,"walks":false,"direction":0},{"x":2737,"y":3500,"plane":0,"walks":true,"direction":6},{"x":3240,"y":3474,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

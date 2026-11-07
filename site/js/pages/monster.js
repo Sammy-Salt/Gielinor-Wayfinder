@@ -144,7 +144,7 @@ function section(title, keys, monster){
         const locationGroups = {};
 
         locations.forEach(loc => {
-            const name = loc.location || loc.name || "Unknown Location";
+            const name = loc.location || loc.name || (Number(loc.plane) ? `Floor ${loc.plane}` : "Ground floor");
             if (!locationGroups[name]) locationGroups[name] = [];
             locationGroups[name].push(loc);
         });
@@ -165,7 +165,7 @@ function section(title, keys, monster){
                                 &nbsp;&nbsp;
                                 Y: ${esc(loc.y ?? "—")}
                                 &nbsp;&nbsp;
-                                Region: ${esc(loc.region ?? "—")}
+                                Plane: ${esc(loc.plane ?? 0)}
                             </div>
                         `).join("")}
                     </div>

@@ -1,1 +1,1 @@
-{"id":2393,"name":"Fornek quo Maten","version":null,"options":"Talk-to","locations":[{"name":"Fornek quo Maten","x":1303,"y":3820}],"aliases":["Fornek quo maten"],"shops":[]}
+{"id":2393,"name":"Mysterious ghost","examine":"Seems to flitter in and out of existence...","options":null,"locations":[{"x":2396,"y":3481,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

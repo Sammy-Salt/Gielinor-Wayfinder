@@ -1,1 +1,1 @@
-{"id":3322,"name":"Jig cart","version":"Quenched","options":"Take-from","locations":[],"aliases":[],"shops":[]}
+{"id":3322,"name":"Fairy chef","examine":"Likes to cook with mushrooms.","options":null,"locations":[{"x":2384,"y":4439,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

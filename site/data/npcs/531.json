@@ -1,1 +1,1 @@
-{"id":531,"name":"Bartender (RuneScape 2 Beta)","version":null,"options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":531,"name":"Shop assistant","examine":"Works on commission.","options":null,"locations":[{"x":2947,"y":3212,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":4494,"name":"Ornate undead combat dummy","version":"Undead","options":"Attack, Detach, Swap, Remove","locations":[],"aliases":["Ornate combat dummy","Ornate dragon combat dummy","Ornate dummy","Ornate kalphite combat dummy","Ornate kurask combat dummy","Ornate undead","Ornate vampyre combat dummy","Ornate wilderness combat dummy"],"shops":[]}
+{"id":4494,"name":"General Wartface","examine":"An ugly green creature.","options":null,"locations":[{"x":2957,"y":3512,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

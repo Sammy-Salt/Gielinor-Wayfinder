@@ -1,1 +1,1 @@
-{"id":3793,"name":"Lumo","version":"Standard","options":"Talk-to","locations":[{"name":"Lumo","x":2437,"y":3519},{"name":"Lumo","x":2437,"y":3519},{"name":"Lumo","x":2437,"y":3519},{"name":"Lumo","x":2775,"y":2796}],"aliases":[],"shops":[]}
+{"id":3793,"name":"Squire","examine":"A squire of balance.","options":null,"locations":[{"x":2659,"y":2660,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

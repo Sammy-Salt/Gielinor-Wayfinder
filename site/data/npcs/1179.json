@@ -1,1 +1,1 @@
-{"id":1179,"name":"Citizen (Aldarin)","version":"13","options":"Talk-to, Pickpocket","locations":[],"aliases":[],"shops":[]}
+{"id":1179,"name":"Gull","examine":"Flappy bird.","options":null,"locations":[{"x":2941,"y":3100,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

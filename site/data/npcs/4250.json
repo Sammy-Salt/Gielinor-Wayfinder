@@ -1,1 +1,1 @@
-{"id":4250,"name":"Muncher","version":"2015","options":null,"locations":[],"aliases":["Growler (Halloween","Growler (Halloween)"],"shops":[]}
+{"id":4250,"name":"Sawmill operator","examine":"He changes the shape of wood.","options":null,"locations":[{"x":3302,"y":3492,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

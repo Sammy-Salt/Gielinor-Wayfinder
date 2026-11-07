@@ -1,1 +1,1 @@
-{"id":573,"name":"Beef","version":null,"options":"Talk-to, Interact, Pick-up","locations":[],"aliases":["Beeef","Beef (pet)","Beef osrs","Beef pet","Beef the cow","Beef the pet","Beef tornado","Beef\\","Brutus pet","Bull pet","Cow boss pet","Cow pet","Pet cow","Sir loin"],"shops":[]}
+{"id":573,"name":"Fur trader","examine":"Knows how to keep warm in the winter.","options":null,"locations":[{"x":2663,"y":3296,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

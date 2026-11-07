@@ -1,1 +1,1 @@
-{"id":450,"name":"Banker (Port Piscarilius)","version":"Male","options":"Talk-to, Bank, Collect","locations":[],"aliases":["Banker (Piscarilius)","Banker (Port Piscarilius","Banker (port piscarilius)"],"shops":[]}
+{"id":450,"name":"Gull","examine":"Flappy bird.","options":null,"locations":[{"x":3081,"y":3220,"plane":0,"walks":true,"direction":0},{"x":3081,"y":3222,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

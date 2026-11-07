@@ -1,1 +1,1 @@
-{"id":1834,"name":"Dryad (unused)","version":null,"options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":1834,"name":"Candle seller","examine":"Has an odd smell about him.","options":null,"locations":[{"x":3169,"y":3174,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

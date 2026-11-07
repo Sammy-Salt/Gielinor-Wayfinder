@@ -1,1 +1,1 @@
-{"id":785,"name":"Bunkdo","version":"Monkey Madness I","options":"None","locations":[{"name":"Bunkdo","x":2775,"y":2796},{"name":"Bunkdo","x":2775,"y":2796},{"name":"Bunkdo","x":2775,"y":2796}],"aliases":[],"shops":[]}
+{"id":785,"name":"Civilian","examine":"A citizen of Ardougne.","options":null,"locations":[{"x":2468,"y":3304,"plane":0,"walks":true,"direction":0},{"x":2476,"y":3317,"plane":0,"walks":true,"direction":0},{"x":2478,"y":3291,"plane":0,"walks":true,"direction":0},{"x":2492,"y":3312,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

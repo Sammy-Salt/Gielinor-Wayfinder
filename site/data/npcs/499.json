@@ -1,1 +1,1 @@
-{"id":499,"name":"Barge guard","version":"Barge","options":"Talk-to, Disembark","locations":[],"aliases":[],"shops":[]}
+{"id":499,"name":"Banker","examine":"He can look after my money.","options":null,"locations":[{"x":2853,"y":2953,"plane":0,"walks":false,"direction":1},{"x":2852,"y":2953,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

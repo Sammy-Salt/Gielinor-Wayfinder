@@ -1,1 +1,1 @@
-{"id":3114,"name":"Historian Aldo","version":null,"options":"Talk-to, Trade","locations":[{"name":"Historian Aldo","x":3276,"y":9872},{"name":"Historian Aldo","x":3276,"y":9872}],"aliases":["Aldo"],"shops":[]}
+{"id":3114,"name":"Mazion","examine":"Mazion seems to be covered in sand.","options":null,"locations":[{"x":2815,"y":3344,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

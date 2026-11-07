@@ -1,1 +1,1 @@
-{"id":696,"name":"Bork Sigmundson","version":null,"options":"Talk-to, Request-supplies","locations":[{"name":"Bork Sigmundson","x":2397,"y":10294}],"aliases":["Bork sigmundson"],"shops":[]}
+{"id":696,"name":"Caroline","examine":"She looks very worried about something.","options":null,"locations":[{"x":2716,"y":3303,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

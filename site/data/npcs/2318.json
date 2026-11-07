@@ -1,1 +1,1 @@
-{"id":2318,"name":"Fishing spot (Hemenster)","version":null,"options":"Bait","locations":[],"aliases":["Fishing spot (hemenster)"],"shops":[]}
+{"id":2318,"name":"Piglet","examine":"Hog.","options":null,"locations":[{"x":3017,"y":3307,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

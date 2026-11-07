@@ -1,1 +1,1 @@
-{"name":"TzHaar-Ket","id":2625,"locations":[{"x":4668,"y":5177,"plane":0,"face":1,"walk":4},{"x":4676,"y":5177,"plane":0,"face":1,"walk":2}],"boss":false,"combat_level":149,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"TzHaar-Ket","id":2625,"locations":[{"x":4668,"y":5177,"plane":0,"walks":true,"direction":4},{"x":4676,"y":5177,"plane":0,"walks":true,"direction":2}],"boss":false,"combat_level":149,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

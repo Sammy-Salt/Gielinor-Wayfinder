@@ -1,1 +1,1 @@
-{"id":3287,"name":"Jarvald","version":"Waterbirth","options":"Talk-to, Rellekka","locations":[{"name":"Jarvald","x":2621,"y":3683},{"name":"Jarvald","x":2621,"y":3683},{"name":"Jarvald","x":2544,"y":3761}],"aliases":[],"shops":[]}
+{"id":3287,"name":"Raccoon","examine":"A raccoon.","options":null,"locations":[{"x":3073,"y":3443,"plane":0,"walks":true,"direction":0},{"x":2987,"y":3444,"plane":0,"walks":true,"direction":0},{"x":3046,"y":3453,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

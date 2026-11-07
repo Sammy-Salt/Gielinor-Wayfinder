@@ -1,1 +1,1 @@
-{"id":702,"name":"Bosun Zarah","version":"Cargo 2","options":"None","locations":[{"name":"Bosun Zarah","x":2618,"y":3842}],"aliases":["Boson zarah","Bosun","Zarah"],"shops":[]}
+{"id":702,"name":"Fisherman","options":null,"locations":[{"x":2774,"y":3273,"plane":0,"walks":true,"direction":0},{"x":2775,"y":3284,"plane":0,"walks":true,"direction":0},{"x":2781,"y":3290,"plane":1,"walks":true,"direction":0},{"x":2785,"y":3284,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

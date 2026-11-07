@@ -1,1 +1,1 @@
-{"name":"Skeleton Mage","id":94,"locations":[{"x":2589,"y":9881,"plane":0,"face":1,"walk":6},{"x":2591,"y":9882,"plane":0,"face":1,"walk":4}],"boss":false,"combat_level":16,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Skeleton Mage","id":94,"locations":[{"x":2589,"y":9881,"plane":0,"walks":true,"direction":6},{"x":2591,"y":9882,"plane":0,"walks":true,"direction":4}],"boss":false,"combat_level":16,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

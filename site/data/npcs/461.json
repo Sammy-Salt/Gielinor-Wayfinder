@@ -1,1 +1,1 @@
-{"id":461,"name":"Banker (Shayzien)","version":"3","options":"Talk-to, Bank, Collect","locations":[],"aliases":["Banker (Shayzien","Banker (shayzien)"],"shops":[]}
+{"id":461,"name":"Magic Store owner","examine":"A Supplier of Magical items.","options":null,"locations":[{"x":2588,"y":3091,"plane":1,"walks":true,"direction":3}],"aliases":[],"shops":[]}

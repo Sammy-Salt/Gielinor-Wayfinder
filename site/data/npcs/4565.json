@@ -1,1 +1,1 @@
-{"id":4565,"name":"Parroty Pete","version":null,"options":"Talk-to","locations":[{"name":"Parroty Pete","x":2609,"y":3287}],"aliases":["Parroty pete"],"shops":[]}
+{"id":4565,"name":"Digsite workman","examine":"This person is working on the site.","options":null,"locations":[{"x":3350,"y":3401,"plane":0,"walks":true,"direction":0},{"x":3362,"y":3408,"plane":0,"walks":true,"direction":0},{"x":3366,"y":3425,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

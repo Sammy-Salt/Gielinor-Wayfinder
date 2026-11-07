@@ -1,1 +1,1 @@
-{"examine":"A Mourner, or plague healer.","name":"Mourner","id":2374,"locations":[{"x":2036,"y":4633,"plane":0,"face":0,"walk":6}],"boss":false,"combat_level":11,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"examine":"A Mourner, or plague healer.","name":"Mourner","id":2374,"locations":[{"x":2036,"y":4633,"plane":0,"walks":false,"direction":6}],"boss":false,"combat_level":11,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

@@ -1,1 +1,1 @@
-{"id":616,"name":"Billy Rehnison","version":null,"options":"Talk-to","locations":[{"name":"Billy Rehnison","x":2530,"y":3331}],"aliases":["Billy rehnison"],"shops":[]}
+{"id":616,"name":"Student","examine":"A student busy studying the digsite.","options":null,"locations":[{"x":3370,"y":3416,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

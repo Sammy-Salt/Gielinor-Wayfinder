@@ -1,1 +1,1 @@
-{"id":3095,"name":"Het's Seal","version":null,"options":"Destroy","locations":[{"name":"Het's Seal","x":3681,"y":5281}],"aliases":["Broken seal","Het Seal","Het's Seal (protected)","Het's Seal (weakened)","Het's seal","Hets seal","Seal of Het"],"shops":[]}
+{"id":3095,"name":"Flying Book","options":null,"locations":[{"x":3364,"y":3309,"plane":0,"walks":true,"direction":3},{"x":3363,"y":3317,"plane":1,"walks":true,"direction":1}],"aliases":[],"shops":[]}

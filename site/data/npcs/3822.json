@@ -1,1 +1,1 @@
-{"id":3822,"name":"Mage of Zamorak (Ourania)","version":null,"options":"Talk-to","locations":[{"name":"Mage of Zamorak (Ourania)","x":2455,"y":3233}],"aliases":["Mage of Zamorak (Ourania","Mage of zamorak (ourania)"],"shops":[]}
+{"id":3822,"name":"Herman Caranos","examine":"Founder and Director of the Piscatoris Fishing Colony.","options":null,"locations":[{"x":2353,"y":3680,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":286,"name":"Armourer (tier 2)","version":null,"options":"Talk-to, Deliver","locations":[{"name":"Armourer (tier 2)","x":1442,"y":3785}],"aliases":["Armourer (tier 2"],"shops":[]}
+{"id":286,"name":"Professor Oddenstein","examine":"A mad scientist if I ever saw one!","options":null,"locations":[{"x":3111,"y":3367,"plane":2,"walks":false,"direction":4}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":5160,"name":"Roger","version":"Unnamed","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":5160,"name":"Sheep","options":null,"locations":[{"x":3195,"y":3272,"plane":0,"walks":true,"direction":0},{"x":3195,"y":3268,"plane":0,"walks":true,"direction":0},{"x":3205,"y":3270,"plane":0,"walks":true,"direction":4},{"x":3249,"y":3345,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}

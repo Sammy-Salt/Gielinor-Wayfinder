@@ -1,1 +1,1 @@
-{"id":2691,"name":"Gnome soldier","version":"5","options":"None","locations":[{"name":"Gnome soldier","x":2146,"y":4965},{"name":"Gnome soldier","x":2151,"y":4966},{"name":"Gnome soldier","x":2152,"y":4965},{"name":"Gnome soldier","x":2147,"y":4966},{"name":"Gnome soldier","x":2150,"y":4964}],"aliases":[],"shops":[]}
+{"id":2691,"name":"Longbow Ben","examine":"A strange man with a strange name. Probably a strange past, too.","options":null,"locations":[{"x":3048,"y":3256,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

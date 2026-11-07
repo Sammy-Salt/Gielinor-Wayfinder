@@ -1,1 +1,1 @@
-{"id":851,"name":"Callisto cub","version":"Normal","options":"Talk-to, Metamorphosis, Pick-up","locations":[],"aliases":["Artio pet","Bear pet","Caliisto cub","Calisto cub","Calisto pet","Callisto pet","Cub pet","Pet bear","Pet callisto"],"shops":[]}
+{"id":851,"name":"Gnome Waiter","examine":"He can serve you gnome food.","options":null,"locations":[{"x":2449,"y":3503,"plane":1,"walks":true,"direction":4}],"aliases":[],"shops":[]}

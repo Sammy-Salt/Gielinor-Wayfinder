@@ -1,1 +1,1 @@
-{"id":860,"name":"Candle seller","version":null,"options":"Talk-to","locations":[{"name":"Candle seller","x":3170,"y":3176}],"aliases":["Buy a candle in lumbridge"],"shops":[]}
+{"id":860,"name":"Ogre guard","options":null,"locations":[{"x":2501,"y":3012,"plane":0,"walks":true,"direction":0},{"x":2503,"y":3011,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

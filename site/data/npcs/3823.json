@@ -1,1 +1,1 @@
-{"id":3823,"name":"Magic Instructor","version":"Normal","options":"Talk-to","locations":[{"name":"Magic Instructor","x":3141,"y":3087},{"name":"Magic Instructor","x":1733,"y":6096}],"aliases":["Magic instructor","Terrova"],"shops":[]}
+{"id":3823,"name":"Franklin Caranos","examine":"Engineer for the Piscatoris Fishing Colony.","options":null,"locations":[{"x":2343,"y":3668,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2195,"name":"Farmer Fromund","version":null,"options":"Talk-to, Check-Approval","locations":[{"name":"Farmer Fromund","x":2582,"y":3865}],"aliases":["Farmer fromund"],"shops":[]}
+{"id":2195,"name":"Karl","examine":"A short, merry guy.","options":null,"locations":[{"x":2900,"y":10227,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":6769,"name":"Zombie (2005 Halloween event)","version":"Call-Over","options":"Talk-To, Call-Over","locations":[],"aliases":["Zombie (2005 Hallowe'en event, Call-Over)","Zombie (2005 Hallowe'en event, Insult)","Zombie (2005 Hallowe'en event, Scare)","Zombie (2005 Halloween event","Zombie (2005 halloween event)"],"shops":[]}
+{"id":6769,"name":"Doorman","examine":"A guard.","options":null,"locations":[{"x":3320,"y":2762,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

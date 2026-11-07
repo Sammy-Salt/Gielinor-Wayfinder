@@ -1,1 +1,1 @@
-{"id":756,"name":"Brother Omad","version":null,"options":"Talk-to","locations":[{"name":"Brother Omad","x":2604,"y":3209}],"aliases":["Ardougne monk","Bother omad","Brother Ornad","Brother omad","Omad"],"shops":[]}
+{"id":756,"name":"Dr Harlow","examine":"A retired vampyre hunter.","options":null,"locations":[{"x":3222,"y":3398,"plane":0,"walks":false,"direction":3}],"aliases":[],"shops":[]}

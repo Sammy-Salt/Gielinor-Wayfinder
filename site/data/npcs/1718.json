@@ -1,1 +1,1 @@
-{"id":1718,"name":"Dhalak","version":null,"options":"Talk-To","locations":[{"name":"Dhalak","x":3052,"y":3498}],"aliases":["Dhalak the Mage"],"shops":[]}
+{"id":1718,"name":"Jimmy the Chisel","examine":"A young man with a dark and mysterious past.","options":null,"locations":[{"x":3184,"y":9610,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2252,"name":"Fighter","version":"Saika's veil","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":2252,"name":"Crow","options":null,"locations":[{"x":3079,"y":3257,"plane":0,"walks":true,"direction":1},{"x":3091,"y":3250,"plane":0,"walks":true,"direction":6},{"x":3137,"y":3254,"plane":0,"walks":true,"direction":0},{"x":3199,"y":3302,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

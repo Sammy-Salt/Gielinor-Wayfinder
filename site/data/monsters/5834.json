@@ -1,1 +1,1 @@
-{"examine":"A powerful wizard.","name":"Surok Magis","id":5834,"locations":[{"x":3208,"y":3496,"plane":0,"face":1,"walk":6}],"boss":false,"combat_level":265,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"examine":"A powerful wizard.","name":"Surok Magis","id":5834,"locations":[{"x":3208,"y":3496,"plane":0,"walks":true,"direction":6}],"boss":false,"combat_level":265,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

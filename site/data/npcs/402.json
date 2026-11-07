@@ -1,1 +1,1 @@
-{"id":402,"name":"Banker (Auburnvale)","version":"2","options":"Talk-to, Bank, Collect","locations":[],"aliases":[],"shops":[]}
+{"id":402,"name":"Jungle forester","examine":"She deals in exotic types of wood.","options":null,"locations":[{"x":2818,"y":2939,"plane":0,"walks":false,"direction":0},{"x":2870,"y":2943,"plane":0,"walks":false,"direction":0},{"x":2933,"y":2944,"plane":0,"walks":false,"direction":0},{"x":2762,"y":2943,"plane":0,"walks":false,"direction":0},{"x":2791,"y":2944,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

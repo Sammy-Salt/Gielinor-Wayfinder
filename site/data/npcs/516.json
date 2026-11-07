@@ -1,1 +1,1 @@
-{"id":516,"name":"Barricade","version":"Zamorak","options":"Attack, Burn","locations":[],"aliases":["BARRICADE","Barricades"],"shops":[]}
+{"id":516,"name":"Obli","examine":"An intelligent-looking shop owner.","options":null,"locations":[{"x":2826,"y":2958,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

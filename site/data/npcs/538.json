@@ -1,1 +1,1 @@
-{"id":538,"name":"Bartender (The Rolling Tide)","version":null,"options":"Talk-to, Trade","locations":[{"name":"Bartender (The Rolling Tide)","x":1894,"y":3312}],"aliases":["Bartender (Port Roberts)"],"shops":[]}
+{"id":538,"name":"Peksa","examine":"Always up-to-date with the latest helmet fashions.","options":null,"locations":[{"x":3076,"y":3429,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

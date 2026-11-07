@@ -1,1 +1,1 @@
-{"id":574,"name":"Bees!","version":null,"options":null,"locations":[{"name":"Bees!","x":1927,"y":5044}],"aliases":["Stung by bee"],"shops":[]}
+{"id":574,"name":"Silk merchant","examine":"Seems very well-off.","options":null,"locations":[{"x":2656,"y":3300,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

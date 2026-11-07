@@ -1,1 +1,1 @@
-{"id":11,"name":"'Lecherous' Lee","version":null,"options":"Talk-to","locations":[{"name":"'Lecherous' Lee","x":2225,"y":3790}],"aliases":["'lecherous' lee","Lecherous Lee"],"shops":[]}
+{"id":11,"name":"Tramp","examine":"A man down on his luck.","options":null,"locations":[{"x":3235,"y":3399,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}

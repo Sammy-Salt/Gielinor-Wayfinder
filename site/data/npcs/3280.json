@@ -1,1 +1,1 @@
-{"id":3280,"name":"Jane","version":null,"options":"Talk-to","locations":[{"name":"Jane","x":1696,"y":2983}],"aliases":[],"shops":[]}
+{"id":3280,"name":"Engineering assistant","examine":"He looks busy.","options":null,"locations":[{"x":3015,"y":3451,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

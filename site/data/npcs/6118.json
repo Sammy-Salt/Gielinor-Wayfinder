@@ -1,1 +1,1 @@
-{"id":6118,"name":"Tourist","version":"6","options":"Talk-to, Pickpocket","locations":[],"aliases":[],"shops":[]}
+{"id":6118,"name":"Observatory assistant","examine":"He helps the professor.","options":null,"locations":[{"x":2443,"y":3190,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

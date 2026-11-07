@@ -1,1 +1,1 @@
-{"id":1385,"name":"Combat stone (NPC, clay)","version":"Crush 3, stab 2, slash 2","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1385,"name":"Sailor","examine":"He's strong to the finish, because he eats cabbage.","options":null,"locations":[{"x":2581,"y":3847,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

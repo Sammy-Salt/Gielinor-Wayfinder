@@ -1,1 +1,1 @@
-{"id":10,"name":"'Gummy'","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"'Gummy'","x":2647,"y":3228}],"aliases":["'gummy'","Gummy"],"shops":[]}
+{"id":10,"name":"Schoolgirl","examine":"She looks happy.","options":null,"locations":[{"x":1740,"y":4970,"plane":0,"walks":true,"direction":4},{"x":1783,"y":4950,"plane":0,"walks":true,"direction":4},{"x":1755,"y":4951,"plane":0,"walks":true,"direction":3},{"x":1754,"y":4986,"plane":0,"walks":true,"direction":6},{"x":1763,"y":4972,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

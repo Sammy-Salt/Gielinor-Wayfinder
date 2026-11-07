@@ -1,1 +1,1 @@
-{"id":692,"name":"Border Guard (Varlamore)","version":"7","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":692,"name":"Tribal Weapon Salesman","examine":"Supplier of authentic throwing weapons.","options":null,"locations":[{"x":2661,"y":3419,"plane":0,"walks":true,"direction":7}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2443,"name":"Frog (The Ribbiting Tale of a Lily Pad Labour Dispute)","version":"Sue","options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":2443,"name":"Door-support","examine":"This support is propping the door closed.","options":null,"locations":[{"x":2543,"y":10143,"plane":0,"walks":false,"direction":3}],"aliases":[],"shops":[]}

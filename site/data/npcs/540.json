@@ -1,1 +1,1 @@
-{"id":540,"name":"Bartender (The Warrens)","version":null,"options":"Talk-to","locations":[{"name":"Bartender (The Warrens)","x":1825,"y":10131}],"aliases":[],"shops":[]}
+{"id":540,"name":"Gem trader","examine":"Makes his money selling rocks.","options":null,"locations":[{"x":3288,"y":3212,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

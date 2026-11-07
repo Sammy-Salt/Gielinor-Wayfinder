@@ -1,1 +1,1 @@
-{"id":539,"name":"Bartender (The Sheared Ram)","version":null,"options":"Talk-to","locations":[{"name":"Bartender (The Sheared Ram)","x":3230,"y":3240}],"aliases":["Bartender (Sheared Ram","Bartender (Sheared Ram)","Bartender (sheared ram)"],"shops":[]}
+{"id":539,"name":"Silk trader","examine":"Very snappily dressed.","options":null,"locations":[{"x":3299,"y":3204,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

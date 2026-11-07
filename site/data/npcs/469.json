@@ -1,1 +1,1 @@
-{"id":469,"name":"Banker (Tutorial Island)","version":null,"options":"Talk-to","locations":[{"name":"Banker (Tutorial Island)","x":3120,"y":3125},{"name":"Banker (Tutorial Island)","x":3122,"y":3125}],"aliases":["Banker (Tutorial Island","Banker (tutorial island)"],"shops":[]}
+{"id":469,"name":"King Bolren","examine":"It's a gnome. He looks important.","options":null,"locations":[{"x":2542,"y":3169,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

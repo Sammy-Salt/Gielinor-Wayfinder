@@ -1,1 +1,1 @@
-{"id":2449,"name":"Frog (Zanaris)","version":null,"options":"None","locations":[{"name":"Frog (Zanaris)","x":2433,"y":4418}],"aliases":["Frog (Zanaris","Frog (zanaris)","Zanaris frog"],"shops":[]}
+{"id":2449,"name":"Egg","options":null,"locations":[{"x":2546,"y":10144,"plane":0,"walks":false,"direction":1},{"x":2546,"y":10142,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

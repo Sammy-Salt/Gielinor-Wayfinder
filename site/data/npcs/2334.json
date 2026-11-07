@@ -1,1 +1,1 @@
-{"id":2334,"name":"Fishing spot (minnow)","version":null,"options":"Fish","locations":[],"aliases":[],"shops":[]}
+{"id":2334,"name":"Rhonen","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":2662,"y":3525,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

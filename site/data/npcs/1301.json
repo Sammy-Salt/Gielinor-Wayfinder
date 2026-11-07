@@ -1,1 +1,1 @@
-{"id":1301,"name":"Clerk (Hosidius)","version":null,"options":"Talk-to","locations":[{"name":"Clerk (Hosidius)","x":1702,"y":3528}],"aliases":["Clerk (Hosidius","Clerk (hosidius)","Clerk hosidius","Hosidious clerk","Hosidius Clerk house","Hosidius clerk"],"shops":[]}
+{"id":1301,"name":"Yrsa","examine":"Pretty shabbily dressed for a clothes shop owner.","options":null,"locations":[{"x":2623,"y":3675,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

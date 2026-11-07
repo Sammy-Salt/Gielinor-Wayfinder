@@ -1,1 +1,1 @@
-{"name":"Sir Palomedes","id":3787,"locations":[{"x":2754,"y":3509,"plane":0,"face":0,"walk":0}],"boss":false,"combat_level":118,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Sir Palomedes","id":3787,"locations":[{"x":2754,"y":3509,"plane":0,"walks":false,"direction":0}],"boss":false,"combat_level":118,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

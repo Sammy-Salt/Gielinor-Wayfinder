@@ -1,1 +1,1 @@
-{"id":3324,"name":"Jill","version":null,"options":"Talk-to","locations":[{"name":"Jill","x":2907,"y":3174}],"aliases":[],"shops":[]}
+{"id":3324,"name":"Draul Leptoc","examine":"This looks like an angry, aggressive man.","options":null,"locations":[{"x":3159,"y":3433,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2271,"name":"Fingolfin","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Fingolfin","x":3257,"y":6086}],"aliases":[],"shops":[]}
+{"id":2271,"name":"Emerald Benedict","examine":"A snowman armed with an ice sword.","options":null,"locations":[{"x":3045,"y":4971,"plane":1,"walks":false,"direction":4}],"aliases":[],"shops":[]}

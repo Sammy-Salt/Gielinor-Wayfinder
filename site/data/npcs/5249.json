@@ -1,1 +1,1 @@
-{"id":5249,"name":"Sailor Jakob","version":"Dock","options":"Talk-to, Bank-cargo","locations":[{"name":"Sailor Jakob","x":2804,"y":3411}],"aliases":["Jakob","Sailer jakob","Sailor jacob"],"shops":[]}
+{"id":5249,"name":"Captain Errdo","examine":"He looks embarrassed","options":null,"locations":[{"x":3321,"y":3431,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

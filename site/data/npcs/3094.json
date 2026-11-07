@@ -1,1 +1,1 @@
-{"id":3094,"name":"Het","version":"Imprisoned","options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":3094,"name":"Flying Book","examine":"The book moves by itself!","options":null,"locations":[{"x":3361,"y":3306,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

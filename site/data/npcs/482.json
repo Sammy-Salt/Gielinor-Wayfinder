@@ -1,1 +1,1 @@
-{"id":482,"name":"Barbara","version":null,"options":"Talk-to","locations":[{"name":"Barbara","x":1747,"y":3538}],"aliases":["Barbara hosidius","Barbra","Farmer's wife"],"shops":[]}
+{"id":482,"name":"Tracker gnome 2","examine":"It's a gnome who specialises in covert operations.","options":null,"locations":[{"x":2524,"y":3258,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

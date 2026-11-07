@@ -1,1 +1,1 @@
-{"id":833,"name":"Cabin Boy Jenkins (ghost)","version":"No-op","options":"None","locations":[{"name":"Cabin Boy Jenkins (ghost)","x":2853,"y":3236}],"aliases":["Cabin boy jenkins ghost","Cabin jenkins","Ghost cabin boy","Ghost jenkins","Jenkins ghost"],"shops":[]}
+{"id":833,"name":"Bedabin Nomad","examine":"A Bedabin nomad","options":null,"locations":[{"x":3167,"y":3033,"plane":0,"walks":true,"direction":2},{"x":3170,"y":3027,"plane":0,"walks":true,"direction":5},{"x":3174,"y":3028,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

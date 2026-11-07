@@ -1,1 +1,1 @@
-{"id":5959,"name":"Taria","version":null,"options":"Talk-to, Pay, Trade","locations":[{"name":"Taria","x":2941,"y":3222}],"aliases":[],"shops":[]}
+{"id":5959,"name":"Barge workman","examine":"Working hard.","options":null,"locations":[{"x":3352,"y":3449,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

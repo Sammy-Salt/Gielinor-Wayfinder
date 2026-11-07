@@ -1,1 +1,1 @@
-{"id":264,"name":"Archpriest of the Unicorn","version":null,"options":"Talk-to","locations":[{"name":"Archpriest of the Unicorn","x":2400,"y":5983}],"aliases":["Archpriest of the unicorn"],"shops":[]}
+{"id":264,"name":"Lady Servil","examine":"She looks wealthy.","options":null,"locations":[{"x":2568,"y":3200,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

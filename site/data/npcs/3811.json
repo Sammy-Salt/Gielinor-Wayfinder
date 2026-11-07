@@ -1,1 +1,1 @@
-{"id":3811,"name":"Mad melvin96","version":null,"options":"Talk-to","locations":[],"aliases":["Mad melvin"],"shops":[]}
+{"id":3811,"name":"Captain Errdo","examine":"Up up and away!","options":null,"locations":[{"x":2894,"y":2730,"plane":0,"walks":true,"direction":2},{"x":2918,"y":3057,"plane":0,"walks":false,"direction":0},{"x":2465,"y":3501,"plane":3,"walks":true,"direction":3}],"aliases":[],"shops":[]}

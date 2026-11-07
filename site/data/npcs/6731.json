@@ -1,1 +1,1 @@
-{"id":6731,"name":"Young 'un","version":null,"options":"Talk-to","locations":[{"name":"Young 'un","x":2741,"y":5344}],"aliases":["Youg 'un","Young one"],"shops":[]}
+{"id":6731,"name":"Queen of Snow","examine":"Her lack of body heat is unsettling.","options":null,"locations":[{"x":2655,"y":5615,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

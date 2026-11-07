@@ -1,1 +1,1 @@
-{"id":520,"name":"Bartender (2025 Christmas event)","version":null,"options":"None","locations":[],"aliases":[],"shops":[]}
+{"id":520,"name":"Shopkeeper","examine":"Sells stuff.","options":null,"locations":[{"x":3217,"y":3241,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":3029,"name":"Harold","version":null,"options":"Talk-to","locations":[{"name":"Harold","x":2905,"y":3539}],"aliases":[],"shops":[]}
+{"id":3029,"name":"Ghaslor the Elder","examine":"The oldest man in Nardah.","options":null,"locations":[{"x":3422,"y":2937,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

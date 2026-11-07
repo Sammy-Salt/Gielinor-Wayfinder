@@ -1,1 +1,1 @@
-{"id":5916,"name":"Suspicious outsider","version":null,"options":"Talk-to","locations":[{"name":"Suspicious outsider","x":3103,"y":3253}],"aliases":[],"shops":[]}
+{"id":5916,"name":"Cleaner","examine":"Does what too many people aren't interested in doing.","options":null,"locations":[{"x":3250,"y":3429,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}

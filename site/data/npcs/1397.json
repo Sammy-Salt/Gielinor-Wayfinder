@@ -1,1 +1,1 @@
-{"id":1397,"name":"Combat stone (NPC, limestone)","version":"Crush 0, stab 1, slash 1","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1397,"name":"Fisherman Frodi","examine":"There's something fishy about him.","options":null,"locations":[{"x":2576,"y":3851,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

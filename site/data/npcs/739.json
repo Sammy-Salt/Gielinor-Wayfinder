@@ -1,1 +1,1 @@
-{"id":739,"name":"Brimstail","version":"Normal","options":"Talk-to, Teleport","locations":[],"aliases":["Brimsail","Brimsails","Brimstails","Brimstal","Brimstale","Brimstall","Brimstalls","Brimtail","Brimtails","Brinstail","Rimstails"],"shops":[]}
+{"id":739,"name":"Bartender","examine":"I could get a beer from him.","options":null,"locations":[{"x":2554,"y":3080,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

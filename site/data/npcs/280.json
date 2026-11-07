@@ -1,1 +1,1 @@
-{"id":280,"name":"Aris","version":"Normal","options":"Talk-to","locations":[],"aliases":["Aris Maye","Aris tent","Fortune teller","Fortune-teller","Fortuneteller","Gypsy","Gypsy Aris","Gypsy aris"],"shops":[]}
+{"id":280,"name":"Brother Cedric","examine":"An old drunk monk.","options":null,"locations":[{"x":2615,"y":3258,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

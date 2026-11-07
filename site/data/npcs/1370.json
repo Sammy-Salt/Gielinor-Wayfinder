@@ -1,1 +1,1 @@
-{"id":1370,"name":"Combat stone (NPC, clay)","version":"Crush 2, stab 2, slash 3","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1370,"name":"Greengrocer","examine":"At least he eats his greens.","options":null,"locations":[{"x":2602,"y":3876,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

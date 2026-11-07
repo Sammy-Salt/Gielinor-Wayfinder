@@ -1,1 +1,1 @@
-{"id":2059,"name":"Enchantment Guardian","version":null,"options":"Talk-to","locations":[{"name":"Enchantment Guardian","x":3364,"y":9647}],"aliases":["Enchantment guardian"],"shops":[]}
+{"id":2059,"name":"Zavistic Rarve","examine":"The Grand Secretary of the Wizards' Guild in Yanille.","options":null,"locations":[{"x":2588,"y":3088,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

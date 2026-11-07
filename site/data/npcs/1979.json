@@ -1,1 +1,1 @@
-{"id":1979,"name":"Elder Guard","version":"1","options":"Talk-to","locations":[],"aliases":["Elder guard"],"shops":[]}
+{"id":1979,"name":"Slave","examine":"A malnourished worker.","options":null,"locations":[{"x":3296,"y":2794,"plane":0,"walks":true,"direction":3},{"x":3308,"y":2774,"plane":0,"walks":true,"direction":4},{"x":3291,"y":2761,"plane":0,"walks":true,"direction":2}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":861,"name":"Caninelle Draynar","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Caninelle Draynar","x":3609,"y":3384}],"aliases":["Caninelle draynar"],"shops":[]}
+{"id":861,"name":"Ogre guard","options":null,"locations":[{"x":2526,"y":3018,"plane":0,"walks":true,"direction":0},{"x":2529,"y":3019,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

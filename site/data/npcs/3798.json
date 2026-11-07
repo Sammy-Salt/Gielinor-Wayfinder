@@ -1,1 +1,1 @@
-{"id":3798,"name":"Lunderwin","version":null,"options":"Talk-to","locations":[{"name":"Lunderwin","x":2476,"y":4467}],"aliases":[],"shops":[]}
+{"id":3798,"name":"Squire","examine":"A squire of balance.","options":null,"locations":[{"x":2658,"y":2652,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

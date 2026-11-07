@@ -1,1 +1,1 @@
-{"id":2655,"name":"Gloria","version":null,"options":"Talk-to","locations":[{"name":"Gloria","x":1803,"y":9512}],"aliases":[],"shops":[]}
+{"id":2655,"name":"Unferth","examine":"Nice but dim.","options":null,"locations":[{"x":2921,"y":3558,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

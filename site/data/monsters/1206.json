@@ -1,1 +1,1 @@
-{"examine":"One of King Tyras's men.","name":"Tyras guard","id":1206,"locations":[{"x":2185,"y":3144,"plane":0,"face":0,"walk":4}],"boss":false,"combat_level":110,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"examine":"One of King Tyras's men.","name":"Tyras guard","id":1206,"locations":[{"x":2185,"y":3144,"plane":0,"walks":false,"direction":4}],"boss":false,"combat_level":110,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

@@ -1,1 +1,1 @@
-{"id":1980,"name":"Elder Guard","version":"2","options":"Talk-to","locations":[],"aliases":["Elder guard"],"shops":[]}
+{"id":1980,"name":"Embalmer","examine":"A strange-smelling merchant.","options":null,"locations":[{"x":3287,"y":2755,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

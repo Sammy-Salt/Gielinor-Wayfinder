@@ -1,1 +1,1 @@
-{"id":884,"name":"Captain Donnie","version":null,"options":"Talk-to","locations":[{"name":"Captain Donnie","x":2148,"y":5079}],"aliases":["Captain donnie","Donnie"],"shops":[]}
+{"id":884,"name":"Captain Rovin","examine":"The head of the palace guard.","options":null,"locations":[{"x":3204,"y":3495,"plane":2,"walks":true,"direction":6}],"aliases":[],"shops":[]}

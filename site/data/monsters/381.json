@@ -1,1 +1,1 @@
-{"name":"Dwarf","id":381,"locations":[{"x":2684,"y":3272,"plane":0,"face":1,"walk":4}],"boss":false,"combat_level":10,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Dwarf","id":381,"locations":[{"x":2684,"y":3272,"plane":0,"walks":true,"direction":4}],"boss":false,"combat_level":10,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

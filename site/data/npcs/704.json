@@ -1,1 +1,1 @@
-{"id":704,"name":"Boulder","version":null,"options":"Talk-to","locations":[{"name":"Boulder","x":2844,"y":3935}],"aliases":[],"shops":[]}
+{"id":704,"name":"Fisherman","options":null,"locations":[{"x":2778,"y":3291,"plane":0,"walks":true,"direction":0},{"x":2773,"y":3282,"plane":1,"walks":true,"direction":0},{"x":2787,"y":3280,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

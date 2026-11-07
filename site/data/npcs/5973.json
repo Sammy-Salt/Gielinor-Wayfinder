@@ -1,1 +1,1 @@
-{"id":5973,"name":"Teacher and pupil","version":"Male","options":"Talk-to","locations":[{"name":"Teacher and pupil","x":3260,"y":3452},{"name":"Teacher and pupil","x":1745,"y":4961},{"name":"Teacher and pupil","x":1765,"y":4946},{"name":"Teacher and pupil","x":1759,"y":4977}],"aliases":[],"shops":[]}
+{"id":5973,"name":"Snail display","examine":"A house on its back.","options":null,"locations":[{"x":1774,"y":4964,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

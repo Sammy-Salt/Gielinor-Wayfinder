@@ -1,1 +1,1 @@
-{"id":2098,"name":"Erodoeht","version":null,"options":null,"locations":[{"name":"Erodoeht","x":3749,"y":3299}],"aliases":[],"shops":[]}
+{"id":2098,"name":"Brown Engine Secretary","examine":"The head secretary of the Brown Engine mining company.","options":null,"locations":[{"x":2890,"y":10192,"plane":1,"walks":false,"direction":6}],"aliases":[],"shops":[]}

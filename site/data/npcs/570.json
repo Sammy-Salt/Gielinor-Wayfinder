@@ -1,1 +1,1 @@
-{"id":570,"name":"Bee keeper","version":"Random event","options":"Talk-to","locations":[],"aliases":["According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossible.","Bee keepr","Beekeepr","Beekeper"],"shops":[]}
+{"id":570,"name":"Gem merchant","examine":"Seems very well-off.","options":null,"locations":[{"x":2669,"y":3303,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1884,"name":"Dwarf (Mining Guild)","version":"Pickaxe","options":"Talk-to","locations":[{"name":"Dwarf (Mining Guild)","x":3045,"y":9758},{"name":"Dwarf (Mining Guild)","x":3021,"y":3339},{"name":"Dwarf (Mining Guild)","x":3020,"y":9734},{"name":"Dwarf (Mining Guild)","x":3044,"y":9731}],"aliases":["Dwarf (Mining Guild","Dwarf (mining guild)"],"shops":[]}
+{"id":1884,"name":"Trobert","examine":"A well dressed thief.","options":null,"locations":[{"x":2811,"y":3174,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

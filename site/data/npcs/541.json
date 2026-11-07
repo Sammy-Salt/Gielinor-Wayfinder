@@ -1,1 +1,1 @@
-{"id":541,"name":"Bartender (The Windbreaker)","version":null,"options":"Talk-to, Trade","locations":[{"name":"Bartender (The Windbreaker)","x":1499,"y":3224}],"aliases":[],"shops":[]}
+{"id":541,"name":"Zeke","examine":"Sells superior scimitars.","options":null,"locations":[{"x":3288,"y":3190,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

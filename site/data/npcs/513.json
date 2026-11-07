@@ -1,1 +1,1 @@
-{"id":513,"name":"Baron","version":null,"options":"Talk-to, Pick-up","locations":[],"aliases":["Baron Sucellus","Baron pet","Barron","Duke pet","Duke sucellus pet","I have been defeated. we have been defeated","Lil duke","The baron","Vojtalav"],"shops":[]}
+{"id":513,"name":"Yohnus","examine":"This is Yohnus - he runs the local blacksmiths.","options":null,"locations":[{"x":2857,"y":2962,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

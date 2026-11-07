@@ -1,1 +1,1 @@
-{"id":1063,"name":"Charlie the cook","version":null,"options":"Talk-to","locations":[{"name":"Charlie the cook","x":2789,"y":3192}],"aliases":["Charlie the Cook"],"shops":[]}
+{"id":1063,"name":"Soldier","examine":"A soldier of the Imperial Guard.","options":null,"locations":[{"x":2900,"y":3531,"plane":0,"walks":false,"direction":7},{"x":2900,"y":3533,"plane":0,"walks":false,"direction":7}],"aliases":[],"shops":[]}

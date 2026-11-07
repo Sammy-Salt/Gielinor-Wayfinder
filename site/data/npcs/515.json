@@ -1,1 +1,1 @@
-{"id":515,"name":"Barricade","version":"Saradomin (Burning)","options":"Attack, Extinguish","locations":[],"aliases":["BARRICADE","Barricades"],"shops":[]}
+{"id":515,"name":"Yanni Salika","examine":"Yanni Salika; he buys and sells antiques.","options":null,"locations":[{"x":2834,"y":2987,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2395,"name":"Fossegrimen","version":null,"options":"Talk-to","locations":[{"name":"Fossegrimen","x":2627,"y":3599}],"aliases":["Fosegrimen","Fosegrimmen","Fosgrimen","Fosse","Fossegrim","Fossegrime","Fossegrimmen","Fossgrimen","Fossgrimmen","Fossigrimen","Lake spirit"],"shops":[]}
+{"id":2395,"name":"Mysterious ghost","examine":"Seems to flitter in and out of existence...","options":null,"locations":[{"x":3448,"y":3550,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

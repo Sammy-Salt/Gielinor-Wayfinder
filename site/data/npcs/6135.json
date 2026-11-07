@@ -1,1 +1,1 @@
-{"id":6135,"name":"Toy cat","version":null,"options":"Pick-up, Shoo","locations":[],"aliases":["Clock cat","Clock work cat","Clockwork cat","Clockwork cats","Making toy cats","Mechanical cat","Robot cat","TOY CAT","Toy Cat","Toy cats","Woodne cat"],"shops":[]}
+{"id":6135,"name":"Town crier","examine":"Get useful information from this guy.","options":null,"locations":[{"x":3254,"y":3427,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

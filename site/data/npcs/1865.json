@@ -1,1 +1,1 @@
-{"id":1865,"name":"Dwarf (Deepfin Point)","version":"2","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":1865,"name":"Ali the Kebab seller","examine":"A kebab seller.","options":null,"locations":[{"x":3352,"y":2974,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

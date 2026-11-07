@@ -1,1 +1,1 @@
-{"id":3213,"name":"Imin","version":null,"options":"Talk-to, Pickpocket","locations":[{"name":"Imin","x":3287,"y":6132}],"aliases":[],"shops":[]}
+{"id":3213,"name":"Edmond","examine":"A local civilian.","options":null,"locations":[{"x":2568,"y":3334,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

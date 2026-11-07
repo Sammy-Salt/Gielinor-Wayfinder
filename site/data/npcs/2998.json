@@ -1,1 +1,1 @@
-{"id":2998,"name":"Hanchen the Hound","version":"Normal","options":"Talk-to","locations":[{"name":"Hanchen the Hound","x":3759,"y":9708},{"name":"Hanchen the Hound","x":3736,"y":3314}],"aliases":["Hanchen","Hanchen the hound"],"shops":[]}
+{"id":2998,"name":"Gambler","examine":"Very well to do. I wonder what he's doing here.","options":null,"locations":[{"x":2657,"y":9641,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

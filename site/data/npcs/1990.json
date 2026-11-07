@@ -1,1 +1,1 @@
-{"id":1990,"name":"Elder Root","version":null,"options":"Talk-to","locations":[{"name":"Elder Root","x":3362,"y":2212},{"name":"Elder Root","x":3362,"y":2212},{"name":"Elder Root","x":3362,"y":2212}],"aliases":[],"shops":[]}
+{"id":1990,"name":"Sphinx","options":null,"locations":[{"x":3299,"y":2785,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

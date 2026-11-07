@@ -4,23 +4,23 @@
   "counts": {
     "items": 12001,
     "monsters": 3098,
-    "npcs": 6804,
+    "npcs": 1646,
     "quests": 200
   },
   "detailFiles": {
     "items": 12003,
     "monsters": 3100,
-    "npcs": 6805
+    "npcs": 1647
   },
-  "searchRecords": 22103,
+  "searchRecords": 16945,
   "relationshipKeys": {
     "monsterDrops": 2686,
     "itemSources": 258
   },
   "knowledge": {
-    "entities": 22106,
+    "entities": 16948,
     "edges": 52672,
-    "searchRecords": 22103,
+    "searchRecords": 16945,
     "questDependencyRecords": 200
   },
   "generatedArtifacts": [
@@ -32,8 +32,8 @@
     "relationships/index.json",
     "sources/2009scape/drop_tables.json"
   ],
-  "release": "PASS31.34",
-  "buildId": "pass31.34-20261107-1",
+  "release": "PASS31.35",
+  "buildId": "pass31.35-20261107-1",
   "generatedFrom": "PASS31.27 architecture/data-integrity polish",
   "displayViews": {
     "monsters": {

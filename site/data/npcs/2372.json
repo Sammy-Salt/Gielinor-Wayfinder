@@ -1,1 +1,1 @@
-{"id":2372,"name":"Flying Book","version":"Purple","options":null,"locations":[{"name":"Flying Book","x":3364,"y":3308},{"name":"Flying Book","x":3367,"y":3304}],"aliases":["Flying book"],"shops":[]}
+{"id":2372,"name":"Head mourner","examine":"A Mourner showing his true identity.","options":null,"locations":[{"x":2044,"y":4628,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

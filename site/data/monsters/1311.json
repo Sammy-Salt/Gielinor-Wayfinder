@@ -1,1 +1,1 @@
-{"name":"Lensa","id":1311,"locations":[{"x":2655,"y":3651,"plane":0,"face":1,"walk":3}],"boss":false,"combat_level":48,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Lensa","id":1311,"locations":[{"x":2655,"y":3651,"plane":0,"walks":true,"direction":3}],"boss":false,"combat_level":48,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

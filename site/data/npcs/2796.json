@@ -1,1 +1,1 @@
-{"id":2796,"name":"Grigore","version":null,"options":"Talk-to","locations":[{"name":"Grigore","x":3489,"y":3222}],"aliases":[],"shops":[]}
+{"id":2796,"name":"Skippy","examine":"He looks angry and smells drunk.","options":null,"locations":[{"x":3096,"y":3108,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

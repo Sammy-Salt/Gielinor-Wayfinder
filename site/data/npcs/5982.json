@@ -1,1 +1,1 @@
-{"id":5982,"name":"Teicuh","version":null,"options":"Talk-to, Trade","locations":[{"name":"Teicuh","x":1211,"y":3118},{"name":"Teicuh","x":1210,"y":3119},{"name":"Teicuh","x":1210,"y":3121},{"name":"Teicuh","x":1211,"y":3122},{"name":"Teicuh","x":1214,"y":3122},{"name":"Teicuh","x":1215,"y":3121},{"name":"Teicuh","x":1215,"y":3119},{"name":"Teicuh","x":1214,"y":3118}],"aliases":[],"shops":[]}
+{"id":5982,"name":"Mole display","examine":"Loves making molehills.","options":null,"locations":[{"x":1735,"y":4954,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

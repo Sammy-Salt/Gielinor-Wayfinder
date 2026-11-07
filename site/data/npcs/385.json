@@ -1,1 +1,1 @@
-{"id":385,"name":"Bandit (The Big Heist Lodge)","version":null,"options":"Talk-to","locations":[{"name":"Bandit (The Big Heist Lodge)","x":3161,"y":2983},{"name":"Bandit (The Big Heist Lodge)","x":3161,"y":2983},{"name":"Bandit (The Big Heist Lodge)","x":3161,"y":2983}],"aliases":["Bandit (The Big Heist Lodge","Bandit (the big heist lodge)"],"shops":[]}
+{"id":385,"name":"Kharid Scorpion","examine":"Looks vicious!","options":null,"locations":[{"x":2552,"y":3570,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

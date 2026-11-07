@@ -1,1 +1,1 @@
-{"id":4439,"name":"Ogre guard (Jiggig)","version":"2","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":4439,"name":"Centaur","examine":"Horseplay.","options":null,"locations":[{"x":3035,"y":4507,"plane":0,"walks":true,"direction":6},{"x":3041,"y":4493,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

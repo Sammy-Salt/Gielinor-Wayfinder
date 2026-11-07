@@ -1,1 +1,1 @@
-{"id":3791,"name":"Lumiere","version":null,"options":"Talk-to","locations":[{"name":"Lumiere","x":3827,"y":9760}],"aliases":[],"shops":[]}
+{"id":3791,"name":"Squire","examine":"A squire of balance.","options":null,"locations":[{"x":2653,"y":2655,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

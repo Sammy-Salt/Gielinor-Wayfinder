@@ -1,1 +1,1 @@
-{"id":5164,"name":"Rogue Guard","version":"3","options":null,"locations":[{"name":"Rogue Guard","x":2962,"y":5008},{"name":"Rogue Guard","x":2962,"y":5008},{"name":"Rogue Guard","x":2962,"y":5008}],"aliases":["Rogue guard"],"shops":[]}
+{"id":5164,"name":"Sheep","examine":"White and fluffy","options":null,"locations":[{"x":2410,"y":4456,"plane":0,"walks":true,"direction":1},{"x":2415,"y":4429,"plane":0,"walks":true,"direction":2}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1067,"name":"Charmed Warrior","version":"Brown (shield)","options":"Talk-to","locations":[],"aliases":["Charmed warrior"],"shops":[]}
+{"id":1067,"name":"Soldier","examine":"A soldier of the Imperial Guard.","options":null,"locations":[{"x":2893,"y":3533,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

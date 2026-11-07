@@ -1,1 +1,1 @@
-{"id":5971,"name":"Tea Seller","version":null,"options":"Talk-to, Trade","locations":[{"name":"Tea Seller","x":3270,"y":3413}],"aliases":["Tea seller","Tea trader","Varrock tea"],"shops":[]}
+{"id":5971,"name":"Leech display","examine":"Bloodsuckers!","options":null,"locations":[{"x":1742,"y":4964,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

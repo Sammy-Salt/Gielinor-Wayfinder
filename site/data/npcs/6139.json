@@ -1,1 +1,1 @@
-{"id":6139,"name":"Trade Referee","version":null,"options":"Talk-to","locations":[{"name":"Trade Referee","x":2880,"y":10199}],"aliases":["Octagon Referee","Trade referee"],"shops":[]}
+{"id":6139,"name":"Town crier","options":null,"locations":[{"x":2734,"y":3484,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

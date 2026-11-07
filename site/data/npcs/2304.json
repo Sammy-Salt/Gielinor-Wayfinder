@@ -1,1 +1,1 @@
-{"id":2304,"name":"Fisher","version":"5","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":2304,"name":"Sarah","examine":"She sells farming equipment.","options":null,"locations":[{"x":3039,"y":3292,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

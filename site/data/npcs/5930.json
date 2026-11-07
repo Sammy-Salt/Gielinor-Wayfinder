@@ -1,1 +1,1 @@
-{"id":5930,"name":"Sweeper","version":null,"options":null,"locations":[{"name":"Sweeper","x":3364,"y":9638}],"aliases":[],"shops":[]}
+{"id":5930,"name":"Art Critic Jacques","examine":"Jacques Netis - a slightly pompous art expert.","options":null,"locations":[{"x":3257,"y":3454,"plane":2,"walks":false,"direction":0}],"aliases":[],"shops":[]}

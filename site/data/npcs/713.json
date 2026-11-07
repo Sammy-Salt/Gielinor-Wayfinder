@@ -1,1 +1,1 @@
-{"id":713,"name":"Boy","version":null,"options":"Talk-to","locations":[{"name":"Boy","x":2928,"y":3456}],"aliases":[],"shops":[]}
+{"id":713,"name":"Clerk","examine":"A bureaucratic administrator.","options":null,"locations":[{"x":2526,"y":3319,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

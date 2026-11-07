@@ -1,1 +1,1 @@
-{"id":4246,"name":"Mummy (Surprise Exam)","version":null,"options":null,"locations":[{"name":"Mummy (Surprise Exam)","x":1887,"y":5026}],"aliases":["Mummy (Surprise Exam","Mummy (surprise exam)"],"shops":[]}
+{"id":4246,"name":"Taxidermist","examine":"She smells unpleasantly of chemicals.","options":null,"locations":[{"x":3479,"y":3484,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"name":"Crab","id":4346,"locations":[{"x":3714,"y":2952,"plane":0,"face":1,"walk":1},{"x":3786,"y":9463,"plane":0,"face":1,"walk":6}],"boss":false,"combat_level":21,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Crab","id":4346,"locations":[{"x":3714,"y":2952,"plane":0,"walks":true,"direction":1},{"x":3786,"y":9463,"plane":0,"walks":true,"direction":6}],"boss":false,"combat_level":21,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

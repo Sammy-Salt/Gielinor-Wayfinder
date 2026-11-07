@@ -1,1 +1,1 @@
-{"id":944,"name":"Cart Camel","version":null,"options":"Talk-to","locations":[{"name":"Cart Camel","x":3286,"y":3024}],"aliases":["Cart camel"],"shops":[]}
+{"id":944,"name":"Combat instructor","examine":"An expert on all forms of combat.","options":null,"locations":[{"x":3107,"y":9511,"plane":0,"walks":true,"direction":5}],"aliases":[],"shops":[]}

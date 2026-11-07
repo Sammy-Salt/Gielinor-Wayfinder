@@ -1,1 +1,1 @@
-{"id":787,"name":"Bunkwicket","version":"Post-quest","options":"Talk-to","locations":[{"name":"Bunkwicket","x":2803,"y":9148},{"name":"Bunkwicket","x":2803,"y":9148},{"name":"Bunkwicket","x":2484,"y":3489}],"aliases":[],"shops":[]}
+{"id":787,"name":"Civilian","examine":"A citizen of Ardougne.","options":null,"locations":[{"x":2476,"y":3313,"plane":0,"walks":true,"direction":0},{"x":2481,"y":3289,"plane":0,"walks":true,"direction":0},{"x":2490,"y":3313,"plane":0,"walks":true,"direction":0},{"x":2491,"y":3300,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":1399,"name":"Combat stone (NPC, limestone)","version":"Crush 0, stab 1, slash 3","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1399,"name":"Fishing spot","options":null,"locations":[{"x":2571,"y":3860,"plane":0,"walks":false,"direction":4},{"x":2576,"y":3850,"plane":0,"walks":false,"direction":1},{"x":2577,"y":3854,"plane":0,"walks":false,"direction":6},{"x":2582,"y":3851,"plane":0,"walks":false,"direction":1}],"aliases":[],"shops":[]}

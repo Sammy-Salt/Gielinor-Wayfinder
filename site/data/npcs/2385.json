@@ -1,1 +1,1 @@
-{"id":2385,"name":"Forester (McGrubor's Wood)","version":null,"options":"Talk-to","locations":[{"name":"Forester (McGrubor's Wood)","x":2650,"y":3468}],"aliases":[],"shops":[]}
+{"id":2385,"name":"Mysterious ghost","examine":"Seems to flitter in and out of existence...","options":null,"locations":[{"x":3112,"y":3158,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

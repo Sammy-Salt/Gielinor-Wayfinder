@@ -1,1 +1,1 @@
-{"id":1660,"name":"Darkmeyer Slave","version":null,"options":null,"locations":[{"name":"Darkmeyer Slave","x":2273,"y":5971}],"aliases":["Darkmeyer slave"],"shops":[]}
+{"id":1660,"name":"Skullball Boss","examine":"He's in charge of the Skullball Course.","options":null,"locations":[{"x":3549,"y":9867,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

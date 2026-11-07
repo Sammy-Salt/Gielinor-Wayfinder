@@ -1,1 +1,1 @@
-{"id":747,"name":"Brother Brace","version":"Normal","options":"Talk-to","locations":[{"name":"Brother Brace","x":3125,"y":3106},{"name":"Brother Brace","x":1717,"y":6114}],"aliases":["Brace","Brother brace"],"shops":[]}
+{"id":747,"name":"Oziach","examine":"A strange little man.","options":null,"locations":[{"x":3069,"y":3516,"plane":0,"walks":true,"direction":6}],"aliases":[],"shops":[]}

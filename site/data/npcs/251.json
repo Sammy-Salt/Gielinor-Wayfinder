@@ -1,1 +1,1 @@
-{"id":251,"name":"Archeio","version":null,"options":"Talk-to, Teleport","locations":[{"name":"Archeio","x":1624,"y":3808}],"aliases":["Teleport to library archive"],"shops":[]}
+{"id":251,"name":"King Arthur","examine":"Legendary King of the Britons.","options":null,"locations":[{"x":2761,"y":3512,"plane":0,"walks":false,"direction":0}],"aliases":[],"shops":[]}

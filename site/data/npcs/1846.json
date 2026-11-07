@@ -1,1 +1,1 @@
-{"id":1846,"name":"Duke (dog)","version":"Adopted","options":"Pet","locations":[],"aliases":["Duke dog"],"shops":[]}
+{"id":1846,"name":"Dwarven Boatman","examine":"He seems to be in charge of the ship on the river.","options":null,"locations":[{"x":2873,"y":10166,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

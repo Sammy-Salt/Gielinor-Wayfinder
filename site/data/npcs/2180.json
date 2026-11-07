@@ -1,1 +1,1 @@
-{"id":2180,"name":"Farmer (Miscellania)","version":null,"options":null,"locations":[{"name":"Farmer (Miscellania)","x":2538,"y":3852}],"aliases":[],"shops":[]}
+{"id":2180,"name":"Cart conductor","examine":"He makes sure the carts don't run anyone over.","options":null,"locations":[{"x":2997,"y":9837,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2175,"name":"Farmer (Hosidius)","version":null,"options":null,"locations":[],"aliases":["Farmer (Hosidius","Farmer (hosidius)"],"shops":[]}
+{"id":2175,"name":"Factory Worker","examine":"Works hard at whatever it is he does.","options":null,"locations":[{"x":2931,"y":10187,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

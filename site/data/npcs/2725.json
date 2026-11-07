@@ -1,1 +1,1 @@
-{"id":2725,"name":"Goblin guard (Land of the Goblins)","version":"2","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":2725,"name":"Otto Godblessed","examine":"A wise barbarian, apparently. He still looks like a thug.","options":null,"locations":[{"x":2500,"y":3488,"plane":0,"walks":true,"direction":2}],"aliases":[],"shops":[]}

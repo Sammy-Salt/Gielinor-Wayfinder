@@ -1,1 +1,1 @@
-{"id":3670,"name":"Lieutenant Schepbur","version":null,"options":"Talk-to","locations":[{"name":"Lieutenant Schepbur","x":2520,"y":3212}],"aliases":["Lieutenant schepbur","Schepbur"],"shops":[]}
+{"id":3670,"name":"Odd Old Man","examine":"That's a lot of bones on his back...","options":null,"locations":[{"x":3361,"y":3505,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

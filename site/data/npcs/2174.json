@@ -1,1 +1,1 @@
-{"id":2174,"name":"Farid Morrisane (ores and bars)","version":null,"options":"Talk-to, Prices","locations":[{"name":"Farid Morrisane (ores and bars)","x":3173,"y":3498}],"aliases":["Farid","Farid Morrisane","Farid Morrisane (ores and bars","Farid morrisane (ores and bars)"],"shops":[]}
+{"id":2174,"name":"Factory Worker","examine":"Works hard at whatever it is he does.","options":null,"locations":[{"x":2930,"y":10188,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

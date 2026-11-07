@@ -1,1 +1,1 @@
-{"id":268,"name":"Arena Guard Beni","version":null,"options":"Talk-to","locations":[{"name":"Arena Guard Beni","x":3341,"y":3270}],"aliases":["Beni"],"shops":[]}
+{"id":268,"name":"Local","examine":"A scruffy looking chap.","options":null,"locations":[{"x":2582,"y":3172,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

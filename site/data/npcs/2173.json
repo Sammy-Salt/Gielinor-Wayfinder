@@ -1,1 +1,1 @@
-{"id":2173,"name":"Fanellaman","version":"No stick","options":"Talk-to","locations":[],"aliases":[],"shops":[]}
+{"id":2173,"name":"Factory Worker","examine":"Works hard at whatever it is he does.","options":null,"locations":[{"x":2931,"y":10191,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

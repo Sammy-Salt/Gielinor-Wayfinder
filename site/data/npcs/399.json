@@ -1,1 +1,1 @@
-{"id":399,"name":"Banker (Arceuus)","version":"Male","options":"Talk-to, Bank, Collect","locations":[],"aliases":["Banker (Arceuus","Banker (arceuus)"],"shops":[]}
+{"id":399,"name":"Legends guard","options":null,"locations":[{"x":2846,"y":5081,"plane":0,"walks":false,"direction":0},{"x":2730,"y":3349,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":2323,"name":"Fishing spot (Tutorial Island)","version":null,"options":"Fish","locations":[],"aliases":["Fishing spot (tutorial island)"],"shops":[]}
+{"id":2323,"name":"Elstan","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":3056,"y":3306,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

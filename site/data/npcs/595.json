@@ -1,1 +1,1 @@
-{"id":595,"name":"Bethan","version":"Cutscene","options":"N/A","locations":[],"aliases":[],"shops":[]}
+{"id":595,"name":"Tea seller","examine":"He seems to sell tea.","options":null,"locations":[{"x":3271,"y":3412,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

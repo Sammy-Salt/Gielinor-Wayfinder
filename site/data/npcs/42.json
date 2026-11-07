@@ -1,1 +1,1 @@
-{"id":42,"name":"Abigaila","version":"Grand Exchange","options":"Talk-to, Scry","locations":[],"aliases":["Abagaila","Abigailia","Abigalia"],"shops":[]}
+{"id":42,"name":"Sheep","examine":"Freshly sheared.","options":null,"locations":[{"x":3185,"y":3220,"plane":0,"walks":true,"direction":0},{"x":3183,"y":3222,"plane":0,"walks":true,"direction":0},{"x":3237,"y":3346,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

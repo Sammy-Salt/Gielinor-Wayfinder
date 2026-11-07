@@ -1,1 +1,1 @@
-{"id":2386,"name":"Forester (hard)","version":null,"options":"Talk-to, Escort, Supply","locations":[{"name":"Forester (hard)","x":3436,"y":3486}],"aliases":["Forester (hard"],"shops":[]}
+{"id":2386,"name":"Mysterious ghost","examine":"Seems to flitter in and out of existence...","options":null,"locations":[{"x":3052,"y":3496,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

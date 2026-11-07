@@ -1,1 +1,1 @@
-{"id":2336,"name":"Fishing spot (small net, bait)","version":null,"options":"Small net/Net, Bait","locations":[],"aliases":["Herring fishing spot","Herring fishing spots","Herring location","Herring spot","Sardine fishing spots","Shrimp spot","Shrimp spots","Small net bait","Where to catch herring","Where to fish herring"],"shops":[]}
+{"id":2336,"name":"Taria","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":2938,"y":3221,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

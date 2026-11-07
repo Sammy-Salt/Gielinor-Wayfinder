@@ -1,1 +1,1 @@
-{"id":1174,"name":"Citizen (Aldarin)","version":"8","options":"Talk-to, Pickpocket","locations":[],"aliases":[],"shops":[]}
+{"id":1174,"name":"Fishing spot","options":null,"locations":[{"x":2792,"y":3015,"plane":0,"walks":false,"direction":0},{"x":2792,"y":3019,"plane":0,"walks":false,"direction":0},{"x":2801,"y":3010,"plane":0,"walks":false,"direction":0},{"x":2801,"y":3010,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}

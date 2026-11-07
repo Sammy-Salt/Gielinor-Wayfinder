@@ -1,1 +1,1 @@
-{"id":2338,"name":"Fishing tutor","version":null,"options":"Talk-to","locations":[{"name":"Fishing tutor","x":3244,"y":3157}],"aliases":["Finlay","Fishing Tutor"],"shops":[]}
+{"id":2338,"name":"Torrell","examine":"Perhaps this gardener might look after your crops for you.","options":null,"locations":[{"x":2615,"y":3229,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

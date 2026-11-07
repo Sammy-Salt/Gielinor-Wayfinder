@@ -1,1 +1,1 @@
-{"id":514,"name":"Barricade","version":"Saradomin","options":"Attack, Burn","locations":[],"aliases":["BARRICADE","Barricades"],"shops":[]}
+{"id":514,"name":"Seravel","examine":"This is Seravel. He sells tickets for the 'Lady of the Waves.'","options":null,"locations":[{"x":2870,"y":2974,"plane":1,"walks":false,"direction":6}],"aliases":[],"shops":[]}

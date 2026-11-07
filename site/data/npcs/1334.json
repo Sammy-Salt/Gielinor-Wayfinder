@@ -1,1 +1,1 @@
-{"id":1334,"name":"Combat stone (NPC, clay)","version":"Crush 0, stab 1, slash 3","options":null,"locations":[],"aliases":[],"shops":[]}
+{"id":1334,"name":"Jossik","examine":"Apparently he keeps a lighthouse.","options":null,"locations":[{"x":2509,"y":3639,"plane":1,"walks":true,"direction":3}],"aliases":[],"shops":[]}

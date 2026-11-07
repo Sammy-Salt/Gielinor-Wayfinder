@@ -1,1 +1,1 @@
-{"id":946,"name":"Cart conductor","version":"2","options":"Talk-to, Tickets","locations":[],"aliases":["Cart Conductor"],"shops":[]}
+{"id":946,"name":"Magic instructor","examine":"A master of Magic.","options":null,"locations":[{"x":3141,"y":3090,"plane":0,"walks":false,"direction":6}],"aliases":[],"shops":[]}

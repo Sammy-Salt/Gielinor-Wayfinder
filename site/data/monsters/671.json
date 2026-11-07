@@ -1,1 +1,1 @@
-{"name":"Glough","id":671,"locations":[{"x":2479,"y":3463,"plane":1,"face":1,"walk":6}],"boss":false,"combat_level":431,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}
+{"name":"Glough","id":671,"locations":[{"x":2479,"y":3463,"plane":1,"walks":true,"direction":6}],"boss":false,"combat_level":431,"_provenance":{"primary":"2009Scape","fallback":"OSRS Wiki","wiki_fields":[]}}

@@ -1,1 +1,1 @@
-{"id":758,"name":"Brother Tranquility","version":"Human","options":"Talk-to, Transport","locations":[{"name":"Brother Tranquility","x":3680,"y":2963},{"name":"Brother Tranquility","x":3680,"y":2963}],"aliases":["Brother Tranquillity","Brother harmony","Brother tran","Brother tranq","Brother tranquility","Brother tranqulity","Quit horrible","Tranquility"],"shops":[]}
+{"id":758,"name":"Fred the Farmer","examine":"A well-fed farmer.","options":null,"locations":[{"x":3189,"y":3273,"plane":0,"walks":false,"direction":4}],"aliases":[],"shops":[]}

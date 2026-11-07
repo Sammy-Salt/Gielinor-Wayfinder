@@ -1,1 +1,1 @@
-{"id":308,"name":"Ashuelot Reis","version":null,"options":"Talk-to","locations":[{"name":"Ashuelot Reis","x":2904,"y":5205},{"name":"Ashuelot Reis","x":2904,"y":5205}],"aliases":["Nex bank","Zaros bank"],"shops":[]}
+{"id":308,"name":"Master fisher","examine":"The man in charge of the fishing guild.","options":null,"locations":[{"x":2611,"y":3393,"plane":0,"walks":true,"direction":4}],"aliases":[],"shops":[]}

@@ -69,7 +69,8 @@ function render(item,drops,shops,ground){
   else for(const shop of shops){html+=`<div class="source-entry"><strong>${esc(shop.shopName||"Unknown Shop")}</strong>${row("Shop ID",shop.shopId)}${row("Location",shop.location)}${row("Owner",shop.owner)}${row("Shop Type",shop.shopType)}${row("Stock",shop.stock)}${row("Restock",shop.restock)}<div class="muted">Primary source: 2009Scape.</div></div>`;}
   html+=`</div></details>`;
 
-  if(ground?.status==="unknown") html+=`<div class="source-entry"><strong>🪨 Ground Spawns</strong><div class="muted">Trusted ground-spawn data is currently unavailable. This is intentionally shown as unknown rather than guessed.</div></div>`;
+  if(ground?.status==="known"&&Array.isArray(ground.spawns)&&ground.spawns.length) html+=`<div class="source-entry"><strong>🪨 Ground Spawns (${ground.spawns.length})</strong><div class="muted">Source: 2009Scape. Respawn is in game ticks.</div>${ground.spawns.map(s=>`<div>X: ${esc(s.x)}&nbsp;&nbsp;Y: ${esc(s.y)}&nbsp;&nbsp;Plane: ${esc(s.plane)}&nbsp;&nbsp;Amount: ${esc(s.amount)}&nbsp;&nbsp;Respawn: ${esc(s.respawn)}</div>`).join("")}</div>`;
+  else if(ground?.status==="unknown") html+=`<div class="source-entry"><strong>🪨 Ground Spawns</strong><div class="muted">Trusted ground-spawn data is currently unavailable. This is intentionally shown as unknown rather than guessed.</div></div>`;
   html+=`</div>`;
 
   html+=`<div class="card"><h2>📖 Basic Information</h2>${row("Examine",item.examine)}${row("Shop Price",item.shop_price)}${row("Grand Exchange Price",item.grand_exchange_price)}${row("GE Buy Limit",item.ge_buy_limit)}</div>`;

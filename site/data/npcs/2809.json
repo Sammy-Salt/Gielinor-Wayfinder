@@ -1,1 +1,1 @@
-{"id":2809,"name":"Grug","version":null,"options":"Talk-to","locations":[{"name":"Grug","x":2444,"y":3050}],"aliases":[],"shops":[]}
+{"id":2809,"name":"Al the Camel","examine":"A camel who has the soul of a poet.","options":null,"locations":[{"x":3274,"y":3168,"plane":0,"walks":true,"direction":0}],"aliases":[],"shops":[]}

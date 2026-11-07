@@ -1,1 +1,1 @@
-{"id":1574,"name":"Councillor Unkar","version":"Imprisoned","options":"Talk-to","locations":[{"name":"Councillor Unkar","x":1483,"y":3748},{"name":"Councillor Unkar","x":1483,"y":3748},{"name":"Councillor Unkar","x":1434,"y":9940}],"aliases":["Councillor unkar","Counselor Unkar","Counsillor Unkar","Kubec Unkar","Unkar"],"shops":[]}
+{"id":1574,"name":"Ivan Strom","options":null,"locations":[{"x":3512,"y":9842,"plane":0,"walks":true,"direction":0},{"x":3512,"y":9842,"plane":2,"walks":true,"direction":0}],"aliases":[],"shops":[]}

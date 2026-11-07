@@ -1,1 +1,1 @@
-{"id":5478,"name":"Shop assistant (Edgeville)","version":null,"options":"Talk-to, Trade","locations":[{"name":"Shop assistant (Edgeville)","x":3080,"y":3510}],"aliases":["Shop assistant (Edgeville","Shop assistant (edgeville)"],"shops":[]}
+{"id":5478,"name":"King Gjuki Sorvott IV","examine":"An ill-tempered king.","options":null,"locations":[{"x":2407,"y":3803,"plane":0,"walks":true,"direction":3}],"aliases":[],"shops":[]}

@@ -1,1 +1,1 @@
-{"id":6191,"name":"Trader Stan","version":"Port Sarim","options":"Talk-To, Trade, Charter, Charter-to Port Sarim","locations":[],"aliases":["Red Art Tans","Red art tans","Trader Stan (Sailing)","Trader stan"],"shops":[]}
+{"id":6191,"name":"Sinclair","options":null,"locations":[{"x":2739,"y":3577,"plane":0,"walks":true,"direction":0},{"x":2739,"y":3579,"plane":1,"walks":true,"direction":0}],"aliases":[],"shops":[]}

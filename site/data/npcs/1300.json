@@ -1,1 +1,1 @@
-{"id":1300,"name":"Clerk (Clan Hub)","version":null,"options":"Talk-to, Items","locations":[{"name":"Clerk (Clan Hub)","x":3182,"y":3471}],"aliases":[],"shops":[]}
+{"id":1300,"name":"A bartender.","examine":"The Longhall barkeep","options":null,"locations":[{"x":2662,"y":3674,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

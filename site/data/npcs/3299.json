@@ -1,1 +1,1 @@
-{"id":3299,"name":"Jelly (mountain troll)","version":null,"options":"Talk-to","locations":[{"name":"Jelly (mountain troll)","x":2706,"y":9984}],"aliases":["Jelly (mountain troll"],"shops":[]}
+{"id":3299,"name":"Martin the Master Gardener","examine":"A master at gardening.","options":null,"locations":[{"x":3077,"y":3257,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}

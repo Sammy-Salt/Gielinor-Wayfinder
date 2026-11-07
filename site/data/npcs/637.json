@@ -1,1 +1,1 @@
-{"id":637,"name":"Blasted ore (NPC)","version":null,"options":"None","locations":[{"name":"Blasted ore (NPC)","x":1476,"y":3857},{"name":"Blasted ore (NPC)","x":1476,"y":3874},{"name":"Blasted ore (NPC)","x":1501,"y":3874},{"name":"Blasted ore (NPC)","x":1501,"y":3857}],"aliases":[],"shops":[]}
+{"id":637,"name":"Juliet","examine":"A tearful damsel, maybe I can help her?","options":null,"locations":[{"x":3158,"y":3425,"plane":1,"walks":true,"direction":5}],"aliases":[],"shops":[]}

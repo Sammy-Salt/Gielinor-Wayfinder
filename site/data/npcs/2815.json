@@ -1,1 +1,1 @@
-{"id":2815,"name":"Gruva Patrull","version":null,"options":"Talk-to","locations":[{"name":"Gruva Patrull","x":2397,"y":3812}],"aliases":["Gruva patrull"],"shops":[]}
+{"id":2815,"name":"Neferti the Camel","examine":"A camel who wants to see the world.","options":null,"locations":[{"x":3292,"y":2754,"plane":0,"walks":true,"direction":1}],"aliases":[],"shops":[]}
