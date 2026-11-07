@@ -42,6 +42,33 @@ jobs:
       - name: Install Bubblewrap CLI
         run: npm install --global @bubblewrap/cli
 
+      - name: Adapt Android SDK layout for Bubblewrap
+        shell: bash
+        run: |
+          set -euo pipefail
+          SDK_ROOT="${ANDROID_HOME:-${ANDROID_SDK_ROOT:-}}"
+          if [ -z "$SDK_ROOT" ] || [ ! -d "$SDK_ROOT" ]; then
+            echo "::error::Android SDK root was not provided by setup-android."
+            exit 1
+          fi
+
+          # Bubblewrap's validator requires SDK_ROOT/tools or SDK_ROOT/bin.
+          # Modern Android SDKs place sdkmanager under cmdline-tools/latest/bin.
+          if [ ! -d "$SDK_ROOT/bin" ]; then
+            if [ -d "$SDK_ROOT/cmdline-tools/latest/bin" ]; then
+              ln -s "$SDK_ROOT/cmdline-tools/latest/bin" "$SDK_ROOT/bin"
+            else
+              echo "::error::Cannot find cmdline-tools/latest/bin under $SDK_ROOT"
+              find "$SDK_ROOT" -maxdepth 4 -type f -name sdkmanager -print
+              exit 1
+            fi
+          fi
+
+          test -x "$SDK_ROOT/bin/sdkmanager"
+          echo "Android SDK root: $SDK_ROOT"
+          echo "sdkmanager: $SDK_ROOT/bin/sdkmanager"
+          ls -ld "$SDK_ROOT" "$SDK_ROOT/bin"
+
       # Bubblewrap asks interactive questions if this file is absent.
       # Populate it before running ANY Bubblewrap command.
       - name: Configure Bubblewrap non-interactively
@@ -62,6 +89,7 @@ jobs:
           print("  JDK:", config["jdkPath"])
           print("  Android SDK:", config["androidSdkPath"])
           PY
+          bubblewrap doctor
 
       - name: Create signing keystore (temporary for this build)
         run: |
