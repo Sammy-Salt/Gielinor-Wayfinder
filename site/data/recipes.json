@@ -6463,7 +6463,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-bronze_axe",
+      "id": "2009scape-smithing-bronze-axe-1351",
       "output": {
         "itemId": 1351,
         "quantity": 1
@@ -6471,8 +6471,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6489,18 +6488,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_AXE",
+          "enum": "BRONZE_AXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_dagger",
+      "id": "2009scape-smithing-bronze-dagger-1205",
       "output": {
         "itemId": 1205,
         "quantity": 1
@@ -6508,8 +6510,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6526,13 +6527,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "BRONZE_DAGGER"
         }
       ]
     },
@@ -6624,7 +6628,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-bronze_mace",
+      "id": "2009scape-smithing-bronze-mace-1422",
       "output": {
         "itemId": 1422,
         "quantity": 1
@@ -6632,8 +6636,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6650,18 +6653,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_MACE",
+          "enum": "BRONZE_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_crossbow_bolt",
+      "id": "2009scape-smithing-bronze-crossbow_bolt-9375",
       "output": {
         "itemId": 9375,
         "quantity": 10
@@ -6669,8 +6675,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6687,18 +6692,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_CROSSBOW_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "BRONZE_CROSSBOW_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_med_helm",
+      "id": "2009scape-smithing-bronze-medium_helm-1139",
       "output": {
         "itemId": 1139,
         "quantity": 1
@@ -6706,8 +6714,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6724,18 +6731,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_MED_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "BRONZE_MED_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_dart_tips",
+      "id": "2009scape-smithing-bronze-dart_tip-819",
       "output": {
         "itemId": 819,
         "quantity": 10
@@ -6743,8 +6753,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6761,18 +6770,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "BRONZE_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_nails",
+      "id": "2009scape-smithing-bronze-nail-4819",
       "output": {
         "itemId": 4819,
         "quantity": 15
@@ -6780,8 +6792,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6798,18 +6809,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_NAIL",
+          "enum": "BRONZE_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_sword",
+      "id": "2009scape-smithing-bronze-sword-1277",
       "output": {
         "itemId": 1277,
         "quantity": 1
@@ -6817,8 +6831,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6835,18 +6848,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_SWORD",
+          "enum": "BRONZE_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_wire",
+      "id": "2009scape-smithing-bronze-wire-1794",
       "output": {
         "itemId": 1794,
         "quantity": 1
@@ -6854,8 +6870,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6872,18 +6887,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_WIRE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_WIRE",
+          "enum": "BRONZE_WIRE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_arrow_tips",
+      "id": "2009scape-smithing-bronze-arrow_tip-39",
       "output": {
         "itemId": 39,
         "quantity": 15
@@ -6891,8 +6909,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -6909,18 +6926,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "BRONZE_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_pickaxe",
+      "id": "2009scape-smithing-bronze-pickaxe-1265",
       "output": {
         "itemId": 1265,
         "quantity": 1
@@ -6928,8 +6948,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -6937,7 +6956,7 @@
         "Smithing"
       ],
       "level": 5,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -6946,18 +6965,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "BRONZE_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_scimitar",
+      "id": "2009scape-smithing-bronze-scimitar-1321",
       "output": {
         "itemId": 1321,
         "quantity": 1
@@ -6965,8 +6987,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -6974,7 +6995,7 @@
         "Smithing"
       ],
       "level": 5,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -6983,18 +7004,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "BRONZE_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_crossbow_limbs",
+      "id": "2009scape-smithing-bronze-crossbow_limb-9420",
       "output": {
         "itemId": 9420,
         "quantity": 1
@@ -7002,8 +7026,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7020,18 +7043,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_CROSSBOW_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "BRONZE_CROSSBOW_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_longsword",
+      "id": "2009scape-smithing-bronze-longsword-1291",
       "output": {
         "itemId": 1291,
         "quantity": 1
@@ -7039,8 +7065,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -7048,7 +7073,7 @@
         "Smithing"
       ],
       "level": 6,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7057,18 +7082,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "BRONZE_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_full_helm",
+      "id": "2009scape-smithing-bronze-full_helm-1155",
       "output": {
         "itemId": 1155,
         "quantity": 1
@@ -7076,8 +7104,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -7085,7 +7112,7 @@
         "Smithing"
       ],
       "level": 7,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7094,18 +7121,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "BRONZE_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_throwingknfie",
+      "id": "2009scape-smithing-bronze-throwing_knife-864",
       "output": {
         "itemId": 864,
         "quantity": 5
@@ -7113,8 +7143,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 1,
-          "name": "Bronze bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7131,13 +7160,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_THROWINGKNFIE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "BRONZE_THROWINGKNFIE"
         }
       ]
     },
@@ -7177,7 +7209,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-blurite_crossbow_bolt",
+      "id": "2009scape-smithing-blurite-crossbow_bolt-9376",
       "output": {
         "itemId": 9376,
         "quantity": 10
@@ -7185,8 +7217,7 @@
       "inputs": [
         {
           "itemId": 9467,
-          "quantity": 1,
-          "name": "Blurite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7194,7 +7225,7 @@
         "Smithing"
       ],
       "level": 8,
-      "xp": 16.0,
+      "xp": 16,
       "tools": [
         "Hammer"
       ],
@@ -7203,18 +7234,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith blurite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BLURITE_CROSSBOW_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BLURITE",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "BLURITE_CROSSBOW_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_square_shield",
+      "id": "2009scape-smithing-bronze-square_shield-1173",
       "output": {
         "itemId": 1173,
         "quantity": 1
@@ -7222,8 +7256,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -7231,7 +7264,7 @@
         "Smithing"
       ],
       "level": 8,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7240,18 +7273,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "BRONZE_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_war_hammer",
+      "id": "2009scape-smithing-bronze-warhammer-1337",
       "output": {
         "itemId": 1337,
         "quantity": 1
@@ -7259,8 +7295,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7277,18 +7312,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_WAR_HAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "BRONZE_WAR_HAMMER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_battleaxe",
+      "id": "2009scape-smithing-bronze-battle_axe-1375",
       "output": {
         "itemId": 1375,
         "quantity": 1
@@ -7296,8 +7334,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7314,18 +7351,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_BATTLEAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "BRONZE_BATTLEAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_chainbody",
+      "id": "2009scape-smithing-bronze-chainbody-1103",
       "output": {
         "itemId": 1103,
         "quantity": 1
@@ -7333,8 +7373,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7351,18 +7390,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "BRONZE_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_kiteshield",
+      "id": "2009scape-smithing-bronze-kite_shield-1189",
       "output": {
         "itemId": 1189,
         "quantity": 1
@@ -7370,8 +7412,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7388,18 +7429,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_KITESHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "BRONZE_KITESHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-blurite_crossbow_limbs",
+      "id": "2009scape-smithing-blurite-crossbow_limb-9422",
       "output": {
         "itemId": 9422,
         "quantity": 1
@@ -7407,8 +7451,7 @@
       "inputs": [
         {
           "itemId": 9467,
-          "quantity": 1,
-          "name": "Blurite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7416,7 +7459,7 @@
         "Smithing"
       ],
       "level": 13,
-      "xp": 16.0,
+      "xp": 16,
       "tools": [
         "Hammer"
       ],
@@ -7425,18 +7468,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith blurite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BLURITE_CROSSBOW_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BLURITE",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "BLURITE_CROSSBOW_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_claws",
+      "id": "2009scape-smithing-bronze-claws-3095",
       "output": {
         "itemId": 3095,
         "quantity": 1
@@ -7444,8 +7490,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 2,
-          "name": "Bronze bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -7453,7 +7498,7 @@
         "Smithing"
       ],
       "level": 13,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7462,18 +7507,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "BRONZE_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_two_handed",
+      "id": "2009scape-smithing-bronze-two_hand_sword-1307",
       "output": {
         "itemId": 1307,
         "quantity": 1
@@ -7481,8 +7529,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7499,13 +7546,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_TWO_HANDED"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "BRONZE_TWO_HANDED"
         }
       ]
     },
@@ -7545,7 +7595,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-iron_dagger",
+      "id": "2009scape-smithing-iron-dagger-1203",
       "output": {
         "itemId": 1203,
         "quantity": 1
@@ -7553,8 +7603,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7562,7 +7611,7 @@
         "Smithing"
       ],
       "level": 15,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7571,18 +7620,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "IRON_DAGGER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_plate_skirt",
+      "id": "2009scape-smithing-bronze-plate_skirt-1087",
       "output": {
         "itemId": 1087,
         "quantity": 1
@@ -7590,8 +7642,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7608,18 +7659,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_PLATE_SKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "BRONZE_PLATE_SKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_platelegs",
+      "id": "2009scape-smithing-bronze-plateleg-1075",
       "output": {
         "itemId": 1075,
         "quantity": 1
@@ -7627,8 +7681,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 3,
-          "name": "Bronze bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -7645,18 +7698,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_PLATELEGS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "BRONZE_PLATELEGS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_axe",
+      "id": "2009scape-smithing-iron-axe-1349",
       "output": {
         "itemId": 1349,
         "quantity": 1
@@ -7664,8 +7720,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7673,7 +7728,7 @@
         "Smithing"
       ],
       "level": 16,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7682,18 +7737,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_AXE",
+          "enum": "IRON_AXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_spit",
+      "id": "2009scape-smithing-iron-spit_iron-7225",
       "output": {
         "itemId": 7225,
         "quantity": 1
@@ -7701,8 +7759,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7710,7 +7767,7 @@
         "Smithing"
       ],
       "level": 16,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7719,18 +7776,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_SPIT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_SPIT_IRON",
+          "enum": "IRON_SPIT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_mace",
+      "id": "2009scape-smithing-iron-mace-1420",
       "output": {
         "itemId": 1420,
         "quantity": 1
@@ -7738,8 +7798,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7747,7 +7806,7 @@
         "Smithing"
       ],
       "level": 17,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7756,18 +7815,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_MACE",
+          "enum": "IRON_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-bronze_platebody",
+      "id": "2009scape-smithing-bronze-platebody-1117",
       "output": {
         "itemId": 1117,
         "quantity": 1
@@ -7775,8 +7837,7 @@
       "inputs": [
         {
           "itemId": 2349,
-          "quantity": 5,
-          "name": "Bronze bar"
+          "quantity": 5
         }
       ],
       "skill": "Smithing",
@@ -7793,18 +7854,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith bronze at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:BRONZE_PLATEBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "BRONZE",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "BRONZE_PLATEBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_bolt",
+      "id": "2009scape-smithing-iron-crossbow_bolt-9377",
       "output": {
         "itemId": 9377,
         "quantity": 10
@@ -7812,8 +7876,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7821,7 +7884,7 @@
         "Smithing"
       ],
       "level": 18,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7830,18 +7893,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "IRON_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_med_helm",
+      "id": "2009scape-smithing-iron-medium_helm-1137",
       "output": {
         "itemId": 1137,
         "quantity": 1
@@ -7849,8 +7915,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7858,7 +7923,7 @@
         "Smithing"
       ],
       "level": 18,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7867,18 +7932,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_MED_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "IRON_MED_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_dart_tips",
+      "id": "2009scape-smithing-iron-dart_tip-820",
       "output": {
         "itemId": 820,
         "quantity": 10
@@ -7886,8 +7954,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7895,7 +7962,7 @@
         "Smithing"
       ],
       "level": 19,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7904,18 +7971,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "IRON_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_nails",
+      "id": "2009scape-smithing-iron-nail-4820",
       "output": {
         "itemId": 4820,
         "quantity": 15
@@ -7923,8 +7993,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7932,7 +8001,7 @@
         "Smithing"
       ],
       "level": 19,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7941,18 +8010,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_NAIL",
+          "enum": "IRON_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_sword",
+      "id": "2009scape-smithing-iron-sword-1279",
       "output": {
         "itemId": 1279,
         "quantity": 1
@@ -7960,8 +8032,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -7969,7 +8040,7 @@
         "Smithing"
       ],
       "level": 19,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -7978,13 +8049,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_SWORD",
+          "enum": "IRON_SWORD"
         }
       ]
     },
@@ -8024,7 +8098,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-iron_arrow_tips",
+      "id": "2009scape-smithing-iron-arrow_tip-40",
       "output": {
         "itemId": 40,
         "quantity": 15
@@ -8032,8 +8106,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8041,7 +8114,7 @@
         "Smithing"
       ],
       "level": 20,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -8050,18 +8123,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "IRON_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_pickaxe",
+      "id": "2009scape-smithing-iron-pickaxe-1267",
       "output": {
         "itemId": 1267,
         "quantity": 1
@@ -8069,8 +8145,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8078,7 +8153,7 @@
         "Smithing"
       ],
       "level": 20,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8087,18 +8162,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "IRON_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_scimitar",
+      "id": "2009scape-smithing-iron-scimitar-1323",
       "output": {
         "itemId": 1323,
         "quantity": 1
@@ -8106,8 +8184,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8115,7 +8192,7 @@
         "Smithing"
       ],
       "level": 20,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8124,18 +8201,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "IRON_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_longsword",
+      "id": "2009scape-smithing-iron-longsword-1293",
       "output": {
         "itemId": 1293,
         "quantity": 1
@@ -8143,8 +8223,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8152,7 +8231,7 @@
         "Smithing"
       ],
       "level": 21,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8161,18 +8240,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "IRON_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_full_helm",
+      "id": "2009scape-smithing-iron-full_helm-1153",
       "output": {
         "itemId": 1153,
         "quantity": 1
@@ -8180,8 +8262,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8189,7 +8270,7 @@
         "Smithing"
       ],
       "level": 22,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8198,18 +8279,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "IRON_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_knife",
+      "id": "2009scape-smithing-iron-throwing_knife-863",
       "output": {
         "itemId": 863,
         "quantity": 5
@@ -8217,8 +8301,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8226,7 +8309,7 @@
         "Smithing"
       ],
       "level": 22,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -8235,13 +8318,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_KNIFE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "IRON_KNIFE"
         }
       ]
     },
@@ -8283,7 +8369,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-iron_square_shield",
+      "id": "2009scape-smithing-iron-square_shield-1175",
       "output": {
         "itemId": 1175,
         "quantity": 1
@@ -8291,8 +8377,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8300,7 +8385,7 @@
         "Smithing"
       ],
       "level": 23,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8309,18 +8394,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "IRON_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_warhammer",
+      "id": "2009scape-smithing-iron-warhammer-1335",
       "output": {
         "itemId": 1335,
         "quantity": 1
@@ -8328,8 +8416,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8337,7 +8424,7 @@
         "Smithing"
       ],
       "level": 24,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8346,18 +8433,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_WARHAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "IRON_WARHAMMER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_battleaxe",
+      "id": "2009scape-smithing-iron-battle_axe-1363",
       "output": {
         "itemId": 1363,
         "quantity": 1
@@ -8365,8 +8455,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8374,7 +8463,7 @@
         "Smithing"
       ],
       "level": 25,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8383,18 +8472,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_BATTLEAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "IRON_BATTLEAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_chainbody",
+      "id": "2009scape-smithing-iron-chainbody-1101",
       "output": {
         "itemId": 1101,
         "quantity": 1
@@ -8402,8 +8494,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8411,7 +8502,7 @@
         "Smithing"
       ],
       "level": 26,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8420,18 +8511,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "IRON_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-oil_lantern_frame",
+      "id": "2009scape-smithing-iron-oil_lantern-4540",
       "output": {
         "itemId": 4540,
         "quantity": 1
@@ -8439,8 +8533,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 1,
-          "name": "Iron bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8448,7 +8541,7 @@
         "Smithing"
       ],
       "level": 26,
-      "xp": 25.0,
+      "xp": 25,
       "tools": [
         "Hammer"
       ],
@@ -8457,18 +8550,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:OIL_LANTERN_FRAME"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_OIL_LANTERN",
+          "enum": "OIL_LANTERN_FRAME"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_kite_shield",
+      "id": "2009scape-smithing-iron-kite_shield-1191",
       "output": {
         "itemId": 1191,
         "quantity": 1
@@ -8476,8 +8572,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8485,7 +8580,7 @@
         "Smithing"
       ],
       "level": 27,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8494,18 +8589,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_KITE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "IRON_KITE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_claws",
+      "id": "2009scape-smithing-iron-claws-3096",
       "output": {
         "itemId": 3096,
         "quantity": 1
@@ -8513,8 +8611,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 2,
-          "name": "Iron bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -8522,7 +8619,7 @@
         "Smithing"
       ],
       "level": 28,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -8531,18 +8628,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "IRON_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_two_handed_sword",
+      "id": "2009scape-smithing-iron-two_hand_sword-1309",
       "output": {
         "itemId": 1309,
         "quantity": 1
@@ -8550,8 +8650,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8559,7 +8658,7 @@
         "Smithing"
       ],
       "level": 29,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8568,13 +8667,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_TWO_HANDED_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "IRON_TWO_HANDED_SWORD"
         }
       ]
     },
@@ -8619,7 +8721,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-steel_dagger",
+      "id": "2009scape-smithing-steel-dagger-1207",
       "output": {
         "itemId": 1207,
         "quantity": 1
@@ -8627,8 +8729,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8645,55 +8746,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "STEEL_DAGGER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_platelegs",
-      "output": {
-        "itemId": 1067,
-        "quantity": 1
-      },
-      "inputs": [
-        {
-          "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
-        }
-      ],
-      "skill": "Smithing",
-      "skills": [
-        "Smithing"
-      ],
-      "level": 31,
-      "xp": 75.0,
-      "tools": [
-        "Hammer"
-      ],
-      "facilities": [
-        "Anvil"
-      ],
-      "requirements": [],
-      "method": [
-        "Smith bars on an anvil with a hammer."
-      ],
-      "provenance": [
-        {
-          "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_PLATELEGS"
-        }
-      ]
-    },
-    {
-      "id": "2009scape-smith-iron_plateskirt",
+      "id": "2009scape-smithing-iron-plate_skirt-1081",
       "output": {
         "itemId": 1081,
         "quantity": 1
@@ -8701,8 +8768,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 3,
-          "name": "Iron bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -8710,7 +8776,7 @@
         "Smithing"
       ],
       "level": 31,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -8719,18 +8785,60 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_PLATESKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "IRON_PLATESKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_axe",
+      "id": "2009scape-smithing-iron-plateleg-1067",
+      "output": {
+        "itemId": 1067,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2351,
+          "quantity": 3
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 31,
+      "xp": 75,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [
+        "Smith iron at an anvil"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "IRON_PLATELEGS"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-smithing-steel-axe-1353",
       "output": {
         "itemId": 1353,
         "quantity": 1
@@ -8738,8 +8846,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8756,18 +8863,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_AXE",
+          "enum": "STEEL_AXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_mace",
+      "id": "2009scape-smithing-steel-mace-1424",
       "output": {
         "itemId": 1424,
         "quantity": 1
@@ -8775,8 +8885,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8793,18 +8902,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_MACE",
+          "enum": "STEEL_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-iron_platebody",
+      "id": "2009scape-smithing-iron-platebody-1115",
       "output": {
         "itemId": 1115,
         "quantity": 1
@@ -8812,8 +8924,7 @@
       "inputs": [
         {
           "itemId": 2351,
-          "quantity": 5,
-          "name": "Iron bar"
+          "quantity": 5
         }
       ],
       "skill": "Smithing",
@@ -8821,7 +8932,7 @@
         "Smithing"
       ],
       "level": 33,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -8830,18 +8941,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith iron at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:IRON_PLATEBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "IRON",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "IRON_PLATEBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_crossbow_bolt",
+      "id": "2009scape-smithing-steel-crossbow_bolt-9378",
       "output": {
         "itemId": 9378,
         "quantity": 10
@@ -8849,8 +8963,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8867,18 +8980,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_CROSSBOW_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "STEEL_CROSSBOW_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_med_helm",
+      "id": "2009scape-smithing-steel-medium_helm-1141",
       "output": {
         "itemId": 1141,
         "quantity": 1
@@ -8886,8 +9002,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8904,18 +9019,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_MED_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "STEEL_MED_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_dart_tips",
+      "id": "2009scape-smithing-steel-dart_tip-821",
       "output": {
         "itemId": 821,
         "quantity": 10
@@ -8923,8 +9041,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8941,18 +9058,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "STEEL_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_nails",
+      "id": "2009scape-smithing-steel-nail-1539",
       "output": {
         "itemId": 1539,
         "quantity": 15
@@ -8960,8 +9080,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -8978,18 +9097,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_NAIL",
+          "enum": "STEEL_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_sword",
+      "id": "2009scape-smithing-steel-sword-1281",
       "output": {
         "itemId": 1281,
         "quantity": 1
@@ -8997,8 +9119,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9015,18 +9136,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_SWORD",
+          "enum": "STEEL_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_arrow_tips",
+      "id": "2009scape-smithing-steel-arrow_tip-41",
       "output": {
         "itemId": 41,
         "quantity": 15
@@ -9034,8 +9158,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9052,18 +9175,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "STEEL_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_pickaxe",
+      "id": "2009scape-smithing-steel-pickaxe-1269",
       "output": {
         "itemId": 1269,
         "quantity": 1
@@ -9071,8 +9197,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9080,7 +9205,7 @@
         "Smithing"
       ],
       "level": 35,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9089,18 +9214,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "STEEL_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_scimitar",
+      "id": "2009scape-smithing-steel-scimitar-1325",
       "output": {
         "itemId": 1325,
         "quantity": 1
@@ -9108,8 +9236,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9117,7 +9244,7 @@
         "Smithing"
       ],
       "level": 35,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9126,18 +9253,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "STEEL_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_crossbow_limbs",
+      "id": "2009scape-smithing-steel-crossbow_limb-9425",
       "output": {
         "itemId": 9425,
         "quantity": 1
@@ -9145,8 +9275,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9163,18 +9292,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_CROSSBOW_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "STEEL_CROSSBOW_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_longsword",
+      "id": "2009scape-smithing-steel-longsword-1295",
       "output": {
         "itemId": 1295,
         "quantity": 1
@@ -9182,8 +9314,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9191,7 +9322,7 @@
         "Smithing"
       ],
       "level": 36,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9200,18 +9331,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "STEEL_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_studs",
+      "id": "2009scape-smithing-steel-studs-2370",
       "output": {
         "itemId": 2370,
         "quantity": 1
@@ -9219,8 +9353,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9237,18 +9370,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_STUDS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_STUDS",
+          "enum": "STEEL_STUDS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_full_helm",
+      "id": "2009scape-smithing-steel-full_helm-1157",
       "output": {
         "itemId": 1157,
         "quantity": 1
@@ -9256,8 +9392,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9265,7 +9400,7 @@
         "Smithing"
       ],
       "level": 37,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9274,18 +9409,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "STEEL_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_throwing_knife",
+      "id": "2009scape-smithing-steel-throwing_knife-865",
       "output": {
         "itemId": 865,
         "quantity": 5
@@ -9293,8 +9431,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9311,18 +9448,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_THROWING_KNIFE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "STEEL_THROWING_KNIFE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_square_shield",
+      "id": "2009scape-smithing-steel-square_shield-1177",
       "output": {
         "itemId": 1177,
         "quantity": 1
@@ -9330,8 +9470,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9339,7 +9478,7 @@
         "Smithing"
       ],
       "level": 38,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9348,18 +9487,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "STEEL_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_warhammer",
+      "id": "2009scape-smithing-steel-warhammer-1339",
       "output": {
         "itemId": 1339,
         "quantity": 1
@@ -9367,8 +9509,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9385,13 +9526,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_WARHAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "STEEL_WARHAMMER"
         }
       ]
     },
@@ -9431,7 +9575,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-steel_battle_axe",
+      "id": "2009scape-smithing-steel-battle_axe-1365",
       "output": {
         "itemId": 1365,
         "quantity": 1
@@ -9439,8 +9583,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9457,13 +9600,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_BATTLE_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "STEEL_BATTLE_AXE"
         }
       ]
     },
@@ -9501,7 +9647,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-steel_chainbody",
+      "id": "2009scape-smithing-steel-chainbody-1105",
       "output": {
         "itemId": 1105,
         "quantity": 1
@@ -9509,8 +9655,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9527,18 +9672,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "STEEL_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_kite_shield",
+      "id": "2009scape-smithing-steel-kite_shield-1193",
       "output": {
         "itemId": 1193,
         "quantity": 1
@@ -9546,8 +9694,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9564,18 +9711,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_KITE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "STEEL_KITE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_claws",
+      "id": "2009scape-smithing-steel-claws-3097",
       "output": {
         "itemId": 3097,
         "quantity": 1
@@ -9583,8 +9733,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 2,
-          "name": "Steel bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -9592,7 +9741,7 @@
         "Smithing"
       ],
       "level": 43,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -9601,18 +9750,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "STEEL_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_two_handed_sword",
+      "id": "2009scape-smithing-steel-two_hand_sword-1311",
       "output": {
         "itemId": 1311,
         "quantity": 1
@@ -9620,8 +9772,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9638,18 +9789,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_TWO_HANDED_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "STEEL_TWO_HANDED_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_plate_skirt",
+      "id": "2009scape-smithing-steel-plate_skirt-1083",
       "output": {
         "itemId": 1083,
         "quantity": 1
@@ -9657,8 +9811,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9675,18 +9828,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_PLATE_SKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "STEEL_PLATE_SKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_platelegs",
+      "id": "2009scape-smithing-steel-plateleg-1069",
       "output": {
         "itemId": 1069,
         "quantity": 1
@@ -9694,8 +9850,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 3,
-          "name": "Steel bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -9712,18 +9867,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_PLATELEGS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "STEEL_PLATELEGS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_platebody",
+      "id": "2009scape-smithing-steel-platebody-1119",
       "output": {
         "itemId": 1119,
         "quantity": 1
@@ -9731,8 +9889,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 5,
-          "name": "Steel bar"
+          "quantity": 5
         }
       ],
       "skill": "Smithing",
@@ -9749,18 +9906,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_PLATEBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "STEEL_PLATEBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-steel_bullseye",
+      "id": "2009scape-smithing-steel-bullseye-4544",
       "output": {
         "itemId": 4544,
         "quantity": 1
@@ -9768,8 +9928,7 @@
       "inputs": [
         {
           "itemId": 2353,
-          "quantity": 1,
-          "name": "Steel bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9786,13 +9945,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith steel at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:STEEL_BULLSEYE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "STEEL",
+          "smithingType": "TYPE_BULLSEYE",
+          "enum": "STEEL_BULLSEYE"
         }
       ]
     },
@@ -9837,7 +9999,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-mithril_dagger",
+      "id": "2009scape-smithing-mithril-dagger-1209",
       "output": {
         "itemId": 1209,
         "quantity": 1
@@ -9845,8 +10007,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9854,7 +10015,7 @@
         "Smithing"
       ],
       "level": 50,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -9863,18 +10024,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "MITHRIL_DAGGER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_hatchet",
+      "id": "2009scape-smithing-mithril-axe-1355",
       "output": {
         "itemId": 1355,
         "quantity": 1
@@ -9882,8 +10046,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9891,7 +10054,7 @@
         "Smithing"
       ],
       "level": 51,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -9900,18 +10063,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_HATCHET"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_AXE",
+          "enum": "MITHRIL_HATCHET"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_mace",
+      "id": "2009scape-smithing-mithril-mace-1428",
       "output": {
         "itemId": 1428,
         "quantity": 1
@@ -9919,8 +10085,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9928,7 +10093,7 @@
         "Smithing"
       ],
       "level": 52,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -9937,18 +10102,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_MACE",
+          "enum": "MITHRIL_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_crossbow_bolt",
+      "id": "2009scape-smithing-mithril-crossbow_bolt-9379",
       "output": {
         "itemId": 9379,
         "quantity": 10
@@ -9956,8 +10124,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -9965,7 +10132,7 @@
         "Smithing"
       ],
       "level": 53,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -9974,18 +10141,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_CROSSBOW_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "MITHRIL_CROSSBOW_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_med_helm",
+      "id": "2009scape-smithing-mithril-medium_helm-1143",
       "output": {
         "itemId": 1143,
         "quantity": 1
@@ -9993,8 +10163,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10002,7 +10171,7 @@
         "Smithing"
       ],
       "level": 53,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10011,18 +10180,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_MED_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "MITHRIL_MED_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_dart_tips",
+      "id": "2009scape-smithing-mithril-dart_tip-822",
       "output": {
         "itemId": 822,
         "quantity": 10
@@ -10030,8 +10202,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10039,7 +10210,7 @@
         "Smithing"
       ],
       "level": 54,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10048,18 +10219,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "MITHRIL_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_nails",
+      "id": "2009scape-smithing-mithril-nail-4822",
       "output": {
         "itemId": 4822,
         "quantity": 15
@@ -10067,8 +10241,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10076,7 +10249,7 @@
         "Smithing"
       ],
       "level": 54,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10085,18 +10258,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_NAIL",
+          "enum": "MITHRIL_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_sword",
+      "id": "2009scape-smithing-mithril-sword-1285",
       "output": {
         "itemId": 1285,
         "quantity": 1
@@ -10104,8 +10280,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10113,7 +10288,7 @@
         "Smithing"
       ],
       "level": 54,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10122,18 +10297,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_SWORD",
+          "enum": "MITHRIL_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_arrow_tips",
+      "id": "2009scape-smithing-mithril-arrow_tip-42",
       "output": {
         "itemId": 42,
         "quantity": 15
@@ -10141,8 +10319,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10150,7 +10327,7 @@
         "Smithing"
       ],
       "level": 55,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10159,18 +10336,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "MITHRIL_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_pickaxe",
+      "id": "2009scape-smithing-mithril-pickaxe-1273",
       "output": {
         "itemId": 1273,
         "quantity": 1
@@ -10178,8 +10358,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10187,7 +10366,7 @@
         "Smithing"
       ],
       "level": 55,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10196,18 +10375,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "MITHRIL_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_scimitar",
+      "id": "2009scape-smithing-mithril-scimitar-1329",
       "output": {
         "itemId": 1329,
         "quantity": 1
@@ -10215,8 +10397,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10224,7 +10405,7 @@
         "Smithing"
       ],
       "level": 55,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10233,18 +10414,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "MITHRIL_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_crossbow_limbs",
+      "id": "2009scape-smithing-mithril-crossbow_limb-9427",
       "output": {
         "itemId": 9427,
         "quantity": 1
@@ -10252,8 +10436,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10261,7 +10444,7 @@
         "Smithing"
       ],
       "level": 56,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10270,18 +10453,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_CROSSBOW_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "MITHRIL_CROSSBOW_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_longsword",
+      "id": "2009scape-smithing-mithril-longsword-1299",
       "output": {
         "itemId": 1299,
         "quantity": 1
@@ -10289,8 +10475,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10298,7 +10483,7 @@
         "Smithing"
       ],
       "level": 56,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10307,18 +10492,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "MITHRIL_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_full_helm",
+      "id": "2009scape-smithing-mithril-full_helm-1159",
       "output": {
         "itemId": 1159,
         "quantity": 1
@@ -10326,8 +10514,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10335,7 +10522,7 @@
         "Smithing"
       ],
       "level": 57,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10344,18 +10531,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "MITHRIL_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_knife",
+      "id": "2009scape-smithing-mithril-throwing_knife-866",
       "output": {
         "itemId": 866,
         "quantity": 5
@@ -10363,8 +10553,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10372,7 +10561,7 @@
         "Smithing"
       ],
       "level": 57,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10381,18 +10570,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_KNIFE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "MITHRIL_KNIFE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_square_shield",
+      "id": "2009scape-smithing-mithril-square_shield-1181",
       "output": {
         "itemId": 1181,
         "quantity": 1
@@ -10400,8 +10592,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10409,7 +10600,7 @@
         "Smithing"
       ],
       "level": 58,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10418,18 +10609,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "MITHRIL_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_grapple_tips",
+      "id": "2009scape-smithing-mithril-grapple_tip-9416",
       "output": {
         "itemId": 9416,
         "quantity": 1
@@ -10437,8 +10631,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 1,
-          "name": "Mithril bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10446,7 +10639,7 @@
         "Smithing"
       ],
       "level": 59,
-      "xp": 50.0,
+      "xp": 50,
       "tools": [
         "Hammer"
       ],
@@ -10455,18 +10648,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_GRAPPLE_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_GRAPPLE_TIP",
+          "enum": "MITHRIL_GRAPPLE_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_warhammer",
+      "id": "2009scape-smithing-mithril-warhammer-1343",
       "output": {
         "itemId": 1343,
         "quantity": 1
@@ -10474,8 +10670,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10483,7 +10678,7 @@
         "Smithing"
       ],
       "level": 59,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10492,18 +10687,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_WARHAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "MITHRIL_WARHAMMER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_battleaxe",
+      "id": "2009scape-smithing-mithril-battle_axe-1369",
       "output": {
         "itemId": 1369,
         "quantity": 1
@@ -10511,8 +10709,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10520,7 +10717,7 @@
         "Smithing"
       ],
       "level": 60,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10529,18 +10726,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_BATTLEAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "MITHRIL_BATTLEAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_chainbody",
+      "id": "2009scape-smithing-mithril-chainbody-1109",
       "output": {
         "itemId": 1109,
         "quantity": 1
@@ -10548,8 +10748,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10557,7 +10756,7 @@
         "Smithing"
       ],
       "level": 61,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10566,18 +10765,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "MITHRIL_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_kite_shield",
+      "id": "2009scape-smithing-mithril-kite_shield-1197",
       "output": {
         "itemId": 1197,
         "quantity": 1
@@ -10585,8 +10787,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10594,7 +10795,7 @@
         "Smithing"
       ],
       "level": 62,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10603,18 +10804,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_KITE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "MITHRIL_KITE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_claws",
+      "id": "2009scape-smithing-mithril-claws-3099",
       "output": {
         "itemId": 3099,
         "quantity": 1
@@ -10622,8 +10826,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 2,
-          "name": "Mithril bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -10631,7 +10834,7 @@
         "Smithing"
       ],
       "level": 63,
-      "xp": 100.0,
+      "xp": 100,
       "tools": [
         "Hammer"
       ],
@@ -10640,18 +10843,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "MITHRIL_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_two_handed_sword",
+      "id": "2009scape-smithing-mithril-two_hand_sword-1315",
       "output": {
         "itemId": 1315,
         "quantity": 1
@@ -10659,8 +10865,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10668,7 +10873,7 @@
         "Smithing"
       ],
       "level": 64,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10677,55 +10882,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_TWO_HANDED_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "MITHRIL_TWO_HANDED_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_platelegs",
-      "output": {
-        "itemId": 1071,
-        "quantity": 1
-      },
-      "inputs": [
-        {
-          "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
-        }
-      ],
-      "skill": "Smithing",
-      "skills": [
-        "Smithing"
-      ],
-      "level": 66,
-      "xp": 150.0,
-      "tools": [
-        "Hammer"
-      ],
-      "facilities": [
-        "Anvil"
-      ],
-      "requirements": [],
-      "method": [
-        "Smith bars on an anvil with a hammer."
-      ],
-      "provenance": [
-        {
-          "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_PLATELEGS"
-        }
-      ]
-    },
-    {
-      "id": "2009scape-smith-mithril_plateskirt",
+      "id": "2009scape-smithing-mithril-plate_skirt-1085",
       "output": {
         "itemId": 1085,
         "quantity": 1
@@ -10733,8 +10904,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 3,
-          "name": "Mithril bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -10742,7 +10912,7 @@
         "Smithing"
       ],
       "level": 66,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -10751,18 +10921,60 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_PLATESKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "MITHRIL_PLATESKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-mithril_platebody",
+      "id": "2009scape-smithing-mithril-plateleg-1071",
+      "output": {
+        "itemId": 1071,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2359,
+          "quantity": 3
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 66,
+      "xp": 150,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [
+        "Smith mithril at an anvil"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "MITHRIL_PLATELEGS"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-smithing-mithril-platebody-1121",
       "output": {
         "itemId": 1121,
         "quantity": 1
@@ -10770,8 +10982,7 @@
       "inputs": [
         {
           "itemId": 2359,
-          "quantity": 5,
-          "name": "Mithril bar"
+          "quantity": 5
         }
       ],
       "skill": "Smithing",
@@ -10779,7 +10990,7 @@
         "Smithing"
       ],
       "level": 68,
-      "xp": 250.0,
+      "xp": 250,
       "tools": [
         "Hammer"
       ],
@@ -10788,13 +10999,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith mithril at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:MITHRIL_PLATEBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "MITHRIL",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "MITHRIL_PLATEBODY"
         }
       ]
     },
@@ -10839,7 +11053,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-adamant_dagger",
+      "id": "2009scape-smithing-adamant-dagger-1211",
       "output": {
         "itemId": 1211,
         "quantity": 1
@@ -10847,8 +11061,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10865,18 +11078,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "ADAMANT_DAGGER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_axe",
+      "id": "2009scape-smithing-adamant-axe-1357",
       "output": {
         "itemId": 1357,
         "quantity": 1
@@ -10884,8 +11100,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10902,18 +11117,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_AXE",
+          "enum": "ADAMANT_AXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_mace",
+      "id": "2009scape-smithing-adamant-mace-1430",
       "output": {
         "itemId": 1430,
         "quantity": 1
@@ -10921,8 +11139,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10939,18 +11156,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_MACE",
+          "enum": "ADAMANT_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_bolt",
+      "id": "2009scape-smithing-adamant-crossbow_bolt-9380",
       "output": {
         "itemId": 9380,
         "quantity": 10
@@ -10958,8 +11178,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -10976,18 +11195,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "ADAMANT_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_medium_helm",
+      "id": "2009scape-smithing-adamant-medium_helm-1145",
       "output": {
         "itemId": 1145,
         "quantity": 1
@@ -10995,8 +11217,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11013,18 +11234,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_MEDIUM_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "ADAMANT_MEDIUM_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_dart_tips",
+      "id": "2009scape-smithing-adamant-dart_tip-823",
       "output": {
         "itemId": 823,
         "quantity": 10
@@ -11032,8 +11256,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11050,18 +11273,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "ADAMANT_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_nails",
+      "id": "2009scape-smithing-adamant-nail-4823",
       "output": {
         "itemId": 4823,
         "quantity": 15
@@ -11069,8 +11295,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11087,18 +11312,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_NAIL",
+          "enum": "ADAMANT_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_sword",
+      "id": "2009scape-smithing-adamant-sword-1287",
       "output": {
         "itemId": 1287,
         "quantity": 1
@@ -11106,8 +11334,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11124,18 +11351,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_SWORD",
+          "enum": "ADAMANT_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_arrow_tips",
+      "id": "2009scape-smithing-adamant-arrow_tip-43",
       "output": {
         "itemId": 43,
         "quantity": 15
@@ -11143,8 +11373,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11161,18 +11390,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "ADAMANT_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_pickaxe",
+      "id": "2009scape-smithing-adamant-pickaxe-1271",
       "output": {
         "itemId": 1271,
         "quantity": 1
@@ -11180,8 +11412,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11189,7 +11420,7 @@
         "Smithing"
       ],
       "level": 75,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11198,18 +11429,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "ADAMANT_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_scimitar",
+      "id": "2009scape-smithing-adamant-scimitar-1331",
       "output": {
         "itemId": 1331,
         "quantity": 1
@@ -11217,8 +11451,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11226,7 +11459,7 @@
         "Smithing"
       ],
       "level": 75,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11235,18 +11468,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "ADAMANT_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_limbs",
+      "id": "2009scape-smithing-adamant-crossbow_limb-9429",
       "output": {
         "itemId": 9429,
         "quantity": 1
@@ -11254,8 +11490,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11272,18 +11507,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "ADAMANT_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_longsword",
+      "id": "2009scape-smithing-adamant-longsword-1301",
       "output": {
         "itemId": 1301,
         "quantity": 1
@@ -11291,8 +11529,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11300,7 +11537,7 @@
         "Smithing"
       ],
       "level": 76,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11309,18 +11546,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "ADAMANT_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_full_helm",
+      "id": "2009scape-smithing-adamant-full_helm-1161",
       "output": {
         "itemId": 1161,
         "quantity": 1
@@ -11328,8 +11568,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11337,7 +11576,7 @@
         "Smithing"
       ],
       "level": 77,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11346,18 +11585,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "ADAMANT_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_knife",
+      "id": "2009scape-smithing-adamant-throwing_knife-867",
       "output": {
         "itemId": 867,
         "quantity": 5
@@ -11365,8 +11607,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 1,
-          "name": "Adamantite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11383,18 +11624,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_KNIFE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "ADAMANT_KNIFE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_square_shield",
+      "id": "2009scape-smithing-adamant-square_shield-1183",
       "output": {
         "itemId": 1183,
         "quantity": 1
@@ -11402,8 +11646,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11411,7 +11654,7 @@
         "Smithing"
       ],
       "level": 78,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11420,18 +11663,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "ADAMANT_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_warhammer",
+      "id": "2009scape-smithing-adamant-warhammer-1345",
       "output": {
         "itemId": 1345,
         "quantity": 1
@@ -11439,8 +11685,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11457,18 +11702,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_WARHAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "ADAMANT_WARHAMMER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_battleaxe",
+      "id": "2009scape-smithing-adamant-battle_axe-1371",
       "output": {
         "itemId": 1371,
         "quantity": 1
@@ -11476,8 +11724,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11494,18 +11741,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_BATTLEAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "ADAMANT_BATTLEAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_chainbody",
+      "id": "2009scape-smithing-adamant-chainbody-1111",
       "output": {
         "itemId": 1111,
         "quantity": 1
@@ -11513,8 +11763,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11531,18 +11780,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "ADAMANT_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_kiteshield",
+      "id": "2009scape-smithing-adamant-kite_shield-1199",
       "output": {
         "itemId": 1199,
         "quantity": 1
@@ -11550,8 +11802,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11568,18 +11819,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_KITESHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "ADAMANT_KITESHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_claws",
+      "id": "2009scape-smithing-adamant-claws-3100",
       "output": {
         "itemId": 3100,
         "quantity": 1
@@ -11587,8 +11841,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 2,
-          "name": "Adamantite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -11596,7 +11849,7 @@
         "Smithing"
       ],
       "level": 83,
-      "xp": 125.0,
+      "xp": 125,
       "tools": [
         "Hammer"
       ],
@@ -11605,18 +11858,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "ADAMANT_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_two_handed_sword",
+      "id": "2009scape-smithing-adamant-two_hand_sword-1317",
       "output": {
         "itemId": 1317,
         "quantity": 1
@@ -11624,8 +11880,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11642,13 +11897,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_TWO_HANDED_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "ADAMANT_TWO_HANDED_SWORD"
         }
       ]
     },
@@ -11693,7 +11951,7 @@
       ]
     },
     {
-      "id": "2009scape-smith-rune_dagger",
+      "id": "2009scape-smithing-runite-dagger-1213",
       "output": {
         "itemId": 1213,
         "quantity": 1
@@ -11701,8 +11959,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11710,7 +11967,7 @@
         "Smithing"
       ],
       "level": 85,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -11719,55 +11976,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNE_DAGGER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_DAGGER",
+          "enum": "RUNE_DAGGER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_plate_legs",
-      "output": {
-        "itemId": 1073,
-        "quantity": 1
-      },
-      "inputs": [
-        {
-          "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
-        }
-      ],
-      "skill": "Smithing",
-      "skills": [
-        "Smithing"
-      ],
-      "level": 86,
-      "xp": 187.5,
-      "tools": [
-        "Hammer"
-      ],
-      "facilities": [
-        "Anvil"
-      ],
-      "requirements": [],
-      "method": [
-        "Smith bars on an anvil with a hammer."
-      ],
-      "provenance": [
-        {
-          "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_PLATE_LEGS"
-        }
-      ]
-    },
-    {
-      "id": "2009scape-smith-adamant_plate_skirt",
+      "id": "2009scape-smithing-adamant-plate_skirt-1091",
       "output": {
         "itemId": 1091,
         "quantity": 1
@@ -11775,8 +11998,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 3,
-          "name": "Adamantite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11793,27 +12015,29 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_PLATE_SKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "ADAMANT_PLATE_SKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_axe",
+      "id": "2009scape-smithing-adamant-plateleg-1073",
       "output": {
-        "itemId": 1359,
+        "itemId": 1073,
         "quantity": 1
       },
       "inputs": [
         {
-          "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "itemId": 2361,
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -11821,7 +12045,7 @@
         "Smithing"
       ],
       "level": 86,
-      "xp": 75.0,
+      "xp": 187.5,
       "tools": [
         "Hammer"
       ],
@@ -11830,18 +12054,60 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_AXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "ADAMANT_PLATE_LEGS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_mace",
+      "id": "2009scape-smithing-runite-axe-1359",
+      "output": {
+        "itemId": 1359,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2363,
+          "quantity": 1
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 86,
+      "xp": 75,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [
+        "Smith runite at an anvil"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_AXE",
+          "enum": "RUNITE_AXE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-smithing-runite-mace-1432",
       "output": {
         "itemId": 1432,
         "quantity": 1
@@ -11849,8 +12115,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11858,7 +12123,7 @@
         "Smithing"
       ],
       "level": 87,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -11867,18 +12132,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_MACE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_MACE",
+          "enum": "RUNITE_MACE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-adamant_plate_body",
+      "id": "2009scape-smithing-adamant-platebody-1123",
       "output": {
         "itemId": 1123,
         "quantity": 1
@@ -11886,8 +12154,7 @@
       "inputs": [
         {
           "itemId": 2361,
-          "quantity": 5,
-          "name": "Adamantite bar"
+          "quantity": 5
         }
       ],
       "skill": "Smithing",
@@ -11904,18 +12171,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith adamant at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:ADAMANT_PLATE_BODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "ADAMANT",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "ADAMANT_PLATE_BODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_bolt",
+      "id": "2009scape-smithing-runite-crossbow_bolt-9381",
       "output": {
         "itemId": 9381,
         "quantity": 10
@@ -11923,8 +12193,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11932,7 +12201,7 @@
         "Smithing"
       ],
       "level": 88,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -11941,18 +12210,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_BOLT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_CROSSBOW_BOLT",
+          "enum": "RUNITE_BOLT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_medium_helm",
+      "id": "2009scape-smithing-runite-medium_helm-1147",
       "output": {
         "itemId": 1147,
         "quantity": 1
@@ -11960,8 +12232,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -11969,7 +12240,7 @@
         "Smithing"
       ],
       "level": 88,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -11978,18 +12249,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_MEDIUM_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_MEDIUM_HELM",
+          "enum": "RUNITE_MEDIUM_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_dart_tips",
+      "id": "2009scape-smithing-runite-dart_tip-824",
       "output": {
         "itemId": 824,
         "quantity": 10
@@ -11997,8 +12271,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12006,7 +12279,7 @@
         "Smithing"
       ],
       "level": 89,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12015,18 +12288,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_DART_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_DART_TIP",
+          "enum": "RUNITE_DART_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_nails",
+      "id": "2009scape-smithing-runite-nail-4824",
       "output": {
         "itemId": 4824,
         "quantity": 15
@@ -12034,8 +12310,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12043,7 +12318,7 @@
         "Smithing"
       ],
       "level": 89,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12052,18 +12327,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_NAILS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_NAIL",
+          "enum": "RUNITE_NAILS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_sword",
+      "id": "2009scape-smithing-runite-sword-1289",
       "output": {
         "itemId": 1289,
         "quantity": 1
@@ -12071,8 +12349,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12080,7 +12357,7 @@
         "Smithing"
       ],
       "level": 89,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12089,18 +12366,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_SWORD",
+          "enum": "RUNITE_SWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_arrow_tips",
+      "id": "2009scape-smithing-runite-arrow_tip-44",
       "output": {
         "itemId": 44,
         "quantity": 15
@@ -12108,8 +12388,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12117,7 +12396,7 @@
         "Smithing"
       ],
       "level": 90,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12126,18 +12405,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_ARROW_TIPS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_ARROW_TIP",
+          "enum": "RUNITE_ARROW_TIPS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_pickaxe",
+      "id": "2009scape-smithing-runite-pickaxe-1275",
       "output": {
         "itemId": 1275,
         "quantity": 1
@@ -12145,8 +12427,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12154,7 +12435,7 @@
         "Smithing"
       ],
       "level": 90,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12163,18 +12444,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_PICKAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_PICKAXE",
+          "enum": "RUNITE_PICKAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_scimitar",
+      "id": "2009scape-smithing-runite-scimitar-1333",
       "output": {
         "itemId": 1333,
         "quantity": 1
@@ -12182,8 +12466,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12191,7 +12474,7 @@
         "Smithing"
       ],
       "level": 90,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12200,18 +12483,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_SCIMITAR"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_SCIMITAR",
+          "enum": "RUNITE_SCIMITAR"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_limbs",
+      "id": "2009scape-smithing-runite-crossbow_limb-9431",
       "output": {
         "itemId": 9431,
         "quantity": 1
@@ -12219,8 +12505,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12228,7 +12513,7 @@
         "Smithing"
       ],
       "level": 91,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12237,18 +12522,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_LIMBS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_CROSSBOW_LIMB",
+          "enum": "RUNITE_LIMBS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_longsword",
+      "id": "2009scape-smithing-runite-longsword-1303",
       "output": {
         "itemId": 1303,
         "quantity": 1
@@ -12256,8 +12544,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12265,7 +12552,7 @@
         "Smithing"
       ],
       "level": 91,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12274,18 +12561,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_LONGSWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_LONGSWORD",
+          "enum": "RUNITE_LONGSWORD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_full_helm",
+      "id": "2009scape-smithing-runite-full_helm-1163",
       "output": {
         "itemId": 1163,
         "quantity": 1
@@ -12293,8 +12583,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12302,7 +12591,7 @@
         "Smithing"
       ],
       "level": 92,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12311,18 +12600,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_FULL_HELM"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_FULL_HELM",
+          "enum": "RUNITE_FULL_HELM"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_knife",
+      "id": "2009scape-smithing-runite-throwing_knife-868",
       "output": {
         "itemId": 868,
         "quantity": 5
@@ -12330,8 +12622,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 1,
-          "name": "Runite bar"
+          "quantity": 1
         }
       ],
       "skill": "Smithing",
@@ -12339,7 +12630,7 @@
         "Smithing"
       ],
       "level": 92,
-      "xp": 75.0,
+      "xp": 75,
       "tools": [
         "Hammer"
       ],
@@ -12348,18 +12639,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_KNIFE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_THROWING_KNIFE",
+          "enum": "RUNITE_KNIFE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_square_shield",
+      "id": "2009scape-smithing-runite-square_shield-1185",
       "output": {
         "itemId": 1185,
         "quantity": 1
@@ -12367,8 +12661,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12376,7 +12669,7 @@
         "Smithing"
       ],
       "level": 93,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12385,18 +12678,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_SQUARE_SHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_SQUARE_SHIELD",
+          "enum": "RUNITE_SQUARE_SHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_warhammer",
+      "id": "2009scape-smithing-runite-warhammer-1347",
       "output": {
         "itemId": 1347,
         "quantity": 1
@@ -12404,8 +12700,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12413,7 +12708,7 @@
         "Smithing"
       ],
       "level": 94,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12422,18 +12717,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_WARHAMMER"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_WARHAMMER",
+          "enum": "RUNITE_WARHAMMER"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_battleaxe",
+      "id": "2009scape-smithing-runite-battle_axe-1373",
       "output": {
         "itemId": 1373,
         "quantity": 1
@@ -12441,8 +12739,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12450,7 +12747,7 @@
         "Smithing"
       ],
       "level": 95,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12459,18 +12756,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_BATTLEAXE"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_BATTLE_AXE",
+          "enum": "RUNITE_BATTLEAXE"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_chainbody",
+      "id": "2009scape-smithing-runite-chainbody-1113",
       "output": {
         "itemId": 1113,
         "quantity": 1
@@ -12478,8 +12778,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12487,7 +12786,7 @@
         "Smithing"
       ],
       "level": 96,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12496,18 +12795,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_CHAINBODY"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_CHAINBODY",
+          "enum": "RUNITE_CHAINBODY"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_kiteshield",
+      "id": "2009scape-smithing-runite-kite_shield-1201",
       "output": {
         "itemId": 1201,
         "quantity": 1
@@ -12515,8 +12817,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12524,7 +12825,7 @@
         "Smithing"
       ],
       "level": 97,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12533,18 +12834,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_KITESHIELD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_KITE_SHIELD",
+          "enum": "RUNITE_KITESHIELD"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_claws",
+      "id": "2009scape-smithing-runite-claws-3101",
       "output": {
         "itemId": 3101,
         "quantity": 1
@@ -12552,8 +12856,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 2,
-          "name": "Runite bar"
+          "quantity": 2
         }
       ],
       "skill": "Smithing",
@@ -12561,7 +12864,7 @@
         "Smithing"
       ],
       "level": 98,
-      "xp": 150.0,
+      "xp": 150,
       "tools": [
         "Hammer"
       ],
@@ -12570,92 +12873,21 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_CLAWS"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_CLAWS",
+          "enum": "RUNITE_CLAWS"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_plate_body",
-      "output": {
-        "itemId": 1127,
-        "quantity": 1
-      },
-      "inputs": [
-        {
-          "itemId": 2363,
-          "quantity": 5,
-          "name": "Runite bar"
-        }
-      ],
-      "skill": "Smithing",
-      "skills": [
-        "Smithing"
-      ],
-      "level": 99,
-      "xp": 375.0,
-      "tools": [
-        "Hammer"
-      ],
-      "facilities": [
-        "Anvil"
-      ],
-      "requirements": [],
-      "method": [
-        "Smith bars on an anvil with a hammer."
-      ],
-      "provenance": [
-        {
-          "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_PLATE_BODY"
-        }
-      ]
-    },
-    {
-      "id": "2009scape-smith-runite_plate_legs",
-      "output": {
-        "itemId": 1079,
-        "quantity": 1
-      },
-      "inputs": [
-        {
-          "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
-        }
-      ],
-      "skill": "Smithing",
-      "skills": [
-        "Smithing"
-      ],
-      "level": 99,
-      "xp": 225.0,
-      "tools": [
-        "Hammer"
-      ],
-      "facilities": [
-        "Anvil"
-      ],
-      "requirements": [],
-      "method": [
-        "Smith bars on an anvil with a hammer."
-      ],
-      "provenance": [
-        {
-          "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_PLATE_LEGS"
-        }
-      ]
-    },
-    {
-      "id": "2009scape-smith-runite_plate_skirt",
+      "id": "2009scape-smithing-runite-plate_skirt-1093",
       "output": {
         "itemId": 1093,
         "quantity": 1
@@ -12663,8 +12895,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12672,7 +12903,7 @@
         "Smithing"
       ],
       "level": 99,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12681,18 +12912,99 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_PLATE_SKIRT"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_PLATE_SKIRT",
+          "enum": "RUNITE_PLATE_SKIRT"
         }
       ]
     },
     {
-      "id": "2009scape-smith-runite_two_handed_sword",
+      "id": "2009scape-smithing-runite-platebody-1127",
+      "output": {
+        "itemId": 1127,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2363,
+          "quantity": 5
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 99,
+      "xp": 375,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [
+        "Smith runite at an anvil"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_PLATEBODY",
+          "enum": "RUNITE_PLATE_BODY"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-smithing-runite-plateleg-1079",
+      "output": {
+        "itemId": 1079,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2363,
+          "quantity": 3
+        }
+      ],
+      "skill": "Smithing",
+      "skills": [
+        "Smithing"
+      ],
+      "level": 99,
+      "xp": 225,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [
+        "Anvil"
+      ],
+      "requirements": [],
+      "method": [
+        "Smith runite at an anvil"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_PLATELEG",
+          "enum": "RUNITE_PLATE_LEGS"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-smithing-runite-two_hand_sword-1319",
       "output": {
         "itemId": 1319,
         "quantity": 1
@@ -12700,8 +13012,7 @@
       "inputs": [
         {
           "itemId": 2363,
-          "quantity": 3,
-          "name": "Runite bar"
+          "quantity": 3
         }
       ],
       "skill": "Smithing",
@@ -12709,7 +13020,7 @@
         "Smithing"
       ],
       "level": 99,
-      "xp": 225.0,
+      "xp": 225,
       "tools": [
         "Hammer"
       ],
@@ -12718,13 +13029,16 @@
       ],
       "requirements": [],
       "method": [
-        "Smith bars on an anvil with a hammer."
+        "Smith runite at an anvil"
       ],
       "provenance": [
         {
           "source": "2009Scape",
-          "snapshot": "server-configs-and-Bars.java",
-          "detail": "Bars.java:RUNITE_TWO_HANDED_SWORD"
+          "file": "Server/src/main/content/global/skill/smithing/Bars.java",
+          "commit": "2009scape-uploaded",
+          "barType": "RUNITE",
+          "smithingType": "TYPE_TWO_HAND_SWORD",
+          "enum": "RUNITE_TWO_HANDED_SWORD"
         }
       ]
     },
@@ -13084,5 +13398,19 @@
         }
       ]
     }
-  ]
+  ],
+  "generation": {
+    "smithing": {
+      "provider": "2009Scape",
+      "sourceFiles": [
+        "Server/src/main/content/global/skill/smithing/Bars.java",
+        "Server/src/main/content/global/skill/smithing/SmithingType.java",
+        "Server/src/main/content/global/skill/smithing/BarType.java"
+      ],
+      "commit": "2009scape-uploaded",
+      "generated": 157,
+      "added": 0,
+      "replaced": 157
+    }
+  }
 }
