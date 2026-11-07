@@ -75,22 +75,7 @@ jobs:
             -keypass android \
             -dname "CN=Gielinor Wayfinder, OU=Dev, O=Sammy-Salt, C=US"
 
-      - name: Prepare TWA project
-        run: |
-          set -euo pipefail
-          mkdir -p twa-build
-          cp android/twa-manifest.json twa-build/twa-manifest.json
-          cp android.keystore twa-build/android.keystore
-          cd twa-build
-
-          # Update regenerates the Android project from the checked-in TWA manifest.
-          # --skipVersionUpgrade preserves the version supplied to this workflow.
-          bubblewrap update --skipVersionUpgrade
-
-          test -f twa-manifest.json
-          test -f manifest-checksum.txt
-
-      - name: Update app version
+      - name: Set app version in TWA manifest
         working-directory: twa-build
         run: |
           python3 - <<'PY'
@@ -105,12 +90,19 @@ jobs:
               raise SystemExit("version_code must be at least 1")
           data["appVersionName"] = os.environ["VERSION_NAME"]
           data["appVersionCode"] = version_code
-          path.write_text(json.dumps(data, indent=2) + "\n")
+          path.write_text(json.dumps(data, indent=2) + "\\n")
           print(f"Building version {data['appVersionName']} ({version_code})")
           PY
         env:
           VERSION_NAME: ${{ inputs.version_name }}
           VERSION_CODE: ${{ inputs.version_code }}
+
+      - name: Generate Android project from TWA manifest
+        working-directory: twa-build
+        run: |
+          set -euo pipefail
+          bubblewrap update --skipVersionUpgrade
+          test -s manifest-checksum.txt
 
       - name: Build signed APK
         working-directory: twa-build
