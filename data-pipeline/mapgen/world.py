@@ -96,7 +96,7 @@ def parse_locs(data: bytes) -> list[tuple[int, int, int, int, int, int]]:
     r = Reader(data); out = []
     oid = -1
     while True:
-        delta = r.smart_big()
+        delta = r.smart()
         if delta == 0: break
         oid += delta
         loc = 0
