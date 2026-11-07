@@ -75,6 +75,13 @@ jobs:
             -keypass android \
             -dname "CN=Gielinor Wayfinder, OU=Dev, O=Sammy-Salt, C=US"
 
+      - name: Prepare TWA build directory
+        run: |
+          set -euo pipefail
+          mkdir -p twa-build
+          cp android/twa-manifest.json twa-build/twa-manifest.json
+          cp android.keystore twa-build/android.keystore
+
       - name: Set app version in TWA manifest
         working-directory: twa-build
         run: |
