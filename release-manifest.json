@@ -76,12 +76,24 @@
       "bytes": 4993
     },
     "data-pipeline/mapgen/cache.py": {
-      "sha256": "c82c4b8f810bf68a1fa0d62108550f2fdb28f32ab34b27c5bae6b92599be3d45",
-      "bytes": 5336
+      "sha256": "44439292c348009506c0b0cf97c211922f6ed84a37507212efb22988fcbbc745",
+      "bytes": 5518
+    },
+    "data-pipeline/mapgen/objects.py": {
+      "sha256": "4ea918c01049d3814201c2a03124fc1ece23890265114954bfbcb3f0f8eece47",
+      "bytes": 2869
+    },
+    "data-pipeline/mapgen/render_polished.py": {
+      "sha256": "a3f84d69f15a8123330efcb6c01c980f1a7e0002f052bf25431420d518040675",
+      "bytes": 10298
+    },
+    "data-pipeline/mapgen/render_prototype.py": {
+      "sha256": "42da4fe16f1855ea952c0851cc379159338b71868ca49a49649fed9f1f9f875e",
+      "bytes": 4006
     },
     "data-pipeline/mapgen/world.py": {
-      "sha256": "5b4aba67fc2465718aa36bd4d97fc7fc0cd662f2cc6ca14f5339327bd53fca5f",
-      "bytes": 4354
+      "sha256": "9f67caf201df1f5f535eb45dc38f304c23dbf38b7ee4440d6691a4df43b2ad85",
+      "bytes": 4411
     },
     "data-pipeline/normalize_item_catalog.py": {
       "sha256": "15a28abcbc848ca16ee0f029966609e1bdf4e677afc9fe2df853a65e0bd7ccf1",
@@ -131,6 +143,10 @@
       "sha256": "9dd2171587e1ea021b1451ebadc694fb7bf7ec997ae7f1fbdb0ef0e1c1973fbc",
       "bytes": 696
     },
+    "docs/data/DROP_ROLL_MECHANICS.md": {
+      "sha256": "a65e6225161c3382538ed721dfc46764c670f0b6f888a2d2958d6646d8e3daa2",
+      "bytes": 5580
+    },
     "docs/data/IDENTITY_RESOLUTION.md": {
       "sha256": "f285589ff8a08440ccb61c0f47b33507ea2ac723b250fbb335d9e21f933d011a",
       "bytes": 363
@@ -140,8 +156,8 @@
       "bytes": 1444
     },
     "docs/data/RELATIONSHIPS.md": {
-      "sha256": "9e6fff722cf0c6588f88fc852a1a6211d492a8340996f264581eb4e3946fc84f",
-      "bytes": 1388
+      "sha256": "984556ed5be173f4ab0c4beef13a81b1705e0fa2bf1c9f6d7b573d8f0910c570",
+      "bytes": 1632
     },
     "docs/data/SOURCES.md": {
       "sha256": "ebc5e5c197fb5c55b2b5dceb48625e6cb57e72b4b41f1fc4d0e26b5d799d3472",
@@ -192,8 +208,8 @@
       "bytes": 1151
     },
     "docs/development/TESTING.md": {
-      "sha256": "393e86175d252145d5694fe207727e5aecd7972506f1eeebda75cad84cd0106a",
-      "bytes": 2065
+      "sha256": "0abfd265399ca4834e63d043c6d4aff50d4d7fd82de91380cf5ec3b4c579a7c4",
+      "bytes": 2142
     },
     "docs/features/CHARACTER_STATS.md": {
       "sha256": "424867b65b7b063ebfcf01c0c79d629cf9a7825ab8b3d2fae10d7d1d47044340",
@@ -339,6 +355,10 @@
       "sha256": "b49c136091af5d6aa1595b18b66057792b89a47236a05210e9b12f29fa9ea65a",
       "bytes": 1861
     },
+    "docs/releases/PASS31.38.md": {
+      "sha256": "fa28fd49bfffedd4c0a7d4749d4cd9a7db454fd9e6bde9732d8d0aa29636aba2",
+      "bytes": 696
+    },
     "index.html": {
       "sha256": "2eb074560be14a12bcc34e6e70d19070072fe391a36e7b7e9193183690bd3946",
       "bytes": 258
@@ -350,6 +370,10 @@
     "scripts/setup-git-hooks.sh": {
       "sha256": "48e2019e70f92d00546d0123a830f118c7a12e4871e0e493af1098b0027ea2f1",
       "bytes": 323
+    },
+    "scripts/validate_drop_relationships.py": {
+      "sha256": "1567f48544fb81960f9dfc20314ef118141dd2941a24b687696906004777b611",
+      "bytes": 10795
     },
     "scripts/verify_project.py": {
       "sha256": "ca69bd1bb6b377419d2359e4d053fa005c6ac96a35a0c8d84b0102a5eeca2130",
@@ -308682,6 +308706,10 @@
     "tests/test_pass31_37.py": {
       "sha256": "2b6142c6cc0e82cabf371a9006e50338fab208e91ca56208d6d49d12f2ae9a2e",
       "bytes": 2035
+    },
+    "tests/test_pass31_38.py": {
+      "sha256": "5834c6c1d1f12ec834802438192803ff7ff647c0b3a53553dbdd8ba7accf0884",
+      "bytes": 850
     }
   }
 }

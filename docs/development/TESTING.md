@@ -8,7 +8,7 @@ Every release-level change should cover the applicable subset of:
 
 - JSON syntax and structural contracts;
 - entity/detail-file integrity;
-- relationship endpoint integrity;
+- relationship endpoint integrity, including `scripts/validate_drop_relationships.py` for exact drop fractions;
 - source precedence and provenance;
 - JavaScript syntax;
 - service-worker/release metadata consistency;
