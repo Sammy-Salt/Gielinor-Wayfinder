@@ -97,7 +97,7 @@ jobs:
               raise SystemExit("version_code must be at least 1")
           data["appVersionName"] = os.environ["VERSION_NAME"]
           data["appVersionCode"] = version_code
-          path.write_text(json.dumps(data, indent=2) + "\\n")
+          path.write_text(json.dumps(data, indent=2) + chr(10))
           print(f"Building version {data['appVersionName']} ({version_code})")
           PY
         env:
