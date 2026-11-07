@@ -6,23 +6,23 @@ def chk(ok,msg):
     if not ok: raise AssertionError(msg)
 
 release=json.loads((S/'release.json').read_text())
-chk(release['release']=='PASS31.30','release mismatch')
+chk(release['release']=='PASS31.34','release mismatch')
 chk(release['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
-chk('gielinor-wayfinder-pass31.30' in (S/'sw.js').read_text(),'cache namespace mismatch')
+chk('gielinor-wayfinder-pass31.34' in (S/'sw.js').read_text(),'cache namespace mismatch')
 chk('?v=42' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
 
 idx=json.loads((S/'data/relationships/index.json').read_text())
-chk(idx['relationshipCount']==52194,'relationship count must be 52194')
-chk(idx['monsterCount']==2125,'monster shard count mismatch')
-chk(idx['itemCount']==1081,'item shard count mismatch')
+chk(idx['relationshipCount']==52557,'relationship count must be 52557')
+chk(idx['monsterCount']==2146,'monster shard count mismatch')
+chk(idx['itemCount']==1114,'item shard count mismatch')
 chk(idx['categoryCounts']['tertiary']==100,'tertiary relationship count mismatch')
-chk(idx['categoryCounts']['main']==45256,'main relationship count mismatch')
-chk(idx['categoryCounts']['charm']==4780,'charm relationship count mismatch')
-chk(idx['categoryCounts']['default']==2077,'default relationship count mismatch')
+chk(idx['categoryCounts']['main']==45575,'main relationship count mismatch')
+chk(idx['categoryCounts']['charm']==4804,'charm relationship count mismatch')
+chk(idx['categoryCounts']['default']==2097,'default relationship count mismatch')
 
 source=S/'data/sources/2009scape/drop_tables.json'
 sha=hashlib.sha256(source.read_bytes()).hexdigest()
-chk(sha=='3f6b1f4d2f49f72d54d71545a8397bc0ca04c44bb4aaa6f58325a27dac59e856','source SHA mismatch')
+chk(sha=='09e5891ece49b962e9b7f8f843ef37046b8ee8b7d90a7d0a0b74a7a3c69f8a6e','source SHA mismatch')
 chk(idx['source']['contentSha256']==sha,'index source SHA mismatch')
 chk(json.loads((S/'data/sources/2009scape/drop_tables.manifest.json').read_text())['contentSha256']==sha,'source manifest SHA mismatch')
 
@@ -46,8 +46,8 @@ for path in [(S/'data/relationships/monsters/1615.json.gz'),
         chk(row['rate']['denominator']>0 and row['rate']['numerator']>=0,'invalid sampled probability')
 
 # Shard/index consistency.
-chk(len(list((S/'data/relationships/monsters').glob('*.json.gz')))==2125,'monster shard file count mismatch')
-chk(len(list((S/'data/relationships/items').glob('*.json.gz')))==1081,'item shard file count mismatch')
+chk(len(list((S/'data/relationships/monsters').glob('*.json.gz')))==2146,'monster shard file count mismatch')
+chk(len(list((S/'data/relationships/items').glob('*.json.gz')))==1114,'item shard file count mismatch')
 chk(not (S/'data/relationships/monster-drops.json').exists(),'monolithic relationship payload still shipped')
 
 rs=(S/'js/services/relationship-service.js').read_text()
@@ -68,4 +68,4 @@ for p in S.rglob('*'):
     if p.is_file() and p.suffix in {'.js','.json','.html','.css','.webmanifest'}:
         chk('ragger' not in p.read_text(errors='ignore').lower(),f'Ragger production reference: {p}')
 
-print('PASS31.28 drop tests: relationships=52194 tertiary=100 authoritativeRates=52194 wikiFallback=0 monolithic=0 gzip=PASS sourceHash=PASS js/json=valid ragger=0')
+print('PASS31.28 drop tests: relationships=52557 tertiary=100 authoritativeRates=52557 wikiFallback=0 monolithic=0 gzip=PASS sourceHash=PASS js/json=valid ragger=0')

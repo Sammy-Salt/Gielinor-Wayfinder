@@ -3,9 +3,9 @@
   "generatedBy": "Pass 17-25 data quality audit",
   "counts": {
     "quests": 200,
-    "knowledgeEntities": 22074,
-    "knowledgeEdges": 52309,
-    "searchRecords": 21847
+    "knowledgeEntities": 22106,
+    "knowledgeEdges": 52672,
+    "searchRecords": 22103
   },
   "integrity": {
     "brokenKnowledgeEdges": 0,
@@ -13,7 +13,7 @@
     "duplicateSearchKeys": 0
   },
   "relations": {
-    "drops": 52094,
+    "drops": 52457,
     "requires_quest": 215
   }
 }

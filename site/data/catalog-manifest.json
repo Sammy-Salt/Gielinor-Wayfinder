@@ -2,25 +2,25 @@
   "formatVersion": 2,
   "generatedBy": "Pass 17-25 compact platform audit",
   "counts": {
-    "items": 11978,
-    "monsters": 2865,
+    "items": 12001,
+    "monsters": 3098,
     "npcs": 6804,
     "quests": 200
   },
   "detailFiles": {
-    "items": 11980,
-    "monsters": 2867,
+    "items": 12003,
+    "monsters": 3100,
     "npcs": 6805
   },
-  "searchRecords": 21847,
+  "searchRecords": 22103,
   "relationshipKeys": {
     "monsterDrops": 2686,
     "itemSources": 258
   },
   "knowledge": {
-    "entities": 22074,
-    "edges": 52309,
-    "searchRecords": 21847,
+    "entities": 22106,
+    "edges": 52672,
+    "searchRecords": 22103,
     "questDependencyRecords": 200
   },
   "generatedArtifacts": [
@@ -32,13 +32,13 @@
     "relationships/index.json",
     "sources/2009scape/drop_tables.json"
   ],
-  "release": "PASS31.30",
-  "buildId": "pass31.30-20261105-1",
+  "release": "PASS31.34",
+  "buildId": "pass31.34-20261107-1",
   "generatedFrom": "PASS31.27 architecture/data-integrity polish",
   "displayViews": {
     "monsters": {
-      "identityCount": 687,
-      "gameVariantCount": 2865,
+      "identityCount": 754,
+      "gameVariantCount": 3098,
       "source": "monsters/index.json",
       "index": "monsters/display-index.json",
       "grouping": "normalized case-insensitive name"
