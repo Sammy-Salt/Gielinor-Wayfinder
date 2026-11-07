@@ -15,13 +15,21 @@
       "role": "secondary",
       "snapshot": "PASS31.9",
       "detail": "Non-conflicting secondary recipes retained from prior snapshot"
+    },
+    {
+      "source": "2009Scape",
+      "role": "primary",
+      "detail": "Fletching enum definitions and BattlestaffProduct",
+      "snapshot": "PASS31.37"
     }
   ],
-  "snapshot": "PASS31.33-smithing-primary",
+  "snapshot": "PASS31.37-fletching-primary",
   "counts": {
-    "total": 369,
+    "total": 448,
     "from2009ScapeSmithing": 167,
-    "fromWikiSecondary": 202
+    "fromWikiSecondary": 202,
+    "from2009ScapeFletching": 75,
+    "from2009ScapeStaffCreation": 4
   },
   "recipes": [
     {
@@ -762,6 +770,80 @@
       ]
     },
     {
+      "id": "2009scape-crafting-battlestaff-water_battlestaff",
+      "output": {
+        "itemId": 1395,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1391,
+          "quantity": 1
+        },
+        {
+          "itemId": 571,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 54,
+      "xp": 100.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine an elemental orb with a battlestaff"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/BattlestaffListener.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WATER_BATTLESTAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-battlestaff-earth_battlestaff",
+      "output": {
+        "itemId": 1399,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1391,
+          "quantity": 1
+        },
+        {
+          "itemId": 575,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 58,
+      "xp": 112.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine an elemental orb with a battlestaff"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/BattlestaffListener.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "EARTH_BATTLESTAFF"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-135",
       "output": {
         "itemId": 9100,
@@ -1131,6 +1213,80 @@
       ]
     },
     {
+      "id": "2009scape-crafting-battlestaff-fire_battlestaff",
+      "output": {
+        "itemId": 1393,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1391,
+          "quantity": 1
+        },
+        {
+          "itemId": 569,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 62,
+      "xp": 125.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine an elemental orb with a battlestaff"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/BattlestaffListener.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "FIRE_BATTLESTAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-battlestaff-air_battlestaff",
+      "output": {
+        "itemId": 1397,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1391,
+          "quantity": 1
+        },
+        {
+          "itemId": 573,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 66,
+      "xp": 137.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine an elemental orb with a battlestaff"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/BattlestaffListener.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "AIR_BATTLESTAFF"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-69",
       "output": {
         "itemId": 8856,
@@ -1332,6 +1488,158 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Raw lava eel"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-bronze_arrow",
+      "output": {
+        "itemId": 882,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 39,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": 1.3,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BRONZE_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-bronze_dart",
+      "output": {
+        "itemId": 806,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 819,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": 1.8,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BRONZE_DART"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-headless-arrow",
+      "output": {
+        "itemId": 53,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 52,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": 1.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an arrow shaft"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/HeadlessArrowCraftScript.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "HEADLESS_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-arrow_shaft",
+      "output": {
+        "itemId": 52,
+        "quantity": 15
+      },
+      "inputs": [
+        {
+          "itemId": 1511,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 1,
+      "xp": 5.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "ARROW_SHAFT"
         }
       ]
     },
@@ -1613,6 +1921,153 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Bronze arrow"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-flighted-ogre-arrow",
+      "output": {
+        "itemId": 2865,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2864,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 4
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": 1.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach four feathers to an ogre arrow shaft"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/FlightedOgreArrowCraftScript.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "FLIGHTED_OGRE_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-ogre_arrow_shaft",
+      "output": {
+        "itemId": 2864,
+        "quantity": 4
+      },
+      "inputs": [
+        {
+          "itemId": 2862,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": 6.4,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OGRE_ARROW_SHAFT"
+        }
+      ],
+      "outputNotes": "Variable quantity (2-6)"
+    },
+    {
+      "id": "2009scape-fletching-log-short_bow",
+      "output": {
+        "itemId": 50,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1511,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": 5.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "SHORT_BOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-short_bow",
+      "output": {
+        "itemId": 841,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 50,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 5,
+      "xp": 5.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "SHORT_BOW"
         }
       ]
     },
@@ -1907,6 +2362,156 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-bronze_bolt",
+      "output": {
+        "itemId": 877,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9375,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": 0.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BRONZE_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-wooden_stock",
+      "output": {
+        "itemId": 9454,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9440,
+          "quantity": 1
+        },
+        {
+          "itemId": 9420,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": 12.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WOODEN_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-wooden_stock",
+      "output": {
+        "itemId": 9440,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1511,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": 6.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WOODEN_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-bronze_cbow",
+      "output": {
+        "itemId": 9174,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9454,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 9,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BRONZE_CBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-43",
       "output": {
         "itemId": 877,
@@ -2119,6 +2724,78 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Bronze bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-long_bow",
+      "output": {
+        "itemId": 48,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1511,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": 10.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "LONG_BOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-long_bow",
+      "output": {
+        "itemId": 839,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 48,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 10,
+      "xp": 10.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "LONG_BOW"
         }
       ]
     },
@@ -2591,6 +3268,45 @@
       ]
     },
     {
+      "id": "2009scape-fletching-arrow-iron_arrow",
+      "output": {
+        "itemId": 884,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 40,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 15,
+      "xp": 2.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "IRON_ARROW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-112",
       "output": {
         "itemId": 884,
@@ -2661,6 +3377,117 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Iron brutal"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-oak_shortbow",
+      "output": {
+        "itemId": 54,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1521,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 20,
+      "xp": 16.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-oak_shortbow",
+      "output": {
+        "itemId": 843,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 54,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 20,
+      "xp": 16.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-iron_dart",
+      "output": {
+        "itemId": 807,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 820,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 22,
+      "xp": 3.8,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "IRON_DART"
         }
       ]
     },
@@ -2881,6 +3708,156 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-blurite_bolt",
+      "output": {
+        "itemId": 9139,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9376,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": 1.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BLURITE_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-oak_stock",
+      "output": {
+        "itemId": 9456,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9442,
+          "quantity": 1
+        },
+        {
+          "itemId": 9422,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": 32.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-oak_stock",
+      "output": {
+        "itemId": 9442,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1521,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": 16.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-blurite_cbow",
+      "output": {
+        "itemId": 9176,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9456,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 24,
+      "xp": 16.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BLURITE_CBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-28",
       "output": {
         "itemId": 9139,
@@ -3097,6 +4074,78 @@
       ]
     },
     {
+      "id": "2009scape-fletching-log-oak_longbow",
+      "output": {
+        "itemId": 56,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1521,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 25,
+      "xp": 25.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-oak_longbow",
+      "output": {
+        "itemId": 845,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 56,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 25,
+      "xp": 25.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OAK_LONGBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-147",
       "output": {
         "itemId": 3689,
@@ -3165,6 +4214,121 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Jade bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-steel_arrow",
+      "output": {
+        "itemId": 886,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 41,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 30,
+      "xp": 5.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "STEEL_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-ogre_comp_bow",
+      "output": {
+        "itemId": 4825,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2862,
+          "quantity": 1
+        },
+        {
+          "itemId": 2859,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 30,
+      "xp": 45.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OGRE_COMP_BOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-ogre_comp_bow",
+      "output": {
+        "itemId": 4827,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4825,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 30,
+      "xp": 45.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "OGRE_COMP_BOW"
         }
       ]
     },
@@ -3239,6 +4403,117 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Steel brutal"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-willow_shortbow",
+      "output": {
+        "itemId": 60,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1519,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 35,
+      "xp": 33.3,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-willow_shortbow",
+      "output": {
+        "itemId": 849,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 60,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 35,
+      "xp": 33.3,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-steel_dart",
+      "output": {
+        "itemId": 808,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 821,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 37,
+      "xp": 7.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "STEEL_DART"
         }
       ]
     },
@@ -3497,6 +4772,156 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-iron_bolt",
+      "output": {
+        "itemId": 9140,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9377,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": 1.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "IRON_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-willow_stock",
+      "output": {
+        "itemId": 9457,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9444,
+          "quantity": 1
+        },
+        {
+          "itemId": 9423,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": 44.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-willow_stock",
+      "output": {
+        "itemId": 9444,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1519,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": 22.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-iron_cbow",
+      "output": {
+        "itemId": 9177,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9457,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 39,
+      "xp": 22.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "IRON_CBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-113",
       "output": {
         "itemId": 9140,
@@ -3713,6 +5138,78 @@
       ]
     },
     {
+      "id": "2009scape-fletching-log-willow_longbow",
+      "output": {
+        "itemId": 58,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1519,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 40,
+      "xp": 41.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-willow_longbow",
+      "output": {
+        "itemId": 847,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 58,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 40,
+      "xp": 41.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "WILLOW_LONGBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-173",
       "output": {
         "itemId": 880,
@@ -3745,6 +5242,45 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Pearl bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-bolt-silver_bolt",
+      "output": {
+        "itemId": 9145,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9382,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 43,
+      "xp": 2.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "SILVER_BOLT"
         }
       ]
     },
@@ -3961,6 +5497,195 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Silver bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-mithril_arrow",
+      "output": {
+        "itemId": 888,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 42,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 45,
+      "xp": 7.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MITHRIL_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-bolt-steel_bolt",
+      "output": {
+        "itemId": 9141,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9378,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": 3.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "STEEL_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-teak_stock",
+      "output": {
+        "itemId": 9459,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9446,
+          "quantity": 1
+        },
+        {
+          "itemId": 9425,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": 54.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "TEAK_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-teak_stock",
+      "output": {
+        "itemId": 9446,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6333,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": 27.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "TEAK_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-steel_cbow",
+      "output": {
+        "itemId": 9179,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9459,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 46,
+      "xp": 27.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "STEEL_CBOW"
         }
       ]
     },
@@ -4255,6 +5980,78 @@
       ]
     },
     {
+      "id": "2009scape-fletching-log-maple_shortbow",
+      "output": {
+        "itemId": 64,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1517,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 50,
+      "xp": 50.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-maple_shortbow",
+      "output": {
+        "itemId": 853,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 64,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 50,
+      "xp": 50.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_SHORTBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-22",
       "output": {
         "itemId": 881,
@@ -4287,6 +6084,84 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Barbed bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-broad_arrow",
+      "output": {
+        "itemId": 4160,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 13278,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": 15.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BROAD_ARROW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-mithril_dart",
+      "output": {
+        "itemId": 809,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 822,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 52,
+      "xp": 11.2,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MITHRIL_DART"
         }
       ]
     },
@@ -4507,6 +6382,156 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-mithril_bolt",
+      "output": {
+        "itemId": 9142,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9379,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": 5.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MITHRIL_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-maple_stock",
+      "output": {
+        "itemId": 9461,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9448,
+          "quantity": 1
+        },
+        {
+          "itemId": 9427,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": 64.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-maple_stock",
+      "output": {
+        "itemId": 9448,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1517,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": 32.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-mithiril_cbow",
+      "output": {
+        "itemId": 9181,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9461,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 54,
+      "xp": 32.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MITHIRIL_CBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-152",
       "output": {
         "itemId": 9142,
@@ -4723,6 +6748,117 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-broad_bolt",
+      "output": {
+        "itemId": 13280,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 13279,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 55,
+      "xp": 3.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "BROAD_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-maple_longbow",
+      "output": {
+        "itemId": 62,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1517,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 55,
+      "xp": 58.3,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-maple_longbow",
+      "output": {
+        "itemId": 851,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 62,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 55,
+      "xp": 58.3,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAPLE_LONGBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-198",
       "output": {
         "itemId": 9337,
@@ -4795,6 +6931,45 @@
       ]
     },
     {
+      "id": "2009scape-fletching-arrow-adamant_arrow",
+      "output": {
+        "itemId": 890,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 43,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 60,
+      "xp": 10.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "ADAMANT_ARROW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-3",
       "output": {
         "itemId": 890,
@@ -4827,6 +7002,156 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Adamant arrow"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-bolt-adamantite_bolt",
+      "output": {
+        "itemId": 9143,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9380,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": 7.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "ADAMANTITE_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-mahogany_stock",
+      "output": {
+        "itemId": 9463,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9450,
+          "quantity": 1
+        },
+        {
+          "itemId": 9429,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": 82.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAHOGANY_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-mahogany_stock",
+      "output": {
+        "itemId": 9450,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6332,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": 41.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAHOGANY_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-adamant_cbow",
+      "output": {
+        "itemId": 9183,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9463,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 61,
+      "xp": 41.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "ADAMANT_CBOW"
         }
       ]
     },
@@ -5121,6 +7446,78 @@
       ]
     },
     {
+      "id": "2009scape-fletching-log-yew_shortbow",
+      "output": {
+        "itemId": 68,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1515,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 65,
+      "xp": 67.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-yew_shortbow",
+      "output": {
+        "itemId": 857,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 68,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 65,
+      "xp": 67.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_SHORTBOW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-70",
       "output": {
         "itemId": 9340,
@@ -5153,6 +7550,45 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Diamond bolts"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-adamant_dart",
+      "output": {
+        "itemId": 810,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 823,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 67,
+      "xp": 15.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "ADAMANT_DART"
         }
       ]
     },
@@ -5373,6 +7809,267 @@
       ]
     },
     {
+      "id": "2009scape-fletching-bolt-runite_bolt",
+      "output": {
+        "itemId": 9144,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9381,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 69,
+      "xp": 10.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to an unfinished bolt"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "RUNITE_BOLT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-crossbow-yew_stock",
+      "output": {
+        "itemId": 9465,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9452,
+          "quantity": 1
+        },
+        {
+          "itemId": 9431,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 69,
+      "xp": 100.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach crossbow limbs to a stock"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-yew_stock",
+      "output": {
+        "itemId": 9452,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1515,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 69,
+      "xp": 50.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_STOCK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-runite_cbow",
+      "output": {
+        "itemId": 9185,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9465,
+          "quantity": 1
+        },
+        {
+          "itemId": 9438,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 69,
+      "xp": 50.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "RUNITE_CBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-yew_longbow",
+      "output": {
+        "itemId": 66,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1515,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 70,
+      "xp": 75.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-yew_longbow",
+      "output": {
+        "itemId": 855,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 66,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 70,
+      "xp": 75.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "YEW_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-rune_arrow",
+      "output": {
+        "itemId": 892,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 44,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 75,
+      "xp": 12.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "RUNE_ARROW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-188",
       "output": {
         "itemId": 892,
@@ -5443,6 +8140,117 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Rune brutal"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-log-magic_shortbow",
+      "output": {
+        "itemId": 72,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1513,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 80,
+      "xp": 83.3,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAGIC_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-magic_shortbow",
+      "output": {
+        "itemId": 861,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 72,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 80,
+      "xp": 83.3,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAGIC_SHORTBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-rune_dart",
+      "output": {
+        "itemId": 811,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 824,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 81,
+      "xp": 18.8,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "RUNE_DART"
         }
       ]
     },
@@ -5663,6 +8471,117 @@
       ]
     },
     {
+      "id": "2009scape-fletching-log-magic_longbow",
+      "output": {
+        "itemId": 70,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1513,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 85,
+      "xp": 91.5,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut logs with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAGIC_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-string-magic_longbow",
+      "output": {
+        "itemId": 859,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 70,
+          "quantity": 1
+        },
+        {
+          "itemId": 1777,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 85,
+      "xp": 91.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String an unstrung bow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "MAGIC_LONGBOW"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-arrow-dragon_arrow",
+      "output": {
+        "itemId": 11212,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 53,
+          "quantity": 1
+        },
+        {
+          "itemId": 11237,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 90,
+      "xp": 15.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach an arrowhead to a headless arrow"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "DRAGON_ARROW"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-71",
       "output": {
         "itemId": 11212,
@@ -5695,6 +8614,45 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Dragon arrow"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-fletching-dart-dragon_dart",
+      "output": {
+        "itemId": 11230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 11232,
+          "quantity": 1
+        },
+        {
+          "itemId": 314,
+          "quantity": 1
+        }
+      ],
+      "skill": "Fletching",
+      "skills": [
+        "Fletching"
+      ],
+      "level": 95,
+      "xp": 25.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach a feather to a dart tip"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+          "commit": "2009scape-uploaded",
+          "enum": "DRAGON_DART"
         }
       ]
     },
@@ -13411,6 +16369,31 @@
       "generated": 157,
       "added": 0,
       "replaced": 157
+    },
+    "fletching": {
+      "provider": "2009Scape",
+      "sourceFiles": [
+        "Server/src/main/content/global/skill/fletching/log/LogCraftInfo.kt",
+        "Server/src/main/content/global/skill/fletching/arrow/ArrowCraftInfo.kt",
+        "Server/src/main/content/global/skill/fletching/bolts/BoltCraftInfo.kt",
+        "Server/src/main/content/global/skill/fletching/darts/DartCraftInfo.kt",
+        "Server/src/main/content/global/skill/fletching/crossbow/UnfinishedCrossbowCraftInfo.kt",
+        "Server/src/main/content/global/skill/fletching/stringing/StringableCraftInfo.kt"
+      ],
+      "commit": "2009scape-uploaded",
+      "generated": 75,
+      "added": 0,
+      "replaced": 75
+    },
+    "staffCreation": {
+      "provider": "2009Scape",
+      "sourceFiles": [
+        "Server/src/main/content/global/skill/crafting/BattlestaffListener.kt"
+      ],
+      "commit": "2009scape-uploaded",
+      "generated": 4,
+      "added": 0,
+      "replaced": 4
     }
   }
 }

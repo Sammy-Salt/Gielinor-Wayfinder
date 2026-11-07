@@ -67,6 +67,10 @@
       "sha256": "28e9d92f26abecf338d31f8aa17ea7edf4e0c3153484780a9a3ad71db31e4ec9",
       "bytes": 12276
     },
+    "data-pipeline/__pycache__/generate_fletching_recipes.cpython-312.pyc": {
+      "sha256": "05359be0b446d52602b616099ac495a7ab4c963f30a437a4b4aefda94df8ccae",
+      "bytes": 18639
+    },
     "data-pipeline/__pycache__/generate_smithing_recipes.cpython-312.pyc": {
       "sha256": "f17dc7750d48fd5e7567f4309e93e2b1deab3ed3cec96b685bafc7abeaa3aead",
       "bytes": 9516
@@ -98,6 +102,10 @@
     "data-pipeline/generate_drop_relationships.py": {
       "sha256": "3b04c31db3ee4a3f80f77b75e7e911116dd8d90a84f8da295ef630f66b60cc5b",
       "bytes": 9645
+    },
+    "data-pipeline/generate_fletching_recipes.py": {
+      "sha256": "ba6da1fc88f9b8d0efdc67a93fb03cc4fa57aa6256cdde94660cf6b170ba612e",
+      "bytes": 9933
     },
     "data-pipeline/generate_smithing_recipes.py": {
       "sha256": "c387794e5561fcf1bc840bca793573de1fd5f580a86639a3752fb9407c7616c5",
@@ -220,8 +228,8 @@
       "bytes": 539
     },
     "docs/features/CRAFTING.md": {
-      "sha256": "7517500ce4c9698b194d4cdd01d3cc937b519d3203a9640f9937a2091654480c",
-      "bytes": 880
+      "sha256": "d345d878c35e33e40bb0d8eecba99a829f9836b84b1c2b07c901eaee99715dcc",
+      "bytes": 1092
     },
     "docs/features/DROPS.md": {
       "sha256": "f2d3130de9a0a057cea18ae507920f7fa573d1cfc9492ab2769bff75a40476b8",
@@ -258,6 +266,10 @@
     "docs/history/EXTERNAL_REVIEWS.md": {
       "sha256": "f561a25cfdcee080f11ae466c501246e8f92d0dc4861fe7aadc6678f0fb9945d",
       "bytes": 1499
+    },
+    "docs/history/FLETCHING_STAFF_RECIPES_2026-11-07.md": {
+      "sha256": "9e48ae2bee6e9e6304cbc865fbbc26c5d78360db573628ef9e94b56f304fb499",
+      "bytes": 3358
     },
     "docs/history/MAP_DATA_WIRING_2026-11-06.md": {
       "sha256": "2bb4f06f339d73a5b303319a129e435e2236f9fdfe34da135792f8f7105d4f96",
@@ -190520,8 +190532,8 @@
       "bytes": 157090
     },
     "site/data/recipes.json": {
-      "sha256": "f5ae0c97bbbcb338defe02acd7a1a936e800407485ded2edbc26826e722af874",
-      "bytes": 273590
+      "sha256": "c3ff78f54ebc000484e758f3ecfab67ea54a0a47f96b77a4e92dcd48f7b5a333",
+      "bytes": 338257
     },
     "site/data/relationships/index.json": {
       "sha256": "da742b8ce5b655e0dcad2c9fa7dfc7da1cddda7e631456a702a7586e4c1290c9",
@@ -308608,8 +308620,8 @@
       "bytes": 2923
     },
     "site/release-manifest.json": {
-      "sha256": "70a5dbfdc6c239670177ff7f29ddfdf5353912ad9afcd50bcc7f8ae09e0ffa14",
-      "bytes": 11792877
+      "sha256": "4d847d1feda999948519128dfcc469c4217420fb99acdf6888b3bb1cb6bff0ff",
+      "bytes": 11793999
     },
     "site/release.json": {
       "sha256": "aebdd3dcd5a1dacce01e0543c6287ba30d9df08d95effe4704c606a578242411",
@@ -308630,6 +308642,10 @@
     "tests/__pycache__/test_pass31_33.cpython-312.pyc": {
       "sha256": "3636afae98c523d6eeb198ab3eb1be9edd7ca71c176b8da09bd044078ee69c29",
       "bytes": 3095
+    },
+    "tests/__pycache__/test_pass31_37.cpython-312.pyc": {
+      "sha256": "533d017474a069e1406f2d87d9e1e9113466787a2b0498c1c25a43a23484eca7",
+      "bytes": 4376
     },
     "tests/test_pass31_18.py": {
       "sha256": "ecf4be305f48c3d5258059cdecfaf988231c553176701310e8c13900a9988f71",
@@ -308698,6 +308714,10 @@
     "tests/test_pass31_36.py": {
       "sha256": "22515d8e3f92545ab7bc7454501ab7eacfbc8cbd68a62d7f6cbb8c5adfcd06f5",
       "bytes": 1636
+    },
+    "tests/test_pass31_37.py": {
+      "sha256": "2b6142c6cc0e82cabf371a9006e50338fab208e91ca56208d6d49d12f2ae9a2e",
+      "bytes": 2035
     }
   }
 }
