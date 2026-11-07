@@ -4,8 +4,1046 @@
     "primary": "2009Scape",
     "secondary": "OSRS Wiki"
   },
-  "source": "OSRS Wiki",
-  "snapshot": "PASS31.9",
-  "recipes": [],
-  "_note": "Temporary stub. Replace with recipes.generated.json from agent artifacts (369 recipes, PASS31.33-smithing-primary). Previous full Wiki snapshot is in git history before placeholder commits."
-}
+  "sources": [
+    {
+      "source": "2009Scape",
+      "role": "primary",
+      "detail": "Server Bars.java, SmithingType.java, BarType.java, smelting/Bar.java, item_configs.json"
+    },
+    {
+      "source": "OSRS Wiki",
+      "role": "secondary",
+      "snapshot": "PASS31.9",
+      "detail": "Non-conflicting secondary recipes retained from prior snapshot"
+    }
+  ],
+  "snapshot": "PASS31.33-smithing-primary",
+  "counts": {
+    "total": 369,
+    "from2009ScapeSmithing": 167,
+    "fromWikiSecondary": 202
+  },
+  "recipes": [
+    {
+      "id": "wiki31.9-130",
+      "output": {
+        "itemId": 10976,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Construction",
+      "skills": [
+        "Construction"
+      ],
+      "level": 30,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Long bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-66",
+      "output": {
+        "itemId": 10977,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Construction",
+      "skills": [
+        "Construction"
+      ],
+      "level": 30,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Curved bone"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-103",
+      "output": {
+        "itemId": 2249,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2250,
+          "quantity": 1,
+          "name": "Raw batta"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Half baked batta"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-104",
+      "output": {
+        "itemId": 2177,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2178,
+          "quantity": 1,
+          "name": "Raw gnomebowl"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Half baked bowl"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-127",
+      "output": {
+        "itemId": 3151,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3150,
+          "quantity": 1,
+          "name": "Raw karambwanji"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Karambwanji"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-234",
+      "output": {
+        "itemId": 1941,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1940,
+          "quantity": 1,
+          "name": "Raw swamp paste"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Swamp paste"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-56",
+      "output": {
+        "itemId": 2248,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2250,
+          "quantity": 1,
+          "name": "Raw batta"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Burnt batta"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-57",
+      "output": {
+        "itemId": 2176,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2178,
+          "quantity": 1,
+          "name": "Raw gnomebowl"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Burnt gnomebowl"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-91",
+      "output": {
+        "itemId": 337,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 338,
+          "quantity": 1,
+          "name": "Raw giant carp"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 10,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Giant carp"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-17",
+      "output": {
+        "itemId": 6094,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6093,
+          "quantity": 1,
+          "name": "Rotten apples"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 14,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Apple Press"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Apple barrel"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-62",
+      "output": {
+        "itemId": 7530,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7529,
+          "quantity": 1,
+          "name": "Raw fishcake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 31,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Cooked fishcake"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-58",
+      "output": {
+        "itemId": 7542,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7543,
+          "quantity": 1,
+          "name": "Raw guide cake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 40,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Cake of Guidance"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-129",
+      "output": {
+        "itemId": 2149,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2148,
+          "quantity": 1,
+          "name": "Raw lava eel"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 53,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Cooking range"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lava eel"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-233",
+      "output": {
+        "itemId": 7579,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7577,
+          "quantity": 1,
+          "name": "Raw stuffed snake"
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 70,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Rock (snake cooker)"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Stuffed snake"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-41",
+      "output": {
+        "itemId": 689,
+        "quantity": 1
+      },
+      "inputs": [],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Repair bench",
+        "Whetstone",
+        "Armour stand"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-93",
+      "output": {
+        "itemId": 3694,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3693,
+          "quantity": 1,
+          "name": "Golden fleece"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Spinning wheel"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Golden wool"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-175",
+      "output": {
+        "itemId": 10496,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 688,
+          "quantity": 1,
+          "name": "Buttons"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 3,
+      "xp": null,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Polished buttons"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-39",
+      "output": {
+        "itemId": 7540,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7536,
+          "quantity": 1,
+          "name": "Fresh crab claw"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken crab claw"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-40",
+      "output": {
+        "itemId": 7541,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7538,
+          "quantity": 1,
+          "name": "Fresh crab shell"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Broken crab shell"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-64",
+      "output": {
+        "itemId": 7537,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7536,
+          "quantity": 1,
+          "name": "Fresh crab claw"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Crab claw"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-65",
+      "output": {
+        "itemId": 7539,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7538,
+          "quantity": 1,
+          "name": "Fresh crab shell"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": null,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Crab helmet"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-21",
+      "output": {
+        "itemId": 10489,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 10488,
+          "quantity": 1,
+          "name": "Selected iron"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 19,
+      "xp": null,
+      "tools": [
+        "Hammer"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Bar magnet"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-78",
+      "output": {
+        "itemId": 772,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 771,
+          "quantity": 1,
+          "name": "Dramen branch"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 31,
+      "xp": null,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Dramen staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-135",
+      "output": {
+        "itemId": 9100,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar boots"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-136",
+      "output": {
+        "itemId": 9099,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar gloves"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-137",
+      "output": {
+        "itemId": 9098,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9081,
+          "quantity": 1,
+          "name": "Suqah leather"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [
+        "Costume needle"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar legs"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-139",
+      "output": {
+        "itemId": 9084,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9093,
+          "quantity": 1,
+          "name": "Lunar staff - pt3"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Earth Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-140",
+      "output": {
+        "itemId": 9084,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar",
+        "Fire Altar",
+        "Water Altar",
+        "Earth Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-141",
+      "output": {
+        "itemId": 9091,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt1"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-142",
+      "output": {
+        "itemId": 9092,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9091,
+          "quantity": 1,
+          "name": "Lunar staff - pt1"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Fire Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt2"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-143",
+      "output": {
+        "itemId": 9092,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 772,
+          "quantity": 1,
+          "name": "Dramen staff"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 61,
+      "xp": null,
+      "tools": [],
+      "facilities": [
+        "Air Altar",
+        "Fire Altar"
+      ],
+      "requirements": [],
+      "method": [],
+      "provenance": [
+        {
+          "source": "OSRS Wiki",
+          "snapshot": "PASS31.9",
+          "page": "Lunar staff - pt2"
+        }
+      ]
+    },
+    {
+      "id": "wiki31.9-144",
+      "output": {
+        "itemId": 9093,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9092,
+          "quantity": 1,
+          "name": "Lunar staff - pt2"
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+   
