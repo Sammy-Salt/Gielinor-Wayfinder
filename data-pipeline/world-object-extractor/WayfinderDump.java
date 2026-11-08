@@ -58,6 +58,9 @@ public final class WayfinderDump {
         EditorApp.openCache(EditorApp.CACHE_DIR);
         EditorApp.initArchives();
         EditorApp.initTypeLists();
+        if (LocTypeList.locsArchive == null) {
+            throw new IllegalStateException("LocTypeList did not initialize from cache archives 16/7.");
+        }
         if (EditorApp.XTEA_PATH == null || !new File(EditorApp.XTEA_PATH).isFile()) {
             throw new IllegalStateException("xteas.json was not found beside the server cache.");
         }
