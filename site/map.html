@@ -31,39 +31,31 @@
 </div></div>
 
 
-<div id="toolbar">
+<button id="mapToolsToggle" type="button" aria-controls="mapTools" aria-expanded="false">☰ Map tools</button>
 
-    <label class="sr-only" for="search">Search locations</label>
-    <input
-        id="search"
-        type="search"
-        placeholder="Search locations..."
-        autocomplete="off"
-    >
-
-    <select id="plane">
-        <option value="0">Surface</option>
-        <option value="1">Plane 1</option>
-        <option value="2">Plane 2</option>
-        <option value="3">Plane 3</option>
-    </select>
-
-</div>
-
-<div id="results"></div>
-
-<div id="info"></div>
-
-
-<div id="legend">
- <button id="legendHeader" type="button" aria-expanded="true">🗺️ Map Key <span aria-hidden="true">▼</span></button>
- <div id="legendBody">
-  <label class="sr-only" for="legendSearch">Search legend</label>
-  <input id="legendSearch" type="search" placeholder="Search legend...">
-  <div id="legendContent"></div>
-  <button id="legendClear" type="button">Clear markers</button>
+<aside id="mapTools" aria-label="Map tools" hidden>
+ <div id="toolbar">
+  <label class="sr-only" for="search">Search locations</label>
+  <input id="search" type="search" placeholder="Search locations..." autocomplete="off">
+  <select id="plane" aria-label="Map floor">
+   <option value="0">Surface</option>
+   <option value="1">Plane 1</option>
+   <option value="2">Plane 2</option>
+   <option value="3">Plane 3</option>
+  </select>
  </div>
-</div>
+ <div id="results"></div>
+ <div id="info"></div>
+ <div id="legend">
+  <button id="legendHeader" type="button" aria-expanded="true">🗺️ Map Key <span aria-hidden="true">▼</span></button>
+  <div id="legendBody">
+   <label class="sr-only" for="legendSearch">Search legend</label>
+   <input id="legendSearch" type="search" placeholder="Search legend...">
+   <div id="legendContent"></div>
+   <button id="legendClear" type="button">Clear markers</button>
+  </div>
+ </div>
+</aside>
 <div id="map"></div>
 
 <script src="data/map/leaflet/leaflet.js"></script>
