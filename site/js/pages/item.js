@@ -1,6 +1,7 @@
 import {OSRS} from "../core/osrs.js";
 import {Catalog} from "../services/catalog-service.js";
 import {Drops} from "../services/drop-service.js";
+import {recipesHTML} from "../services/recipe-service.js";
 
 const params=new URLSearchParams(location.search);
 const id=params.get("id");
@@ -31,18 +32,19 @@ async function loadItem(){
   }
   try{
     const item=await Catalog.get("items",id);
-    const [drops,shops]=await Promise.all([
+    const [drops,shops,recipes]=await Promise.all([
       OSRS.Relationships.itemDrops(id),
-      Promise.resolve(item?._acquisition?.shops||[])
+      Promise.resolve(item?._acquisition?.shops||[]),
+      recipesHTML(id).catch(()=>"")
     ]);
-    render(item,drops,shops,item?._acquisition?.groundSpawns||{status:"unknown"});
+    render(item,drops,shops,item?._acquisition?.groundSpawns||{status:"unknown"},recipes);
   }catch(error){
     console.error("[Gielinor Wayfinder] item load failed",error);
     OSRS.setHTML(content,`<div class="card"><h1>Item Not Found</h1><div class="muted">${esc(error?.message||`No item data exists for ID ${id}.`)}</div></div>`);
   }
 }
 
-function render(item,drops,shops,ground){
+function render(item,drops,shops,ground,recipes=""){
   document.title=item.name||"Item";
   let html=`<div class="card"><h1>${esc(item.name||"Unknown Item")}</h1>${row("Item ID",item.id)}${row("Members",yesNo(item.members))}${row("Tradeable",yesNo(item.tradeable))}${row("Weight",item.weight)}</div>`;
 
@@ -73,6 +75,7 @@ function render(item,drops,shops,ground){
   else if(ground?.status==="unknown") html+=`<div class="source-entry"><strong>🪨 Ground Spawns</strong><div class="muted">Trusted ground-spawn data is currently unavailable. This is intentionally shown as unknown rather than guessed.</div></div>`;
   html+=`</div>`;
 
+  html+=recipes;
   html+=`<div class="card"><h2>📖 Basic Information</h2>${row("Examine",item.examine)}${row("Shop Price",item.shop_price)}${row("Grand Exchange Price",item.grand_exchange_price)}${row("GE Buy Limit",item.ge_buy_limit)}</div>`;
 
   if(item.equipment_slot!==undefined||item.attack_speed!==undefined||item.two_handed!==undefined||item.bonuses){
