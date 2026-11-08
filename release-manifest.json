@@ -236,8 +236,8 @@
       "bytes": 539
     },
     "docs/features/CRAFTING.md": {
-      "sha256": "3e2627ebfbf231d8a3c496d035c7245099fbe4805b0e9b1a46390718e013c5b4",
-      "bytes": 1300
+      "sha256": "9b0227b6dbe20f86a3140ad667f04d69347515943d095b60959ec6431be5bbee",
+      "bytes": 1375
     },
     "docs/features/DROPS.md": {
       "sha256": "f2d3130de9a0a057cea18ae507920f7fa573d1cfc9492ab2769bff75a40476b8",
@@ -302,6 +302,10 @@
     "docs/history/PASS31.40_SKILL_RECIPES_2026-11-08.md": {
       "sha256": "1eed6334517f16f86042b5bf6074295db658cbd6a14da5ef4195faf70b57e57d",
       "bytes": 2095
+    },
+    "docs/history/PASS31.41_RECIPE_RELATIONSHIPS_2026-11-08.md": {
+      "sha256": "1e41f4ad31300e642a92459870bd317afacaa226031fde97180bd9af532fb0f7",
+      "bytes": 762
     },
     "docs/history/SMITHING_ITEM_STATS_DATA_2026-11-07.md": {
       "sha256": "3ce4d27d4867deff98101787ae0e704b799c9d03dcb74d7fa6e8f0ab7cff428c",
