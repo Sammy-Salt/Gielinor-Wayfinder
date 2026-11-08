@@ -4,6 +4,9 @@
  * Manual pick stores a normalized snapshot and (when supported) a file handle.
  * On later app opens we try to re-read the same file; otherwise we reuse the
  * last successful snapshot so Character / Progress / Crafting stay populated.
+ *
+ * Real 2009Scape v4 player JSON (e.g. sam.json) stores containers under
+ * core_data, location as "x,y,plane", and quests as questStages + points.
  */
 import { Storage } from '../core/storage.js';
 import { OSRSSync } from './player-sync.js';
@@ -20,6 +23,27 @@ const SKILL_NAMES = [
   'Smithing', 'Mining', 'Herblore', 'Agility', 'Thieving', 'Slayer', 'Farming',
   'Runecrafting', 'Hunter', 'Construction', 'Summoning'
 ];
+
+/** Common 2009Scape quest id → display name (matches shipped player-sync). */
+const QUEST_NAMES = {
+  14: 'Rune Mysteries', 15: 'Sheep Shearer', 16: 'Shield of Arrav', 17: 'Vampire Slayer',
+  18: "Witch's Potion", 19: 'Animal Magnetism', 20: 'Between a Rock...', 21: 'Big Chompy Bird Hunting',
+  22: 'Biohazard', 23: 'Cabin Fever', 24: 'Clock Tower', 25: 'Contact!', 26: 'Zogre Flesh Eaters',
+  27: 'Creature of Fenkenstrain', 28: 'Darkness of Hallowvale', 29: 'Death to the Dorgeshuun',
+  30: 'Death Plateau', 31: 'Desert Treasure', 33: 'The Dig Site', 35: 'Dwarf Cannon',
+  38: 'Elemental Workshop I', 40: "Enakhra's Lament", 41: 'Enlightened Journey',
+  44: 'Fairytale II - Cure a Queen', 45: 'Family Crest', 47: 'Fight Arena', 48: 'Fishing Contest',
+  49: 'Forgettable Tale', 52: 'Garden of Tranquility', 59: 'Haunted Mine', 61: "Heroes' Quest",
+  62: 'Holy Grail', 64: "Icthlarin's Little Helper", 65: 'In Aid of the Myreque', 67: 'Jungle Potion',
+  70: 'The Lost Tribe', 71: 'Lunar Diplomacy', 74: 'Monkey Madness', 75: "Monk's Friend",
+  81: 'Nature Spirit', 83: 'One Small Favour', 84: 'Plague City', 87: 'Ratcatchers',
+  89: 'Recruitment Drive', 93: 'Rum Deal', 95: 'Sea Slug', 96: 'The Slug Menace',
+  98: 'Shadow of the Storm', 99: 'Sheep Herder', 100: 'Shilo Village', 103: 'Swan Song',
+  105: 'A Tail of Two Cats', 108: 'Throne of Miscellania', 109: 'The Tourist Trap',
+  113: 'Troll Romance', 120: 'Tower of Life', 121: 'The Great Brain Robbery', 123: "Olaf's Quest",
+  124: 'Another Slice of H.A.M.', 125: 'Dream Mentor', 126: 'Grim Tales',
+  128: 'The Path of Glouphrie', 136: 'Legacy of Seergaze', 146: 'Swept Away', 157: 'Unknown 2009Scape Quest 157'
+};
 
 function nowIso() {
   return new Date().toISOString();
@@ -114,27 +138,65 @@ function normalizeSkills(raw) {
   }).filter(Boolean);
 }
 
-function normalizeQuests(raw, questPoints) {
-  const items = asArray(raw?.items ?? raw?.quests ?? raw)
+function parseLocation(raw, core) {
+  const candidates = [
+    core?.location,
+    raw.location,
+    raw.Location
+  ];
+  for (const c of candidates) {
+    if (typeof c === 'string' && c.includes(',')) {
+      const [x, y, plane] = c.split(',').map(part => Number(part.trim()));
+      return {
+        x: Number.isFinite(x) ? x : 0,
+        y: Number.isFinite(y) ? y : 0,
+        plane: Number.isFinite(plane) ? plane : 0
+      };
+    }
+    if (c && typeof c === 'object') {
+      return {
+        x: Number(c.x ?? 0) || 0,
+        y: Number(c.y ?? 0) || 0,
+        plane: Number(c.plane ?? c.z ?? 0) || 0
+      };
+    }
+  }
+  return { x: 0, y: 0, plane: 0 };
+}
+
+function normalizeQuests(rawQuests, questPointsFallback) {
+  // Real 2009Scape: { questStages: [{ questId, questStage }], points }
+  if (rawQuests && Array.isArray(rawQuests.questStages)) {
+    const items = rawQuests.questStages.map((row, index) => {
+      const id = Number(row.questId ?? row.id ?? index) || index;
+      const stage = Number(row.questStage ?? row.stage ?? 0) || 0;
+      const name = QUEST_NAMES[id] || `Quest ${id}`;
+      return { id, name, stage, completed: stage >= 100 };
+    });
+    return {
+      totalTracked: items.length,
+      completed: items.filter(q => q.completed).length,
+      questPoints: Math.max(0, Number(rawQuests.points ?? questPointsFallback ?? 0) || 0),
+      items
+    };
+  }
+
+  const items = asArray(rawQuests?.items ?? rawQuests?.quests ?? rawQuests)
     .map((row, index) => {
       if (!row || typeof row !== 'object') return null;
-      const name = String(row.name ?? row.title ?? `Quest ${row.id ?? index}`).trim();
+      const id = Number(row.id ?? row.questId ?? index) || index;
+      const name = String(row.name ?? row.title ?? QUEST_NAMES[id] ?? `Quest ${id}`).trim();
       if (!name) return null;
-      const stage = Number(row.stage ?? row.state ?? 0) || 0;
+      const stage = Number(row.stage ?? row.questStage ?? row.state ?? 0) || 0;
       const completed = row.completed === true || stage >= 100;
-      return {
-        id: Number(row.id ?? index) || index,
-        name,
-        stage,
-        completed
-      };
+      return { id, name, stage, completed };
     })
     .filter(Boolean);
-  const completedCount = items.filter(q => q.completed).length;
+
   return {
     totalTracked: items.length,
-    completed: completedCount,
-    questPoints: Math.max(0, Number(questPoints ?? raw?.questPoints ?? 0) || 0),
+    completed: items.filter(q => q.completed).length,
+    questPoints: Math.max(0, Number(questPointsFallback ?? rawQuests?.questPoints ?? rawQuests?.points ?? 0) || 0),
     items
   };
 }
@@ -147,8 +209,15 @@ function isNormalizedSnapshot(obj) {
     && Array.isArray(obj.skills);
 }
 
+function isRaw2009ScapeSave(obj) {
+  return obj
+    && typeof obj === 'object'
+    && (Array.isArray(obj.skills) || obj.core_data)
+    && (obj.version != null || obj.core_data || obj.questStages || obj.quests);
+}
+
 /**
- * Convert either a shipped player-sync snapshot or a raw-ish 2009Scape JSON save
+ * Convert either a shipped player-sync snapshot or a real 2009Scape player JSON
  * into the formatVersion 2 contract consumed by OSRSSync.
  */
 export function normalizeSave(raw, meta = {}) {
@@ -168,32 +237,43 @@ export function normalizeSave(raw, meta = {}) {
     return OSRSSync.validateSnapshot(copy);
   }
 
-  // Raw / near-raw 2009Scape player JSON (PlayerSaver style).
+  if (!isRaw2009ScapeSave(raw)) {
+    throw new Error('Unrecognized save format (need 2009Scape player JSON or formatVersion 2 snapshot)');
+  }
+
+  const core = (raw.core_data && typeof raw.core_data === 'object') ? raw.core_data : {};
   const skills = normalizeSkills(raw.skills ?? raw.skillData ?? raw.Skills);
   if (!skills.length) throw new Error('Save file has no recognizable skills data');
 
-  const inventory = itemRows(raw.inventory ?? raw.Inventory);
-  const equipment = itemRows(raw.equipment ?? raw.Equipment);
-  const bank = itemRows(raw.bank ?? raw.Bank ?? raw.bankData);
+  const inventory = itemRows(core.inventory ?? raw.inventory ?? raw.Inventory);
+  const equipment = itemRows(core.equipment ?? raw.equipment ?? raw.Equipment);
+  const bank = itemRows(core.bank ?? raw.bank ?? raw.Bank ?? raw.bankData);
+  const location = parseLocation(raw, core);
 
-  const locationSrc = raw.location || raw.Location || {};
-  const location = {
-    x: Number(locationSrc.x ?? raw.x ?? 0) || 0,
-    y: Number(locationSrc.y ?? raw.y ?? 0) || 0,
-    plane: Number(locationSrc.plane ?? locationSrc.z ?? raw.plane ?? 0) || 0
-  };
+  const skillXpSum = skills.reduce((n, s) => n + Number(s.xp || 0), 0);
+  const totalXP = Math.max(0, Number(raw.totalEXP ?? raw.totalXp ?? raw.totalXP ?? skillXpSum) || skillXpSum);
 
-  const totalXP = skills.reduce((n, s) => n + Number(s.xp || 0), 0);
-  const quests = normalizeQuests(raw.quests ?? raw.questData, raw.questPoints ?? raw.player?.questPoints);
+  const quests = normalizeQuests(
+    raw.quests ?? raw.questData,
+    raw.questPoints ?? raw.player?.questPoints
+  );
 
+  const baseName = String(meta.fileName || '').replace(/\.json$/i, '').trim();
   const playerName = String(
     raw.username
     || raw.name
     || raw.displayName
     || raw.player?.name
-    || meta.fileName?.replace(/\.json$/i, '')
+    || (baseName ? baseName.charAt(0).toUpperCase() + baseName.slice(1) : '')
     || 'Player'
   ).slice(0, 120);
+
+  const hpSkill = skills.find(s => s.name === 'Hitpoints');
+  const prayerSkill = skills.find(s => s.name === 'Prayer');
+
+  const statistics = Array.isArray(raw.statistics)
+    ? {}
+    : (raw.statistics && typeof raw.statistics === 'object' ? raw.statistics : {});
 
   const snapshot = {
     formatVersion: 2,
@@ -214,10 +294,10 @@ export function normalizeSave(raw, meta = {}) {
       questPoints: quests.questPoints,
       location,
       spellbook: Number(raw.spellbook ?? raw.spellBook ?? raw.player?.spellbook ?? 0) || 0,
-      runEnergy: Number(raw.runEnergy ?? raw.settings?.runEnergy ?? 100) || 0,
-      specialEnergy: Number(raw.specialEnergy ?? raw.settings?.specialEnergy ?? 100) || 0,
-      lifepoints: Number(raw.lifepoints ?? raw.hitpoints ?? raw.player?.lifepoints ?? skills.find(s => s.name === 'Hitpoints')?.dynamicLevel ?? 10) || 10,
-      prayerPoints: Number(raw.prayerPoints ?? raw.player?.prayerPoints ?? skills.find(s => s.name === 'Prayer')?.dynamicLevel ?? 1) || 0
+      runEnergy: Number(raw.settings?.runEnergy ?? raw.runEnergy ?? 100) || 0,
+      specialEnergy: Number(raw.settings?.specialEnergy ?? raw.specialEnergy ?? 100) || 0,
+      lifepoints: Number(raw.lifepoints ?? raw.hitpoints ?? raw.player?.lifepoints ?? hpSkill?.dynamicLevel ?? hpSkill?.level ?? 10) || 10,
+      prayerPoints: Number(raw.prayerPoints ?? raw.player?.prayerPoints ?? prayerSkill?.dynamicLevel ?? prayerSkill?.level ?? 1) || 0
     },
     skills,
     quests,
@@ -227,7 +307,7 @@ export function normalizeSave(raw, meta = {}) {
     location,
     slayer: raw.slayer && typeof raw.slayer === 'object' ? raw.slayer : {},
     achievementDiaries: asArray(raw.achievementDiaries ?? raw.diaries),
-    statistics: raw.statistics && typeof raw.statistics === 'object' ? raw.statistics : {}
+    statistics
   };
 
   return OSRSSync.validateSnapshot(snapshot);
@@ -281,9 +361,7 @@ async function readFileAsJson(file) {
   return data;
 }
 
-/**
- * Import from a user-picked File (fallback path without persistent handle).
- */
+/** Import from a user-picked File (fallback path without persistent handle). */
 export async function importFromFile(file) {
   if (!file) throw new Error('No file selected');
   const raw = await readFileAsJson(file);
@@ -300,9 +378,7 @@ export async function importFromFile(file) {
   return { snapshot, meta };
 }
 
-/**
- * Import via File System Access API and remember the handle for later re-reads.
- */
+/** Import via File System Access API and remember the handle for later re-reads. */
 export async function importWithFilePicker() {
   if (typeof window.showOpenFilePicker === 'function') {
     const [handle] = await window.showOpenFilePicker({
@@ -329,7 +405,6 @@ export async function importWithFilePicker() {
     return { snapshot, meta };
   }
 
-  // Fallback: classic input element
   return new Promise((resolve, reject) => {
     const input = document.createElement('input');
     input.type = 'file';
@@ -347,9 +422,7 @@ export async function importWithFilePicker() {
   });
 }
 
-/**
- * Try to re-read the remembered file handle; otherwise return cached snapshot.
- */
+/** Try to re-read the remembered file handle; otherwise return cached snapshot. */
 export async function loadRememberedSave({ forceFileRead = true } = {}) {
   const cached = getCachedSnapshot();
   const meta = getImportMeta();
