@@ -1,3 +1,17 @@
 # Player Sync
 
 Player progress is local/offline. Save synchronization must preserve the established progress/quest-tracker contract. Changes require regression tests for automatic and manual sync behavior.
+
+## Import modes (PASS31.43)
+
+1. **Bundled snapshot** — `site/data/player-sync.json` (default demo / fallback).
+2. **Manual file pick** — user selects a 2009Scape player `.json` (or an already-normalized `formatVersion: 2` snapshot). The Character page exposes **Pick / re-pick save file** and **Clear linked save**.
+3. **Remembered reload** — after a successful pick, the normalized snapshot is cached in `localStorage`. When the browser supports the File System Access API (Chrome / Edge / TWA), the file handle is also stored in IndexedDB so the next app open can re-read the same file after permission is granted.
+
+Ownership:
+
+- `site/js/services/save-import.js` — pick, normalize, remember, re-read
+- `site/js/services/player-sync.js` — validates snapshots, prefers remembered import before bundled data, applies into `PlayerStore`
+- `site/js/pages/character.js` — UI for pick / clear / status
+
+Raw 2009Scape saves are treated as an external source contract. The parser maps skills, inventory, equipment, bank, quests, location, and common combat fields into the existing `formatVersion: 2` snapshot. Unmapped varps/attributes stay out of the UI.
