@@ -1,11 +1,15 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.39",
-  "buildId": "pass31.39-20261107-1",
+  "release": "PASS31.40",
+  "buildId": "pass31.40-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
   "files": {
+    ".well-known/assetlinks.json": {
+      "sha256": "fa3ec365c44483ebe8eed58b62954b22af4ff73147abefd605b682c4b113d08d",
+      "bytes": 226
+    },
     "boss.html": {
       "sha256": "6e6274c32a17de03c141988bd27c06f93b6be6ddf63d637e8bb4caa0e0b5bffc",
       "bytes": 2467
@@ -79,8 +83,8 @@
       "bytes": 170
     },
     "css/pages/map.css": {
-      "sha256": "f14298ba047b664719c9b7e2bcfbb5bde9a689ed4126a34e5c7e2e01ed2389c9",
-      "bytes": 2384
+      "sha256": "6a2777477c9f169e078560e16d47916200411d505c92b96e7dc59c210d6f86a3",
+      "bytes": 4069
     },
     "css/pages/monster.css": {
       "sha256": "1e395f7e72e303bfed16e54ab7ee46657ed45b1424bd793d16572d54d2f1e283",
@@ -115,7 +119,7 @@
       "bytes": 217
     },
     "data/catalog-manifest.json": {
-      "sha256": "1f60cca3b05ee4b4f3a6aedc26de40d0f511a3303257fe80e7514ba51368c997",
+      "sha256": "1197bfcd2fe4d84569eea1e275f64532ffffc10e167ee52a392d680498079677",
       "bytes": 1436
     },
     "data/items/0.json": {
@@ -98963,8 +98967,8 @@
       "bytes": 157090
     },
     "data/recipes.json": {
-      "sha256": "c3ff78f54ebc000484e758f3ecfab67ea54a0a47f96b77a4e92dcd48f7b5a333",
-      "bytes": 338257
+      "sha256": "ca69888c2a269716eac964e992f581efc77b3b51c1b59fc84e1c340133bef7a8",
+      "bytes": 607813
     },
     "data/relationships/index.json": {
       "sha256": "da742b8ce5b655e0dcad2c9fa7dfc7da1cddda7e631456a702a7586e4c1290c9",
@@ -216763,7 +216767,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "a2f985c930b366a2d899157976f6bb11d738188934a8cd0de0ef71679802d15f",
+      "sha256": "0bbabe64b06f6cea1c63bbf4edf94e1eb8130873b36ff6250a427bc4f58a0138",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216771,7 +216775,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "48448baeb5d3876669ed57e122f7f304a128e1c5eb909eba25cb82e964f47470",
+      "sha256": "8dbd176da2e4e12521aa6c47a601612f5c894e7c7cd955c76f4a73c917b40b76",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -216895,8 +216899,8 @@
       "bytes": 1562
     },
     "js/pages/map.js": {
-      "sha256": "cffa55513e715a710db3f750088d89dd790f67a0fe6cb035b93386d5b2983100",
-      "bytes": 22247
+      "sha256": "774ada56c399a4fa706b21ef1ad6fa903feebfc55d4e39f2a71a795865eaf2ae",
+      "bytes": 23457
     },
     "js/pages/monster.js": {
       "sha256": "d9bfebfb79eac536bb309381f87de2f823d7d9ff79932d64d187f90318f30abb",
@@ -217015,8 +217019,8 @@
       "bytes": 619
     },
     "map.html": {
-      "sha256": "a0fbe33385a01f70f1d768c5e3f3cecf07375b85147464050ae1ac16272fa021",
-      "bytes": 3554
+      "sha256": "e1caf875aa9d99b2df41cace09c80f447d77b83c7e309aa3e995e1364ed3b557",
+      "bytes": 3692
     },
     "monster.html": {
       "sha256": "905d003473496ed8d679f16dbd3e80c4e7ffe45622f45e8563bf8ada1e10cfaa",
@@ -217051,7 +217055,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "cafc1560a13417c08c54a567c15eeb35bc860e89b030c2933524a69357f87b04",
+      "sha256": "5304981139d7349eaa452a9fe11ef386166725b5b7e7dbbf75e15edb9f16cae1",
       "bytes": 499
     },
     "site.css": {
@@ -217063,7 +217067,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "8dd038e8b35825bf483583f346c5002f1c959f32d43245a131a9a6cd2347d4d3",
+      "sha256": "ffa657f6387482f4ffa51d3dc3dd6c0adaa36701ea0b07e916ed94d218d1c4c6",
       "bytes": 4302
     }
   }
