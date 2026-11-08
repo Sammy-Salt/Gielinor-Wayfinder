@@ -1,5 +1,6 @@
 import { OSRSSync } from "../services/player-sync.js";
 import { OSRS } from "../core/osrs.js";
+import { assess, describe, buildHoldings, buildLevels } from "../services/recipe-ready.js";
 
 const $ = (id) => document.getElementById(id);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -12,8 +13,9 @@ const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
 
 let data = [];
 let names = new Map();
-let bank = new Map();
+let held = new Map();
 let levels = new Map();
+let saveLabel = "";
 let catalogSize = 0;
 let unresolvedItemIds = new Set();
 
@@ -76,15 +78,12 @@ function normalizeRecipe(recipe, index) {
     };
 }
 
-function quantity(map, id) {
-    return Number(map.get(Number(id)) || 0);
+function check(recipe) {
+    return assess(recipe, levels, held);
 }
 
 function canMake(recipe) {
-    const level = Number(levels.get(recipe.skill.toLowerCase()) || 1);
-    return level >= Number(recipe.level || 0) && recipe.inputs.every(
-        (item) => quantity(bank, item.itemId) >= Number(item.quantity || 1)
-    );
+    return check(recipe).ready;
 }
 
 function sourceLabel(recipe) {
@@ -128,12 +127,14 @@ function render() {
     const unresolved = unresolvedItemIds.size
         ? ` · ${unresolvedItemIds.size.toLocaleString()} catalog references unresolved`
         : "";
-    $("summary").textContent = `${rows.length.toLocaleString()} recipes shown · ${data.length.toLocaleString()} indexed · ${catalogSize.toLocaleString()} items available${unresolved}`;
+    const makeNow = data.filter(canMake).length;
+    $("summary").textContent = `${rows.length.toLocaleString()} recipes shown · ${data.length.toLocaleString()} indexed · ${makeNow.toLocaleString()} you can make now${saveLabel} · ${catalogSize.toLocaleString()} items${unresolved}`;
 
     const container = $("recipes");
     container.replaceChildren();
     for (const recipe of rows) {
-        const readyToMake = canMake(recipe);
+        const result = check(recipe);
+        const badge = describe(result, (id) => itemLabel(id));
         const card = document.createElement("article");
         card.className = "recipe";
         card.innerHTML = `
@@ -145,7 +146,7 @@ function render() {
                 <span>Level ${recipe.level ?? "unknown"}</span>
                 <span>XP ${recipe.xp ?? "unknown"}</span>
                 <span>${esc(sourceLabel(recipe))}</span>
-                <span class="${readyToMake ? "ready" : "missing"}">${readyToMake ? "✓ Available" : "Missing level/materials"}</span>
+                <span class="${badge.cls}">${esc(badge.text)}</span>
             </div>
             <div class="materials">${recipe.inputs.length
                 ? renderItemLinks(recipe.inputs)
@@ -200,12 +201,9 @@ async function init() {
     try {
         await OSRSSync.load({ force: true });
         const player = OSRSSync.getData();
-        for (const skill of player.skills || []) {
-            levels.set(String(skill.name).toLowerCase(), Number(skill.level) || 1);
-        }
-        for (const item of player.bank || []) {
-            bank.set(Number(item.id), quantity(bank, item.id) + Number(item.amount || 0));
-        }
+        levels = buildLevels(player);
+        held = buildHoldings(player);
+        saveLabel = player.source?.character ? ` (${player.source.character}: inventory, bank and equipment)` : "";
 
         await loadRecipes();
         const skills = [...new Set(data.flatMap((recipe) => recipe.skills))]

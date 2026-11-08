@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.46",
-  "buildId": "pass31.46-20261108-1",
+  "release": "PASS31.47",
+  "buildId": "pass31.47-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -75,8 +75,8 @@
       "bytes": 402
     },
     "css/pages/item.css": {
-      "sha256": "4ee0bd054bf79041e4e622c75608c04c28c429814b906a13fe977d270fc59013",
-      "bytes": 230
+      "sha256": "92753f96283390f70cf1c3cc841cf8bbe586e7f5a678044411f4fe3eabe92498",
+      "bytes": 330
     },
     "css/pages/items.css": {
       "sha256": "98cf624ea8aa977b9b07799d06bf76caf038f4aa3af4a092ef1bbe89a3a283ea",
@@ -119,7 +119,7 @@
       "bytes": 217
     },
     "data/catalog-manifest.json": {
-      "sha256": "c174f2132112bdfc48ec085c102169bbbefd65b7084b61a352e0bde2e32a622b",
+      "sha256": "6d3f5f79c6448d6b493b1ab9d838bfc95bfc37a66e5b5272d5e79251425747ee",
       "bytes": 1436
     },
     "data/items/0.json": {
@@ -216767,7 +216767,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "ccff56d6f124f663bf606cbf553723f2ea21d824393d2e5413e2684d915aaf8a",
+      "sha256": "a6b78881f81c95d969e3edfe6f13ef5ea51577a606bb646819e98e884d3e6037",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216775,7 +216775,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "7a06b56e27505b1c907861b74896a0db5854d4581d0ecb2e14671db285b5ae36",
+      "sha256": "a396408581ee7b433012b397e40201c6aaae8b2504e3528ca2519edd6dbb7c9c",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -216871,8 +216871,8 @@
       "bytes": 3220
     },
     "js/pages/crafting.js": {
-      "sha256": "bb03b09cc9f3d8b6a17790c2a4c8e03a4c32c445fa5e584744e9594392f64eae",
-      "bytes": 8313
+      "sha256": "1c9c613bd2950663746691b7005ad2769310bdc6f679ac340ae9b88d6bee722d",
+      "bytes": 8212
     },
     "js/pages/drop-stats.js": {
       "sha256": "d6cb0d29adce121c181c2b5059cf1233a8e72410cff1ef698bb26a6de5da6005",
@@ -216990,9 +216990,13 @@
       "sha256": "ee6e01cfcb37ed33ee65f2a883ad7a7cf610becac84f329b0afe60e6a6ef4f96",
       "bytes": 1942
     },
+    "js/services/recipe-ready.js": {
+      "sha256": "05f9d574db7239144c81465be27f069b62779b0f6b596f78a170e42704fafac0",
+      "bytes": 2374
+    },
     "js/services/recipe-service.js": {
-      "sha256": "646f2e35ea20a00f5f8422c3dc40c39cc43fef22d685b183b647ffc86812e5f4",
-      "bytes": 2463
+      "sha256": "599b015450ed759fe28ded83818c4b22a895b357d38e8e828e50cc65e2300d51",
+      "bytes": 3363
     },
     "js/services/relationship-service.js": {
       "sha256": "afd934e680709e52b924f1145b9e5747c584a6e3903475af66a28e7fec1abffa",
@@ -217063,7 +217067,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "bcaace273ca6a7661e2f5c5cb5bb4e43e250a4bd2b6373d411a4cdc1b522c115",
+      "sha256": "2ca9cff4d3a5791e125947c2fc6a562a0f31cdd52e39e37d7c364a4a17e4ba61",
       "bytes": 499
     },
     "site.css": {
@@ -217075,7 +217079,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "bc4f01ee490f1aa0e85bd1e2ab53bb751a8cada616d98ce0374d756e48700834",
+      "sha256": "70a0952d2a424b53c7898dcd7138621fda87482c8d5c7adb7e9c2531a3321bcb",
       "bytes": 4302
     }
   }
