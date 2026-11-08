@@ -29,16 +29,16 @@
       "snapshot": "PASS31.40"
     }
   ],
-  "snapshot": "PASS31.40-skills-primary",
+  "snapshot": "PASS31.42-skills-primary",
   "counts": {
-    "total": 743,
+    "total": 847,
     "from2009ScapeSmithing": 167,
     "fromWikiSecondary": 168,
     "from2009ScapeFletching": 75,
     "from2009ScapeStaffCreation": 4,
     "from2009ScapeHerblore": 146,
-    "from2009ScapeCrafting": 102,
-    "from2009ScapeCooking": 61,
+    "from2009ScapeCrafting": 131,
+    "from2009ScapeCooking": 136,
     "from2009ScapeRunecrafting": 20
   },
   "recipes": [
@@ -74,6 +74,487 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "ANCHOVIES"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-bowl_of_sweetcorn",
+      "output": {
+        "itemId": 7088,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5988,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BOWL_OF_SWEETCORN"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-bread_dough_bowl",
+      "output": {
+        "itemId": 2307,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1921,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bowl of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BREAD_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-bread_dough_bucket",
+      "output": {
+        "itemId": 2307,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1929,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bucket of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BREAD_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-bread_dough_jug",
+      "output": {
+        "itemId": 2307,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1937,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a jug of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BREAD_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chopped_garlic",
+      "output": {
+        "itemId": 7074,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1550,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHOPPED_GARLIC"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chopped_onion",
+      "output": {
+        "itemId": 1871,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1957,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHOPPED_ONION"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chopped_tuna",
+      "output": {
+        "itemId": 7086,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 361,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHOPPED_TUNA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pastry_dough_bowl",
+      "output": {
+        "itemId": 1953,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1921,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bowl of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PASTRY_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pastry_dough_bucket",
+      "output": {
+        "itemId": 1953,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1929,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bucket of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PASTRY_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pastry_dough_jug",
+      "output": {
+        "itemId": 1953,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1937,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a jug of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PASTRY_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pie_shell",
+      "output": {
+        "itemId": 2315,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2313,
+          "quantity": 1
+        },
+        {
+          "itemId": 1953,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Put pastry dough into a pie dish"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieShellListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIE_SHELL"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-sliced_mushroom",
+      "output": {
+        "itemId": 7080,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6004,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "SLICED_MUSHROOM"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-uncooked_egg",
+      "output": {
+        "itemId": 7076,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1944,
+          "quantity": 1
+        },
+        {
+          "itemId": 1923,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "UNCOOKED_EGG"
         }
       ]
     },
@@ -698,6 +1179,117 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-chilli_con_carne",
+      "output": {
+        "itemId": 7062,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7072,
+          "quantity": 1
+        },
+        {
+          "itemId": 2142,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 9,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHILLI_CON_CARNE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-spicy_sauce",
+      "output": {
+        "itemId": 7072,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7074,
+          "quantity": 1
+        },
+        {
+          "itemId": 2169,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 9,
+      "xp": 25.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "SPICY_SAUCE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-redberry_pie",
+      "output": {
+        "itemId": 2321,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1951,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 10,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "REDBERRY_PIE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-mackerel",
       "output": {
         "itemId": 355,
@@ -1079,6 +1671,43 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-meat_pie",
+      "output": {
+        "itemId": 2319,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2142,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 20,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "MEAT_PIE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-meat_pie",
       "output": {
         "itemId": 2327,
@@ -1145,6 +1774,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "PIKE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-dairy_pot_of_cream_from_1927",
+      "output": {
+        "itemId": 2130,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1927,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 21,
+      "xp": 18.0,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "POT_OF_CREAM"
         }
       ]
     },
@@ -1250,6 +1914,191 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "FAT_SNAIL"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-egg_and_tomato",
+      "output": {
+        "itemId": 7064,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1982,
+          "quantity": 1
+        },
+        {
+          "itemId": 7078,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 23,
+      "xp": 50.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "EGG_AND_TOMATO"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-stew_1",
+      "output": {
+        "itemId": 1997,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1942,
+          "quantity": 1
+        },
+        {
+          "itemId": 1921,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 25,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (stew)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/StewListener.kt",
+          "commit": "4082f9d",
+          "enum": "STEW_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-stew_2",
+      "output": {
+        "itemId": 2001,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1997,
+          "quantity": 1
+        },
+        {
+          "itemId": 2142,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 25,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (stew)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/StewListener.kt",
+          "commit": "4082f9d",
+          "enum": "STEW_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-stew_3",
+      "output": {
+        "itemId": 1999,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2142,
+          "quantity": 1
+        },
+        {
+          "itemId": 1921,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 25,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (stew)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/StewListener.kt",
+          "commit": "4082f9d",
+          "enum": "STEW_3"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-stew_4",
+      "output": {
+        "itemId": 2001,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1999,
+          "quantity": 1
+        },
+        {
+          "itemId": 1942,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 25,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (stew)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/StewListener.kt",
+          "commit": "4082f9d",
+          "enum": "STEW_4"
         }
       ]
     },
@@ -1394,6 +2243,117 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-mud_pie_1",
+      "output": {
+        "itemId": 7164,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6032,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 29,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "MUD_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-mud_pie_2",
+      "output": {
+        "itemId": 7166,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7164,
+          "quantity": 1
+        },
+        {
+          "itemId": 1929,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 29,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "MUD_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-mud_pie_3",
+      "output": {
+        "itemId": 7168,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7166,
+          "quantity": 1
+        },
+        {
+          "itemId": 434,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 29,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "MUD_PIE_3"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-mud_pie",
       "output": {
         "itemId": 7170,
@@ -1458,6 +2418,43 @@
         {
           "source": "2009Scape",
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
+          "commit": "4082f9d",
+          "enum": "APPLE_PIE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-apple_pie",
+      "output": {
+        "itemId": 2317,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1955,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 30,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
           "commit": "4082f9d",
           "enum": "APPLE_PIE"
         }
@@ -1637,6 +2634,117 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-garden_pie_1",
+      "output": {
+        "itemId": 7172,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1982,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 34,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "GARDEN_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-garden_pie_2",
+      "output": {
+        "itemId": 7174,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7172,
+          "quantity": 1
+        },
+        {
+          "itemId": 1957,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 34,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "GARDEN_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-garden_pie_3",
+      "output": {
+        "itemId": 7176,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7174,
+          "quantity": 1
+        },
+        {
+          "itemId": 1965,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 34,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "GARDEN_PIE_3"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-garden_pie",
       "output": {
         "itemId": 7178,
@@ -1668,6 +2776,191 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "GARDEN_PIE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pizza_1",
+      "output": {
+        "itemId": 2285,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1982,
+          "quantity": 1
+        },
+        {
+          "itemId": 2283,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIZZA_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pizza_2",
+      "output": {
+        "itemId": 2287,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1985,
+          "quantity": 1
+        },
+        {
+          "itemId": 2285,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIZZA_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pizza_dough_bowl",
+      "output": {
+        "itemId": 2283,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1921,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bowl of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIZZA_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pizza_dough_bucket",
+      "output": {
+        "itemId": 2283,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1929,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bucket of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIZZA_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pizza_dough_jug",
+      "output": {
+        "itemId": 2283,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1937,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a jug of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PIZZA_DOUGH"
         }
       ]
     },
@@ -1742,6 +3035,76 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-dairy_pat_of_butter_from_1927",
+      "output": {
+        "itemId": 6697,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1927,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 38,
+      "xp": 40.5,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "PAT_OF_BUTTER"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-dairy_pat_of_butter_from_2130",
+      "output": {
+        "itemId": 6697,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2130,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 38,
+      "xp": 40.5,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "PAT_OF_BUTTER"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-cave_eel",
       "output": {
         "itemId": 5003,
@@ -1773,6 +3136,88 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "CAVE_EEL"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-potato_with_butter",
+      "output": {
+        "itemId": 6703,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6701,
+          "quantity": 1
+        },
+        {
+          "itemId": 6697,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 39,
+      "xp": 40.5,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add a pat of butter to the baked potato"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "POTATO_WITH_BUTTER"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-cake_mix",
+      "output": {
+        "itemId": 1889,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1944,
+          "quantity": 1
+        },
+        {
+          "itemId": 1927,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        },
+        {
+          "itemId": 1887,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 40,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix egg, milk and flour in a cake tin"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/CakeListener.kt",
+          "commit": "4082f9d",
+          "enum": "UNCOOKED_CAKE"
         }
       ]
     },
@@ -1876,6 +3321,43 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Cake of Guidance"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chilli_potato",
+      "output": {
+        "itemId": 7054,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7062,
+          "quantity": 1
+        },
+        {
+          "itemId": 6703,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 41,
+      "xp": 15.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the potato with butter"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHILLI_POTATO"
         }
       ]
     },
@@ -1985,6 +3467,80 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-meat_pizza_1",
+      "output": {
+        "itemId": 2293,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2142,
+          "quantity": 1
+        },
+        {
+          "itemId": 2289,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 45,
+      "xp": 26.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "MEAT_PIZZA_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-meat_pizza_2",
+      "output": {
+        "itemId": 2293,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2140,
+          "quantity": 1
+        },
+        {
+          "itemId": 2289,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 45,
+      "xp": 26.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "MEAT_PIZZA_2"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-swordfish",
       "output": {
         "itemId": 373,
@@ -2055,6 +3611,154 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-cheese_potato",
+      "output": {
+        "itemId": 6705,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1985,
+          "quantity": 1
+        },
+        {
+          "itemId": 6703,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 47,
+      "xp": 10.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the potato with butter"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHEESE_POTATO"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-fish_pie_1",
+      "output": {
+        "itemId": 7182,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 333,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 47,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "FISH_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-fish_pie_2",
+      "output": {
+        "itemId": 7184,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7182,
+          "quantity": 1
+        },
+        {
+          "itemId": 339,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 47,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "FISH_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-fish_pie_3",
+      "output": {
+        "itemId": 7186,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7184,
+          "quantity": 1
+        },
+        {
+          "itemId": 1942,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 47,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "FISH_PIE_3"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-fish_pie",
       "output": {
         "itemId": 7188,
@@ -2086,6 +3790,222 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "FISH_PIE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-dairy_cheese_from_1927",
+      "output": {
+        "itemId": 1985,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1927,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 48,
+      "xp": 64.0,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "CHEESE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-dairy_cheese_from_2130",
+      "output": {
+        "itemId": 1985,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2130,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 48,
+      "xp": 64.0,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "CHEESE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-dairy_cheese_from_6697",
+      "output": {
+        "itemId": 1985,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6697,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 48,
+      "xp": 64.0,
+      "tools": [],
+      "facilities": [
+        "Dairy churn"
+      ],
+      "requirements": [],
+      "method": [
+        "Use a dairy churn"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+          "commit": "4082f9d",
+          "enum": "CHEESE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chocolate_cake_bar",
+      "output": {
+        "itemId": 1897,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1891,
+          "quantity": 1
+        },
+        {
+          "itemId": 1973,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 50,
+      "xp": 30.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add chocolate to the cake"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ChocolateCakeListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHOCOLATE_BAR"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-chocolate_cake_dust",
+      "output": {
+        "itemId": 1897,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1891,
+          "quantity": 1
+        },
+        {
+          "itemId": 1975,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 50,
+      "xp": 30.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add chocolate dust to the cake"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ChocolateCakeListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHOCOLATE_DUST"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-wrapped_oomlie",
+      "output": {
+        "itemId": 2341,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2337,
+          "quantity": 1
+        },
+        {
+          "itemId": 2339,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 50,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Wrap the raw oomlie in a palm leaf"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/OomlieWrapListener.kt",
+          "commit": "4082f9d",
+          "enum": "WRAPPED_OOMLIE"
         }
       ]
     },
@@ -2125,6 +4045,43 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-egg_potato",
+      "output": {
+        "itemId": 7056,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7064,
+          "quantity": 1
+        },
+        {
+          "itemId": 6703,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 51,
+      "xp": 50.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the potato with butter"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "EGG_POTATO"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-lava_eel",
       "output": {
         "itemId": 2149,
@@ -2160,6 +4117,191 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-anchovy_pizza",
+      "output": {
+        "itemId": 2297,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 319,
+          "quantity": 1
+        },
+        {
+          "itemId": 2289,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 55,
+      "xp": 39.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "ANCHOVY_PIZZA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-mushroom_and_onion",
+      "output": {
+        "itemId": 7066,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7082,
+          "quantity": 1
+        },
+        {
+          "itemId": 7084,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 57,
+      "xp": 120.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "MUSHROOM_AND_ONION"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pitta_dough_bowl",
+      "output": {
+        "itemId": 1863,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1921,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 58,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bowl of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PITTA_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pitta_dough_bucket",
+      "output": {
+        "itemId": 1863,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1929,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 58,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a bucket of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PITTA_DOUGH"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pitta_dough_jug",
+      "output": {
+        "itemId": 1863,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1937,
+          "quantity": 1
+        },
+        {
+          "itemId": 1933,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 58,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix a jug of water with a pot of flour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+          "commit": "4082f9d",
+          "enum": "PITTA_DOUGH"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-pitta_bread",
       "output": {
         "itemId": 1865,
@@ -2191,6 +4333,80 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "PITTA_BREAD"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-curry_leaf",
+      "output": {
+        "itemId": 2009,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2001,
+          "quantity": 1
+        },
+        {
+          "itemId": 5970,
+          "quantity": 3
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 60,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix 3 curry leaves into the uncooked stew"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/CurryListener.kt",
+          "commit": "4082f9d",
+          "enum": "CURRY_LEAF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-curry_spice",
+      "output": {
+        "itemId": 2009,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2001,
+          "quantity": 1
+        },
+        {
+          "itemId": 2007,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 60,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix spice into the uncooked stew"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/CurryListener.kt",
+          "commit": "4082f9d",
+          "enum": "SPICE"
         }
       ]
     },
@@ -2265,6 +4481,228 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-mushroom_potato",
+      "output": {
+        "itemId": 7058,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7066,
+          "quantity": 1
+        },
+        {
+          "itemId": 6703,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 64,
+      "xp": 55.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the potato with butter"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "MUSHROOM_POTATO"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pineapple_pizza_1",
+      "output": {
+        "itemId": 2301,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2116,
+          "quantity": 1
+        },
+        {
+          "itemId": 2289,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 65,
+      "xp": 52.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "PINEAPPLE_PIZZA_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-pineapple_pizza_2",
+      "output": {
+        "itemId": 2301,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2118,
+          "quantity": 1
+        },
+        {
+          "itemId": 2289,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 65,
+      "xp": 52.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the pizza"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+          "commit": "4082f9d",
+          "enum": "PINEAPPLE_PIZZA_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-tuna_and_corn_1",
+      "output": {
+        "itemId": 7068,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7086,
+          "quantity": 1
+        },
+        {
+          "itemId": 5988,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 67,
+      "xp": 204.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "TUNA_AND_CORN_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-tuna_and_corn_2",
+      "output": {
+        "itemId": 7068,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7088,
+          "quantity": 1
+        },
+        {
+          "itemId": 361,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 67,
+      "xp": 204.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (topping)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+          "commit": "4082f9d",
+          "enum": "TUNA_AND_CORN_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-tuna_potato",
+      "output": {
+        "itemId": 7060,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7068,
+          "quantity": 1
+        },
+        {
+          "itemId": 6703,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 68,
+      "xp": 10.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add the topping to the potato with butter"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+          "commit": "4082f9d",
+          "enum": "TUNA_POTATO"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-admiral_pie",
       "output": {
         "itemId": 7198,
@@ -2296,6 +4734,117 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "ADMIRAL_PIE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-admiral_pie_1",
+      "output": {
+        "itemId": 7192,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 329,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 70,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "ADMIRAL_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-admiral_pie_2",
+      "output": {
+        "itemId": 7194,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7192,
+          "quantity": 1
+        },
+        {
+          "itemId": 361,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 70,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "ADMIRAL_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-admiral_pie_3",
+      "output": {
+        "itemId": 7196,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7194,
+          "quantity": 1
+        },
+        {
+          "itemId": 1942,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 70,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "ADMIRAL_PIE_3"
         }
       ]
     },
@@ -2403,6 +4952,117 @@
       ]
     },
     {
+      "id": "2009scape-cooking-assembly-wild_pie_1",
+      "output": {
+        "itemId": 7202,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2136,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 85,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "WILD_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-wild_pie_2",
+      "output": {
+        "itemId": 7204,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7202,
+          "quantity": 1
+        },
+        {
+          "itemId": 2876,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 85,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "WILD_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-wild_pie_3",
+      "output": {
+        "itemId": 7206,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7204,
+          "quantity": 1
+        },
+        {
+          "itemId": 3226,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 85,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "WILD_PIE_3"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-wild_pie",
       "output": {
         "itemId": 7208,
@@ -2469,6 +5129,117 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "MANTA_RAY"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-summer_pie_1",
+      "output": {
+        "itemId": 7212,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5504,
+          "quantity": 1
+        },
+        {
+          "itemId": 2315,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 95,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "SUMMER_PIE_1"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-summer_pie_2",
+      "output": {
+        "itemId": 7214,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7212,
+          "quantity": 1
+        },
+        {
+          "itemId": 5982,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 95,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "SUMMER_PIE_2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-assembly-summer_pie_3",
+      "output": {
+        "itemId": 7216,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7214,
+          "quantity": 1
+        },
+        {
+          "itemId": 1955,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 95,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the ingredients (pie assembly)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+          "commit": "4082f9d",
+          "enum": "SUMMER_PIE_3"
         }
       ]
     },
@@ -2755,7 +5526,7 @@
         "Crafting"
       ],
       "level": 1,
-      "xp": 4.0,
+      "xp": 0.0,
       "tools": [],
       "facilities": [],
       "requirements": [],
@@ -2792,7 +5563,7 @@
         "Crafting"
       ],
       "level": 1,
-      "xp": 4.0,
+      "xp": 0.0,
       "tools": [],
       "facilities": [],
       "requirements": [],
@@ -2840,6 +5611,318 @@
           "file": "Server/src/main/content/global/skill/crafting/spinning/SpinningItem.java",
           "commit": "4082f9d",
           "enum": "WOOL"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-blackdhide",
+      "output": {
+        "itemId": 2509,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1747,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 20
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "BLACKDHIDE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-bluedhide",
+      "output": {
+        "itemId": 2505,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1751,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 20
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "BLUEDHIDE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-green_dhide",
+      "output": {
+        "itemId": 1745,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1753,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 20
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "GREEN_DHIDE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-hard_leather",
+      "output": {
+        "itemId": 1743,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1739,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 3
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "HARD_LEATHER"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-reddhide",
+      "output": {
+        "itemId": 2507,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1749,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 20
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "REDDHIDE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-snakeskin",
+      "output": {
+        "itemId": 6289,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6287,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 15
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "SNAKESKIN"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-snakeskin2",
+      "output": {
+        "itemId": 6289,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 7801,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 20
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "SNAKESKIN2"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-tanning-soft_leather",
+      "output": {
+        "itemId": 1741,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1739,
+          "quantity": 1
+        },
+        {
+          "itemId": 995,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Tanner"
+      ],
+      "requirements": [],
+      "method": [
+        "Pay a tanner to tan the hide (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+          "commit": "4082f9d",
+          "enum": "SOFT_LEATHER"
         }
       ]
     },
@@ -3175,6 +6258,43 @@
       ]
     },
     {
+      "id": "2009scape-crafting-amulet-string-gold_amulet",
+      "output": {
+        "itemId": 1692,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1673,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 8,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "GOLD_AMULET"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-jewellery-gold_amulet",
       "output": {
         "itemId": 1673,
@@ -3432,6 +6552,41 @@
       ]
     },
     {
+      "id": "2009scape-crafting-weaving-cloth",
+      "output": {
+        "itemId": 3224,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1759,
+          "quantity": 4
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 10,
+      "xp": 12.0,
+      "tools": [],
+      "facilities": [
+        "Loom"
+      ],
+      "requirements": [],
+      "method": [
+        "Weave on a loom"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/WeaveOptionPlugin.java",
+          "commit": "4082f9d",
+          "enum": "CLOTH"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-leather-vambraces",
       "output": {
         "itemId": 1063,
@@ -3583,6 +6738,348 @@
       ],
       "toolItemIds": [
         1733
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3345",
+      "output": {
+        "itemId": 3327,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3345,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3345"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3347",
+      "output": {
+        "itemId": 3329,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3347,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3347"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3349",
+      "output": {
+        "itemId": 3331,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3349,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3349"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3351",
+      "output": {
+        "itemId": 3333,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3351,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3351"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3353",
+      "output": {
+        "itemId": 3335,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3353,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3353"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3355",
+      "output": {
+        "itemId": 3337,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3355,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3355"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3357",
+      "output": {
+        "itemId": 3339,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3357,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3357"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3359",
+      "output": {
+        "itemId": 3341,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3359,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3359"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
+      "id": "2009scape-crafting-snelm-3361",
+      "output": {
+        "itemId": 3343,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3361,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 15,
+      "xp": 32.5,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel the shell into a snelm"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SNELM_3361"
+        }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -4352,6 +7849,41 @@
       ]
     },
     {
+      "id": "2009scape-crafting-weaving-sack",
+      "output": {
+        "itemId": 5418,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5931,
+          "quantity": 4
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 21,
+      "xp": 38.0,
+      "tools": [],
+      "facilities": [
+        "Loom"
+      ],
+      "requirements": [],
+      "method": [
+        "Weave on a loom"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/WeaveOptionPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SACK"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-jewellery-sapphire_necklace",
       "output": {
         "itemId": 1656,
@@ -4477,6 +8009,43 @@
       ],
       "toolItemIds": [
         5523
+      ]
+    },
+    {
+      "id": "2009scape-crafting-amulet-string-sapphire_amulet",
+      "output": {
+        "itemId": 1694,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1675,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 24,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "SAPPHIRE_AMULET"
+        }
       ]
     },
     {
@@ -4878,6 +8447,43 @@
       ]
     },
     {
+      "id": "2009scape-crafting-amulet-string-emerald_amulet",
+      "output": {
+        "itemId": 1696,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1677,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 31,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "EMERALD_AMULET"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-jewellery-emerald_amulet",
       "output": {
         "itemId": 1677,
@@ -5069,6 +8675,41 @@
       ]
     },
     {
+      "id": "2009scape-crafting-weaving-basket",
+      "output": {
+        "itemId": 5376,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5933,
+          "quantity": 6
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 36,
+      "xp": 56.0,
+      "tools": [],
+      "facilities": [
+        "Loom"
+      ],
+      "requirements": [],
+      "method": [
+        "Weave on a loom"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/WeaveOptionPlugin.java",
+          "commit": "4082f9d",
+          "enum": "BASKET"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-leather-coif",
       "output": {
         "itemId": 1169,
@@ -5152,6 +8793,43 @@
       ],
       "toolItemIds": [
         1597
+      ]
+    },
+    {
+      "id": "2009scape-crafting-studded-body",
+      "output": {
+        "itemId": 1133,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1129,
+          "quantity": 1
+        },
+        {
+          "itemId": 2370,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 41,
+      "xp": 40.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach steel studs to the leather armour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/StuddedArmourPlugin.java",
+          "commit": "4082f9d",
+          "enum": "BODY"
+        }
       ]
     },
     {
@@ -5310,6 +8988,43 @@
       ],
       "toolItemIds": [
         1592
+      ]
+    },
+    {
+      "id": "2009scape-crafting-studded-chaps",
+      "output": {
+        "itemId": 1097,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1095,
+          "quantity": 1
+        },
+        {
+          "itemId": 2370,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 44,
+      "xp": 42.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach steel studs to the leather armour"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/StuddedArmourPlugin.java",
+          "commit": "4082f9d",
+          "enum": "CHAPS"
+        }
       ]
     },
     {
@@ -5545,6 +9260,43 @@
           "file": "Server/src/main/content/global/skill/crafting/glass/GlassProduct.kt",
           "commit": "4082f9d",
           "enum": "LANTERN_LENS"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-amulet-string-ruby_amulet",
+      "output": {
+        "itemId": 1698,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1679,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 50,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "RUBY_AMULET"
         }
       ]
     },
@@ -6650,6 +10402,43 @@
       ]
     },
     {
+      "id": "2009scape-crafting-amulet-string-diamond_amulet",
+      "output": {
+        "itemId": 1700,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1681,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 70,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "DIAMOND_AMULET"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-jewellery-diamond_amulet",
       "output": {
         "itemId": 1681,
@@ -7036,6 +10825,43 @@
       ]
     },
     {
+      "id": "2009scape-crafting-amulet-string-dragonstone_amulet",
+      "output": {
+        "itemId": 1702,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1683,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 80,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "DRAGONSTONE_AMULET"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-jewellery-dragonstone_amulet",
       "output": {
         "itemId": 1683,
@@ -7283,6 +11109,43 @@
           "file": "Server/src/main/content/global/skill/crafting/glass/GlassProduct.kt",
           "commit": "4082f9d",
           "enum": "LIGHT_ORB"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-amulet-string-onyx_amulet",
+      "output": {
+        "itemId": 6581,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6579,
+          "quantity": 1
+        },
+        {
+          "itemId": 1759,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 90,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "String with a ball of wool (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+          "commit": "4082f9d",
+          "enum": "ONYX_AMULET"
         }
       ]
     },
@@ -28000,21 +31863,38 @@
         "Server/src/main/content/global/skill/crafting/jewellery/JewelleryCrafting.java",
         "Server/src/main/content/global/skill/crafting/armour/LeatherCrafting.java",
         "Server/src/main/content/global/skill/crafting/armour/HardCraftPulse.java",
-        "Server/src/main/content/global/skill/crafting/armour/SnakeSkin.java"
+        "Server/src/main/content/global/skill/crafting/armour/SnakeSkin.java",
+        "Server/src/main/content/global/skill/crafting/StuddedArmourPlugin.java",
+        "Server/src/main/content/global/skill/crafting/WeaveOptionPlugin.java",
+        "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
+        "Server/src/main/content/global/skill/crafting/TanningProduct.java",
+        "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java"
       ],
       "commit": "4082f9d",
-      "generated": 102,
-      "added": 102,
+      "generated": 131,
+      "added": 131,
       "replacedWikiRows": 0
     },
     "cooking": {
       "provider": "2009Scape",
       "sourceFiles": [
-        "Server/src/main/content/global/skill/cooking/CookableItems.java"
+        "Server/src/main/content/global/skill/cooking/CookableItems.java",
+        "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
+        "Server/src/main/content/global/skill/cooking/CakeListener.kt",
+        "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+        "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/PieShellListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/ToppingListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/StewListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/CurryListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/ChocolateCakeListener.kt",
+        "Server/src/main/content/global/skill/cooking/recipe/OomlieWrapListener.kt"
       ],
       "commit": "4082f9d",
-      "generated": 61,
-      "added": 61,
+      "generated": 136,
+      "added": 136,
       "replacedWikiRows": 0
     },
     "runecrafting": {

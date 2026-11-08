@@ -196,7 +196,7 @@ def crafting(root, commit):
     for e, mould, prod, qty, lv, xp, strung in silver:
         rows.append(recipe(f"2009scape-crafting-silver-{e.lower()}", prod, int(qty), [(SILVER_BAR, 1)], "Crafting", int(lv), float(xp), [f"Mould {mould}"], ["Furnace"], ["Pour a silver bar into the matching mould at a furnace"], rel, e, commit, {"toolItemIds": [int(mould)]}))
         if strung:
-            rows.append(recipe(f"2009scape-crafting-silver-string-{e.lower()}", strung, 1, [(prod, 1), (1759, 1)], "Crafting", 1, 4.0, [], [], ["String with a ball of wool"], CRAFT + "silver/SilverStringingListener.kt", e, commit))
+            rows.append(recipe(f"2009scape-crafting-silver-string-{e.lower()}", strung, 1, [(prod, 1), (1759, 1)], "Crafting", 1, 0.0, [], [], ["String with a ball of wool"], CRAFT + "silver/SilverStringingListener.kt", e, commit))
     # jewellery
     rel = CRAFT + "jewellery/JewelleryCrafting.java"
     pat = r"^\s*([A-Z_]+)\((\d+), (\d+), (\d+), (\d+), ([A-Z0-9_, ]+)\),?;?\s*$"
@@ -233,6 +233,53 @@ def crafting(root, commit):
         raise GeneratorError(f"snakeskin: expected 5, parsed {len(sn)}")
     for e, prod, lv, xp, amt in sn:
         rows.append(recipe(f"2009scape-crafting-snakeskin-{e.lower()}", prod, 1, [(SNAKE, int(amt)), (THREAD, 1)], "Crafting", int(lv), float(xp), ["Needle"], [], ["Sew snakeskin with a needle and thread"], srel, e, commit, {"toolItemIds": [NEEDLE]}))
+    return rows + crafting_extra(root, commit)
+
+
+def crafting_extra(root, commit):
+    rows = []
+    # studded armour: base + steel studs
+    rel = CRAFT + "StuddedArmourPlugin.java"
+    st = re.findall(r"([A-Z]+)\(new Item\((\d+)\), new Item\((\d+)\), (\d+), (\d+)\)", read(root, rel))
+    if len(st) != 2:
+        raise GeneratorError(f"studded armour: expected 2, parsed {len(st)}")
+    for e, base, out, lv, xp in st:
+        rows.append(recipe(f"2009scape-crafting-studded-{e.lower()}", out, 1, [(base, 1), (2370, 1)], "Crafting", int(lv), float(xp), [], [], ["Attach steel studs to the leather armour"], rel, e, commit))
+    # weaving
+    rel = CRAFT + "WeaveOptionPlugin.java"
+    wv = re.findall(r"([A-Z]+)\(new Item\((\d+)\), new Item\((\d+), (\d+)\), (\d+), (\d+)\)", read(root, rel))
+    if len(wv) != 3:
+        raise GeneratorError(f"weaving: expected 3, parsed {len(wv)}")
+    for e, out, need, n, lv, xp in wv:
+        rows.append(recipe(f"2009scape-crafting-weaving-{e.lower()}", out, 1, [(need, int(n))], "Crafting", int(lv), float(xp), [], ["Loom"], ["Weave on a loom"], rel, e, commit))
+    # snelms: shell + chisel (level 15, 32.5 xp)
+    rel = CRAFT + "SnelmCraftPlugin.java"
+    text = read(root, rel)
+    pairs = re.findall(r"\{ (\d+), (\d+) \}", text.split("DATA")[1].split("};")[0])
+    if len(pairs) != 9 or "< 15" not in text or "32.5" not in text:
+        raise GeneratorError(f"snelms: expected 9 pairs with level 15 / 32.5 xp, parsed {len(pairs)}")
+    for shell, snelm in pairs:
+        rows.append(recipe(f"2009scape-crafting-snelm-{shell}", snelm, 1, [(shell, 1)], "Crafting", 15, 32.5, ["Chisel"], [], ["Chisel the shell into a snelm"], rel, f"SNELM_{shell}", commit, {"toolItemIds": [CHISEL]}))
+    # tanning: hide + coins at a tanner
+    rel = CRAFT + "TanningProduct.java"
+    tt = re.findall(r"^\s*([A-Z_0-9]+)\((\d+), (\d+), (\d+)\)", read(root, rel), re.M)
+    coins = {"SOFT_LEATHER": 1, "HARD_LEATHER": 3, "SNAKESKIN": 15, "SNAKESKIN2": 20}
+    if len(tt) != 8:
+        raise GeneratorError(f"tanning: expected 8, parsed {len(tt)}")
+    for e, _b, hide, leather in tt:
+        rows.append(recipe(f"2009scape-crafting-tanning-{e.lower()}", leather, 1, [(hide, 1), (995, coins.get(e, 20))], "Crafting", 1, 0.0, [], ["Tanner"], ["Pay a tanner to tan the hide (no experience)"], rel, e, commit))
+    # amulet stringing: unstrung amulet + ball of wool, Crafting level of the amulet, no experience
+    rel = CRAFT + "AmuletStringingPlugin.java"
+    jt = read(root, CRAFT + "jewellery/JewelleryCrafting.java")
+    # (enum, level, xp, component, product) -> key by product id
+    amulets = {m[4]: (m[0], int(m[1])) for m in re.findall(r"^\s*([A-Z_]+AMULET)\((\d+), (\d+), (\d+), (\d+),", jt, re.M)}
+    handled = [int(x) for x in re.search(r"super\(([\d, ]+)\)", read(root, rel)).group(1).split(",")]
+    if len(handled) != 7 or any(str(h) not in amulets for h in handled):
+        raise GeneratorError("amulet stringing: handled amulets do not match jewellery table")
+    for h in handled:
+        e, lv = amulets[str(h)]
+        strung = 6581 if h == 6579 else h + 19
+        rows.append(recipe(f"2009scape-crafting-amulet-string-{e.lower()}", strung, 1, [(h, 1), (1759, 1)], "Crafting", lv, 0.0, [], [], ["String with a ball of wool (no experience)"], rel, e, commit))
     return rows
 
 
@@ -256,6 +303,73 @@ def cooking(root, commit):
         rows.append(recipe(f"2009scape-cooking-{e.lower()}", cooked, 1, [(raw, 1)], "Cooking", level, xp, [], facility, ["Cook on a fire or range (may burn)"], rel, e, commit))
     if len(rows) < 60:
         raise GeneratorError(f"cooking: parsed only {len(rows)} rows")
+    return rows + cooking_assembly(root, commit)
+
+
+# ------------------------------------------------------------------ cooking: assembly (hand-written listeners)
+CR = COOK + "recipe/"
+T = r"Items\.[A-Z0-9_]+?_(\d+)"
+
+
+def _enum_rows(root, rel, enum_name, pattern, expect):
+    text = read(root, rel).split(f"enum class {enum_name}(")[1].split("companion object")[0]
+    rows = re.findall(pattern, text, re.M)
+    if len(rows) != expect:
+        raise GeneratorError(f"{rel}: expected {expect} {enum_name} rows, parsed {len(rows)}")
+    return rows
+
+
+def cooking_assembly(root, commit):
+    rows = []
+    add = lambda rid, out, inputs, lv, xp, rel, enum, method, fac=None, extra=None: rows.append(
+        recipe(f"2009scape-cooking-assembly-{rid}", out, 1, inputs, "Cooking", int(lv), float(xp), [], fac or [], [method], rel, enum, commit, extra))
+    # pies: base + added -> product (multi-step pies create part-made items)
+    rel = CR + "PieListener.kt"
+    for e, b, a, p, lv in _enum_rows(root, rel, "PieProduct", r"^\s*([A-Z_0-9]+)\(Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), (\d+),", 21):
+        add(e.lower(), p, [(b, 1), (a, 1)], lv, 0, rel, e, "Combine the ingredients (pie assembly)")
+    rel = CR + "PieShellListener.kt"
+    add("pie_shell", 2315, [(2313, 1), (1953, 1)], 1, 0, rel, "PIE_SHELL", "Put pastry dough into a pie dish")
+    # pizzas
+    rel = CR + "PizzaListener.kt"
+    for e, b, a, p, lv, xp in _enum_rows(root, rel, "PizzaProduct", r"^\s*([A-Z_0-9]+)\(Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), (\d+), ([0-9.]+),", 7):
+        add(e.lower(), p, [(b, 1), (a, 1)], lv, xp, rel, e, "Add the topping to the pizza")
+    # bowl toppings / sauces
+    rel = CR + "ToppingListener.kt"
+    for e, b, a, p, lv, xp in _enum_rows(root, rel, "ToppingProduct", r"^\s*([A-Z_0-9]+)\(Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), (\d+), ([0-9.]+),", 12):
+        add(e.lower(), p, [(b, 1), (a, 1)], lv, xp, rel, e, "Combine the ingredients (topping)")
+    # stew and curry
+    rel = CR + "StewListener.kt"
+    for e, b, a, p, lv in _enum_rows(root, rel, "StewProduct", r"^\s*([A-Z_0-9]+)\(Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), (\d+),", 4):
+        add(e.lower(), p, [(b, 1), (a, 1)], lv, 0, rel, e, "Combine the ingredients (stew)")
+    rel = CR + "CurryListener.kt"
+    add("curry_leaf", 2009, [(2001, 1), (5970, 3)], 60, 0, rel, "CURRY_LEAF", "Mix 3 curry leaves into the uncooked stew")
+    add("curry_spice", 2009, [(2001, 1), (2007, 1)], 60, 0, rel, "SPICE", "Mix spice into the uncooked stew")
+    # potatoes
+    rel = CR + "PotatoListener.kt"
+    add("potato_with_butter", 6703, [(6701, 1), (6697, 1)], 39, 40.5, rel, "POTATO_WITH_BUTTER", "Add a pat of butter to the baked potato")
+    for e, a, p, lv, xp in _enum_rows(root, rel, "PotatoProduct", r"^\s*([A-Z_0-9]+)\(Items\.[A-Z0-9_]+?_(\d+), Items\.[A-Z0-9_]+?_(\d+), (\d+), ([0-9.]+),", 5):
+        add(e.lower(), p, [(a, 1), (6703, 1)], lv, xp, rel, e, "Add the topping to the potato with butter")
+    # cakes, wraps
+    rel = COOK + "CakeListener.kt"
+    add("cake_mix", 1889, [(1944, 1), (1927, 1), (1933, 1), (1887, 1)], 40, 0, rel, "UNCOOKED_CAKE", "Mix egg, milk and flour in a cake tin")
+    rel = CR + "ChocolateCakeListener.kt"
+    add("chocolate_cake_bar", 1897, [(1891, 1), (1973, 1)], 50, 30, rel, "CHOCOLATE_BAR", "Add chocolate to the cake")
+    add("chocolate_cake_dust", 1897, [(1891, 1), (1975, 1)], 50, 30, rel, "CHOCOLATE_DUST", "Add chocolate dust to the cake")
+    rel = CR + "OomlieWrapListener.kt"
+    add("wrapped_oomlie", 2341, [(2337, 1), (2339, 1)], 50, 0, rel, "WRAPPED_OOMLIE", "Wrap the raw oomlie in a palm leaf")
+    # dough: water container + pot of flour
+    rel = COOK + "DoughMakingListener.kt"
+    doughs = re.findall(r"^\s*([A-Z_]+)\(Items\.[A-Z0-9_]+?_(\d+), getItemName\(Items\.[A-Z0-9_]+?_\d+\), (\d+)\)", read(root, rel), re.M)
+    if len(doughs) != 4:
+        raise GeneratorError(f"dough: expected 4, parsed {len(doughs)}")
+    for e, p, lv in doughs:
+        for cont, water in (("bucket", 1929), ("bowl", 1921), ("jug", 1937)):
+            add(f"{e.lower()}_{cont}", p, [(water, 1), (1933, 1)], lv, 0, rel, e, f"Mix a {cont} of water with a pot of flour")
+    # dairy (any one listed input produces the product)
+    rel = COOK + "dairy/DairyProduct.java"
+    for e, lv, xp, p, ins in re.findall(r"^\s*([A-Z_]+)\((\d+), ([0-9.]+), new Item\(Items\.[A-Z0-9_]+?_(\d+), 1\), new Integer\[\] \{([^}]*)\}", read(root, rel), re.M):
+        for i in re.findall(T, ins):
+            add(f"dairy_{e.lower()}_from_{i}", p, [(i, 1)], lv, xp, rel, e, "Use a dairy churn", ["Dairy churn"])
     return rows
 
 
@@ -290,7 +404,7 @@ def runecrafting(root, commit):
 
 # ------------------------------------------------------------------ registry
 PARSERS = {"herblore": herblore, "crafting": crafting, "cooking": cooking, "runecrafting": runecrafting}
-SOURCE_FILES = {"cooking": [COOK + "CookableItems.java"], "runecrafting": [RC + "Rune.java", RC + "CombinationRune.java"], "crafting": [CRAFT + f for f in ("gem/Gems.java", "pottery/PotteryItem.java", "spinning/SpinningItem.java", "glass/GlassProduct.kt", "glass/GlassMakePulse.kt", "silver/SilverProduct.kt", "jewellery/JewelleryCrafting.java", "armour/LeatherCrafting.java", "armour/HardCraftPulse.java", "armour/SnakeSkin.java")], "herblore": [HERBLORE + f for f in ("Herbs.java", "UnfinishedPotion.kt", "FinishedPotion.kt", "Tars.java", "BarbarianPotion.kt", "GrindingItem.java")]}
+SOURCE_FILES = {"cooking": [COOK + "CookableItems.java", COOK + "DoughMakingListener.kt", COOK + "CakeListener.kt", COOK + "dairy/DairyProduct.java"] + [CR + f for f in ("PieListener.kt", "PieShellListener.kt", "PizzaListener.kt", "ToppingListener.kt", "StewListener.kt", "CurryListener.kt", "PotatoListener.kt", "ChocolateCakeListener.kt", "OomlieWrapListener.kt")], "runecrafting": [RC + "Rune.java", RC + "CombinationRune.java"], "crafting": [CRAFT + f for f in ("gem/Gems.java", "pottery/PotteryItem.java", "spinning/SpinningItem.java", "glass/GlassProduct.kt", "glass/GlassMakePulse.kt", "silver/SilverProduct.kt", "jewellery/JewelleryCrafting.java", "armour/LeatherCrafting.java", "armour/HardCraftPulse.java", "armour/SnakeSkin.java", "StuddedArmourPlugin.java", "WeaveOptionPlugin.java", "SnelmCraftPlugin.java", "TanningProduct.java", "AmuletStringingPlugin.java")], "herblore": [HERBLORE + f for f in ("Herbs.java", "UnfinishedPotion.kt", "FinishedPotion.kt", "Tars.java", "BarbarianPotion.kt", "GrindingItem.java")]}
 SKILL_NAME = {"herblore": "Herblore", "crafting": "Crafting", "cooking": "Cooking", "runecrafting": "Runecrafting"}
 
 
