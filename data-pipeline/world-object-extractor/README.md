@@ -45,9 +45,10 @@ It changes only the local RT4 client clone.
 Lumbridge is region `50,50` (region ID `12850`):
 
 ```sh
+SERVER_ROOT="/data/data/com.termux/files/home/2009scape"
 java -Djava.awt.headless=true -jar \
   "$HOME/rt4-client/client/build/libs/wayfinder-world-dump.jar" \
-  "$HOME/2009scape" 50 50 \
+  "$SERVER_ROOT" 50 50 \
   /storage/emulated/0/Download/wayfinder-lumbridge-50-50.json
 ```
 
