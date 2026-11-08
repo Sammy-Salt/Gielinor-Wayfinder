@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 rows = json.loads((ROOT / "site/data/recipes.json").read_text())["recipes"]
 by_id = {r["id"]: r for r in rows}
-assert len(by_id) == len(rows) == 847
+assert len(by_id) == len(rows) == 904
 assembly = [r for r in rows if r["id"].startswith("2009scape-cooking-assembly-")]
 assert len(assembly) == 75, len(assembly)
 extra = [r for r in rows if r["id"].startswith(("2009scape-crafting-studded-", "2009scape-crafting-weaving-", "2009scape-crafting-snelm-", "2009scape-crafting-tanning-", "2009scape-crafting-amulet-string-"))]

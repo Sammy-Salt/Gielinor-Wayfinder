@@ -233,7 +233,7 @@ def crafting(root, commit):
         raise GeneratorError(f"snakeskin: expected 5, parsed {len(sn)}")
     for e, prod, lv, xp, amt in sn:
         rows.append(recipe(f"2009scape-crafting-snakeskin-{e.lower()}", prod, 1, [(SNAKE, int(amt)), (THREAD, 1)], "Crafting", int(lv), float(xp), ["Needle"], [], ["Sew snakeskin with a needle and thread"], srel, e, commit, {"toolItemIds": [NEEDLE]}))
-    return rows + crafting_extra(root, commit)
+    return rows + crafting_extra(root, commit) + remaining(root, commit)['Crafting']
 
 
 def crafting_extra(root, commit):
@@ -303,7 +303,7 @@ def cooking(root, commit):
         rows.append(recipe(f"2009scape-cooking-{e.lower()}", cooked, 1, [(raw, 1)], "Cooking", level, xp, [], facility, ["Cook on a fire or range (may burn)"], rel, e, commit))
     if len(rows) < 60:
         raise GeneratorError(f"cooking: parsed only {len(rows)} rows")
-    return rows + cooking_assembly(root, commit)
+    return rows + cooking_assembly(root, commit) + remaining(root, commit)['Cooking']
 
 
 # ------------------------------------------------------------------ cooking: assembly (hand-written listeners)
@@ -373,6 +373,94 @@ def cooking_assembly(root, commit):
     return rows
 
 
+# ------------------------------------------------------------------ remaining crafting / cooking / runecrafting
+def remaining(root, commit):
+    out = {"Crafting": [], "Cooking": [], "Runecrafting": []}
+
+    def add(skill, rid, o, qty, inputs, lv, xp, rel, enum, method, tools=None, fac=None, extra=None):
+        out[skill].append(recipe(f"2009scape-{skill.lower()}-{rid}", o, qty, inputs, skill, int(lv), float(xp), tools or [], fac or [], [method], rel, enum, commit, extra))
+
+    # spiky vambraces: kebbit claws + vambraces, level 32, 6 xp
+    rel = CRAFT + "leather/SpikyVambraces.kt"
+    text = read(root, rel)
+    vs = re.findall(r"Items\.[A-Z0-9_]+?_(\d+) ->\s*\{\s*craftVamb\(player,vamb,Items\.[A-Z0-9_]+?_(\d+),", text)
+    if len(vs) != 5 or ">= 32" not in text or "CRAFTING,6.0" not in text:
+        raise GeneratorError(f"spiky vambraces: unexpected shape ({len(vs)} rows)")
+    for vamb, prod in vs:
+        add("Crafting", f"spiky-vambraces-{prod}", prod, 1, [(vamb, 1), (10113, 1)], 32, 6.0, rel, f"SPIKY_{prod}", "Attach kebbit claws to the vambraces")
+    # lanterns (no experience)
+    rel = CRAFT + "lightsources/LanternCrafting.kt"
+    text = read(root, rel)
+    if not all(x in text for x in ("4529", "4532", "4535", "4546", "4700", ">= 20")):
+        raise GeneratorError("lanterns: expected product ids not found")
+    for rid, prod, ins, lv in (("candle-lantern-white", 4529, (4527, 36), 1), ("candle-lantern-black", 4532, (4527, 38), 1), ("oil-lantern", 4535, (4540, 4525), 1), ("bullseye-lantern", 4546, (4544, 4542), 1), ("sapphire-lantern", 4700, (4544, 1607), 20)):
+        add("Crafting", rid, prod, 1, [(i, 1) for i in ins], lv, 0.0, rel, rid.upper().replace("-", "_"), "Combine the items (no experience)")
+    # limestone bricks
+    rel = CRAFT + "limestone/ChiselLimestonePulse.java"
+    text = read(root, rel)
+    if not all(x in text for x in ("3211", "3420", "< 12", "CRAFTING, 6")):
+        raise GeneratorError("limestone: expected values not found")
+    add("Crafting", "limestone-brick", 3420, 1, [(3211, 1)], 12, 6.0, rel, "LIMESTONE_BRICK", "Chisel limestone into a brick", ["Chisel"], extra={"toolItemIds": [CHISEL]})
+    # skewers, kebab, dust, slices
+    rel = COOK + "SkeweredFoodListener.kt"
+    text = read(root, rel)
+    skew = dict(re.findall(r"Items\.[A-Z0-9_]+?_(\d+) to Items\.[A-Z0-9_]+?_(\d+)", text))
+    levels = dict(re.findall(r"Items\.[A-Z0-9_]+?_(\d+) -> (\d+)\n", text))
+    if len(skew) != 4 or set(skew) != set(levels):
+        raise GeneratorError("skewers: map and level tables do not match")
+    for raw, prod in skew.items():
+        add("Cooking", f"skewer-{prod}", prod, 1, [(raw, 1), (7225, 1)], levels[raw], 0.0, rel, f"SKEWER_{prod}", "Put the raw meat on an iron spit")
+    rel = COOK + "SaucyKebabListener.kt"
+    text = read(root, rel)
+    kebabs = re.findall(r"Items\.[A-Z_]*KEBAB_(\d+)", text)
+    if len(kebabs) < 4 or "4610" not in text or "4608" not in text:
+        raise GeneratorError("kebab: expected ids not found")
+    for k in sorted(set(kebabs) - {"4608"}):
+        add("Cooking", f"super-kebab-{k}", 4608, 1, [(k, 1), (4610, 1)], 1, 0.0, rel, f"KEBAB_{k}", "Add red hot sauce to a kebab (no level or experience)")
+    rel = COOK + "ChocolateBarCutter.kt"
+    if "1973" not in read(root, rel) or "1975" not in read(root, rel):
+        raise GeneratorError("chocolate cutter: ids not found")
+    add("Cooking", "chocolate-dust", 1975, 1, [(1973, 1)], 1, 0.0, rel, "CHOCOLATE_DUST", "Cut a chocolate bar with a knife", ["Knife"])
+    rel = COOK + "WatermelonSliceListener.kt"
+    if "5982" not in read(root, rel) or ", 3)" not in read(root, rel):
+        raise GeneratorError("watermelon: expected values not found")
+    add("Cooking", "watermelon-slices", 5984, 3, [(5982, 1)], 1, 0.0, rel, "WATERMELON_SLICE", "Slice a watermelon with a knife (3 slices)", ["Knife"])
+    # wine
+    rel = COOK + "WineFermentListener.kt"
+    text = read(root, rel)
+    if not all(x in text for x in ("1987", "1937", "1995", "< 35")):
+        raise GeneratorError("wine: expected values not found")
+    add("Cooking", "unfermented-wine", 1995, 1, [(1987, 1), (1937, 1)], 35, 0.0, rel, "UNFERMENTED_WINE", "Mix grapes with a jug of water")
+    frel = COOK + "fermenting/WineFermentingPulse.java"
+    if "addExperience(Skills.COOKING, 200" not in read(root, frel):
+        raise GeneratorError("wine fermenting: xp not found")
+    add("Cooking", "wine", 1993, 1, [(1995, 1)], 35, 200.0, frel, "WINE", "Wait for the wine to ferment (may fail to bad wine); experience is granted when it succeeds")
+    # brewing
+    rel = COOK + "fermenting/Brewable.kt"
+    brews = re.findall(r"^\s*([A-Z_]+)\(\"([^\"]+)\", Items\.[A-Z0-9_]+?_(\d+), (\d+), intArrayOf\(Items\.[A-Z0-9_]+?_(\d+)[^)]*\), ([0-9.]+), \d+, \d+(?:, (\d+))?\)", read(root, rel), re.M)
+    if len(brews) != 11:
+        raise GeneratorError(f"brewing: expected 11, parsed {len(brews)}")
+    for e, name, ing, lv, prod, xp, amt in brews:
+        add("Cooking", f"brew-{e.lower()}", prod, 1, [(ing, int(amt or 4))], lv, xp, rel, e, f"Ferment {name} in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)", fac=["Brewing vat"])
+    # runecrafting: tiaras and talisman staves (Altar enum maps Talisman/Tiara/Staff by name)
+    rel = RC + "RunecraftingData.kt"
+    text = read(root, rel)
+    tal = dict(re.findall(r"^    ([A-Z]+)\(Item\(Items\.[A-Z_]+?_TALISMAN_(\d+)\)\)", text.split("enum class Talisman")[1].split("enum class", 1)[0], re.M))
+    tia = {n: (int(i), float(x)) for n, i, x in re.findall(r"^    ([A-Z]+)\(Item\(Items\.[A-Z_]+?_TIARA_(\d+)\), ([0-9.]+)\)", text.split("enum class Tiara")[1].split("enum class", 1)[0], re.M)}
+    stf = dict(re.findall(r"^    ([A-Z]+)\(Item\(Items\.[A-Z_]+?_STAFF_(\d+)\)\)", text.split("enum class Staff")[1].split("enum class", 1)[0], re.M))
+    altars = re.findall(r"^    ([A-Z]+)\(Scenery\.[A-Z_0-9]+, [^,]+, [^,]+, Rune\.[A-Z]+\)", text.split("enum class Altar")[1], re.M)
+    names = [n for n in altars if n in tal and n in tia and n in stf]
+    if len(names) != 12:
+        raise GeneratorError(f"talisman enchanting: expected 12 altars, parsed {len(names)}: {names}")
+    erel = RC + "TalismanEnchantingListener.kt"
+    if "Items.TIARA_5525" not in read(root, erel) or "RUNECRAFTING_STAFF_13629" not in read(root, erel):
+        raise GeneratorError("talisman enchanting: base items changed")
+    for n in names:
+        add("Runecrafting", f"tiara-{n.lower()}", tia[n][0], 1, [(tal[n], 1), (5525, 1)], 1, tia[n][1], erel, f"{n}_TIARA", f"Use the {n.lower()} talisman on a tiara at the {n.lower()} altar", fac=[f"{n.title()} altar"])
+        add("Runecrafting", f"staff-{n.lower()}", stf[n], 1, [(tal[n], 1), (13629, 1)], 1, 0.0, erel, f"{n}_STAFF", f"Use the {n.lower()} talisman on a runecrafting staff at the {n.lower()} altar", fac=[f"{n.title()} altar"])
+    return out
+
+
 # ------------------------------------------------------------------ runecrafting
 RC = BASE + "runecrafting/"
 RUNE_ESSENCE, PURE_ESSENCE = 1436, 7936
@@ -399,13 +487,16 @@ def runecrafting(root, commit):
     for e, rid, lv, xp, a1, a2, r1, r2 in combos:
         rows.append(recipe(f"2009scape-runecrafting-combination-{e.lower()}", rid, 1, [(PURE_ESSENCE, 1), (ids[r1] if a1 == r2 else ids[r2], 1)], "Runecrafting", int(lv), float(xp), [], [f"{a1.title()} altar", f"{a2.title()} altar"],
                            [f"Use the matching talisman (or imbue) on the altar; each essence has a 1 in 3 chance to become a {e.lower()} rune unless a binding necklace is worn"], crel, e, commit))
-    return rows
+    return rows + remaining(root, commit)["Runecrafting"]
 
 
 # ------------------------------------------------------------------ registry
 PARSERS = {"herblore": herblore, "crafting": crafting, "cooking": cooking, "runecrafting": runecrafting}
-SOURCE_FILES = {"cooking": [COOK + "CookableItems.java", COOK + "DoughMakingListener.kt", COOK + "CakeListener.kt", COOK + "dairy/DairyProduct.java"] + [CR + f for f in ("PieListener.kt", "PieShellListener.kt", "PizzaListener.kt", "ToppingListener.kt", "StewListener.kt", "CurryListener.kt", "PotatoListener.kt", "ChocolateCakeListener.kt", "OomlieWrapListener.kt")], "runecrafting": [RC + "Rune.java", RC + "CombinationRune.java"], "crafting": [CRAFT + f for f in ("gem/Gems.java", "pottery/PotteryItem.java", "spinning/SpinningItem.java", "glass/GlassProduct.kt", "glass/GlassMakePulse.kt", "silver/SilverProduct.kt", "jewellery/JewelleryCrafting.java", "armour/LeatherCrafting.java", "armour/HardCraftPulse.java", "armour/SnakeSkin.java", "StuddedArmourPlugin.java", "WeaveOptionPlugin.java", "SnelmCraftPlugin.java", "TanningProduct.java", "AmuletStringingPlugin.java")], "herblore": [HERBLORE + f for f in ("Herbs.java", "UnfinishedPotion.kt", "FinishedPotion.kt", "Tars.java", "BarbarianPotion.kt", "GrindingItem.java")]}
+SOURCE_FILES = {"cooking": [COOK + "CookableItems.java", COOK + "DoughMakingListener.kt", COOK + "CakeListener.kt", COOK + "dairy/DairyProduct.java", COOK + "SkeweredFoodListener.kt", COOK + "SaucyKebabListener.kt", COOK + "ChocolateBarCutter.kt", COOK + "WatermelonSliceListener.kt", COOK + "WineFermentListener.kt", COOK + "fermenting/WineFermentingPulse.java", COOK + "fermenting/Brewable.kt"] + [CR + f for f in ("PieListener.kt", "PieShellListener.kt", "PizzaListener.kt", "ToppingListener.kt", "StewListener.kt", "CurryListener.kt", "PotatoListener.kt", "ChocolateCakeListener.kt", "OomlieWrapListener.kt")], "runecrafting": [RC + "Rune.java", RC + "CombinationRune.java", RC + "RunecraftingData.kt", RC + "TalismanEnchantingListener.kt"], "crafting": [CRAFT + f for f in ("gem/Gems.java", "pottery/PotteryItem.java", "spinning/SpinningItem.java", "glass/GlassProduct.kt", "glass/GlassMakePulse.kt", "silver/SilverProduct.kt", "jewellery/JewelleryCrafting.java", "armour/LeatherCrafting.java", "armour/HardCraftPulse.java", "armour/SnakeSkin.java", "leather/SpikyVambraces.kt", "lightsources/LanternCrafting.kt", "limestone/ChiselLimestonePulse.java", "StuddedArmourPlugin.java", "WeaveOptionPlugin.java", "SnelmCraftPlugin.java", "TanningProduct.java", "AmuletStringingPlugin.java")], "herblore": [HERBLORE + f for f in ("Herbs.java", "UnfinishedPotion.kt", "FinishedPotion.kt", "Tars.java", "BarbarianPotion.kt", "GrindingItem.java")]}
 SKILL_NAME = {"herblore": "Herblore", "crafting": "Crafting", "cooking": "Cooking", "runecrafting": "Runecrafting"}
+SOURCE_FILES["crafting"] += [CRAFT + f for f in ("leather/SpikyVambraces.kt", "lightsources/LanternCrafting.kt", "limestone/ChiselLimestonePulse.java")]
+SOURCE_FILES["cooking"] += [COOK + f for f in ("SkeweredFoodListener.kt", "SaucyKebabListener.kt", "ChocolateBarCutter.kt", "WatermelonSliceListener.kt", "WineFermentListener.kt", "fermenting/WineFermentingPulse.java", "fermenting/Brewable.kt")]
+SOURCE_FILES["runecrafting"] += [RC + "RunecraftingData.kt", RC + "TalismanEnchantingListener.kt"]
 
 
 PRESERVE = ("2009scape-crafting-battlestaff-",)  # produced by the Fletching/staff generator (PASS31.37)

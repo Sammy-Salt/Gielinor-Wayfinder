@@ -8,11 +8,11 @@ ROOT = Path(__file__).resolve().parents[1]
 data = json.loads((ROOT / "site/data/recipes.json").read_text())
 rows = data["recipes"]
 by = lambda p: [r for r in rows if r["id"].startswith(p)]
-expected = {"2009scape-herblore-": 146, "2009scape-cooking-": 136, "2009scape-runecrafting-": 20}
+expected = {"2009scape-herblore-": 146, "2009scape-cooking-": 158, "2009scape-runecrafting-": 44}
 for prefix, n in expected.items():
     assert len(by(prefix)) == n, f"{prefix}: expected {n}, got {len(by(prefix))}"
 crafting = [r for r in by("2009scape-crafting-") if "battlestaff" not in r["id"]]
-assert len(crafting) == 131, f"expected 131 generated Crafting rows, got {len(crafting)}"
+assert len(crafting) == 142, f"expected 142 generated Crafting rows, got {len(crafting)}"
 assert data["counts"]["total"] == len(rows)
 assert len({r["id"] for r in rows}) == len(rows), "duplicate recipe ids"
 for r in by("2009scape-herblore-") + by("2009scape-cooking-") + by("2009scape-runecrafting-") + crafting:

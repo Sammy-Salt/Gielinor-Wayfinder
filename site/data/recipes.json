@@ -29,17 +29,17 @@
       "snapshot": "PASS31.40"
     }
   ],
-  "snapshot": "PASS31.42-skills-primary",
+  "snapshot": "PASS31.46-skills-primary",
   "counts": {
-    "total": 847,
+    "total": 904,
     "from2009ScapeSmithing": 167,
     "fromWikiSecondary": 168,
     "from2009ScapeFletching": 75,
     "from2009ScapeStaffCreation": 4,
     "from2009ScapeHerblore": 146,
-    "from2009ScapeCrafting": 131,
-    "from2009ScapeCooking": 136,
-    "from2009ScapeRunecrafting": 20
+    "from2009ScapeCrafting": 142,
+    "from2009ScapeCooking": 158,
+    "from2009ScapeRunecrafting": 44
   },
   "recipes": [
     {
@@ -699,6 +699,41 @@
       ]
     },
     {
+      "id": "2009scape-cooking-chocolate-dust",
+      "output": {
+        "itemId": 1975,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1973,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Cut a chocolate bar with a knife"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/ChocolateBarCutter.kt",
+          "commit": "4082f9d",
+          "enum": "CHOCOLATE_DUST"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-crayfish",
       "output": {
         "itemId": 13433,
@@ -905,6 +940,152 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "SHRIMP"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-super-kebab-1883",
+      "output": {
+        "itemId": 4608,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1883,
+          "quantity": 1
+        },
+        {
+          "itemId": 4610,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add red hot sauce to a kebab (no level or experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SaucyKebabListener.kt",
+          "commit": "4082f9d",
+          "enum": "KEBAB_1883"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-super-kebab-1885",
+      "output": {
+        "itemId": 4608,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1885,
+          "quantity": 1
+        },
+        {
+          "itemId": 4610,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add red hot sauce to a kebab (no level or experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SaucyKebabListener.kt",
+          "commit": "4082f9d",
+          "enum": "KEBAB_1885"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-super-kebab-1971",
+      "output": {
+        "itemId": 4608,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1971,
+          "quantity": 1
+        },
+        {
+          "itemId": 4610,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Add red hot sauce to a kebab (no level or experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SaucyKebabListener.kt",
+          "commit": "4082f9d",
+          "enum": "KEBAB_1971"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-watermelon-slices",
+      "output": {
+        "itemId": 5984,
+        "quantity": 3
+      },
+      "inputs": [
+        {
+          "itemId": 5982,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [
+        "Knife"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Slice a watermelon with a knife (3 slices)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/WatermelonSliceListener.kt",
+          "commit": "4082f9d",
+          "enum": "WATERMELON_SLICE"
         }
       ]
     },
@@ -1393,6 +1574,43 @@
       ]
     },
     {
+      "id": "2009scape-cooking-skewer-9984",
+      "output": {
+        "itemId": 9984,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9978,
+          "quantity": 1
+        },
+        {
+          "itemId": 7225,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 11,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Put the raw meat on an iron spit"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+          "commit": "4082f9d",
+          "enum": "SKEWER_9984"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-skewer_roast_bird",
       "output": {
         "itemId": 9980,
@@ -1498,6 +1716,41 @@
       ]
     },
     {
+      "id": "2009scape-cooking-brew-cider",
+      "output": {
+        "itemId": 5763,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5992,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 14,
+      "xp": 182.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment cider in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "CIDER"
+        }
+      ]
+    },
+    {
       "id": "wiki31.9-17",
       "output": {
         "itemId": 6094,
@@ -1562,6 +1815,43 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "TROUT"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-skewer-7224",
+      "output": {
+        "itemId": 7224,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3226,
+          "quantity": 1
+        },
+        {
+          "itemId": 7225,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 16,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Put the raw meat on an iron spit"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+          "commit": "4082f9d",
+          "enum": "SKEWER_7224"
         }
       ]
     },
@@ -1667,6 +1957,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "COD"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-dwarven_stout",
+      "output": {
+        "itemId": 1913,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5994,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 19,
+      "xp": 215.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Dwarven Stout in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "DWARVEN_STOUT"
         }
       ]
     },
@@ -1848,6 +2173,43 @@
       ]
     },
     {
+      "id": "2009scape-cooking-skewer-9992",
+      "output": {
+        "itemId": 9992,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 9986,
+          "quantity": 1
+        },
+        {
+          "itemId": 7225,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 21,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Put the raw meat on an iron spit"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+          "commit": "4082f9d",
+          "enum": "SKEWER_9992"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-skewer_roast_beast",
       "output": {
         "itemId": 9988,
@@ -1879,6 +2241,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "SKEWER_ROAST_BEAST"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-kelda_stout",
+      "output": {
+        "itemId": 6118,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 22,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Kelda Stout in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "KELDA_STOUT"
         }
       ]
     },
@@ -2173,6 +2570,41 @@
       ]
     },
     {
+      "id": "2009scape-cooking-brew-asgarnian_ale",
+      "output": {
+        "itemId": 1905,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5996,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 26,
+      "xp": 248.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Asgarnian Ale in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "ASGARNIAN_ALE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-slimy_eel",
       "output": {
         "itemId": 3381,
@@ -2354,6 +2786,41 @@
       ]
     },
     {
+      "id": "2009scape-cooking-brew-greenmans_ale",
+      "output": {
+        "itemId": 1909,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 255,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 29,
+      "xp": 281.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Greenman's Ale in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "GREENMANS_ALE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-mud_pie",
       "output": {
         "itemId": 7170,
@@ -2527,6 +2994,43 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "KARAMBWAN"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-skewer-7230",
+      "output": {
+        "itemId": 7230,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2876,
+          "quantity": 1
+        },
+        {
+          "itemId": 7225,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 30,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Put the raw meat on an iron spit"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+          "commit": "4082f9d",
+          "enum": "SKEWER_7230"
         }
       ]
     },
@@ -2741,6 +3245,41 @@
           "file": "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
           "commit": "4082f9d",
           "enum": "GARDEN_PIE_3"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-wizard_bomb",
+      "output": {
+        "itemId": 1907,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 5998,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 34,
+      "xp": 341.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Wizard's Mind Bomb in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "WIZARD_BOMB"
         }
       ]
     },
@@ -3035,6 +3574,76 @@
       ]
     },
     {
+      "id": "2009scape-cooking-unfermented-wine",
+      "output": {
+        "itemId": 1995,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1987,
+          "quantity": 1
+        },
+        {
+          "itemId": 1937,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Mix grapes with a jug of water"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/WineFermentListener.kt",
+          "commit": "4082f9d",
+          "enum": "UNFERMENTED_WINE"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-wine",
+      "output": {
+        "itemId": 1993,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1995,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 35,
+      "xp": 200.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Wait for the wine to ferment (may fail to bad wine); experience is granted when it succeeds"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/WineFermentingPulse.java",
+          "commit": "4082f9d",
+          "enum": "WINE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-assembly-dairy_pat_of_butter_from_1927",
       "output": {
         "itemId": 6697,
@@ -3173,6 +3782,41 @@
           "file": "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
           "commit": "4082f9d",
           "enum": "POTATO_WITH_BUTTER"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-dragon_bitter",
+      "output": {
+        "itemId": 1911,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6000,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 39,
+      "xp": 347.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Dragon Bitter in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "DRAGON_BITTER"
         }
       ]
     },
@@ -3463,6 +4107,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "BOWL_ONION"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-moonlight_mead",
+      "output": {
+        "itemId": 2955,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6004,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 44,
+      "xp": 380.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Moonlight Mead in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "MOONLIGHT_MEAD"
         }
       ]
     },
@@ -3899,6 +4578,41 @@
       ]
     },
     {
+      "id": "2009scape-cooking-brew-axemans_folly",
+      "output": {
+        "itemId": 5751,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6043,
+          "quantity": 1
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 49,
+      "xp": 413.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Axeman's Folly in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "AXEMANS_FOLLY"
+        }
+      ]
+    },
+    {
       "id": "2009scape-cooking-assembly-chocolate_cake_bar",
       "output": {
         "itemId": 1897,
@@ -4113,6 +4827,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "LAVA_EEL"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-chefs_delight",
+      "output": {
+        "itemId": 5755,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1975,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 54,
+      "xp": 446.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Chef's Delight in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "CHEFS_DELIGHT"
         }
       ]
     },
@@ -4333,6 +5082,41 @@
           "file": "Server/src/main/content/global/skill/cooking/CookableItems.java",
           "commit": "4082f9d",
           "enum": "PITTA_BREAD"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-cooking-brew-slayers_respite",
+      "output": {
+        "itemId": 5759,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 6002,
+          "quantity": 4
+        }
+      ],
+      "skill": "Cooking",
+      "skills": [
+        "Cooking"
+      ],
+      "level": 59,
+      "xp": 479.0,
+      "tools": [],
+      "facilities": [
+        "Brewing vat"
+      ],
+      "requirements": [],
+      "method": [
+        "Ferment Slayer's Respite in a vat or barrel (also needs water and ale yeast; modelled here by the ingredient only)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
+          "commit": "4082f9d",
+          "enum": "SLAYERS_RESPITE"
         }
       ]
     },
@@ -5279,6 +6063,117 @@
       ]
     },
     {
+      "id": "2009scape-crafting-bullseye-lantern",
+      "output": {
+        "itemId": 4546,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4544,
+          "quantity": 1
+        },
+        {
+          "itemId": 4542,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the items (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+          "commit": "4082f9d",
+          "enum": "BULLSEYE_LANTERN"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-candle-lantern-black",
+      "output": {
+        "itemId": 4532,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4527,
+          "quantity": 1
+        },
+        {
+          "itemId": 38,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the items (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+          "commit": "4082f9d",
+          "enum": "CANDLE_LANTERN_BLACK"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-candle-lantern-white",
+      "output": {
+        "itemId": 4529,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4527,
+          "quantity": 1
+        },
+        {
+          "itemId": 36,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the items (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+          "commit": "4082f9d",
+          "enum": "CANDLE_LANTERN_WHITE"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-gem-opal",
       "output": {
         "itemId": 1609,
@@ -5433,6 +6328,43 @@
       ],
       "toolItemIds": [
         1733
+      ]
+    },
+    {
+      "id": "2009scape-crafting-oil-lantern",
+      "output": {
+        "itemId": 4535,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4540,
+          "quantity": 1
+        },
+        {
+          "itemId": 4525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the items (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+          "commit": "4082f9d",
+          "enum": "OIL_LANTERN"
+        }
       ]
     },
     {
@@ -6664,6 +7596,44 @@
       ]
     },
     {
+      "id": "2009scape-crafting-limestone-brick",
+      "output": {
+        "itemId": 3420,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 3211,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 12,
+      "xp": 6.0,
+      "tools": [
+        "Chisel"
+      ],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Chisel limestone into a brick"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/limestone/ChiselLimestonePulse.java",
+          "commit": "4082f9d",
+          "enum": "LIMESTONE_BRICK"
+        }
+      ],
+      "toolItemIds": [
+        1755
+      ]
+    },
+    {
       "id": "2009scape-crafting-gem-jade",
       "output": {
         "itemId": 1611,
@@ -7769,6 +8739,43 @@
       ]
     },
     {
+      "id": "2009scape-crafting-sapphire-lantern",
+      "output": {
+        "itemId": 4700,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 4544,
+          "quantity": 1
+        },
+        {
+          "itemId": 1607,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 20,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Combine the items (no experience)"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+          "commit": "4082f9d",
+          "enum": "SAPPHIRE_LANTERN"
+        }
+      ]
+    },
+    {
       "id": "2009scape-crafting-silver-lightning_rod",
       "output": {
         "itemId": 4201,
@@ -8557,6 +9564,191 @@
           "source": "OSRS Wiki",
           "snapshot": "PASS31.9",
           "page": "Dramen staff"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-spiky-vambraces-10077",
+      "output": {
+        "itemId": 10077,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1063,
+          "quantity": 1
+        },
+        {
+          "itemId": 10113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 32,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach kebbit claws to the vambraces"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+          "commit": "4082f9d",
+          "enum": "SPIKY_10077"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-spiky-vambraces-10079",
+      "output": {
+        "itemId": 10079,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1065,
+          "quantity": 1
+        },
+        {
+          "itemId": 10113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 32,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach kebbit claws to the vambraces"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+          "commit": "4082f9d",
+          "enum": "SPIKY_10079"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-spiky-vambraces-10081",
+      "output": {
+        "itemId": 10081,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2487,
+          "quantity": 1
+        },
+        {
+          "itemId": 10113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 32,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach kebbit claws to the vambraces"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+          "commit": "4082f9d",
+          "enum": "SPIKY_10081"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-spiky-vambraces-10083",
+      "output": {
+        "itemId": 10083,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2489,
+          "quantity": 1
+        },
+        {
+          "itemId": 10113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 32,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach kebbit claws to the vambraces"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+          "commit": "4082f9d",
+          "enum": "SPIKY_10083"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-crafting-spiky-vambraces-10085",
+      "output": {
+        "itemId": 10085,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 2491,
+          "quantity": 1
+        },
+        {
+          "itemId": 10113,
+          "quantity": 1
+        }
+      ],
+      "skill": "Crafting",
+      "skills": [
+        "Crafting"
+      ],
+      "level": 32,
+      "xp": 6.0,
+      "tools": [],
+      "facilities": [],
+      "requirements": [],
+      "method": [
+        "Attach kebbit claws to the vambraces"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+          "commit": "4082f9d",
+          "enum": "SPIKY_10085"
         }
       ]
     },
@@ -24537,6 +25729,942 @@
       ]
     },
     {
+      "id": "2009scape-runecrafting-staff-air",
+      "output": {
+        "itemId": 13630,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1438,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Air altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the air talisman on a runecrafting staff at the air altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "AIR_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-blood",
+      "output": {
+        "itemId": 13641,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1450,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Blood altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the blood talisman on a runecrafting staff at the blood altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BLOOD_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-body",
+      "output": {
+        "itemId": 13635,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1446,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Body altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the body talisman on a runecrafting staff at the body altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BODY_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-chaos",
+      "output": {
+        "itemId": 13637,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1452,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Chaos altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the chaos talisman on a runecrafting staff at the chaos altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHAOS_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-cosmic",
+      "output": {
+        "itemId": 13636,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1454,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Cosmic altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the cosmic talisman on a runecrafting staff at the cosmic altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "COSMIC_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-death",
+      "output": {
+        "itemId": 13640,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1456,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Death altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the death talisman on a runecrafting staff at the death altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "DEATH_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-earth",
+      "output": {
+        "itemId": 13633,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1440,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Earth altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the earth talisman on a runecrafting staff at the earth altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "EARTH_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-fire",
+      "output": {
+        "itemId": 13634,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1442,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Fire altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the fire talisman on a runecrafting staff at the fire altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "FIRE_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-law",
+      "output": {
+        "itemId": 13639,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1458,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Law altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the law talisman on a runecrafting staff at the law altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "LAW_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-mind",
+      "output": {
+        "itemId": 13631,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1448,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Mind altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the mind talisman on a runecrafting staff at the mind altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "MIND_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-nature",
+      "output": {
+        "itemId": 13638,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1462,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Nature altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the nature talisman on a runecrafting staff at the nature altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "NATURE_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-staff-water",
+      "output": {
+        "itemId": 13632,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1444,
+          "quantity": 1
+        },
+        {
+          "itemId": 13629,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 0.0,
+      "tools": [],
+      "facilities": [
+        "Water altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the water talisman on a runecrafting staff at the water altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "WATER_STAFF"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-air",
+      "output": {
+        "itemId": 5527,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1438,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 25.0,
+      "tools": [],
+      "facilities": [
+        "Air altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the air talisman on a tiara at the air altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "AIR_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-blood",
+      "output": {
+        "itemId": 5549,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1450,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 52.5,
+      "tools": [],
+      "facilities": [
+        "Blood altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the blood talisman on a tiara at the blood altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BLOOD_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-body",
+      "output": {
+        "itemId": 5533,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1446,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 37.5,
+      "tools": [],
+      "facilities": [
+        "Body altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the body talisman on a tiara at the body altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "BODY_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-chaos",
+      "output": {
+        "itemId": 5543,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1452,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 43.5,
+      "tools": [],
+      "facilities": [
+        "Chaos altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the chaos talisman on a tiara at the chaos altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "CHAOS_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-cosmic",
+      "output": {
+        "itemId": 5539,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1454,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 40.0,
+      "tools": [],
+      "facilities": [
+        "Cosmic altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the cosmic talisman on a tiara at the cosmic altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "COSMIC_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-death",
+      "output": {
+        "itemId": 5547,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1456,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 50.0,
+      "tools": [],
+      "facilities": [
+        "Death altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the death talisman on a tiara at the death altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "DEATH_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-earth",
+      "output": {
+        "itemId": 5535,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1440,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 32.5,
+      "tools": [],
+      "facilities": [
+        "Earth altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the earth talisman on a tiara at the earth altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "EARTH_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-fire",
+      "output": {
+        "itemId": 5537,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1442,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 35.0,
+      "tools": [],
+      "facilities": [
+        "Fire altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the fire talisman on a tiara at the fire altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "FIRE_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-law",
+      "output": {
+        "itemId": 5545,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1458,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 47.5,
+      "tools": [],
+      "facilities": [
+        "Law altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the law talisman on a tiara at the law altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "LAW_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-mind",
+      "output": {
+        "itemId": 5529,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1448,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 27.5,
+      "tools": [],
+      "facilities": [
+        "Mind altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the mind talisman on a tiara at the mind altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "MIND_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-nature",
+      "output": {
+        "itemId": 5541,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1462,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 45.0,
+      "tools": [],
+      "facilities": [
+        "Nature altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the nature talisman on a tiara at the nature altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "NATURE_TIARA"
+        }
+      ]
+    },
+    {
+      "id": "2009scape-runecrafting-tiara-water",
+      "output": {
+        "itemId": 5531,
+        "quantity": 1
+      },
+      "inputs": [
+        {
+          "itemId": 1444,
+          "quantity": 1
+        },
+        {
+          "itemId": 5525,
+          "quantity": 1
+        }
+      ],
+      "skill": "Runecrafting",
+      "skills": [
+        "Runecrafting"
+      ],
+      "level": 1,
+      "xp": 30.0,
+      "tools": [],
+      "facilities": [
+        "Water altar"
+      ],
+      "requirements": [],
+      "method": [
+        "Use the water talisman on a tiara at the water altar"
+      ],
+      "provenance": [
+        {
+          "source": "2009Scape",
+          "file": "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+          "commit": "4082f9d",
+          "enum": "WATER_TIARA"
+        }
+      ]
+    },
+    {
       "id": "2009scape-runecrafting-mind",
       "output": {
         "itemId": 558,
@@ -31864,15 +33992,21 @@
         "Server/src/main/content/global/skill/crafting/armour/LeatherCrafting.java",
         "Server/src/main/content/global/skill/crafting/armour/HardCraftPulse.java",
         "Server/src/main/content/global/skill/crafting/armour/SnakeSkin.java",
+        "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+        "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+        "Server/src/main/content/global/skill/crafting/limestone/ChiselLimestonePulse.java",
         "Server/src/main/content/global/skill/crafting/StuddedArmourPlugin.java",
         "Server/src/main/content/global/skill/crafting/WeaveOptionPlugin.java",
         "Server/src/main/content/global/skill/crafting/SnelmCraftPlugin.java",
         "Server/src/main/content/global/skill/crafting/TanningProduct.java",
-        "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java"
+        "Server/src/main/content/global/skill/crafting/AmuletStringingPlugin.java",
+        "Server/src/main/content/global/skill/crafting/leather/SpikyVambraces.kt",
+        "Server/src/main/content/global/skill/crafting/lightsources/LanternCrafting.kt",
+        "Server/src/main/content/global/skill/crafting/limestone/ChiselLimestonePulse.java"
       ],
       "commit": "4082f9d",
-      "generated": 131,
-      "added": 131,
+      "generated": 142,
+      "added": 142,
       "replacedWikiRows": 0
     },
     "cooking": {
@@ -31882,6 +34016,13 @@
         "Server/src/main/content/global/skill/cooking/DoughMakingListener.kt",
         "Server/src/main/content/global/skill/cooking/CakeListener.kt",
         "Server/src/main/content/global/skill/cooking/dairy/DairyProduct.java",
+        "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+        "Server/src/main/content/global/skill/cooking/SaucyKebabListener.kt",
+        "Server/src/main/content/global/skill/cooking/ChocolateBarCutter.kt",
+        "Server/src/main/content/global/skill/cooking/WatermelonSliceListener.kt",
+        "Server/src/main/content/global/skill/cooking/WineFermentListener.kt",
+        "Server/src/main/content/global/skill/cooking/fermenting/WineFermentingPulse.java",
+        "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt",
         "Server/src/main/content/global/skill/cooking/recipe/PieListener.kt",
         "Server/src/main/content/global/skill/cooking/recipe/PieShellListener.kt",
         "Server/src/main/content/global/skill/cooking/recipe/PizzaListener.kt",
@@ -31890,22 +34031,33 @@
         "Server/src/main/content/global/skill/cooking/recipe/CurryListener.kt",
         "Server/src/main/content/global/skill/cooking/recipe/PotatoListener.kt",
         "Server/src/main/content/global/skill/cooking/recipe/ChocolateCakeListener.kt",
-        "Server/src/main/content/global/skill/cooking/recipe/OomlieWrapListener.kt"
+        "Server/src/main/content/global/skill/cooking/recipe/OomlieWrapListener.kt",
+        "Server/src/main/content/global/skill/cooking/SkeweredFoodListener.kt",
+        "Server/src/main/content/global/skill/cooking/SaucyKebabListener.kt",
+        "Server/src/main/content/global/skill/cooking/ChocolateBarCutter.kt",
+        "Server/src/main/content/global/skill/cooking/WatermelonSliceListener.kt",
+        "Server/src/main/content/global/skill/cooking/WineFermentListener.kt",
+        "Server/src/main/content/global/skill/cooking/fermenting/WineFermentingPulse.java",
+        "Server/src/main/content/global/skill/cooking/fermenting/Brewable.kt"
       ],
       "commit": "4082f9d",
-      "generated": 136,
-      "added": 136,
+      "generated": 158,
+      "added": 158,
       "replacedWikiRows": 0
     },
     "runecrafting": {
       "provider": "2009Scape",
       "sourceFiles": [
         "Server/src/main/content/global/skill/runecrafting/Rune.java",
-        "Server/src/main/content/global/skill/runecrafting/CombinationRune.java"
+        "Server/src/main/content/global/skill/runecrafting/CombinationRune.java",
+        "Server/src/main/content/global/skill/runecrafting/RunecraftingData.kt",
+        "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt",
+        "Server/src/main/content/global/skill/runecrafting/RunecraftingData.kt",
+        "Server/src/main/content/global/skill/runecrafting/TalismanEnchantingListener.kt"
       ],
       "commit": "4082f9d",
-      "generated": 20,
-      "added": 20,
+      "generated": 44,
+      "added": 44,
       "replacedWikiRows": 0
     },
     "droppedNonRecipeWikiRows": {
