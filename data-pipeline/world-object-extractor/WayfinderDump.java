@@ -2,7 +2,6 @@ package rt4;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.IOException;
 import java.lang.reflect.Field;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -59,7 +58,13 @@ public final class WayfinderDump {
         EditorApp.openCache(EditorApp.CACHE_DIR);
         EditorApp.initArchives();
         EditorApp.initTypeLists();
+        if (EditorApp.XTEA_PATH == null || !new File(EditorApp.XTEA_PATH).isFile()) {
+            throw new IllegalStateException("xteas.json was not found beside the server cache.");
+        }
         EditorApp.xteas = EditorApp.loadXteas(EditorApp.XTEA_PATH);
+        if (EditorApp.xteas.isEmpty()) {
+            throw new IllegalStateException("No XTEA records were parsed from xteas.json.");
+        }
 
         int regionId = (rx << 8) | rz;
         int mapGroupId = client.js5Archive5.getGroupId(JagString.of("m" + rx + "_" + rz));
