@@ -287,7 +287,7 @@ function planeItems(index, plane){
  * Clustered NPC / monster / shop markers. There are ~14,000 spawn markers, so markers are
  * bucketed into screen-space cells at the current zoom and only the visible area is drawn.
  */
-const CLUSTER_CELL_PX = 42;
+const CLUSTER_CELL_PX = 56;
 const CLUSTER_ZOOM_STOP = 8;       // tile pyramid maximum; clusters remain active at this zoom
 const clusterKinds = [
     { type:"NPC", layer:npcLayer, index:npcByPlane, label:"NPC" },
