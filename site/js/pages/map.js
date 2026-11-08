@@ -287,8 +287,8 @@ function planeItems(index, plane){
  * Clustered NPC / monster / shop markers. There are ~14,000 spawn markers, so markers are
  * bucketed into screen-space cells at the current zoom and only the visible area is drawn.
  */
-const CLUSTER_CELL_PX = 56;
-const CLUSTER_ZOOM_STOP = 8;       // at/above this zoom every marker is drawn individually
+const CLUSTER_CELL_PX = 42;
+const CLUSTER_ZOOM_STOP = 8;       // tile pyramid maximum; clusters remain active at this zoom
 const clusterKinds = [
     { type:"NPC", layer:npcLayer, index:npcByPlane, label:"NPC" },
     { type:"Monster", layer:monsterLayer, index:monsterByPlane, label:"Monster" },
@@ -325,10 +325,8 @@ function drawKind(kind, bounds, zoom){
     for (const rec of planeItems(kind.index, currentPlane)) {
         const ll = osrsToLatLng(rec.x, rec.y);
         if (!bounds.contains(ll)) continue;
-        if (zoom >= CLUSTER_ZOOM_STOP) {
-            cells.set(cells.size + ":" + rec.x + ":" + rec.y + ":" + rec.name, [{ rec, ll }]);
-            continue;
-        }
+        // Keep clustering active at the highest available tile zoom too.
+        // Otherwise dense towns explode into hundreds of overlapping spawn icons.
         const pt = map.project(ll, zoom);
         const key = Math.floor(pt.x / CLUSTER_CELL_PX) + ":" + Math.floor(pt.y / CLUSTER_CELL_PX);
         let cell = cells.get(key);
@@ -347,9 +345,23 @@ function drawKind(kind, bounds, zoom){
         const lng = group.reduce((t, g) => t + g.ll.lng, 0) / group.length;
         const cluster = L.marker([lat, lng], { icon: clusterIcon(kind.type, group.length) });
         cluster.on("click", () => {
-            const b = L.latLngBounds(group.map(g => g.ll));
-            map.fitBounds(b.pad(0.2), { maxZoom: CLUSTER_ZOOM_STOP, animate: true });
-            if (map.getZoom() <= zoom) map.setZoom(Math.min(zoom + 2, map.getMaxZoom()));
+            if (map.getZoom() < CLUSTER_ZOOM_STOP) {
+                const b = L.latLngBounds(group.map(g => g.ll));
+                map.fitBounds(b.pad(0.2), { maxZoom: CLUSTER_ZOOM_STOP, animate: true });
+                return;
+            }
+            // At maximum map zoom, show the grouped spawn names instead of
+            // pretending another zoom level is available.
+            const names = group.slice(0, 12).map(g =>
+                "<li>" + escapeHtml(g.rec.name || kind.label) + "</li>"
+            ).join("");
+            const more = group.length > 12
+                ? "<p>+" + (group.length - 12) + " more</p>"
+                : "";
+            L.popup({ maxWidth:260 })
+                .setLatLng([lat, lng])
+                .setContent("<b>" + group.length + " " + kind.label + " spawns</b><ul>" + names + "</ul>" + more)
+                .openOn(map);
         });
         kind.layer.addLayer(cluster);
     }
@@ -381,6 +393,18 @@ window.addEventListener("resize", layoutOverlays);
 window.addEventListener("load", layoutOverlays);
 setTimeout(layoutOverlays, 400);
 setTimeout(layoutOverlays, 1500);   // the shell/app-tools bar is injected asynchronously
+
+/* Collapsible map tools: closed by default to keep the world map unobstructed. */
+const mapTools = document.getElementById("mapTools");
+const mapToolsToggle = document.getElementById("mapToolsToggle");
+function setMapToolsOpen(open) {
+    mapTools.hidden = !open;
+    mapToolsToggle.setAttribute("aria-expanded", String(open));
+    mapToolsToggle.textContent = open ? "✕ Close tools" : "☰ Map tools";
+    if (open) setTimeout(() => map.invalidateSize(), 0);
+}
+mapToolsToggle.addEventListener("click", () => setMapToolsOpen(mapTools.hidden));
+
 
 function addLocations(){
 
@@ -445,6 +469,7 @@ function addLocations(){
 
 function showLocation(loc){
 
+    setMapToolsOpen(true);
     const info =
         document.getElementById("info");
 
