@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.42",
-  "buildId": "pass31.42-20261108-1",
+  "release": "PASS31.45",
+  "buildId": "pass31.45-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -23,8 +23,8 @@
       "bytes": 3385
     },
     "character.html": {
-      "sha256": "d1875aab68731fdac03a784bf92efde0d77c74c9a647153676a91e680fc6c8ee",
-      "bytes": 3418
+      "sha256": "a2a43cc9858ebc1896f0c552735b02dbc415ba38b5ab6feb6288363bdfc6ac43",
+      "bytes": 4860
     },
     "combat-stats.html": {
       "sha256": "9f0a7aef1f777f925c6bdcef08e1fb267a8bd8b2cde4b910b1a90da9c0e779bf",
@@ -119,7 +119,7 @@
       "bytes": 217
     },
     "data/catalog-manifest.json": {
-      "sha256": "d2005ade537f4a5b0f6d5f998668a45a7a369a059e4bbd603d91d93be857f7dc",
+      "sha256": "8c12e1f38a963bdabd22fb944911bbbac18796e5e19f2599ef0b38d99bd9c64b",
       "bytes": 1436
     },
     "data/items/0.json": {
@@ -216767,7 +216767,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "c41a6a902222cbae19261685f437cfbde0847c329c252f0b6ab0835f21eee931",
+      "sha256": "8658ae1a1b4094f3f8ef49d05715ac5bb2923bd397358d9d8c46663035780b00",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216775,7 +216775,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "20673c86f0ba989d2d691c524ca56fc4d7b0693a6f3716a0c475e5a632505ed0",
+      "sha256": "297a12f5053951316b5d7686772f834d27a1c0ae7178a178cace3dbd97c604e6",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -216863,8 +216863,8 @@
       "bytes": 1116
     },
     "js/pages/character.js": {
-      "sha256": "693096e151c3fef2e6a848baa39a89b8f0a55b25d762f197c058747b8bbec7a5",
-      "bytes": 3712
+      "sha256": "d64d850d8885bde10f59d0bed9679c024032539cff36efeb920fc8321f931101",
+      "bytes": 6231
     },
     "js/pages/combat-stats.js": {
       "sha256": "89797d2e74b70b0cbc92a2affb44203b7fa95e201205c71bfbb65d8ad7c80c44",
@@ -216975,8 +216975,8 @@
       "bytes": 547
     },
     "js/services/player-sync.js": {
-      "sha256": "cabf95586acf31a4aa085ef88e6a1d347cb8784bc45f17ca9e54efe58f8d0f55",
-      "bytes": 4726
+      "sha256": "7a532ad1f331634415ad469829a1d6c4a24775fdf6827d04b9d7b09e8f6ad07b",
+      "bytes": 5315
     },
     "js/services/progress-service.js": {
       "sha256": "6d51ecec47c33ae25e025e52eed5e09247d4239e43005521663737e54f4e75f0",
@@ -217001,6 +217001,10 @@
     "js/services/requirements-service.js": {
       "sha256": "a99f79fe4ef5e40483ddcca0d815354f13b62b4dc925488a009b492baacb2e9b",
       "bytes": 1330
+    },
+    "js/services/save-import.js": {
+      "sha256": "d05ab112954df5883e8734a1d9a57bec3b760bc0ba554b8da596f38c4a3a5d8d",
+      "bytes": 16704
     },
     "js/services/search-service.js": {
       "sha256": "89b07460b50ca36ed1c6f57d60af8a1c4d55522763b3f9af37545c10ef2e0328",
@@ -217059,7 +217063,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "f4f1f5e7a13656aa7c08cad546e074e3fc4c9771ba1b9c86cde3b9b5875c4de4",
+      "sha256": "1370911e459641eaab474171728e3af9f8932bc1226cbf1047130271b4764127",
       "bytes": 499
     },
     "site.css": {
@@ -217071,7 +217075,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "460f517db7a455c5b7851ea70e04f2b73996b36e5a0a5992bd8050f714f9c090",
+      "sha256": "f26c93ce078ea6a1e5e836be1519ec6aeb0eced3f90a8b0007d191740e2c737e",
       "bytes": 4302
     }
   }

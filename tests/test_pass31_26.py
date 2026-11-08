@@ -19,8 +19,8 @@ def test_release_metadata_is_synchronized():
     rel = json.loads((SITE / "release.json").read_text())
     root = json.loads((ROOT / "release-manifest.json").read_text())
     site = json.loads((SITE / "release-manifest.json").read_text())
-    assert rel["release"] == "PASS31.42"
-    assert rel["buildId"] == "pass31.42-20261108-1"
+    assert rel["release"] == "PASS31.45"
+    assert rel["buildId"] == "pass31.45-20261108-1"
     assert root["release"] == rel["release"] and root["buildId"] == rel["buildId"]
     assert site["release"] == rel["release"] and site["buildId"] == rel["buildId"]
 
