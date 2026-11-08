@@ -21,7 +21,7 @@ class WorldObjectValidationTests(unittest.TestCase):
 
     def test_rejects_wrong_region(self):
         data = self.sample()
-        data["objects"][0]["x"] = 3200
+        data["objects"][0]["x"] = 3136
         self.assertIn("objects[0] is outside the declared region", validate(data))
 
     def test_rejects_duplicate_placement(self):
