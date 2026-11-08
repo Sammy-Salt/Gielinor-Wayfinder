@@ -25,7 +25,7 @@ if "wayfinderDumpJar" not in s:
 \n// Gielinor Wayfinder read-only region object exporter.
 task wayfinderDumpJar(type: Jar) {
     dependsOn classes
-    baseName = 'wayfinder-world-dump'
+    archiveBaseName = 'wayfinder-world-dump'
     from sourceSets.main.output
     from { configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) } }
     manifest { attributes 'Main-Class': 'rt4.WayfinderDump' }
