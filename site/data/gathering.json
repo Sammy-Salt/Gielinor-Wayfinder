@@ -1,0 +1,1864 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "Woodcutting": 19,
+  "Mining": 18,
+  "Fishing": 33,
+  "Firemaking": 18,
+  "total": 88
+ },
+ "skills": {
+  "Woodcutting": [
+   {
+    "id": "2009scape-woodcutting-achey_tree",
+    "skill": "Woodcutting",
+    "name": "Achey tree",
+    "level": 1,
+    "xp": 25.0,
+    "itemId": 2862,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "ACHEY_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-dead_tree",
+    "skill": "Woodcutting",
+    "name": "Dead tree",
+    "level": 1,
+    "xp": 25.0,
+    "itemId": 1511,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 19,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "DEAD_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-evergreen",
+    "skill": "Woodcutting",
+    "name": "Evergreen",
+    "level": 1,
+    "xp": 25.0,
+    "itemId": 1511,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 4,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "EVERGREEN",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-jungle_bush",
+    "skill": "Woodcutting",
+    "name": "Jungle bush",
+    "level": 1,
+    "xp": 100.0,
+    "itemId": 1511,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "JUNGLE_BUSH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-jungle_tree",
+    "skill": "Woodcutting",
+    "name": "Jungle tree",
+    "level": 1,
+    "xp": 25.0,
+    "itemId": 1511,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "JUNGLE_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-standard_tree",
+    "skill": "Woodcutting",
+    "name": "Tree",
+    "level": 1,
+    "xp": 25.0,
+    "itemId": 1511,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 27,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "STANDARD_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-oak_tree",
+    "skill": "Woodcutting",
+    "name": "Oak tree",
+    "level": 15,
+    "xp": 37.5,
+    "itemId": 1521,
+    "respawnTicks": [
+     14,
+     22
+    ],
+    "objectCount": 3,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "OAK_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-willow_tree",
+    "skill": "Woodcutting",
+    "name": "Willow tree",
+    "level": 30,
+    "xp": 67.8,
+    "itemId": 1519,
+    "respawnTicks": [
+     14,
+     22
+    ],
+    "objectCount": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "WILLOW_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-teak",
+    "skill": "Woodcutting",
+    "name": "Teak",
+    "level": 35,
+    "xp": 85.0,
+    "itemId": 6333,
+    "respawnTicks": [
+     35,
+     60
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "TEAK",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-dramen_tree",
+    "skill": "Woodcutting",
+    "name": "Dramen tree",
+    "level": 36,
+    "xp": 25.0,
+    "itemId": 771,
+    "respawnTicks": null,
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "DRAMEN_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-swaying_tree",
+    "skill": "Woodcutting",
+    "name": "Swaying tree",
+    "level": 40,
+    "xp": 1.0,
+    "itemId": 3692,
+    "respawnTicks": null,
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "SWAYING_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-hollow_tree",
+    "skill": "Woodcutting",
+    "name": "Hollow tree",
+    "level": 45,
+    "xp": 82.5,
+    "itemId": 3239,
+    "respawnTicks": [
+     58,
+     100
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "HOLLOW_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-maple_tree",
+    "skill": "Woodcutting",
+    "name": "Maple tree",
+    "level": 45,
+    "xp": 100.0,
+    "itemId": 1517,
+    "respawnTicks": [
+     58,
+     100
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "MAPLE_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-mahogany",
+    "skill": "Woodcutting",
+    "name": "Mahogany",
+    "level": 50,
+    "xp": 125.0,
+    "itemId": 6332,
+    "respawnTicks": [
+     62,
+     115
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "MAHOGANY",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-arctic_pine",
+    "skill": "Woodcutting",
+    "name": "Arctic pine",
+    "level": 54,
+    "xp": 40.0,
+    "itemId": 10810,
+    "respawnTicks": [
+     75,
+     130
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "ARCTIC_PINE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-eucalyptus",
+    "skill": "Woodcutting",
+    "name": "Eucalyptus",
+    "level": 58,
+    "xp": 165.0,
+    "itemId": 12581,
+    "respawnTicks": [
+     80,
+     140
+    ],
+    "objectCount": 3,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "EUCALYPTUS",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-yew",
+    "skill": "Woodcutting",
+    "name": "Yew",
+    "level": 60,
+    "xp": 175.0,
+    "itemId": 1515,
+    "respawnTicks": [
+     100,
+     162
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "YEW",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-magic_tree",
+    "skill": "Woodcutting",
+    "name": "Magic tree",
+    "level": 75,
+    "xp": 250.0,
+    "itemId": 1513,
+    "respawnTicks": [
+     200,
+     317
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "MAGIC_TREE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-woodcutting-cursed_magic_tree",
+    "skill": "Woodcutting",
+    "name": "Cursed magic tree",
+    "level": 82,
+    "xp": 275.0,
+    "itemId": 1513,
+    "respawnTicks": [
+     200,
+     317
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/woodcutting/WoodcuttingNode.java",
+     "enum": "CURSED_MAGIC_TREE",
+     "commit": "4082f9d"
+    }
+   }
+  ],
+  "Mining": [
+   {
+    "id": "2009scape-mining-clay",
+    "skill": "Mining",
+    "name": "Clay",
+    "level": 1,
+    "xp": 5.0,
+    "itemId": 434,
+    "respawnTicks": [
+     1,
+     1
+    ],
+    "objectCount": 26,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "CLAY",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-copper_ore",
+    "skill": "Mining",
+    "name": "Copper ore",
+    "level": 1,
+    "xp": 17.5,
+    "itemId": 436,
+    "respawnTicks": [
+     4,
+     8
+    ],
+    "objectCount": 45,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "COPPER_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-rune_essence",
+    "skill": "Mining",
+    "name": "Rune essence",
+    "level": 1,
+    "xp": 5.0,
+    "itemId": 1436,
+    "respawnTicks": [
+     1,
+     1
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "RUNE_ESSENCE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-tin_ore",
+    "skill": "Mining",
+    "name": "Tin ore",
+    "level": 1,
+    "xp": 17.5,
+    "itemId": 438,
+    "respawnTicks": [
+     4,
+     8
+    ],
+    "objectCount": 34,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "TIN_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-blurite_ore",
+    "skill": "Mining",
+    "name": "Blurite ore",
+    "level": 10,
+    "xp": 17.5,
+    "itemId": 668,
+    "respawnTicks": [
+     10,
+     20
+    ],
+    "objectCount": 2,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "BLURITE_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-limestone",
+    "skill": "Mining",
+    "name": "Limestone",
+    "level": 10,
+    "xp": 26.5,
+    "itemId": 3211,
+    "respawnTicks": [
+     10,
+     20
+    ],
+    "objectCount": 4,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "LIMESTONE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-iron_ore",
+    "skill": "Mining",
+    "name": "Iron ore",
+    "level": 15,
+    "xp": 35.0,
+    "itemId": 440,
+    "respawnTicks": [
+     15,
+     25
+    ],
+    "objectCount": 45,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "IRON_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-magic_stone",
+    "skill": "Mining",
+    "name": "Magic stone",
+    "level": 20,
+    "xp": 0.0,
+    "itemId": 4703,
+    "respawnTicks": [
+     100,
+     200
+    ],
+    "objectCount": 3,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "MAGIC_STONE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-silver_ore",
+    "skill": "Mining",
+    "name": "Silver ore",
+    "level": 20,
+    "xp": 40.0,
+    "itemId": 442,
+    "respawnTicks": [
+     100,
+     200
+    ],
+    "objectCount": 39,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "SILVER_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-coal",
+    "skill": "Mining",
+    "name": "Coal",
+    "level": 30,
+    "xp": 50.0,
+    "itemId": 453,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 50,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "COAL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-sandstone",
+    "skill": "Mining",
+    "name": "Sandstone",
+    "level": 35,
+    "xp": 30.0,
+    "itemId": 6971,
+    "respawnTicks": [
+     30,
+     60
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "SANDSTONE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-gem_rock",
+    "skill": "Mining",
+    "name": "Gem rock",
+    "level": 40,
+    "xp": 65.0,
+    "itemId": 1625,
+    "respawnTicks": [
+     166,
+     175
+    ],
+    "objectCount": 6,
+    "gemOutcomes": [
+     {
+      "itemId": 1625,
+      "weight": 60
+     },
+     {
+      "itemId": 1627,
+      "weight": 30
+     },
+     {
+      "itemId": 1629,
+      "weight": 15
+     },
+     {
+      "itemId": 1623,
+      "weight": 9
+     },
+     {
+      "itemId": 1621,
+      "weight": 5
+     },
+     {
+      "itemId": 1619,
+      "weight": 5
+     },
+     {
+      "itemId": 1617,
+      "weight": 4
+     }
+    ],
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "GEM_ROCK",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-gold_ore",
+    "skill": "Mining",
+    "name": "Gold ore",
+    "level": 40,
+    "xp": 65.0,
+    "itemId": 444,
+    "respawnTicks": [
+     100,
+     200
+    ],
+    "objectCount": 36,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "GOLD_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-granite",
+    "skill": "Mining",
+    "name": "Granite",
+    "level": 45,
+    "xp": 50.0,
+    "itemId": 6979,
+    "respawnTicks": [
+     10,
+     20
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "GRANITE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-rubium",
+    "skill": "Mining",
+    "name": "Rubium",
+    "level": 46,
+    "xp": 17.5,
+    "itemId": 12630,
+    "respawnTicks": [
+     50,
+     100
+    ],
+    "objectCount": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "RUBIUM",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-mithril_ore",
+    "skill": "Mining",
+    "name": "Mithril ore",
+    "level": 55,
+    "xp": 80.0,
+    "itemId": 447,
+    "respawnTicks": [
+     200,
+     400
+    ],
+    "objectCount": 44,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "MITHRIL_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-adamantite_ore",
+    "skill": "Mining",
+    "name": "Adamantite ore",
+    "level": 70,
+    "xp": 95.0,
+    "itemId": 449,
+    "respawnTicks": [
+     400,
+     800
+    ],
+    "objectCount": 40,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "ADAMANTITE_ORE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-mining-runite_ore",
+    "skill": "Mining",
+    "name": "Runite ore",
+    "level": 85,
+    "xp": 125.0,
+    "itemId": 451,
+    "respawnTicks": [
+     1250,
+     2500
+    ],
+    "objectCount": 13,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/mining/MiningNode.java",
+     "enum": "RUNITE_ORE",
+     "commit": "4082f9d"
+    }
+   }
+  ],
+  "Fishing": [
+   {
+    "id": "2009scape-fishing-crayfish_cage-crayfish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 1,
+    "xp": 10.0,
+    "itemId": 13435,
+    "option": "cage",
+    "tools": [
+     13431
+    ],
+    "bait": [],
+    "fishLevel": 1,
+    "toolLevel": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "CRAYFISH_CAGE/CRAYFISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-small_net-shrimp",
+    "skill": "Fishing",
+    "name": null,
+    "level": 1,
+    "xp": 10.0,
+    "itemId": 317,
+    "option": "net",
+    "tools": [
+     303
+    ],
+    "bait": [],
+    "fishLevel": 1,
+    "toolLevel": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "SMALL_NET/SHRIMP",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-bait-sardine",
+    "skill": "Fishing",
+    "name": null,
+    "level": 5,
+    "xp": 20.0,
+    "itemId": 327,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 5,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BAIT/SARDINE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-kbwanji_net-karambwanji",
+    "skill": "Fishing",
+    "name": null,
+    "level": 5,
+    "xp": 5.0,
+    "itemId": 3150,
+    "option": "net",
+    "tools": [
+     303
+    ],
+    "bait": [],
+    "fishLevel": 5,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "KBWANJI_NET/KARAMBWANJI",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-bait-herring",
+    "skill": "Fishing",
+    "name": null,
+    "level": 10,
+    "xp": 30.0,
+    "itemId": 345,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 10,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BAIT/HERRING",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-small_net-anchovie",
+    "skill": "Fishing",
+    "name": null,
+    "level": 15,
+    "xp": 40.0,
+    "itemId": 321,
+    "option": "net",
+    "tools": [
+     303
+    ],
+    "bait": [],
+    "fishLevel": 15,
+    "toolLevel": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "SMALL_NET/ANCHOVIE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-big_net-mackerel",
+    "skill": "Fishing",
+    "name": null,
+    "level": 16,
+    "xp": 20.0,
+    "itemId": 353,
+    "option": "net",
+    "tools": [
+     305
+    ],
+    "bait": [],
+    "fishLevel": 16,
+    "toolLevel": 16,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BIG_NET/MACKEREL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-big_net-seaweed",
+    "skill": "Fishing",
+    "name": null,
+    "level": 16,
+    "xp": 1.0,
+    "itemId": 401,
+    "option": "net",
+    "tools": [
+     305
+    ],
+    "bait": [],
+    "fishLevel": 16,
+    "toolLevel": 16,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BIG_NET/SEAWEED",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lure-trout",
+    "skill": "Fishing",
+    "name": null,
+    "level": 20,
+    "xp": 50.0,
+    "itemId": 335,
+    "option": "lure",
+    "tools": [
+     309
+    ],
+    "bait": [
+     314,
+     10087
+    ],
+    "fishLevel": 20,
+    "toolLevel": 20,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LURE/TROUT",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-big_net-cod",
+    "skill": "Fishing",
+    "name": null,
+    "level": 23,
+    "xp": 45.0,
+    "itemId": 341,
+    "option": "net",
+    "tools": [
+     305
+    ],
+    "bait": [],
+    "fishLevel": 23,
+    "toolLevel": 16,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BIG_NET/COD",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-pike_bait-pike",
+    "skill": "Fishing",
+    "name": null,
+    "level": 25,
+    "xp": 60.0,
+    "itemId": 349,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 25,
+    "toolLevel": 25,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "PIKE_BAIT/PIKE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lumbdswamp_rod-slimy_eel",
+    "skill": "Fishing",
+    "name": null,
+    "level": 28,
+    "xp": 65.0,
+    "itemId": 3379,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 28,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LUMBDSWAMP_ROD/SLIMY_EEL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-mortmyre_rod-slimy_eel",
+    "skill": "Fishing",
+    "name": null,
+    "level": 28,
+    "xp": 65.0,
+    "itemId": 3379,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 28,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "MORTMYRE_ROD/SLIMY_EEL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lure-salmon",
+    "skill": "Fishing",
+    "name": null,
+    "level": 30,
+    "xp": 70.0,
+    "itemId": 331,
+    "option": "lure",
+    "tools": [
+     309
+    ],
+    "bait": [
+     314,
+     10087
+    ],
+    "fishLevel": 30,
+    "toolLevel": 20,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LURE/SALMON",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lumbdswamp_net-frog_spawn",
+    "skill": "Fishing",
+    "name": null,
+    "level": 33,
+    "xp": 75.0,
+    "itemId": 5004,
+    "option": "net",
+    "tools": [
+     303
+    ],
+    "bait": [],
+    "fishLevel": 33,
+    "toolLevel": 1,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LUMBDSWAMP_NET/FROG_SPAWN",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barb_harpoon-tuna",
+    "skill": "Fishing",
+    "name": null,
+    "level": 35,
+    "xp": 80.0,
+    "itemId": 359,
+    "option": "harpoon",
+    "tools": [
+     10129
+    ],
+    "bait": [],
+    "fishLevel": 35,
+    "toolLevel": 35,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BARB_HARPOON/TUNA",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-harpoon-tuna",
+    "skill": "Fishing",
+    "name": null,
+    "level": 35,
+    "xp": 80.0,
+    "itemId": 359,
+    "option": "harpoon",
+    "tools": [
+     311
+    ],
+    "bait": [],
+    "fishLevel": 35,
+    "toolLevel": 35,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "HARPOON/TUNA",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lumbdswamp_rod-cave_eel",
+    "skill": "Fishing",
+    "name": null,
+    "level": 38,
+    "xp": 80.0,
+    "itemId": 5001,
+    "option": "bait",
+    "tools": [
+     307
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 38,
+    "toolLevel": 5,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LUMBDSWAMP_ROD/CAVE_EEL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lure-rainbow_fish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 38,
+    "xp": 80.0,
+    "itemId": 10138,
+    "option": "lure",
+    "tools": [
+     309
+    ],
+    "bait": [
+     314,
+     10087
+    ],
+    "fishLevel": 38,
+    "toolLevel": 20,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LURE/RAINBOW_FISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-lobster_cage-lobster",
+    "skill": "Fishing",
+    "name": null,
+    "level": 40,
+    "xp": 90.0,
+    "itemId": 377,
+    "option": "cage",
+    "tools": [
+     301
+    ],
+    "bait": [],
+    "fishLevel": 40,
+    "toolLevel": 40,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "LOBSTER_CAGE/LOBSTER",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-big_net-bass",
+    "skill": "Fishing",
+    "name": null,
+    "level": 46,
+    "xp": 100.0,
+    "itemId": 363,
+    "option": "net",
+    "tools": [
+     305
+    ],
+    "bait": [],
+    "fishLevel": 46,
+    "toolLevel": 16,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BIG_NET/BASS",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barbarian-leaping_trout",
+    "skill": "Fishing",
+    "name": null,
+    "level": 48,
+    "xp": 50.0,
+    "itemId": 11328,
+    "option": "barbarian",
+    "tools": [
+     11323
+    ],
+    "bait": [
+     314,
+     313
+    ],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 15
+     },
+     {
+      "skill": "Agility",
+      "level": 15
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 5.0
+     },
+     {
+      "skill": "Agility",
+      "xp": 5.0
+     }
+    ],
+    "notes": "Barbarian outpost fishing with a barbarian rod and feather or bait",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/fishing/barbfishing/BarbFishingPulse.kt",
+     "enum": "BARBARIAN/LEAPING_TROUT",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barb_harpoon-swordfish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 50,
+    "xp": 100.0,
+    "itemId": 371,
+    "option": "harpoon",
+    "tools": [
+     10129
+    ],
+    "bait": [],
+    "fishLevel": 50,
+    "toolLevel": 35,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "BARB_HARPOON/SWORDFISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-harpoon-swordfish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 50,
+    "xp": 100.0,
+    "itemId": 371,
+    "option": "harpoon",
+    "tools": [
+     311
+    ],
+    "bait": [],
+    "fishLevel": 50,
+    "toolLevel": 35,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "HARPOON/SWORDFISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-oily_fishing_rod-lava_eel",
+    "skill": "Fishing",
+    "name": null,
+    "level": 53,
+    "xp": 60.0,
+    "itemId": 2148,
+    "option": "bait",
+    "tools": [
+     1585
+    ],
+    "bait": [
+     313
+    ],
+    "fishLevel": 53,
+    "toolLevel": 53,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "OILY_FISHING_ROD/LAVA_EEL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barehand-tuna",
+    "skill": "Fishing",
+    "name": null,
+    "level": 55,
+    "xp": 80.0,
+    "itemId": 359,
+    "option": "barehand",
+    "tools": [],
+    "bait": [],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 35
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 8.0
+     }
+    ],
+    "notes": "Barbarian training: bare-hand fishing",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/Fish.kt",
+     "enum": "BAREHAND/TUNA",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barbarian-leaping_salmon",
+    "skill": "Fishing",
+    "name": null,
+    "level": 58,
+    "xp": 70.0,
+    "itemId": 11330,
+    "option": "barbarian",
+    "tools": [
+     11323
+    ],
+    "bait": [
+     314,
+     313
+    ],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 30
+     },
+     {
+      "skill": "Agility",
+      "level": 30
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 6.0
+     },
+     {
+      "skill": "Agility",
+      "xp": 6.0
+     }
+    ],
+    "notes": "Barbarian outpost fishing with a barbarian rod and feather or bait",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/fishing/barbfishing/BarbFishingPulse.kt",
+     "enum": "BARBARIAN/LEAPING_SALMON",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-monkfish_net-monkfish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 62,
+    "xp": 120.0,
+    "itemId": 7944,
+    "option": "net",
+    "tools": [
+     303
+    ],
+    "bait": [],
+    "fishLevel": 62,
+    "toolLevel": 62,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "MONKFISH_NET/MONKFISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-karambwan_ves-karambwan",
+    "skill": "Fishing",
+    "name": null,
+    "level": 65,
+    "xp": 105.0,
+    "itemId": 3142,
+    "option": "fish",
+    "tools": [
+     3157
+    ],
+    "bait": [
+     3150
+    ],
+    "fishLevel": 65,
+    "toolLevel": 65,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "KARAMBWAN_VES/KARAMBWAN",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barbarian-leaping_sturgeon",
+    "skill": "Fishing",
+    "name": null,
+    "level": 70,
+    "xp": 80.0,
+    "itemId": 11332,
+    "option": "barbarian",
+    "tools": [
+     11323
+    ],
+    "bait": [
+     314,
+     313
+    ],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 45
+     },
+     {
+      "skill": "Agility",
+      "level": 45
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 7.0
+     },
+     {
+      "skill": "Agility",
+      "xp": 7.0
+     }
+    ],
+    "notes": "Barbarian outpost fishing with a barbarian rod and feather or bait",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/gather/fishing/barbfishing/BarbFishingPulse.kt",
+     "enum": "BARBARIAN/LEAPING_STURGEON",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barehand-swordfish",
+    "skill": "Fishing",
+    "name": null,
+    "level": 70,
+    "xp": 100.0,
+    "itemId": 371,
+    "option": "barehand",
+    "tools": [],
+    "bait": [],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 50
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 10.0
+     }
+    ],
+    "notes": "Barbarian training: bare-hand fishing",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/Fish.kt",
+     "enum": "BAREHAND/SWORDFISH",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-shark_harpoon-shark",
+    "skill": "Fishing",
+    "name": null,
+    "level": 76,
+    "xp": 110.0,
+    "itemId": 383,
+    "option": "harpoon",
+    "tools": [
+     311
+    ],
+    "bait": [],
+    "fishLevel": 76,
+    "toolLevel": 76,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/FishingOption.kt",
+     "enum": "SHARK_HARPOON/SHARK",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-fishing-barehand-shark",
+    "skill": "Fishing",
+    "name": null,
+    "level": 96,
+    "xp": 110.0,
+    "itemId": 383,
+    "option": "barehand",
+    "tools": [],
+    "bait": [],
+    "requirements": [
+     {
+      "skill": "Strength",
+      "level": 76
+     }
+    ],
+    "extraXp": [
+     {
+      "skill": "Strength",
+      "xp": 11.0
+     }
+    ],
+    "notes": "Barbarian training: bare-hand fishing",
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/fishing/Fish.kt",
+     "enum": "BAREHAND/SHARK",
+     "commit": "4082f9d"
+    }
+   }
+  ],
+  "Firemaking": [
+   {
+    "id": "2009scape-firemaking-achey",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 40.0,
+    "itemId": 2862,
+    "burnTicks": 180,
+    "fireObjectId": 2732,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "ACHEY",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-blue",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 7406,
+    "burnTicks": 200,
+    "fireObjectId": 11406,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "BLUE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-green",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 7405,
+    "burnTicks": 200,
+    "fireObjectId": 11405,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "GREEN",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-jogre",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 3125,
+    "burnTicks": 200,
+    "fireObjectId": 3862,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "JOGRE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-normal",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 40.0,
+    "itemId": 1511,
+    "burnTicks": 180,
+    "fireObjectId": 2732,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "NORMAL",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-purple",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 10329,
+    "burnTicks": 200,
+    "fireObjectId": 20001,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "PURPLE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-red",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 7404,
+    "burnTicks": 200,
+    "fireObjectId": 11404,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "RED",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-white",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 1,
+    "xp": 50.0,
+    "itemId": 10328,
+    "burnTicks": 200,
+    "fireObjectId": 20000,
+    "bowLevel": 21,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "WHITE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-oak",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 15,
+    "xp": 60.0,
+    "itemId": 1521,
+    "burnTicks": 200,
+    "fireObjectId": 2732,
+    "bowLevel": 35,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "OAK",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-willow",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 30,
+    "xp": 90.0,
+    "itemId": 1519,
+    "burnTicks": 250,
+    "fireObjectId": 2732,
+    "bowLevel": 50,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "WILLOW",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-teak",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 35,
+    "xp": 105.0,
+    "itemId": 6333,
+    "burnTicks": 300,
+    "fireObjectId": 2732,
+    "bowLevel": 55,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "TEAK",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-arctic_pine",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 42,
+    "xp": 125.0,
+    "itemId": 10810,
+    "burnTicks": 500,
+    "fireObjectId": 2732,
+    "bowLevel": 62,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "ARCTIC_PINE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-maple",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 45,
+    "xp": 135.0,
+    "itemId": 1517,
+    "burnTicks": 300,
+    "fireObjectId": 2732,
+    "bowLevel": 65,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "MAPLE",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-mahogany",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 50,
+    "xp": 157.5,
+    "itemId": 6332,
+    "burnTicks": 300,
+    "fireObjectId": 2732,
+    "bowLevel": 70,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "MAHOGANY",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-eucalyptus",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 58,
+    "xp": 193.5,
+    "itemId": 12581,
+    "burnTicks": 300,
+    "fireObjectId": 2732,
+    "bowLevel": 78,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "EUCALYPTUS",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-yew",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 60,
+    "xp": 202.5,
+    "itemId": 1515,
+    "burnTicks": 400,
+    "fireObjectId": 2732,
+    "bowLevel": 80,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "YEW",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-magic",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 75,
+    "xp": 303.8,
+    "itemId": 1513,
+    "burnTicks": 450,
+    "fireObjectId": 2732,
+    "bowLevel": 95,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "MAGIC",
+     "commit": "4082f9d"
+    }
+   },
+   {
+    "id": "2009scape-firemaking-cursed_magic",
+    "skill": "Firemaking",
+    "name": null,
+    "level": 82,
+    "xp": 303.8,
+    "itemId": 13567,
+    "burnTicks": 650,
+    "fireObjectId": 2732,
+    "provenance": {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/firemaking/Log.java",
+     "enum": "CURSED_MAGIC",
+     "commit": "4082f9d"
+    }
+   }
+  ]
+ }
+}
