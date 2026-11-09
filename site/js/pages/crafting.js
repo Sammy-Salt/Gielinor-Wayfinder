@@ -1,6 +1,7 @@
 import { OSRSSync } from "../services/player-sync.js";
 import { OSRS } from "../core/osrs.js";
-import { assess, describe, buildHoldings, buildLevels } from "../services/recipe-ready.js";
+import { assess, describe, buildHoldings, buildLevels, buildContext } from "../services/recipe-ready.js";
+import { QUEST_NAMES } from "../services/quest-ids.js";
 
 const $ = (id) => document.getElementById(id);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -14,6 +15,7 @@ const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
 let data = [];
 let names = new Map();
 let held = new Map();
+let ctx = null;
 let levels = new Map();
 let saveLabel = "";
 let catalogSize = 0;
@@ -79,7 +81,7 @@ function normalizeRecipe(recipe, index) {
 }
 
 function check(recipe) {
-    return assess(recipe, levels, held);
+    return assess(recipe, levels, held, ctx);
 }
 
 function canMake(recipe) {
@@ -203,6 +205,7 @@ async function init() {
         const player = OSRSSync.getData();
         levels = buildLevels(player);
         held = buildHoldings(player);
+        ctx = buildContext(player, Object.values(QUEST_NAMES));
         saveLabel = player.source?.character ? ` (${player.source.character}: inventory, bank and equipment)` : "";
 
         await loadRecipes();

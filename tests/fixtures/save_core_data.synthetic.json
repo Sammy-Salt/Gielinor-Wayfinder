@@ -3,32 +3,128 @@
   "version": 4,
   "username": "fixture_player",
   "skills": [
-    {"id": "0", "static": "60", "dynamic": "58", "experience": "273742.0"},
-    {"id": "3", "static": "62", "dynamic": "55", "experience": "370000.5"},
-    {"id": "7", "static": "40", "dynamic": "40", "experience": "37224.0"},
-    {"id": "12", "static": "55", "dynamic": "55", "experience": "166636.0"},
-    {"id": "15", "static": "30", "dynamic": "30", "experience": "13363.0"},
-    {"id": "20", "static": "20", "dynamic": "20", "experience": "4470.0"}
+    {
+      "id": "0",
+      "static": "60",
+      "dynamic": "58",
+      "experience": "273742.0"
+    },
+    {
+      "id": "3",
+      "static": "62",
+      "dynamic": "55",
+      "experience": "370000.5"
+    },
+    {
+      "id": "7",
+      "static": "40",
+      "dynamic": "40",
+      "experience": "37224.0"
+    },
+    {
+      "id": "12",
+      "static": "55",
+      "dynamic": "55",
+      "experience": "166636.0"
+    },
+    {
+      "id": "15",
+      "static": "30",
+      "dynamic": "30",
+      "experience": "13363.0"
+    },
+    {
+      "id": "20",
+      "static": "20",
+      "dynamic": "20",
+      "experience": "4470.0"
+    }
   ],
   "core_data": {
     "location": "3222,3218,0",
     "inventory": [
-      {"slot": "0", "id": "995", "amount": "12500", "charge": "1000"},
-      {"slot": "1", "id": "1755", "amount": "1", "charge": "1000"},
-      {"slot": "5", "id": "1733", "amount": "1", "charge": "1000"}
+      {
+        "slot": "0",
+        "id": "995",
+        "amount": "12500",
+        "charge": "1000"
+      },
+      {
+        "slot": "1",
+        "id": "1755",
+        "amount": "1",
+        "charge": "1000"
+      },
+      {
+        "slot": "5",
+        "id": "1733",
+        "amount": "1",
+        "charge": "1000"
+      }
     ],
-    "equipment": [{"slot": "3", "id": "1277", "amount": "1", "charge": "1000"}],
+    "equipment": [
+      {
+        "slot": "3",
+        "id": "1277",
+        "amount": "1",
+        "charge": "1000"
+      }
+    ],
     "bank": [
-      {"slot": "0", "id": "1741", "amount": "250", "charge": "1000"},
-      {"slot": "1", "id": "1734", "amount": "100", "charge": "1000"}
+      {
+        "slot": "0",
+        "id": "1741",
+        "amount": "250",
+        "charge": "1000"
+      },
+      {
+        "slot": "1",
+        "id": "1734",
+        "amount": "100",
+        "charge": "1000"
+      }
     ]
   },
   "quests": {
     "points": 7,
     "questStages": [
-      {"questId": "15", "questStage": "100"},
-      {"questId": "17", "questStage": "100"},
-      {"questId": "14", "questStage": "20"}
+      {
+        "questId": "15",
+        "questStage": "100"
+      },
+      {
+        "questId": "19",
+        "questStage": "100"
+      },
+      {
+        "questId": "27",
+        "questStage": "100"
+      },
+      {
+        "questId": "28",
+        "questStage": "100"
+      },
+      {
+        "questId": "14",
+        "questStage": "20"
+      }
     ]
-  }
+  },
+  "attributes": [
+    {
+      "type": "int",
+      "key": "barbtraining:herblore",
+      "value": "1"
+    },
+    {
+      "type": "bool",
+      "key": "fixture:flag",
+      "value": true
+    },
+    {
+      "type": "str",
+      "key": "fixture:text",
+      "value": "x"
+    }
+  ]
 }

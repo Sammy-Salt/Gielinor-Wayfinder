@@ -26,8 +26,11 @@ eq(s.inventory.map(i => [i.id, i.amount]), [[995, 12500], [1755, 1], [1733, 1]],
 eq(s.bank.map(i => [i.id, i.amount]), [[1741, 250], [1734, 100]], 'bank');
 eq(s.equipment.map(i => i.id), [1277], 'equipment');
 eq(s.quests.questPoints, 7, 'quest points');
-eq(s.quests.items.filter(q => q.completed).map(q => q.name), ['Sheep Shearer', 'Vampire Slayer'], 'completed quests');
-eq(s.quests.items.find(q => q.id === 14).completed, false, 'Rune Mysteries in progress');
+// ids are Quest.index from the server source (not guesses): 15 Cook's Assistant, 19 Ernest the Chicken, 27 Rune Mysteries, 28 Sheep Shearer
+eq(s.quests.items.filter(q => q.completed).map(q => q.name), ["Cook's Assistant", 'Ernest the Chicken', 'Rune Mysteries', 'Sheep Shearer'], 'completed quests');
+eq(s.quests.items.find(q => q.id === 14), { id: 14, name: "Black Knights' Fortress", stage: 20, completed: false }, 'quest in progress');
+eq(s.attributes, { 'barbtraining:herblore': 1, 'fixture:flag': true, 'fixture:text': 'x' }, 'saved attributes by type');
+eq(normalizeSave({ ...raw, attributes: undefined }, { fileName: 'a.json' }).attributes, {}, 'raw save without attributes means none set');
 eq(s.player.totalXP, raw.skills.reduce((n, x) => n + Number(x.experience), 0), 'totalXP sums skills');
 
 // normalized snapshots pass through untouched

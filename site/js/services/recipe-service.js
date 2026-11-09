@@ -1,7 +1,8 @@
 import { OSRS } from "../core/osrs.js";
 import { escapeHTML as esc } from "../core/utils.js";
 import { OSRSSync } from "./player-sync.js";
-import { assess, describe, buildHoldings, buildLevels } from "./recipe-ready.js";
+import { assess, describe, buildHoldings, buildLevels, buildContext } from "./recipe-ready.js";
+import { QUEST_NAMES } from "./quest-ids.js";
 
 let cache = null;
 async function load() {
@@ -26,7 +27,7 @@ async function character() {
   try {
     await OSRSSync.load();
     const snap = OSRSSync.getData();
-    return snap ? { levels: buildLevels(snap), held: buildHoldings(snap), who: snap.source?.character || "" } : null;
+    return snap ? { levels: buildLevels(snap), held: buildHoldings(snap), ctx: buildContext(snap, Object.values(QUEST_NAMES)), who: snap.source?.character || "" } : null;
   } catch { return null; }
 }
 
@@ -34,7 +35,7 @@ function entry(names, r, who) {
   const ins = (r.inputs || []).map(i => qty(names, i)).join(" + ") || "—";
   const extra = [...(r.tools || []), ...(r.facilities || [])].filter(Boolean);
   const xp = r.xp ? ` · ${esc(r.xp)} xp` : "";
-  const badge = who ? describe(assess(r, who.levels, who.held), (id) => names.get(Number(id)) || `Item ${id}`) : null;
+  const badge = who ? describe(assess(r, who.levels, who.held, who.ctx), (id) => names.get(Number(id)) || `Item ${id}`) : null;
   const status = badge ? `<div class="${badge.cls === "ready" ? "recipe-ready" : "recipe-missing"}">${esc(badge.text)}</div>` : "";
   return `<div class="source-entry"><strong>${esc(r.skill)} ${esc(r.level)}</strong>${xp}${status}<div>${ins} → ${qty(names, r.output)}</div>${extra.length ? `<div class="muted">${esc(extra.join(", "))}</div>` : ""}</div>`;
 }

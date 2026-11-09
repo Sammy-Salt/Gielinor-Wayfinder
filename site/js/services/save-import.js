@@ -8,6 +8,7 @@
  * Real 2009Scape v4 player JSON (e.g. sam.json) stores containers under
  * core_data, location as "x,y,plane", and quests as questStages + points.
  */
+import { QUEST_NAMES } from './quest-ids.js';
 import { Storage } from '../core/storage.js';
 import { OSRSSync } from './player-sync.js';
 
@@ -24,26 +25,7 @@ const SKILL_NAMES = [
   'Runecrafting', 'Hunter', 'Construction', 'Summoning'
 ];
 
-/** Common 2009Scape quest id → display name (matches shipped player-sync). */
-const QUEST_NAMES = {
-  14: 'Rune Mysteries', 15: 'Sheep Shearer', 16: 'Shield of Arrav', 17: 'Vampire Slayer',
-  18: "Witch's Potion", 19: 'Animal Magnetism', 20: 'Between a Rock...', 21: 'Big Chompy Bird Hunting',
-  22: 'Biohazard', 23: 'Cabin Fever', 24: 'Clock Tower', 25: 'Contact!', 26: 'Zogre Flesh Eaters',
-  27: 'Creature of Fenkenstrain', 28: 'Darkness of Hallowvale', 29: 'Death to the Dorgeshuun',
-  30: 'Death Plateau', 31: 'Desert Treasure', 33: 'The Dig Site', 35: 'Dwarf Cannon',
-  38: 'Elemental Workshop I', 40: "Enakhra's Lament", 41: 'Enlightened Journey',
-  44: 'Fairytale II - Cure a Queen', 45: 'Family Crest', 47: 'Fight Arena', 48: 'Fishing Contest',
-  49: 'Forgettable Tale', 52: 'Garden of Tranquility', 59: 'Haunted Mine', 61: "Heroes' Quest",
-  62: 'Holy Grail', 64: "Icthlarin's Little Helper", 65: 'In Aid of the Myreque', 67: 'Jungle Potion',
-  70: 'The Lost Tribe', 71: 'Lunar Diplomacy', 74: 'Monkey Madness', 75: "Monk's Friend",
-  81: 'Nature Spirit', 83: 'One Small Favour', 84: 'Plague City', 87: 'Ratcatchers',
-  89: 'Recruitment Drive', 93: 'Rum Deal', 95: 'Sea Slug', 96: 'The Slug Menace',
-  98: 'Shadow of the Storm', 99: 'Sheep Herder', 100: 'Shilo Village', 103: 'Swan Song',
-  105: 'A Tail of Two Cats', 108: 'Throne of Miscellania', 109: 'The Tourist Trap',
-  113: 'Troll Romance', 120: 'Tower of Life', 121: 'The Great Brain Robbery', 123: "Olaf's Quest",
-  124: 'Another Slice of H.A.M.', 125: 'Dream Mentor', 126: 'Grim Tales',
-  128: 'The Path of Glouphrie', 136: 'Legacy of Seergaze', 146: 'Swept Away', 157: 'Unknown 2009Scape Quest 157'
-};
+// Quest id → name comes from the server source (Quest.index), generated into quest-ids.js.
 
 function nowIso() {
   return new Date().toISOString();
@@ -162,6 +144,24 @@ function parseLocation(raw, core) {
     }
   }
   return { x: 0, y: 0, plane: 0 };
+}
+
+/**
+ * Saved game attributes: [{type, key, value}] (PlayerSaver.saveAttributes; the "/save:" prefix is already stripped).
+ * Returned as {key: value}. A real v4 save omits the array when nothing is saved, so for raw saves {} means "none set".
+ */
+function normalizeAttributes(rawAttributes) {
+  const out = {};
+  for (const row of asArray(rawAttributes)) {
+    if (!row || typeof row.key !== 'string') continue;
+    const v = row.value;
+    switch (row.type) {
+      case 'int': case 'short': case 'long': out[row.key] = Number(v) || 0; break;
+      case 'bool': out[row.key] = v === true || v === 'true'; break;
+      default: out[row.key] = typeof v === 'string' ? v : String(v ?? '');
+    }
+  }
+  return out;
 }
 
 function normalizeQuests(rawQuests, questPointsFallback) {
@@ -305,6 +305,7 @@ export function normalizeSave(raw, meta = {}) {
     equipment,
     bank,
     location,
+    attributes: normalizeAttributes(raw.attributes),
     slayer: raw.slayer && typeof raw.slayer === 'object' ? raw.slayer : {},
     achievementDiaries: asArray(raw.achievementDiaries ?? raw.diaries),
     statistics

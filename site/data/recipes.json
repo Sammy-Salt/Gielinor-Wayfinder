@@ -731,6 +731,9 @@
           "commit": "4082f9d",
           "enum": "CHOCOLATE_DUST"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -1087,6 +1090,9 @@
           "commit": "4082f9d",
           "enum": "WATERMELON_SLICE"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -6206,6 +6212,9 @@
           "commit": "4082f9d",
           "enum": "OPAL"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -6241,6 +6250,9 @@
           "commit": "4082f9d",
           "enum": "BEER_GLASS"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -6955,6 +6967,9 @@
           "commit": "4082f9d",
           "enum": "CANDLE_LANTERN"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -7593,6 +7608,9 @@
           "commit": "4082f9d",
           "enum": "OIL_LAMP"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -7666,6 +7684,9 @@
           "commit": "4082f9d",
           "enum": "JADE"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8083,6 +8104,9 @@
           "snapshot": "PASS31.9",
           "page": "Broken crab claw"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8116,6 +8140,9 @@
           "snapshot": "PASS31.9",
           "page": "Broken crab shell"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8149,6 +8176,9 @@
           "snapshot": "PASS31.9",
           "page": "Crab claw"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8182,6 +8212,9 @@
           "snapshot": "PASS31.9",
           "page": "Crab helmet"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8217,6 +8250,9 @@
           "commit": "4082f9d",
           "enum": "RED_TOPAZ"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8238,7 +8274,7 @@
       "level": 16,
       "xp": 50.0,
       "tools": [
-        "Mould 1599"
+        "Holy mould"
       ],
       "facilities": [
         "Furnace"
@@ -8278,7 +8314,7 @@
       "level": 17,
       "xp": 50.0,
       "tools": [
-        "Mould 1594"
+        "Unholy mould"
       ],
       "facilities": [
         "Furnace"
@@ -8360,7 +8396,7 @@
       "level": 18,
       "xp": 50.0,
       "tools": [
-        "Mould 2976"
+        "Sickle mould"
       ],
       "facilities": [
         "Furnace"
@@ -8657,6 +8693,9 @@
           "snapshot": "PASS31.9",
           "page": "Bar magnet"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -8692,6 +8731,9 @@
           "commit": "4082f9d",
           "enum": "SAPPHIRE"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -8794,7 +8836,7 @@
       "level": 20,
       "xp": 50.0,
       "tools": [
-        "Mould 4200"
+        "Conductor mould"
       ],
       "facilities": [
         "Furnace"
@@ -8834,7 +8876,7 @@
       "level": 21,
       "xp": 50.0,
       "tools": [
-        "Mould 9434"
+        "Bolt mould"
       ],
       "facilities": [
         "Furnace"
@@ -8997,7 +9039,7 @@
       "level": 23,
       "xp": 52.5,
       "tools": [
-        "Mould 5523"
+        "Tiara mould"
       ],
       "facilities": [
         "Furnace"
@@ -9188,7 +9230,7 @@
       "level": 25,
       "xp": 55.0,
       "tools": [
-        "Mould 7649"
+        "Rod clay mould"
       ],
       "facilities": [
         "Furnace"
@@ -9242,6 +9284,9 @@
           "commit": "4082f9d",
           "enum": "EMERALD"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -9565,6 +9610,9 @@
           "snapshot": "PASS31.9",
           "page": "Dramen staff"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -9785,6 +9833,9 @@
           "commit": "4082f9d",
           "enum": "VIAL"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -9820,6 +9871,9 @@
           "commit": "4082f9d",
           "enum": "RUBY"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -10057,6 +10111,9 @@
           "commit": "4082f9d",
           "enum": "FISHBOWL"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -10136,6 +10193,9 @@
           "commit": "4082f9d",
           "enum": "DIAMOND"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -10294,6 +10354,9 @@
           "commit": "4082f9d",
           "enum": "ORB"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -10315,7 +10378,7 @@
       "level": 47,
       "xp": 100.0,
       "tools": [
-        "Mould 13153"
+        "Chain link mould"
       ],
       "facilities": [
         "Furnace"
@@ -10453,6 +10516,9 @@
           "commit": "4082f9d",
           "enum": "LANTERN_LENS"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -10690,6 +10756,9 @@
           "commit": "4082f9d",
           "enum": "DRAGONSTONE"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -11505,6 +11574,9 @@
           "commit": "4082f9d",
           "enum": "ONYX"
         }
+      ],
+      "toolItemIds": [
+        1755
       ]
     },
     {
@@ -12302,6 +12374,9 @@
           "commit": "4082f9d",
           "enum": "LIGHT_ORB"
         }
+      ],
+      "toolItemIds": [
+        1785
       ]
     },
     {
@@ -12418,6 +12493,9 @@
           "snapshot": "PASS31.9",
           "page": "Raw giant carp"
         }
+      ],
+      "toolItemIds": [
+        307
       ]
     },
     {
@@ -12453,6 +12531,9 @@
           "snapshot": "PASS31.9",
           "page": "Raw lava eel"
         }
+      ],
+      "toolItemIds": [
+        1585
       ]
     },
     {
@@ -12492,6 +12573,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BRONZE_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -12531,6 +12615,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BRONZE_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -12570,6 +12657,9 @@
           "commit": "2009scape-uploaded",
           "enum": "HEADLESS_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -12605,6 +12695,9 @@
           "commit": "2009scape-uploaded",
           "enum": "ARROW_SHAFT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -12896,6 +12989,9 @@
           "commit": "2009scape-uploaded",
           "enum": "FLIGHTED_OGRE_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -12932,7 +13028,10 @@
           "enum": "OGRE_ARROW_SHAFT"
         }
       ],
-      "outputNotes": "Variable quantity (2-6)"
+      "outputNotes": "Variable quantity (2-6)",
+      "toolItemIds": [
+        946
+      ]
     },
     {
       "id": "2009scape-fletching-log-short_bow",
@@ -12967,6 +13066,9 @@
           "commit": "2009scape-uploaded",
           "enum": "SHORT_BOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -13294,6 +13396,9 @@
           "snapshot": "PASS31.9",
           "page": "Bronze brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -13333,6 +13438,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BRONZE_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -13372,6 +13480,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WOODEN_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -13407,6 +13518,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WOODEN_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -13695,6 +13809,9 @@
           "commit": "2009scape-uploaded",
           "enum": "LONG_BOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14239,6 +14356,9 @@
           "commit": "2009scape-uploaded",
           "enum": "IRON_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14313,6 +14433,9 @@
           "snapshot": "PASS31.9",
           "page": "Iron brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -14348,6 +14471,9 @@
           "commit": "2009scape-uploaded",
           "enum": "OAK_SHORTBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14424,6 +14550,9 @@
           "commit": "2009scape-uploaded",
           "enum": "IRON_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14679,6 +14808,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BLURITE_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14718,6 +14850,9 @@
           "commit": "2009scape-uploaded",
           "enum": "OAK_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -14753,6 +14888,9 @@
           "commit": "2009scape-uploaded",
           "enum": "OAK_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15041,6 +15179,9 @@
           "commit": "2009scape-uploaded",
           "enum": "OAK_LONGBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15189,6 +15330,9 @@
           "commit": "2009scape-uploaded",
           "enum": "STEEL_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15228,6 +15372,9 @@
           "commit": "2009scape-uploaded",
           "enum": "OGRE_COMP_BOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15339,6 +15486,9 @@
           "snapshot": "PASS31.9",
           "page": "Steel brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -15374,6 +15524,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WILLOW_SHORTBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15450,6 +15603,9 @@
           "commit": "2009scape-uploaded",
           "enum": "STEEL_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15704,6 +15860,9 @@
           "snapshot": "PASS31.9",
           "page": "Black brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -15743,6 +15902,9 @@
           "commit": "2009scape-uploaded",
           "enum": "IRON_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15782,6 +15944,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WILLOW_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -15817,6 +15982,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WILLOW_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16105,6 +16273,9 @@
           "commit": "2009scape-uploaded",
           "enum": "WILLOW_LONGBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16217,6 +16388,9 @@
           "commit": "2009scape-uploaded",
           "enum": "SILVER_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16472,6 +16646,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MITHRIL_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16511,6 +16688,9 @@
           "commit": "2009scape-uploaded",
           "enum": "STEEL_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16550,6 +16730,9 @@
           "commit": "2009scape-uploaded",
           "enum": "TEAK_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16585,6 +16768,9 @@
           "commit": "2009scape-uploaded",
           "enum": "TEAK_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -16912,6 +17098,9 @@
           "snapshot": "PASS31.9",
           "page": "Mithril brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -16947,6 +17136,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAPLE_SHORTBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17059,6 +17251,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BROAD_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17098,6 +17293,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MITHRIL_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17353,6 +17551,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MITHRIL_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17392,6 +17593,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAPLE_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17427,6 +17631,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAPLE_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17719,6 +17926,9 @@
           "commit": "2009scape-uploaded",
           "enum": "BROAD_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17754,6 +17964,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAPLE_LONGBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17902,6 +18115,9 @@
           "commit": "2009scape-uploaded",
           "enum": "ADAMANT_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -17977,6 +18193,9 @@
           "commit": "2009scape-uploaded",
           "enum": "ADAMANTITE_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18016,6 +18235,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAHOGANY_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18051,6 +18273,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAHOGANY_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18342,6 +18567,9 @@
           "snapshot": "PASS31.9",
           "page": "Adamant brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -18413,6 +18641,9 @@
           "commit": "2009scape-uploaded",
           "enum": "YEW_SHORTBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18525,6 +18756,9 @@
           "commit": "2009scape-uploaded",
           "enum": "ADAMANT_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18780,6 +19014,9 @@
           "commit": "2009scape-uploaded",
           "enum": "RUNITE_BOLT"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18819,6 +19056,9 @@
           "commit": "2009scape-uploaded",
           "enum": "YEW_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18854,6 +19094,9 @@
           "commit": "2009scape-uploaded",
           "enum": "YEW_STOCK"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -18926,6 +19169,9 @@
           "commit": "2009scape-uploaded",
           "enum": "YEW_LONGBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19002,6 +19248,9 @@
           "commit": "2009scape-uploaded",
           "enum": "RUNE_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19076,6 +19325,9 @@
           "snapshot": "PASS31.9",
           "page": "Rune brutal"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -19111,6 +19363,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAGIC_SHORTBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19187,6 +19442,9 @@
           "commit": "2009scape-uploaded",
           "enum": "RUNE_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19438,6 +19696,9 @@
           "commit": "2009scape-uploaded",
           "enum": "MAGIC_LONGBOW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19514,6 +19775,9 @@
           "commit": "2009scape-uploaded",
           "enum": "DRAGON_ARROW"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19589,6 +19853,9 @@
           "commit": "2009scape-uploaded",
           "enum": "DRAGON_DART"
         }
+      ],
+      "toolItemIds": [
+        946
       ]
     },
     {
@@ -19840,6 +20107,9 @@
           "commit": "4082f9d",
           "enum": "ANCHOVIES"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -19875,6 +20145,9 @@
           "commit": "4082f9d",
           "enum": "ASHES"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -19910,6 +20183,9 @@
           "commit": "4082f9d",
           "enum": "ASTRAL_RUNE_SHARDS"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -19945,6 +20221,9 @@
           "commit": "4082f9d",
           "enum": "BAT_BONES"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -19980,6 +20259,9 @@
           "commit": "4082f9d",
           "enum": "BIRDS_NEST"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20015,6 +20297,9 @@
           "commit": "4082f9d",
           "enum": "CHARCOAL"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20050,6 +20335,9 @@
           "commit": "4082f9d",
           "enum": "CHOCOLATE_BAR"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20085,6 +20373,9 @@
           "commit": "4082f9d",
           "enum": "DRAGON_SCALE"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20120,6 +20411,9 @@
           "commit": "4082f9d",
           "enum": "FISHING_BAIT"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20155,6 +20449,9 @@
           "commit": "4082f9d",
           "enum": "GARLIC"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20190,6 +20487,9 @@
           "commit": "4082f9d",
           "enum": "GOAT_HORN"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20225,6 +20525,9 @@
           "commit": "4082f9d",
           "enum": "GUAM_LEAF"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20260,6 +20563,9 @@
           "commit": "4082f9d",
           "enum": "KEBBIT_TEETH"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20295,6 +20601,9 @@
           "commit": "4082f9d",
           "enum": "MUD_RUNE"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20330,6 +20639,9 @@
           "commit": "4082f9d",
           "enum": "POISON_KARAMBWAN"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20365,6 +20677,9 @@
           "commit": "4082f9d",
           "enum": "SEAWEED"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20400,6 +20715,9 @@
           "commit": "4082f9d",
           "enum": "UNICORN_HORN"
         }
+      ],
+      "toolItemIds": [
+        233
       ]
     },
     {
@@ -20700,8 +21018,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -20742,8 +21062,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -20964,8 +21286,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -21006,8 +21330,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -21090,8 +21416,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -21132,8 +21460,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -21327,8 +21657,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -21369,8 +21701,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22106,8 +22440,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22148,8 +22484,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22302,8 +22640,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22566,8 +22906,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22752,8 +23094,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -22868,8 +23212,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23017,8 +23363,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23170,8 +23518,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23356,8 +23706,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23477,8 +23829,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23663,8 +24017,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23784,8 +24140,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23826,8 +24184,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -23938,8 +24298,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -24665,8 +25027,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -24921,8 +25285,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -25111,8 +25477,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -25153,8 +25521,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -25413,8 +25783,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -25566,8 +25938,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -25608,8 +25982,10 @@
       "facilities": [],
       "requirements": [
         {
-          "type": "other",
-          "name": "Barbarian Herblore training (Otto Godblessed)"
+          "type": "unlock",
+          "name": "Barbarian Herblore training (Otto Godblessed)",
+          "attribute": "barbtraining:herblore",
+          "min": 1
         }
       ],
       "method": [
@@ -27436,6 +27812,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "BRONZE_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27475,6 +27854,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "BRONZE_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27547,6 +27929,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "BRONZE_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27586,6 +27971,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "BRONZE_CROSSBOW_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27625,6 +28013,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "BRONZE_MED_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27664,6 +28055,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "BRONZE_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27703,6 +28097,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "BRONZE_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27742,6 +28139,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "BRONZE_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27781,6 +28181,9 @@
           "smithingType": "TYPE_WIRE",
           "enum": "BRONZE_WIRE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27820,6 +28223,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "BRONZE_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27859,6 +28265,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "BRONZE_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27898,6 +28307,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "BRONZE_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27937,6 +28349,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "BRONZE_CROSSBOW_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -27976,6 +28391,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "BRONZE_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28015,6 +28433,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "BRONZE_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28054,6 +28475,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "BRONZE_THROWINGKNFIE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28128,6 +28552,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "BLURITE_CROSSBOW_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28167,6 +28594,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "BRONZE_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28206,6 +28636,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "BRONZE_WAR_HAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28245,6 +28678,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "BRONZE_BATTLEAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28284,6 +28720,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "BRONZE_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28323,6 +28762,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "BRONZE_KITESHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28362,6 +28804,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "BLURITE_CROSSBOW_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28401,6 +28846,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "BRONZE_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28440,6 +28888,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "BRONZE_TWO_HANDED"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28514,6 +28965,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "IRON_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28553,6 +29007,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "BRONZE_PLATE_SKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28592,6 +29049,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "BRONZE_PLATELEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28631,6 +29091,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "IRON_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28670,6 +29133,9 @@
           "smithingType": "TYPE_SPIT_IRON",
           "enum": "IRON_SPIT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28709,6 +29175,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "IRON_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28748,6 +29217,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "BRONZE_PLATEBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28787,6 +29259,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "IRON_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28826,6 +29301,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "IRON_MED_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28865,6 +29343,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "IRON_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28904,6 +29385,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "IRON_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -28943,6 +29427,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "IRON_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29017,6 +29504,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "IRON_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29056,6 +29546,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "IRON_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29095,6 +29588,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "IRON_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29134,6 +29630,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "IRON_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29173,6 +29672,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "IRON_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29212,6 +29714,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "IRON_KNIFE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29249,6 +29754,9 @@
           "snapshot": "server-configs-and-Bars.java",
           "detail": "Bars.java:IRON_CROSSBOW_LimbS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29288,6 +29796,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "IRON_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29327,6 +29838,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "IRON_WARHAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29366,6 +29880,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "IRON_BATTLEAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29405,6 +29922,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "IRON_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29444,6 +29964,9 @@
           "smithingType": "TYPE_OIL_LANTERN",
           "enum": "OIL_LANTERN_FRAME"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29483,6 +30006,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "IRON_KITE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29522,6 +30048,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "IRON_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29561,6 +30090,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "IRON_TWO_HANDED_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29640,6 +30172,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "STEEL_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29679,6 +30214,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "IRON_PLATESKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29718,6 +30256,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "IRON_PLATELEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29757,6 +30298,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "STEEL_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29796,6 +30340,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "STEEL_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29835,6 +30382,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "IRON_PLATEBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29874,6 +30424,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "STEEL_CROSSBOW_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29913,6 +30466,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "STEEL_MED_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29952,6 +30508,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "STEEL_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -29991,6 +30550,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "STEEL_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30030,6 +30592,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "STEEL_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30069,6 +30634,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "STEEL_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30108,6 +30676,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "STEEL_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30147,6 +30718,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "STEEL_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30186,6 +30760,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "STEEL_CROSSBOW_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30225,6 +30802,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "STEEL_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30264,6 +30844,9 @@
           "smithingType": "TYPE_STUDS",
           "enum": "STEEL_STUDS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30303,6 +30886,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "STEEL_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30342,6 +30928,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "STEEL_THROWING_KNIFE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30381,6 +30970,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "STEEL_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30420,6 +31012,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "STEEL_WARHAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30494,6 +31089,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "STEEL_BATTLE_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30566,6 +31164,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "STEEL_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30605,6 +31206,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "STEEL_KITE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30644,6 +31248,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "STEEL_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30683,6 +31290,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "STEEL_TWO_HANDED_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30722,6 +31332,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "STEEL_PLATE_SKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30761,6 +31374,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "STEEL_PLATELEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30800,6 +31416,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "STEEL_PLATEBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30839,6 +31458,9 @@
           "smithingType": "TYPE_BULLSEYE",
           "enum": "STEEL_BULLSEYE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30918,6 +31540,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "MITHRIL_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30957,6 +31582,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "MITHRIL_HATCHET"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -30996,6 +31624,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "MITHRIL_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31035,6 +31666,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "MITHRIL_CROSSBOW_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31074,6 +31708,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "MITHRIL_MED_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31113,6 +31750,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "MITHRIL_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31152,6 +31792,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "MITHRIL_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31191,6 +31834,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "MITHRIL_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31230,6 +31876,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "MITHRIL_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31269,6 +31918,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "MITHRIL_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31308,6 +31960,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "MITHRIL_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31347,6 +32002,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "MITHRIL_CROSSBOW_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31386,6 +32044,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "MITHRIL_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31425,6 +32086,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "MITHRIL_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31464,6 +32128,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "MITHRIL_KNIFE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31503,6 +32170,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "MITHRIL_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31542,6 +32212,9 @@
           "smithingType": "TYPE_GRAPPLE_TIP",
           "enum": "MITHRIL_GRAPPLE_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31581,6 +32254,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "MITHRIL_WARHAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31620,6 +32296,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "MITHRIL_BATTLEAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31659,6 +32338,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "MITHRIL_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31698,6 +32380,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "MITHRIL_KITE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31737,6 +32422,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "MITHRIL_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31776,6 +32464,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "MITHRIL_TWO_HANDED_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31815,6 +32506,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "MITHRIL_PLATESKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31854,6 +32548,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "MITHRIL_PLATELEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31893,6 +32590,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "MITHRIL_PLATEBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -31972,6 +32672,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "ADAMANT_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32011,6 +32714,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "ADAMANT_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32050,6 +32756,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "ADAMANT_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32089,6 +32798,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "ADAMANT_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32128,6 +32840,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "ADAMANT_MEDIUM_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32167,6 +32882,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "ADAMANT_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32206,6 +32924,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "ADAMANT_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32245,6 +32966,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "ADAMANT_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32284,6 +33008,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "ADAMANT_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32323,6 +33050,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "ADAMANT_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32362,6 +33092,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "ADAMANT_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32401,6 +33134,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "ADAMANT_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32440,6 +33176,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "ADAMANT_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32479,6 +33218,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "ADAMANT_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32518,6 +33260,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "ADAMANT_KNIFE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32557,6 +33302,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "ADAMANT_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32596,6 +33344,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "ADAMANT_WARHAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32635,6 +33386,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "ADAMANT_BATTLEAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32674,6 +33428,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "ADAMANT_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32713,6 +33470,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "ADAMANT_KITESHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32752,6 +33512,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "ADAMANT_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32791,6 +33554,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "ADAMANT_TWO_HANDED_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32870,6 +33636,9 @@
           "smithingType": "TYPE_DAGGER",
           "enum": "RUNE_DAGGER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32909,6 +33678,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "ADAMANT_PLATE_SKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32948,6 +33720,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "ADAMANT_PLATE_LEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -32987,6 +33762,9 @@
           "smithingType": "TYPE_AXE",
           "enum": "RUNITE_AXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33026,6 +33804,9 @@
           "smithingType": "TYPE_MACE",
           "enum": "RUNITE_MACE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33065,6 +33846,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "ADAMANT_PLATE_BODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33104,6 +33888,9 @@
           "smithingType": "TYPE_CROSSBOW_BOLT",
           "enum": "RUNITE_BOLT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33143,6 +33930,9 @@
           "smithingType": "TYPE_MEDIUM_HELM",
           "enum": "RUNITE_MEDIUM_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33182,6 +33972,9 @@
           "smithingType": "TYPE_DART_TIP",
           "enum": "RUNITE_DART_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33221,6 +34014,9 @@
           "smithingType": "TYPE_NAIL",
           "enum": "RUNITE_NAILS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33260,6 +34056,9 @@
           "smithingType": "TYPE_SWORD",
           "enum": "RUNITE_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33299,6 +34098,9 @@
           "smithingType": "TYPE_ARROW_TIP",
           "enum": "RUNITE_ARROW_TIPS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33338,6 +34140,9 @@
           "smithingType": "TYPE_PICKAXE",
           "enum": "RUNITE_PICKAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33377,6 +34182,9 @@
           "smithingType": "TYPE_SCIMITAR",
           "enum": "RUNITE_SCIMITAR"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33416,6 +34224,9 @@
           "smithingType": "TYPE_CROSSBOW_LIMB",
           "enum": "RUNITE_LIMBS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33455,6 +34266,9 @@
           "smithingType": "TYPE_LONGSWORD",
           "enum": "RUNITE_LONGSWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33494,6 +34308,9 @@
           "smithingType": "TYPE_FULL_HELM",
           "enum": "RUNITE_FULL_HELM"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33533,6 +34350,9 @@
           "smithingType": "TYPE_THROWING_KNIFE",
           "enum": "RUNITE_KNIFE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33572,6 +34392,9 @@
           "smithingType": "TYPE_SQUARE_SHIELD",
           "enum": "RUNITE_SQUARE_SHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33611,6 +34434,9 @@
           "smithingType": "TYPE_WARHAMMER",
           "enum": "RUNITE_WARHAMMER"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33650,6 +34476,9 @@
           "smithingType": "TYPE_BATTLE_AXE",
           "enum": "RUNITE_BATTLEAXE"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33689,6 +34518,9 @@
           "smithingType": "TYPE_CHAINBODY",
           "enum": "RUNITE_CHAINBODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33728,6 +34560,9 @@
           "smithingType": "TYPE_KITE_SHIELD",
           "enum": "RUNITE_KITESHIELD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33767,6 +34602,9 @@
           "smithingType": "TYPE_CLAWS",
           "enum": "RUNITE_CLAWS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33806,6 +34644,9 @@
           "smithingType": "TYPE_PLATE_SKIRT",
           "enum": "RUNITE_PLATE_SKIRT"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33845,6 +34686,9 @@
           "smithingType": "TYPE_PLATEBODY",
           "enum": "RUNITE_PLATE_BODY"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33884,6 +34728,9 @@
           "smithingType": "TYPE_PLATELEG",
           "enum": "RUNITE_PLATE_LEGS"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     },
     {
@@ -33923,6 +34770,9 @@
           "smithingType": "TYPE_TWO_HAND_SWORD",
           "enum": "RUNITE_TWO_HANDED_SWORD"
         }
+      ],
+      "toolItemIds": [
+        2347
       ]
     }
   ],
