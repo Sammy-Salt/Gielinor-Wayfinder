@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.49",
-  "buildId": "pass31.49-20261108-1",
+  "release": "PASS31.50",
+  "buildId": "pass31.50-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -119,7 +119,7 @@
       "bytes": 217
     },
     "data/catalog-manifest.json": {
-      "sha256": "936487a8047b3e381ea8dfa35043f480f4b93f43792c6f35b879b0f50e33d633",
+      "sha256": "6a3df34d13e780dbbe282256a95ce5c5d6ea4690ba25b2b5ce503ea9960ca3d7",
       "bytes": 1436
     },
     "data/gathering.json": {
@@ -112030,6 +112030,10 @@
       "sha256": "eaf505a223cc92a5e4c143ea21089439b276184ff567258348d3458ec19ec2f8",
       "bytes": 481
     },
+    "data/thieving.json": {
+      "sha256": "c7c02764fdede9180a5234de259f05e536522b31a3342e85f3a86bae66882fe6",
+      "bytes": 43175
+    },
     "data/wiki/pass31.13/README.md": {
       "sha256": "1d268841cc13838ce62492d1969059830e2bd114e5aceccafb75357b8a225d31",
       "bytes": 625
@@ -216771,7 +216775,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "c3e8281857b26ea38f96aaa1f7611a94414f524b9fd4818bcaf24b0c22d2782e",
+      "sha256": "9de607fc49fb713d83efc66b500533bcbba19f68a752821ff64cbc110f5b6158",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216779,7 +216783,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "0ceea7574941b4f5449b3e55e005e136b8692b4d300d4e824656f2c04a7e1823",
+      "sha256": "0e7cf5cd6c28a7cff553e58776f031e48e4be88137bd97781c4b3a3579951540",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -217075,7 +217079,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "fab8c9246f731293bc0982483bb93b953aefe1af7d9c357cb7cd4860c2133da8",
+      "sha256": "148b236f4160dc8ae89539b20965118e8e79fca3b4d410892150fe073515679f",
       "bytes": 499
     },
     "site.css": {
@@ -217087,7 +217091,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "e6731dd067c815df0d8710134285ae233e2b70ec4861a6cd073585d063752e4a",
+      "sha256": "d7bb318880f4e966cc16ef281239ca602cedabd8531833e725f6d1e4c8c5bd89",
       "bytes": 4302
     }
   }
