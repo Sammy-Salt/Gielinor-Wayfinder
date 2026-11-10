@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.51",
-  "buildId": "pass31.51-20261108-1",
+  "release": "PASS31.52",
+  "buildId": "pass31.52-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -123,12 +123,16 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "1ec8f7fdc38abd5329c470db2af63a3e6408120331a52e190bbc26c0674594f0",
+      "sha256": "a6c0586ca0f3af18634ee79bbb9095f9f75af379fb8258f61d0083952635a24f",
       "bytes": 1436
     },
     "data/gathering.json": {
       "sha256": "348b4d5904a146303ff4c22fbaca55889e730f03e965178b1847158803c8d879",
       "bytes": 40186
+    },
+    "data/hunter.json": {
+      "sha256": "d705b9e3ad688e829b36ea46256273ecfd86759f544f82edcb9e40cab059cfb2",
+      "bytes": 54935
     },
     "data/items/0.json": {
       "sha256": "e8cf0f016949a8f38a0e0c73d28627c0d6b3ee50318833a9228356e5e0c4a345",
@@ -216779,7 +216783,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "efc3319452a0fefdd0fb40792feda60bf9ddaf1df1a7b6c200cb73f4cf60a21e",
+      "sha256": "c79f21aaff5b5911cf8064dcd8524fe81d21a04e3dafed1e7a29602b7a7d4783",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216787,7 +216791,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "135647774b11aa23ae62ef921e8912e5229ed7a5df0216539b9fd26b2ab9ddbb",
+      "sha256": "673200a153390e93435196aef696d3dc0f659923c14f8d2da7330ff4795606cc",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -217083,7 +217087,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "db72d1494d4ac12bd4d325d2bb6248aea69b15138a87a9804e456c993327a98e",
+      "sha256": "49f09860ef96a92a54111a6bb6db08b32a1de5b4cc9677eb9420f34c01c6ec52",
       "bytes": 499
     },
     "site.css": {
@@ -217095,7 +217099,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "51a6139d9cf35270332faaaa6abd3c1175aac56ed85a610b138da4e2db6115a6",
+      "sha256": "021cea876d5ee2ced92b1809107cfd8fc4ffb92a363db060129e8d6419d757b1",
       "bytes": 4302
     }
   }

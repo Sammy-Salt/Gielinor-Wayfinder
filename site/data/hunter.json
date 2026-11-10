@@ -1,0 +1,3037 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "traps": 45,
+  "butterflies": 4,
+  "implings": 10,
+  "falconry": 3,
+  "tracking": 2,
+  "pitfalls": 3,
+  "total": 67
+ },
+ "trapTypes": [
+  {
+   "trap": "BIRD_SNARE",
+   "level": 1,
+   "layItemIds": [
+    10006
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "layItemIds": [
+    10008
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "trap": "RABBIT_SNARE",
+   "level": 27,
+   "layItemIds": [
+    10031
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 23,
+   "layItemIds": [
+    946
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/DeadfallSetting.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "layItemIds": [
+    303,
+    954
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/NetTrapSetting.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "trap": "IMP_BOX",
+   "level": 27,
+   "layItemIds": [
+    10025
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/MagicBoxSetting.java",
+    "commit": "4082f9d"
+   }
+  }
+ ],
+ "implingSpawners": [
+  {
+   "name": "LowTier",
+   "npcId": 1024,
+   "weights": [
+    {
+     "impling": "Baby",
+     "weight": 20.0
+    },
+    {
+     "impling": "Young",
+     "weight": 20.0
+    },
+    {
+     "impling": "Gourmet",
+     "weight": 20.0
+    },
+    {
+     "impling": "Earth",
+     "weight": 20.0
+    },
+    {
+     "impling": "Essence",
+     "weight": 10.0
+    },
+    {
+     "impling": "Eclectic",
+     "weight": 10.0
+    }
+   ]
+  },
+  {
+   "name": "MidTier",
+   "npcId": 1025,
+   "weights": [
+    {
+     "impling": "Gourmet",
+     "weight": 10.0
+    },
+    {
+     "impling": "Earth",
+     "weight": 10.0
+    },
+    {
+     "impling": "Essence",
+     "weight": 20.0
+    },
+    {
+     "impling": "Eclectic",
+     "weight": 37.0
+    },
+    {
+     "impling": "Nature",
+     "weight": 20.0
+    },
+    {
+     "impling": "Magpie",
+     "weight": 2.0
+    },
+    {
+     "impling": "Ninja",
+     "weight": 1.0
+    }
+   ]
+  },
+  {
+   "name": "HighTier",
+   "npcId": 1026,
+   "weights": [
+    {
+     "impling": "Nature",
+     "weight": 10.0
+    },
+    {
+     "impling": "Magpie",
+     "weight": 50.0
+    },
+    {
+     "impling": "Ninja",
+     "weight": 30.0
+    },
+    {
+     "impling": "Dragon",
+     "weight": 10.0
+    }
+   ]
+  },
+  {
+   "name": "LowPuroTier",
+   "npcId": 6065,
+   "weights": [
+    {
+     "impling": "Baby",
+     "weight": 20.0
+    },
+    {
+     "impling": "Young",
+     "weight": 20.0
+    },
+    {
+     "impling": "Gourmet",
+     "weight": 20.0
+    },
+    {
+     "impling": "Earth",
+     "weight": 20.0
+    },
+    {
+     "impling": "Essence",
+     "weight": 10.0
+    },
+    {
+     "impling": "Eclectic",
+     "weight": 10.0
+    }
+   ]
+  },
+  {
+   "name": "MidPuroTier",
+   "npcId": 6066,
+   "weights": [
+    {
+     "impling": "Gourmet",
+     "weight": 10.0
+    },
+    {
+     "impling": "Earth",
+     "weight": 10.0
+    },
+    {
+     "impling": "Essence",
+     "weight": 20.0
+    },
+    {
+     "impling": "Eclectic",
+     "weight": 37.0
+    },
+    {
+     "impling": "Nature",
+     "weight": 20.0
+    },
+    {
+     "impling": "Magpie",
+     "weight": 2.0
+    },
+    {
+     "impling": "Ninja",
+     "weight": 1.0
+    }
+   ]
+  },
+  {
+   "name": "HighPuroTier",
+   "npcId": 6067,
+   "weights": [
+    {
+     "impling": "Nature",
+     "weight": 150.0
+    },
+    {
+     "impling": "Magpie",
+     "weight": 114.0
+    },
+    {
+     "impling": "Ninja",
+     "weight": 37.0
+    },
+    {
+     "impling": "Dragon",
+     "weight": 10.0
+    }
+   ]
+  }
+ ],
+ "traps": [
+  {
+   "trap": "BIRD_SNARE",
+   "level": 1,
+   "xp": 34.0,
+   "npcIds": [
+    5073
+   ],
+   "objectIds": [
+    19179,
+    19180
+   ],
+   "rewards": [
+    {
+     "itemId": 10088,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Crimson swift",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-5073",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "BIRD_SNARE",
+   "level": 5,
+   "xp": 48.0,
+   "npcIds": [
+    5075
+   ],
+   "objectIds": [
+    19183,
+    19184
+   ],
+   "rewards": [
+    {
+     "itemId": 10090,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Golden warbler",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-5075",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "BIRD_SNARE",
+   "level": 9,
+   "xp": 61.0,
+   "npcIds": [
+    5076
+   ],
+   "objectIds": [
+    19185,
+    19186
+   ],
+   "rewards": [
+    {
+     "itemId": 10091,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Copper longtail",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-5076",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "BIRD_SNARE",
+   "level": 11,
+   "xp": 64.7,
+   "npcIds": [
+    5074
+   ],
+   "objectIds": [
+    19181,
+    19182
+   ],
+   "rewards": [
+    {
+     "itemId": 10089,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Cerulean twitch",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-5074",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "BIRD_SNARE",
+   "level": 19,
+   "xp": 95.2,
+   "npcIds": [
+    5072
+   ],
+   "objectIds": [
+    19177,
+    19178
+   ],
+   "rewards": [
+    {
+     "itemId": 10087,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Tropical wagtail",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-5072",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 23,
+   "xp": 128.0,
+   "npcIds": [
+    5089
+   ],
+   "objectIds": [
+    19213,
+    19214,
+    19218
+   ],
+   "rewards": [
+    {
+     "itemId": 10113,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Wild kebbit",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-dead-fall-5089",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "DEAD_FALL"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    5081
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10092,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Ferret",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-5081",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    6917
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12488,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 10,
+   "name": "Baby gecko",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-6917",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    6944
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12496,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-6944",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    6997
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12486,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 80,
+   "name": "Baby raccoon",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-6997",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7228
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12682,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7228",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7229
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12684,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7229",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7230
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12686,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7230",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7231
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12688,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7231",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7232
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12690,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7232",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7233
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12692,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7233",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7234
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12694,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7234",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7235
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12696,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7235",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7236
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12698,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 95,
+   "name": "Baby monkey",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7236",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7275
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12734,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 80,
+   "name": "Baby Raccoon",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7275",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7276
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12736,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 80,
+   "name": "Baby raccoon",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7276",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7285
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12738,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 10,
+   "name": "Baby gecko",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7285",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7286
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12739,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 10,
+   "name": "Baby gecko",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7286",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7287
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12740,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 10,
+   "name": "Baby gecko",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7287",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 27,
+   "xp": 100.0,
+   "npcIds": [
+    7288
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12741,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 10,
+   "name": "Baby gecko",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7288",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    5117
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10149,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Swamp lizard",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-5117",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    6921
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12490,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 60,
+   "name": "Baby squirrel",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-6921",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    7309
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12754,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 60,
+   "name": "Baby squirrel",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-7309",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    7310
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12756,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 60,
+   "name": "Baby squirrel",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-7310",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    7311
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12758,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 60,
+   "name": "Baby squirrel",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-7311",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 29,
+   "xp": 152.0,
+   "npcIds": [
+    7312
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12760,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 60,
+   "name": "Baby squirrel",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-7312",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 33,
+   "xp": 168.0,
+   "npcIds": [
+    5088
+   ],
+   "objectIds": [
+    19211,
+    19212,
+    19217
+   ],
+   "rewards": [
+    {
+     "itemId": 10129,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Barb-tailed kebbit",
+   "nameSource": "OSRS Wiki (not named in the 2009Scape source or NPC catalog)",
+   "id": "2009scape-hunter-dead-fall-5088",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "DEAD_FALL"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 37,
+   "xp": 204.0,
+   "npcIds": [
+    5086
+   ],
+   "objectIds": [
+    19208,
+    19208,
+    19217
+   ],
+   "rewards": [
+    {
+     "itemId": 10105,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Prickly kebbit",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-dead-fall-5086",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "DEAD_FALL"
+   }
+  },
+  {
+   "trap": "BIRD_SNARE",
+   "level": 39,
+   "xp": 167.0,
+   "npcIds": [
+    7031
+   ],
+   "objectIds": [
+    28931,
+    28930
+   ],
+   "rewards": [
+    {
+     "itemId": 11525,
+     "quantity": 8
+    },
+    {
+     "itemId": 9978,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Wimpy bird",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-bird-snare-7031",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BIRD_SNARE"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 44,
+   "xp": 200.0,
+   "npcIds": [
+    7039
+   ],
+   "objectIds": [
+    28939,
+    28940,
+    28941
+   ],
+   "rewards": [
+    {
+     "itemId": 12567,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Diseased kebbit",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-dead-fall-7039",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "DEAD_FALL"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 47,
+   "xp": 224.0,
+   "npcIds": [
+    5114
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10146,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Orange salamander",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-5114",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 48,
+   "xp": 150.0,
+   "npcIds": [
+    7021,
+    7022,
+    7023
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12551,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Platypus",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7021",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "DEAD_FALL",
+   "level": 51,
+   "xp": 200.0,
+   "npcIds": [
+    5087
+   ],
+   "objectIds": [
+    19209,
+    19210,
+    19216
+   ],
+   "rewards": [
+    {
+     "itemId": 10109,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Sabre-toothed kebbit",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-dead-fall-5087",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "DEAD_FALL"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 53,
+   "xp": 198.0,
+   "npcIds": [
+    5079
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10033,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Chinchompa",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-5079",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 59,
+   "xp": 272.0,
+   "npcIds": [
+    5115
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10147,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Red salamander",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-net-trap-5115",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 63,
+   "xp": 265.0,
+   "npcIds": [
+    5080
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10034,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Red chinchompa",
+   "nameSource": "2009Scape source comment (Traps.java)",
+   "id": "2009scape-hunter-box-trap-5080",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 66,
+   "xp": 400.0,
+   "npcIds": [
+    7012,
+    7014
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12535,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Pawya",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7012",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  },
+  {
+   "trap": "NET_TRAP",
+   "level": 67,
+   "xp": 304.0,
+   "npcIds": [
+    5116
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 10148,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Black salamander",
+   "nameSource": "2009Scape source comment (Traps.java)",
+   "id": "2009scape-hunter-net-trap-5116",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "NET_TRAP"
+   }
+  },
+  {
+   "trap": "IMP_BOX",
+   "level": 71,
+   "xp": 450.0,
+   "npcIds": [
+    708,
+    709,
+    1531
+   ],
+   "objectIds": [
+    1,
+    19226
+   ],
+   "rewards": [
+    {
+     "itemId": 10027,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": null,
+   "name": "Imp",
+   "nameSource": "2009Scape trap type IMP_BOX",
+   "id": "2009scape-hunter-imp-box-708",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "IMP_BOX"
+   }
+  },
+  {
+   "trap": "BOX_TRAP",
+   "level": 77,
+   "xp": 0.0,
+   "npcIds": [
+    7010,
+    7011
+   ],
+   "objectIds": [],
+   "rewards": [
+    {
+     "itemId": 12539,
+     "quantity": 1
+    }
+   ],
+   "summoningLevel": 1,
+   "name": "Grenwall",
+   "nameSource": "2009Scape NPC catalog",
+   "id": "2009scape-hunter-box-trap-7010",
+   "skill": "Hunter",
+   "kind": "trap-creature",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/Traps.java",
+    "commit": "4082f9d",
+    "enum": "BOX_TRAP"
+   }
+  }
+ ],
+ "butterflies": [
+  {
+   "id": "2009scape-hunter-butterfly-ruby-harvest",
+   "skill": "Hunter",
+   "kind": "butterfly",
+   "name": "Ruby Harvest",
+   "level": 15,
+   "xp": 24.0,
+   "experience": [
+    24.0,
+    300.0,
+    50.0
+   ],
+   "bareHandLevel": 80,
+   "agilityLevel": 75,
+   "npcIds": [
+    5085
+   ],
+   "itemId": 10020,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "RUBY_HARVEST"
+   }
+  },
+  {
+   "id": "2009scape-hunter-butterfly-sapphire-glacialis",
+   "skill": "Hunter",
+   "kind": "butterfly",
+   "name": "Sapphire Glacialis",
+   "level": 25,
+   "xp": 34.0,
+   "experience": [
+    34.0,
+    400.0,
+    70.0
+   ],
+   "bareHandLevel": 85,
+   "agilityLevel": 80,
+   "npcIds": [
+    5084,
+    7499
+   ],
+   "itemId": 10018,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "SAPPHIRE_GLACIALIS"
+   }
+  },
+  {
+   "id": "2009scape-hunter-butterfly-snowry-knight",
+   "skill": "Hunter",
+   "kind": "butterfly",
+   "name": "Snowry Knight",
+   "level": 35,
+   "xp": 44.0,
+   "experience": [
+    44.0,
+    500.0,
+    100.0
+   ],
+   "bareHandLevel": 90,
+   "agilityLevel": 85,
+   "npcIds": [
+    5083,
+    7498
+   ],
+   "itemId": 10016,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "SNOWRY_KNIGHT"
+   }
+  },
+  {
+   "id": "2009scape-hunter-butterfly-black-warlock",
+   "skill": "Hunter",
+   "kind": "butterfly",
+   "name": "Black Warlock",
+   "level": 45,
+   "xp": 54.0,
+   "experience": [
+    54.0,
+    650.0,
+    125.0
+   ],
+   "bareHandLevel": 95,
+   "agilityLevel": 90,
+   "npcIds": [
+    5082
+   ],
+   "itemId": 10014,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "BLACK_WARLOCK"
+   }
+  }
+ ],
+ "implings": [
+  {
+   "id": "2009scape-hunter-impling-baby",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Baby Impling",
+   "level": 17,
+   "xp": 20.0,
+   "puroPuroXp": 18.0,
+   "npcIds": [
+    1028,
+    6055
+   ],
+   "itemId": 11238,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 1755,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1734,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1733,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 946,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1985,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2347,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1759,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1927,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 319,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2007,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2007,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1779,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 7170,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 401,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1438,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2355,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1607,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1743,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 379,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1761,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "BABY_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-young",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Young Impling",
+   "level": 22,
+   "xp": 22.0,
+   "puroPuroXp": 20.0,
+   "npcIds": [
+    1029,
+    6056
+   ],
+   "itemId": 11240,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 1539,
+     "min": 5,
+     "max": 5,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1901,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 7936,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 361,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1523,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 453,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1777,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2293,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1353,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2359,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "YOUNG_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-gourmet",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Gourmet Impling",
+   "level": 28,
+   "xp": 24.0,
+   "puroPuroXp": 22.0,
+   "npcIds": [
+    1030,
+    6057
+   ],
+   "itemId": 11242,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 365,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 361,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2011,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1897,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2327,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5004,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2007,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5970,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 365,
+     "min": 4,
+     "max": 4,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 3145,
+     "min": 2,
+     "max": 2,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 7178,
+     "min": 1,
+     "max": 5,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5755,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 386,
+     "min": 3,
+     "max": 3,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5406,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 10136,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1883,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "GOURMET_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-earth",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Earth Impling",
+   "level": 36,
+   "xp": 27.0,
+   "puroPuroXp": 25.0,
+   "npcIds": [
+    1031,
+    6058
+   ],
+   "itemId": 11244,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 6033,
+     "min": 6,
+     "max": 6,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1440,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5535,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 557,
+     "min": 32,
+     "max": 32,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1442,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1784,
+     "min": 4,
+     "max": 4,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 447,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 447,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1606,
+     "min": 2,
+     "max": 2,
+     "frequency": "RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "EARTH_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-essence",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Essence Impling",
+   "level": 42,
+   "xp": 29.0,
+   "puroPuroXp": 27.0,
+   "npcIds": [
+    1032,
+    6059
+   ],
+   "itemId": 11246,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 7937,
+     "min": 20,
+     "max": 20,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 555,
+     "min": 30,
+     "max": 30,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 556,
+     "min": 30,
+     "max": 30,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 558,
+     "min": 25,
+     "max": 25,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 559,
+     "min": 28,
+     "max": 28,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 562,
+     "min": 4,
+     "max": 4,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1448,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 564,
+     "min": 4,
+     "max": 4,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 565,
+     "min": 7,
+     "max": 7,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 563,
+     "min": 13,
+     "max": 13,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 566,
+     "min": 11,
+     "max": 11,
+     "frequency": "RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "ESSENCE_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-eclectic",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Eclectic Impling",
+   "level": 50,
+   "xp": 32.0,
+   "puroPuroXp": 30.0,
+   "npcIds": [
+    1033,
+    6060
+   ],
+   "itemId": 11248,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 1273,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1199,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2493,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 10083,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1213,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1391,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 5970,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 231,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 556,
+     "min": 30,
+     "max": 57,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 8779,
+     "min": 4,
+     "max": 4,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 4527,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 444,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2358,
+     "min": 5,
+     "max": 5,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 7937,
+     "min": 20,
+     "max": 35,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 237,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 450,
+     "min": 10,
+     "max": 10,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5760,
+     "min": 2,
+     "max": 2,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 7208,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5321,
+     "min": 3,
+     "max": 3,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1601,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "ECLECTIC_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-nature",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Nature Impling",
+   "level": 58,
+   "xp": 36.0,
+   "puroPuroXp": 34.0,
+   "npcIds": [
+    1034,
+    6061
+   ],
+   "itemId": 11250,
+   "respawnTicks": null,
+   "loot": [
+    {
+     "itemId": 5303,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 270,
+     "min": 2,
+     "max": 2,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 5295,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5304,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5298,
+     "min": 5,
+     "max": 5,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5299,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5297,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5974,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 3000,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5285,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5286,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5100,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5104,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5281,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5294,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 6016,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1513,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 254,
+     "min": 4,
+     "max": 4,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5313,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "NATURE_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-magpie",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Magpie Impling",
+   "level": 65,
+   "xp": 216.0,
+   "puroPuroXp": 44.0,
+   "npcIds": [
+    1035,
+    6062
+   ],
+   "itemId": 11252,
+   "respawnTicks": 500,
+   "loot": [
+    {
+     "itemId": 1682,
+     "min": 3,
+     "max": 3,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1732,
+     "min": 3,
+     "max": 3,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2569,
+     "min": 3,
+     "max": 3,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 3391,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1347,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 2571,
+     "min": 4,
+     "max": 4,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 4097,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 4095,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1215,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 1185,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5541,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1748,
+     "min": 6,
+     "max": 6,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 2364,
+     "min": 2,
+     "max": 2,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1602,
+     "min": 4,
+     "max": 4,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 5287,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 985,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 987,
+     "min": 1,
+     "max": 1,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 993,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 5300,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "MAGPIE_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-ninja",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Ninja Impling",
+   "level": 74,
+   "xp": 240.0,
+   "puroPuroXp": 50.0,
+   "npcIds": [
+    6053,
+    6063
+   ],
+   "itemId": 11254,
+   "respawnTicks": 2000,
+   "loot": [
+    {
+     "itemId": 4097,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1113,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 3385,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1215,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 811,
+     "min": 70,
+     "max": 70,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1333,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1347,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 9342,
+     "min": 2,
+     "max": 2,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 9194,
+     "min": 4,
+     "max": 4,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 140,
+     "min": 4,
+     "max": 4,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 6155,
+     "min": 3,
+     "max": 3,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1748,
+     "min": 10,
+     "max": 16,
+     "frequency": "COMMON"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "NINJA_IMPLING"
+   }
+  },
+  {
+   "id": "2009scape-hunter-impling-dragon",
+   "skill": "Hunter",
+   "kind": "impling",
+   "name": "Dragon Impling",
+   "level": 83,
+   "xp": 300.0,
+   "puroPuroXp": 65.0,
+   "npcIds": [
+    6054,
+    6064
+   ],
+   "itemId": 11256,
+   "respawnTicks": 3000,
+   "loot": [
+    {
+     "itemId": 1705,
+     "min": 2,
+     "max": 3,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 4093,
+     "min": 1,
+     "max": 1,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 1684,
+     "min": 2,
+     "max": 3,
+     "frequency": "VERY_RARE"
+    },
+    {
+     "itemId": 11212,
+     "min": 100,
+     "max": 500,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 9341,
+     "min": 3,
+     "max": 40,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 1305,
+     "min": 1,
+     "max": 1,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5699,
+     "min": 3,
+     "max": 3,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 11230,
+     "min": 105,
+     "max": 350,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 11232,
+     "min": 105,
+     "max": 350,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 11237,
+     "min": 100,
+     "max": 500,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 9193,
+     "min": 10,
+     "max": 49,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 535,
+     "min": 111,
+     "max": 297,
+     "frequency": "COMMON"
+    },
+    {
+     "itemId": 5316,
+     "min": 1,
+     "max": 1,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 537,
+     "min": 52,
+     "max": 99,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 1616,
+     "min": 3,
+     "max": 6,
+     "frequency": "UNCOMMON"
+    },
+    {
+     "itemId": 5300,
+     "min": 6,
+     "max": 6,
+     "frequency": "RARE"
+    },
+    {
+     "itemId": 7219,
+     "min": 5,
+     "max": 15,
+     "frequency": "RARE"
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/bnet/BNetTypes.java",
+    "commit": "4082f9d",
+    "enum": "DRAGON_IMPLING"
+   }
+  }
+ ],
+ "falconry": [
+  {
+   "id": "2009scape-hunter-falconry-spotted-kebbit",
+   "skill": "Hunter",
+   "kind": "falconry",
+   "name": "Spotted Kebbit",
+   "level": 43,
+   "xp": 104.0,
+   "npcIds": [
+    5098
+   ],
+   "itemId": 10125,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/falconry/FalconCatch.java",
+    "commit": "4082f9d",
+    "enum": "SPOTTED_KEBBIT"
+   }
+  },
+  {
+   "id": "2009scape-hunter-falconry-dark-kebbit",
+   "skill": "Hunter",
+   "kind": "falconry",
+   "name": "Dark Kebbit",
+   "level": 57,
+   "xp": 132.0,
+   "npcIds": [
+    5099
+   ],
+   "itemId": 10115,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/falconry/FalconCatch.java",
+    "commit": "4082f9d",
+    "enum": "DARK_KEBBIT"
+   }
+  },
+  {
+   "id": "2009scape-hunter-falconry-dashing-kebbit",
+   "skill": "Hunter",
+   "kind": "falconry",
+   "name": "Dashing Kebbit",
+   "level": 69,
+   "xp": 156.0,
+   "npcIds": [
+    5100
+   ],
+   "itemId": 10127,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/falconry/FalconCatch.java",
+    "commit": "4082f9d",
+    "enum": "DASHING_KEBBIT"
+   }
+  }
+ ],
+ "tracking": [
+  {
+   "id": "2009scape-hunter-tracking-common-kebbit",
+   "skill": "Hunter",
+   "kind": "tracking",
+   "name": "Common kebbit",
+   "level": 1,
+   "xp": 36.0,
+   "rewards": [
+    {
+     "itemId": 10121,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    },
+    {
+     "itemId": 9986,
+     "quantity": 1
+    }
+   ],
+   "note": "level defaults to 1 when the source sets none; a kebbit-tracking trail needs the trail to be followed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/tracking/CommonKebbitEast.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-hunter-tracking-polar-kebbit",
+   "skill": "Hunter",
+   "kind": "tracking",
+   "name": "Polar kebbit",
+   "level": 1,
+   "xp": 30.0,
+   "rewards": [
+    {
+     "itemId": 9986,
+     "quantity": 1
+    },
+    {
+     "itemId": 10117,
+     "quantity": 1
+    },
+    {
+     "itemId": 526,
+     "quantity": 1
+    }
+   ],
+   "note": "level defaults to 1 when the source sets none; a kebbit-tracking trail needs the trail to be followed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/tracking/PolarKebbitHunting.kt",
+    "commit": "4082f9d"
+   }
+  }
+ ],
+ "pitfalls": [
+  {
+   "id": "2009scape-hunter-pitfall-spined-larupia",
+   "skill": "Hunter",
+   "kind": "pitfall",
+   "name": "Spined larupia",
+   "level": 31,
+   "xp": 180.0,
+   "rewards": [
+    {
+     "itemId": 10095,
+     "quantity": 1
+    },
+    {
+     "itemId": 10093,
+     "quantity": 1
+    }
+   ],
+   "note": "xp is the corpse-looting xp; good/tatty fur depends on the catch",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/pitfall/HunterPitfall.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-hunter-pitfall-horned-graahk",
+   "skill": "Hunter",
+   "kind": "pitfall",
+   "name": "Horned graahk",
+   "level": 41,
+   "xp": 240.0,
+   "rewards": [
+    {
+     "itemId": 10099,
+     "quantity": 1
+    },
+    {
+     "itemId": 10097,
+     "quantity": 1
+    }
+   ],
+   "note": "xp is the corpse-looting xp; good/tatty fur depends on the catch",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/pitfall/HunterPitfall.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-hunter-pitfall-sabre-toothed-kyatt",
+   "skill": "Hunter",
+   "kind": "pitfall",
+   "name": "Sabre-toothed kyatt",
+   "level": 55,
+   "xp": 300.0,
+   "rewards": [
+    {
+     "itemId": 10103,
+     "quantity": 1
+    },
+    {
+     "itemId": 10101,
+     "quantity": 1
+    }
+   ],
+   "note": "xp is the corpse-looting xp; good/tatty fur depends on the catch",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/hunter/pitfall/HunterPitfall.kt",
+    "commit": "4082f9d"
+   }
+  }
+ ]
+}

@@ -32,8 +32,8 @@
     "relationships/index.json",
     "sources/2009scape/drop_tables.json"
   ],
-  "release": "PASS31.51",
-  "buildId": "pass31.51-20261108-1",
+  "release": "PASS31.52",
+  "buildId": "pass31.52-20261108-1",
   "generatedFrom": "PASS31.27 architecture/data-integrity polish",
   "displayViews": {
     "monsters": {
