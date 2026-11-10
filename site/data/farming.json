@@ -1,0 +1,2460 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "crops": 61,
+  "patchTypes": 13,
+  "patches": 45,
+  "total": 119
+ },
+ "rules": {
+  "baseCropLives": 3,
+  "compostBonus": {
+   "NONE": 0,
+   "COMPOST": 1,
+   "SUPERCOMPOST": 2
+  },
+  "note": "harvest amount = base amount + compost bonus (flowers, belladonna, mushrooms and evil turnips get no compost bonus); crop lives = 3 + compost bonus",
+  "baseHarvestAmount": {
+   "default": 1,
+   "limpwurt": 3,
+   "woad": 3,
+   "mushroom": 6,
+   "willow": 0
+  },
+  "lifeLossChance": {
+   "allotment": 8,
+   "hops": 6,
+   "cactus": 3,
+   "note": "1-in-N chance per pick to lose a life (source comment: inauthentic averages); herbs use a separate formula"
+  },
+  "growthCycleMinutes": 5,
+  "fruitRegrowMinutes": 40,
+  "willowBranchRegrowMinutes": 5,
+  "provenance": {
+   "source": "2009Scape",
+   "file": "Server/src/main/content/global/skill/farming/Patch.kt",
+   "commit": "4082f9d"
+  }
+ },
+ "patchTypes": [
+  {
+   "patchType": "ALLOTMENT",
+   "stageMinutes": 10,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "ALLOTMENT"
+   }
+  },
+  {
+   "patchType": "HOPS_PATCH",
+   "stageMinutes": 10,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "HOPS_PATCH"
+   }
+  },
+  {
+   "patchType": "TREE_PATCH",
+   "stageMinutes": 40,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "TREE_PATCH"
+   }
+  },
+  {
+   "patchType": "FRUIT_TREE_PATCH",
+   "stageMinutes": 160,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "FRUIT_TREE_PATCH"
+   }
+  },
+  {
+   "patchType": "BUSH_PATCH",
+   "stageMinutes": 20,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "BUSH_PATCH"
+   }
+  },
+  {
+   "patchType": "FLOWER_PATCH",
+   "stageMinutes": 5,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "FLOWER_PATCH"
+   }
+  },
+  {
+   "patchType": "HERB_PATCH",
+   "stageMinutes": 20,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "HERB_PATCH"
+   }
+  },
+  {
+   "patchType": "SPIRIT_TREE_PATCH",
+   "stageMinutes": 295,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "SPIRIT_TREE_PATCH"
+   }
+  },
+  {
+   "patchType": "MUSHROOM_PATCH",
+   "stageMinutes": 30,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "MUSHROOM_PATCH"
+   }
+  },
+  {
+   "patchType": "BELLADONNA_PATCH",
+   "stageMinutes": 80,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "BELLADONNA_PATCH"
+   }
+  },
+  {
+   "patchType": "CACTUS_PATCH",
+   "stageMinutes": 60,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "CACTUS_PATCH"
+   }
+  },
+  {
+   "patchType": "EVIL_TURNIP_PATCH",
+   "stageMinutes": 5,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "EVIL_TURNIP_PATCH"
+   }
+  },
+  {
+   "patchType": "CALQUAT_TREE_PATCH",
+   "stageMinutes": 160,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/PatchType.kt",
+    "commit": "4082f9d",
+    "enum": "CALQUAT_TREE_PATCH"
+   }
+  }
+ ],
+ "crops": [
+  {
+   "id": "2009scape-farming-potato-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Potato seed",
+   "level": 1,
+   "xp": 8.0,
+   "plantingXp": 8.0,
+   "harvestXp": 9.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5318,
+   "harvestItemId": 1942,
+   "patchType": "ALLOTMENT",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 6032,
+     "quantity": 2
+    }
+   ],
+   "protectionFlower": "2009scape-farming-marigold-seed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "POTATO_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-marigold-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Marigold seed",
+   "level": 2,
+   "xp": 8.5,
+   "plantingXp": 8.5,
+   "harvestXp": 47.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5096,
+   "harvestItemId": 6010,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "MARIGOLD_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-barley-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Barley seed",
+   "level": 3,
+   "xp": 8.5,
+   "plantingXp": 8.5,
+   "harvestXp": 9.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5305,
+   "harvestItemId": 6006,
+   "patchType": "HOPS_PATCH",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 6032,
+     "quantity": 3
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "BARLEY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-hammerstone-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Hammerstone hop seed",
+   "level": 4,
+   "xp": 9.0,
+   "plantingXp": 9.0,
+   "harvestXp": 10.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5307,
+   "harvestItemId": 5994,
+   "patchType": "HOPS_PATCH",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 6010,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "HAMMERSTONE_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-onion-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Onion seed",
+   "level": 5,
+   "xp": 9.5,
+   "plantingXp": 9.5,
+   "harvestXp": 10.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5319,
+   "harvestItemId": 1957,
+   "patchType": "ALLOTMENT",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 5438,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": "2009scape-farming-marigold-seed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "ONION_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-cabbage-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Cabbage seed",
+   "level": 7,
+   "xp": 10.0,
+   "plantingXp": 10.0,
+   "harvestXp": 11.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5324,
+   "harvestItemId": 1965,
+   "patchType": "ALLOTMENT",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 5458,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": "2009scape-farming-rosemary-seed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CABBAGE_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-asgarnian-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Asgarnian hop seed",
+   "level": 8,
+   "xp": 10.9,
+   "plantingXp": 10.9,
+   "harvestXp": 12.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5308,
+   "harvestItemId": 5996,
+   "patchType": "HOPS_PATCH",
+   "stages": 5,
+   "stageMinutes": 10,
+   "growthMinutes": 50,
+   "protectionPayment": [
+    {
+     "itemId": 5458,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "ASGARNIAN_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-guam-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Guam seed",
+   "level": 9,
+   "xp": 11.0,
+   "plantingXp": 11.0,
+   "harvestXp": 12.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5291,
+   "harvestItemId": 199,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "GUAM_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-redberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Redberry bush seed",
+   "level": 10,
+   "xp": 11.5,
+   "plantingXp": 11.5,
+   "harvestXp": 4.5,
+   "checkHealthXp": 64.0,
+   "seedItemId": 5101,
+   "harvestItemId": 1951,
+   "patchType": "BUSH_PATCH",
+   "stages": 5,
+   "stageMinutes": 20,
+   "growthMinutes": 100,
+   "protectionPayment": [
+    {
+     "itemId": 5478,
+     "quantity": 4
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "REDBERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-rosemary-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Rosemary seed",
+   "level": 11,
+   "xp": 12.0,
+   "plantingXp": 12.0,
+   "harvestXp": 66.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5097,
+   "harvestItemId": 6014,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "ROSEMARY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-tomato-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Tomato seed",
+   "level": 12,
+   "xp": 12.5,
+   "plantingXp": 12.5,
+   "harvestXp": 14.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5322,
+   "harvestItemId": 1982,
+   "patchType": "ALLOTMENT",
+   "stages": 4,
+   "stageMinutes": 10,
+   "growthMinutes": 40,
+   "protectionPayment": [
+    {
+     "itemId": 5478,
+     "quantity": 2
+    }
+   ],
+   "protectionFlower": "2009scape-farming-marigold-seed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "TOMATO_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-jute-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Jute plant seed",
+   "level": 13,
+   "xp": 13.0,
+   "plantingXp": 13.0,
+   "harvestXp": 14.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5306,
+   "harvestItemId": 5931,
+   "patchType": "HOPS_PATCH",
+   "stages": 5,
+   "stageMinutes": 10,
+   "growthMinutes": 50,
+   "protectionPayment": [
+    {
+     "itemId": 6008,
+     "quantity": 6
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "JUTE_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-marrentill-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Marrentill seed",
+   "level": 14,
+   "xp": 13.5,
+   "plantingXp": 13.5,
+   "harvestXp": 15.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5292,
+   "harvestItemId": 201,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "MARRENTILL_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-oak-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Oak sapling",
+   "level": 15,
+   "xp": 14.0,
+   "plantingXp": 14.0,
+   "harvestXp": 0.0,
+   "checkHealthXp": 467.3,
+   "seedItemId": 5370,
+   "harvestItemId": 6043,
+   "patchType": "TREE_PATCH",
+   "stages": 4,
+   "stageMinutes": 40,
+   "growthMinutes": 160,
+   "protectionPayment": [
+    {
+     "itemId": 5968,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "OAK_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-yanillian-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Yanillian hop seed",
+   "level": 16,
+   "xp": 14.5,
+   "plantingXp": 14.5,
+   "harvestXp": 16.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5309,
+   "harvestItemId": 5998,
+   "patchType": "HOPS_PATCH",
+   "stages": 6,
+   "stageMinutes": 10,
+   "growthMinutes": 60,
+   "protectionPayment": [
+    {
+     "itemId": 5968,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "YANILLIAN_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-tarromin-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Tarromin seed",
+   "level": 19,
+   "xp": 16.0,
+   "plantingXp": 16.0,
+   "harvestXp": 18.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5293,
+   "harvestItemId": 203,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "TARROMIN_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-sweetcorn-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Sweetcorn seed",
+   "level": 20,
+   "xp": 17.0,
+   "plantingXp": 17.0,
+   "harvestXp": 19.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5320,
+   "harvestItemId": 5986,
+   "patchType": "ALLOTMENT",
+   "stages": 6,
+   "stageMinutes": 10,
+   "growthMinutes": 60,
+   "protectionPayment": [
+    {
+     "itemId": 5931,
+     "quantity": 10
+    }
+   ],
+   "protectionFlower": "2009scape-farming-scarecrow",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "SWEETCORN_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-krandorian-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Krandorian hop seed",
+   "level": 21,
+   "xp": 17.5,
+   "plantingXp": 17.5,
+   "harvestXp": 19.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5310,
+   "harvestItemId": 6000,
+   "patchType": "HOPS_PATCH",
+   "stages": 7,
+   "stageMinutes": 10,
+   "growthMinutes": 70,
+   "protectionPayment": [
+    {
+     "itemId": 5478,
+     "quantity": 3
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "KRANDORIAN_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-cadavaberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Cadavaberry bush seed",
+   "level": 22,
+   "xp": 18.0,
+   "plantingXp": 18.0,
+   "harvestXp": 7.0,
+   "checkHealthXp": 102.5,
+   "seedItemId": 5102,
+   "harvestItemId": 753,
+   "patchType": "BUSH_PATCH",
+   "stages": 6,
+   "stageMinutes": 20,
+   "growthMinutes": 120,
+   "protectionPayment": [
+    {
+     "itemId": 5968,
+     "quantity": 3
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CADAVABERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-scarecrow",
+   "skill": "Farming",
+   "kind": "scarecrow",
+   "name": "Scarecrow",
+   "level": 23,
+   "xp": 0.0,
+   "plantingXp": 0.0,
+   "harvestXp": 0.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 6059,
+   "harvestItemId": 6059,
+   "patchType": "FLOWER_PATCH",
+   "stages": -3,
+   "stageMinutes": 5,
+   "growthMinutes": null,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "SCARECROW"
+   }
+  },
+  {
+   "id": "2009scape-farming-nasturtium-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Nasturtium seed",
+   "level": 24,
+   "xp": 19.5,
+   "plantingXp": 19.5,
+   "harvestXp": 111.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5098,
+   "harvestItemId": 6012,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "NASTURTIUM_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-woad-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Woad seed",
+   "level": 25,
+   "xp": 20.5,
+   "plantingXp": 20.5,
+   "harvestXp": 115.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5099,
+   "harvestItemId": 1793,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WOAD_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-harralander-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Harralander seed",
+   "level": 26,
+   "xp": 21.5,
+   "plantingXp": 21.5,
+   "harvestXp": 24.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5294,
+   "harvestItemId": 205,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "HARRALANDER_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-limpwurt-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Limpwurt seed",
+   "level": 26,
+   "xp": 21.5,
+   "plantingXp": 21.5,
+   "harvestXp": 120.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5100,
+   "harvestItemId": 225,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "LIMPWURT_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-apple-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Apple tree sapling",
+   "level": 27,
+   "xp": 22.0,
+   "plantingXp": 22.0,
+   "harvestXp": 8.5,
+   "checkHealthXp": 1199.5,
+   "seedItemId": 5496,
+   "harvestItemId": 1955,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5986,
+     "quantity": 9
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "APPLE_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-wildblood-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Wildblood hop seed",
+   "level": 28,
+   "xp": 23.0,
+   "plantingXp": 23.0,
+   "harvestXp": 26.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5311,
+   "harvestItemId": 6002,
+   "patchType": "HOPS_PATCH",
+   "stages": 8,
+   "stageMinutes": 10,
+   "growthMinutes": 80,
+   "protectionPayment": [
+    {
+     "itemId": 6012,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WILDBLOOD_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-gout-tuber",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Gout tuber",
+   "level": 29,
+   "xp": 105.0,
+   "plantingXp": 105.0,
+   "harvestXp": 45.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 6311,
+   "harvestItemId": 3261,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "GOUT_TUBER"
+   }
+  },
+  {
+   "id": "2009scape-farming-willow-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Willow sapling",
+   "level": 30,
+   "xp": 25.0,
+   "plantingXp": 25.0,
+   "harvestXp": 0.0,
+   "checkHealthXp": 1456.5,
+   "seedItemId": 5371,
+   "harvestItemId": 6045,
+   "patchType": "TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 40,
+   "growthMinutes": 240,
+   "protectionPayment": [
+    {
+     "itemId": 5386,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WILLOW_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-strawberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Strawberry seed",
+   "level": 31,
+   "xp": 26.0,
+   "plantingXp": 26.0,
+   "harvestXp": 29.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5323,
+   "harvestItemId": 5504,
+   "patchType": "ALLOTMENT",
+   "stages": 6,
+   "stageMinutes": 10,
+   "growthMinutes": 60,
+   "protectionPayment": [
+    {
+     "itemId": 5386,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "STRAWBERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-ranarr-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Ranarr seed",
+   "level": 32,
+   "xp": 27.0,
+   "plantingXp": 27.0,
+   "harvestXp": 30.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5295,
+   "harvestItemId": 207,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "RANARR_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-banana-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Banana tree sapling",
+   "level": 33,
+   "xp": 28.0,
+   "plantingXp": 28.0,
+   "harvestXp": 10.5,
+   "checkHealthXp": 1750.5,
+   "seedItemId": 5497,
+   "harvestItemId": 1963,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5386,
+     "quantity": 4
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "BANANA_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-dwellberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Dwellberry bush seed",
+   "level": 36,
+   "xp": 31.5,
+   "plantingXp": 31.5,
+   "harvestXp": 12.0,
+   "checkHealthXp": 177.5,
+   "seedItemId": 5103,
+   "harvestItemId": 2126,
+   "patchType": "BUSH_PATCH",
+   "stages": 7,
+   "stageMinutes": 20,
+   "growthMinutes": 140,
+   "protectionPayment": [
+    {
+     "itemId": 5406,
+     "quantity": 3
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "DWELLBERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-spirit-weed-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Spirit weed seed",
+   "level": 36,
+   "xp": 32.0,
+   "plantingXp": 32.0,
+   "harvestXp": 36.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 12176,
+   "harvestItemId": 12174,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "SPIRIT_WEED_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-toadflax-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Toadflax seed",
+   "level": 38,
+   "xp": 34.0,
+   "plantingXp": 34.0,
+   "harvestXp": 38.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5296,
+   "harvestItemId": 3049,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "TOADFLAX_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-orange-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Orange tree sapling",
+   "level": 39,
+   "xp": 35.5,
+   "plantingXp": 35.5,
+   "harvestXp": 13.5,
+   "checkHealthXp": 2470.2,
+   "seedItemId": 5498,
+   "harvestItemId": 2108,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5406,
+     "quantity": 3
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "ORANGE_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-curry-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Curry tree sapling",
+   "level": 42,
+   "xp": 40.0,
+   "plantingXp": 40.0,
+   "harvestXp": 15.0,
+   "checkHealthXp": 2906.9,
+   "seedItemId": 5499,
+   "harvestItemId": 5970,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5416,
+     "quantity": 5
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CURRY_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-evil-turnip-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Evil turnip seed",
+   "level": 42,
+   "xp": 41.0,
+   "plantingXp": 41.0,
+   "harvestXp": 46.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 12148,
+   "harvestItemId": 12134,
+   "patchType": "EVIL_TURNIP_PATCH",
+   "stages": 1,
+   "stageMinutes": 5,
+   "growthMinutes": 5,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "EVIL_TURNIP_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-irit-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Irit seed",
+   "level": 44,
+   "xp": 43.0,
+   "plantingXp": 43.0,
+   "harvestXp": 48.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5297,
+   "harvestItemId": 209,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "IRIT_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-maple-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Maple sapling",
+   "level": 45,
+   "xp": 45.0,
+   "plantingXp": 45.0,
+   "harvestXp": 0.0,
+   "checkHealthXp": 3403.4,
+   "seedItemId": 5372,
+   "harvestItemId": 6047,
+   "patchType": "TREE_PATCH",
+   "stages": 8,
+   "stageMinutes": 40,
+   "growthMinutes": 320,
+   "protectionPayment": [
+    {
+     "itemId": 5396,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "MAPLE_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-watermelon-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Watermelon seed",
+   "level": 47,
+   "xp": 48.5,
+   "plantingXp": 48.5,
+   "harvestXp": 54.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5321,
+   "harvestItemId": 5982,
+   "patchType": "ALLOTMENT",
+   "stages": 8,
+   "stageMinutes": 10,
+   "growthMinutes": 80,
+   "protectionPayment": [
+    {
+     "itemId": 5970,
+     "quantity": 10
+    }
+   ],
+   "protectionFlower": "2009scape-farming-nasturtium-seed",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WATERMELON_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-jangerberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Jangerberry bush seed",
+   "level": 48,
+   "xp": 50.5,
+   "plantingXp": 50.5,
+   "harvestXp": 19.0,
+   "checkHealthXp": 284.5,
+   "seedItemId": 5104,
+   "harvestItemId": 247,
+   "patchType": "BUSH_PATCH",
+   "stages": 8,
+   "stageMinutes": 20,
+   "growthMinutes": 160,
+   "protectionPayment": [
+    {
+     "itemId": 5982,
+     "quantity": 6
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "JANGERBERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-avantoe-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Avantoe seed",
+   "level": 50,
+   "xp": 54.5,
+   "plantingXp": 54.5,
+   "harvestXp": 61.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5298,
+   "harvestItemId": 211,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "AVANTOE_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-pineapple-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Pineapple plant",
+   "level": 51,
+   "xp": 57.0,
+   "plantingXp": 57.0,
+   "harvestXp": 21.5,
+   "checkHealthXp": 4605.7,
+   "seedItemId": 5500,
+   "harvestItemId": 2114,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5982,
+     "quantity": 10
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "PINEAPPLE_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-white-lily-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "White lily seed",
+   "level": 52,
+   "xp": 42.0,
+   "plantingXp": 42.0,
+   "harvestXp": 250.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 14589,
+   "harvestItemId": 14583,
+   "patchType": "FLOWER_PATCH",
+   "stages": 4,
+   "stageMinutes": 5,
+   "growthMinutes": 20,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WHITE_LILY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-mushroom-spore",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Mushroom spore",
+   "level": 53,
+   "xp": 61.5,
+   "plantingXp": 61.5,
+   "harvestXp": 57.7,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5282,
+   "harvestItemId": 6004,
+   "patchType": "MUSHROOM_PATCH",
+   "stages": 6,
+   "stageMinutes": 30,
+   "growthMinutes": 180,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "MUSHROOM_SPORE"
+   }
+  },
+  {
+   "id": "2009scape-farming-cactus-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Cactus seed",
+   "level": 55,
+   "xp": 66.5,
+   "plantingXp": 66.5,
+   "harvestXp": 25.0,
+   "checkHealthXp": 374.0,
+   "seedItemId": 5280,
+   "harvestItemId": 6016,
+   "patchType": "CACTUS_PATCH",
+   "stages": 7,
+   "stageMinutes": 60,
+   "growthMinutes": 420,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CACTUS_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-kwuarm-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Kwuarm seed",
+   "level": 56,
+   "xp": 69.0,
+   "plantingXp": 69.0,
+   "harvestXp": 78.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5299,
+   "harvestItemId": 213,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "KWUARM_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-papaya-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Papaya tree sapling",
+   "level": 57,
+   "xp": 72.0,
+   "plantingXp": 72.0,
+   "harvestXp": 27.0,
+   "checkHealthXp": 6146.4,
+   "seedItemId": 5501,
+   "harvestItemId": 5972,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 2114,
+     "quantity": 10
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "PAPAYA_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-whiteberry-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Whiteberry bush seed",
+   "level": 59,
+   "xp": 78.0,
+   "plantingXp": 78.0,
+   "harvestXp": 29.0,
+   "checkHealthXp": 437.5,
+   "seedItemId": 5105,
+   "harvestItemId": 239,
+   "patchType": "BUSH_PATCH",
+   "stages": 8,
+   "stageMinutes": 20,
+   "growthMinutes": 160,
+   "protectionPayment": [
+    {
+     "itemId": 6004,
+     "quantity": 8
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "WHITEBERRY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-yew-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Yew sapling",
+   "level": 60,
+   "xp": 81.0,
+   "plantingXp": 81.0,
+   "harvestXp": 0.0,
+   "checkHealthXp": 7069.9,
+   "seedItemId": 5373,
+   "harvestItemId": 6049,
+   "patchType": "TREE_PATCH",
+   "stages": 10,
+   "stageMinutes": 40,
+   "growthMinutes": 400,
+   "protectionPayment": [
+    {
+     "itemId": 6016,
+     "quantity": 10
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "YEW_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-snapdragon-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Snapdragon seed",
+   "level": 62,
+   "xp": 87.5,
+   "plantingXp": 87.5,
+   "harvestXp": 98.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5300,
+   "harvestItemId": 3051,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "SNAPDRAGON_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-belladonna-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Belladonna seed",
+   "level": 63,
+   "xp": 91.0,
+   "plantingXp": 91.0,
+   "harvestXp": 128.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5281,
+   "harvestItemId": 2398,
+   "patchType": "BELLADONNA_PATCH",
+   "stages": 4,
+   "stageMinutes": 80,
+   "growthMinutes": 320,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "BELLADONNA_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-cadantine-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Cadantine seed",
+   "level": 67,
+   "xp": 106.5,
+   "plantingXp": 106.5,
+   "harvestXp": 120.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5301,
+   "harvestItemId": 215,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CADANTINE_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-palm-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Palm tree sapling",
+   "level": 68,
+   "xp": 110.5,
+   "plantingXp": 110.5,
+   "harvestXp": 41.5,
+   "checkHealthXp": 10150.1,
+   "seedItemId": 5502,
+   "harvestItemId": 5974,
+   "patchType": "FRUIT_TREE_PATCH",
+   "stages": 6,
+   "stageMinutes": 160,
+   "growthMinutes": 960,
+   "protectionPayment": [
+    {
+     "itemId": 5972,
+     "quantity": 15
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "PALM_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-poison-ivy-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Poison ivy bush seed",
+   "level": 70,
+   "xp": 120.0,
+   "plantingXp": 120.0,
+   "harvestXp": 45.0,
+   "checkHealthXp": 675.0,
+   "seedItemId": 5106,
+   "harvestItemId": 6018,
+   "patchType": "BUSH_PATCH",
+   "stages": 8,
+   "stageMinutes": 20,
+   "growthMinutes": 160,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "POISON_IVY_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-calquat-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Calquat tree sapling",
+   "level": 72,
+   "xp": 130.5,
+   "plantingXp": 130.5,
+   "harvestXp": 48.5,
+   "checkHealthXp": 12096.0,
+   "seedItemId": 5503,
+   "harvestItemId": 5980,
+   "patchType": "CALQUAT_TREE_PATCH",
+   "stages": 8,
+   "stageMinutes": 160,
+   "growthMinutes": 1280,
+   "protectionPayment": [
+    {
+     "itemId": 6018,
+     "quantity": 8
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "CALQUAT_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-lantadyme-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Lantadyme seed",
+   "level": 73,
+   "xp": 134.5,
+   "plantingXp": 134.5,
+   "harvestXp": 151.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5302,
+   "harvestItemId": 2485,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "LANTADYME_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-magic-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Magic Tree sapling",
+   "level": 75,
+   "xp": 145.5,
+   "plantingXp": 145.5,
+   "harvestXp": 0.0,
+   "checkHealthXp": 13768.3,
+   "seedItemId": 5374,
+   "harvestItemId": 6051,
+   "patchType": "TREE_PATCH",
+   "stages": 12,
+   "stageMinutes": 40,
+   "growthMinutes": 480,
+   "protectionPayment": [
+    {
+     "itemId": 5974,
+     "quantity": 25
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "MAGIC_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-dwarf-weed-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Dwarf weed seed",
+   "level": 79,
+   "xp": 170.5,
+   "plantingXp": 170.5,
+   "harvestXp": 192.0,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5303,
+   "harvestItemId": 217,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "DWARF_WEED_SEED"
+   }
+  },
+  {
+   "id": "2009scape-farming-spirit-sapling",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Spirit tree sapling",
+   "level": 83,
+   "xp": 199.5,
+   "plantingXp": 199.5,
+   "harvestXp": 0.0,
+   "checkHealthXp": 19301.0,
+   "seedItemId": 5375,
+   "harvestItemId": null,
+   "patchType": "SPIRIT_TREE_PATCH",
+   "stages": 12,
+   "stageMinutes": 295,
+   "growthMinutes": 3540,
+   "protectionPayment": [
+    {
+     "itemId": 4012,
+     "quantity": 5
+    },
+    {
+     "itemId": 4014,
+     "quantity": 1
+    },
+    {
+     "itemId": 9082,
+     "quantity": 1
+    }
+   ],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "SPIRIT_SAPLING"
+   }
+  },
+  {
+   "id": "2009scape-farming-torstol-seed",
+   "skill": "Farming",
+   "kind": "crop",
+   "name": "Torstol seed",
+   "level": 85,
+   "xp": 199.5,
+   "plantingXp": 199.5,
+   "harvestXp": 224.5,
+   "checkHealthXp": 0.0,
+   "seedItemId": 5304,
+   "harvestItemId": 219,
+   "patchType": "HERB_PATCH",
+   "stages": 4,
+   "stageMinutes": 20,
+   "growthMinutes": 80,
+   "protectionPayment": [],
+   "protectionFlower": null,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/Plantable.kt",
+    "commit": "4082f9d",
+    "enum": "TORSTOL_SEED"
+   }
+  }
+ ],
+ "patches": [
+  {
+   "id": "2009scape-farming-patch-s-falador-allotment-nw",
+   "kind": "patch",
+   "name": "South Falador Allotment north-west",
+   "patchType": "ALLOTMENT",
+   "varbit": 708,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "S_FALADOR_ALLOTMENT_NW"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-s-falador-allotment-se",
+   "kind": "patch",
+   "name": "South Falador Allotment south-east",
+   "patchType": "ALLOTMENT",
+   "varbit": 709,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "S_FALADOR_ALLOTMENT_SE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-catherby-allotment-n",
+   "kind": "patch",
+   "name": "Catherby Allotment north",
+   "patchType": "ALLOTMENT",
+   "varbit": 710,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CATHERBY_ALLOTMENT_N"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-catherby-allotment-s",
+   "kind": "patch",
+   "name": "Catherby Allotment south",
+   "patchType": "ALLOTMENT",
+   "varbit": 711,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CATHERBY_ALLOTMENT_S"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-ardougne-allotment-s",
+   "kind": "patch",
+   "name": "Ardougne Allotment south",
+   "patchType": "ALLOTMENT",
+   "varbit": 713,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ARDOUGNE_ALLOTMENT_S"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-ardougne-allotment-n",
+   "kind": "patch",
+   "name": "Ardougne Allotment north",
+   "patchType": "ALLOTMENT",
+   "varbit": 712,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ARDOUGNE_ALLOTMENT_N"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-port-phas-allotment-nw",
+   "kind": "patch",
+   "name": "Port Phas Allotment north-west",
+   "patchType": "ALLOTMENT",
+   "varbit": 714,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "PORT_PHAS_ALLOTMENT_NW"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-port-phas-allotment-se",
+   "kind": "patch",
+   "name": "Port Phas Allotment south-east",
+   "patchType": "ALLOTMENT",
+   "varbit": 715,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "PORT_PHAS_ALLOTMENT_SE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-harmony-island-allotment",
+   "kind": "patch",
+   "name": "Harmony Island Allotment",
+   "patchType": "ALLOTMENT",
+   "varbit": 3402,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "HARMONY_ISLAND_ALLOTMENT"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-catherby-herb-ce",
+   "kind": "patch",
+   "name": "Catherby Herb centre",
+   "patchType": "HERB_PATCH",
+   "varbit": 781,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CATHERBY_HERB_CE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-s-falador-herb-ne",
+   "kind": "patch",
+   "name": "South Falador Herb north-east",
+   "patchType": "HERB_PATCH",
+   "varbit": 780,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "S_FALADOR_HERB_NE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-ardougne-herb-ce",
+   "kind": "patch",
+   "name": "Ardougne Herb centre",
+   "patchType": "HERB_PATCH",
+   "varbit": 782,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ARDOUGNE_HERB_CE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-port-phas-herb-ne",
+   "kind": "patch",
+   "name": "Port Phas Herb north-east",
+   "patchType": "HERB_PATCH",
+   "varbit": 783,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "PORT_PHAS_HERB_NE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-troll-stronghold-herb",
+   "kind": "patch",
+   "name": "Troll Stronghold Herb",
+   "patchType": "HERB_PATCH",
+   "varbit": 2788,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "TROLL_STRONGHOLD_HERB"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-s-falador-flower-c",
+   "kind": "patch",
+   "name": "South Falador Flower centre",
+   "patchType": "FLOWER_PATCH",
+   "varbit": 728,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "S_FALADOR_FLOWER_C"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-catherby-flower-c",
+   "kind": "patch",
+   "name": "Catherby Flower centre",
+   "patchType": "FLOWER_PATCH",
+   "varbit": 729,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CATHERBY_FLOWER_C"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-ardougne-flower-c",
+   "kind": "patch",
+   "name": "Ardougne Flower centre",
+   "patchType": "FLOWER_PATCH",
+   "varbit": 730,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ARDOUGNE_FLOWER_C"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-port-phas-flower-c",
+   "kind": "patch",
+   "name": "Port Phas Flower centre",
+   "patchType": "FLOWER_PATCH",
+   "varbit": 731,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "PORT_PHAS_FLOWER_C"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-wilderness-flower",
+   "kind": "patch",
+   "name": "Wilderness Flower",
+   "patchType": "FLOWER_PATCH",
+   "varbit": 5067,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "WILDERNESS_FLOWER"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-n-falador-tree",
+   "kind": "patch",
+   "name": "North Falador Tree",
+   "patchType": "TREE_PATCH",
+   "varbit": 701,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "N_FALADOR_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-taverly-tree",
+   "kind": "patch",
+   "name": "Taverly Tree",
+   "patchType": "TREE_PATCH",
+   "varbit": 700,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "TAVERLY_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-gnome-stronghold-tree",
+   "kind": "patch",
+   "name": "Gnome Stronghold Tree",
+   "patchType": "TREE_PATCH",
+   "varbit": 2953,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "GNOME_STRONGHOLD_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-lumbridge-tree",
+   "kind": "patch",
+   "name": "Lumbridge Tree",
+   "patchType": "TREE_PATCH",
+   "varbit": 703,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "LUMBRIDGE_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-varrock-tree",
+   "kind": "patch",
+   "name": "Varrock Tree",
+   "patchType": "TREE_PATCH",
+   "varbit": 702,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "VARROCK_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-gnome-stronghold-fruit-tree",
+   "kind": "patch",
+   "name": "Gnome Stronghold Fruit Tree",
+   "patchType": "FRUIT_TREE_PATCH",
+   "varbit": 704,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "GNOME_STRONGHOLD_FRUIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-catherby-fruit-tree",
+   "kind": "patch",
+   "name": "Catherby Fruit Tree",
+   "patchType": "FRUIT_TREE_PATCH",
+   "varbit": 707,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CATHERBY_FRUIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-tree-gnome-village-fruit-tree",
+   "kind": "patch",
+   "name": "Tree Gnome Village Fruit Tree",
+   "patchType": "FRUIT_TREE_PATCH",
+   "varbit": 705,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "TREE_GNOME_VILLAGE_FRUIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-brimhaven-fruit-tree",
+   "kind": "patch",
+   "name": "Brimhaven Fruit Tree",
+   "patchType": "FRUIT_TREE_PATCH",
+   "varbit": 706,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "BRIMHAVEN_FRUIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-lletya-fruit-tree",
+   "kind": "patch",
+   "name": "Lletya Fruit Tree",
+   "patchType": "FRUIT_TREE_PATCH",
+   "varbit": 4317,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "LLETYA_FRUIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-entrana-hops",
+   "kind": "patch",
+   "name": "Entrana Hops",
+   "patchType": "HOPS_PATCH",
+   "varbit": 717,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ENTRANA_HOPS"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-lumbridge-hops",
+   "kind": "patch",
+   "name": "Lumbridge Hops",
+   "patchType": "HOPS_PATCH",
+   "varbit": 718,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "LUMBRIDGE_HOPS"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-mcgrubor-hops",
+   "kind": "patch",
+   "name": "Mcgrubor Hops",
+   "patchType": "HOPS_PATCH",
+   "varbit": 719,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "MCGRUBOR_HOPS"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-yanille-hops",
+   "kind": "patch",
+   "name": "Yanille Hops",
+   "patchType": "HOPS_PATCH",
+   "varbit": 716,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "YANILLE_HOPS"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-champions-guild-bush",
+   "kind": "patch",
+   "name": "Champions Guild Bush",
+   "patchType": "BUSH_PATCH",
+   "varbit": 732,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CHAMPIONS_GUILD_BUSH"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-rimmington-bush",
+   "kind": "patch",
+   "name": "Rimmington Bush",
+   "patchType": "BUSH_PATCH",
+   "varbit": 733,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "RIMMINGTON_BUSH"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-ardougne-bush",
+   "kind": "patch",
+   "name": "Ardougne Bush",
+   "patchType": "BUSH_PATCH",
+   "varbit": 735,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ARDOUGNE_BUSH"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-etceteria-bush",
+   "kind": "patch",
+   "name": "Etceteria Bush",
+   "patchType": "BUSH_PATCH",
+   "varbit": 734,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ETCETERIA_BUSH"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-etceteria-spirit-tree",
+   "kind": "patch",
+   "name": "Etceteria Spirit Tree",
+   "patchType": "SPIRIT_TREE_PATCH",
+   "varbit": 722,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ETCETERIA_SPIRIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-port-sarim-spirit-tree",
+   "kind": "patch",
+   "name": "Port Sarim Spirit Tree",
+   "patchType": "SPIRIT_TREE_PATCH",
+   "varbit": 720,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "PORT_SARIM_SPIRIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-karamja-spirit-tree",
+   "kind": "patch",
+   "name": "Karamja Spirit Tree",
+   "patchType": "SPIRIT_TREE_PATCH",
+   "varbit": 724,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "KARAMJA_SPIRIT_TREE"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-draynor-belladonna",
+   "kind": "patch",
+   "name": "Draynor Belladonna",
+   "patchType": "BELLADONNA_PATCH",
+   "varbit": 748,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "DRAYNOR_BELLADONNA"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-canifis-mushroom",
+   "kind": "patch",
+   "name": "Canifis Mushroom",
+   "patchType": "MUSHROOM_PATCH",
+   "varbit": 746,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CANIFIS_MUSHROOM"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-alkharid-cactus",
+   "kind": "patch",
+   "name": "Alkharid Cactus",
+   "patchType": "CACTUS_PATCH",
+   "varbit": 744,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "ALKHARID_CACTUS"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-evil-turnip",
+   "kind": "patch",
+   "name": "Evil Turnip",
+   "patchType": "EVIL_TURNIP_PATCH",
+   "varbit": 4291,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "EVIL_TURNIP"
+   }
+  },
+  {
+   "id": "2009scape-farming-patch-calquat-tree",
+   "kind": "patch",
+   "name": "Calquat Tree",
+   "patchType": "CALQUAT_TREE_PATCH",
+   "varbit": 726,
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/farming/FarmingPatch.kt",
+    "commit": "4082f9d",
+    "enum": "CALQUAT_TREE"
+   }
+  }
+ ]
+}
