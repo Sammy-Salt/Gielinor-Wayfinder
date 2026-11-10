@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.50",
-  "buildId": "pass31.50-20261108-1",
+  "release": "PASS31.51",
+  "buildId": "pass31.51-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -118,8 +118,12 @@
       "sha256": "e68c5aa72faf1c71d8887db28e91e3bb93f41c932b982ebbe7da63e77605fcbc",
       "bytes": 217
     },
+    "data/agility.json": {
+      "sha256": "81b82e466daae482023fe4a29b833e4428f7e6f8fc347a0dec881b9834060cef",
+      "bytes": 26295
+    },
     "data/catalog-manifest.json": {
-      "sha256": "6a3df34d13e780dbbe282256a95ce5c5d6ea4690ba25b2b5ce503ea9960ca3d7",
+      "sha256": "1ec8f7fdc38abd5329c470db2af63a3e6408120331a52e190bbc26c0674594f0",
       "bytes": 1436
     },
     "data/gathering.json": {
@@ -216775,7 +216779,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "9de607fc49fb713d83efc66b500533bcbba19f68a752821ff64cbc110f5b6158",
+      "sha256": "efc3319452a0fefdd0fb40792feda60bf9ddaf1df1a7b6c200cb73f4cf60a21e",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216783,7 +216787,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "0e7cf5cd6c28a7cff553e58776f031e48e4be88137bd97781c4b3a3579951540",
+      "sha256": "135647774b11aa23ae62ef921e8912e5229ed7a5df0216539b9fd26b2ab9ddbb",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -217079,7 +217083,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "148b236f4160dc8ae89539b20965118e8e79fca3b4d410892150fe073515679f",
+      "sha256": "db72d1494d4ac12bd4d325d2bb6248aea69b15138a87a9804e456c993327a98e",
       "bytes": 499
     },
     "site.css": {
@@ -217091,7 +217095,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "d7bb318880f4e966cc16ef281239ca602cedabd8531833e725f6d1e4c8c5bd89",
+      "sha256": "51a6139d9cf35270332faaaa6abd3c1175aac56ed85a610b138da4e2db6115a6",
       "bytes": 4302
     }
   }

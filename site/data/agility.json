@@ -1,0 +1,1228 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "courses": 3,
+  "shortcuts": 45,
+  "total": 48
+ },
+ "courses": [
+  {
+   "id": "2009scape-agility-course-gnome-stronghold",
+   "skill": "Agility",
+   "kind": "course",
+   "name": "Gnome Stronghold Agility Course",
+   "level": null,
+   "levelNote": "no level check in the server source",
+   "completionXp": 39.0,
+   "obstacleXp": 47.5,
+   "obstacles": [
+    {
+     "name": "Log balance",
+     "objectIds": [
+      2295
+     ],
+     "xp": 7.5
+    },
+    {
+     "name": "Obstacle net",
+     "objectIds": [
+      2285
+     ],
+     "xp": 7.5
+    },
+    {
+     "name": "Tree branch (up)",
+     "objectIds": [
+      35970
+     ],
+     "xp": 5.0
+    },
+    {
+     "name": "Balancing rope",
+     "objectIds": [
+      2312
+     ],
+     "xp": 7.5
+    },
+    {
+     "name": "Tree branch (down)",
+     "objectIds": [
+      2314,
+      2315
+     ],
+     "xp": 5.0
+    },
+    {
+     "name": "Obstacle net",
+     "objectIds": [
+      2286
+     ],
+     "xp": 7.5
+    },
+    {
+     "name": "Obstacle pipe",
+     "objectIds": [
+      4058,
+      154
+     ],
+     "xp": 7.5
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/GnomeStrongholdCourse.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-agility-course-barbarian-outpost",
+   "skill": "Agility",
+   "kind": "course",
+   "name": "Barbarian Outpost Agility Course",
+   "level": null,
+   "levelNote": "no level check in the server source; entry needs the Barcrawl completed",
+   "completionXp": 46.2,
+   "obstacleXp": 106.0,
+   "obstacles": [
+    {
+     "name": "Rope swing",
+     "objectIds": [
+      2282
+     ],
+     "xp": 22.0,
+     "failChance": 0.1
+    },
+    {
+     "name": "Log balance",
+     "objectIds": [
+      2294
+     ],
+     "xp": 13.5,
+     "failChance": 0.5
+    },
+    {
+     "name": "Obstacle net",
+     "objectIds": [
+      20211
+     ],
+     "xp": 8.0
+    },
+    {
+     "name": "Ledge balance",
+     "objectIds": [
+      2302
+     ],
+     "xp": 22.0,
+     "failChance": 0.3
+    },
+    {
+     "name": "Low wall",
+     "objectIds": [
+      1948
+     ],
+     "xp": 13.5,
+     "count": 3
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/BarbarianOutpostCourse.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-agility-course-wilderness",
+   "skill": "Agility",
+   "kind": "course",
+   "name": "Wilderness Agility Course",
+   "level": 52,
+   "levelNote": "entry gate needs Agility 52 (the obstacle pipe checks 49)",
+   "completionXp": 499.0,
+   "obstacleXp": 87.5,
+   "obstacles": [
+    {
+     "name": "Ridge entrance",
+     "objectIds": [
+      2307,
+      2308
+     ],
+     "xp": 15.0,
+     "failChance": 0.3
+    },
+    {
+     "name": "Obstacle pipe",
+     "objectIds": [
+      2288
+     ],
+     "xp": 12.5
+    },
+    {
+     "name": "Rope swing",
+     "objectIds": [
+      2283
+     ],
+     "xp": 20.0,
+     "failChance": 0.1
+    },
+    {
+     "name": "Stepping stones",
+     "objectIds": [
+      37704
+     ],
+     "xp": 20.0,
+     "failChance": 0.3
+    },
+    {
+     "name": "Log balance",
+     "objectIds": [
+      2297
+     ],
+     "xp": 20.0,
+     "failChance": 0.5
+    },
+    {
+     "name": "Rock climb",
+     "objectIds": [
+      2328
+     ],
+     "xp": 0.0
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/WildernessCourse.kt",
+    "commit": "4082f9d"
+   }
+  }
+ ],
+ "shortcuts": [
+  {
+   "id": "2009scape-agility-shortcut-barsqueezeshortcut-2186",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Bar squeeze",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    2186
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BarSqueezeShortcut.java",
+    "commit": "4082f9d",
+    "enum": "BarSqueezeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4550",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4550
+   ],
+   "options": [
+    "jump-to"
+   ],
+   "note": "Beach South*",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4551",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4551
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "Beach South Rock 1*",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4552",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4552
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "South Rock 2",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4553",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4553
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "South Rock 2 (other side)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4554",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4554
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "Middle Rock 3",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4555",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4555
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "Middle Rock 3 (other side)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4556",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4556
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "North Rock 4",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4557",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4557
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "North Rock 4 (other side)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4558",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4558
+   ],
+   "options": [
+    "jump-across"
+   ],
+   "note": "Rocky Shore North Rock 5*",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-basaltrockshortcut-4559",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Basalt rock",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    4559
+   ],
+   "options": [
+    "jump-to"
+   ],
+   "note": "Rocky Shore North*",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BasaltRockShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "BasaltRockShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-2332",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 1,
+   "xp": 1.0,
+   "objectIds": [
+    2332
+   ],
+   "options": [
+    "cross"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-monkeybarshortcut-29375",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Monkey bar",
+   "level": 1,
+   "xp": 14.0,
+   "objectIds": [
+    29375
+   ],
+   "options": [
+    "swing across"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/MonkeyBarShortcut.java",
+    "commit": "4082f9d",
+    "enum": "MonkeyBarShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-rockclimbshortcut-9335",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Rock climb",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    9335,
+    9336,
+    2231,
+    26327,
+    26328,
+    26324,
+    26323,
+    19849,
+    9296,
+    9297
+   ],
+   "options": [
+    "climb"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/RockClimbShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "RockClimbShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-tunnelshortcut-14922",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Tunnel",
+   "level": 1,
+   "xp": 0.0,
+   "objectIds": [
+    14922
+   ],
+   "options": [
+    "enter"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/TunnelShortcut.java",
+    "commit": "4082f9d",
+    "enum": "TunnelShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-crumblingwallshortcut-11844",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Crumbling wall",
+   "level": 5,
+   "xp": 0.0,
+   "objectIds": [
+    11844
+   ],
+   "options": [
+    "climb-over"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/CrumblingWallShortcut.java",
+    "commit": "4082f9d",
+    "enum": "CrumblingWallShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-alkharidgrapple-from-3246-3179-0-to-3259-3179-0",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Al kharid grapple",
+   "level": 8,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 8
+    },
+    {
+     "skill": "Ranged",
+     "level": 37
+    },
+    {
+     "skill": "Strength",
+     "level": 19
+    }
+   ],
+   "note": "from (3246, 3179, 0) to (3259, 3179, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/AlKharidGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "AlKharidGrapple"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-faladorgrapplenorth-from-3033-3390-0-to-3033-3389-1",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Falador grapple north",
+   "level": 11,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 11
+    },
+    {
+     "skill": "Ranged",
+     "level": 19
+    },
+    {
+     "skill": "Strength",
+     "level": 37
+    }
+   ],
+   "note": "from (3033, 3390, 0) to (3033, 3389, 1)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/FaladorGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "FaladorGrappleNorth"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-faladorgrapplesouth-from-3032-3388-0-to-3032-3389-1",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Falador grapple south",
+   "level": 11,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 11
+    },
+    {
+     "skill": "Ranged",
+     "level": 19
+    },
+    {
+     "skill": "Strength",
+     "level": 37
+    }
+   ],
+   "note": "from (3032, 3388, 0) to (3032, 3389, 1)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/FaladorGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "FaladorGrappleSouth"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-yanillegrapple-from-2556-3072-0-to-2556-3073-1",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Yanille grapple",
+   "level": 11,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 11
+    },
+    {
+     "skill": "Ranged",
+     "level": 19
+    },
+    {
+     "skill": "Strength",
+     "level": 37
+    }
+   ],
+   "note": "from (2556, 3072, 0) to (2556, 3073, 1)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/YanilleGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "YanilleGrapple"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-fencejumpshortcut-9300",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Fence jump",
+   "level": 13,
+   "xp": 0.0,
+   "objectIds": [
+    9300
+   ],
+   "options": [
+    "jump-over"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/FenceJumpShortcut.java",
+    "commit": "4082f9d",
+    "enum": "FenceJumpShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-tunnelshortcut-9302",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Tunnel",
+   "level": 16,
+   "xp": 0.0,
+   "objectIds": [
+    9302,
+    9301
+   ],
+   "options": [
+    "climb-into",
+    "climb-under"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/TunnelShortcut.java",
+    "commit": "4082f9d",
+    "enum": "TunnelShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-2296",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 20,
+   "xp": 5.0,
+   "objectIds": [
+    2296
+   ],
+   "options": [
+    "walk-across"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-5099",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 22,
+   "xp": 8.5,
+   "objectIds": [
+    5099
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Brimhaven Dungeon Pipe Red Dragons -> Black Demons",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-tunnelshortcut-9309",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Tunnel",
+   "level": 26,
+   "xp": 0.0,
+   "objectIds": [
+    9309,
+    9310
+   ],
+   "options": [
+    "climb-into"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/TunnelShortcut.java",
+    "commit": "4082f9d",
+    "enum": "TunnelShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-steppingstone-2335",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Stepping stone",
+   "level": 30,
+   "xp": null,
+   "objectIds": [
+    2335,
+    2333
+   ],
+   "options": [
+    "cross"
+   ],
+   "note": "between (2925, 2947, 0) and (2925, 2951, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/SteppingStoneShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "SteppingStone"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-steppingstone-9315",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Stepping stone",
+   "level": 31,
+   "xp": null,
+   "objectIds": [
+    9315
+   ],
+   "options": [
+    "jump-onto"
+   ],
+   "note": "between (3149, 3363, 0) and (3154, 3363, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/SteppingStoneShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "SteppingStone"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-catherbygrappleshortcut-from-2866-3429-0-to-2869-3430-0",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Catherby grapple",
+   "level": 32,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 32
+    },
+    {
+     "skill": "Ranged",
+     "level": 35
+    },
+    {
+     "skill": "Strength",
+     "level": 35
+    }
+   ],
+   "note": "from (2866, 3429, 0) to (2869, 3430, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/CatherbyGrappleShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "CatherbyGrappleShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-35997",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 33,
+   "xp": 1.0,
+   "objectIds": [
+    35997,
+    35999
+   ],
+   "options": [
+    "walk-across"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-5100",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 34,
+   "xp": 10.0,
+   "objectIds": [
+    5100
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Brimhaven Dungeon Pipe Moss Giants -> Moss Giants",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-20210",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 35,
+   "xp": 10.0,
+   "objectIds": [
+    20210
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Barbarian Outpost",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-waterorbgrapple-from-2841-3427-0-to-2841-3433-0",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Water orb grapple",
+   "level": 36,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 36
+    },
+    {
+     "skill": "Ranged",
+     "level": 39
+    },
+    {
+     "skill": "Strength",
+     "level": 22
+    }
+   ],
+   "note": "from (2841, 3427, 0) to (2841, 3433, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/WaterOrbGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "WaterOrbGrapple"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-alkharidpitshortcut-9331",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Al kharid pit",
+   "level": 38,
+   "xp": 0.0,
+   "objectIds": [
+    9331,
+    9332
+   ],
+   "options": [
+    "climb"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/AlKharidPitShortcut.java",
+    "commit": "4082f9d",
+    "enum": "AlKharidPitShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-3931",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 45,
+   "xp": 1.0,
+   "objectIds": [
+    3931
+   ],
+   "options": [
+    "cross"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-3932",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 45,
+   "xp": 1.0,
+   "objectIds": [
+    3932
+   ],
+   "options": [
+    "cross"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-3933",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 45,
+   "xp": 1.0,
+   "objectIds": [
+    3933
+   ],
+   "options": [
+    "cross"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-zanarissqueezeshortcut-12127",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Zanaris squeeze",
+   "level": 46,
+   "xp": 0.0,
+   "objectIds": [
+    12127
+   ],
+   "options": [
+    "squeeze-past"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/ZanarisSqueezeShortcut.java",
+    "commit": "4082f9d",
+    "enum": "ZanarisSqueezeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-logbalanceshortcut-9322",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Log balance",
+   "level": 48,
+   "xp": 1.0,
+   "objectIds": [
+    9322,
+    9324
+   ],
+   "options": [
+    "walk-across"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/LogBalanceShortcut.java",
+    "commit": "4082f9d",
+    "enum": "LogBalanceShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-2290",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 49,
+   "xp": 0.0,
+   "objectIds": [
+    2290
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Yanille Dungeon",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-29370",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 51,
+   "xp": 10.0,
+   "objectIds": [
+    29370
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Edgeville Dungeon",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-karamjagrapple-from-2874-3127-0-to-2874-3142-0",
+   "skill": "Agility",
+   "kind": "grapple",
+   "name": "Karamja grapple",
+   "level": 53,
+   "xp": null,
+   "objectIds": [],
+   "options": [
+    "grapple"
+   ],
+   "requirements": [
+    {
+     "skill": "Agility",
+     "level": 53
+    },
+    {
+     "skill": "Ranged",
+     "level": 42
+    },
+    {
+     "skill": "Strength",
+     "level": 21
+    }
+   ],
+   "note": "from (2874, 3127, 0) to (2874, 3142, 0)",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/grapple/KaramjaGrapple.kt",
+    "commit": "4082f9d",
+    "enum": "KaramjaGrapple"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-monkeybarshortcut-2321",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Monkey bar",
+   "level": 57,
+   "xp": 20.0,
+   "objectIds": [
+    2321
+   ],
+   "options": [
+    "swing across"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/MonkeyBarShortcut.java",
+    "commit": "4082f9d",
+    "enum": "MonkeyBarShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-barsqueezeshortcut-9334",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Bar squeeze",
+   "level": 66,
+   "xp": 1.0,
+   "objectIds": [
+    9334,
+    9337
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/BarSqueezeShortcut.java",
+    "commit": "4082f9d",
+    "enum": "BarSqueezeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-pipeshortcut-9293",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Pipe",
+   "level": 70,
+   "xp": 10.0,
+   "objectIds": [
+    9293
+   ],
+   "options": [
+    "squeeze-through"
+   ],
+   "note": "Taverley Dungeon",
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/PipeShortcut.kt",
+    "commit": "4082f9d",
+    "enum": "PipeShortcut"
+   }
+  },
+  {
+   "id": "2009scape-agility-shortcut-strangefloorshortcut-9294",
+   "skill": "Agility",
+   "kind": "shortcut",
+   "name": "Strange floor",
+   "level": 80,
+   "xp": 0.0,
+   "objectIds": [
+    9294
+   ],
+   "options": [
+    "jump-over"
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/skill/agility/shortcuts/StrangeFloorShortcut.java",
+    "commit": "4082f9d",
+    "enum": "StrangeFloorShortcut"
+   }
+  }
+ ]
+}
