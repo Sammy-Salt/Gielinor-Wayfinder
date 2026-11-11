@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.55",
-  "buildId": "pass31.55-20261108-1",
+  "release": "PASS31.56",
+  "buildId": "pass31.56-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -123,7 +123,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "9f094d69d30b5323b7b7d72e66b97b8dbca64d16d771be513f33cfda10f6f2a4",
+      "sha256": "44c71e9e5047233da19020c1a19973d4bdd62bcbb4bf3724d0d54e055c170dad",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -79893,6 +79893,10 @@
     "data/map/zoom7-contact.jpg": {
       "sha256": "ff286b51bfc57aa3d68c91367c4e0fd84cd92c9c11997356fab1298664c1d6c8",
       "bytes": 188484
+    },
+    "data/minigames.json": {
+      "sha256": "e79739c8e5c4b8aed902aeac31abbabf020a1dcd6824d23ae3016df2cf3eeca6",
+      "bytes": 21335
     },
     "data/monsters/0.json": {
       "sha256": "77f674113dcf96ffdb65de0e2371a63aec9af6c8d2fb28106ff73659be1444d5",
@@ -216795,7 +216799,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "4971026820c246ea5fc68f6966b48eedbee9053f57f0d6f702c824d4c0549ecb",
+      "sha256": "dd03d8435136552ce9564b742948d98e35d88a83a13dd1665699ab2b55afca35",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216803,7 +216807,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "a331b799c717bbc3dd86a515aef7bd5b0e75f0d46369300035e45da7f3fa8f8a",
+      "sha256": "64156b5faf3654cf8d4e89a3e22f3b334d3060f503947ebde356cdc3b6acc478",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -217099,7 +217103,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "eb68b55b259a7dacdc00c3637cec2a00d63be6a9605c38f7e1c857c060b3c2f0",
+      "sha256": "143809babb9593fd3365b0a7a36015adc97e2e564facb317188b1ac1f6b4f095",
       "bytes": 499
     },
     "site.css": {
@@ -217111,7 +217115,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "01730cdc97edcff332b6c380a2c6295738cc0b1bedd4cdd6f5c98c3f4a59785e",
+      "sha256": "0990b7cf6639f140205508091cd664097e63599ce10922248fc2d7704d8ac264",
       "bytes": 4302
     }
   }

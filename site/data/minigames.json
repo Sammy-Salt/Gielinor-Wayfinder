@@ -1,0 +1,973 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "minigames": 2,
+  "rows": 29
+ },
+ "minigames": [
+  {
+   "id": "2009scape-minigame-pest-control",
+   "name": "Pest Control",
+   "currency": "Void Knight commendation points",
+   "xpRule": {
+    "formula": "points × floor(level² ÷ 600) × N × bonus",
+    "N": {
+     "Prayer": 18,
+     "Magic": 32,
+     "Ranged": 32,
+     "Attack": 35,
+     "Strength": 35,
+     "Defence": 35,
+     "Hitpoints": 35
+    },
+    "bonus": {
+     "under10Points": 1.0,
+     "from10Points": 1.01,
+     "from100Points": 1.1
+    },
+    "pointOptions": [
+     1,
+     10,
+     100
+    ],
+    "note": "the shop shows 'Must reach level 25 first' under 25; the divide happens in integer arithmetic before multiplying by N"
+   },
+   "rewards": [
+    {
+     "id": "2009scape-pestcontrol-xp-attack",
+     "kind": "xp",
+     "name": "Attack experience",
+     "skill": "Attack",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-strength",
+     "kind": "xp",
+     "name": "Strength experience",
+     "skill": "Strength",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-defence",
+     "kind": "xp",
+     "name": "Defence experience",
+     "skill": "Defence",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-range",
+     "kind": "xp",
+     "name": "Ranged experience",
+     "skill": "Ranged",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-magic",
+     "kind": "xp",
+     "name": "Magic experience",
+     "skill": "Magic",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-hitpoints",
+     "kind": "xp",
+     "name": "Hitpoints experience",
+     "skill": "Hitpoints",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-xp-prayer",
+     "kind": "xp",
+     "name": "Prayer experience",
+     "skill": "Prayer",
+     "pointOptions": [
+      1,
+      10,
+      100
+     ],
+     "note": "xp per point = floor(level² ÷ 600) × N (Prayer 18, Magic/Ranged 32, Attack/Strength/Defence/Hitpoints 35), ×1.01 from 10 points, ×1.1 from 100",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-herb-pack",
+     "kind": "pack",
+     "name": "Herb Pack",
+     "points": 30,
+     "itemIds": [
+      205,
+      207,
+      3049,
+      209,
+      211,
+      213,
+      199,
+      201
+     ],
+     "requirements": [
+      {
+       "skill": "Herblore",
+       "level": 25
+      }
+     ],
+     "note": "a pack is a random build of 13-18 items (seed/herb packs) or 38-43 (mineral pack); herbs and ore come noted",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-mineral-pack",
+     "kind": "pack",
+     "name": "Mineral Pack",
+     "points": 15,
+     "itemIds": [
+      453,
+      440
+     ],
+     "requirements": [
+      {
+       "skill": "Mining",
+       "level": 25
+      }
+     ],
+     "note": "a pack is a random build of 13-18 items (seed/herb packs) or 38-43 (mineral pack); herbs and ore come noted",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-seed-pack",
+     "kind": "pack",
+     "name": "Seed Pack",
+     "points": 15,
+     "itemIds": [
+      5320,
+      5322,
+      5100
+     ],
+     "requirements": [
+      {
+       "skill": "Farming",
+       "level": 25
+      }
+     ],
+     "note": "a pack is a random build of 13-18 items (seed/herb packs) or 38-43 (mineral pack); herbs and ore come noted",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-mace",
+     "kind": "item",
+     "name": "Void Knight Mace",
+     "points": 250,
+     "itemIds": [
+      8841
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-top",
+     "kind": "item",
+     "name": "Void Knight Top",
+     "points": 250,
+     "itemIds": [
+      8839
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-robes",
+     "kind": "item",
+     "name": "Void Knight Robes",
+     "points": 250,
+     "itemIds": [
+      8840
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-gloves",
+     "kind": "item",
+     "name": "Void Knight Gloves",
+     "points": 150,
+     "itemIds": [
+      8842
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-mage-helm",
+     "kind": "item",
+     "name": "Void Knight Mage Helm",
+     "points": 200,
+     "itemIds": [
+      11663
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-ranger-helm",
+     "kind": "item",
+     "name": "Void Knight Ranger Helm",
+     "points": 200,
+     "itemIds": [
+      11664
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-melee-helm",
+     "kind": "item",
+     "name": "Void Knight Melee Helm",
+     "points": 200,
+     "itemIds": [
+      11665
+     ],
+     "requirements": [
+      {
+       "skill": "Hitpoints",
+       "level": 42
+      },
+      {
+       "skill": "Attack",
+       "level": 42
+      },
+      {
+       "skill": "Defence",
+       "level": 42
+      },
+      {
+       "skill": "Strength",
+       "level": 42
+      },
+      {
+       "skill": "Ranged",
+       "level": 42
+      },
+      {
+       "skill": "Magic",
+       "level": 42
+      },
+      {
+       "skill": "Prayer",
+       "level": 22
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-void-knight-seal",
+     "kind": "item",
+     "name": "Void Knight Seal",
+     "points": 10,
+     "itemIds": [
+      11666
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-spinner-charm",
+     "kind": "charm",
+     "name": "Spinner Charm",
+     "itemIds": [
+      12166
+     ],
+     "options": [
+      {
+       "points": 2,
+       "quantity": 1
+      },
+      {
+       "points": 28,
+       "quantity": 14
+      },
+      {
+       "points": 56,
+       "quantity": 28
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-ravager-charm",
+     "kind": "charm",
+     "name": "Ravager Charm",
+     "itemIds": [
+      12164
+     ],
+     "options": [
+      {
+       "points": 2,
+       "quantity": 1
+      },
+      {
+       "points": 28,
+       "quantity": 14
+      },
+      {
+       "points": 56,
+       "quantity": 28
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pestcontrol-torcher-charm",
+     "kind": "charm",
+     "name": "Torcher Charm",
+     "itemIds": [
+      12167
+     ],
+     "options": [
+      {
+       "points": 2,
+       "quantity": 1
+      },
+      {
+       "points": 28,
+       "quantity": 14
+      },
+      {
+       "points": 56,
+       "quantity": 28
+      }
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/minigame/pestcontrol/reward/PCRewardInterface.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-minigame-pyramid-plunder",
+   "name": "Pyramid Plunder",
+   "rooms": [
+    {
+     "id": "2009scape-pyramidplunder-room-1",
+     "kind": "room",
+     "room": 1,
+     "name": "Room 1",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 21
+      }
+     ],
+     "urnCheckXp": 20.0,
+     "urnOpenXp": 60.0,
+     "sarcophagusXp": 20.0,
+     "chestXp": 39.6,
+     "doorXp": 39.6,
+     "lockpickDoorXp": 19.8,
+     "sceptreOneIn": 1500,
+     "spearDirection": "south",
+     "entrance": {
+      "x": 1927,
+      "y": 4477,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1929,
+      "y": 4469,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-2",
+     "kind": "room",
+     "room": 2,
+     "name": "Room 2",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 31
+      }
+     ],
+     "urnCheckXp": 30.0,
+     "urnOpenXp": 90.0,
+     "sarcophagusXp": 30.0,
+     "chestXp": 59.4,
+     "doorXp": 59.4,
+     "lockpickDoorXp": 29.7,
+     "sceptreOneIn": 1350,
+     "spearDirection": "south",
+     "entrance": {
+      "x": 1954,
+      "y": 4477,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1955,
+      "y": 4467,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-3",
+     "kind": "room",
+     "room": 3,
+     "name": "Room 3",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 41
+      }
+     ],
+     "urnCheckXp": 50.0,
+     "urnOpenXp": 150.0,
+     "sarcophagusXp": 50.0,
+     "chestXp": 99.0,
+     "doorXp": 99.0,
+     "lockpickDoorXp": 49.5,
+     "sceptreOneIn": 1250,
+     "spearDirection": "south",
+     "entrance": {
+      "x": 1977,
+      "y": 4471,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1975,
+      "y": 4458,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-4",
+     "kind": "room",
+     "room": 4,
+     "name": "Room 4",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 51
+      }
+     ],
+     "urnCheckXp": 70.0,
+     "urnOpenXp": 215.0,
+     "sarcophagusXp": 70.0,
+     "chestXp": 141.9,
+     "doorXp": 141.9,
+     "lockpickDoorXp": 70.95,
+     "sceptreOneIn": 1150,
+     "spearDirection": "east",
+     "entrance": {
+      "x": 1927,
+      "y": 4453,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1937,
+      "y": 4454,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-5",
+     "kind": "room",
+     "room": 5,
+     "name": "Room 5",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 61
+      }
+     ],
+     "urnCheckXp": 100.0,
+     "urnOpenXp": 300.0,
+     "sarcophagusXp": 100.0,
+     "chestXp": 198.0,
+     "doorXp": 198.0,
+     "lockpickDoorXp": 99.0,
+     "sceptreOneIn": 1000,
+     "spearDirection": "west",
+     "entrance": {
+      "x": 1965,
+      "y": 4444,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1955,
+      "y": 4449,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-6",
+     "kind": "room",
+     "room": 6,
+     "name": "Room 6",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 71
+      }
+     ],
+     "urnCheckXp": 150.0,
+     "urnOpenXp": 450.0,
+     "sarcophagusXp": 150.0,
+     "chestXp": 297.0,
+     "doorXp": 297.0,
+     "lockpickDoorXp": 148.5,
+     "sceptreOneIn": 1000,
+     "spearDirection": "north",
+     "entrance": {
+      "x": 1927,
+      "y": 4424,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1925,
+      "y": 4433,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-7",
+     "kind": "room",
+     "room": 7,
+     "name": "Room 7",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 81
+      }
+     ],
+     "urnCheckXp": 225.0,
+     "urnOpenXp": 675.0,
+     "sarcophagusXp": 225.0,
+     "chestXp": 445.5,
+     "doorXp": 445.5,
+     "lockpickDoorXp": 222.75,
+     "sceptreOneIn": 1000,
+     "spearDirection": "north",
+     "entrance": {
+      "x": 1943,
+      "y": 4421,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1950,
+      "y": 4427,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-pyramidplunder-room-8",
+     "kind": "room",
+     "room": 8,
+     "name": "Room 8",
+     "requirements": [
+      {
+       "skill": "Thieving",
+       "level": 91
+      }
+     ],
+     "urnCheckXp": 275.0,
+     "urnOpenXp": 825.0,
+     "sarcophagusXp": 275.0,
+     "chestXp": 544.5,
+     "doorXp": 544.5,
+     "lockpickDoorXp": 272.25,
+     "sceptreOneIn": 1000,
+     "spearDirection": "north",
+     "entrance": {
+      "x": 1974,
+      "y": 4420,
+      "plane": 0
+     },
+     "mummy": {
+      "x": 1971,
+      "y": 4431,
+      "plane": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "artifacts": {
+    "common": [
+     9026,
+     9032,
+     9036
+    ],
+    "stone": [
+     9030,
+     9038,
+     9042
+    ],
+    "gold": [
+     9028,
+     9034,
+     9040
+    ],
+    "rule": "per search of tier t (urn 1, sarcophagus 2, chest 3) in room r: divisor = r×2×t×35; gold if divisor÷650 beats the roll, else stone if divisor÷250 does, else common"
+   },
+   "sceptre": {
+    "itemId": 9050,
+    "oneInByRoom": {
+     "1": 1500,
+     "2": 1350,
+     "3": 1250,
+     "4": 1150,
+     "5-8": 1000
+    }
+   },
+   "rules": {
+    "entranceRotationMinutes": 15,
+    "urnSuccess": "random(thieving level) > room × 4 (room × 2 when charmed)",
+    "timeLimitTicks": 500,
+    "note": "chest and door xp are 66% of the listed open xp; lockpicked doors give half"
+   },
+   "provenance": [
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/pyramidplunder/PlunderUtils.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/pyramidplunder/PlunderData.kt",
+     "commit": "4082f9d"
+    }
+   ]
+  }
+ ]
+}
