@@ -1,0 +1,5989 @@
+{
+ "formatVersion": 1,
+ "source": "2009Scape",
+ "sourceCommit": "4082f9d",
+ "counts": {
+  "coordinate": 57,
+  "map": 25,
+  "emote": 49,
+  "rewardItems": 362,
+  "total": 131
+ },
+ "levels": {
+  "easy": {
+   "casketItemId": 2714,
+   "minSteps": 1,
+   "maxSteps": 5
+  },
+  "medium": {
+   "casketItemId": 2717,
+   "minSteps": 1,
+   "maxSteps": 6
+  },
+  "hard": {
+   "casketItemId": 2720,
+   "minSteps": 1,
+   "maxSteps": 8
+  },
+  "rewardRolls": {
+   "slots": "random(1, 6) rolls on the level's table; Hard takes the larger of that and random(4, 6)",
+   "rareTable": "Hard only: one extra roll on the rare table when random(100) == 50"
+  },
+  "provenance": {
+   "source": "2009Scape",
+   "file": "Server/src/main/content/global/activity/ttrail/ClueLevel.java",
+   "commit": "4082f9d"
+  }
+ },
+ "rewards": {
+  "easy": {
+   "totalWeight": 625.0,
+   "items": [
+    {
+     "itemId": 330,
+     "min": 3,
+     "max": 23,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 334,
+     "min": 4,
+     "max": 19,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 554,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 555,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 556,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 557,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 850,
+     "min": 1,
+     "max": 4,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 858,
+     "min": 1,
+     "max": 4,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 995,
+     "min": 500,
+     "max": 7000,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1059,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1061,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1063,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1077,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1089,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1095,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1097,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1107,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1125,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1129,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1131,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1133,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1151,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1165,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1167,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1169,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1179,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1195,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1217,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1270,
+     "min": 1,
+     "max": 3,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1283,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1297,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1313,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1327,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1341,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1361,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1367,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1426,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1441,
+     "min": 1,
+     "max": 3,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 1443,
+     "min": 1,
+     "max": 3,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2583,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2585,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2587,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2589,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2591,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2593,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2595,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2597,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2631,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2633,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2635,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 2637,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3098,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3472,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3473,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3827,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3828,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3829,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3830,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3831,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3832,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3833,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3834,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3835,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3836,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3837,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 3838,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 4821,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7329,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7330,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7331,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7332,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7338,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7344,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7350,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7356,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7362,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7364,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7366,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7368,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7386,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7388,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7390,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7392,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7394,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 7396,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 8779,
+     "min": 4,
+     "max": 38,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10280,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10306,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10308,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10310,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10312,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10314,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10316,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10318,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10320,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10322,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10324,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10326,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10327,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10366,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10392,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10394,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10396,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10398,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10404,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10406,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10408,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10410,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10412,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10414,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10424,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10426,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10428,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10430,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10432,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10434,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10458,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10460,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10462,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10464,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10466,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10468,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 10476,
+     "min": 1,
+     "max": 27,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 13095,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    },
+    {
+     "itemId": 13105,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.8
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/data/configs/clue_rewards.json",
+    "commit": "4082f9d"
+   }
+  },
+  "medium": {
+   "totalWeight": 520.0,
+   "items": [
+    {
+     "itemId": 374,
+     "min": 6,
+     "max": 23,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 380,
+     "min": 15,
+     "max": 43,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 554,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 555,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 556,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 557,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 857,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 995,
+     "min": 500,
+     "max": 7000,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1073,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1091,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1099,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1111,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1123,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1135,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1161,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1183,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1199,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1211,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1271,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1287,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1301,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1317,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1357,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1371,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1393,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 1430,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2577,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2579,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2599,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2601,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2603,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2605,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2607,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2609,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2611,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2613,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2645,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2647,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 2649,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3474,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3475,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3827,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3828,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3829,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3830,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3831,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3832,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3833,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3834,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3835,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3836,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3837,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 3838,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 4823,
+     "min": 10,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7319,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7321,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7323,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7325,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7327,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7329,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7330,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7331,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7334,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7340,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7346,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7352,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7358,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7370,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7372,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7378,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 7380,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 8781,
+     "min": 10,
+     "max": 43,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 9183,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10282,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10296,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10298,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10300,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10302,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10304,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10326,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10327,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10364,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10400,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10402,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10416,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10418,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10420,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10422,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10436,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10438,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10446,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10448,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10450,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10452,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10454,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10456,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 10476,
+     "min": 1,
+     "max": 27,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13097,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13103,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13107,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13109,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13111,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13113,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    },
+    {
+     "itemId": 13115,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.962
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/data/configs/clue_rewards.json",
+    "commit": "4082f9d"
+   }
+  },
+  "hard": {
+   "totalWeight": 575.0,
+   "items": [
+    {
+     "itemId": 380,
+     "min": 16,
+     "max": 38,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 386,
+     "min": 7,
+     "max": 32,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 554,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 555,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 556,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 557,
+     "min": 1,
+     "max": 228,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 859,
+     "min": 1,
+     "max": 2,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 861,
+     "min": 1,
+     "max": 2,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 995,
+     "min": 500,
+     "max": 7000,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1079,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1093,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1127,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1163,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1185,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1201,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1213,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1275,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1289,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1303,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1319,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1359,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1373,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 1432,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2497,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2503,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2581,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2615,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2617,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2619,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2621,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2623,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2625,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2627,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2629,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2639,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2641,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2643,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2651,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2653,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2655,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2657,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2659,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2661,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2663,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2665,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2667,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2669,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2671,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2673,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 2675,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3476,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3477,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3478,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3479,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3480,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3827,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3828,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3829,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3830,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3831,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3832,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3833,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3834,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3835,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3836,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3837,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 3838,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 4824,
+     "min": 10,
+     "max": 43,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7329,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7330,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7331,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7336,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7342,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7348,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7354,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7360,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7374,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7376,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7382,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7384,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7398,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7399,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 7400,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 8783,
+     "min": 6,
+     "max": 27,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 9144,
+     "min": 6,
+     "max": 23,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 9185,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10284,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10286,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10288,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10290,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10292,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10294,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10326,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10327,
+     "min": 15,
+     "max": 40,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10368,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10370,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10372,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10374,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10376,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10378,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10380,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10382,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10384,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10386,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10388,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10390,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10440,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10442,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10444,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10470,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10472,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10474,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 10476,
+     "min": 1,
+     "max": 27,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 13099,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    },
+    {
+     "itemId": 13101,
+     "min": 1,
+     "max": 1,
+     "weight": 5.0,
+     "chancePercent": 0.87
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/data/configs/clue_rewards.json",
+    "commit": "4082f9d"
+   }
+  },
+  "rare": {
+   "totalWeight": 320.0,
+   "items": [
+    {
+     "itemId": 10362,
+     "min": 1,
+     "max": 1,
+     "weight": 50.0,
+     "chancePercent": 15.625
+    },
+    {
+     "itemId": 3481,
+     "min": 1,
+     "max": 1,
+     "weight": 30.0,
+     "chancePercent": 9.375
+    },
+    {
+     "itemId": 3483,
+     "min": 1,
+     "max": 1,
+     "weight": 30.0,
+     "chancePercent": 9.375
+    },
+    {
+     "itemId": 3485,
+     "min": 1,
+     "max": 1,
+     "weight": 30.0,
+     "chancePercent": 9.375
+    },
+    {
+     "itemId": 3486,
+     "min": 1,
+     "max": 1,
+     "weight": 30.0,
+     "chancePercent": 9.375
+    },
+    {
+     "itemId": 3488,
+     "min": 1,
+     "max": 1,
+     "weight": 30.0,
+     "chancePercent": 9.375
+    },
+    {
+     "itemId": 10330,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10332,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10334,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10336,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10338,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10340,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10342,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10344,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10346,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10348,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10350,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    },
+    {
+     "itemId": 10352,
+     "min": 1,
+     "max": 1,
+     "weight": 10.0,
+     "chancePercent": 3.125
+    }
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/data/configs/clue_rewards.json",
+    "commit": "4082f9d"
+   }
+  }
+ },
+ "coordinate": [
+  {
+   "id": "2009scape-clue-coordinate-ardy-zoo-coord-2829",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Ardy zoo",
+   "clueItemId": 2829,
+   "clue": "02 degrees 50 minutes north 06 degrees 20 minutes east",
+   "location": {
+    "x": 2644,
+    "y": 3251,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "ardy-zoo-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-brimhaven-coord-2811",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Brimhaven",
+   "clueItemId": 2811,
+   "clue": "00 degrees 18 minutes south 09 degrees 28 minutes east",
+   "location": {
+    "x": 2743,
+    "y": 3151,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "brimhaven-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-burthorpe-coord-3496",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Burthorpe",
+   "clueItemId": 3496,
+   "clue": "11 degrees 41 minutes north 14 degrees 58 minutes east",
+   "location": {
+    "x": 2920,
+    "y": 3534,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "burthorpe-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-champions-guild-coord-2841",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Champions guild",
+   "clueItemId": 2841,
+   "clue": "05 degrees 43 minutes north 23 degrees 05 minutes east",
+   "location": {
+    "x": 3179,
+    "y": 3343,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "champions-guild-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-coal-line-coord-3492",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Coal line",
+   "clueItemId": 3492,
+   "clue": "10 degrees 45 minutes north 04 degrees 31 minutes east",
+   "location": {
+    "x": 2585,
+    "y": 3505,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "coal-line-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-crandor-coord-2839",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Crandor",
+   "clueItemId": 2839,
+   "clue": "04 degrees 13 minutes north 12 degrees 45 minutes east",
+   "location": {
+    "x": 2848,
+    "y": 3297,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "crandor-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-draynor-manor-coord-2851",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Draynor manor",
+   "clueItemId": 2851,
+   "clue": "06 degrees 58 minutes north 21 degrees 16 minutes east",
+   "location": {
+    "x": 3120,
+    "y": 3384,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "draynor-manor-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-eagles-peak-coord-3495",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Eagles peak",
+   "clueItemId": 3495,
+   "clue": "11 degrees 33 minutes north 02 degrees 24 minutes west",
+   "location": {
+    "x": 2362,
+    "y": 3531,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "eagles-peak-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-feldip-coord-2857",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Feldip",
+   "clueItemId": 2857,
+   "clue": "08 degrees 11 minutes south 4 degrees 48 minutes east",
+   "location": {
+    "x": 2593,
+    "y": 2899,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "feldip-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-fenkenstrain-castle-coord-3497",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Fenkenstrain castle",
+   "clueItemId": 3497,
+   "clue": "12 degrees 28 minutes north 34 degrees 37 minutes east",
+   "location": {
+    "x": 3548,
+    "y": 3559,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "fenkenstrain-castle-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-gnome-stronghold-coord-3494",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Gnome stronghold",
+   "clueItemId": 3494,
+   "clue": "11 degrees 05 minutes north 00 degrees 45 minutes west",
+   "location": {
+    "x": 2416,
+    "y": 3515,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "gnome-stronghold-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-gnome-terribirds-coord-2858",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Gnome terribirds",
+   "clueItemId": 2858,
+   "clue": "08 degrees 33 minutes north 01 degrees 39 minutes west",
+   "location": {
+    "x": 2387,
+    "y": 3435,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "gnome-terribirds-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-ham-coord-2827",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Ham",
+   "clueItemId": 2827,
+   "clue": "02 degrees 48 minutes north 22 degrees 30 minutes east",
+   "location": {
+    "x": 3161,
+    "y": 3251,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "ham-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-hazelmere-coord-2823",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Hazelmere",
+   "clueItemId": 2823,
+   "clue": "01 degrees 35 minutes south 07 degrees 28 minutes east",
+   "location": {
+    "x": 2680,
+    "y": 3111,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "hazelmere-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-ice-mountain-coord-3491",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Ice mountain",
+   "clueItemId": 3491,
+   "clue": "09 degrees 48 minutes north 17 degrees 39 minutes east",
+   "location": {
+    "x": 3006,
+    "y": 3475,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "ice-mountain-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-karamja-coord-2809",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Karamja",
+   "clueItemId": 2809,
+   "clue": "00 degrees 13 minutes south 13 degrees 58 minutes east",
+   "location": {
+    "x": 2888,
+    "y": 3153,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "karamja-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-lumbridge-swamp-coord-2813",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Lumbridge swamp",
+   "clueItemId": 2813,
+   "clue": "00 degrees 20 minutes south 23 degrees 15 minutes east",
+   "location": {
+    "x": 3183,
+    "y": 3151,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "lumbridge-swamp-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-moss-giant-coord-2821",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Moss giant",
+   "clueItemId": 2821,
+   "clue": "01 degrees 26 minutes north 08 degrees 01 minutes east",
+   "location": {
+    "x": 2696,
+    "y": 3206,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "moss-giant-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-musa-point-coord-2819",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Musa point",
+   "clueItemId": 2819,
+   "clue": "01 degrees 18 minutes south 14 degrees 15 minutes east",
+   "location": {
+    "x": 2896,
+    "y": 3119,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "musa-point-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-nature-spirit-coord-2853",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Nature spirit",
+   "clueItemId": 2853,
+   "clue": "07 degrees 05 minutes north 30 degrees 56 minutes east",
+   "location": {
+    "x": 3430,
+    "y": 3388,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "nature-spirit-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-north-gnome-terribirds-coord-3490",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "North gnome terribirds",
+   "clueItemId": 3490,
+   "clue": "09 degrees 35 minutes north 01 degrees 50 minutes west",
+   "location": {
+    "x": 2382,
+    "y": 3467,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "north-gnome-terribirds-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-port-sarim-coord-2817",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Port sarim",
+   "clueItemId": 2817,
+   "clue": "00 degrees 31 minutes south 17 degrees 43 minutes east",
+   "location": {
+    "x": 3007,
+    "y": 3145,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "port-sarim-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-rellekka-coord-3500",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Rellekka",
+   "clueItemId": 3500,
+   "clue": "15 degrees 22 minutes north 07 degrees 31 minutes east",
+   "location": {
+    "x": 2680,
+    "y": 3652,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "rellekka-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-shilo-mine-coord-2833",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Shilo mine",
+   "clueItemId": 2833,
+   "clue": "04 degrees 00 minutes south 12 degrees 46 minutes east",
+   "location": {
+    "x": 2849,
+    "y": 3033,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "shilo-mine-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-slayer-tower-coord-3493",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Slayer tower",
+   "clueItemId": 3493,
+   "clue": "11 degrees 03 minutes north 31 degrees 20 minutes east",
+   "location": {
+    "x": 3442,
+    "y": 3515,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "slayer-tower-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-southeast-taverly-coord-2855",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Southeast taverly",
+   "clueItemId": 2855,
+   "clue": "07 degrees 33 minutes north 15 degrees 00 minutes east",
+   "location": {
+    "x": 2920,
+    "y": 3404,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "southeast-taverly-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-swaying-tree-coord-3499",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Swaying tree",
+   "clueItemId": 3499,
+   "clue": "14 degrees 54 minutes north 9 degrees 13 minutes east",
+   "location": {
+    "x": 2735,
+    "y": 3639,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "swaying-tree-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-three-ponds-coord-2849",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Three ponds",
+   "clueItemId": 2849,
+   "clue": "06 degrees 31 minutes north 01 degrees 46 minutes west",
+   "location": {
+    "x": 2383,
+    "y": 3369,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "three-ponds-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-tree-gnome-coord-2807",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Tree gnome",
+   "clueItemId": 2807,
+   "clue": "00 degrees 05 minutes south 01 degrees 13 minutes east",
+   "location": {
+    "x": 2478,
+    "y": 3158,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "tree-gnome-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-uzer-coord-2825",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Uzer",
+   "clueItemId": 2825,
+   "clue": "02 degrees 43 minutes south 33 degrees 26 minutes east",
+   "location": {
+    "x": 3510,
+    "y": 3075,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "uzer-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-zanaris-shed-coord-2815",
+   "kind": "coordinate",
+   "level": "medium",
+   "name": "Zanaris shed",
+   "clueItemId": 2815,
+   "clue": "00 degrees 30 minutes north 24 degrees 16 minutes east",
+   "location": {
+    "x": 3217,
+    "y": 3178,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "zanaris-shed-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-agility-wildy-coord-3524",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Agility wildy",
+   "clueItemId": 3524,
+   "clue": "25 degrees 03 minutes north 17 degrees 05 minutes east",
+   "location": {
+    "x": 2987,
+    "y": 3964,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "agility-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-axe-hut-coord-3525",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Axe hut",
+   "clueItemId": 3525,
+   "clue": "25 degrees 03 minutes north 23 degrees 24 minutes east",
+   "location": {
+    "x": 3190,
+    "y": 3963,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "axe-hut-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-bandit-camp-coord-2845",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Bandit camp (3139, 2969)",
+   "clueItemId": 2845,
+   "clue": "06 degrees 00 minutes south 21 degrees 48 minutes east",
+   "location": {
+    "x": 3139,
+    "y": 2969,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "bandit-camp-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-bandit-camp-coord-3505",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Bandit camp (3055, 3696)",
+   "clueItemId": 3505,
+   "clue": "16 degrees 43 minutes north 19 degrees 13 minutes east",
+   "location": {
+    "x": 3055,
+    "y": 3696,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "bandit-camp-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-bedapin-camp-coord-2835",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Bedapin camp",
+   "clueItemId": 2835,
+   "clue": "03 degrees 45 minutes south 22 degrees 45 minutes east",
+   "location": {
+    "x": 3168,
+    "y": 3041,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "bedapin-camp-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-cairn-island-coord-2843",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Cairn island",
+   "clueItemId": 2843,
+   "clue": "05 degrees 50 minutes south 10 degrees 05 minutes east",
+   "location": {
+    "x": 2764,
+    "y": 2974,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "cairn-island-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-chaos-temple-wildy-coord-3514",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Chaos temple wildy",
+   "clueItemId": 3514,
+   "clue": "20 degrees 33 minutes north 15 degrees 48 minutes east",
+   "location": {
+    "x": 2946,
+    "y": 3818,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "chaos-temple-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-demonic-ruins-wildy-coord-3516",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Demonic ruins wildy",
+   "clueItemId": 3516,
+   "clue": "22 degrees 45 minutes north 26 degrees 33 minutes east",
+   "location": {
+    "x": 3290,
+    "y": 3889,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "demonic-ruins-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-graveyard-wildy-coord-3502",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Graveyard wildy",
+   "clueItemId": 3502,
+   "clue": "16 degrees 07 minutes north 22 degrees 45 minutes east",
+   "location": {
+    "x": 3229,
+    "y": 3687,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "graveyard-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-kbd-wildy-coord-3513",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Kbd wildy",
+   "clueItemId": 3513,
+   "clue": "21 degrees 24 minutes north 17 degrees 54 minutes east",
+   "location": {
+    "x": 3014,
+    "y": 3847,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "kbd-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-22-wildy-coord-3504",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 22 wildy",
+   "clueItemId": 3504,
+   "clue": "16 degrees 35 minutes north 27 degrees 01 minutes east",
+   "location": {
+    "x": 3304,
+    "y": 3692,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-22-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-23-wildy-coord-3506",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 23 wildy",
+   "clueItemId": 3506,
+   "clue": "16 degrees 43 minutes north 26 degrees 56 minutes east",
+   "location": {
+    "x": 3302,
+    "y": 3696,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-23-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-29-wildy-coord-3508",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 29 wildy",
+   "clueItemId": 3508,
+   "clue": "18 degrees 22 minutes north 16 degrees 33 minutes east",
+   "location": {
+    "x": 2970,
+    "y": 3749,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-29-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-31-wildy-coord-3509",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 31 wildy",
+   "clueItemId": 3509,
+   "clue": "18 degrees 50 minutes north 20 degrees 26 minutes east",
+   "location": {
+    "x": 3034,
+    "y": 3804,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-31-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-35-wildy-coord-3510",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 35 wildy",
+   "clueItemId": 3510,
+   "clue": "19 degrees 43 minutes north 25 degrees 07 minutes east",
+   "location": {
+    "x": 3244,
+    "y": 3792,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-35-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-level-36-wildy-coord-3512",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Level 36 wildy",
+   "clueItemId": 3512,
+   "clue": "20 degrees 05 minutes north 21 degrees 52 minutes east",
+   "location": {
+    "x": 3139,
+    "y": 3803,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "level-36-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-lvl-11-wildy-coord-3498",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Lvl 11 wildy",
+   "clueItemId": 3498,
+   "clue": "13 degrees 46 minutes north 21 degrees 01 minutes east",
+   "location": {
+    "x": 3113,
+    "y": 3602,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "lvl-11-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-nature-altar-coord-2831",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Nature altar",
+   "clueItemId": 2831,
+   "clue": "03 degrees 35 minutes south 13 degrees 35 minutes east",
+   "location": {
+    "x": 2874,
+    "y": 3047,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "nature-altar-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-northeast-rellekka-coord-3507",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Northeast rellekka",
+   "clueItemId": 3507,
+   "clue": "17 degrees 50 minutes north 08 degrees 30 minutes east",
+   "location": {
+    "x": 2711,
+    "y": 3732,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "northeast-rellekka-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-pirates-hideout-coord-3522",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Pirates hideout",
+   "clueItemId": 3522,
+   "clue": "24 degrees 58 minutes north 18 degrees 43 minutes east",
+   "location": {
+    "x": 3040,
+    "y": 3961,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "pirates-hideout-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-rogues-castle-coord-3518",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Rogues castle",
+   "clueItemId": 3518,
+   "clue": "24 degrees 24 minutes north 26 degrees 24 minutes east",
+   "location": {
+    "x": 3285,
+    "y": 3943,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "rogues-castle-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-rune-rocks-wildy-coord-3515",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Rune rocks wildy",
+   "clueItemId": 3515,
+   "clue": "22 degrees 35 minutes north 19 degrees 18 minutes east",
+   "location": {
+    "x": 3059,
+    "y": 3884,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "rune-rocks-wildy-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-swamp-coord-2856",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Swamp",
+   "clueItemId": 2856,
+   "clue": "08 degrees 03 minutes north 31 degrees 16 minutes east",
+   "location": {
+    "x": 3441,
+    "y": 3419,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "swamp-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-troll-stronghold-coord-3503",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Troll stronghold",
+   "clueItemId": 3503,
+   "clue": "16 degrees 31 minutes north 12 degrees 54 minutes east",
+   "location": {
+    "x": 2853,
+    "y": 3689,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "troll-stronghold-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-trollheim-coord-3501",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Trollheim",
+   "clueItemId": 3501,
+   "clue": "16 degrees 03 minutes north 14 degrees 07 minutes east",
+   "location": {
+    "x": 2892,
+    "y": 3674,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "trollheim-coord"
+   }
+  },
+  {
+   "id": "2009scape-clue-coordinate-wildy-lever-coord-3520",
+   "kind": "coordinate",
+   "level": "hard",
+   "name": "Wildy lever",
+   "clueItemId": 3520,
+   "clue": "24 degrees 56 minutes north 22 degrees 28 minutes east",
+   "location": {
+    "x": 3158,
+    "y": 3958,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/CoordinateCluePlugin.java",
+    "commit": "4082f9d",
+    "key": "wildy-lever-coord"
+   }
+  }
+ ],
+ "map": [
+  {
+   "id": "2009scape-clue-map-champions-guild",
+   "kind": "map",
+   "level": "easy",
+   "name": "Champions guild",
+   "clueItemId": 2788,
+   "interfaceId": 346,
+   "location": {
+    "x": 3166,
+    "y": 3360,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "champions-guild"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-east-dig",
+   "kind": "map",
+   "level": "easy",
+   "name": "East dig",
+   "clueItemId": 2805,
+   "interfaceId": 360,
+   "location": {
+    "x": 2651,
+    "y": 3231,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "east-dig"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-falador-statue",
+   "kind": "map",
+   "level": "easy",
+   "name": "Falador statue",
+   "clueItemId": 2790,
+   "interfaceId": 337,
+   "location": {
+    "x": 2970,
+    "y": 3415,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "falador-statue"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-falador-stone",
+   "kind": "map",
+   "level": "easy",
+   "name": "Falador stone",
+   "clueItemId": 2786,
+   "interfaceId": 351,
+   "location": {
+    "x": 3043,
+    "y": 3399,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "falador-stone"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-mcgruber",
+   "kind": "map",
+   "level": "easy",
+   "name": "Mcgruber",
+   "clueItemId": 2785,
+   "interfaceId": 354,
+   "location": {
+    "x": 2611,
+    "y": 3481,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "mcgruber"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-varrock-mine",
+   "kind": "map",
+   "level": "easy",
+   "name": "Varrock mine",
+   "clueItemId": 2792,
+   "interfaceId": 347,
+   "location": {
+    "x": 3289,
+    "y": 3373,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "varrock-mine"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-wizard-tower-dig",
+   "kind": "map",
+   "level": "easy",
+   "name": "Wizard tower dig",
+   "clueItemId": 2745,
+   "interfaceId": 356,
+   "location": {
+    "x": 3110,
+    "y": 3152,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "wizard-tower-dig"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-abandoned-mine",
+   "kind": "map",
+   "level": "medium",
+   "name": "Abandoned mine",
+   "clueItemId": 2803,
+   "interfaceId": 341,
+   "location": {
+    "x": 3434,
+    "y": 3266,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "abandoned-mine"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-ardy-crate",
+   "kind": "map",
+   "level": "medium",
+   "name": "Ardy crate",
+   "clueItemId": 2747,
+   "interfaceId": 361,
+   "location": {
+    "x": 2565,
+    "y": 3248,
+    "plane": 0
+   },
+   "searchObjectId": 354,
+   "area": [
+    2564,
+    3247,
+    2566,
+    3249
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "ardy-crate"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-crafting-guild-dig",
+   "kind": "map",
+   "level": "medium",
+   "name": "Crafting guild dig",
+   "clueItemId": 2778,
+   "interfaceId": 352,
+   "location": {
+    "x": 2906,
+    "y": 3294,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "crafting-guild-dig"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-draynor",
+   "kind": "map",
+   "level": "medium",
+   "name": "Draynor",
+   "clueItemId": 2801,
+   "interfaceId": 348,
+   "location": {
+    "x": 3092,
+    "y": 3227,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "draynor"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-khazard-altar",
+   "kind": "map",
+   "level": "medium",
+   "name": "Khazard altar",
+   "clueItemId": 2793,
+   "interfaceId": 342,
+   "location": {
+    "x": 2455,
+    "y": 3230,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "khazard-altar"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-light-house",
+   "kind": "map",
+   "level": "medium",
+   "name": "Light house",
+   "clueItemId": 2794,
+   "interfaceId": 343,
+   "location": {
+    "x": 2578,
+    "y": 3597,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "light-house"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-mcgruber-crate",
+   "kind": "map",
+   "level": "medium",
+   "name": "Mcgruber crate",
+   "clueItemId": 2743,
+   "interfaceId": 355,
+   "location": {
+    "x": 2658,
+    "y": 3488,
+    "plane": 0
+   },
+   "searchObjectId": 357,
+   "area": [
+    2657,
+    3487,
+    2660,
+    3489
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "mcgruber-crate"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-miscellania-dig",
+   "kind": "map",
+   "level": "medium",
+   "name": "Miscellania dig",
+   "clueItemId": 2776,
+   "interfaceId": 340,
+   "location": {
+    "x": 2536,
+    "y": 3865,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "miscellania-dig"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-north-seers",
+   "kind": "map",
+   "level": "medium",
+   "name": "North seers",
+   "clueItemId": 2796,
+   "interfaceId": 344,
+   "location": {
+    "x": 2666,
+    "y": 3562,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "north-seers"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-rimmington",
+   "kind": "map",
+   "level": "medium",
+   "name": "Rimmington",
+   "clueItemId": 2780,
+   "interfaceId": 362,
+   "location": {
+    "x": 2924,
+    "y": 3209,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "rimmington"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-goblin-crate",
+   "kind": "map",
+   "level": "hard",
+   "name": "Goblin crate",
+   "clueItemId": 2774,
+   "interfaceId": 358,
+   "location": {
+    "x": 2457,
+    "y": 3182,
+    "plane": 0
+   },
+   "searchObjectId": 18506,
+   "area": [
+    2456,
+    3181,
+    2458,
+    3183
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "goblin-crate"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-legends-guild",
+   "kind": "map",
+   "level": "hard",
+   "name": "Legends guild",
+   "clueItemId": 2797,
+   "interfaceId": 339,
+   "location": {
+    "x": 2723,
+    "y": 3338,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "legends-guild"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-lumberyard-crate",
+   "kind": "map",
+   "level": "hard",
+   "name": "Lumberyard crate",
+   "clueItemId": 3538,
+   "interfaceId": 350,
+   "location": {
+    "x": 3309,
+    "y": 3503,
+    "plane": 0
+   },
+   "searchObjectId": 2620,
+   "area": [
+    3308,
+    3502,
+    3310,
+    3504
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "lumberyard-crate"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-ranging-guild-dig",
+   "kind": "map",
+   "level": "hard",
+   "name": "Ranging guild dig",
+   "clueItemId": 3536,
+   "interfaceId": 349,
+   "location": {
+    "x": 2702,
+    "y": 3429,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "ranging-guild-dig"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-west-ardy",
+   "kind": "map",
+   "level": "hard",
+   "name": "West ardy",
+   "clueItemId": 2782,
+   "interfaceId": 357,
+   "location": {
+    "x": 2488,
+    "y": 3308,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "west-ardy"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-wilderness",
+   "kind": "map",
+   "level": "hard",
+   "name": "Wilderness",
+   "clueItemId": 2799,
+   "interfaceId": 338,
+   "location": {
+    "x": 3021,
+    "y": 3911,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "wilderness"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-wildy-crate",
+   "kind": "map",
+   "level": "hard",
+   "name": "Wildy crate",
+   "clueItemId": 2773,
+   "interfaceId": 359,
+   "location": {
+    "x": 3026,
+    "y": 3628,
+    "plane": 0
+   },
+   "searchObjectId": 354,
+   "area": [
+    3025,
+    3627,
+    3027,
+    3629
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "wildy-crate"
+   }
+  },
+  {
+   "id": "2009scape-clue-map-yanille",
+   "kind": "map",
+   "level": "hard",
+   "name": "Yanille",
+   "clueItemId": 2783,
+   "interfaceId": 353,
+   "location": {
+    "x": 2616,
+    "y": 3077,
+    "plane": 0
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/MapCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "yanille"
+   }
+  }
+ ],
+ "emote": [
+  {
+   "id": "2009scape-clue-emote-al-kharid-headbang",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Al kharid headbang",
+   "clueItemId": 2702,
+   "emote": "Headbang",
+   "commenceEmote": null,
+   "clue": "Headbang in the mine north of Al Kharid. Equip a desert shirt, leather gloves and leather boots.",
+   "equipment": [
+    [
+     1833
+    ],
+    [
+     1059
+    ],
+    [
+     1061
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3297,
+    3286,
+    3301,
+    3316
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "al-kharid-headbang"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-ardgoune-mill-clap",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Ardgoune mill clap",
+   "clueItemId": 2691,
+   "emote": "Clap",
+   "commenceEmote": null,
+   "clue": "Clap on the top level of the mill, north of East Ardougne. Equip a blue gnome robe top, HAM robe bottom and an unenchanted tiara.",
+   "equipment": [
+    [
+     640
+    ],
+    [
+     4300
+    ],
+    [
+     5525
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2628,
+    3382,
+    2636,
+    3390,
+    2
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "ardgoune-mill-clap"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-beehive-jump",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Beehive jump",
+   "clueItemId": 2703,
+   "emote": "Jump for joy",
+   "commenceEmote": null,
+   "clue": "Jump for joy at the beehives. Equip a desert shirt, green gnome robe bottoms and a steel axe.",
+   "equipment": [
+    [
+     1833
+    ],
+    [
+     648
+    ],
+    [
+     1353
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2752,
+    3437,
+    2766,
+    3450
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "beehive-jump"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-draynor-cross-dance",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Draynor cross dance",
+   "clueItemId": 2695,
+   "emote": "Dance",
+   "commenceEmote": null,
+   "clue": "Dance at the crossroads north of Draynor. Equip an iron chain body, a sapphire ring and a longbow.",
+   "equipment": [
+    [
+     1101
+    ],
+    [
+     1637
+    ],
+    [
+     839
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3109,
+    3293,
+    3110,
+    3296
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "draynor-cross-dance"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-draynor-manor-spin",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Draynor manor spin",
+   "clueItemId": 2719,
+   "emote": "Spin",
+   "commenceEmote": null,
+   "clue": "Spin in the Draynor Manor by the fountain. Equip an iron platebody, studded leather chaps and a bronze full helmet.",
+   "equipment": [
+    [
+     1115
+    ],
+    [
+     1097
+    ],
+    [
+     1155
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3085,
+    3332,
+    3090,
+    3337
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "draynor-manor-spin"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-draynor-market-yawn",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Draynor market yawn",
+   "clueItemId": 2737,
+   "emote": "Yawn",
+   "commenceEmote": null,
+   "clue": "Yawn in Draynor Marketplace. Equip studded leather chaps, an iron kiteshield and a steel longsword.",
+   "equipment": [
+    [
+     1097
+    ],
+    [
+     1191
+    ],
+    [
+     1295
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3075,
+    3245,
+    3086,
+    3255
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "draynor-market-yawn"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-druid-circle-cheer",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Druid circle cheer",
+   "clueItemId": 2684,
+   "emote": "Cheer",
+   "commenceEmote": null,
+   "clue": "Cheer at the Druids' Circle. Equip a blue wizard hat, a bronze two-handed sword and HAM boots.",
+   "equipment": [
+    [
+     4310
+    ],
+    [
+     579
+    ],
+    [
+     1307
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2920,
+    3478,
+    2930,
+    3940
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "druid-circle-cheer"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-exam-room-clap",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Exam room clap",
+   "clueItemId": 2689,
+   "emote": "Clap",
+   "commenceEmote": null,
+   "clue": "Clap in the main exam room in the Exam Centre. Equip a white apron, green gnome boots and leather gloves.",
+   "equipment": [
+    [
+     1005
+    ],
+    [
+     628
+    ],
+    [
+     1059
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3357,
+    3332,
+    3367,
+    3348
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "exam-room-clap"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-fally-gem-wave",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Fally gem wave",
+   "clueItemId": 2731,
+   "emote": "Wave",
+   "commenceEmote": null,
+   "clue": "Wave in the Falador gem store. Equip a Mithril pickaxe, Black platebody and an Iron Kiteshield.",
+   "equipment": [
+    [
+     1273
+    ],
+    [
+     1125
+    ],
+    [
+     1191
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2944,
+    3332,
+    2946,
+    3337
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "fally-gem-wave"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-fally-party-dance",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Fally party dance",
+   "clueItemId": 2696,
+   "emote": "Dance",
+   "commenceEmote": null,
+   "clue": "Dance in the Party Room. Equip a steel full helmet, steel platebody and an iron plateskirt.",
+   "equipment": [
+    [
+     1157
+    ],
+    [
+     1119
+    ],
+    [
+     1081
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3041,
+    3372,
+    3050,
+    3384
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "fally-party-dance"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-fish-guild-jig",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Fish guild jig",
+   "clueItemId": 2697,
+   "emote": "Jig",
+   "commenceEmote": null,
+   "clue": "Dance a jig by the entrance to the Fishing Guild. Equip an emerald ring, a sapphire amulet, and a bronze chain body.",
+   "equipment": [
+    [
+     1639
+    ],
+    [
+     1694
+    ],
+    [
+     1103
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2610,
+    3392,
+    2612,
+    3393
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "fish-guild-jig"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-fish-trawler-panic",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Fish trawler panic",
+   "clueItemId": 2708,
+   "emote": "Panic",
+   "commenceEmote": null,
+   "clue": "Panic on the pier where you catch the Fishing trawler. Have nothing equipped at all when you do.",
+   "equipment": [],
+   "emptySlots": [
+    "head",
+    "cape",
+    "neck",
+    "weapon",
+    "chest",
+    "shield",
+    "legs",
+    "hands",
+    "feet",
+    "ring",
+    "ammo"
+   ],
+   "area": [
+    2675,
+    3162,
+    2677,
+    3175
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "fish-trawler-panic"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-games-room-cheer",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Games room cheer",
+   "clueItemId": 2685,
+   "emote": "Cheer",
+   "commenceEmote": null,
+   "clue": "Cheer at the games room. Have nothing equipped at all when you do.",
+   "equipment": [],
+   "emptySlots": [
+    "head",
+    "cape",
+    "neck",
+    "weapon",
+    "chest",
+    "shield",
+    "legs",
+    "hands",
+    "feet",
+    "ring",
+    "ammo"
+   ],
+   "area": [
+    2194,
+    4946,
+    2221,
+    4973
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "games-room-cheer"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-keep-le-faye",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Keep le faye",
+   "clueItemId": 2680,
+   "emote": "Raspberry",
+   "commenceEmote": null,
+   "clue": "Blow raspberries out the entrance to Keep Le Faye. Equip a coif, an iron platebody and leather gloves.",
+   "equipment": [
+    [
+     1169
+    ],
+    [
+     1115
+    ],
+    [
+     1059
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2759,
+    3401,
+    2762,
+    3403
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "keep-le-faye"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-legends-guild",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Legends guild",
+   "clueItemId": 2682,
+   "emote": "Bow",
+   "commenceEmote": null,
+   "clue": "Bow outside the entrance to the Legends' Guild. Equip iron platelegs, an emerald amulet and an oak longbow.",
+   "equipment": [
+    [
+     1067
+    ],
+    [
+     1696
+    ],
+    [
+     845
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2726,
+    3346,
+    2731,
+    3349
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "legends-guild"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-limestone-mine-panic",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Limestone mine panic",
+   "clueItemId": 2707,
+   "emote": "Panic",
+   "commenceEmote": null,
+   "clue": "Panic in the Limestone Mine. Equip bronze platelegs, a steel pickaxe and a steel medium helmet.",
+   "equipment": [
+    [
+     1075
+    ],
+    [
+     1269
+    ],
+    [
+     1141
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3368,
+    3496,
+    3374,
+    3505
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "limestone-mine-panic"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-lumb-shack-dance",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Lumb shack dance",
+   "clueItemId": 2698,
+   "emote": "Dance",
+   "commenceEmote": null,
+   "clue": "Dance in the shack in Lumbridge Swamp. Equip a bronze dagger, iron full helmet and a gold ring.",
+   "equipment": [
+    [
+     1205
+    ],
+    [
+     1153
+    ],
+    [
+     1635
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3202,
+    3167,
+    3205,
+    3170
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "lumb-shack-dance"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-lumb-wheat-think",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Lumb wheat think",
+   "clueItemId": 2725,
+   "emote": "Think",
+   "commenceEmote": null,
+   "clue": "Think in middle of the wheat field by the lumbridge mill. Equip a blue gnome robetop, a turquoise gnome robe bottom and an oak shortbow.",
+   "equipment": [
+    [
+     640
+    ],
+    [
+     654
+    ],
+    [
+     843
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3157,
+    3298,
+    3159,
+    3300
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "lumb-wheat-think"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-lumber-wave",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Lumber wave",
+   "clueItemId": 2729,
+   "emote": "Wave",
+   "commenceEmote": null,
+   "clue": "Wave along the south fence of the Lumber Yard. Equip a hard leather body, leather chaps and a bronze axe.",
+   "equipment": [
+    [
+     1131
+    ],
+    [
+     1095
+    ],
+    [
+     1351
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3306,
+    3490,
+    3309,
+    3492
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "lumber-wave"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-monkey-cage",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Monkey cage",
+   "clueItemId": 2679,
+   "emote": "Raspberry",
+   "commenceEmote": null,
+   "clue": "Blow a raspberry at the monkey cage in Ardougne Zoo. Equip a studded leather body, bronze platelegs and a normal staff with no orb.",
+   "equipment": [
+    [
+     1133
+    ],
+    [
+     1075
+    ],
+    [
+     1379
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2597,
+    3274,
+    2609,
+    3284
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "monkey-cage"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-mudskipper-wave",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Mudskipper wave",
+   "clueItemId": 2733,
+   "emote": "Wave",
+   "commenceEmote": null,
+   "clue": "Wave on Mudskipper Point. Equip a black cape, leather chaps and a steel mace.",
+   "equipment": [
+    [
+     1019
+    ],
+    [
+     1095
+    ],
+    [
+     1424
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2979,
+    3105,
+    3008,
+    3115
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "mudskipper-wave"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-rimmington-cross-spin",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Rimmington cross spin",
+   "clueItemId": 2716,
+   "emote": "Spin",
+   "commenceEmote": null,
+   "clue": "Spin at the crossroads north of Rimmington. Equip a green gnome hat, cream gnome top and leather chaps.",
+   "equipment": [
+    [
+     658
+    ],
+    [
+     642
+    ],
+    [
+     1095
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2979,
+    3275,
+    2985,
+    3279
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "rimmington-cross-spin"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-rimmington-shrug",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Rimmington shrug",
+   "clueItemId": 2711,
+   "emote": "Shrug",
+   "commenceEmote": null,
+   "clue": "Shrug in the mine near Rimmington. Equip a gold necklace, a gold ring and a bronze spear.",
+   "equipment": [
+    [
+     1654
+    ],
+    [
+     1635
+    ],
+    [
+     1237
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2970,
+    3230,
+    2987,
+    3251
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "rimmington-shrug"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-varrock-court-spin",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Varrock court spin",
+   "clueItemId": 2722,
+   "emote": "Spin",
+   "commenceEmote": null,
+   "clue": "Spin in the Varrock Castle courtyard. Equip a black axe, a coif and a ruby ring.",
+   "equipment": [
+    [
+     1361
+    ],
+    [
+     1169
+    ],
+    [
+     1641
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3202,
+    3459,
+    3223,
+    3468
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "varrock-court-spin"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-varrock-library-yawn",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Varrock library yawn",
+   "clueItemId": 2735,
+   "emote": "Yawn",
+   "commenceEmote": null,
+   "clue": "Yawn in the Varrock library. Equip a green gnome robe top, HAM robe bottom and an iron warhammer.",
+   "equipment": [
+    [
+     638
+    ],
+    [
+     4300
+    ],
+    [
+     1335
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3207,
+    3490,
+    3214,
+    3497
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "varrock-library-yawn"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-wizard-tower-clap",
+   "kind": "emote",
+   "level": "easy",
+   "name": "Wizard tower clap",
+   "clueItemId": 2690,
+   "emote": "Clap",
+   "commenceEmote": null,
+   "clue": "Clap on the causeway to the Wizards' Tower. Equip an iron medium helmet, emerald ring and a white apron.",
+   "equipment": [
+    [
+     1137
+    ],
+    [
+     1639
+    ],
+    [
+     1005
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3112,
+    3173,
+    3115,
+    3206
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "wizard-tower-clap"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-barb-agility-cheer",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Barb agility cheer",
+   "clueItemId": 2686,
+   "emote": "Cheer",
+   "commenceEmote": null,
+   "clue": "Cheer in the Barbarian Agility Arena. Headbang before you talk to me. Equip a steel plate body, maple shortbow, and a wilderness cape.",
+   "equipment": [
+    [
+     1119
+    ],
+    [
+     853
+    ],
+    [
+     4315,
+     4317,
+     4319,
+     4321,
+     4323,
+     4325,
+     4327,
+     4329,
+     4331,
+     4333,
+     4335,
+     4337,
+     4339,
+     4341,
+     4343,
+     4345,
+     4347,
+     4349,
+     4351,
+     4353,
+     4355,
+     4357,
+     4359,
+     4361,
+     4363,
+     4365,
+     4367,
+     4369,
+     4371,
+     4373,
+     4375,
+     4377,
+     4379,
+     4381,
+     4383,
+     4385,
+     4387,
+     4389,
+     4391,
+     4393,
+     4395,
+     4397,
+     4399,
+     4401,
+     4403,
+     4405,
+     4407,
+     4409,
+     4411,
+     4413
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2550,
+    3556,
+    2553,
+    3559
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "barb-agility-cheer"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-barb-bridge-spin",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Barb bridge spin",
+   "clueItemId": 2723,
+   "emote": "Spin",
+   "commenceEmote": "Salute",
+   "clue": "Spin on the bridge by the Barbarian Village. Salute before you talk to me. Equip purple gloves, a steel kiteshield and a mithril full helmet.",
+   "equipment": [
+    [
+     2942
+    ],
+    [
+     1193
+    ],
+    [
+     1159
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3102,
+    3419,
+    3108,
+    3422
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "barb-bridge-spin"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-castle-wars-yawn",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Castle wars yawn",
+   "clueItemId": 2739,
+   "emote": "Yawn",
+   "commenceEmote": "Shrug",
+   "clue": "Yawn in the Castle Wars lobby. Shrug before you talk to me. Equip ruby amulet, a mithril scimitar and a Wilderness cape.",
+   "equipment": [
+    [
+     1698
+    ],
+    [
+     1329
+    ],
+    [
+     4315,
+     4317,
+     4319,
+     4321,
+     4323,
+     4325,
+     4327,
+     4329,
+     4331,
+     4333,
+     4335,
+     4337,
+     4339,
+     4341,
+     4343,
+     4345,
+     4347,
+     4349,
+     4351,
+     4353,
+     4355,
+     4357,
+     4359,
+     4361,
+     4363,
+     4365,
+     4367,
+     4369,
+     4371,
+     4373,
+     4375,
+     4377,
+     4379,
+     4381,
+     4383,
+     4385,
+     4387,
+     4389,
+     4391,
+     4393,
+     4395,
+     4397,
+     4399,
+     4401,
+     4403,
+     4405,
+     4407,
+     4409,
+     4411,
+     4413
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2434,
+    3061,
+    2464,
+    3102
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "castle-wars-yawn"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-catherby-range-cry",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Catherby range cry",
+   "clueItemId": 2693,
+   "emote": "Cry",
+   "commenceEmote": "Bow",
+   "clue": "Cry in the Catherby Ranging shop. Bow before you talk to me. Equip blue gnome boots, a hard leather body and an unblessed silver sickle.",
+   "equipment": [
+    [
+     630
+    ],
+    [
+     1131
+    ],
+    [
+     2961
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2821,
+    3441,
+    2825,
+    3445
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "catherby-range-cry"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-catherby-shore-cry",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Catherby shore cry",
+   "clueItemId": 2694,
+   "emote": "Cry",
+   "commenceEmote": "Laugh",
+   "clue": "Cry on the shore of Catherby beach. Laugh before you talk to me. Equip an adamant sq shield, a bone dagger and mithril platebody.",
+   "equipment": [
+    [
+     1183
+    ],
+    [
+     8872
+    ],
+    [
+     1121
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2849,
+    3423,
+    2857,
+    3430
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "catherby-shore-cry"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-catherby-shrug",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Catherby shrug",
+   "clueItemId": 2712,
+   "emote": "Shrug",
+   "commenceEmote": "Yawn",
+   "clue": "Shrug in Catherby bank. Yawn before you talk to me. Equip a maple longbow, green d'hide chaps and an iron med helm.",
+   "equipment": [
+    [
+     851
+    ],
+    [
+     1099
+    ],
+    [
+     1137
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2806,
+    3438,
+    2812,
+    3442
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "catherby-shrug"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-digsite-beckon",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Digsite beckon",
+   "clueItemId": 2677,
+   "emote": "Beckon",
+   "commenceEmote": "Bow",
+   "clue": "Beckon in the Digsite, near the eastern winch. Bow or curtsy before you talk to me. Equip a green gnome hat, snakeskin boots and an iron pickaxe.",
+   "equipment": [
+    [
+     6328
+    ],
+    [
+     1267
+    ],
+    [
+     658
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3368,
+    3425,
+    3371,
+    3429
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "digsite-beckon"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-edge-gen-cheer",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Edge gen cheer",
+   "clueItemId": 2687,
+   "emote": "Cheer",
+   "commenceEmote": "Dance",
+   "clue": "Cheer in the Edgeville general store. Dance before you talk to me. Equip a brown apron, leather boots and leather gloves.",
+   "equipment": [
+    [
+     1757
+    ],
+    [
+     1061
+    ],
+    [
+     1059
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3076,
+    3507,
+    3084,
+    3513
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "edge-gen-cheer"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-lumb-cave-dance",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Lumb cave dance",
+   "clueItemId": 2699,
+   "emote": "Dance",
+   "commenceEmote": "Blow kiss",
+   "clue": "Dance in the dark cave beneath Lumbridge Swamp. Blow a kiss before you talk to me. Equip an air staff, bronze full helm and an amulet of power.",
+   "equipment": [
+    [
+     1381
+    ],
+    [
+     1155
+    ],
+    [
+     1731
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3139,
+    9534,
+    3260,
+    9587
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "lumb-cave-dance"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-observatory-think",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Observatory think",
+   "clueItemId": 2727,
+   "emote": "Think",
+   "commenceEmote": "Spin",
+   "clue": "Think in the centre of the Observatory. Spin before you talk to me. Equip a mithril chain body, green dragonhide chaps and a ruby amulet.",
+   "equipment": [
+    [
+     1109
+    ],
+    [
+     1099
+    ],
+    [
+     1698
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2439,
+    3160,
+    2442,
+    3163
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "observatory-think"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-ogre-pen-cheer",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Ogre pen cheer",
+   "clueItemId": 2688,
+   "emote": "Cheer",
+   "commenceEmote": "Angry",
+   "clue": "Cheer in the Ogre Pen in the Training Camp. Show you are angry before you talk to me. Equip a green dragonhide body and chaps and a steel square shield.",
+   "equipment": [
+    [
+     1135
+    ],
+    [
+     1099
+    ],
+    [
+     1177
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2523,
+    3373,
+    2533,
+    3377
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "ogre-pen-cheer"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-seers-court-clap",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Seers court clap",
+   "clueItemId": 2692,
+   "emote": "Clap",
+   "commenceEmote": "Spin",
+   "clue": "Clap in Seers court house. Spin before you talk to me. Equip an adamant halberd, blue mystic robe bottom and a diamond ring.",
+   "equipment": [
+    [
+     3200
+    ],
+    [
+     4093
+    ],
+    [
+     1643
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2732,
+    3467,
+    2739,
+    3471
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "seers-court-clap"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-shantay-guild-jig",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Shantay guild jig",
+   "clueItemId": 2700,
+   "emote": "Jig",
+   "commenceEmote": "Bow",
+   "clue": "Dance a jig under Shantay's Awning. Bow before you talk to me. Equip a pointed blue snail helmet, an air staff and a bronze square shield.",
+   "equipment": [
+    [
+     3343
+    ],
+    [
+     1381
+    ],
+    [
+     1173
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3302,
+    3122,
+    3305,
+    3125
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "shantay-guild-jig"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-tai-bwo-beckon",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Tai bwo beckon",
+   "clueItemId": 2678,
+   "emote": "Beckon",
+   "commenceEmote": "Clap",
+   "clue": "Beckon in Tai Bwo Wannai. Clap before you talk to me. Equip green dragonhide chaps, a ring of dueling and a mithril medium helmet.",
+   "equipment": [
+    [
+     1099
+    ],
+    [
+     2552,
+     2554,
+     2556,
+     2558,
+     2560,
+     2562,
+     2564,
+     2566
+    ],
+    [
+     1143
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2771,
+    3053,
+    2814,
+    3074
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "tai-bwo-beckon"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-tzhaar-jump",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Tzhaar jump",
+   "clueItemId": 2705,
+   "emote": "Jump for joy",
+   "commenceEmote": "Shrug",
+   "clue": "Jump for joy in the TzHaar sword shop. Shrug before you talk to me. Equip a Steel longsword, Blue D'hide body and blue mystic gloves.",
+   "equipment": [
+    [
+     1295
+    ],
+    [
+     2499
+    ],
+    [
+     4095
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2477,
+    5144,
+    2480,
+    5147
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "tzhaar-jump"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-yanille-jump",
+   "kind": "emote",
+   "level": "medium",
+   "name": "Yanille jump",
+   "clueItemId": 2704,
+   "emote": "Jump for joy",
+   "commenceEmote": "Jig",
+   "clue": "Jump for joy in Yanille bank. Dance a jig before you talk to me. Equip a brown apron, adamantite medium helmet and snakeskin chaps.",
+   "equipment": [
+    [
+     1757
+    ],
+    [
+     1145
+    ],
+    [
+     6324
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2609,
+    3088,
+    2614,
+    3097
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "yanille-jump"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-banana-salute",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Banana salute",
+   "clueItemId": 2710,
+   "emote": "Salute",
+   "commenceEmote": null,
+   "clue": "Salute in the banana plantation. Beware of double agents! Equip a diamond ring, amulet of power, and nothing on your chest or legs.",
+   "equipment": [
+    [
+     1643
+    ],
+    [
+     1731
+    ]
+   ],
+   "emptySlots": [
+    "chest",
+    "legs"
+   ],
+   "area": [
+    2912,
+    3174,
+    2934,
+    3154
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "banana-salute"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-cat-entrance-dance",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Cat entrance dance",
+   "clueItemId": 2701,
+   "emote": "Dance",
+   "commenceEmote": null,
+   "clue": "Dance at the cat doored pyramid in Sophanem. Beware of double agents! Equip a ring of life an uncharged amulet of glory and an adamant two handed sword.",
+   "equipment": [
+    [
+     2570
+    ],
+    [
+     1704
+    ],
+    [
+     1317
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3293,
+    2781,
+    3296,
+    2782
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "cat-entrance-dance"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-fishing-guild-blow",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Fishing guild blow",
+   "clueItemId": 2683,
+   "emote": "Raspberry",
+   "commenceEmote": null,
+   "clue": "Blow a raspberry in the Fishing Guild bank. Beware of double agents! Equip an elemental shield, blue dragonhide chaps and a rune warhammer.",
+   "equipment": [
+    [
+     2890
+    ],
+    [
+     2493
+    ],
+    [
+     1347
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2586,
+    3422,
+    2589,
+    3418
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "fishing-guild-blow"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-jokul-tent-laugh",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Jokul tent laugh",
+   "clueItemId": 2706,
+   "emote": "Laugh",
+   "commenceEmote": null,
+   "clue": "Laugh in the Jokul's tent in the Mountain Camp. Beware of double agents! Equip a rune full helmet, blue dragonhide chaps and a fire battlestaff.",
+   "equipment": [
+    [
+     1163
+    ],
+    [
+     2493
+    ],
+    [
+     1393
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2811,
+    3678,
+    2813,
+    3682
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "jokul-tent-laugh"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-rogue-gen-yawn",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Rogue gen yawn",
+   "clueItemId": 2741,
+   "emote": "Yawn",
+   "commenceEmote": null,
+   "clue": "Yawn in the rogues' general store. Beware of double agents! Equip an adamant square shield, blue dragon vambraces and a rune pickaxe.",
+   "equipment": [
+    [
+     1183
+    ],
+    [
+     2487
+    ],
+    [
+     1275
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3024,
+    3699,
+    3027,
+    3704
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "rogue-gen-yawn"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-shilo-kiss",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Shilo kiss",
+   "clueItemId": 3540,
+   "emote": "Blow kiss",
+   "commenceEmote": null,
+   "clue": "Blow a kiss between the tables in Shilo Village bank. Beware of double agents! Equip a blue mystic hat, bone spear and rune plate body.",
+   "equipment": [
+    [
+     4089
+    ],
+    [
+     5016
+    ],
+    [
+     1127
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    2851,
+    2954,
+    2853,
+    2952
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "shilo-kiss"
+   }
+  },
+  {
+   "id": "2009scape-clue-emote-zammy-altar-shrug",
+   "kind": "emote",
+   "level": "hard",
+   "name": "Zammy altar shrug",
+   "clueItemId": 2713,
+   "emote": "Shrug",
+   "commenceEmote": null,
+   "clue": "Shrug in the Zamorak temple found in the Eastern Wilderness. Beware of double agents! Equip rune plate legs, an iron platebody and blue dragonhide vambraces.",
+   "equipment": [
+    [
+     1079
+    ],
+    [
+     1115
+    ],
+    [
+     2487
+    ]
+   ],
+   "emptySlots": [],
+   "area": [
+    3237,
+    3614,
+    3242,
+    3603
+   ],
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/global/activity/ttrail/EmoteCluePlugin.kt",
+    "commit": "4082f9d",
+    "key": "zammy-altar-shrug"
+   }
+  }
+ ]
+}

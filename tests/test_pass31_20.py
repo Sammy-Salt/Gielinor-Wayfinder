@@ -2,7 +2,7 @@ import json, pathlib, subprocess
 R=pathlib.Path(__file__).resolve().parents[1]; S=R/'site'
 def chk(ok,msg):
     if not ok: raise AssertionError(msg)
-rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.30','PASS31.34','PASS31.35','PASS31.36','PASS31.39','PASS31.40','PASS31.41','PASS31.42','PASS31.45','PASS31.46','PASS31.47','PASS31.48','PASS31.49','PASS31.50','PASS31.51','PASS31.52','PASS31.53','PASS31.54'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
+rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.30','PASS31.34','PASS31.35','PASS31.36','PASS31.39','PASS31.40','PASS31.41','PASS31.42','PASS31.45','PASS31.46','PASS31.47','PASS31.48','PASS31.49','PASS31.50','PASS31.51','PASS31.52','PASS31.53','PASS31.54','PASS31.55'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
 p=json.loads((S/'data/player-sync.json').read_text()); chk(p['formatVersion']==2,'player format'); chk(len(p['skills'])==24,'skills'); chk(len(p['bank'])==65,'bank'); chk(len(p['inventory'])==7,'inventory'); chk(len(p['equipment'])==3,'equipment')
 for f in ['character.html','crafting.html','item.html','drop-time.html']:
     chk((S/f).exists(),f+' missing')
