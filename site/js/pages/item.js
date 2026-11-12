@@ -48,10 +48,10 @@ function render(item,drops,shops,ground,recipes=""){
   document.title=item.name||"Item";
   let html=`<div class="card"><h1>${esc(item.name||"Unknown Item")}</h1>${row("Item ID",item.id)}${row("Members",yesNo(item.members))}${row("Tradeable",yesNo(item.tradeable))}${row("Weight",item.weight)}</div>`;
 
-  html+=`<div class="card"><h2>📍 Where to Get It</h2><div class="subtitle">Trusted acquisition relationships from the project's canonical data model.</div>`;
+  html+=`<div class="card"><h2>Where to get it</h2><div class="subtitle">Monster drops, shops, ground spawns and recipes for this item.</div>`;
   html+=`<details><summary>⚔️ Monster Drops <span class="count">(${drops.length})</span></summary><div class="source-body">`;
   if(!drops.length){
-    html+=`<div class="empty">No trusted monster-drop relationships are currently available.</div>`;
+    html+=`<div class="empty">No monsters are known to drop this item.</div>`;
   }else{
     const grouped=new Map();
     for(const drop of drops){const key=String(drop.monsterId);if(!grouped.has(key))grouped.set(key,[]);grouped.get(key).push(drop);}
@@ -67,12 +67,12 @@ function render(item,drops,shops,ground,recipes=""){
   html+=`</div></details>`;
 
   html+=`<details><summary>🏪 Shops <span class="count">(${shops.length})</span></summary><div class="source-body">`;
-  if(!shops.length) html+=`<div class="empty">No trusted 2009Scape shop relationships.</div>`;
+  if(!shops.length) html+=`<div class="empty">No shops sell this item.</div>`;
   else for(const shop of shops){html+=`<div class="source-entry"><strong>${esc(shop.shopName||"Unknown Shop")}</strong>${row("Shop ID",shop.shopId)}${row("Location",shop.location)}${row("Owner",shop.owner)}${row("Shop Type",shop.shopType)}${row("Stock",shop.stock<0?"Unlimited":shop.stock)}${row("Restock",shop.restock)}<div class="muted">Primary source: 2009Scape.</div></div>`;}
   html+=`</div></details>`;
 
   if(ground?.status==="known"&&Array.isArray(ground.spawns)&&ground.spawns.length) html+=`<div class="source-entry"><strong>🪨 Ground Spawns (${ground.spawns.length})</strong><div class="muted">Source: 2009Scape. Respawn is in game ticks.</div>${ground.spawns.map(s=>`<div>X: ${esc(s.x)}&nbsp;&nbsp;Y: ${esc(s.y)}&nbsp;&nbsp;Plane: ${esc(s.plane)}&nbsp;&nbsp;Amount: ${esc(s.amount)}&nbsp;&nbsp;Respawn: ${esc(s.respawn)}</div>`).join("")}</div>`;
-  else if(ground?.status==="unknown") html+=`<div class="source-entry"><strong>🪨 Ground Spawns</strong><div class="muted">Trusted ground-spawn data is currently unavailable. This is intentionally shown as unknown rather than guessed.</div></div>`;
+  else if(ground?.status==="unknown") html+=`<div class="source-entry"><strong>🪨 Ground Spawns</strong><div class="muted">No ground-spawn data for this item.</div></div>`;
   html+=`</div>`;
 
   html+=recipes;

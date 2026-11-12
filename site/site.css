@@ -209,7 +209,7 @@ body[data-page="map"] main{padding:0;width:100%;max-width:none}
 body[data-page="map"] #site-nav{position:absolute;top:0;left:0}
 body[data-page="map"] #toolbar{top:58px}
 #map{background:#0d0a07}
-#toolbar,#legend,#info,#results{border-color:var(--osrs-border)!important;box-shadow:0 5px 18px rgba(0,0,0,.55)!important;background:rgba(30,23,15,.96)!important;color:var(--osrs-text)!important}
+body[data-page="map"] #toolbar,body[data-page="map"] #legend,body[data-page="map"] #info,body[data-page="map"] #results{border-color:var(--osrs-border)!important;box-shadow:0 5px 18px rgba(0,0,0,.55)!important;background:rgba(30,23,15,.96)!important;color:var(--osrs-text)!important}
 #search,#legendSearch{background:#120e0a!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
 #results .result{color:var(--osrs-text);border-bottom-color:var(--osrs-border-soft)}
 #results .result small,#info p{color:var(--osrs-muted)}
@@ -355,3 +355,7 @@ body:not([data-page="map"]) :is(input[type="checkbox"],input[type="radio"]){widt
 body:not([data-page="map"]) label:has(> input[type="checkbox"]),body:not([data-page="map"]) label:has(> input[type="radio"]){display:flex;align-items:center;gap:10px}
 body:not([data-page="map"]) .recipe{background:var(--leather);border:1px solid var(--rule);border-radius:12px}
 body:not([data-page="map"]) .skill{padding:14px;margin:0 0 10px}
+
+/* PASS31.68 spacing: no stray panel behind plain result lists; tighter header-to-controls gap */
+body:not([data-page="map"]) > header .subtitle{margin-bottom:6px}
+body:not([data-page="map"]) > main > .controls:first-child{margin-top:4px}
