@@ -201,5 +201,11 @@ if(M){
  S.addEventListener("change",()=>{showMethods();});
  C.addEventListener("input",()=>{M.querySelectorAll("tr[data-xp]").forEach(r=>{r.className=Number(r.children[1].textContent)<=(Number(C.value)||1)?"ok":"locked";});});
  try{const saved=Player.getSkill(S.value);if(saved&&Number(saved.current)>0&&Number(saved.current)<=99){C.value=saved.current;calc();}}catch{}
+ try{
+  const q=new URLSearchParams(location.search),want=q.get("skill"),goal=Number(q.get("target"));
+  if(want&&skills.includes(want)){S.value=want;try{const saved=Player.getSkill(want);C.value=saved&&Number(saved.current)>0&&Number(saved.current)<=99?saved.current:1;}catch{}}
+  if(goal>=2&&goal<=99)T.value=goal;
+  calc();
+ }catch{}
  showMethods();
 }

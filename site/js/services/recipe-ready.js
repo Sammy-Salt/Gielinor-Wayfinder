@@ -89,14 +89,24 @@ export function assess(recipe, levels, held, ctx = null) {
 }
 
 /** Badge text for a result; `label(id)` resolves an item name. */
-export function describe(result, label = (id) => `Item ${id}`) {
+export function describe(result, label = (id) => `Item ${id}`, link = null) {
   const unverified = result.unverified?.length ? ` · can't verify: ${result.unverified.join(", ")}` : "";
-  if (result.ready) return { cls: "ready", text: `✓ Ready to make${unverified}` };
-  const parts = [];
-  if (!result.levelOk) parts.push(`Level ${result.need} needed (you: ${result.level})`);
-  if (result.missing.length) parts.push("Missing " + result.missing.map((m) => `${m.need - m.have} × ${label(m.itemId)}`).join(", "));
-  if (result.missingTools?.length) parts.push("Missing tool: " + result.missingTools.map((id) => label(id)).join(", "));
-  if (result.quests?.length) parts.push("Quest not complete: " + result.quests.join(", "));
-  if (result.unlocks?.length) parts.push("Not unlocked: " + result.unlocks.join(", "));
-  return { cls: "missing", text: parts.join(" · ") + unverified };
+  if (result.ready) return { cls: "ready", text: `✓ Ready to make${unverified}`, html: `✓ Ready to make${esc(unverified)}` };
+  // `link(kind, value, text)` may return an <a> for the part; default is plain escaped text.
+  const wrap = (kind, value, text) => (link ? link(kind, value, text) : null) || esc(text);
+  const parts = [], htmlParts = [];
+  const push = (text, html) => { parts.push(text); htmlParts.push(html ?? esc(text)); };
+  if (!result.levelOk) push(`Level ${result.need} needed (you: ${result.level})`, wrap("level", result.need, `Level ${result.need} needed (you: ${result.level})`));
+  if (result.missing.length) push("Missing " + result.missing.map((m) => `${m.need - m.have} × ${label(m.itemId)}`).join(", "),
+    "Missing " + result.missing.map((m) => `${m.need - m.have} × ${wrap("item", m.itemId, label(m.itemId))}`).join(", "));
+  if (result.missingTools?.length) push("Missing tool: " + result.missingTools.map((id) => label(id)).join(", "),
+    "Missing tool: " + result.missingTools.map((id) => wrap("item", id, label(id))).join(", "));
+  if (result.quests?.length) push("Quest not complete: " + result.quests.join(", "),
+    "Quest not complete: " + result.quests.map((q) => wrap("quest", q, q)).join(", "));
+  if (result.unlocks?.length) push("Not unlocked: " + result.unlocks.join(", "));
+  return { cls: "missing", text: parts.join(" · ") + unverified, html: htmlParts.join(" · ") + esc(unverified) };
+}
+
+function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }

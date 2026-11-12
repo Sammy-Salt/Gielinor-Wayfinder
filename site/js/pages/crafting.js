@@ -136,7 +136,12 @@ function render() {
     container.replaceChildren();
     for (const recipe of rows) {
         const result = check(recipe);
-        const badge = describe(result, (id) => itemLabel(id));
+        const badge = describe(result, (id) => itemLabel(id), (kind, value, text) => {
+            if (kind === "item") return `<a href="item.html?id=${encodeURIComponent(value)}">${esc(text)}</a>`;
+            if (kind === "quest") return `<a href="quest.html?name=${encodeURIComponent(value)}">${esc(text)}</a>`;
+            if (kind === "level") return `<a href="skill-stats.html?skill=${encodeURIComponent(recipe.skill)}&amp;target=${encodeURIComponent(value)}">${esc(text)}</a>`;
+            return null;
+        });
         const card = document.createElement("article");
         card.className = "recipe";
         card.innerHTML = `
@@ -148,7 +153,7 @@ function render() {
                 <span>Level ${recipe.level ?? "unknown"}</span>
                 <span>XP ${recipe.xp ?? "unknown"}</span>
                 <span>${esc(sourceLabel(recipe))}</span>
-                <span class="${badge.cls}">${esc(badge.text)}</span>
+                <span class="${badge.cls}">${badge.html}</span>
             </div>
             <div class="materials">${recipe.inputs.length
                 ? renderItemLinks(recipe.inputs)
