@@ -13,7 +13,7 @@ for p in [S/'character.html',S/'crafting.html',S/'js/pages/character.js',S/'js/p
 for p in S.rglob('*.js'):
  r=subprocess.run(['node','--check',str(p)],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
  if r.returncode: errors.append(f'JS syntax: {p.relative_to(R)}')
-rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.19','PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.30','PASS31.34','PASS31.35','PASS31.36','PASS31.39','PASS31.40','PASS31.41','PASS31.42','PASS31.45','PASS31.46','PASS31.47','PASS31.48','PASS31.49','PASS31.50','PASS31.51','PASS31.52','PASS31.53','PASS31.54','PASS31.55','PASS31.56','PASS31.57','PASS31.58'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
+rel=json.loads((S/'release.json').read_text()); chk(rel['release'] in ('PASS31.19','PASS31.20','PASS31.21','PASS31.22','PASS31.23','PASS31.24','PASS31.25','PASS31.26','PASS31.27','PASS31.30','PASS31.34','PASS31.35','PASS31.36','PASS31.39','PASS31.40','PASS31.41','PASS31.42','PASS31.45','PASS31.46','PASS31.47','PASS31.48','PASS31.49','PASS31.50','PASS31.51','PASS31.52','PASS31.53','PASS31.54','PASS31.55','PASS31.56','PASS31.57','PASS31.58','PASS31.59'),'release mismatch'); chk(rel['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
 # map boundary
 for line in (R/'audit/map-boundary.sha256').read_text().splitlines():
  h,relp=line.split('  ',1); p=R/relp; chk(p.exists(),f'map missing {relp}'); chk(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest()==h,f'map changed {relp}')
