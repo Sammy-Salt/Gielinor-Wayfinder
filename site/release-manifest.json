@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.57",
-  "buildId": "pass31.57-20261108-1",
+  "release": "PASS31.58",
+  "buildId": "pass31.58-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -123,7 +123,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "a7be0cfa43e3a8ac72691e0c7c6607d5d6329c0c203a578da70cc9bb6c0417a6",
+      "sha256": "21bfbc539bb74a3ad38dd29aa94866b9f47f810756e79d5fd472f6ab388bb83c",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -79895,8 +79895,8 @@
       "bytes": 188484
     },
     "data/minigames.json": {
-      "sha256": "390f6fe1924c70744ff066c6b8eee5bf793df42407748f6b8735117b2a42f375",
-      "bytes": 49408
+      "sha256": "079b0ffc3cd4818b758e11dff221afbf11c6bfd64bc78a530277b9661fc2c9de",
+      "bytes": 62594
     },
     "data/monsters/0.json": {
       "sha256": "77f674113dcf96ffdb65de0e2371a63aec9af6c8d2fb28106ff73659be1444d5",
@@ -216799,7 +216799,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "2bb2b6e298a7e99c31a48797040432c6ae847aac867f31ae2aa8681bef346ec2",
+      "sha256": "bbc0bb17e44a8e9edf05125ea591b1db313bad9077a45c1afbbca9d900b36a25",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216807,7 +216807,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "6144706b55f7db4c060005c444ca7ec36e40703a368821c870a5ae55d39d6f4b",
+      "sha256": "6f0f92093d9264cef87a35f9a919f636f823db8e8a059270fc8ad97b7f82689a",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -217103,7 +217103,7 @@
       "bytes": 2923
     },
     "release.json": {
-      "sha256": "3aefb84e41579306e1e1a16c1ea73f0c28450748cbca85a382391db25195e27a",
+      "sha256": "f121f92ab71e4f58508a7306cb8b6f999a9ce8809780160070f851c20894a173",
       "bytes": 499
     },
     "site.css": {
@@ -217115,7 +217115,7 @@
       "bytes": 3049
     },
     "sw.js": {
-      "sha256": "4024d65294f80715e1b979d1e40833edf9cf08499ba2964698ea40c4196b3be0",
+      "sha256": "62c70eb635b615b97e57bb03e28057da2c382a4fb4b623be158db4c08c332b55",
       "bytes": 4302
     }
   }

@@ -4,7 +4,7 @@
 Minigame logic is embedded in code, so each minigame has its own parser with rule-literal assertions that fail loudly
 if the source changes. Currently modelled: Pest Control (Void Knight commendation shop and xp conversion),
 Pyramid Plunder (rooms, xp, artifact and sceptre rates), Barrows (reward chest), the Mage Training Arena shop, the Blast Furnace
-and the Castle Wars ticket exchange. Item ids are verified against the item catalog.
+the Castle Wars ticket exchange, Fishing Trawler (loot table, xp) and the Gnome Restaurant delivery jobs. Item ids are verified against the item catalog.
 
 Usage: generate_minigames.py --source-root <upstream repo root> --source-commit <sha> [--output site/data/minigames.json]
 """
@@ -27,6 +27,9 @@ BFC = MG + "blastfurnace/BlastConsts.kt"
 BAR = "Server/src/main/content/global/skill/smithing/smelting/Bar.java"
 CW = MG + "castlewars/CastleWars.kt"
 SHOPS = "Server/data/configs/shops.json"
+FT = MG + "fishingtrawler/"
+FISH = "Server/src/main/content/global/skill/fishing/Fish.kt"
+GC = MG + "gnomecooking/GnomeCookingJob.kt"
 
 
 class GeneratorError(Exception):
@@ -227,6 +230,54 @@ def castle_wars(root, commit):
         provenance=[prov(CW, commit), prov(SHOPS, commit)])
 
 
+def npc_name(nid):
+    p = ROOT / "site/data/npcs" / f"{nid}.json"
+    return json.loads(p.read_text()).get("name") if p.exists() else None
+
+
+def fishing_trawler(root, commit):
+    loot, handler, session = read(root, FT + "TrawlerLoot.kt"), read(root, FT + "FishingTrawlerInteractionHandler.kt"), read(root, FT + "FishingTrawlerSession.kt")
+    need(loot, ["val lo = 0.6133", "val hi = 0.7852", "(fishLevel.toDouble() - 15.0)*((hi - lo) / (99.0 - 15.0)) + lo", "if(f.level > fishLevel)"], FT + "TrawlerLoot.kt")
+    need(handler, ["(((0.015 * player.skills.getLevel(Skills.FISHING))) * player.skills.getLevel(Skills.FISHING)) * rolls", "getLevel(Skills.FISHING) < 15", "1 -> TrawlerLoot.addLootAndMessage(player, level, rolls, true)"], FT + "FishingTrawlerInteractionHandler.kt")
+    need(session, ["ceil(session.fishAmount / session.players.size.toDouble())", "session.fishAmount += 3"], FT + "FishingTrawlerSession.kt")
+    body = loot.split("private val lootTable = arrayOf(", 1)[1]
+    rows = []
+    entries = re.findall(r"WeightedChanceItem\((?:Items\.[A-Z_]+_(\d+)|(0)),\s*1,\s*(\d+)\)", body)
+    if len(entries) != 15:
+        raise GeneratorError(f"expected 15 trawler loot entries, parsed {len(entries)}")
+    total = sum(int(w) for _, _, w in entries)
+    junk = set(int(i) for i in re.findall(r"_(\d+)\b", re.search(r"val junkItems = arrayOf\((.*?)\)\n", loot).group(1)))
+    for item, zero, w in entries:
+        iid = int(item) if item else 0
+        kind = "fish" if iid == 0 else "junk" if iid in junk else "misc"
+        rows.append(OrderedDict(id=f"2009scape-fishingtrawler-loot-{iid or 'fish'}", kind=kind, itemIds=[iid] if iid else [], weight=int(w), chancePercent=round(int(w) / total * 100, 3), provenance=prov(FT + "TrawlerLoot.kt", commit)))
+    fish = []
+    ftext = read(root, FISH)
+    for n in re.findall(r"Items\.[A-Z_]+_(\d+)", re.search(r"val trawlerFishIds = arrayOf\((.*?)\)\n", loot).group(1) if "val trawlerFishIds" in loot else re.search(r"private val trawlerFishIds = arrayOf\((.*?)\)\n", loot).group(1)):
+        m = re.search(r"\(Items\.[A-Z_]+_" + n + r", (\d+), ", ftext)
+        if not m:
+            raise GeneratorError(f"trawler fish {n} not in Fish.kt")
+        fish.append(OrderedDict(itemId=int(n), level=int(m.group(1))))
+    fish.sort(key=lambda f: f["level"])
+    return OrderedDict(
+        id="2009scape-minigame-fishing-trawler", name="Fishing Trawler", requirements=[{"skill": "Fishing", "level": 15}], loot=rows, totalWeight=total, fish=fish,
+        rules=OrderedDict(rolls="rolls per player = ceil(fish caught by the ship ÷ players aboard); each caught fish adds 3 to the ship's fish",
+                          fishRoll="when the table gives 'fish', every fish you meet the level for is tried best-first with chance (level − 15) × (0.7852 − 0.6133) ÷ 84 + 0.6133; the roll repeats until one succeeds",
+                          xp="Fishing xp = 0.015 × level² × rolls", skipJunk="the reward interface offers an option that drops junk rolls", delivery="loot goes to the bank; Ultimate ironmen, or a full bank, get it in the inventory (fish noted) or on the floor"),
+        provenance=[prov(FT + "TrawlerLoot.kt", commit), prov(FT + "FishingTrawlerInteractionHandler.kt", commit), prov(FT + "FishingTrawlerSession.kt", commit)])
+
+
+def gnome_restaurant(root, commit):
+    text = read(root, GC)
+    jobs = re.findall(r"^\s{4}([A-Z_]+)\(GnomeTipper\.LEVEL\.(EASY|HARD),\s*(\d+),\s*\"([^\"]*)\"\)", text, re.M)
+    if len(jobs) != 15 or [j[1] for j in jobs].count("EASY") != 8:
+        raise GeneratorError(f"gnome restaurant jobs: {len(jobs)}")
+    rows = [OrderedDict(id=f"2009scape-gnomerestaurant-job-{key(n)}", kind="job", difficulty=lvl.lower(), name=npc_name(int(nid)) or n.replace("_", " ").title(), npcId=int(nid),
+                        location=tip.rstrip("."), provenance=prov(GC, commit, enum=n)) for n, lvl, nid, tip in jobs]
+    return OrderedDict(id="2009scape-minigame-gnome-restaurant", name="Gnome Restaurant", jobs=rows,
+                       rules=OrderedDict(note="delivery jobs are split into 8 easy and 7 hard customers; tip tables are not modelled"), provenance=prov(GC, commit))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source-root", required=True)
@@ -235,15 +286,16 @@ def main():
     a = ap.parse_args()
     c = a.source_commit
     games = [pest_control(a.source_root, c), pyramid_plunder(a.source_root, c), barrows(a.source_root, c), mta_shop(a.source_root, c),
-             blast_furnace(a.source_root, c), castle_wars(a.source_root, c)]
+             blast_furnace(a.source_root, c), castle_wars(a.source_root, c), fishing_trawler(a.source_root, c), gnome_restaurant(a.source_root, c)]
     have = {p.stem for p in (ROOT / "site/data/items").glob("*.json")}
     used = []
     for g in games:
         for r in g.get("rewards", []):
             used += r.get("itemIds", [])
-        for k in ("brothers", "table", "shop", "exchange"):
+        for k in ("brothers", "table", "shop", "exchange", "loot"):
             for r in g.get(k, []):
                 used += r.get("itemIds", [])
+        used += [f["itemId"] for f in g.get("fish", [])]
         for r in g.get("bars", []):
             used += [r["barItemId"]] + r["oreItemIds"]
         if "artifacts" in g:
@@ -252,7 +304,7 @@ def main():
     if missing:
         raise GeneratorError(f"item ids missing from the catalog: {missing}")
     doc = OrderedDict(formatVersion=1, source="2009Scape", sourceCommit=c,
-                      counts={"minigames": len(games), "rows": sum(len(g.get(k, [])) for g in games for k in ("rewards", "rooms", "brothers", "table", "shop", "bars", "exchange"))}, minigames=games)
+                      counts={"minigames": len(games), "rows": sum(len(g.get(k, [])) for g in games for k in ("rewards", "rooms", "brothers", "table", "shop", "bars", "exchange", "loot", "jobs"))}, minigames=games)
     Path(a.output).write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     print(json.dumps(doc["counts"]))
 

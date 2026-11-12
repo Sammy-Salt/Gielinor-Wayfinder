@@ -3,8 +3,8 @@
  "source": "2009Scape",
  "sourceCommit": "4082f9d",
  "counts": {
-  "minigames": 6,
-  "rows": 96
+  "minigames": 8,
+  "rows": 126
  },
  "minigames": [
   {
@@ -2228,6 +2228,513 @@
      "commit": "4082f9d"
     }
    ]
+  },
+  {
+   "id": "2009scape-minigame-fishing-trawler",
+   "name": "Fishing Trawler",
+   "requirements": [
+    {
+     "skill": "Fishing",
+     "level": 15
+    }
+   ],
+   "loot": [
+    {
+     "id": "2009scape-fishingtrawler-loot-fish",
+     "kind": "fish",
+     "itemIds": [],
+     "weight": 1430,
+     "chancePercent": 68.816,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-687",
+     "kind": "junk",
+     "itemIds": [
+      687
+     ],
+     "weight": 70,
+     "chancePercent": 3.369,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-1469",
+     "kind": "junk",
+     "itemIds": [
+      1469
+     ],
+     "weight": 70,
+     "chancePercent": 3.369,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-689",
+     "kind": "junk",
+     "itemIds": [
+      689
+     ],
+     "weight": 70,
+     "chancePercent": 3.369,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-688",
+     "kind": "junk",
+     "itemIds": [
+      688
+     ],
+     "weight": 80,
+     "chancePercent": 3.85,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-697",
+     "kind": "junk",
+     "itemIds": [
+      697
+     ],
+     "weight": 70,
+     "chancePercent": 3.369,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-685",
+     "kind": "junk",
+     "itemIds": [
+      685
+     ],
+     "weight": 60,
+     "chancePercent": 2.887,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-407",
+     "kind": "junk",
+     "itemIds": [
+      407
+     ],
+     "weight": 50,
+     "chancePercent": 2.406,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-1931",
+     "kind": "junk",
+     "itemIds": [
+      1931
+     ],
+     "weight": 50,
+     "chancePercent": 2.406,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-686",
+     "kind": "junk",
+     "itemIds": [
+      686
+     ],
+     "weight": 50,
+     "chancePercent": 2.406,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-987",
+     "kind": "misc",
+     "itemIds": [
+      987
+     ],
+     "weight": 7,
+     "chancePercent": 0.337,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-985",
+     "kind": "misc",
+     "itemIds": [
+      985
+     ],
+     "weight": 7,
+     "chancePercent": 0.337,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-405",
+     "kind": "misc",
+     "itemIds": [
+      405
+     ],
+     "weight": 60,
+     "chancePercent": 2.887,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-2651",
+     "kind": "misc",
+     "itemIds": [
+      2651
+     ],
+     "weight": 2,
+     "chancePercent": 0.096,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-fishingtrawler-loot-7140",
+     "kind": "misc",
+     "itemIds": [
+      7140
+     ],
+     "weight": 2,
+     "chancePercent": 0.096,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "totalWeight": 2078,
+   "fish": [
+    {
+     "itemId": 317,
+     "level": 1
+    },
+    {
+     "itemId": 327,
+     "level": 5
+    },
+    {
+     "itemId": 321,
+     "level": 15
+    },
+    {
+     "itemId": 359,
+     "level": 35
+    },
+    {
+     "itemId": 377,
+     "level": 40
+    },
+    {
+     "itemId": 371,
+     "level": 50
+    },
+    {
+     "itemId": 383,
+     "level": 76
+    },
+    {
+     "itemId": 395,
+     "level": 79
+    },
+    {
+     "itemId": 389,
+     "level": 81
+    }
+   ],
+   "rules": {
+    "rolls": "rolls per player = ceil(fish caught by the ship ÷ players aboard); each caught fish adds 3 to the ship's fish",
+    "fishRoll": "when the table gives 'fish', every fish you meet the level for is tried best-first with chance (level − 15) × (0.7852 − 0.6133) ÷ 84 + 0.6133; the roll repeats until one succeeds",
+    "xp": "Fishing xp = 0.015 × level² × rolls",
+    "skipJunk": "the reward interface offers an option that drops junk rolls",
+    "delivery": "loot goes to the bank; Ultimate ironmen, or a full bank, get it in the inventory (fish noted) or on the floor"
+   },
+   "provenance": [
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/fishingtrawler/TrawlerLoot.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/fishingtrawler/FishingTrawlerInteractionHandler.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/fishingtrawler/FishingTrawlerSession.kt",
+     "commit": "4082f9d"
+    }
+   ]
+  },
+  {
+   "id": "2009scape-minigame-gnome-restaurant",
+   "name": "Gnome Restaurant",
+   "jobs": [
+    {
+     "id": "2009scape-gnomerestaurant-job-cpt-errdo",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Captain Errdo",
+     "npcId": 3811,
+     "location": "at the top level of the Grand Tree",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "CPT_ERRDO"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-dalilah",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Dalila",
+     "npcId": 4588,
+     "location": "sitting in the Gnome Restaurant",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "DALILAH"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-gulluck",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Gulluck",
+     "npcId": 602,
+     "location": "on the third level of the Grand Tree",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "GULLUCK"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-rometti",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Rometti",
+     "npcId": 601,
+     "location": "on the second level of the Grand Tree",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "ROMETTI"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-narnode",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "King Narnode Shareen",
+     "npcId": 670,
+     "location": "at the base of the Grand Tree",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "NARNODE"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-meegle",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Meegle",
+     "npcId": 4597,
+     "location": "in the terrorbird enclosure",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "MEEGLE"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-perrdur",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Perrdur",
+     "npcId": 4587,
+     "location": "sitting in the Gnome Restaurant",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "PERRDUR"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-sarble",
+     "kind": "job",
+     "difficulty": "easy",
+     "name": "Sarble",
+     "npcId": 4599,
+     "location": "in the swamp west of the Grand Tree",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "SARBLE"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-gimlewap",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Ambassador Gimblewap",
+     "npcId": 4580,
+     "location": "upstairs in Ardougne castle",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "GIMLEWAP"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-bleemadge",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Captain Bleemadge",
+     "npcId": 3810,
+     "location": "at the top of White Wolf Mountain",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "BLEEMADGE"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-dalbur",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Captain Dalbur",
+     "npcId": 3809,
+     "location": "by the gnome glider in Al Kharid",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "DALBUR"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-bolren",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "King Bolren",
+     "npcId": 469,
+     "location": "next to the Spirit Tree in Tree Gnome Village",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "BOLREN"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-schepbur",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Lieutenant Schepbur",
+     "npcId": 3817,
+     "location": "in the battlefield of Khazar, south of the river",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "SCHEPBUR"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-imblewyn",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Professor Imblewyn",
+     "npcId": 4586,
+     "location": "on the ground floor of the Magic Guild",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "IMBLEWYN"
+     }
+    },
+    {
+     "id": "2009scape-gnomerestaurant-job-onglewip",
+     "kind": "job",
+     "difficulty": "hard",
+     "name": "Onglewip",
+     "npcId": 4585,
+     "location": "in the Wizard's Tower south of Draynor",
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+      "commit": "4082f9d",
+      "enum": "ONGLEWIP"
+     }
+    }
+   ],
+   "rules": {
+    "note": "delivery jobs are split into 8 easy and 7 hard customers; tip tables are not modelled"
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/minigame/gnomecooking/GnomeCookingJob.kt",
+    "commit": "4082f9d"
+   }
   }
  ]
 }
