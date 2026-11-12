@@ -2,3 +2,4 @@
 main{max-width:800px}.grid{grid-template-columns:1fr 1fr}.card{margin-bottom:16px}.bar{height:18px;margin-top:12px}
 @media(max-width:600px){.grid{grid-template-columns:1fr 1fr}.stat{padding:10px 8px}}
 .methods{width:100%;border-collapse:collapse}.methods th,.methods td{text-align:left;padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.08)}.methods tbody tr{cursor:pointer}.methods tr.locked{opacity:.45}.table-wrap{overflow-x:auto;margin-top:8px}
+.method-links{white-space:nowrap}.method-links a{margin-right:8px}

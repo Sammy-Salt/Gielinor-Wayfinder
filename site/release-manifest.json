@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.71",
-  "buildId": "pass31.71-20261108-1",
+  "release": "PASS31.72",
+  "buildId": "pass31.72-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -119,15 +119,15 @@
       "bytes": 454
     },
     "css/pages/skill-stats.css": {
-      "sha256": "907c41a76faa0b1b38656666e86f35e0617a0218fc2dc3206040c9926392816f",
-      "bytes": 499
+      "sha256": "473a041a54f5e52ac7c295801366fdc208fedb9be90815d18f888fc7b4c989bd",
+      "bytes": 566
     },
     "data/agility.json": {
       "sha256": "81b82e466daae482023fe4a29b833e4428f7e6f8fc347a0dec881b9834060cef",
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "f5a76d165e0dc961db713454be3ff79398c18f18783500717794a7022fbe25f9",
+      "sha256": "4016e7ae35e7537ba7ea825d24e5ecbf7d45230f4b63f70a2502a02a4b125244",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -146263,7 +146263,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "1e75c1c7d8992794ce0c3f8a9561cedf6ae23a05e24098e5b1ec0b135bb5a1a3",
+      "sha256": "d802e265f454e5f17eb06316e1e40c9d1b467d99d737ebbff3026b82cd88e346",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -146271,7 +146271,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "95586a1c3b86c433d4207f15e7648003cc3685f439d670bb1b93e697b35f868f",
+      "sha256": "9fbbd77850d451a50d0a83efa194ba801da24e048640c6196ba70f7f2f5c7e43",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -146395,8 +146395,8 @@
       "bytes": 1562
     },
     "js/pages/map.js": {
-      "sha256": "5d458746419e010524da4fbd052ca43ecdc5daff96930b440b63602364f5da93",
-      "bytes": 26399
+      "sha256": "ee96b480949df19605de0eb709671381ff28ceb738f4b5fae9be119b7387847a",
+      "bytes": 27444
     },
     "js/pages/monster.js": {
       "sha256": "d9bfebfb79eac536bb309381f87de2f823d7d9ff79932d64d187f90318f30abb",
@@ -146431,8 +146431,8 @@
       "bytes": 7698
     },
     "js/pages/skill-stats.js": {
-      "sha256": "48c90673d42fde8ea1173a3e4d0f99c07e3c3f9d5c28e6e8f3007d9eb894039b",
-      "bytes": 7057
+      "sha256": "1856d19a017b1c49e3d840f8f25a986f6cb2ca53ce6423816200e3378458af3a",
+      "bytes": 9338
     },
     "js/runtime.js": {
       "sha256": "7205995717f93244b280310f9ee9c73686259f7c1d27a4a21e5763b9a55fed36",
@@ -146575,7 +146575,7 @@
       "bytes": 3016
     },
     "release.json": {
-      "sha256": "280d7eaed6b38ce9a25599620e33ea39100a6597f205a5a111da6b2e13a6fad8",
+      "sha256": "bbca1284116caaf5fe256c5c4d7b63aeae67aa003a885106531cd7557ad96cbe",
       "bytes": 499
     },
     "site.css": {
@@ -146587,7 +146587,7 @@
       "bytes": 3112
     },
     "sw.js": {
-      "sha256": "878ddcf1010e177211ab5fff5388a30e34e10d966760d675896fa0dc5f34afde",
+      "sha256": "660d820e7eca86aec7f12d9d8edc754e7c8d0d62346e9f7514fb4bba00a57662",
       "bytes": 4583
     }
   }

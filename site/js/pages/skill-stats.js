@@ -107,34 +107,65 @@ async function nameOf(id){
  try{const item=await OSRS.Data.get(`items/${id}.json`);if(item&&item.name)return item.name;}catch{}
  return `Item ${id}`;
 }
+const npcExists=new Map([["npcs",new Set()],["monsters",new Set()]]);
+const npcMissing=new Set();
+async function probe(dir,id){
+ if(npcExists.get(dir).has(id))return true;
+ if(npcMissing.has(dir+id))return false;
+ try{await OSRS.Data.get(`${dir}/${id}.json`);npcExists.get(dir).add(id);return true;}
+ catch{npcMissing.add(dir+id);return false;}
+}
+/* One probe per row (preferred page first, then the other), so offline use stays quick. */
+async function loadNpcIds(ids,preferred){
+ const order=preferred==="monsters"?["monsters","npcs"]:["npcs","monsters"];
+ await Promise.all(ids.map(async id=>{for(const dir of order)if(await probe(dir,id))return;}));
+}
 async function methodRows(skill,doc){
  const rows=[];
- const add=(name,level,xp,note)=>{if(Number.isFinite(xp)&&xp>0)rows.push({name,level:Number.isFinite(level)?level:1,xp,note:note||""});};
+ const every=[];
+ if(skill==="Slayer")doc.tasks.forEach(r=>every.push(...(r.npcIds||[]).slice(0,1)));
+ if(skill==="Thieving")doc.pickpockets.forEach(r=>every.push(...(r.npcIds||[]).slice(0,1)));
+ if(skill==="Hunter")["traps","butterflies","implings","falconry"].forEach(k=>doc[k].forEach(r=>every.push(...(r.npcIds||[]).slice(0,1))));
+ if(every.length)await loadNpcIds([...new Set(every)],skill==="Slayer"?"monsters":"npcs");
+ const add=(name,level,xp,note,links)=>{if(Number.isFinite(xp)&&xp>0)rows.push({name,level:Number.isFinite(level)?level:1,xp,note:note||"",links:links||[]});};
+ const npcLinks=(page,ids)=>{
+  if(!ids||!ids.length)return [];
+  const out=[],id=ids[0];
+  if(page==="monster"&&npcExists.get("monsters").has(id)||!npcExists.get("npcs").has(id)&&npcExists.get("monsters").has(id))out.push({label:"Info",href:`monster.html?id=${id}`});
+  else if(npcExists.get("npcs").has(id))out.push({label:"Info",href:`npc.html?id=${id}`});
+  out.push({label:"Map",href:`map.html?npc=${ids.join(",")}`});
+  return out;
+ };
+ const itemLink=(id,label)=>id?[{label:label||"Item",href:`item.html?id=${id}`}]:[];
  if(skill==="Slayer"){
   doc.tasks.forEach(r=>{
    const x=r.xpPerKill;if(!x)return;
    const range=x.min===x.max?"":` (${x.min}–${x.max} by variant, highest shown)`;
-   add(r.name+" (per kill)",r.level,x.max,`combat ${r.minCombatLevel}+${r.quest?", quest: "+r.quest:""}${range}`);
+   add(r.name+" (per kill)",r.level,x.max,`combat ${r.minCombatLevel}+${r.quest?", quest: "+r.quest:""}${range}`,npcLinks("monster",r.npcIds));
   });
  }else if(skill==="Thieving"){
-  doc.pickpockets.forEach(r=>add(r.name+" (pickpocket)",r.level,r.xp));
-  doc.stalls.forEach(r=>add(r.name,r.level,r.xp));
+  doc.pickpockets.forEach(r=>add(r.name+" (pickpocket)",r.level,r.xp,"",npcLinks("npc",r.npcIds)));
+  doc.stalls.forEach(r=>add(r.name,r.level,r.xp,"",itemLink((r.loot||[])[0]?.itemId,"Loot")));
   doc.chests.forEach(r=>add(r.name+" chest",r.level,r.xp));
  }else if(skill==="Agility"){
   doc.courses.forEach(r=>add(r.name+" (per lap)",r.level,r.completionXp+r.obstacleXp,r.levelNote||""));
   doc.shortcuts.forEach(r=>add(r.name+" (shortcut)",r.level,r.xp));
  }else if(skill==="Hunter"){
-  doc.traps.forEach(r=>add(r.name,r.level,r.xp,r.trap.replace(/_/g," ").toLowerCase()));
-  doc.butterflies.forEach(r=>add(r.name,r.level,r.xp,"butterfly net"));
-  doc.implings.forEach(r=>add(r.name,r.level,r.xp,"impling"));
-  doc.falconry.forEach(r=>add(r.name,r.level,r.xp,"falconry"));
-  doc.tracking.forEach(r=>add(r.name,r.level,r.xp,"tracking"));
-  doc.pitfalls.forEach(r=>add(r.name,r.level,r.xp,"pit trap"));
+  doc.traps.forEach(r=>add(r.name,r.level,r.xp,r.trap.replace(/_/g," ").toLowerCase(),npcLinks("npc",r.npcIds)));
+  doc.butterflies.forEach(r=>add(r.name,r.level,r.xp,"butterfly net",npcLinks("npc",r.npcIds)));
+  doc.implings.forEach(r=>add(r.name,r.level,r.xp,"impling",npcLinks("npc",r.npcIds)));
+  doc.falconry.forEach(r=>add(r.name,r.level,r.xp,"falconry",npcLinks("npc",r.npcIds)));
+  doc.tracking.forEach(r=>add(r.name,r.level,r.xp,"tracking",itemLink((r.rewards||[])[0]?.itemId,"Item")));
+  doc.pitfalls.forEach(r=>add(r.name,r.level,r.xp,"pit trap",itemLink((r.rewards||[])[0]?.itemId,"Item")));
  }else if(skill==="Farming"){
-  doc.crops.forEach(r=>add(r.name.replace(/ seed$/i,""),r.level,(r.plantingXp||0)+(r.harvestXp||0),"plant + one harvest, "+r.patchType.replace(/_/g," ").toLowerCase()+(r.growthMinutes?", "+r.growthMinutes+" min":"")));
+  doc.crops.forEach(r=>add(r.name.replace(/ seed$/i,""),r.level,(r.plantingXp||0)+(r.harvestXp||0),"plant + one harvest, "+r.patchType.replace(/_/g," ").toLowerCase()+(r.growthMinutes?", "+r.growthMinutes+" min":""),[...itemLink(r.harvestItemId,"Crop"),...itemLink(r.seedItemId,"Seed")]));
  }else{
   const list=doc.skills[skill]||[];
-  for(const r of list)add(r.name||await nameOf(r.itemId),r.level,r.xp,r.option||"");
+  for(const r of list){
+   const links=itemLink(r.itemId,"Item");
+   if(skill==="Fishing")links.push({label:"Map",href:"map.html?legend=Fishing%20spot"});
+   add(r.name||await nameOf(r.itemId),r.level,r.xp,r.option||"",links);
+  }
  }
  return rows.sort((a,b)=>a.level-b.level||a.xp-b.xp);
 }
@@ -154,13 +185,14 @@ async function showMethods(){
  }
  if(token!==methodToken)return;
  const level=Math.max(1,Number(C.value)||1);
- const body=rows.map(r=>`<tr class="${r.level<=level?"ok":"locked"}" data-xp="${r.xp}"><td>${OSRS.escapeHTML(r.name)}</td><td>${r.level}</td><td>${fmt(r.xp)}</td><td class="small">${OSRS.escapeHTML(r.note)}</td></tr>`).join("");
+ const body=rows.map(r=>`<tr class="${r.level<=level?"ok":"locked"}" data-xp="${r.xp}"><td>${OSRS.escapeHTML(r.name)}</td><td>${r.level}</td><td>${fmt(r.xp)}</td><td class="small">${OSRS.escapeHTML(r.note)}</td><td class="method-links">${r.links.map(l=>`<a href="${l.href}">${l.label}</a>`).join(" ")}</td></tr>`).join("");
  OSRS.setHTML(M,`<div class="card"><h2 class="result-heading">${skill} training methods</h2>
  <div class="small">From the 2009Scape server source. Tap a row to use its XP as the XP per action. Greyed rows need a higher level than your current level.</div>
- <div class="table-wrap"><table class="methods"><thead><tr><th>Method</th><th>Level</th><th>XP</th><th></th></tr></thead><tbody>${body}</tbody></table></div></div>`);
+ <div class="table-wrap"><table class="methods"><thead><tr><th>Method</th><th>Level</th><th>XP</th><th></th><th>Links</th></tr></thead><tbody>${body}</tbody></table></div></div>`);
 }
 if(M){
  M.addEventListener("click",e=>{
+  if(e.target.closest("a"))return;
   const row=e.target.closest("tr[data-xp]");
   if(!row)return;
   X.value=row.dataset.xp;

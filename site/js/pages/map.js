@@ -889,3 +889,24 @@ document.getElementById("legendSearch").oninput=function(){
 
 buildLegend();
 legendItems.push(...document.querySelectorAll(".legendItem"));
+
+/* PASS31.72 deep links: map.html?q=<name> jumps to the best matching place/shop/NPC/monster;
+   map.html?legend=<Map Key category> plots that category;
+   map.html?npc=<id,id,...> jumps to the nearest spawn of those NPC ids. */
+(function applyDeepLink(){
+ let params;
+ try{params=new URLSearchParams(location.search);}catch{return;}
+ const wantLegend=params.get("legend"),wantQuery=(params.get("q")||"").trim();
+ const wantNpc=(params.get("npc")||"").split(",").filter(Boolean).map(Number).filter(Number.isFinite);
+ if(wantNpc.length){
+  const ids=new Set(wantNpc);
+  const recs=[...monsterRecords,...npcs].filter(r=>ids.has(Number(r.id)));
+  if(recs.length)goToRecord({kind:recs[0].type||"Monster",name:recs[0].name,recs});
+ }else if(wantLegend){
+  try{showLegendCategory(wantLegend);}catch(e){console.warn("legend deep link failed",e);}
+ }else if(wantQuery.length>=2){
+  const found=runSearch(wantQuery.toLowerCase());
+  if(found.length)goToRecord(found[0]);
+  else{search.value=wantQuery;search.dispatchEvent(new Event("input"));}
+ }
+})();
