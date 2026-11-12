@@ -674,6 +674,7 @@ addLocations();
 /* Interactive OSRS-style legend */
 const legendCategories = {
  "Main / World Map":[
+  "Fairy ring","Teleport destination","Shooting star","Clue dig spot",
   "Agility shortcut","Altar","Bank","Clan Hub","Combat Achievements",
   "Death's Office","Distraction and Diversion","Docking point","Dungeon",
   "Dungeon with map link","Hairdresser","Holiday event","House portal",
@@ -713,9 +714,13 @@ legendCategories.Places = Array.from(new Set(locations.map(l => l.type).filter(B
 const legendLayer=L.layerGroup().addTo(map);
 
 function getShopData(){return window.OSRS_MAP_SHOPS||[];}
+function getPointData(){return window.OSRS_MAP_POINTS||[];}   // generated from the 2009Scape source (data/map/points.js)
 
 function legendMatches(loc,category){
  const c=category.toLowerCase();
+
+ if(loc.legend!==undefined)
+  return loc.legend===category;
 
  if(legendCategories.Places && legendCategories.Places.includes(category))
   return String(loc.type||"").toLowerCase()===c;
@@ -732,20 +737,20 @@ function legendMatches(loc,category){
  return text.includes(c);
 }
 
+function legendSource(category){
+ return legendCategories.Shopping.includes(category)?getShopData():locations.concat(getPointData());
+}
+
 function legendCount(category){
- const source=legendCategories.Shopping.includes(category)?getShopData():locations;
+ const source=legendSource(category);
  return source.filter(loc=>legendMatches(loc,category)).length;
 }
 
 function showLegendCategory(category){
  legendLayer.clearLayers();
 
- let source=locations;
-
- // Shopping categories come from shops.js.
- if(legendCategories.Shopping.includes(category)){
-  source=getShopData();
- }
+ // Shopping categories come from shops.js, everything else from locations.js plus the generated points.
+ const source=legendSource(category);
 
  const found=source.filter(loc=>{
   if(loc.plane!==undefined &&
