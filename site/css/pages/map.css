@@ -78,3 +78,6 @@ body{box-sizing:border-box}
 .map-popup h2{margin:0 0 4px;font-size:16px;border:0;padding:0;color:#2a1d0c}
 .map-popup p{margin:4px 0;color:#3b2e1d;font-size:13px}
 #results .empty{padding:12px;color:var(--osrs-muted)}
+
+/* PASS31.69: Map Key results get a gold-ringed badge so they stand apart from spawn markers. */
+.legend-marker span{width:26px;height:26px;border-radius:50%;background:rgba(20,15,10,.92);border:2px solid #e0b64f;font-size:15px;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.6)}

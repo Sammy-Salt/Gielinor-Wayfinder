@@ -320,7 +320,8 @@ function markerDetails(type, rec){
 }
 
 // Which marker kinds are shown is a per-device preference.
-const kindVisible = { NPC:true, Monster:true, Shop:true };
+// NPC and monster spawns start hidden: ~13,000 markers bury the places and legend points. Switch them on under Map tools.
+const kindVisible = { NPC:false, Monster:false, Shop:true };
 try { Object.assign(kindVisible, JSON.parse(localStorage.getItem("wayfinder.map.kinds") || "{}")); } catch (e) { /* storage unavailable */ }
 document.querySelectorAll("#layerSwitches input[data-kind]").forEach(box => {
     box.checked = kindVisible[box.dataset.kind] !== false;
@@ -746,6 +747,15 @@ function legendCount(category){
  return source.filter(loc=>legendMatches(loc,category)).length;
 }
 
+const LEGEND_ICONS={
+ "Fairy ring":"🍄","Teleport destination":"✨","Shooting star":"⭐","Clue dig spot":"⛏️",
+ "Bank":"🏦","Dungeon":"🕳️","Fishing spot":"🎣","Slayer Master":"💀"
+};
+function legendIcon(category){
+ const glyph=LEGEND_ICONS[category]||(/shop|store|trader|seller|bar$/i.test(category)?"🏪":"📍");
+ return L.divIcon({className:"map-marker legend-marker",html:"<span>"+glyph+"</span>",iconSize:[26,26],iconAnchor:[13,13],popupAnchor:[0,-12]});
+}
+
 function showLegendCategory(category){
  legendLayer.clearLayers();
 
@@ -762,15 +772,9 @@ function showLegendCategory(category){
  found.forEach(loc=>{
   const target=osrsToLatLng(loc.x,loc.y);
 
-  const marker=L.circleMarker(
+  const marker=L.marker(
    [target.lat,target.lng],
-   {
-    radius:7,
-    color:"#ff0000",
-    fillColor:"#ff0000",
-    fillOpacity:1,
-    weight:2
-   }
+   {icon:legendIcon(category)}
   );
 
   let info="<b>"+escapeHtml(loc.name||category)+"</b>";
