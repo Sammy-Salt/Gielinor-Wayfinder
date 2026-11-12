@@ -236,20 +236,20 @@ const markerIcons = {
     NPC: L.divIcon({
         className:"map-marker",
         html:"<span>👤</span>",
-        iconSize:[28,28],
-        iconAnchor:[14,14]
+        iconSize:[22,22],
+        iconAnchor:[11,11]
     }),
     Shop: L.divIcon({
         className:"map-marker",
         html:"<span>🏪</span>",
-        iconSize:[28,28],
-        iconAnchor:[14,14]
+        iconSize:[22,22],
+        iconAnchor:[11,11]
     }),
     Monster: L.divIcon({
         className:"map-marker",
         html:"<span>⚔️</span>",
-        iconSize:[28,28],
-        iconAnchor:[14,14]
+        iconSize:[22,22],
+        iconAnchor:[11,11]
     })
 };
 
@@ -296,7 +296,7 @@ const clusterKinds = [
 ];
 
 function clusterIcon(type, count){
-    const size = count > 99 ? 34 : 28;
+    const size = count > 99 ? 28 : 22;
     return L.divIcon({
         className:"map-cluster map-cluster-" + type.toLowerCase(),
         html:"<span>" + count + "</span>",
@@ -482,43 +482,31 @@ function addLocations(){
 
 function showLocation(loc){
 
-    setMapToolsOpen(true);
     const info =
         document.getElementById("info");
 
-    info.style.display =
-        "block";
-
-    info.innerHTML = `
+    const body = `
         <h2>${escapeHtml(loc.name)}</h2>
-
-        <p>
-            ${escapeHtml(
-                loc.description || ""
-            )}
-        </p>
-
-        <p>
-            <b>Category:</b>
-            ${escapeHtml(
-                loc.category || "location"
-            )}
-        </p>
-
-        <p>
-            <b>X:</b> ${loc.x}
-            &nbsp;
-            <b>Y:</b> ${loc.y}
-            &nbsp;
-            <b>Plane:</b>
-            ${loc.plane ?? 0}
-        </p>
+        <p>${escapeHtml(loc.description || "")}</p>
+        <p><b>Category:</b> ${escapeHtml(loc.category || loc.type || "location")}</p>
+        <p><b>X:</b> ${loc.x} &nbsp; <b>Y:</b> ${loc.y} &nbsp; <b>Plane:</b> ${loc.plane ?? 0}</p>
     `;
+    info.innerHTML = body;
+
+    // The details open as a popup on the map itself, so the tools drawer can stay closed.
+    if (loc.x !== undefined && loc.y !== undefined) {
+        const at = osrsToLatLng(loc.x, loc.y);
+        L.popup({ maxWidth:260, className:"map-popup" })
+            .setLatLng([at.lat, at.lng])
+            .setContent(body)
+            .openOn(map);
+    }
 }
 
 
 /*
- * Search.
+ * Search: places, shops, NPCs and monsters. Same-named spawns are grouped into one result
+ * and the nearest one to the middle of the map is chosen when the result is opened.
  */
 
 const search =
@@ -527,128 +515,112 @@ const search =
 const results =
     document.getElementById("results");
 
-search.addEventListener(
-    "input",
-    function(){
-
-        const q =
-            search.value
-                .trim()
-                .toLowerCase();
-
-        if(!q){
-
-            results.style.display =
-                "none";
-
-            results.innerHTML =
-                "";
-
-            return;
+const searchGroups = new Map();
+function addSearchRecords(list, kind){
+    for (const rec of list) {
+        if (!rec || !rec.name) continue;
+        const key = kind + "|" + String(rec.name).toLowerCase();
+        let group = searchGroups.get(key);
+        if (!group) {
+            group = { kind, name:String(rec.name), lower:String(rec.name).toLowerCase(), recs:[], text:"" };
+            searchGroups.set(key, group);
         }
-
-        const found =
-            locations
-                .filter(
-                    loc =>
-                        loc.name
-                            .toLowerCase()
-                            .includes(q) ||
-                        (
-                            loc.description || ""
-                        )
-                            .toLowerCase()
-                            .includes(q)
-                )
-                .slice(0,30);
-
-        results.innerHTML =
-            "";
-
-        found.forEach(
-            function(loc){
-
-                const row =
-                    document.createElement("button");
-
-                row.type = "button";
-
-                row.className =
-                    "result";
-
-                row.replaceChildren();
-                const title = document.createElement("b");
-                title.textContent = loc.name || "Unnamed location";
-                const coords = document.createElement("small");
-                coords.textContent = `${loc.x}, ${loc.y}`;
-                row.append(title, coords);
-
-                row.onclick =
-                    function(){
-
-                        const target =
-                            osrsToLatLng(
-                                loc.x,
-                                loc.y
-                            );
-
-                        const lat = target.lat;
-                        const lng = target.lng;
-
-                        if(
-                            loc.plane !== undefined &&
-                            Number(loc.plane) !== currentPlane
-                        ){
-                            currentPlane = Number(loc.plane);
-                            document.getElementById("plane").value =
-                                currentPlane;
-
-                            map.setMaxZoom(
-                                planeMaxZoom(currentPlane)
-                            );
-
-                            map.removeLayer(tileLayer);
-
-                            tileLayer = L.tileLayer(
-                                `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
-                                {
-                                    minZoom:4,
-                                    maxZoom:planeMaxZoom(currentPlane),
-                                    tms:true,
-            errorTileUrl:BLANK_TILE,
-                                    tileSize:256,
-                                    noWrap:true,
-                                    attribution:"OSRS map tiles © Explv"
-                                }
-                            ).addTo(map);
-
-                            addLocations();
-                        }
-
-                        map.setView(
-                            [lat,lng],
-                            Math.min(9, planeMaxZoom(currentPlane))
-                        );
-
-                        showLocation(loc);
-
-                        results.style.display =
-                            "none";
-
-                        search.value =
-                            loc.name;
-                    };
-
-                results.appendChild(row);
-            }
-        );
-
-        results.style.display =
-            found.length
-                ? "block"
-                : "none";
+        group.recs.push(rec);
+        if (kind === "Place" && rec.description) group.text = String(rec.description).toLowerCase();
     }
-);
+}
+addSearchRecords(locations, "Place");
+addSearchRecords(shops, "Shop");
+addSearchRecords(npcs, "NPC");
+addSearchRecords(monsterRecords, "Monster");
+const searchList = Array.from(searchGroups.values());
+const KIND_ORDER = { Place:0, Shop:1, NPC:2, Monster:3 };
+
+function runSearch(q){
+    const hits = [];
+    for (const g of searchList) {
+        let rank = -1;
+        if (g.lower === q) rank = 0;
+        else if (g.lower.startsWith(q)) rank = 1;
+        else if (g.lower.includes(q)) rank = 2;
+        else if (g.text && g.text.includes(q)) rank = 3;
+        if (rank >= 0) hits.push({ g, rank });
+    }
+    hits.sort((a, b) => a.rank - b.rank || KIND_ORDER[a.g.kind] - KIND_ORDER[b.g.kind] || a.g.lower.length - b.g.lower.length);
+    return hits.slice(0, 30).map(h => h.g);
+}
+
+function nearestRecord(recs){
+    const c = mapToOSRS(map.getCenter());
+    let best = recs[0], bestD = Infinity;
+    for (const r of recs) {
+        const d = Math.hypot((r.x - c.x), (r.y - c.y)) + (Number(r.plane ?? 0) === currentPlane ? 0 : 100000);
+        if (d < bestD) { best = r; bestD = d; }
+    }
+    return best;
+}
+
+function switchPlane(n){
+    currentPlane = Number(n);
+    document.getElementById("plane").value = currentPlane;
+    map.setMaxZoom(planeMaxZoom(currentPlane));
+    map.removeLayer(tileLayer);
+    tileLayer = L.tileLayer(
+        `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
+        {
+            minZoom:4,
+            maxZoom:planeMaxZoom(currentPlane),
+            tms:true,
+            errorTileUrl:BLANK_TILE,
+            tileSize:256,
+            noWrap:true,
+            attribution:"OSRS map tiles © Explv"
+        }
+    ).addTo(map);
+    addLocations();
+}
+
+function goToRecord(g){
+    const rec = nearestRecord(g.recs);
+    if (rec.plane !== undefined && Number(rec.plane) !== currentPlane) switchPlane(rec.plane);
+    const at = osrsToLatLng(rec.x, rec.y);
+    map.setView([at.lat, at.lng], Math.min(9, planeMaxZoom(currentPlane)));
+    showLocation(Object.assign({}, rec, { category:g.kind }));
+    results.style.display = "none";
+    search.value = g.name;
+    if (window.matchMedia("(max-width:720px)").matches) setMapToolsOpen(false);
+}
+
+search.addEventListener("input", function(){
+    const q = search.value.trim().toLowerCase();
+    results.innerHTML = "";
+    if (q.length < 2) {
+        results.style.display = "none";
+        return;
+    }
+    const found = runSearch(q);
+    if (!found.length) {
+        const none = document.createElement("div");
+        none.className = "empty";
+        none.textContent = "No places, shops, NPCs or monsters match \u201c" + search.value.trim() + "\u201d.";
+        results.appendChild(none);
+        results.style.display = "block";
+        return;
+    }
+    for (const g of found) {
+        const row = document.createElement("button");
+        row.type = "button";
+        row.className = "result";
+        const title = document.createElement("b");
+        title.textContent = g.name;
+        const meta = document.createElement("small");
+        meta.textContent = g.kind + (g.recs.length > 1 ? " \u00b7 " + g.recs.length + " locations" : "");
+        row.append(title, meta);
+        row.addEventListener("click", () => goToRecord(g));
+        results.appendChild(row);
+    }
+    results.style.display = "block";
+});
 
 /*
  * Plane switching.
@@ -735,12 +707,18 @@ const legendCategories = {
  ]
 };
 
+// Places come from the data itself (city, settlement, bank ...).
+legendCategories.Places = Array.from(new Set(locations.map(l => l.type).filter(Boolean))).sort();
+
 const legendLayer=L.layerGroup().addTo(map);
 
 function getShopData(){return window.OSRS_MAP_SHOPS||[];}
 
 function legendMatches(loc,category){
  const c=category.toLowerCase();
+
+ if(legendCategories.Places && legendCategories.Places.includes(category))
+  return String(loc.type||"").toLowerCase()===c;
 
  if(loc.shopType)
   return String(loc.shopType).toLowerCase()===c;
@@ -752,6 +730,11 @@ function legendMatches(loc,category){
  ).toLowerCase();
 
  return text.includes(c);
+}
+
+function legendCount(category){
+ const source=legendCategories.Shopping.includes(category)?getShopData():locations;
+ return source.filter(loc=>legendMatches(loc,category)).length;
 }
 
 function showLegendCategory(category){
@@ -849,16 +832,24 @@ function buildLegend(){
   });
   title.setAttribute("aria-expanded","false");
 
+  let shown=0;
   items.forEach(category=>{
+   const count=legendCount(category);
+   if(!count) return;   // categories without data in this map would only be dead buttons
+   shown++;
    const item=document.createElement("button");
    item.type="button";
    item.className="legendItem";
-   item.textContent=category;
+   item.textContent=category+" ("+count+")";
    item.dataset.search=category.toLowerCase();
 
-   item.addEventListener("click",()=>showLegendCategory(category));
+   item.addEventListener("click",()=>{
+    showLegendCategory(category);
+    if(window.matchMedia("(max-width:720px)").matches) setMapToolsOpen(false);
+   });
    list.appendChild(item);
   });
+  if(!shown) return;
 
   wrap.appendChild(title);
   wrap.appendChild(list);

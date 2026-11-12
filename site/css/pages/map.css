@@ -49,7 +49,7 @@ body{box-sizing:border-box}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 /* Keep spawn markers readable at every zoom, including the tile layer's max zoom. */
-.map-cluster{display:flex;align-items:center;justify-content:center;border-radius:50%;border:1.5px solid rgba(255,255,255,.9);color:#fff;font:700 12px/1 system-ui,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.45);box-shadow:0 1px 3px rgba(0,0,0,.45);cursor:pointer}
+.map-cluster{display:flex;align-items:center;justify-content:center;border-radius:50%;border:1.5px solid rgba(255,255,255,.9);color:#fff;font:700 11px/1 system-ui,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.45);box-shadow:0 1px 3px rgba(0,0,0,.45);cursor:pointer}
 .map-cluster-npc{background:rgba(59,111,182,.82)}
 .map-cluster-monster{background:rgba(182,74,59,.82)}
 .map-cluster-shop{background:rgba(184,137,43,.86)}
@@ -69,3 +69,12 @@ body{box-sizing:border-box}
 #layerSwitches input{width:auto;min-height:0;accent-color:var(--osrs-gold)}
 /* The map has its own location search, so the global search bar is dropped on phones to give the map the screen. */
 @media(max-width:720px){#app-tools-host{display:none}}
+
+/* Smaller markers: spawn icons and clusters stay out of the way of the tiles. */
+.map-marker{display:flex;align-items:center;justify-content:center}
+.map-marker span{font-size:14px;line-height:1;filter:drop-shadow(0 1px 1px rgba(0,0,0,.6))}
+.map-cluster{font-size:11px}
+.map-popup .leaflet-popup-content{margin:10px 12px}
+.map-popup h2{margin:0 0 4px;font-size:16px;border:0;padding:0;color:#2a1d0c}
+.map-popup p{margin:4px 0;color:#3b2e1d;font-size:13px}
+#results .empty{padding:12px;color:var(--osrs-muted)}

@@ -1,8 +1,8 @@
 {
   "product": "Gielinor Wayfinder",
-  "release": "PASS31.65",
-  "buildId": "pass31.65-20261108-1",
-  "cacheNamespace": "gielinor-wayfinder-pass31.65-20261108-1",
+  "release": "PASS31.66",
+  "buildId": "pass31.66-20261108-1",
+  "cacheNamespace": "gielinor-wayfinder-pass31.66-20261108-1",
   "canonicalEntrypoint": "js/local-loader.js",
   "loaderVersion": "42",
   "bootstrap": "js/bootstrap.js",
