@@ -225,7 +225,9 @@ body[data-page="map"] #toolbar{top:58px}
   .nav-menu-panel{position:fixed;left:8px;right:8px;top:auto;margin-top:4px}
   body > main,body > .osrs-content,body > .container,body > .content,body > header,body > .osrs-page-header{width:calc(100% - 18px)}
   body > header,body > .osrs-page-header{margin-top:14px;padding:14px}
-  .grid,.stats,.skills,.osrs-grid{grid-template-columns:1fr}
+  .grid,.skills,.osrs-grid{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(auto-fit,minmax(92px,1fr));gap:8px}
+  .stat{padding:10px 6px;text-align:center}
   .row{gap:10px;align-items:flex-start}
   .value,.v{text-align:right}
 }
@@ -272,3 +274,18 @@ body[data-page="map"] #toolbar{top:58px}
 
 
 .rate-known{font-weight:600}.rate-unknown{color:var(--muted,#8f8a80)}
+
+/* PASS31.63 UI pass: one-line navigation, compact phone header, stat cards that stay side by side. Map keeps its own nav rules. */
+@media(min-width:721px){
+  body:not([data-page="map"]) #site-nav{gap:4px;padding-block:6px}
+  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{padding:6px 8px;font-size:.9rem}
+  body:not([data-page="map"]) .site-brand{margin-right:2px;padding:6px 8px}
+}
+@media(max-width:720px){
+  body:not([data-page="map"]) #site-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  body:not([data-page="map"]) #site-nav::-webkit-scrollbar{display:none}
+  body:not([data-page="map"]) #site-nav > *{flex:0 0 auto}
+  body:not([data-page="map"]) .site-brand{width:auto;margin:0 2px 0 0;padding:5px 8px}
+  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{min-height:44px;white-space:nowrap}
+  body:not([data-page="map"]) .nav-menu-panel{position:fixed;left:8px;right:8px;top:62px;margin:0;z-index:3100}
+}

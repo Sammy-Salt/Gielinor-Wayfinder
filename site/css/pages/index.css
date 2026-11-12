@@ -1,3 +1,3 @@
 /* Home page: layout-only rules. */
 .container{max-width:900px}.subtitle{text-align:center}.stats{grid-template-columns:repeat(3,1fr)}.actions{display:grid;grid-template-columns:repeat(2,1fr)}.card{margin-bottom:14px}.stat{text-align:center}.stat-number{font-size:24px}.stat-label{font-size:12px}.goal{padding:12px;margin-bottom:8px}
-@media(max-width:600px){.stats,.actions{grid-template-columns:1fr}}
+@media(max-width:600px){.actions{grid-template-columns:1fr}.stat .value,.stat-value,.stat-number{font-size:1.05rem}}
