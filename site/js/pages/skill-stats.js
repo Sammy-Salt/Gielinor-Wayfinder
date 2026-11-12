@@ -95,7 +95,7 @@ calc();
 
 /* Training methods: 2009Scape-derived rows from the offline data files (gathering, thieving, agility, hunter, farming). */
 const METHOD_FILES={Woodcutting:"gathering.json",Mining:"gathering.json",Fishing:"gathering.json",Firemaking:"gathering.json",
- Thieving:"thieving.json",Agility:"agility.json",Hunter:"hunter.json",Farming:"farming.json"};
+ Thieving:"thieving.json",Agility:"agility.json",Hunter:"hunter.json",Farming:"farming.json",Slayer:"slayer.json"};
 let itemNames=null;
 async function nameOf(id){
  if(!itemNames){
@@ -110,7 +110,13 @@ async function nameOf(id){
 async function methodRows(skill,doc){
  const rows=[];
  const add=(name,level,xp,note)=>{if(Number.isFinite(xp)&&xp>0)rows.push({name,level:Number.isFinite(level)?level:1,xp,note:note||""});};
- if(skill==="Thieving"){
+ if(skill==="Slayer"){
+  doc.tasks.forEach(r=>{
+   const x=r.xpPerKill;if(!x)return;
+   const range=x.min===x.max?"":` (${x.min}–${x.max} by variant, highest shown)`;
+   add(r.name+" (per kill)",r.level,x.max,`combat ${r.minCombatLevel}+${r.quest?", quest: "+r.quest:""}${range}`);
+  });
+ }else if(skill==="Thieving"){
   doc.pickpockets.forEach(r=>add(r.name+" (pickpocket)",r.level,r.xp));
   doc.stalls.forEach(r=>add(r.name,r.level,r.xp));
   doc.chests.forEach(r=>add(r.name+" chest",r.level,r.xp));

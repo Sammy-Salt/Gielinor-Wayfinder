@@ -1335,6 +1335,10 @@
     7803,
     7804
    ],
+   "xpPerKill": {
+    "min": 90,
+    "max": 90
+   },
    "tip": "Aberrant Spectres are fetid, vile ghosts. The very smell of them will paralyse and harm you. A nose peg will help ignore their stink.",
    "provenance": {
     "source": "2009Scape",
@@ -1364,6 +1368,10 @@
    "npcIds": [
     1615
    ],
+   "xpPerKill": {
+    "min": 150,
+    "max": 150
+   },
    "tip": "Abyssal Demons are nasty creatures to fight. They aren't really part of this realm, and are able to move very quickly to trap their prey.",
    "provenance": {
     "source": "2009Scape",
@@ -1394,6 +1402,10 @@
     4382,
     4383
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 66
+   },
    "tip": "Ankou are undead skeletal ghosts. They'll fight you up close but make sure to take advantage out of their limited defence.",
    "provenance": {
     "source": "2009Scape",
@@ -1420,6 +1432,10 @@
    "npcIds": [
     1612
    ],
+   "xpPerKill": {
+    "min": 22,
+    "max": 22
+   },
    "tip": "Banshees use a piercing scream to shock their enemies. You'll need some earmuffs to protect yourself from them.",
    "provenance": {
     "source": "2009Scape",
@@ -1451,6 +1467,10 @@
     1616,
     1617
    ],
+   "xpPerKill": {
+    "min": 75,
+    "max": 75
+   },
    "tip": "Basilisks, like Cockatrice, have a gaze which will paralyse and harm their prey. You'll need a Mirror Shield to protect you.",
    "provenance": {
     "source": "2009Scape",
@@ -1481,6 +1501,10 @@
     78,
     3711
    ],
+   "xpPerKill": {
+    "min": 8,
+    "max": 32
+   },
    "tip": "Bats are rarely found on the ground, so you'll have to fight them while they're airborne, which won't be easy for melee.",
    "provenance": {
     "source": "2009Scape",
@@ -1514,6 +1538,10 @@
     1326,
     1327
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 35
+   },
    "tip": "Bears are tough creatures and fierce fighters, watch out for their powerful claws.",
    "provenance": {
     "source": "2009Scape",
@@ -1620,6 +1648,10 @@
     1018,
     1403
    ],
+   "xpPerKill": {
+    "min": 1,
+    "max": 154
+   },
    "tip": "Birds aren't the most intelligent of creatures, but watch out for their sharp stabbing beaks.",
    "provenance": {
     "source": "2009Scape",
@@ -1652,6 +1684,10 @@
     4705,
     6208
    ],
+   "xpPerKill": {
+    "min": 157,
+    "max": 161
+   },
    "tip": "Black Demons are magic creatures that are weak to magic attacks. They're a very strong demon and very dangerous.",
    "provenance": {
     "source": "2009Scape",
@@ -1685,6 +1721,10 @@
     3376,
     50
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 240
+   },
    "tip": "Black dragons are the strongest dragons; watch out for their fiery breath.",
    "provenance": {
     "source": "2009Scape",
@@ -1715,6 +1755,10 @@
     7643,
     7642
    ],
+   "xpPerKill": {
+    "min": 112,
+    "max": 120
+   },
    "tip": "Bloodvelds are strange demonic creatures, they use their long rasping tongue to feed on just about anything they can find.",
    "provenance": {
     "source": "2009Scape",
@@ -1752,6 +1796,10 @@
     4665,
     4666
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 105
+   },
    "tip": "Blue dragons aren't as strong as other dragons but they're still very powerful, watch out for their fiery breath.",
    "provenance": {
     "source": "2009Scape",
@@ -1780,6 +1828,10 @@
    "npcIds": [
     3707
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 50
+   },
    "tip": "Brine rats can be found in caves that are near the sea. They are hairless, bad-tempered and generally unfriendly.",
    "provenance": {
     "source": "2009Scape",
@@ -1807,6 +1859,10 @@
    "npcIds": [
     1590
    ],
+   "xpPerKill": {
+    "min": 122,
+    "max": 122
+   },
    "tip": "Bronze Dragons are the weakest of the metallic dragons, their bronze scales are far thicker than normal bronze armour.",
    "provenance": {
     "source": "2009Scape",
@@ -1835,6 +1891,10 @@
     4398,
     4399
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 70
+   },
    "tip": "Catablepon are mythical, cow like, magical creatures Beware their weakening glare.",
    "provenance": {
     "source": "2009Scape",
@@ -1862,6 +1922,10 @@
     1832,
     5750
    ],
+   "xpPerKill": {
+    "min": 5,
+    "max": 93
+   },
    "tip": "Cave Bugs are like Cave Crawlers, except smaller and easier to squish, though they still have a fondness for plants.",
    "provenance": {
     "source": "2009Scape",
@@ -1894,6 +1958,10 @@
     1602,
     1603
    ],
+   "xpPerKill": {
+    "min": 23,
+    "max": 23
+   },
    "tip": "Cave Crawlers are small and fast, often hiding in ambush. Avoid their barbed tongue or you'll get poisoned.",
    "provenance": {
     "source": "2009Scape",
@@ -1928,6 +1996,10 @@
     4356,
     4357
    ],
+   "xpPerKill": {
+    "min": 55,
+    "max": 55
+   },
    "tip": "Cave Horrors can be found under Mos Le'Harmless. You will need a Witchwood Icon to fight them effectively.",
    "provenance": {
     "source": "2009Scape",
@@ -1955,6 +2027,10 @@
    "npcIds": [
     1831
    ],
+   "xpPerKill": {
+    "min": 25,
+    "max": 25
+   },
    "tip": "Cave Slimes are the lesser cousins of Jellies, though don't be fooled they can still be dangerous as they're often poisonous.",
    "provenance": {
     "source": "2009Scape",
@@ -1986,6 +2062,10 @@
     1621,
     4227
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 37
+   },
    "tip": "Cockatrice, like Basilisks, have a gaze which will paralyse and harm their prey. You'll need a Mirror Shield to protect you.",
    "provenance": {
     "source": "2009Scape",
@@ -2021,6 +2101,10 @@
     1767,
     3309
    ],
+   "xpPerKill": {
+    "min": 6,
+    "max": 8
+   },
    "tip": "Cows are bigger than you, so they'll often hit fairly hard but are usually fairly slow to react.",
    "provenance": {
     "source": "2009Scape",
@@ -2059,6 +2143,10 @@
     7640,
     7641
    ],
+   "xpPerKill": {
+    "min": 5,
+    "max": 90
+   },
    "tip": "Crawling Hands are undead severed hands, fast and dexterous they claw their victims.",
    "provenance": {
     "source": "2009Scape",
@@ -2089,6 +2177,10 @@
     1993,
     6779
    ],
+   "xpPerKill": {
+    "min": 63,
+    "max": 72
+   },
    "tip": "Crocodiles are large reptiles which live near water. You'll want to have a stabbing weapon handy for puncturing their thick scaly hides.",
    "provenance": {
     "source": "2009Scape",
@@ -2134,6 +2226,10 @@
     2888,
     3591
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 255
+   },
    "tip": "Dagannoth are large sea dwelling creatures which are very aggressive. You'll often find them in caves near sea water.",
    "provenance": {
     "source": "2009Scape",
@@ -2163,6 +2259,10 @@
    "npcIds": [
     2783
    ],
+   "xpPerKill": {
+    "min": 220,
+    "max": 220
+   },
    "tip": "Dark Beasts are large, dog-like predators. Their massively muscled bodies protect them from crushing weapons.",
    "provenance": {
     "source": "2009Scape",
@@ -2194,6 +2294,10 @@
     2807,
     2808
    ],
+   "xpPerKill": {
+    "min": 15,
+    "max": 40
+   },
    "tip": "Lizards are large reptiles with tough skin. Those found in the desert will need you to douse them with freezing water to finish them off after a tough battle.",
    "provenance": {
     "source": "2009Scape",
@@ -2227,6 +2331,10 @@
     1593,
     1594
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 62
+   },
    "tip": "Dogs are much like Wolves, they are pack creatures which will hunt in groups.",
    "provenance": {
     "source": "2009Scape",
@@ -2254,6 +2362,10 @@
    "npcIds": [
     1624
    ],
+   "xpPerKill": {
+    "min": 105,
+    "max": 105
+   },
    "tip": "Dust Devils use clouds of dust, sand, ash and whatever else they can inhale to blind and disorientate their victims.",
    "provenance": {
     "source": "2009Scape",
@@ -2316,6 +2428,10 @@
     119,
     2423
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 61
+   },
    "tip": "Dwarves are a small but tough race of miners, often using pickaxes to pierce their opponents armour.",
    "provenance": {
     "source": "2009Scape",
@@ -2342,6 +2458,10 @@
    "npcIds": [
     124
    ],
+   "xpPerKill": {
+    "min": 54,
+    "max": 54
+   },
    "tip": "Earth Warriors are a kind of earth elemental, grind them to dust with blunt weapons.",
    "provenance": {
     "source": "2009Scape",
@@ -2379,6 +2499,10 @@
     7440,
     7441
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 91
+   },
    "tip": "Elves are quick, agile, and vicious fighters which often favour bows and polearms.",
    "provenance": {
     "source": "2009Scape",
@@ -2407,6 +2531,10 @@
    "npcIds": [
     2850
    ],
+   "xpPerKill": {
+    "min": 40,
+    "max": 40
+   },
    "tip": "Fever Spiders are giant spiders that carry the deadly Spider Fever. If you don't want to catch it I suggest you wear Slayer Gloves to fight them.",
    "provenance": {
     "source": "2009Scape",
@@ -2438,6 +2566,10 @@
     7003,
     7004
    ],
+   "xpPerKill": {
+    "min": 111,
+    "max": 111
+   },
    "tip": "Like other giants, Fire Giants often wield large weapons learn to recognise what kind of weapon it is, and act accordingly.",
    "provenance": {
     "source": "2009Scape",
@@ -2469,6 +2601,10 @@
     4390,
     4391
    ],
+   "xpPerKill": {
+    "min": 25,
+    "max": 25
+   },
    "tip": "Flesh Crawlers are scavengers and will eat you - and anyone else, given the chance.",
    "provenance": {
     "source": "2009Scape",
@@ -2496,6 +2632,10 @@
     1610,
     6389
    ],
+   "xpPerKill": {
+    "min": 105,
+    "max": 105
+   },
    "tip": "Gargoyles are winged creatures of stone. You'll need to fight them to near death before breaking them apart with a rock hammer.",
    "provenance": {
     "source": "2009Scape",
@@ -2574,6 +2714,10 @@
     13480,
     13481
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 51
+   },
    "tip": "Ghosts are undead so magic is your best bet against them, there is even a spell specially for fighting the undead.",
    "provenance": {
     "source": "2009Scape",
@@ -2602,6 +2746,10 @@
     1218,
     3059
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 100
+   },
    "tip": "Ghouls aren't undead but they are stronger and tougher than they look. However they're also very cowardly and will run if they're losing a fight.",
    "provenance": {
     "source": "2009Scape",
@@ -2792,6 +2940,10 @@
     6496,
     6497
    ],
+   "xpPerKill": {
+    "min": 5,
+    "max": 43
+   },
    "tip": "Goblins are mostly just annoying, but they can be vicious. Watch out for the spears they sometimes carry.",
    "provenance": {
     "source": "2009Scape",
@@ -2819,6 +2971,10 @@
     4418,
     6218
    ],
+   "xpPerKill": {
+    "min": 112,
+    "max": 112
+   },
    "tip": "Goraks are extremely aggressive creatures. They have been imprisoned on an alternative plane, which is only accessible by using the fairyrings. Be extremely careful, their touch drains health as well as skills!",
    "provenance": {
     "source": "2009Scape",
@@ -2850,6 +3006,10 @@
     4701,
     6204
    ],
+   "xpPerKill": {
+    "min": 87,
+    "max": 142
+   },
    "tip": "Greater Demons are magic creatures so they are weak to magical attacks. Though not the strongest demon, they are still dangerous.",
    "provenance": {
     "source": "2009Scape",
@@ -2884,6 +3044,10 @@
     5362,
     742
    ],
+   "xpPerKill": {
+    "min": 75,
+    "max": 175
+   },
    "tip": "Green Dragons are the weakest dragon but still very powerful, watch out for their fiery breath.",
    "provenance": {
     "source": "2009Scape",
@@ -2910,6 +3074,10 @@
    "npcIds": [
     3153
    ],
+   "xpPerKill": {
+    "min": 25,
+    "max": 25
+   },
    "tip": "Harpie Bug Swarms are pesky critters that are hard to hit. You need a lit bug lantern to distract them with its hypnotic light.",
    "provenance": {
     "source": "2009Scape",
@@ -2939,6 +3107,10 @@
     3586,
     6210
    ],
+   "xpPerKill": {
+    "min": 116,
+    "max": 116
+   },
    "tip": "Hellhounds are a cross between Dogs and Demons, they are dangerous with a fierce bite.",
    "provenance": {
     "source": "2009Scape",
@@ -2974,6 +3146,10 @@
     4692,
     4693
    ],
+   "xpPerKill": {
+    "min": 35,
+    "max": 70
+   },
    "tip": "Hill Giants often wield large weapons, learn to recognise what kind of weapon it is and act accordingly.",
    "provenance": {
     "source": "2009Scape",
@@ -3017,6 +3193,10 @@
     4898,
     6275
    ],
+   "xpPerKill": {
+    "min": 29,
+    "max": 72
+   },
    "tip": "Hobgoblins are sneaky underhanded creatures, they often wield spears and some times carry javelins too.",
    "provenance": {
     "source": "2009Scape",
@@ -3047,6 +3227,10 @@
     7715,
     7716
    ],
+   "xpPerKill": {
+    "min": 15,
+    "max": 171
+   },
    "tip": "Icefiends are beings of ice and freezing rock, they're quick and agile so you'll want to be careful when getting close to them.",
    "provenance": {
     "source": "2009Scape",
@@ -3077,6 +3261,10 @@
     4686,
     4687
    ],
+   "xpPerKill": {
+    "min": 70,
+    "max": 70
+   },
    "tip": "Like other giants, Ice Giants often wield large weapons, learn to recognise what kind of weapon it is and act accordingly.",
    "provenance": {
     "source": "2009Scape",
@@ -3105,6 +3293,10 @@
     145,
     3073
    ],
+   "xpPerKill": {
+    "min": 59,
+    "max": 59
+   },
    "tip": "Ice Warriors are a kind of ice elemental, shatter them with blunt weapons or melt them with fire.",
    "provenance": {
     "source": "2009Scape",
@@ -3136,6 +3328,10 @@
     1646,
     1647
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 60
+   },
    "tip": "Infernal Mages are dangerous spell users, beware of their magic spells and go properly prepared",
    "provenance": {
     "source": "2009Scape",
@@ -3163,6 +3359,10 @@
    "npcIds": [
     1591
    ],
+   "xpPerKill": {
+    "min": 165,
+    "max": 165
+   },
    "tip": "Iron Dragons are some of the weaker metallic dragons, their iron scales are far thicker than normal iron armour.",
    "provenance": {
     "source": "2009Scape",
@@ -3196,6 +3396,10 @@
     1641,
     1642
    ],
+   "xpPerKill": {
+    "min": 70,
+    "max": 140
+   },
    "tip": "Jellies are nasty cube-like gelatinous creatures which absorb everything they come across into themselves.",
    "provenance": {
     "source": "2009Scape",
@@ -3227,6 +3431,10 @@
     4351,
     4352
    ],
+   "xpPerKill": {
+    "min": 45,
+    "max": 45
+   },
    "tip": "Jungle Horrors can be found all over Mos Le'Harmless. They are strong and aggressive, so watch out!",
    "provenance": {
     "source": "2009Scape",
@@ -3261,6 +3469,10 @@
     1160,
     1161
    ],
+   "xpPerKill": {
+    "min": 40,
+    "max": 255
+   },
    "tip": "Kalphites are large insects which live in great hives under the desert sands.",
    "provenance": {
     "source": "2009Scape",
@@ -3293,6 +3505,10 @@
     3201,
     3202
    ],
+   "xpPerKill": {
+    "min": 51,
+    "max": 51
+   },
    "tip": "Killerwatts store huge amounts of energy in their bodies, which is released if they are touched. You'll need to wear heavily insulated boots to counter this shocking effect.",
    "provenance": {
     "source": "2009Scape",
@@ -3323,6 +3539,10 @@
     7805,
     7797
    ],
+   "xpPerKill": {
+    "min": 97,
+    "max": 97
+   },
    "tip": "Kurasks are large brutal creatures with very thick hides. You'll need a Leaf-Tipped Spear Sword or Battle-axe, Broad Arrows, or a Magic Dart to harm them.",
    "provenance": {
     "source": "2009Scape",
@@ -3359,6 +3579,10 @@
     4697,
     6101
    ],
+   "xpPerKill": {
+    "min": 79,
+    "max": 255
+   },
    "tip": "Lesser Demons are magic creatures so they are weak to magical attacks. Though they're relatively weak they are still dangerous.",
    "provenance": {
     "source": "2009Scape",
@@ -3388,6 +3612,10 @@
     4405,
     4406
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 22
+   },
    "tip": "Minotaurs are large manlike creatures but you'll want to be careful of their horns.",
    "provenance": {
     "source": "2009Scape",
@@ -3414,6 +3642,10 @@
    "npcIds": [
     5363
    ],
+   "xpPerKill": {
+    "min": 254,
+    "max": 254
+   },
    "tip": "Mithril dragons are more vulnerable to magic and to stab-based melee attacks than to anything else.",
    "provenance": {
     "source": "2009Scape",
@@ -3440,6 +3672,10 @@
    "npcIds": [
     114
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 60
+   },
    "tip": "Mogres are a type of aquatic Ogre that is often mistaken for a giant mudskipper. You have to force them out of the water with a fishing explosive.",
    "provenance": {
     "source": "2009Scape",
@@ -3468,6 +3704,10 @@
    "npcIds": [
     5751
    ],
+   "xpPerKill": {
+    "min": 52,
+    "max": 52
+   },
    "tip": "Molanisks are subterranean creatures. You can find them in caves deep below the ground. I heard that the goblins have recently had trouble with some, but they use a bell of some sort to deal with them.",
    "provenance": {
     "source": "2009Scape",
@@ -3513,6 +3753,10 @@
     1457,
     1458
    ],
+   "xpPerKill": {
+    "min": 6,
+    "max": 130
+   },
    "tip": "Monkeys are tricky creatures, they are agile and fairly fast. Learn to anticipate their movements.",
    "provenance": {
     "source": "2009Scape",
@@ -3545,6 +3789,10 @@
     4688,
     4706
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 120
+   },
    "tip": "Like other giants, Moss Giants often wield large weapons, learn to recognise what kind of weapon it is and act accordingly.",
    "provenance": {
     "source": "2009Scape",
@@ -3572,6 +3820,10 @@
     3346,
     3347
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 75
+   },
    "tip": "Mutated Zygomites are hard to destroy. They regenerate quickly so you will need to finish them with fungicide.",
    "provenance": {
     "source": "2009Scape",
@@ -3596,6 +3848,10 @@
    "npcIds": [
     1613
    ],
+   "xpPerKill": {
+    "min": 105,
+    "max": 105
+   },
    "tip": "Nechryael are demons of decay which summon small winged beings to help them fight their victims.",
    "provenance": {
     "source": "2009Scape",
@@ -3647,6 +3903,10 @@
     7081,
     7082
    ],
+   "xpPerKill": {
+    "min": 60,
+    "max": 100
+   },
    "tip": "Ogres are brutal creatures, favouring large blunt maces and clubs they often attack without warning.",
    "provenance": {
     "source": "2009Scape",
@@ -3673,6 +3933,10 @@
    "npcIds": [
     126
    ],
+   "xpPerKill": {
+    "min": 64,
+    "max": 64
+   },
    "tip": "Otherworldly Beings are ethereal beings making them weak to magical attack.",
    "provenance": {
     "source": "2009Scape",
@@ -3710,6 +3974,10 @@
     6709,
     6721
    ],
+   "xpPerKill": {
+    "min": 45,
+    "max": 48
+   },
    "tip": "Pyrefiends are beings of fire and molten rock, they're quick and agile so you'll want to be careful when getting close to them.",
    "provenance": {
     "source": "2009Scape",
@@ -3746,6 +4014,10 @@
     4671,
     4672
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 140
+   },
    "tip": "Red Dragons are very powerful, stronger than most dragons, watch out for their fiery breath.",
    "provenance": {
     "source": "2009Scape",
@@ -3773,6 +4045,10 @@
     1631,
     1632
    ],
+   "xpPerKill": {
+    "min": 30,
+    "max": 30
+   },
    "tip": "Rockslugs are strange stoney slugs. You'll need to fight them to near death before finishing them off with Salt.",
    "provenance": {
     "source": "2009Scape",
@@ -3814,6 +4090,10 @@
     6781,
     6773
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 900
+   },
    "tip": "Scabarites are insectoid creatures, found beyond the Kharidian deserts. They can be extremely dangerous.",
    "provenance": {
     "source": "2009Scape",
@@ -3842,6 +4122,10 @@
     4403,
     144
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 55
+   },
    "tip": "Scorpions are almost always poisonous, their hard carapace makes them resistant to crushing and stabbing attacks.",
    "provenance": {
     "source": "2009Scape",
@@ -3869,6 +4153,10 @@
     3939,
     3940
    ],
+   "xpPerKill": {
+    "min": 100,
+    "max": 128
+   },
    "tip": "Sea Snakes are long and slithery with a venomous bite. The larger ones are more poisonous, so keep an eye on your health.",
    "provenance": {
     "source": "2009Scape",
@@ -3899,6 +4187,10 @@
     428,
     1240
    ],
+   "xpPerKill": {
+    "min": 38,
+    "max": 110
+   },
    "tip": "Shades are undead so magic is your best best against them, you can find Shades at Mort'ton.",
    "provenance": {
     "source": "2009Scape",
@@ -3926,6 +4218,10 @@
    "npcIds": [
     158
    ],
+   "xpPerKill": {
+    "min": 67,
+    "max": 67
+   },
    "tip": "Shadow Warriors are dark and mysterious, they hide in the shadows so be wary of ambushes.",
    "provenance": {
     "source": "2009Scape",
@@ -3953,6 +4249,10 @@
     3070,
     3071
    ],
+   "xpPerKill": {
+    "min": 200,
+    "max": 200
+   },
    "tip": "Skeletal Wyverns are extremely dangerous and they are hard to hit with arrows as they slip right through. To stand a good chance of surviving you'll need some elemental shielding from its icy breath.",
    "provenance": {
     "source": "2009Scape",
@@ -4056,6 +4356,10 @@
     1539,
     7640
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 420
+   },
    "tip": "Skeletons are undead so magic is your best bet against them, there is even a spell specially for fighting the undead.",
    "provenance": {
     "source": "2009Scape",
@@ -4104,6 +4408,10 @@
     6376,
     6377
    ],
+   "xpPerKill": {
+    "min": 2,
+    "max": 90
+   },
    "tip": "Spiders are often poisonous, and many varieties are camouflaged too.",
    "provenance": {
     "source": "2009Scape",
@@ -4133,6 +4441,10 @@
     6257,
     6278
    ],
+   "xpPerKill": {
+    "min": 75,
+    "max": 106
+   },
    "tip": "Spiritual mages can be found in the icy caverns near Trollheim, supporting the cause of their chosen god.",
    "provenance": {
     "source": "2009Scape",
@@ -4164,6 +4476,10 @@
     6256,
     6276
    ],
+   "xpPerKill": {
+    "min": 89,
+    "max": 130
+   },
    "tip": "Spiritual rangers can be found in the icy caverns near Trollheim, supporting the cause of their chosen god.",
    "provenance": {
     "source": "2009Scape",
@@ -4193,6 +4509,10 @@
     6255,
     6277
    ],
+   "xpPerKill": {
+    "min": 98,
+    "max": 131
+   },
    "tip": "Spiritual warriors can be found in the icy caverns near Trollheim, supporting the cause of their chosen god.",
    "provenance": {
     "source": "2009Scape",
@@ -4221,6 +4541,10 @@
     1592,
     3590
    ],
+   "xpPerKill": {
+    "min": 210,
+    "max": 210
+   },
    "tip": "Steel dragons are dangerous and metallic, with steel scales that are far thicker than normal steel armour. As you are an accomplished slayer, I am sure you'll be able to deal with them easily.",
    "provenance": {
     "source": "2009Scape",
@@ -4253,6 +4577,10 @@
     4532,
     4533
    ],
+   "xpPerKill": {
+    "min": 105,
+    "max": 105
+   },
    "tip": "Suqahs can only be found on the mystical Lunar Isle. They are capable of melee and magic attacks and often drop hide, teeth and herbs!",
    "provenance": {
     "source": "2009Scape",
@@ -4280,6 +4608,10 @@
     5417,
     5418
    ],
+   "xpPerKill": {
+    "min": 82,
+    "max": 87
+   },
    "tip": "Terror dogs are the personal pets of Tarn Razorlor. Wherever you find him, you will find them. They are bad-tempered and generally unfriendly.",
    "provenance": {
     "source": "2009Scape",
@@ -4379,6 +4711,10 @@
     5475,
     5476
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 170
+   },
    "tip": "Trolls regenerate damage quickly but are still vulnerable to poisons, they usually use crushing weapons.",
    "provenance": {
     "source": "2009Scape",
@@ -4415,6 +4751,10 @@
     1630,
     7800
    ],
+   "xpPerKill": {
+    "min": 76,
+    "max": 105
+   },
    "tip": "Turoth are large vicious creatures with thick hides. You'll need a Leaf-Tipped Spear Sword or Battle-axe, Broad Arrows, or a Magic Dart to harm them.",
    "provenance": {
     "source": "2009Scape",
@@ -4446,6 +4786,10 @@
     1225,
     6214
    ],
+   "xpPerKill": {
+    "min": 50,
+    "max": 60
+   },
    "tip": "Vampires are extremely powerful beings. They feed on the blood of the living so watch out you don't get bitten.",
    "provenance": {
     "source": "2009Scape",
@@ -4473,6 +4817,10 @@
    "npcIds": [
     7823
    ],
+   "xpPerKill": {
+    "min": 105,
+    "max": 105
+   },
    "tip": "Wall Beasts are really much larger creatures but you'll only see their arms. You'll want something sharp on your head to stop them grabbing you.",
    "provenance": {
     "source": "2009Scape",
@@ -4518,6 +4866,10 @@
     6332,
     6608
    ],
+   "xpPerKill": {
+    "min": 72,
+    "max": 308
+   },
    "tip": "Warped Creatures can supposedly be found within a mysterious dungeon on the eastern edge of the Poison Waste. Be aware that to defeat them, you'll need to purify them in some way.",
    "provenance": {
     "source": "2009Scape",
@@ -4543,6 +4895,10 @@
     6296,
     6297
    ],
+   "xpPerKill": {
+    "min": 87,
+    "max": 148
+   },
    "tip": "Warped Creatures can supposedly be found within a mysterious dungeon on the eastern edge of the Poison Waste. Be aware that to defeat them, you'll need to purify them in some way.",
    "provenance": {
     "source": "2009Scape",
@@ -4567,6 +4923,10 @@
    "npcIds": [
     5361
    ],
+   "xpPerKill": {
+    "min": 128,
+    "max": 128
+   },
    "tip": "Waterfiends are creatures of water, which live under the Baxtorian Lake. Their watery form is well defended against slashing and piercing weapons, so use something blunt.",
    "provenance": {
     "source": "2009Scape",
@@ -4628,6 +4988,10 @@
     6724,
     6728
    ],
+   "xpPerKill": {
+    "min": 65,
+    "max": 100
+   },
    "tip": "Werewolves are feral creatures, they are strong and tough with sharp claws and teeth.",
    "provenance": {
     "source": "2009Scape",
@@ -4682,6 +5046,10 @@
     6830,
     7005
    ],
+   "xpPerKill": {
+    "min": 10,
+    "max": 157
+   },
    "tip": "Wolves are pack animals, so you'll always find them in groups. Watch out for their bite, it can be nasty.",
    "provenance": {
     "source": "2009Scape",
@@ -4864,6 +5232,10 @@
     2847,
     2848
    ],
+   "xpPerKill": {
+    "min": 18,
+    "max": 100
+   },
    "tip": "Zombies are undead so magic is your best bet against them, there is even a spell specially for fighting the undead.",
    "provenance": {
     "source": "2009Scape",

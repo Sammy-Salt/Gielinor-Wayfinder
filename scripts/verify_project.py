@@ -26,7 +26,7 @@ for required in [
 release = json.loads((SITE / "release.json").read_text())
 root_manifest = json.loads((ROOT / "release-manifest.json").read_text())
 site_manifest = json.loads((SITE / "release-manifest.json").read_text())
-check(release["release"] == "PASS31.61", "site release must be PASS31.61")
+check(release["release"] == "PASS31.62", "site release must be PASS31.62")
 check(root_manifest["release"] == release["release"], "root manifest release mismatch")
 check(site_manifest["release"] == release["release"], "site manifest release mismatch")
 check(root_manifest["buildId"] == release["buildId"], "root manifest build mismatch")
@@ -85,4 +85,4 @@ if ERRORS:
         print("-", error)
     raise SystemExit(1)
 
-print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.61 | git=present")
+print(f"PROJECT VERIFY: PASS | shellPages={len(pages)} | JS={len(list(SITE.rglob('*.js')))} | JSON={len(list(SITE.rglob('*.json')))} | Ragger=0 | metadata=PASS31.62 | git=present")

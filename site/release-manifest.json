@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.61",
-  "buildId": "pass31.61-20261108-1",
+  "release": "PASS31.62",
+  "buildId": "pass31.62-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -127,7 +127,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "55d06a6fba8021e375fcc5fb421ac693a422102caeae1d8113cf31c6580cb45c",
+      "sha256": "862d5f2bf2fad64ce1daa2a93c51315bbb799da7ef68323078e4fe2f63d09dbf",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -112047,8 +112047,8 @@
       "bytes": 138829
     },
     "data/slayer.json": {
-      "sha256": "163ee86bd9d83d43055fa75ebf6adcf475898223107c68475f5b06394105cbef",
-      "bytes": 98015
+      "sha256": "90d5fbbcc797123868e0ce00a67d30e074c133d42e2b711493e73259affeddd5",
+      "bytes": 103001
     },
     "data/sources/2009scape/drop_tables.json": {
       "sha256": "09e5891ece49b962e9b7f8f843ef37046b8ee8b7d90a7d0a0b74a7a3c69f8a6e",
@@ -216803,7 +216803,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "db8bd548589a407cd22a5ce4741bfa8fdc6adedf9be279e5e6a0caf5e7aee23e",
+      "sha256": "5c8ae66749acec1e20d23043a12521f7976151a82831f762ab345b08c15eff0c",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -216811,7 +216811,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "5cfc383ee78a32fd2915cdbf0504045dc0ccf2cd29a0c41814ad1af5628cdbff",
+      "sha256": "772e927541cb293781083af5e98d6e97944a4a10a1a0c5f566df2b04dd29ce38",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -216971,8 +216971,8 @@
       "bytes": 7698
     },
     "js/pages/skill-stats.js": {
-      "sha256": "4346bd56697e2d6591514b03fcb947c19a28476d79de4f77417e1edd25092992",
-      "bytes": 6740
+      "sha256": "48c90673d42fde8ea1173a3e4d0f99c07e3c3f9d5c28e6e8f3007d9eb894039b",
+      "bytes": 7057
     },
     "js/runtime.js": {
       "sha256": "7205995717f93244b280310f9ee9c73686259f7c1d27a4a21e5763b9a55fed36",
@@ -217115,7 +217115,7 @@
       "bytes": 3021
     },
     "release.json": {
-      "sha256": "849fc70380c734612b94d1ee2cd8181090467fb0a55d1034e1f52fe6e8fb39a2",
+      "sha256": "8f731b4812d5366179116add9a8845df435228b63f2e06d4830a4af6b85a8233",
       "bytes": 499
     },
     "site.css": {
@@ -217127,7 +217127,7 @@
       "bytes": 3117
     },
     "sw.js": {
-      "sha256": "de9de92d1a3e14d13da5a52c2872482fc9847b47cd37b187e8b84654e3e774a3",
+      "sha256": "de359750ed563f694f5a6e605ac770cebc9fc69606a1d8e6209786676b5c0741",
       "bytes": 4583
     }
   }

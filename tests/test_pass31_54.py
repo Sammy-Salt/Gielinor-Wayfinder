@@ -38,3 +38,7 @@ for r in doc["rewards"]:
 rules = doc["rules"]
 assert rules["pointsStartAfterTasks"] == 4 and rules["pointCap"] == 64000 and rules["maxBlockedTasks"] == 4 and rules["turaelAwardsPoints"] is False
 print("PASS31.54 slayer data gate: 109 rows, errors=0")
+
+_d = json.loads((ROOT / "site/data/slayer.json").read_text())
+assert all(t["xpPerKill"] and t["xpPerKill"]["min"] <= t["xpPerKill"]["max"] for t in _d["tasks"])  # PASS31.62: xp per kill = NPC life points
+assert {t["name"]: t["xpPerKill"]["max"] for t in _d["tasks"]}["Abyssal demons"] == 150

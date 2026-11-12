@@ -45,9 +45,20 @@ def npc_name(nid):
     return json.loads(p.read_text()).get("name") if p.exists() else None
 
 
+def life_points(nid):
+    p = ROOT / "site/data/monsters" / f"{nid}.json"
+    return json.loads(p.read_text()).get("lifepoints") if p.exists() else None
+
+
 def quest_names(root):
     text = read(root, QUESTS)
     return dict(re.findall(r"^\s{4}([A-Z0-9_]+)\(\"([^\"]+)\"", text, re.M))
+
+
+def xp_range(npc_ids):
+    """Slayer xp per kill is the NPC's maximum life points (SlayerManager.kt); None when no listed NPC has catalog life points."""
+    lp = [int(v) for v in (life_points(i) for i in npc_ids) if v]
+    return OrderedDict(min=min(lp), max=max(lp)) if lp else None
 
 
 def tasks(root, commit, qnames):
@@ -77,7 +88,7 @@ def tasks(root, commit, qnames):
             id=f"2009scape-slayer-task-{key(name)}", skill="Slayer", kind="task", ordinal=ordinal, key=name,
             name=npc_name(npc_ids[0]) or name.replace("_", " ").capitalize(), minCombatLevel=int(combat), level=int(slayer),
             undead=bool(flags and flags.group(1) == "true"), dragon=bool(flags and flags.group(2) == "true"),
-            quest=qnames[quest.group(1)] if quest else None, npcIds=npc_ids, tip=tip, provenance=prov(rel, commit, enum=name)))
+            quest=qnames[quest.group(1)] if quest else None, npcIds=npc_ids, xpPerKill=xp_range(npc_ids), tip=tip, provenance=prov(rel, commit, enum=name)))
     return rows
 
 
