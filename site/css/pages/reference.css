@@ -1,0 +1,5 @@
+/* Reference page: layout-only rules. */
+main{max-width:900px}.card{margin-bottom:16px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.tabs button[aria-selected="true"]{outline:2px solid currentColor}
+.ref-table{width:100%;border-collapse:collapse}.ref-table th,.ref-table td{text-align:left;padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.08)}
+.table-wrap{overflow-x:auto;margin-top:8px}.rules{margin:8px 0 0;padding-left:18px}

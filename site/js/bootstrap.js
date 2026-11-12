@@ -12,7 +12,7 @@ const routes = Object.freeze({
   "index.html":"./pages/index.js","quest.html":"./pages/quest.js","quests.html":"./pages/quests.js","progress.html":"./pages/progress.js","character.html":"./pages/character.js","crafting.html":"./pages/crafting.js","goals.html":"./pages/goals.js",
   "monsters.html":"./pages/monsters.js","monster.html":"./pages/monster.js","bosses.html":"./pages/bosses.js","boss.html":"./pages/boss.js",
   "items.html":"./pages/items.js","item.html":"./pages/item.js","npcs.html":"./pages/npcs.js","npc.html":"./pages/npc.js",
-  "calculators.html":"./pages/calculators.js","combat-stats.html":"./pages/combat-stats.js","skill-stats.html":"./pages/skill-stats.js",
+  "calculators.html":"./pages/calculators.js","combat-stats.html":"./pages/combat-stats.js","skill-stats.html":"./pages/skill-stats.js","reference.html":"./pages/reference.js",
   "drop-stats.html":"./pages/drop-stats.js","drop-time.html":"./pages/drop-time.js"
 });
 for(const [path,modulePath] of Object.entries(routes)) Router.register(path,()=>import(`${modulePath}?v=42`));

@@ -9,7 +9,7 @@ def check(condition, message):
         raise AssertionError(message)
 
 release = (S / "release.json").read_text()
-check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26,27,28,29,30,34,35,36,39,40,41,42,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59)), "release mismatch")
+check(any(f'\"release\": \"PASS31.{v}\"' in release for v in (24,25,26,27,28,29,30,34,35,36,39,40,41,42,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60)), "release mismatch")
 check('"loaderVersion": "42"' in release, "loader version mismatch")
 
 shell = (S / "js/core/shell.js").read_text()
@@ -42,7 +42,7 @@ for page in S.glob("*.html"):
     check('href="crafting.html"' in nav, f"Crafting not in nav: {page.name}")
 
 sw = (S / "sw.js").read_text()
-check("pass31.59-20261108-1" in sw, "service-worker build ID mismatch")
+check("pass31.60-20261108-1" in sw, "service-worker build ID mismatch")
 check("SKIP_WAITING" in sw, "service-worker update message missing")
 check('"./js/core/shell.js?v=42"' in sw, "shell missing from app-code shell")
 check('"./js/components/app-enhancer.js?v=42"' in sw, "enhancer missing from app-code shell")
