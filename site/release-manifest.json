@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.70",
-  "buildId": "pass31.70-20261108-1",
+  "release": "PASS31.71",
+  "buildId": "pass31.71-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -127,7 +127,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "153fb83075afff65585129ab3e3a8480b9879cd80bd8edd023b0113951d71254",
+      "sha256": "f5a76d165e0dc961db713454be3ff79398c18f18783500717794a7022fbe25f9",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -146187,8 +146187,8 @@
       "bytes": 2801
     },
     "goals.html": {
-      "sha256": "1c3967aed5d46baf5915d9a61c6ec390af696e5d9c736b606914bb20d87c1358",
-      "bytes": 3231
+      "sha256": "d7c0c398f9c3a59b244fdccb6c6579c7896d045810de13f63ebb3f9ec7597710",
+      "bytes": 3228
     },
     "icon.svg": {
       "sha256": "a794fcce39e9d8e8f454e8802292753f05e14475c7024ffaebb23d14b8eb4eda",
@@ -146263,7 +146263,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "b8370bf9a9eec633c694fe3e0591d91c2d93f372b8e795ebd865ea37cc44f771",
+      "sha256": "1e75c1c7d8992794ce0c3f8a9561cedf6ae23a05e24098e5b1ec0b135bb5a1a3",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -146271,7 +146271,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "efbc101bd06bd241fee61f4aa44f44431d3f8243a0f0bde66f132719a22f7a87",
+      "sha256": "95586a1c3b86c433d4207f15e7648003cc3685f439d670bb1b93e697b35f868f",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -146383,8 +146383,8 @@
       "bytes": 3682
     },
     "js/pages/index.js": {
-      "sha256": "f8fae63f92104704cb196645889141f6ffde53ba2fd3b99718ceef9bd9af7da4",
-      "bytes": 2392
+      "sha256": "fd378adab8b2797a0dd10adaede6d91937dc40d96ae744d4a7381c8215fc64e0",
+      "bytes": 2407
     },
     "js/pages/item.js": {
       "sha256": "b702cd79c470454b55524d42e998d85fec3e7e64117737a852d5ca2291ca0c60",
@@ -146419,8 +146419,8 @@
       "bytes": 2952
     },
     "js/pages/quest.js": {
-      "sha256": "3ac3226ce8067fde1de413e0c37539b756c2d887634a6a88c5eccc50c68a76bb",
-      "bytes": 4061
+      "sha256": "2c53b9966970d64ebf518637aecd673c41aa3d4948b779410f45cfe1444571db",
+      "bytes": 3921
     },
     "js/pages/quests.js": {
       "sha256": "470cf4bd1f602bb15ecf115080a7dc086565254d1c4fbe4d247cbb0f1cb12dab",
@@ -146487,8 +146487,8 @@
       "bytes": 61
     },
     "js/services/progression-service.js": {
-      "sha256": "ee6e01cfcb37ed33ee65f2a883ad7a7cf610becac84f329b0afe60e6a6ef4f96",
-      "bytes": 1942
+      "sha256": "9c31d03b8e41d7741ed8b77aaf766217074b66bd7cd079d58e3f037b2cd8bd1c",
+      "bytes": 1969
     },
     "js/services/quest-ids.js": {
       "sha256": "6c10a8edf474677dc3749a788d880756b1dddcf2197e27cba3bd4b4c6b44c29f",
@@ -146567,15 +146567,15 @@
       "bytes": 2449
     },
     "quests.html": {
-      "sha256": "43f88b553ccb2afec3a5473f37844ed8bdec460757fde093323f3309d099776c",
-      "bytes": 2961
+      "sha256": "b7e7957f1f0d09cd63a3d04fd7efd81c6fc81e8e784183c198d7eeefa741597e",
+      "bytes": 2922
     },
     "reference.html": {
       "sha256": "67936dd696a60ea82a2d03ec53cb036a223fa2a83f2c1eb04d72a596064bbf7c",
       "bytes": 3016
     },
     "release.json": {
-      "sha256": "1efbc87b6134cd104ba2a684d26bf8df1e3d755e3309668147201cd0a625fc09",
+      "sha256": "280d7eaed6b38ce9a25599620e33ea39100a6597f205a5a111da6b2e13a6fad8",
       "bytes": 499
     },
     "site.css": {
@@ -146587,7 +146587,7 @@
       "bytes": 3112
     },
     "sw.js": {
-      "sha256": "2a39eb0a3bff364098a4c8a3c206a41681e6a1b36314522c0f35b5f9a49fc712",
+      "sha256": "878ddcf1010e177211ab5fff5388a30e34e10d966760d675896fa0dc5f34afde",
       "bytes": 4583
     }
   }

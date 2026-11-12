@@ -1,7 +1,7 @@
 import { Player } from "../core/player-service.js";
 import { Quests } from "../core/quest-service.js";
 
-const skills=["Attack","Strength","Defence","Ranged","Prayer","Magic","Runecraft","Construction","Hitpoints","Agility","Herblore","Thieving","Crafting","Fletching","Slayer","Hunter","Mining","Smithing","Fishing","Cooking","Firemaking","Woodcutting","Farming"];
+const skills=["Attack","Strength","Defence","Ranged","Prayer","Magic","Runecrafting","Construction","Hitpoints","Agility","Herblore","Thieving","Crafting","Fletching","Slayer","Hunter","Mining","Smithing","Fishing","Cooking","Firemaking","Woodcutting","Farming","Summoning"];
 function renderSkills(){
   const data=Player.getSkills(); let total=0,tracked=0;
   for(const name of skills){const entry=data[name]||data[Object.keys(data).find(k=>k.toLowerCase()===name.toLowerCase())];const level=Math.max(1,Number(entry?.current??entry?.level??1));total+=level;if(entry&&level>1)tracked++;}
