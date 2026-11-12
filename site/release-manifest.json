@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.73",
-  "buildId": "pass31.73-20261108-1",
+  "release": "PASS31.74",
+  "buildId": "pass31.74-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
@@ -103,8 +103,8 @@
       "bytes": 426
     },
     "css/pages/progress.css": {
-      "sha256": "b71622c5db9d21d865b8d1200be26fa897fe2259300e480bc28f95fe4567e8e5",
-      "bytes": 525
+      "sha256": "502a6d8f6dfe4711b2a74bc6f6e8ebe5613d2326163bb0ed3e02cd3709560b70",
+      "bytes": 1433
     },
     "css/pages/quest.css": {
       "sha256": "68641e72c24be8545076dfcc459c109fcbeddb9bdee2935a5bc691ad24cf91bd",
@@ -127,7 +127,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "f679207f0e05715006715666c76797a1529753fe4f31a8daecd94e48211f8dc3",
+      "sha256": "388c0255c97463e8e32625818745b0d21e7a4b32ad98bb6b5ea5af044a62c80d",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -146263,7 +146263,7 @@
       "bytes": 4533
     },
     "js/core/app.js": {
-      "sha256": "8f2c596a400e909c751835bd009fd9f587b2ad68c3c4dc931a1c47c39c83a0a3",
+      "sha256": "96fbc235019eaf997fabb3fd14b10f4038d7dc7a28fac94b4206f9b3c5b77141",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -146271,7 +146271,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "847169fb794b4b6e19a157a33f5a29781f76b2fb41a66640592e03b6a97c523c",
+      "sha256": "b2e45bf533f10b33bb334556f2d993bb08a18d8d6d2d19b36b5b00cbae961615",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -146415,8 +146415,8 @@
       "bytes": 1329
     },
     "js/pages/progress.js": {
-      "sha256": "11816ca146efdc2e92cd3bab76dd3a49ca90465e39ab37b9394cde14df206794",
-      "bytes": 2952
+      "sha256": "9c67168e6393e3211e3a0a92c77146b720e5a91c482689af316a2c8c072f3c70",
+      "bytes": 4046
     },
     "js/pages/quest.js": {
       "sha256": "3f24c2b20ebadd885832330432d2b52edbf0611e09c513bae6d0571ba79fd3a8",
@@ -146559,8 +146559,8 @@
       "bytes": 2688
     },
     "progress.html": {
-      "sha256": "3a08e481b78d3d40665c3906470254db5a79168b0e2d084f40e5816cac5e0a56",
-      "bytes": 3863
+      "sha256": "6aae623e6353bf08923edc4d49759a78cc9a58ef99e496795205c122d44e631d",
+      "bytes": 4376
     },
     "quest.html": {
       "sha256": "a180ef5ab284caf05d54df9dd3337a0d12b13a1671756fb5ddf74df79a8f989e",
@@ -146575,7 +146575,7 @@
       "bytes": 3016
     },
     "release.json": {
-      "sha256": "ae2ccb00e680d1cfe4fdb2e12c2ad46e2c4b661ccf90da8dc3b373e4039e420a",
+      "sha256": "2b524661c16592dcc7e2c3987a0031e225f9e4c5902c99474718b9249edda392",
       "bytes": 499
     },
     "site.css": {
@@ -146587,7 +146587,7 @@
       "bytes": 3112
     },
     "sw.js": {
-      "sha256": "8ec77dd68fc697e32df8e7a0ffd6aa3209fc1bcea357b4a7193b4ead4c06d2b0",
+      "sha256": "707a8948192c12908c26becfd79e1866f05f2d72a8778637f3a1096e0c4fa065",
       "bytes": 4583
     }
   }
