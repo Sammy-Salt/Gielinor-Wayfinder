@@ -287,7 +287,7 @@ function planeItems(index, plane){
  * Clustered NPC / monster / shop markers. There are ~14,000 spawn markers, so markers are
  * bucketed into screen-space cells at the current zoom and only the visible area is drawn.
  */
-const CLUSTER_CELL_PX = 56;
+const CLUSTER_CELL_PX = 64;
 const CLUSTER_ZOOM_STOP = 8;       // tile pyramid maximum; clusters remain active at this zoom
 const clusterKinds = [
     { type:"NPC", layer:npcLayer, index:npcByPlane, label:"NPC" },
@@ -296,7 +296,7 @@ const clusterKinds = [
 ];
 
 function clusterIcon(type, count){
-    const size = count > 99 ? 40 : 34;
+    const size = count > 99 ? 34 : 28;
     return L.divIcon({
         className:"map-cluster map-cluster-" + type.toLowerCase(),
         html:"<span>" + count + "</span>",
@@ -319,8 +319,21 @@ function markerDetails(type, rec){
     };
 }
 
+// Which marker kinds are shown is a per-device preference.
+const kindVisible = { NPC:true, Monster:true, Shop:true };
+try { Object.assign(kindVisible, JSON.parse(localStorage.getItem("wayfinder.map.kinds") || "{}")); } catch (e) { /* storage unavailable */ }
+document.querySelectorAll("#layerSwitches input[data-kind]").forEach(box => {
+    box.checked = kindVisible[box.dataset.kind] !== false;
+    box.addEventListener("change", () => {
+        kindVisible[box.dataset.kind] = box.checked;
+        try { localStorage.setItem("wayfinder.map.kinds", JSON.stringify(kindVisible)); } catch (e) { /* storage unavailable */ }
+        addInteractiveMarkers();
+    });
+});
+
 function drawKind(kind, bounds, zoom){
     kind.layer.clearLayers();
+    if (kindVisible[kind.type] === false) return;
     const cells = new Map();
     for (const rec of planeItems(kind.index, currentPlane)) {
         const ll = osrsToLatLng(rec.x, rec.y);

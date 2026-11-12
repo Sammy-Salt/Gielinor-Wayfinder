@@ -277,17 +277,17 @@ body[data-page="map"] #toolbar{top:58px}
 
 /* PASS31.63 UI pass: one-line navigation, compact phone header, stat cards that stay side by side. Map keeps its own nav rules. */
 @media(min-width:721px){
-  body:not([data-page="map"]) #site-nav{gap:4px;padding-block:6px}
-  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{padding:6px 8px;font-size:.9rem}
-  body:not([data-page="map"]) .site-brand{margin-right:2px;padding:6px 8px}
+  body #site-nav{gap:4px;padding-block:6px}
+  body #site-nav a,body .nav-menu > summary{padding:6px 8px;font-size:.9rem}
+  body .site-brand{margin-right:2px;padding:6px 8px}
 }
 @media(max-width:720px){
-  body:not([data-page="map"]) #site-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
-  body:not([data-page="map"]) #site-nav::-webkit-scrollbar{display:none}
-  body:not([data-page="map"]) #site-nav > *{flex:0 0 auto}
-  body:not([data-page="map"]) .site-brand{width:auto;margin:0 2px 0 0;padding:5px 8px}
-  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{min-height:44px;white-space:nowrap}
-  body:not([data-page="map"]) .nav-menu-panel{position:fixed;left:8px;right:8px;top:62px;margin:0;z-index:3100}
+  body #site-nav{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  body #site-nav::-webkit-scrollbar{display:none}
+  body #site-nav > *{flex:0 0 auto}
+  body .site-brand{width:auto;margin:0 2px 0 0;padding:5px 8px}
+  body #site-nav a,body .nav-menu > summary{min-height:44px;white-space:nowrap}
+  body .nav-menu-panel{position:fixed;left:8px;right:8px;top:62px;margin:0;z-index:3100}
 }
 
 /* PASS31.64 look and feel: a calmer, flatter journal. Surfaces lose their gradients, shadows and nested boxes; gold is kept for titles, links and the current page.
@@ -314,14 +314,14 @@ body:not([data-page="map"]) :is(.stat .value,.stat-value,.stat-number,.stat b){f
 body:not([data-page="map"]) :is(.stat .label,.stat-label){color:var(--bone-mute);font-size:.8rem}
 body:not([data-page="map"]) .row{border-bottom-color:var(--rule)}
 /* navigation: text tabs; the current page gets a gold underline */
-body:not([data-page="map"]) #site-nav{background:var(--ink);box-shadow:none;border-bottom:1px solid var(--rule);gap:2px}
-body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;box-shadow:none;color:var(--bone-soft);font-weight:600}
-body:not([data-page="map"]) #site-nav a:hover,body:not([data-page="map"]) .nav-menu > summary:hover,body:not([data-page="map"]) .nav-menu[open] > summary{background:none;color:var(--bone);border-bottom-color:var(--rule)}
-body:not([data-page="map"]) #site-nav a[aria-current="page"]{background:none;color:var(--gold);border-bottom-color:var(--gold)}
-body:not([data-page="map"]) .site-brand{font-size:1.02rem;color:var(--gold)}
-body:not([data-page="map"]) .nav-menu-panel{background:var(--leather-2);border:1px solid var(--rule);border-radius:12px}
-body:not([data-page="map"]) .nav-menu-panel a{border-bottom:0;border-radius:8px}
-body:not([data-page="map"]) .nav-menu-panel a:hover{background:var(--leather)}
+body #site-nav{background:var(--ink);box-shadow:none;border-bottom:1px solid var(--rule);gap:2px}
+body #site-nav a,body .nav-menu > summary{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;box-shadow:none;color:var(--bone-soft);font-weight:600}
+body #site-nav a:hover,body .nav-menu > summary:hover,body .nav-menu[open] > summary{background:none;color:var(--bone);border-bottom-color:var(--rule)}
+body #site-nav a[aria-current="page"]{background:none;color:var(--gold);border-bottom-color:var(--gold)}
+body .site-brand{font-size:1.02rem;color:var(--gold)}
+body .nav-menu-panel{background:var(--leather-2);border:1px solid var(--rule);border-radius:12px}
+body .nav-menu-panel a{border-bottom:0;border-radius:8px}
+body .nav-menu-panel a:hover{background:var(--leather)}
 /* controls */
 body:not([data-page="map"]) :is(input,select,textarea){background:var(--ink);border:1px solid #4a3b26;border-radius:10px;color:var(--bone)}
 body:not([data-page="map"]) #globalSearch{background:var(--leather);color:var(--bone);border-color:#4a3b26;border-radius:10px}
@@ -347,10 +347,10 @@ body:not([data-page="map"]) .quest-status.blocked{color:#e08b78}
 body:not([data-page="map"]) .quest-debug{display:none}
 body:not([data-page="map"]) :is(.note,.warn){border-radius:10px}
 @media(max-width:720px){
-  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{font-size:.92rem}
+  body #site-nav a,body .nav-menu > summary{font-size:.92rem}
 }
-body:not([data-page="map"]) .nav-menu{background:none;border:0;border-radius:0;margin:0;overflow:visible}
-body:not([data-page="map"]) .nav-menu > summary{padding:6px 8px}
+body .nav-menu{background:none;border:0;border-radius:0;margin:0;overflow:visible}
+body .nav-menu > summary{padding:6px 8px}
 body:not([data-page="map"]) :is(input[type="checkbox"],input[type="radio"]){width:auto;min-height:0;accent-color:var(--gold)}
 body:not([data-page="map"]) label:has(> input[type="checkbox"]),body:not([data-page="map"]) label:has(> input[type="radio"]){display:flex;align-items:center;gap:10px}
 body:not([data-page="map"]) .recipe{background:var(--leather);border:1px solid var(--rule);border-radius:12px}

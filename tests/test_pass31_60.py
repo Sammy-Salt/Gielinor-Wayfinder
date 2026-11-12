@@ -10,7 +10,7 @@ assert page.count('<nav id="site-nav"') == 1 and page.count('id="app-tools-host"
 assert 'href="crafting.html"' in page and page.count('href="character.html"') == 1 and 'id="refView"' in page
 for f in SITE.glob("*.html"):
     text = f.read_text()
-    if '<nav id="site-nav"' in text and f.name != "map.html":  # map.html is hash-frozen by audit/map-boundary.sha256
+    if '<nav id="site-nav"' in text:
         assert text.count('href="reference.html"') == 1, f.name
 sw = (SITE / "sw.js").read_text()
 for f in ("./reference.html", "./css/pages/reference.css", "./js/pages/reference.js", "./data/slayer.json", "./data/clues.json", "./data/minigames.json"):
