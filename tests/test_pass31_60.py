@@ -20,5 +20,6 @@ js = (SITE / "js/pages/reference.js").read_text()
 for f in ("slayer.json", "clues.json", "minigames.json"):
     assert f in js and (SITE / "data" / f).is_file()
 assert "escapeHTML" in js
+assert "item.html?id=" in js and "encodeURIComponent" in js  # PASS31.61: item names link to the item pages
 assert subprocess.run(["node", "--check", str(SITE / "js/pages/reference.js")]).returncode == 0
 print("PASS31.60 reference page gate: 3 sections, 23 shell pages, offline precache, errors=0")

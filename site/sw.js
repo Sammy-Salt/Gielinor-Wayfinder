@@ -1,5 +1,5 @@
-const BUILD_ID='pass31.60-20261108-1';
-const CACHE_NAMESPACE='gielinor-wayfinder-pass31.60-20261108-1';
+const BUILD_ID='pass31.61-20261108-1';
+const CACHE_NAMESPACE='gielinor-wayfinder-pass31.61-20261108-1';
 const CACHE=CACHE_NAMESPACE;
 const SHELL=["./","./index.html","./data/recipes.json","./data/slayer.json","./data/clues.json","./data/minigames.json","./reference.html","./css/pages/reference.css","./js/pages/reference.js","./data/gathering.json","./data/thieving.json","./data/agility.json","./data/hunter.json","./data/farming.json","./data/items/name-index.json","./css/pages/crafting.css","./css/pages/character.css","./js/pages/crafting.js","./js/pages/character.js","./crafting.html","./character.html","./offline.html","./site.css","./manifest.webmanifest","./icon.svg","./icons/icon.svg","./icons/icon-192.png","./icons/icon-512.png",
 "./boss.html","./bosses.html","./calculators.html","./combat-stats.html","./drop-stats.html","./drop-time.html","./goals.html","./item.html","./items.html","./monster.html","./monsters.html","./npc.html","./npcs.html","./progress.html","./quest.html","./quests.html","./skill-stats.html",

@@ -30,7 +30,10 @@ async function resolveNames(ids) {
 }
 
 const num = n => Number.isFinite(n) ? n.toLocaleString(undefined, { maximumFractionDigits: 3 }) : "—";
-const table = (head, rows) => `<div class="table-wrap"><table class="ref-table"><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+// a cell is plain text or a list of {id, text} item links (item.html?id=<id>)
+const cell = c => Array.isArray(c) ? c.map(x => x.more ? "…" : `<a href="item.html?id=${encodeURIComponent(x.id)}">${esc(x.text)}</a>`).join(", ") : esc(c);
+const table = (head, rows) => `<div class="table-wrap"><table class="ref-table"><thead><tr>${head.map(h => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows.map(r => `<tr>${r.map(c => `<td>${cell(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+const link = (n, id) => [{ id, text: n.get(id) }];
 const card = (title, body, note) => `<div class="card"><h2 class="result-heading">${esc(title)}</h2>${note ? `<div class="small">${esc(note)}</div>` : ""}${body}</div>`;
 
 function flatRules(rules) {
@@ -66,7 +69,7 @@ async function clues() {
   fill(["easy", "medium", "hard", "rare"].map(t => [t, t === "rare" ? "Rare table (Hard only)" : `${t[0].toUpperCase()}${t.slice(1)}`]));
   const tier = pick.value || "easy", t = d.rewards[tier];
   const n = await resolveNames(t.items.map(i => i.itemId));
-  const rows = t.items.map(i => [n.get(i.itemId), i.min === i.max ? i.min : `${i.min}–${i.max}`, `${num(i.chancePercent)}%`]);
+  const rows = t.items.map(i => [link(n, i.itemId), i.min === i.max ? i.min : `${i.min}–${i.max}`, `${num(i.chancePercent)}%`]);
   const lv = d.levels[tier];
   const note = lv ? `${lv.minSteps}–${lv.maxSteps} steps per trail. Rolls: ${d.levels.rewardRolls.slots}.` : d.levels.rewardRolls.rareTable;
   return card(`${tier} rewards`, table(["Item", "Quantity", "Chance per roll"], rows), note);
@@ -84,7 +87,7 @@ async function minigame() {
   const ids = [];
   for (const k of Object.keys(TITLES)) for (const r of g[k] || []) ids.push(...(r.itemIds || []));
   const n = await resolveNames(ids);
-  const items = r => (r.itemIds || []).slice(0, 4).map(i => n.get(i)).join(", ") + ((r.itemIds || []).length > 4 ? "…" : "");
+  const items = r => [...(r.itemIds || []).slice(0, 4).map(i => ({ id: i, text: n.get(i) })), ...((r.itemIds || []).length > 4 ? [{ more: true }] : [])];
   const fmt = {
     rewards: r => [r.name, r.points ?? (r.options ? r.options.map(o => `${o.points}→${o.quantity}`).join(", ") : (r.pointOptions || []).join("/")), (r.requirements || []).map(x => `${x.level} ${x.skill}`).join(", ")],
     rooms: r => [r.name, `${r.requirements[0].level} Thieving`, `urn ${num(r.urnOpenXp)} xp, sceptre 1/${num(r.sceptreOneIn)}`],
