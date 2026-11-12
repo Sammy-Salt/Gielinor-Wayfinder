@@ -3,8 +3,8 @@
  "source": "2009Scape",
  "sourceCommit": "4082f9d",
  "counts": {
-  "minigames": 2,
-  "rows": 29
+  "minigames": 6,
+  "rows": 96
  },
  "minigames": [
   {
@@ -965,6 +965,1266 @@
     {
      "source": "2009Scape",
      "file": "Server/src/main/content/minigame/pyramidplunder/PlunderData.kt",
+     "commit": "4082f9d"
+    }
+   ]
+  },
+  {
+   "id": "2009scape-minigame-barrows",
+   "name": "Barrows",
+   "brothers": [
+    {
+     "id": "2009scape-barrows-brother-ahrim",
+     "kind": "brother",
+     "name": "Ahrim",
+     "index": 0,
+     "npcId": 2025,
+     "itemIds": [
+      4708,
+      4710,
+      4712,
+      4714
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-brother-dharok",
+     "kind": "brother",
+     "name": "Dharok",
+     "index": 1,
+     "npcId": 2026,
+     "itemIds": [
+      4716,
+      4718,
+      4720,
+      4722
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-brother-guthan",
+     "kind": "brother",
+     "name": "Guthan",
+     "index": 2,
+     "npcId": 2027,
+     "itemIds": [
+      4724,
+      4726,
+      4728,
+      4730
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-brother-karil",
+     "kind": "brother",
+     "name": "Karil",
+     "index": 3,
+     "npcId": 2028,
+     "itemIds": [
+      4732,
+      4734,
+      4736,
+      4738
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-brother-torag",
+     "kind": "brother",
+     "name": "Torag",
+     "index": 4,
+     "npcId": 2029,
+     "itemIds": [
+      4745,
+      4747,
+      4749,
+      4751
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-brother-verac",
+     "kind": "brother",
+     "name": "Verac",
+     "index": 5,
+     "npcId": 2030,
+     "itemIds": [
+      4753,
+      4755,
+      4757,
+      4759
+     ],
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "table": [
+    {
+     "id": "2009scape-barrows-drop-995",
+     "kind": "drop",
+     "itemIds": [
+      995
+     ],
+     "min": 1,
+     "max": 777,
+     "weight": 380.0,
+     "chancePercent": 37.549,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-558",
+     "kind": "drop",
+     "itemIds": [
+      558
+     ],
+     "min": 250,
+     "max": 350,
+     "weight": 125.0,
+     "chancePercent": 12.352,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-560",
+     "kind": "drop",
+     "itemIds": [
+      560
+     ],
+     "min": 70,
+     "max": 85,
+     "weight": 125.0,
+     "chancePercent": 12.352,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-562",
+     "kind": "drop",
+     "itemIds": [
+      562
+     ],
+     "min": 115,
+     "max": 135,
+     "weight": 125.0,
+     "chancePercent": 12.352,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-565",
+     "kind": "drop",
+     "itemIds": [
+      565
+     ],
+     "min": 35,
+     "max": 45,
+     "weight": 125.0,
+     "chancePercent": 12.352,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-4740",
+     "kind": "drop",
+     "itemIds": [
+      4740
+     ],
+     "min": 35,
+     "max": 40,
+     "weight": 125.0,
+     "chancePercent": 12.352,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-985",
+     "kind": "drop",
+     "itemIds": [
+      985
+     ],
+     "min": 1,
+     "max": 1,
+     "weight": 3.0,
+     "chancePercent": 0.296,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-987",
+     "kind": "drop",
+     "itemIds": [
+      987
+     ],
+     "min": 1,
+     "max": 1,
+     "weight": 3.0,
+     "chancePercent": 0.296,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-barrows-drop-1149",
+     "kind": "drop",
+     "itemIds": [
+      1149
+     ],
+     "min": 1,
+     "max": 1,
+     "weight": 1.0,
+     "chancePercent": 0.099,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "totalWeight": 1012.0,
+   "rules": {
+    "rolls": "killed brothers + 1 rolls (killed = brother items ÷ 4)",
+    "brotherItemChance": "each roll: 1 in (450 − 58 × brothers killed) to award one random remaining item from the killed brothers' sets, otherwise one roll on the regular table; repeated ids merge",
+    "npcIdRule": "brother NPC id = 2025 + brother index"
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/minigame/barrows/RewardChest.kt",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-minigame-mage-training-arena",
+   "name": "Mage Training Arena",
+   "currency": "Pizazz points (Telekinetic, Alchemist, Enchantment, Graveyard)",
+   "shop": [
+    {
+     "id": "2009scape-mta-shop-6908-0",
+     "kind": "shop",
+     "slot": 0,
+     "itemIds": [
+      6908
+     ],
+     "pizazzPoints": {
+      "telekinetic": 30,
+      "alchemist": 30,
+      "enchantment": 300,
+      "graveyard": 30
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6910-1",
+     "kind": "shop",
+     "slot": 1,
+     "itemIds": [
+      6910
+     ],
+     "pizazzPoints": {
+      "telekinetic": 60,
+      "alchemist": 60,
+      "enchantment": 600,
+      "graveyard": 60
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6912-2",
+     "kind": "shop",
+     "slot": 2,
+     "itemIds": [
+      6912
+     ],
+     "pizazzPoints": {
+      "telekinetic": 150,
+      "alchemist": 200,
+      "enchantment": 1500,
+      "graveyard": 150
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6914-3",
+     "kind": "shop",
+     "slot": 3,
+     "itemIds": [
+      6914
+     ],
+     "pizazzPoints": {
+      "telekinetic": 240,
+      "alchemist": 240,
+      "enchantment": 2400,
+      "graveyard": 240
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6916-4",
+     "kind": "shop",
+     "slot": 4,
+     "itemIds": [
+      6916
+     ],
+     "pizazzPoints": {
+      "telekinetic": 400,
+      "alchemist": 450,
+      "enchantment": 4000,
+      "graveyard": 400
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6918-5",
+     "kind": "shop",
+     "slot": 5,
+     "itemIds": [
+      6918
+     ],
+     "pizazzPoints": {
+      "telekinetic": 350,
+      "alchemist": 400,
+      "enchantment": 3000,
+      "graveyard": 350
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6920-6",
+     "kind": "shop",
+     "slot": 6,
+     "itemIds": [
+      6920
+     ],
+     "pizazzPoints": {
+      "telekinetic": 120,
+      "alchemist": 120,
+      "enchantment": 1200,
+      "graveyard": 120
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6922-7",
+     "kind": "shop",
+     "slot": 7,
+     "itemIds": [
+      6922
+     ],
+     "pizazzPoints": {
+      "telekinetic": 175,
+      "alchemist": 225,
+      "enchantment": 1500,
+      "graveyard": 175
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6924-8",
+     "kind": "shop",
+     "slot": 8,
+     "itemIds": [
+      6924
+     ],
+     "pizazzPoints": {
+      "telekinetic": 450,
+      "alchemist": 500,
+      "enchantment": 5000,
+      "graveyard": 450
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6889-9",
+     "kind": "shop",
+     "slot": 9,
+     "itemIds": [
+      6889
+     ],
+     "pizazzPoints": {
+      "telekinetic": 500,
+      "alchemist": 550,
+      "enchantment": 6000,
+      "graveyard": 500
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-6926-10",
+     "kind": "shop",
+     "slot": 10,
+     "itemIds": [
+      6926
+     ],
+     "pizazzPoints": {
+      "telekinetic": 200,
+      "alchemist": 300,
+      "enchantment": 2000,
+      "graveyard": 200
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4695-11",
+     "kind": "shop",
+     "slot": 11,
+     "itemIds": [
+      4695
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4696-12",
+     "kind": "shop",
+     "slot": 12,
+     "itemIds": [
+      4696
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4697-13",
+     "kind": "shop",
+     "slot": 13,
+     "itemIds": [
+      4697
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4698-14",
+     "kind": "shop",
+     "slot": 14,
+     "itemIds": [
+      4698
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4694-15",
+     "kind": "shop",
+     "slot": 15,
+     "itemIds": [
+      4694
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-4699-16",
+     "kind": "shop",
+     "slot": 16,
+     "itemIds": [
+      4699
+     ],
+     "pizazzPoints": {
+      "telekinetic": 1,
+      "alchemist": 1,
+      "enchantment": 15,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-564-17",
+     "kind": "shop",
+     "slot": 17,
+     "itemIds": [
+      564
+     ],
+     "pizazzPoints": {
+      "telekinetic": 0,
+      "alchemist": 0,
+      "enchantment": 5,
+      "graveyard": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-562-18",
+     "kind": "shop",
+     "slot": 18,
+     "itemIds": [
+      562
+     ],
+     "pizazzPoints": {
+      "telekinetic": 0,
+      "alchemist": 1,
+      "enchantment": 5,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-561-19",
+     "kind": "shop",
+     "slot": 19,
+     "itemIds": [
+      561
+     ],
+     "pizazzPoints": {
+      "telekinetic": 0,
+      "alchemist": 1,
+      "enchantment": 0,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-560-20",
+     "kind": "shop",
+     "slot": 20,
+     "itemIds": [
+      560
+     ],
+     "pizazzPoints": {
+      "telekinetic": 2,
+      "alchemist": 1,
+      "enchantment": 20,
+      "graveyard": 1
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-563-21",
+     "kind": "shop",
+     "slot": 21,
+     "itemIds": [
+      563
+     ],
+     "pizazzPoints": {
+      "telekinetic": 2,
+      "alchemist": 0,
+      "enchantment": 0,
+      "graveyard": 0
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-566-22",
+     "kind": "shop",
+     "slot": 22,
+     "itemIds": [
+      566
+     ],
+     "pizazzPoints": {
+      "telekinetic": 2,
+      "alchemist": 2,
+      "enchantment": 25,
+      "graveyard": 2
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    },
+    {
+     "id": "2009scape-mta-shop-565-23",
+     "kind": "shop",
+     "slot": 23,
+     "itemIds": [
+      565
+     ],
+     "pizazzPoints": {
+      "telekinetic": 2,
+      "alchemist": 2,
+      "enchantment": 25,
+      "graveyard": 2
+     },
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+      "commit": "4082f9d"
+     }
+    }
+   ],
+   "rules": {
+    "stock": "each item stocks 100",
+    "costRule": "an item needs every listed pizazz-point type at once, and each is spent",
+    "wandUpgrades": "slots 1-3 (the wand upgrades) consume the previous slot's wand (or require the slot-3 wand)",
+    "bonesToPeaches": "the Bones to Peaches spell (item 6926) is a one-time unlock"
+   },
+   "provenance": {
+    "source": "2009Scape",
+    "file": "Server/src/main/content/minigame/mta/MTAShop.java",
+    "commit": "4082f9d"
+   }
+  },
+  {
+   "id": "2009scape-minigame-blast-furnace",
+   "name": "Blast Furnace",
+   "bars": [
+    {
+     "id": "2009scape-blastfurnace-bar-bronze",
+     "kind": "bar",
+     "name": "Bronze bar",
+     "level": 1,
+     "smithingXp": 6.2,
+     "barItemId": 2349,
+     "oreItemIds": [
+      436,
+      438
+     ],
+     "coalPerBar": 0,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "BRONZE"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-blurite",
+     "kind": "bar",
+     "name": "Blurite bar",
+     "level": 8,
+     "smithingXp": 8.0,
+     "barItemId": 9467,
+     "oreItemIds": [
+      668
+     ],
+     "coalPerBar": 0,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "BLURITE"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-iron",
+     "kind": "bar",
+     "name": "Iron bar",
+     "level": 15,
+     "smithingXp": 12.5,
+     "barItemId": 2351,
+     "oreItemIds": [
+      440
+     ],
+     "coalPerBar": 0,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "IRON"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-silver",
+     "kind": "bar",
+     "name": "Silver bar",
+     "level": 20,
+     "smithingXp": 13.7,
+     "barItemId": 2355,
+     "oreItemIds": [
+      442
+     ],
+     "coalPerBar": 0,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "SILVER"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-steel",
+     "kind": "bar",
+     "name": "Steel bar",
+     "level": 30,
+     "smithingXp": 17.5,
+     "barItemId": 2353,
+     "oreItemIds": [
+      440
+     ],
+     "coalPerBar": 1,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "STEEL"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-gold",
+     "kind": "bar",
+     "name": "Gold bar",
+     "level": 40,
+     "smithingXp": 22.5,
+     "barItemId": 2357,
+     "oreItemIds": [
+      444
+     ],
+     "coalPerBar": 0,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "GOLD"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-mithril",
+     "kind": "bar",
+     "name": "Mithril bar",
+     "level": 50,
+     "smithingXp": 30.0,
+     "barItemId": 2359,
+     "oreItemIds": [
+      447
+     ],
+     "coalPerBar": 2,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "MITHRIL"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-adamant",
+     "kind": "bar",
+     "name": "Adamant bar",
+     "level": 70,
+     "smithingXp": 37.5,
+     "barItemId": 2361,
+     "oreItemIds": [
+      449
+     ],
+     "coalPerBar": 3,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "ADAMANT"
+     }
+    },
+    {
+     "id": "2009scape-blastfurnace-bar-runite",
+     "kind": "bar",
+     "name": "Runite bar",
+     "level": 85,
+     "smithingXp": 50.0,
+     "barItemId": 2363,
+     "oreItemIds": [
+      451
+     ],
+     "coalPerBar": 4,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+      "commit": "4082f9d",
+      "enum": "RUNITE"
+     }
+    }
+   ],
+   "rules": {
+    "smithingRequired": 60,
+    "entranceFeeCoins": 2500,
+    "charosEntranceFee": 1250,
+    "feeFreeAtSmithing": 60,
+    "feeDurationTicks": 1000,
+    "limits": {
+     "coal": 226,
+     "ore": 28,
+     "bar": 28,
+     "coke": 15
+    },
+    "pumpStrengthXp": 4.0,
+    "pedalAgilityXp": 2.0,
+    "smithingXpPerBarProcessed": "1 per bar smelted, shared by everyone in the area when the furnace temperature is 51-66",
+    "steel": "iron ore becomes steel when coal is present and Smithing is at least 30",
+    "coalNote": "the furnace needs half the normal coal per bar",
+    "entrance": {
+     "x": 1940,
+     "y": 4958,
+     "plane": 0
+    },
+    "exit": {
+     "x": 2931,
+     "y": 10197,
+     "plane": 0
+    }
+   },
+   "provenance": [
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/blastfurnace/BlastFurnace.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/blastfurnace/BlastConsts.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/global/skill/smithing/smelting/Bar.java",
+     "commit": "4082f9d"
+    }
+   ]
+  },
+  {
+   "id": "2009scape-minigame-castle-wars",
+   "name": "Castle Wars",
+   "currency": "Castle Wars tickets",
+   "exchange": [
+    {
+     "id": "2009scape-castlewars-exchange-4068",
+     "kind": "exchange",
+     "itemIds": [
+      4068
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4069",
+     "kind": "exchange",
+     "itemIds": [
+      4069
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4070",
+     "kind": "exchange",
+     "itemIds": [
+      4070
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4071",
+     "kind": "exchange",
+     "itemIds": [
+      4071
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4072",
+     "kind": "exchange",
+     "itemIds": [
+      4072
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4503",
+     "kind": "exchange",
+     "itemIds": [
+      4503
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4504",
+     "kind": "exchange",
+     "itemIds": [
+      4504
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4505",
+     "kind": "exchange",
+     "itemIds": [
+      4505
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4506",
+     "kind": "exchange",
+     "itemIds": [
+      4506
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4507",
+     "kind": "exchange",
+     "itemIds": [
+      4507
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4508",
+     "kind": "exchange",
+     "itemIds": [
+      4508
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4509",
+     "kind": "exchange",
+     "itemIds": [
+      4509
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4510",
+     "kind": "exchange",
+     "itemIds": [
+      4510
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4511",
+     "kind": "exchange",
+     "itemIds": [
+      4511
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4512",
+     "kind": "exchange",
+     "itemIds": [
+      4512
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4513",
+     "kind": "exchange",
+     "itemIds": [
+      4513
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4514",
+     "kind": "exchange",
+     "itemIds": [
+      4514
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4515",
+     "kind": "exchange",
+     "itemIds": [
+      4515
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    },
+    {
+     "id": "2009scape-castlewars-exchange-4516",
+     "kind": "exchange",
+     "itemIds": [
+      4516
+     ],
+     "currencyItemId": 4067,
+     "provenance": {
+      "source": "2009Scape",
+      "file": "Server/data/configs/shops.json",
+      "commit": "4082f9d",
+      "shop": "255"
+     }
+    }
+   ],
+   "rules": {
+    "gameMinutes": 20,
+    "cooldownMinutes": 5,
+    "ticketsWin": 2,
+    "ticketsDraw": 1,
+    "supplyTableItemIds": [
+     4051,
+     4043,
+     4053,
+     4047,
+     4045,
+     1265,
+     4049
+    ],
+    "note": "ticket prices are not stored in the shop config (price comes from the item's value); winners get 2 tickets, a draw 1 (Lanthus dialogue)"
+   },
+   "provenance": [
+    {
+     "source": "2009Scape",
+     "file": "Server/src/main/content/minigame/castlewars/CastleWars.kt",
+     "commit": "4082f9d"
+    },
+    {
+     "source": "2009Scape",
+     "file": "Server/data/configs/shops.json",
      "commit": "4082f9d"
     }
    ]

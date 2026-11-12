@@ -6,9 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 doc = json.loads((ROOT / "site/data/minigames.json").read_text())
 assert doc["formatVersion"] == 1 and doc["source"] == "2009Scape" and doc["sourceCommit"]
-assert doc["counts"] == {"minigames": 2, "rows": 29}
 games = {g["name"]: g for g in doc["minigames"]}
-assert set(games) == {"Pest Control", "Pyramid Plunder"}
+assert {"Pest Control", "Pyramid Plunder"} <= set(games)  # later passes add more minigames (see test_pass31_57)
 pc = games["Pest Control"]
 rw = {r["name"]: r for r in pc["rewards"]}
 assert len(pc["rewards"]) == 21 and len({r["id"] for r in pc["rewards"]}) == 21
@@ -32,4 +31,4 @@ assert pp["artifacts"]["gold"] == [9028, 9034, 9040] and pp["sceptre"]["itemId"]
 for g in doc["minigames"]:
     for i in [x for r in g.get("rewards", []) for x in r.get("itemIds", [])]:
         assert (ROOT / f"site/data/items/{i}.json").exists(), i
-print("PASS31.56 minigame data gate: 2 minigames, 29 rows, errors=0")
+print("PASS31.56 minigame data gate: Pest Control + Pyramid Plunder, errors=0")

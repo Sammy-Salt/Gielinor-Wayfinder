@@ -2,8 +2,9 @@
 """Generate site/data/minigames.json (minigame reward shops and rules) from the 2009Scape server source.
 
 Minigame logic is embedded in code, so each minigame has its own parser with rule-literal assertions that fail loudly
-if the source changes. Currently modelled: Pest Control (Void Knight commendation shop and xp conversion) and
-Pyramid Plunder (rooms, xp, artifact and sceptre rates). Item ids are verified against the item catalog.
+if the source changes. Currently modelled: Pest Control (Void Knight commendation shop and xp conversion),
+Pyramid Plunder (rooms, xp, artifact and sceptre rates), Barrows (reward chest), the Mage Training Arena shop, the Blast Furnace
+and the Castle Wars ticket exchange. Item ids are verified against the item catalog.
 
 Usage: generate_minigames.py --source-root <upstream repo root> --source-commit <sha> [--output site/data/minigames.json]
 """
@@ -19,6 +20,13 @@ MG = "Server/src/main/content/minigame/"
 PC = MG + "pestcontrol/reward/PCRewardInterface.java"
 PP_UTILS = MG + "pyramidplunder/PlunderUtils.kt"
 PP_DATA = MG + "pyramidplunder/PlunderData.kt"
+BR = MG + "barrows/RewardChest.kt"
+MTA = MG + "mta/MTAShop.java"
+BF = MG + "blastfurnace/BlastFurnace.kt"
+BFC = MG + "blastfurnace/BlastConsts.kt"
+BAR = "Server/src/main/content/global/skill/smithing/smelting/Bar.java"
+CW = MG + "castlewars/CastleWars.kt"
+SHOPS = "Server/data/configs/shops.json"
 
 
 class GeneratorError(Exception):
@@ -131,6 +139,94 @@ def pyramid_plunder(root, commit):
         provenance=[prov(PP_UTILS, commit), prov(PP_DATA, commit)])
 
 
+def barrows(root, commit):
+    text = read(root, BR)
+    need(text, ["nKilled = barrowsRewardsIDs.size / 4", "for (i in 0 until nKilled+1)", "RandomFunction.roll(450 - 58 * nKilled)", "REGULAR_DROPS.roll(null, 1)"], BR)
+    body = text.split("REGULAR_DROPS = WeightBasedTable.create(", 1)[1].split("\n    )", 1)[0]
+    drops = [(int(i), int(lo), int(hi), float(w)) for i, lo, hi, w in re.findall(r"WeightedItem\(Items\.[A-Z_]+_(\d+),\s*(\d+),\s*(\d+),\s*([\d.]+)\)", body)]
+    if len(drops) != 9:
+        raise GeneratorError(f"expected 9 barrows drops, parsed {len(drops)}")
+    total = sum(d[3] for d in drops)
+    table = [OrderedDict(id=f"2009scape-barrows-drop-{i}", kind="drop", itemIds=[i], min=lo, max=hi, weight=w, chancePercent=round(w / total * 100, 3), provenance=prov(BR, commit))
+             for i, lo, hi, w in sorted(drops, key=lambda d: (-d[3], d[0]))]
+    names = ["Ahrim", "Dharok", "Guthan", "Karil", "Torag", "Verac"]
+    sets = re.findall(r"private val ([A-Z]+)\s*=\s*arrayOf\(([\d, ]+)\)", text)
+    if [n.capitalize() for n, _ in sets] != names:
+        raise GeneratorError(f"barrows sets not parsed: {[n for n, _ in sets]}")
+    brothers = [OrderedDict(id=f"2009scape-barrows-brother-{n.lower()}", kind="brother", name=n, index=i, npcId=2025 + i, itemIds=[int(x) for x in ids.split(",")],
+                            provenance=prov(BR, commit)) for i, (n, (_, ids)) in enumerate(zip(names, sets))]
+    return OrderedDict(
+        id="2009scape-minigame-barrows", name="Barrows", brothers=brothers, table=table, totalWeight=total,
+        rules=OrderedDict(rolls="killed brothers + 1 rolls (killed = brother items ÷ 4)",
+                          brotherItemChance="each roll: 1 in (450 − 58 × brothers killed) to award one random remaining item from the killed brothers' sets, otherwise one roll on the regular table; repeated ids merge",
+                          npcIdRule="brother NPC id = 2025 + brother index"),
+        provenance=prov(BR, commit))
+
+
+def mta_shop(root, commit):
+    text = read(root, MTA)
+    items = [int(i) for i, q in re.findall(r"new Item\((\d+), (\d+)\)", re.search(r"ITEMS = new Item\[\] \{(.*?)\};", text, re.S).group(1))]
+    prices = [[int(n) for n in g.split(",")] for g in re.findall(r"\{\s*([\d, ]+?)\s*\}", re.search(r"PRICES = new int\[\]\[\] \{(.*?)\};", text, re.S).group(1))]
+    if len(items) != 24 or len(prices) != 24 or any(len(p) != 4 for p in prices):
+        raise GeneratorError(f"MTA shop shape: {len(items)} items, {len(prices)} prices")
+    need(text, ["item.getAmount() < 100", "isBonesToPeaches()", "slot >= 1 && slot <= 3", "ITEMS[slot - 1]"], MTA)
+    rows = [OrderedDict(id=f"2009scape-mta-shop-{i}-{n}", kind="shop", slot=n, itemIds=[i],
+                        pizazzPoints=OrderedDict(telekinetic=p[0], alchemist=p[1], enchantment=p[2], graveyard=p[3]), provenance=prov(MTA, commit))
+            for n, (i, p) in enumerate(zip(items, prices))]
+    return OrderedDict(
+        id="2009scape-minigame-mage-training-arena", name="Mage Training Arena", currency="Pizazz points (Telekinetic, Alchemist, Enchantment, Graveyard)", shop=rows,
+        rules=OrderedDict(stock="each item stocks 100", costRule="an item needs every listed pizazz-point type at once, and each is spent",
+                          wandUpgrades="slots 1-3 (the wand upgrades) consume the previous slot's wand (or require the slot-3 wand)", bonesToPeaches="the Bones to Peaches spell (item 6926) is a one-time unlock"),
+        provenance=prov(MTA, commit))
+
+
+def blast_furnace(root, commit):
+    cons, bf, bar = read(root, BFC), read(root, BF), read(root, BAR)
+    need(bf, ["state.furnaceTemp !in 51..66", "rewardXP(player, Skills.SMITHING, totalProcessed.toDouble())", "coalAmount >= 1 && level >= Bar.STEEL.level", "coalAmount /= 2",
+              "if (smithLevel >= BlastConsts.SMITH_REQ) return 0", "BlastConsts.ENTRANCE_FEE / 2"], BF)
+    const = {n: v for n, v in re.findall(r"(?:const )?val ([A-Z_]+)(?::\s*Int)?\s*=\s*(\d+)", cons)}
+    for n, v in (("SMITH_REQ", "60"), ("ENTRANCE_FEE", "2500"), ("FEE_ENTRANCE_DURATION", "1000"), ("COAL_LIMIT", "226"), ("ORE_LIMIT", "28"), ("BAR_LIMIT", "28"), ("COKE_LIMIT", "15")):
+        if const.get(n) != v:
+            raise GeneratorError(f"BlastConsts {n}: {const.get(n)} != {v}")
+    rows = []
+    for name, lvl, xp, product, ores in re.findall(r"\t([A-Z]+)\((\d+), ([\d.]+), new Item\((\d+), 1\),\s*(.*?)\)[,;]\s*\n", bar):
+        pairs = [(int(i), int(q) if q else 1) for i, q in re.findall(r"new Item\((\d+)(?:,\s*(\d+))?\)", ores)]
+        coal = next((q for i, q in pairs if i == 453), 0) if len(pairs) > 1 else 0
+        rows.append(OrderedDict(id=f"2009scape-blastfurnace-bar-{key(name)}", kind="bar", name=name.capitalize() + " bar", level=int(lvl), smithingXp=float(xp),
+                                barItemId=int(product), oreItemIds=[i for i, q in pairs if i != 453], coalPerBar=coal // 2 if coal > 1 else coal,
+                                provenance=prov(BAR, commit, enum=name)))
+    if len(rows) != 9:
+        raise GeneratorError(f"expected 9 bars, parsed {len(rows)}")
+    return OrderedDict(
+        id="2009scape-minigame-blast-furnace", name="Blast Furnace", bars=rows,
+        rules=OrderedDict(smithingRequired=60, entranceFeeCoins=2500, charosEntranceFee=1250, feeFreeAtSmithing=60, feeDurationTicks=1000,
+                          limits=OrderedDict(coal=226, ore=28, bar=28, coke=15), pumpStrengthXp=4.0, pedalAgilityXp=2.0, smithingXpPerBarProcessed="1 per bar smelted, shared by everyone in the area when the furnace temperature is 51-66",
+                          steel="iron ore becomes steel when coal is present and Smithing is at least 30", coalNote="the furnace needs half the normal coal per bar",
+                          entrance=OrderedDict(x=1940, y=4958, plane=0), exit=OrderedDict(x=2931, y=10197, plane=0)),
+        provenance=[prov(BF, commit), prov(BFC, commit), prov(BAR, commit)])
+
+
+def castle_wars(root, commit):
+    text = read(root, CW)
+    need(text, ["gameTimeMinutes = 20", "gameCooldownMinutes = 5", "CASTLE_WARS_TICKET_4067"], CW)
+    shops = json.loads(read(root, SHOPS))
+    shop = next((s for s in shops if s.get("title") == "Castle Wars Ticket Exchange"), None)
+    if not shop or shop["currency"] != "4067":
+        raise GeneratorError("Castle Wars Ticket Exchange shop not found")
+    ids = [int(i) for i in re.findall(r"\{(\d+),\d+,\d+\}", shop["stock"])]
+    if len(ids) != 19:
+        raise GeneratorError(f"expected 19 exchange items, parsed {len(ids)}")
+    supplies = list(dict.fromkeys(int(i) for i in re.findall(r"Scenery\.TABLE_\d+ to Items\.[A-Z_]+_(\d+)", text)))
+    if len(supplies) != 7:
+        raise GeneratorError(f"expected 7 supply items, parsed {supplies}")
+    rows = [OrderedDict(id=f"2009scape-castlewars-exchange-{i}", kind="exchange", itemIds=[i], currencyItemId=4067, provenance=prov(SHOPS, commit, shop="255")) for i in ids]
+    return OrderedDict(
+        id="2009scape-minigame-castle-wars", name="Castle Wars", currency="Castle Wars tickets", exchange=rows,
+        rules=OrderedDict(gameMinutes=20, cooldownMinutes=5, ticketsWin=2, ticketsDraw=1, supplyTableItemIds=supplies,
+                          note="ticket prices are not stored in the shop config (price comes from the item's value); winners get 2 tickets, a draw 1 (Lanthus dialogue)"),
+        provenance=[prov(CW, commit), prov(SHOPS, commit)])
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source-root", required=True)
@@ -138,19 +234,25 @@ def main():
     ap.add_argument("--output", default=str(ROOT / "site/data/minigames.json"))
     a = ap.parse_args()
     c = a.source_commit
-    games = [pest_control(a.source_root, c), pyramid_plunder(a.source_root, c)]
+    games = [pest_control(a.source_root, c), pyramid_plunder(a.source_root, c), barrows(a.source_root, c), mta_shop(a.source_root, c),
+             blast_furnace(a.source_root, c), castle_wars(a.source_root, c)]
     have = {p.stem for p in (ROOT / "site/data/items").glob("*.json")}
     used = []
     for g in games:
         for r in g.get("rewards", []):
             used += r.get("itemIds", [])
+        for k in ("brothers", "table", "shop", "exchange"):
+            for r in g.get(k, []):
+                used += r.get("itemIds", [])
+        for r in g.get("bars", []):
+            used += [r["barItemId"]] + r["oreItemIds"]
         if "artifacts" in g:
             used += g["artifacts"]["common"] + g["artifacts"]["stone"] + g["artifacts"]["gold"] + [g["sceptre"]["itemId"]]
     missing = sorted({i for i in used if str(i) not in have})
     if missing:
         raise GeneratorError(f"item ids missing from the catalog: {missing}")
     doc = OrderedDict(formatVersion=1, source="2009Scape", sourceCommit=c,
-                      counts={"minigames": len(games), "rows": sum(len(g.get("rewards", [])) + len(g.get("rooms", [])) for g in games)}, minigames=games)
+                      counts={"minigames": len(games), "rows": sum(len(g.get(k, [])) for g in games for k in ("rewards", "rooms", "brothers", "table", "shop", "bars", "exchange"))}, minigames=games)
     Path(a.output).write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     print(json.dumps(doc["counts"]))
 
