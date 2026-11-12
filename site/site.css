@@ -289,3 +289,69 @@ body[data-page="map"] #toolbar{top:58px}
   body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{min-height:44px;white-space:nowrap}
   body:not([data-page="map"]) .nav-menu-panel{position:fixed;left:8px;right:8px;top:62px;margin:0;z-index:3100}
 }
+
+/* PASS31.64 look and feel: a calmer, flatter journal. Surfaces lose their gradients, shadows and nested boxes; gold is kept for titles, links and the current page.
+ * Everything is scoped away from the map page, which keeps its own overlay styling. */
+:root{--ink:#14100b;--leather:#1d1812;--leather-2:#251e16;--rule:#3a2f20;--bone:#ece1c6;--bone-soft:#c4b799;--bone-mute:#978a6f;--gold:#dcb65e}
+body:not([data-page="map"]){
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.55;
+  background:var(--ink);color:var(--bone);
+}
+body:not([data-page="map"])::before{display:none}
+/* titles: gold only for the page title; section headings read as quiet labels in bone */
+body:not([data-page="map"]) h1{color:var(--gold);text-shadow:none;letter-spacing:.005em}
+body:not([data-page="map"]) h2{color:var(--bone);font-size:1.15rem;border-bottom:0;padding-bottom:0;margin-bottom:10px}
+body:not([data-page="map"]) h3{color:var(--bone-soft);font-size:1rem}
+/* page header: no box, just the title on the page */
+body:not([data-page="map"]) > header,body:not([data-page="map"]) > .osrs-page-header{background:none;border:0;box-shadow:none;padding:6px 2px;margin-top:20px}
+/* panels: one flat surface with a hairline, no gradient or shadow */
+body:not([data-page="map"]) :is(.card,.section,.panel,.goal-card,.quest-card,.progress-summary,.skill,.sync-status,.quest-summary){
+  background:var(--leather);border:1px solid var(--rule);border-radius:12px;box-shadow:none;
+}
+body:not([data-page="map"]) :is(.card,.quest-card,.goal-card):hover{border-color:#5b4929}
+body:not([data-page="map"]) .stat{background:var(--ink);border:0;border-radius:10px}
+body:not([data-page="map"]) :is(.stat .value,.stat-value,.stat-number,.stat b){font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;font-weight:700;color:var(--bone);font-variant-numeric:tabular-nums}
+body:not([data-page="map"]) :is(.stat .label,.stat-label){color:var(--bone-mute);font-size:.8rem}
+body:not([data-page="map"]) .row{border-bottom-color:var(--rule)}
+/* navigation: text tabs; the current page gets a gold underline */
+body:not([data-page="map"]) #site-nav{background:var(--ink);box-shadow:none;border-bottom:1px solid var(--rule);gap:2px}
+body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;box-shadow:none;color:var(--bone-soft);font-weight:600}
+body:not([data-page="map"]) #site-nav a:hover,body:not([data-page="map"]) .nav-menu > summary:hover,body:not([data-page="map"]) .nav-menu[open] > summary{background:none;color:var(--bone);border-bottom-color:var(--rule)}
+body:not([data-page="map"]) #site-nav a[aria-current="page"]{background:none;color:var(--gold);border-bottom-color:var(--gold)}
+body:not([data-page="map"]) .site-brand{font-size:1.02rem;color:var(--gold)}
+body:not([data-page="map"]) .nav-menu-panel{background:var(--leather-2);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) .nav-menu-panel a{border-bottom:0;border-radius:8px}
+body:not([data-page="map"]) .nav-menu-panel a:hover{background:var(--leather)}
+/* controls */
+body:not([data-page="map"]) :is(input,select,textarea){background:var(--ink);border:1px solid #4a3b26;border-radius:10px;color:var(--bone)}
+body:not([data-page="map"]) #globalSearch{background:var(--leather);color:var(--bone);border-color:#4a3b26;border-radius:10px}
+body:not([data-page="map"]) #globalSearch::placeholder{color:var(--bone-mute)}
+body:not([data-page="map"]) button,body:not([data-page="map"]) .button-like{background:var(--leather-2);border:1px solid #5b4929;border-radius:10px;box-shadow:none;color:var(--bone)}
+body:not([data-page="map"]) button:hover,body:not([data-page="map"]) .button-like:hover{background:#31281b;border-color:var(--gold);color:#fff3cf}
+/* lists and accordions */
+body:not([data-page="map"]) details{background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) summary:hover{background:var(--leather-2);color:var(--bone)}
+body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item){background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item):hover{transform:none;border-color:var(--gold)}
+body:not([data-page="map"]) .badge{background:var(--leather-2);border-color:var(--rule);color:var(--bone-soft)}
+body:not([data-page="map"]) table{background:none}
+body:not([data-page="map"]) th{background:none;color:var(--bone-mute);font-size:.8rem;font-weight:600}
+body:not([data-page="map"]) tr:hover td{background:var(--leather)}
+body:not([data-page="map"]) .bar,body:not([data-page="map"]) .summary-bar,body:not([data-page="map"]) .skill-bar{background:var(--ink);border-color:var(--rule)}
+/* quests: status is a coloured edge and a line of text, not a second box */
+body:not([data-page="map"]) .quest-card{border-left:3px solid var(--rule)}
+body:not([data-page="map"]) .quest-card.completed{border-left-color:var(--osrs-green)}
+body:not([data-page="map"]) .quest-status{background:none;border:0;padding:0;margin:6px 0;font-weight:600}
+body:not([data-page="map"]) .quest-status.ready,body:not([data-page="map"]) .quest-status.complete{color:var(--osrs-green-bright)}
+body:not([data-page="map"]) .quest-status.blocked{color:#e08b78}
+body:not([data-page="map"]) .quest-debug{display:none}
+body:not([data-page="map"]) :is(.note,.warn){border-radius:10px}
+@media(max-width:720px){
+  body:not([data-page="map"]) #site-nav a,body:not([data-page="map"]) .nav-menu > summary{font-size:.92rem}
+}
+body:not([data-page="map"]) .nav-menu{background:none;border:0;border-radius:0;margin:0;overflow:visible}
+body:not([data-page="map"]) .nav-menu > summary{padding:6px 8px}
+body:not([data-page="map"]) :is(input[type="checkbox"],input[type="radio"]){width:auto;min-height:0;accent-color:var(--gold)}
+body:not([data-page="map"]) label:has(> input[type="checkbox"]),body:not([data-page="map"]) label:has(> input[type="radio"]){display:flex;align-items:center;gap:10px}
+body:not([data-page="map"]) .recipe{background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) .skill{padding:14px;margin:0 0 10px}
