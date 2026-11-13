@@ -7,9 +7,9 @@ R = Path(__file__).resolve().parents[1]; S = R / "site"; errors = []
 def chk(c, m):
     if not c: errors.append(m)
 js = (S / "js/pages/map.js").read_text(); html = (S / "map.html").read_text()
-chk("map.getMaxZoom()\n    );" not in js and re.search(r"L\.point\(px, py\),\s*11\s*\)", js), "osrsToLatLng must project at zoom 11 (matches mapToOSRS)")
-chk("function escapeHtml" in js, "map.js must define escapeHtml")
-chk("drawKind" in js and "CLUSTER_CELL_PX" in js, "marker clustering missing")
+chk("L.CRS.Simple" in js and "ORIGIN_X = 960" in js and "ORIGIN_Y = 1216" in js, "map must use the simple pixel CRS with the documented tile origin")
+chk("const esc = " in js, "map.js must escape popup text")
+chk("MAX_PLOTTED" in js, "marker cap missing")
 chk("errorTileUrl" in js, "tile layers need errorTileUrl for pruned tiles")
 chk('id="site-nav"' in html and "js/bootstrap.js" in html, "map.html must use the shared shell")
 chk('src="js/core/utils.js"' not in html and 'src="js/core/shell.js"' not in html, "ES-module files must not load as classic scripts")

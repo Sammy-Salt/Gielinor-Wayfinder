@@ -12,7 +12,7 @@ for f in ("skill-stats.js", "map.js"):
 for needle in ("method-links", "<th>Links</th>", "map.html?npc=", "map.html?legend=Fishing%20spot", "item.html?id=", 'npcLinks("monster"', 'npcLinks("npc"'):
     assert needle in sk, needle
 assert 'if(e.target.closest("a"))return;' in sk
-for needle in ("applyDeepLink", 'params.get("legend")', 'params.get("npc")', '.filter(Boolean).map(Number)'):
+for needle in ("deepLink", 'params.get("legend")', 'params.get("npc")', '.filter(Boolean).map(Number)'):
     assert needle in mp, needle
 for line in (ROOT / "audit/map-boundary.sha256").read_text().splitlines():
     h, rel = line.split("  ", 1)

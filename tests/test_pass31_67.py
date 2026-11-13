@@ -18,7 +18,7 @@ assert meta, "provenance metadata missing"
 html, js = (S / "map.html").read_text(), (S / "js/pages/map.js").read_text()
 assert "data/map/points.js" in html and html.index("shops.js") < html.index("points.js")
 assert subprocess.run(["node", "--check", str(S / "js/pages/map.js")]).returncode == 0
-for needle in ("getPointData", "legendSource", '"Fairy ring"', '"Clue dig spot"', '"Shooting star"'):
+for needle in ("OSRS_MAP_POINTS", "categories", '"Fairy ring"', '"Clue dig spot"', '"Shooting star"'):
     assert needle in js, needle
 assert (ROOT / "data-pipeline/generate_map_points.py").exists()
 for line in (ROOT / "audit/map-boundary.sha256").read_text().splitlines():

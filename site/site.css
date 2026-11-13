@@ -206,16 +206,6 @@ footer{text-align:center;color:var(--osrs-muted);font-size:.78rem;margin:26px}
 /* Map: retain full-screen behavior while sharing the same visual language. */
 body[data-page="map"]{overflow:hidden}
 body[data-page="map"] main{padding:0;width:100%;max-width:none}
-body[data-page="map"] #site-nav{position:absolute;top:0;left:0}
-body[data-page="map"] #toolbar{top:58px}
-#map{background:#0d0a07}
-body[data-page="map"] #toolbar,body[data-page="map"] #legend,body[data-page="map"] #info,body[data-page="map"] #results{border-color:var(--osrs-border)!important;box-shadow:0 5px 18px rgba(0,0,0,.55)!important;background:rgba(30,23,15,.96)!important;color:var(--osrs-text)!important}
-#search,#legendSearch{background:#120e0a!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
-#results .result{color:var(--osrs-text);border-bottom-color:var(--osrs-border-soft)}
-#results .result small,#info p{color:var(--osrs-muted)}
-#legendHeader,#legendClear,.legendTitle,.legendItem{color:var(--osrs-text)!important;background:#2b2117!important;border-color:var(--osrs-border)!important}
-.legendItem:hover{background:#493720!important}
-.coord-box{background:rgba(25,18,11,.94)!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
 
 @media(max-width:720px){
   body{font-size:14px}
@@ -468,15 +458,6 @@ body:not([data-page="map"]) > main > .controls:first-child{margin-top:4px}
 :root .bar,:root .summary-bar,:root .skill-bar,:root body:not([data-page="map"]) .bar,:root body:not([data-page="map"]) .summary-bar,:root body:not([data-page="map"]) .skill-bar{height:6px;background:var(--ui-track);border:0;border-radius:3px}
 :root .fill,:root .summary-fill,:root .skill-fill{background:var(--ui-fill)}
 
-/* Map overlays follow the theme too */
-:root body[data-page="map"] #toolbar,:root body[data-page="map"] #legend,:root body[data-page="map"] #info,:root body[data-page="map"] #results{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important;box-shadow:0 5px 18px var(--ui-shadow)!important}
-:root #search,:root #legendSearch{background:var(--ui-surface)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
-:root #legendHeader,:root #legendClear,:root .legendTitle,:root .legendItem{background:var(--ui-surface-2)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
-:root .legendItem:hover{background:var(--ui-track)!important}
-:root .coord-box{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
-:root #results .result{color:var(--ui-text);border-bottom-color:var(--ui-line)}
-:root #results .result small,:root #info p{color:var(--ui-muted)}
-:root .legend-marker span{background:var(--ui-surface);border-color:var(--ui-fill);color:var(--ui-text)}
 @media(max-width:720px){
   :root body > header,:root body > .osrs-page-header{margin-top:10px;padding:2px 0}
   :root .stats{grid-template-columns:repeat(auto-fit,minmax(80px,1fr))}
@@ -492,7 +473,6 @@ body:not([data-page="map"]) > main > .controls:first-child{margin-top:4px}
 :root body:not([data-page="map"]) .stat{text-align:left;padding:10px 12px 10px 0}
 :root body:not([data-page="map"]) .skill{background:none;border:0;border-top:1px solid var(--ui-line);border-radius:0}
 .icon:empty{display:none}
-:root #mapToolsToggle{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important;box-shadow:0 4px 14px var(--ui-shadow)!important;font-weight:500;border-radius:6px}
 
 /* PASS31.75 Home: sections are lines, not boxes; links are a quiet grid */
 :root .home-section{padding:14px 0 6px;border-top:1px solid var(--ui-line);margin:0}

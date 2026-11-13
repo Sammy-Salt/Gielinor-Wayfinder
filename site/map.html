@@ -30,38 +30,18 @@
 <div class="app-tool-actions"><a href="index.html">⌂ Home</a><button type="button" id="installApp" hidden>Install app</button><button type="button" data-action="export-player">Export player</button><label class="button-like">Import player<input type="file" accept="application/json,.json" hidden></label><span id="offlineStatus" class="offline-status">Checking offline support…</span></div>
 </div></div>
 
-
-<button id="mapToolsToggle" type="button" aria-controls="mapTools" aria-expanded="false">☰ Map tools</button>
-
-<aside id="mapTools" aria-label="Map tools" hidden>
- <div id="toolbar">
-  <label class="sr-only" for="search">Search locations</label>
-  <input id="search" type="search" placeholder="Search locations..." autocomplete="off">
-  <select id="plane" aria-label="Map floor">
-   <option value="0">Surface</option>
-   <option value="1">Plane 1</option>
-   <option value="2">Plane 2</option>
-   <option value="3">Plane 3</option>
-  </select>
+<div id="mapbar">
+ <div class="mapbar-row">
+  <label class="sr-only" for="mapSearch">Search the map</label>
+  <input id="mapSearch" type="search" placeholder="Search places, shops, NPCs, monsters" autocomplete="off">
+  <label class="sr-only" for="mapShow">Show on map</label>
+  <select id="mapShow"><option value="">Show on map…</option></select>
+  <label class="sr-only" for="mapFloor">Floor</label>
+  <select id="mapFloor"><option value="0">Ground</option><option value="1">Floor 1</option><option value="2">Floor 2</option><option value="3">Floor 3</option></select>
  </div>
- <fieldset id="layerSwitches">
-  <legend>Show on map</legend>
-  <label><input type="checkbox" data-kind="Shop" checked> Shops</label>
-  <label><input type="checkbox" data-kind="NPC" checked> NPCs</label>
-  <label><input type="checkbox" data-kind="Monster" checked> Monsters</label>
- </fieldset>
- <div id="results"></div>
- <div id="info"></div>
- <div id="legend">
-  <button id="legendHeader" type="button" aria-expanded="true">Map Key <span aria-hidden="true">▼</span></button>
-  <div id="legendBody">
-   <label class="sr-only" for="legendSearch">Search legend</label>
-   <input id="legendSearch" type="search" placeholder="Search legend...">
-   <div id="legendContent"></div>
-   <button id="legendClear" type="button">Clear markers</button>
-  </div>
- </div>
-</aside>
+ <p id="mapStatus" role="status"></p>
+ <div id="mapResults" role="listbox" aria-label="Search results" hidden></div>
+</div>
 <div id="map"></div>
 
 <script src="data/map/leaflet/leaflet.js"></script>
@@ -70,7 +50,6 @@
 <script src="data/map/monsters.js?v=2"></script>
 <script src="data/map/shops.js"></script>
 <script src="data/map/points.js"></script>
-
 <script src="js/pages/map.js"></script>
 
 <script type="module" src="js/bootstrap.js?v=42"></script>

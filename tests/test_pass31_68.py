@@ -11,6 +11,6 @@ item = (S / "js/pages/item.js").read_text(encoding="utf-8")
 for bad in ("Trusted acquisition", "canonical data model", "No trusted", "Trusted ground-spawn"):
     assert bad not in item, bad
 css = (S / "site.css").read_text()
-assert 'body[data-page="map"] #results' in css
+assert 'body[data-page="map"] #results' not in css  # old map panels removed in PASS31.77
 assert "PASS31.68 spacing" in css
 print("PASS31.68 copy and spacing gate: no heading emoji, plain-language item copy, scoped map panels, errors=0")

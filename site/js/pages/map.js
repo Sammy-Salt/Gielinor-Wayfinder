@@ -1,912 +1,249 @@
-const locations =
-    window.OSRS_MAP_LOCATIONS || [];
-
 /*
- * OSRS map tiles.
+ * World map (PASS31.77 rewrite).
  *
- * Explv's public tile layout:
+ * Plain Leaflet 1.9.4 with a simple pixel CRS. Tiles are Explv's OSRS tile set
+ * (plane/{z}/{x}/{y}.png, TMS rows). Game coordinates map straight to the map:
  *
- * plane/{z}/{x}/{y}.png
- */
-
-const ZOOM = 7;
-
-function tileCenter(x, y) {
-    const pixelX = (x + 0.5) * 256;
-    const pixelY = (y + 0.5) * 256;
-
-    return [
-        -pixelY / Math.pow(2, ZOOM),
-        pixelX / Math.pow(2, ZOOM)
-    ];
-}
-
-let currentPlane = 0;
-
-function escapeHtml(value){
-    return String(value ?? "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
-}
-
-function planeMaxZoom(plane){
-    return Number(plane) === 0 ? 8 : 8;
-}
-
-const map = L.map("map",{
-    minZoom:4,
-    maxZoom:11,
-    zoomControl:true,
-    attributionControl:true
-});
-
-/*
- * The original OSRS tile system uses TMS numbering.
- */
-// Solid-black tiles were pruned (PASS31.39); a missing tile shows the black map background.
-const BLANK_TILE = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
-
-let tileLayer =
-    L.tileLayer(
-        `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
-        {
-            minZoom:4,
-            maxZoom:planeMaxZoom(currentPlane),
-            tms:true,
-            errorTileUrl:BLANK_TILE,
-            tileSize:256,
-            noWrap:true,
-            keepBuffer:2,
-            updateWhenIdle:true,
-            updateWhenZooming:false,
-            attribution:"OSRS map tiles © Explv"
-        }
-    ).addTo(map);
-
-map.setMaxZoom(planeMaxZoom(currentPlane));
-map.setView([-79,-137], 7);
-
-/*
- * Coordinate display.
- */
-
-const coordinateControl =
-    L.control({
-        position:"bottomright"
-    });
-
-coordinateControl.onAdd =
-    function(){
-
-        const div =
-            L.DomUtil.create(
-                "div",
-                "coord-box"
-            );
-
-        div.textContent =
-            "X: — | Y: — | Plane: 0";
-
-        return div;
-    };
-
-coordinateControl.addTo(map);
-
-const coordinateElement =
-    coordinateControl
-        .getContainer();
-
-/*
- * Convert Leaflet map coordinates into
- * approximate OSRS world coordinates.
+ *   lng = gameX - ORIGIN_X        lat = gameY - ORIGIN_Y
+ *   one game tile = 2^(zoom - 6) pixels, so zoom 8 is 4px per tile and a 256px
+ *   tile covers 64 game tiles. Tile (tx, ty) starts at game (960 + 64*tx, 1216 + 64*ty) at zoom 8.
  *
- * This is kept isolated so we can replace
- * it with exact RuneLite/world-point math
- * later without changing the rest of
- * the map.
+ * Everything else (search, "show" list, deep links, popups) works on plain arrays
+ * of {name, x, y, plane}. There is no clustering, no custom projection and no
+ * per-zoom special casing.
  */
+(function () {
+  "use strict";
 
-function osrsToLatLng(x, y){
-    const MAP_HEIGHT_MAX_ZOOM_PX = 364544;
-    const RS_TILE_WIDTH_PX = 32;
-    const RS_TILE_HEIGHT_PX = 32;
-    const RS_OFFSET_X = 960;
-    const RS_OFFSET_Y = 6208;
+  const ORIGIN_X = 960;
+  const ORIGIN_Y = 1216;
+  const NATIVE_MAX_ZOOM = 8;
+  const MAX_PLOTTED = 400;
+  const WORLD = L.latLngBounds([0, 0], [145 * 64, 49 * 64]);
 
-    const px =
-        ((Number(x) - RS_OFFSET_X) * RS_TILE_WIDTH_PX) +
-        (RS_TILE_WIDTH_PX / 4);
+  const $ = id => document.getElementById(id);
+  const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-    const py =
-        MAP_HEIGHT_MAX_ZOOM_PX -
-        ((Number(y) - RS_OFFSET_Y) * RS_TILE_HEIGHT_PX);
+  /* ---------- map ---------- */
 
-    // Pixel constants above are in zoom-11 space (matches mapToOSRS). Do not use
-    // map.getMaxZoom(): the tile pyramid stops at 8, so that value gave clamped lat/lng.
-    return map.unproject(
-        L.point(px, py),
-        11
-    );
-}
+  const CRS = L.extend({}, L.CRS.Simple, {
+    scale: z => Math.pow(2, z - 6),
+    zoom: s => Math.log(s) / Math.LN2 + 6
+  });
 
-function addCoordinateTestPin(latlng){
-    const coords = mapToOSRS(latlng);
+  const toLatLng = (x, y) => L.latLng(y - ORIGIN_Y + 0.5, x - ORIGIN_X + 0.5);
+  const toGame = ll => ({ x: Math.floor(ll.lng + ORIGIN_X), y: Math.floor(ll.lat + ORIGIN_Y) });
 
-    if(window.coordinateTestPin){
-        map.removeLayer(window.coordinateTestPin);
+  const BLANK = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+  const Tiles = L.TileLayer.extend({
+    getTileUrl(c) {
+      return `data/map/assets/${this.options.floor}/${c.z}/${c.x}/${-c.y - 1}.png`;
     }
+  });
+  const tilesFor = floor => new Tiles("", {
+    floor, minZoom: 4, maxZoom: 10, maxNativeZoom: NATIVE_MAX_ZOOM,
+    bounds: WORLD, errorTileUrl: BLANK, keepBuffer: 2, updateWhenIdle: true,
+    attribution: "OSRS map tiles © Explv"
+  });
 
-    window.coordinateTestPin = L.marker(latlng,{
-        icon:L.divIcon({
-            className:"coordinate-test-pin",
-            html:"📍",
-            iconSize:[30,30],
-            iconAnchor:[15,30]
-        })
-    }).addTo(map);
+  const map = L.map("map", {
+    crs: CRS, minZoom: 4, maxZoom: 10, zoomSnap: 0.5,
+    maxBounds: WORLD.pad(0.05), maxBoundsViscosity: 0.8,
+    preferCanvas: true
+  });
+  map.zoomControl.setPosition("bottomright");
 
-    const info=document.getElementById("info");
-    info.style.display="block";
-    info.innerHTML=
-        "<h2>📍 Test Pin</h2>"+
-        "<p><b>OSRS X:</b> "+coords.x+"</p>"+
-        "<p><b>OSRS Y:</b> "+coords.y+"</p>"+
-        "<p><b>Plane:</b> "+currentPlane+"</p>";
-}
+  let floor = 0;
+  let tiles = tilesFor(floor).addTo(map);
+  const layer = L.layerGroup().addTo(map);
+  map.setView(toLatLng(3222, 3218), 7);
 
-map.on("click",function(e){
-    addCoordinateTestPin(e.latlng);
-});
+  const readout = L.control({ position: "bottomleft" });
+  readout.onAdd = () => L.DomUtil.create("div", "map-readout");
+  readout.addTo(map);
+  const showCoords = ll => {
+    const g = toGame(ll);
+    readout.getContainer().textContent = `x ${g.x}, y ${g.y}, floor ${floor}`;
+  };
+  map.on("mousemove click", e => showCoords(e.latlng));
 
-function mapToOSRS(latlng){
-    const point = map.project(latlng, 11);
+  /* ---------- data ---------- */
 
-    const x =
-        Math.round(
-            ((point.x - 8) / 32) + 960
-        );
+  const list = v => (Array.isArray(v) ? v : []);
+  const places = list(window.OSRS_MAP_LOCATIONS).map(r => ({ ...r, kind: "Place", group: "Places" }));
+  const shops = list(window.OSRS_MAP_SHOPS).map(r => ({ ...r, kind: "Shop", group: "Shops" }));
+  const points = list(window.OSRS_MAP_POINTS).map(r => ({ ...r, kind: "Point", group: r.legend }));
+  const spawns = [
+    ...list(typeof monsters !== "undefined" ? monsters : window.OSRS_MAP_MONSTERS),
+    ...list(window.OSRS_MAP_NPCS)
+  ];
 
-    const y =
-        Math.round(
-            ((364544 - point.y) / 32) + 6208
-        );
+  // Spawns grouped by name so "Man" is one search result with all its spawn points.
+  const spawnGroups = new Map();
+  for (const r of spawns) {
+    const key = `${r.type}:${String(r.name).toLowerCase()}`;
+    if (!spawnGroups.has(key)) spawnGroups.set(key, { name: r.name, kind: r.type, recs: [] });
+    spawnGroups.get(key).recs.push(r);
+  }
 
-    return {x:x, y:y};
-}
+  const fixed = [...places, ...shops, ...points];
+  const categories = new Map();
+  for (const r of fixed) {
+    if (!categories.has(r.group)) categories.set(r.group, []);
+    categories.get(r.group).push(r);
+  }
 
-/*
- * Update coordinates while moving.
- */
+  /* ---------- plotting ---------- */
 
-let coordinateFrame = 0;
-let pendingLatLng = null;
+  const GLYPH = {
+    "Fairy ring": "🍄", "Teleport destination": "✨", "Shooting star": "⭐", "Clue dig spot": "⛏",
+    "Bank": "🏦", "Dungeon": "🕳", "Fishing spot": "🎣", "Slayer Master": "💀", "Shops": "🏪", "Places": "📍"
+  };
+  const badge = group => L.divIcon({
+    className: "map-badge", html: `<span>${GLYPH[group] || "📍"}</span>`,
+    iconSize: [24, 24], iconAnchor: [12, 12], popupAnchor: [0, -12]
+  });
 
-map.on("mousemove", function(event){
-    pendingLatLng = event.latlng;
-    if (coordinateFrame) return;
-
-    coordinateFrame = requestAnimationFrame(function(){
-        coordinateFrame = 0;
-        if (!pendingLatLng) return;
-        const p = mapToOSRS(pendingLatLng);
-        coordinateElement.textContent =
-            `X: ${p.x} | Y: ${p.y} | Plane: ${currentPlane}`;
-    });
-});
-
-map.on(
-    "click",
-    function(event){
-
-        const p =
-            mapToOSRS(event.latlng);
-
-        coordinateElement.textContent =
-            `X: ${p.x} | Y: ${p.y} | Plane: ${currentPlane}`;
+  function popup(r) {
+    const bits = [`<strong>${esc(r.name)}</strong>`];
+    const sub = r.shopType ? `${r.shopType}${r.owner ? ` · run by ${r.owner}` : ""}` : (r.description || r.type || "");
+    if (sub && r.kind !== "Monster" && r.kind !== "NPC") bits.push(`<span>${esc(sub)}</span>`);
+    if (r.kind === "Monster" || r.kind === "NPC") {
+      const page = r.kind === "Monster" ? "monster" : "npc";
+      bits.push(`<span>${esc(r.kind)} · <a href="${page}.html?id=${encodeURIComponent(r.id)}">Open ${esc(r.kind.toLowerCase())} page</a></span>`);
     }
-);
+    bits.push(`<span class="muted">x ${r.x}, y ${r.y}, floor ${r.plane || 0}</span>`);
+    return bits.join("");
+  }
 
-/*
- * Location marker layer.
- */
+  function marker(r) {
+    const ll = toLatLng(r.x, r.y);
+    const m = (r.kind === "Monster" || r.kind === "NPC")
+      ? L.circleMarker(ll, { radius: 5, weight: 1.5, color: "#111", fillColor: r.kind === "Monster" ? "#e08b78" : "#8fb6e8", fillOpacity: 0.95 })
+      : L.marker(ll, { icon: badge(r.group) });
+    return m.bindPopup(popup(r));
+  }
 
-const markerLayer =
-    L.layerGroup().addTo(map);
+  let current = null; // { recs, title } so changing floor can redraw
 
-const npcLayer =
-    L.layerGroup().addTo(map);
+  function setStatus(text) {
+    $("mapStatus").textContent = text || "";
+  }
 
-const monsterLayer =
-    L.layerGroup().addTo(map);
+  function setFloor(n) {
+    n = Number(n) || 0;
+    $("mapFloor").value = String(n);
+    if (n === floor) return;
+    floor = n;
+    map.removeLayer(tiles);
+    tiles = tilesFor(floor).addTo(map);
+    tiles.bringToBack();
+  }
 
-const shopLayer =
-    L.layerGroup().addTo(map);
-
-const npcs =
-    window.OSRS_MAP_NPCS || [];
-
-// monsters.js currently declares a classic-script global named `monsters`.
-// Prefer a future window export, but retain compatibility with the shipped file.
-const monsterRecords =
-    window.OSRS_MAP_MONSTERS ||
-    (typeof monsters !== "undefined" ? monsters : []);
-
-const shops =
-    window.OSRS_MAP_SHOPS || [];
-
-const markerIcons = {
-    NPC: L.divIcon({
-        className:"map-marker",
-        html:"<span>👤</span>",
-        iconSize:[22,22],
-        iconAnchor:[11,11]
-    }),
-    Shop: L.divIcon({
-        className:"map-marker",
-        html:"<span>🏪</span>",
-        iconSize:[22,22],
-        iconAnchor:[11,11]
-    }),
-    Monster: L.divIcon({
-        className:"map-marker",
-        html:"<span>⚔️</span>",
-        iconSize:[22,22],
-        iconAnchor:[11,11]
-    })
-};
-
-function markerIcon(type){
-    return markerIcons[type] || markerIcons.NPC;
-}
-
-const locationByPlane = new Map();
-const npcByPlane = new Map();
-const monsterByPlane = new Map();
-const shopByPlane = new Map();
-
-function indexByPlane(items, target){
-    for (const item of items) {
-        const plane = item.plane === undefined ? 0 : Number(item.plane);
-        let list = target.get(plane);
-        if (!list) {
-            list = [];
-            target.set(plane, list);
-        }
-        list.push(item);
+  function render(fit) {
+    layer.clearLayers();
+    if (!current) { setStatus(""); return; }
+    const here = current.recs.filter(r => (Number(r.plane) || 0) === floor);
+    const drawn = here.slice(0, MAX_PLOTTED);
+    drawn.forEach(r => marker(r).addTo(layer));
+    const other = current.recs.length - here.length;
+    let text = `${current.title}: ${here.length} on this floor`;
+    if (other) text += `, ${other} on other floors`;
+    if (here.length > MAX_PLOTTED) text += ` (showing ${MAX_PLOTTED})`;
+    setStatus(text);
+    if (!fit || !drawn.length) return;
+    if (drawn.length === 1) {
+      map.setView(toLatLng(drawn[0].x, drawn[0].y), 8);
+      layer.eachLayer(l => l.openPopup());
+    } else {
+      map.fitBounds(L.latLngBounds(drawn.map(r => toLatLng(r.x, r.y))).pad(0.3), { maxZoom: 8 });
     }
-}
+  }
 
-indexByPlane(locations, locationByPlane);
-indexByPlane(npcs, npcByPlane);
-indexByPlane(monsterRecords, monsterByPlane);
-indexByPlane(shops, shopByPlane);
+  function plot(recs, title) {
+    current = { recs, title };
+    if (recs.length && !recs.some(r => (Number(r.plane) || 0) === floor)) setFloor(Number(recs[0].plane) || 0);
+    render(true);
+  }
 
-function planeItems(index, plane){
-    return index.get(Number(plane)) || [];
-}
+  $("mapFloor").addEventListener("change", e => { setFloor(e.target.value); render(false); });
 
-/*
- * Clustered NPC / monster / shop markers. There are ~14,000 spawn markers, so markers are
- * bucketed into screen-space cells at the current zoom and only the visible area is drawn.
- */
-const CLUSTER_CELL_PX = 64;
-const CLUSTER_ZOOM_STOP = 8;       // tile pyramid maximum; clusters remain active at this zoom
-const clusterKinds = [
-    { type:"NPC", layer:npcLayer, index:npcByPlane, label:"NPC" },
-    { type:"Monster", layer:monsterLayer, index:monsterByPlane, label:"Monster" },
-    { type:"Shop", layer:shopLayer, index:shopByPlane, label:"Shop" }
-];
+  /* ---------- "show on map" list ---------- */
 
-function clusterIcon(type, count){
-    const size = count > 99 ? 28 : 22;
-    return L.divIcon({
-        className:"map-cluster map-cluster-" + type.toLowerCase(),
-        html:"<span>" + count + "</span>",
-        iconSize:[size,size],
-        iconAnchor:[size/2,size/2]
-    });
-}
+  const show = $("mapShow");
+  for (const [name, recs] of categories) {
+    const o = document.createElement("option");
+    o.value = name;
+    o.textContent = `${name} (${recs.length})`;
+    show.appendChild(o);
+  }
+  show.addEventListener("change", () => {
+    clearResults();
+    if (!show.value) { current = null; render(false); return; }
+    plot(categories.get(show.value) || [], show.value);
+  });
 
-function markerDetails(type, rec){
-    return {
-        name:rec.name,
-        description:rec.description || rec.examine || rec.type || type,
-        category:type,
-        id:rec.id,
-        x:rec.x,
-        y:rec.y,
-        plane:rec.plane ?? 0,
-        owner:rec.owner,
-        shopType:rec.shopType
-    };
-}
+  /* ---------- search ---------- */
 
-// Which marker kinds are shown is a per-device preference.
-// NPC and monster spawns start hidden: ~13,000 markers bury the places and legend points. Switch them on under Map tools.
-const kindVisible = { NPC:false, Monster:false, Shop:true };
-try { Object.assign(kindVisible, JSON.parse(localStorage.getItem("wayfinder.map.kinds") || "{}")); } catch (e) { /* storage unavailable */ }
-document.querySelectorAll("#layerSwitches input[data-kind]").forEach(box => {
-    box.checked = kindVisible[box.dataset.kind] !== false;
-    box.addEventListener("change", () => {
-        kindVisible[box.dataset.kind] = box.checked;
-        try { localStorage.setItem("wayfinder.map.kinds", JSON.stringify(kindVisible)); } catch (e) { /* storage unavailable */ }
-        addInteractiveMarkers();
-    });
-});
+  const box = $("mapSearch"), results = $("mapResults");
+  function clearResults() { results.hidden = true; results.replaceChildren(); }
 
-function drawKind(kind, bounds, zoom){
-    kind.layer.clearLayers();
-    if (kindVisible[kind.type] === false) return;
-    const cells = new Map();
-    for (const rec of planeItems(kind.index, currentPlane)) {
-        const ll = osrsToLatLng(rec.x, rec.y);
-        if (!bounds.contains(ll)) continue;
-        // Keep clustering active at the highest available tile zoom too.
-        // Otherwise dense towns explode into hundreds of overlapping spawn icons.
-        const pt = map.project(ll, zoom);
-        const key = Math.floor(pt.x / CLUSTER_CELL_PX) + ":" + Math.floor(pt.y / CLUSTER_CELL_PX);
-        let cell = cells.get(key);
-        if (!cell) cells.set(key, cell = []);
-        cell.push({ rec, ll });
-    }
-    for (const group of cells.values()) {
-        if (group.length === 1) {
-            const { rec, ll } = group[0];
-            const marker = L.marker(ll, { icon: markerIcon(kind.type) });
-            marker.on("click", () => showLocation(markerDetails(kind.type, rec)));
-            kind.layer.addLayer(marker);
-            continue;
-        }
-        const lat = group.reduce((t, g) => t + g.ll.lat, 0) / group.length;
-        const lng = group.reduce((t, g) => t + g.ll.lng, 0) / group.length;
-        const cluster = L.marker([lat, lng], { icon: clusterIcon(kind.type, group.length) });
-        cluster.on("click", () => {
-            if (map.getZoom() < CLUSTER_ZOOM_STOP) {
-                const b = L.latLngBounds(group.map(g => g.ll));
-                map.fitBounds(b.pad(0.2), { maxZoom: CLUSTER_ZOOM_STOP, animate: true });
-                return;
-            }
-            // At maximum map zoom, show the grouped spawn names instead of
-            // pretending another zoom level is available.
-            const names = group.slice(0, 12).map(g =>
-                "<li>" + escapeHtml(g.rec.name || kind.label) + "</li>"
-            ).join("");
-            const more = group.length > 12
-                ? "<p>+" + (group.length - 12) + " more</p>"
-                : "";
-            L.popup({ maxWidth:260 })
-                .setLatLng([lat, lng])
-                .setContent("<b>" + group.length + " " + kind.label + " spawns</b><ul>" + names + "</ul>" + more)
-                .openOn(map);
-        });
-        kind.layer.addLayer(cluster);
-    }
-}
-
-let clusterTimer = null;
-function addInteractiveMarkers(){
-    const bounds = map.getBounds().pad(0.25);
-    const zoom = map.getZoom();
-    for (const kind of clusterKinds) drawKind(kind, bounds, zoom);
-}
-
-function scheduleMarkerRefresh(){
-    clearTimeout(clusterTimer);
-    clusterTimer = setTimeout(addInteractiveMarkers, 80);
-}
-map.on("moveend zoomend", scheduleMarkerRefresh);window.__dbg={map,osrsToLatLng};
-
-// The shared nav sits above the map, so overlays are positioned from the map's real top edge.
-function layoutOverlays(){
-    const nav = document.getElementById("site-nav");
-    if (nav) document.body.style.paddingTop = Math.ceil(nav.getBoundingClientRect().bottom) + "px";
-    const top = document.getElementById("map").getBoundingClientRect().top;
-    document.documentElement.style.setProperty("--map-top", Math.max(0, Math.round(top)) + "px");
-    map.invalidateSize();
-    scheduleMarkerRefresh();
-}
-window.addEventListener("resize", layoutOverlays);
-window.addEventListener("load", layoutOverlays);
-setTimeout(layoutOverlays, 400);
-setTimeout(layoutOverlays, 1500);   // the shell/app-tools bar is injected asynchronously
-
-/* Collapsible map tools: closed by default to keep the world map unobstructed. */
-const mapTools = document.getElementById("mapTools");
-const mapToolsToggle = document.getElementById("mapToolsToggle");
-function setMapToolsOpen(open) {
-    mapTools.hidden = !open;
-    mapToolsToggle.setAttribute("aria-expanded", String(open));
-    mapToolsToggle.textContent = open ? "✕ Close tools" : "☰ Map tools";
-    if (open) setTimeout(() => map.invalidateSize(), 0);
-}
-mapToolsToggle.addEventListener("click", () => setMapToolsOpen(mapTools.hidden));
-
-
-function addLocations(){
-
-    markerLayer.clearLayers();
-
-    addInteractiveMarkers();
-
-    planeItems(locationByPlane, currentPlane).forEach(function(loc){
-
-        const target = osrsToLatLng(
-            loc.x,
-            loc.y
-        );
-
-        const marker = L.marker(
-            [target.lat, target.lng],
-            {
-                interactive:false,
-                icon:L.divIcon({
-                    className:"town-label",
-                    html:"<span>" + loc.name + "</span>",
-                    iconSize:null
-                })
-            }
-        );
-
-        markerLayer.addLayer(marker);
-    });
-}function locationColor(category){
-
-    switch(category){
-
-        case "bank":
-            return "#55a7ff";
-
-        case "quest":
-            return "#e6d34d";
-
-        case "transport":
-            return "#a86cff";
-
-        case "resource":
-            return "#55c96f";
-
-        case "npc":
-            return "#ff704d";
-
-        case "entrance":
-            return "#aaa";
-
-        case "city":
-            return "#d6a84f";
-
-        default:
-            return "#fff";
-    }
-}
-
-/*
- * Location information panel.
- */
-
-function showLocation(loc){
-
-    const info =
-        document.getElementById("info");
-
-    const body = `
-        <h2>${escapeHtml(loc.name)}</h2>
-        <p>${escapeHtml(loc.description || "")}</p>
-        <p><b>Category:</b> ${escapeHtml(loc.category || loc.type || "location")}</p>
-        <p><b>X:</b> ${loc.x} &nbsp; <b>Y:</b> ${loc.y} &nbsp; <b>Plane:</b> ${loc.plane ?? 0}</p>
-    `;
-    info.innerHTML = body;
-
-    // The details open as a popup on the map itself, so the tools drawer can stay closed.
-    if (loc.x !== undefined && loc.y !== undefined) {
-        const at = osrsToLatLng(loc.x, loc.y);
-        L.popup({ maxWidth:260, className:"map-popup" })
-            .setLatLng([at.lat, at.lng])
-            .setContent(body)
-            .openOn(map);
-    }
-}
-
-
-/*
- * Search: places, shops, NPCs and monsters. Same-named spawns are grouped into one result
- * and the nearest one to the middle of the map is chosen when the result is opened.
- */
-
-const search =
-    document.getElementById("search");
-
-const results =
-    document.getElementById("results");
-
-const searchGroups = new Map();
-function addSearchRecords(list, kind){
-    for (const rec of list) {
-        if (!rec || !rec.name) continue;
-        const key = kind + "|" + String(rec.name).toLowerCase();
-        let group = searchGroups.get(key);
-        if (!group) {
-            group = { kind, name:String(rec.name), lower:String(rec.name).toLowerCase(), recs:[], text:"" };
-            searchGroups.set(key, group);
-        }
-        group.recs.push(rec);
-        if (kind === "Place" && rec.description) group.text = String(rec.description).toLowerCase();
-    }
-}
-addSearchRecords(locations, "Place");
-addSearchRecords(shops, "Shop");
-addSearchRecords(npcs, "NPC");
-addSearchRecords(monsterRecords, "Monster");
-const searchList = Array.from(searchGroups.values());
-const KIND_ORDER = { Place:0, Shop:1, NPC:2, Monster:3 };
-
-function runSearch(q){
+  function find(q) {
+    q = q.trim().toLowerCase();
+    if (q.length < 2) return [];
+    const rank = n => { n = String(n).toLowerCase(); return n === q ? 0 : n.startsWith(q) ? 1 : n.includes(q) ? 2 : 9; };
     const hits = [];
-    for (const g of searchList) {
-        let rank = -1;
-        if (g.lower === q) rank = 0;
-        else if (g.lower.startsWith(q)) rank = 1;
-        else if (g.lower.includes(q)) rank = 2;
-        else if (g.text && g.text.includes(q)) rank = 3;
-        if (rank >= 0) hits.push({ g, rank });
+    for (const r of fixed) { const k = rank(r.name); if (k < 9) hits.push({ k, name: r.name, kind: r.kind === "Point" ? r.group : r.kind, recs: [r] }); }
+    for (const g of spawnGroups.values()) { const k = rank(g.name); if (k < 9) hits.push({ k: k + 0.5, name: g.name, kind: g.kind, recs: g.recs }); }
+    return hits.sort((a, b) => a.k - b.k || a.name.localeCompare(b.name)).slice(0, 25);
+  }
+
+  function choose(hit) {
+    clearResults();
+    box.value = hit.name;
+    show.value = "";
+    plot(hit.recs, hit.name);
+  }
+
+  box.addEventListener("input", () => {
+    const hits = find(box.value);
+    results.replaceChildren();
+    if (!hits.length) { results.hidden = box.value.trim().length < 2; if (!results.hidden) results.innerHTML = '<p class="empty">No matches.</p>'; return; }
+    for (const h of hits) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.setAttribute("role", "option");
+      const count = h.recs.length > 1 ? ` · ${h.recs.length} spawns` : "";
+      b.innerHTML = `${esc(h.name)} <small>${esc(h.kind)}${count}</small>`;
+      b.addEventListener("click", () => choose(h));
+      results.appendChild(b);
     }
-    hits.sort((a, b) => a.rank - b.rank || KIND_ORDER[a.g.kind] - KIND_ORDER[b.g.kind] || a.g.lower.length - b.g.lower.length);
-    return hits.slice(0, 30).map(h => h.g);
-}
-
-function nearestRecord(recs){
-    const c = mapToOSRS(map.getCenter());
-    let best = recs[0], bestD = Infinity;
-    for (const r of recs) {
-        const d = Math.hypot((r.x - c.x), (r.y - c.y)) + (Number(r.plane ?? 0) === currentPlane ? 0 : 100000);
-        if (d < bestD) { best = r; bestD = d; }
-    }
-    return best;
-}
-
-function switchPlane(n){
-    currentPlane = Number(n);
-    document.getElementById("plane").value = currentPlane;
-    map.setMaxZoom(planeMaxZoom(currentPlane));
-    map.removeLayer(tileLayer);
-    tileLayer = L.tileLayer(
-        `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
-        {
-            minZoom:4,
-            maxZoom:planeMaxZoom(currentPlane),
-            tms:true,
-            errorTileUrl:BLANK_TILE,
-            tileSize:256,
-            noWrap:true,
-            attribution:"OSRS map tiles © Explv"
-        }
-    ).addTo(map);
-    addLocations();
-}
-
-function goToRecord(g){
-    const rec = nearestRecord(g.recs);
-    if (rec.plane !== undefined && Number(rec.plane) !== currentPlane) switchPlane(rec.plane);
-    const at = osrsToLatLng(rec.x, rec.y);
-    map.setView([at.lat, at.lng], Math.min(9, planeMaxZoom(currentPlane)));
-    showLocation(Object.assign({}, rec, { category:g.kind }));
-    results.style.display = "none";
-    search.value = g.name;
-    if (window.matchMedia("(max-width:720px)").matches) setMapToolsOpen(false);
-}
-
-search.addEventListener("input", function(){
-    const q = search.value.trim().toLowerCase();
-    results.innerHTML = "";
-    if (q.length < 2) {
-        results.style.display = "none";
-        return;
-    }
-    const found = runSearch(q);
-    if (!found.length) {
-        const none = document.createElement("div");
-        none.className = "empty";
-        none.textContent = "No places, shops, NPCs or monsters match \u201c" + search.value.trim() + "\u201d.";
-        results.appendChild(none);
-        results.style.display = "block";
-        return;
-    }
-    for (const g of found) {
-        const row = document.createElement("button");
-        row.type = "button";
-        row.className = "result";
-        const title = document.createElement("b");
-        title.textContent = g.name;
-        const meta = document.createElement("small");
-        meta.textContent = g.kind + (g.recs.length > 1 ? " \u00b7 " + g.recs.length + " locations" : "");
-        row.append(title, meta);
-        row.addEventListener("click", () => goToRecord(g));
-        results.appendChild(row);
-    }
-    results.style.display = "block";
-});
-
-/*
- * Plane switching.
- */
-
-document
-    .getElementById("plane")
-    .addEventListener(
-        "change",
-        function(){
-
-            currentPlane =
-                Number(this.value);
-
-            map.setMaxZoom(
-                planeMaxZoom(currentPlane)
-            );
-
-            if(map.getZoom() > planeMaxZoom(currentPlane)){
-                map.setZoom(planeMaxZoom(currentPlane));
-            }
-
-            map.removeLayer(
-                tileLayer
-            );
-
-            tileLayer =
-                L.tileLayer(
-                    `data/map/assets/${currentPlane}/{z}/{x}/{y}.png`,
-                    {
-                        minZoom:4,
-                        maxZoom:planeMaxZoom(currentPlane),
-                        tms:true,
-            errorTileUrl:BLANK_TILE,
-                        tileSize:256,
-                        noWrap:true,
-                        attribution:
-                            "OSRS map tiles © Explv"
-                    }
-                )
-                .addTo(map);
-
-            addLocations();
-
-        }
-    );
-
-addLocations();
-
-
-/* Interactive OSRS-style legend */
-const legendCategories = {
- "Main / World Map":[
-  "Fairy ring","Teleport destination","Shooting star","Clue dig spot",
-  "Agility shortcut","Altar","Bank","Clan Hub","Combat Achievements",
-  "Death's Office","Distraction and Diversion","Docking point","Dungeon",
-  "Dungeon with map link","Hairdresser","Holiday event","House portal",
-  "Makeover mage","Map link","Minigame","Poll booth","Quest start",
-  "Raid","Task Master","Transportation"
- ],
- "Tutors":[
-  "Bank tutor","Bond tutor","Clue tutor","Combat tutor","Cooking tutor",
-  "Crafting tutor","Danger tutor","Deadman tutor","Fishing tutor",
-  "Hunting tutor","Ironman tutor","Leagues tutor","Lumbridge Guide",
-  "Mining tutor","Prayer tutor","Security tutor","Smithing tutor",
-  "Woodcutting tutor"
- ],
- "Training":[
-  "Agility training","Anvil","Bird house trapping sites","Brewery",
-  "Combat training","Cooking range","Dairy churn","Dairy cow",
-  "Farming patch","Fishing spot","Furnace site","Hunter training",
-  "Loom","Mining site","Potters wheel","Rare trees","Sand pit",
-  "Slayer Master","Spinning wheel","Thieving activity","Trip hammer",
-  "Water source","Windmill","Woodcutting stump"
- ],
- "Shopping":[
-  "Amulet shop","Archery shop","Axe shop","Bar","Candle shop",
-  "Clothes shop","Crafting shop","Dye shop","Farming shop",
-  "Fishing shop","Food shop","Fur trader","Gem shop","General store",
-  "Helmet shop","Herblore shop","Hunter shop","Jewellery shop",
-  "Kebab seller","Mace shop","Magic shop","Mining shop","Other",
-  "Platebody shop","Platelegs shop","Plateskirt shop","Rewards shop",
-  "Scimitar shop","Shield shop","Silk shop","Silver shop","Spice shop",
-  "Staff shop","Sword shop","Vegetable shop","Wine shop"
- ]
-};
-
-// Places come from the data itself (city, settlement, bank ...).
-legendCategories.Places = Array.from(new Set(locations.map(l => l.type).filter(Boolean))).sort();
-
-const legendLayer=L.layerGroup().addTo(map);
-
-function getShopData(){return window.OSRS_MAP_SHOPS||[];}
-function getPointData(){return window.OSRS_MAP_POINTS||[];}   // generated from the 2009Scape source (data/map/points.js)
-
-function legendMatches(loc,category){
- const c=category.toLowerCase();
-
- if(loc.legend!==undefined)
-  return loc.legend===category;
-
- if(legendCategories.Places && legendCategories.Places.includes(category))
-  return String(loc.type||"").toLowerCase()===c;
-
- if(loc.shopType)
-  return String(loc.shopType).toLowerCase()===c;
-
- const text=(
-  (loc.name||"")+" "+
-  (loc.description||"")+" "+
-  (loc.type||"")
- ).toLowerCase();
-
- return text.includes(c);
-}
-
-function legendSource(category){
- return legendCategories.Shopping.includes(category)?getShopData():locations.concat(getPointData());
-}
-
-function legendCount(category){
- const source=legendSource(category);
- return source.filter(loc=>legendMatches(loc,category)).length;
-}
-
-const LEGEND_ICONS={
- "Fairy ring":"🍄","Teleport destination":"✨","Shooting star":"⭐","Clue dig spot":"⛏️",
- "Bank":"🏦","Dungeon":"🕳️","Fishing spot":"🎣","Slayer Master":"💀"
-};
-function legendIcon(category){
- const glyph=LEGEND_ICONS[category]||(/shop|store|trader|seller|bar$/i.test(category)?"🏪":"📍");
- return L.divIcon({className:"map-marker legend-marker",html:"<span>"+glyph+"</span>",iconSize:[26,26],iconAnchor:[13,13],popupAnchor:[0,-12]});
-}
-
-function showLegendCategory(category){
- legendLayer.clearLayers();
-
- // Shopping categories come from shops.js, everything else from locations.js plus the generated points.
- const source=legendSource(category);
-
- const found=source.filter(loc=>{
-  if(loc.plane!==undefined &&
-     Number(loc.plane)!==currentPlane) return false;
-
-  return legendMatches(loc,category);
- });
-
- found.forEach(loc=>{
-  const target=osrsToLatLng(loc.x,loc.y);
-
-  const marker=L.marker(
-   [target.lat,target.lng],
-   {icon:legendIcon(category)}
-  );
-
-  let info="<b>"+escapeHtml(loc.name||category)+"</b>";
-
-  if(loc.location)
-   info+="<br>📍 "+escapeHtml(loc.location);
-
-  if(loc.shopType)
-   info+="<br>🛒 "+escapeHtml(loc.shopType);
-
-  if(loc.owner)
-   info+="<br>Owner: "+escapeHtml(
-    String(loc.owner).replace(/\[\[|\]\]/g,"")
-   );
-
-  if(loc.description)
-   info+="<br><br>"+escapeHtml(loc.description);
-
-  marker.bindPopup(info);
-  legendLayer.addLayer(marker);
- });
-
- if(found.length){
-  const bounds=L.latLngBounds(
-   found.map(loc=>{
-    const p=osrsToLatLng(loc.x,loc.y);
-    return [p.lat,p.lng];
-   })
-  );
-
-  map.fitBounds(bounds,{
-   padding:[60,60],
-   maxZoom:9
+    results.hidden = false;
   });
- }
-
- document.getElementById("info").innerHTML=
-  "<b>"+escapeHtml(category)+"</b><br>"+
-  found.length+" location(s) found.<br>"+
-  "Data: "+source.length+" entries";
-}
-
-function buildLegend(){
- const content=document.getElementById("legendContent");
- content.innerHTML="";
-
- Object.entries(legendCategories).forEach(([section,items])=>{
-  const wrap=document.createElement("div");
-  wrap.className="legendSection";
-
-  const title=document.createElement("button");
-  title.type="button";
-  title.className="legendTitle";
-  title.textContent=section+" ▸";
-
-  const list=document.createElement("div");
-  list.className="legendItems";
-
-  title.addEventListener("click",()=>{
-   const open=list.style.display==="block";
-   list.style.display=open?"none":"block";
-   title.setAttribute("aria-expanded",String(!open));
-   title.textContent=section+(open?" ▸":" ▾");
+  box.addEventListener("keydown", e => {
+    if (e.key === "Enter") { const first = find(box.value)[0]; if (first) { e.preventDefault(); choose(first); } }
+    if (e.key === "Escape") clearResults();
   });
-  title.setAttribute("aria-expanded","false");
+  map.on("click", clearResults);
 
-  let shown=0;
-  items.forEach(category=>{
-   const count=legendCount(category);
-   if(!count) return;   // categories without data in this map would only be dead buttons
-   shown++;
-   const item=document.createElement("button");
-   item.type="button";
-   item.className="legendItem";
-   item.textContent=category+" ("+count+")";
-   item.dataset.search=category.toLowerCase();
+  /* ---------- deep links: ?q=name  ?legend=Category  ?npc=id,id ---------- */
 
-   item.addEventListener("click",()=>{
-    showLegendCategory(category);
-    if(window.matchMedia("(max-width:720px)").matches) setMapToolsOpen(false);
-   });
-   list.appendChild(item);
-  });
-  if(!shown) return;
-
-  wrap.appendChild(title);
-  wrap.appendChild(list);
-  content.appendChild(wrap);
- });
-}
-
-document.getElementById("legendHeader").onclick=()=>{
- const body=document.getElementById("legendBody");
- const header=document.getElementById("legendHeader");
- const open=body.style.display!=="none";
- body.style.display=open?"none":"block";
- header.setAttribute("aria-expanded",String(!open));
-};
-
-document.getElementById("legendClear").onclick=()=>{
- legendLayer.clearLayers();
- document.getElementById("info").innerHTML="";
-};
-
-const legendItems = [];
-document.getElementById("legendSearch").oninput=function(){
- const q=this.value.toLowerCase().trim();
- legendItems.forEach(item=>{
-  item.style.display=!q || item.dataset.search.includes(q) ? "block" : "none";
- });
-};
-
-buildLegend();
-legendItems.push(...document.querySelectorAll(".legendItem"));
-
-/* PASS31.72 deep links: map.html?q=<name> jumps to the best matching place/shop/NPC/monster;
-   map.html?legend=<Map Key category> plots that category;
-   map.html?npc=<id,id,...> jumps to the nearest spawn of those NPC ids. */
-(function applyDeepLink(){
- let params;
- try{params=new URLSearchParams(location.search);}catch{return;}
- const wantLegend=params.get("legend"),wantQuery=(params.get("q")||"").trim();
- const wantNpc=(params.get("npc")||"").split(",").filter(Boolean).map(Number).filter(Number.isFinite);
- if(wantNpc.length){
-  const ids=new Set(wantNpc);
-  const recs=[...monsterRecords,...npcs].filter(r=>ids.has(Number(r.id)));
-  if(recs.length)goToRecord({kind:recs[0].type||"Monster",name:recs[0].name,recs});
- }else if(wantLegend){
-  try{showLegendCategory(wantLegend);}catch(e){console.warn("legend deep link failed",e);}
- }else if(wantQuery.length>=2){
-  const found=runSearch(wantQuery.toLowerCase());
-  if(found.length)goToRecord(found[0]);
-  else{search.value=wantQuery;search.dispatchEvent(new Event("input"));}
- }
+  (function deepLink() {
+    let params;
+    try { params = new URLSearchParams(location.search); } catch { return; }
+    const npcIds = (params.get("npc") || "").split(",").filter(Boolean).map(Number).filter(Number.isFinite);
+    const legend = params.get("legend");
+    const q = (params.get("q") || "").trim();
+    if (npcIds.length) {
+      const ids = new Set(npcIds);
+      const recs = spawns.filter(r => ids.has(Number(r.id)));
+      if (recs.length) { box.value = recs[0].name; plot(recs, recs[0].name); }
+    } else if (legend && categories.has(legend)) {
+      show.value = legend;
+      plot(categories.get(legend), legend);
+    } else if (q.length >= 2) {
+      const first = find(q)[0];
+      if (first) choose(first); else { box.value = q; box.dispatchEvent(new Event("input")); }
+    }
+  })();
 })();

@@ -1,83 +1,38 @@
-/* Map page layout. Controls live in a collapsible drawer so the world remains visible. */
+/* World map: a control bar above a full-height map. No overlays on top of the tiles except the Leaflet controls. */
 html,body{margin:0;padding:0;width:100%;height:100%;height:100dvh;overflow:hidden}
 html,body{display:flex;flex-direction:column}
 body{box-sizing:border-box}
-#map{flex:1 1 auto;min-height:0;width:100%;height:auto;background:#0d0a07}
+#map{flex:1 1 auto;min-height:0;width:100%;background:#0b0b0b}
 
-/* Floating entry point: tools are closed by default. */
-#mapToolsToggle{
- position:fixed;z-index:2200;top:calc(var(--map-top,50px) + 9px);right:10px;
- min-height:42px;padding:8px 13px;border:1px solid var(--osrs-border);
- border-radius:8px;background:rgba(30,23,15,.97);color:var(--osrs-text);
- box-shadow:0 4px 14px rgba(0,0,0,.55);font-weight:700
-}
-#mapToolsToggle:focus-visible{outline:2px solid var(--osrs-gold);outline-offset:2px}
+#mapbar{position:relative;flex:0 0 auto;z-index:1500;padding:8px 10px;background:var(--ui-bg);border-bottom:1px solid var(--ui-line)}
+.mapbar-row{display:flex;gap:8px;align-items:center}
+#mapSearch{flex:1 1 180px;min-width:0;height:40px;box-sizing:border-box;padding:0 10px}
+#mapShow,#mapFloor{height:40px;box-sizing:border-box;padding:0 8px;max-width:11rem}
+#mapFloor{max-width:6.5rem}
+#mapStatus{margin:6px 0 0;min-height:0;font-size:.85rem;color:var(--ui-muted)}
+#mapStatus:empty{display:none}
 
-/* Drawer overlays the map only while the user is actively using its controls. */
-#mapTools{
- position:fixed;z-index:2100;top:calc(var(--map-top,50px) + 60px);left:8px;
- width:min(350px,calc(100vw - 16px));
- max-height:calc(100dvh - var(--map-top,50px) - 68px);
- overflow-y:auto;overscroll-behavior:contain;
- padding:9px;border:1px solid var(--osrs-border);border-radius:9px;
- background:rgba(30,23,15,.97);color:var(--osrs-text);
- box-shadow:0 6px 22px rgba(0,0,0,.62)
-}
-#mapTools[hidden]{display:none}
-#toolbar{position:static;display:flex;gap:7px;align-items:center;padding:0;margin:0 0 8px;background:transparent!important;box-shadow:none!important;border:0!important}
-#search{flex:1;min-width:0;width:100%;background:#120e0a!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
-#plane{max-width:112px;min-height:42px}
-#results{position:static;width:auto;max-height:26vh;overflow:auto;display:none;margin:0 0 8px;padding:0}
-.result{display:block;width:100%;padding:10px;text-align:left;border-bottom:1px solid var(--osrs-border-soft)}
-.result small{display:block;margin-top:3px}
-#info{position:static;width:auto;max-height:22vh;overflow:auto;padding:10px;margin:0 0 8px;display:none}
-#info h2{margin:0 0 6px;font-size:18px}
-#info p{margin:5px 0}
-#legend{position:static;width:auto;max-height:none;overflow:visible;padding:0;margin:0}
-#legendHeader{display:flex;align-items:center;justify-content:space-between;width:100%;padding:9px}
-#legendSearch{width:100%;box-sizing:border-box;margin:7px 0 8px;background:#120e0a!important;color:var(--osrs-text)!important;border-color:var(--osrs-border)!important}
-.legendSection{margin-top:6px}
-.legendTitle{display:block;width:100%;text-align:left;padding:8px;margin-bottom:2px;font-weight:bold}
-.legendItems{display:none;padding-left:4px}
-.legendItem{display:block;width:100%;text-align:left;padding:7px 6px;font-size:13px}
-#legendClear{width:100%;padding:8px;margin-top:8px}
-#results .result{color:var(--osrs-text);border-bottom-color:var(--osrs-border-soft)}
-#results .result small,#info p{color:var(--osrs-muted)}
-#legendHeader,#legendClear,.legendTitle,.legendItem{color:var(--osrs-text)!important;background:#2b2117!important;border-color:var(--osrs-border)!important}
-.legendItem:hover{background:#493720!important}
-.coord-box{padding:5px 8px;border-radius:6px;font-family:monospace;background:rgba(25,18,11,.94)!important;color:var(--osrs-text)!important;border:1px solid var(--osrs-border)!important}
+#mapResults{position:absolute;left:10px;right:10px;top:100%;max-height:45vh;overflow:auto;background:var(--ui-overlay);border:1px solid var(--ui-line);border-radius:6px;box-shadow:0 8px 24px var(--ui-shadow)}
+#mapResults[hidden]{display:none}
+#mapResults button{display:block;width:100%;min-height:44px;padding:8px 12px;border:0;border-bottom:1px solid var(--ui-line);border-radius:0;background:none;color:var(--ui-text);text-align:left}
+#mapResults button:last-child{border-bottom:0}
+#mapResults button:hover,#mapResults button:focus-visible{background:var(--ui-surface-2)}
+#mapResults small{color:var(--ui-muted);margin-left:6px}
+#mapResults .empty{margin:0;padding:12px;color:var(--ui-muted)}
+
+.map-readout{padding:4px 8px;border-radius:6px;background:var(--ui-overlay);color:var(--ui-text);border:1px solid var(--ui-line);font:12px/1.2 ui-monospace,Menlo,Consolas,monospace}
+.map-readout:empty{display:none}
+
+.map-badge span{display:flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--ui-overlay);border:2px solid var(--ui-fill);font-size:13px;line-height:1;box-shadow:0 1px 4px rgba(0,0,0,.6)}
+
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ui-surface);color:var(--ui-text)}
+.leaflet-popup-content{margin:10px 12px;font-size:14px;line-height:1.4}
+.leaflet-popup-content strong{display:block;font-size:15px}
+.leaflet-popup-content span{display:block}
+.leaflet-popup-content .muted{color:var(--ui-muted);font-size:12px}
+
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
-/* Keep spawn markers readable at every zoom, including the tile layer's max zoom. */
-.map-cluster{display:flex;align-items:center;justify-content:center;border-radius:50%;border:1.5px solid rgba(255,255,255,.9);color:#fff;font:700 11px/1 system-ui,sans-serif;text-shadow:0 1px 1px rgba(0,0,0,.45);box-shadow:0 1px 3px rgba(0,0,0,.45);cursor:pointer}
-.map-cluster-npc{background:rgba(59,111,182,.82)}
-.map-cluster-monster{background:rgba(182,74,59,.82)}
-.map-cluster-shop{background:rgba(184,137,43,.86)}
-@media(max-width:720px){
- #mapTools{width:min(350px,calc(100vw - 16px));max-height:calc(100dvh - var(--map-top,50px) - 68px);top:calc(var(--map-top,50px) + 62px)}
- #mapToolsToggle{right:8px;min-height:44px}
- #toolbar{flex-wrap:nowrap}
- #plane{max-width:104px}
- #results{max-height:24vh}
- #info{max-height:18vh}
-}
-
-/* Marker kind switches inside the tools drawer. */
-#layerSwitches{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 8px;padding:8px 10px;border:1px solid var(--osrs-border-soft);border-radius:8px}
-#layerSwitches legend{padding:0 4px;color:var(--osrs-muted);font-size:.8rem}
-#layerSwitches label{display:flex;align-items:center;gap:7px;margin:0;min-height:36px;font-weight:600;cursor:pointer}
-#layerSwitches input{width:auto;min-height:0;accent-color:var(--osrs-gold)}
-/* The map has its own location search, so the global search bar is dropped on phones to give the map the screen. */
-@media(max-width:720px){#app-tools-host{display:none}}
-
-/* Smaller markers: spawn icons and clusters stay out of the way of the tiles. */
-.map-marker{display:flex;align-items:center;justify-content:center}
-.map-marker span{font-size:14px;line-height:1;filter:drop-shadow(0 1px 1px rgba(0,0,0,.6))}
-.map-cluster{font-size:11px}
-.map-popup .leaflet-popup-content{margin:10px 12px}
-.map-popup h2{margin:0 0 4px;font-size:16px;border:0;padding:0;color:#2a1d0c}
-.map-popup p{margin:4px 0;color:#3b2e1d;font-size:13px}
-#results .empty{padding:12px;color:var(--osrs-muted)}
-
-/* PASS31.69: Map Key results get a gold-ringed badge so they stand apart from spawn markers. */
-.legend-marker span{width:26px;height:26px;border-radius:50%;background:rgba(20,15,10,.92);border:2px solid #e0b64f;font-size:15px;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.6)}
+/* The map has its own search; drop the global search bar so the map gets the screen. */
+#app-tools-host{display:none}
+@media(max-width:720px){#mapShow{max-width:7.5rem}}
