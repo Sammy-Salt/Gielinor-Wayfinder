@@ -156,6 +156,7 @@
     map.removeLayer(tiles);
     tiles = tilesFor(floor).addTo(map);
     tiles.bringToBack();
+    refreshHits();
   }
 
   function render(fit) {
@@ -249,6 +250,70 @@
     if (e.key === "Escape") clearResults();
   });
   map.on("click", clearResults);
+
+  /* ---------- tap an icon: invisible hit areas over the icons baked into the tiles ---------- */
+
+  const iconDescriptions = (window.OSRS_MAP_ICON_META || {}).descriptions || {};
+  const iconSpots = [
+    ...list(window.OSRS_MAP_ICONS).map(r => ({ ...r, what: iconDescriptions[r.name] || "" })),
+    ...shops.map(r => ({ name: r.name, plane: r.plane, x: r.x, y: r.y, what: `${r.shopType || "Shop"}${r.owner ? ` · run by ${r.owner}` : ""}` }))
+  ];
+  const hits = L.layerGroup();
+
+  function refreshHits() {
+    hits.clearLayers();
+    for (const s of iconSpots) {
+      if ((Number(s.plane) || 0) !== floor) continue;
+      const html = `<strong>${esc(s.name)}</strong>${s.what ? `<span>${esc(s.what)}</span>` : ""}<span class="muted">x ${Math.floor(s.x)}, y ${Math.floor(s.y)}, floor ${s.plane || 0}</span>`;
+      L.circleMarker(toLatLng(s.x, s.y), { radius: 15, stroke: false, fill: true, fillOpacity: 0, bubblingMouseEvents: false })
+        .bindPopup(html).addTo(hits);
+    }
+    if (map.hasLayer(hits)) hits.eachLayer(l => l.bringToBack());
+  }
+  // Below zoom 7 the icons are too small to tell apart, so the hit areas are switched off.
+  function syncHits() {
+    if (map.getZoom() >= 7) { if (!map.hasLayer(hits)) { map.addLayer(hits); hits.eachLayer(l => l.bringToBack()); } }
+    else map.removeLayer(hits);
+  }
+  map.on("zoomend", syncHits);
+  refreshHits();
+  syncHits();
+
+  /* ---------- drop a pin: click or tap empty map ---------- */
+
+  const pinIcon = L.divIcon({
+    className: "map-pin",
+    html: '<svg width="28" height="38" viewBox="0 0 28 38" aria-hidden="true"><path d="M14 1C7 1 2 6.4 2 13c0 9 12 24 12 24s12-15 12-24C26 6.4 21 1 14 1z"/><circle cx="14" cy="13" r="4.5"/></svg>',
+    iconSize: [28, 38], iconAnchor: [14, 37], popupAnchor: [0, -34]
+  });
+  let pin = null, popupClosedAt = 0;
+  map.on("popupclose", () => { popupClosedAt = Date.now(); });
+
+  function removePin() { if (pin) { pin.remove(); pin = null; } }
+
+  function dropPin(ll) {
+    const g = toGame(ll);
+    removePin();
+    const card = document.createElement("div");
+    card.className = "pin-card";
+    card.innerHTML = `<strong>Pin</strong><span>x ${g.x}, y ${g.y}</span><span class="muted">floor ${floor}</span>`;
+    const copy = document.createElement("button");
+    copy.type = "button";
+    copy.textContent = "Copy";
+    copy.addEventListener("click", async () => {
+      try { await navigator.clipboard.writeText(`${g.x}, ${g.y}`); copy.textContent = "Copied"; } catch { copy.textContent = `${g.x}, ${g.y}`; }
+    });
+    const clear = document.createElement("button");
+    clear.type = "button";
+    clear.textContent = "Remove";
+    clear.addEventListener("click", removePin);
+    card.append(copy, clear);
+    pin = L.marker(toLatLng(g.x, g.y), { icon: pinIcon, keyboard: false }).addTo(map);
+    pin.bindPopup(card).openPopup();
+  }
+
+  // A click that only closed an open popup should not also drop a pin.
+  map.on("click", e => { if (Date.now() - popupClosedAt > 80) dropPin(e.latlng); });
 
   /* ---------- deep links: ?q=name  ?legend=Category  ?npc=id,id ---------- */
 
