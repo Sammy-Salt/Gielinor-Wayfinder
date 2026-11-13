@@ -5,7 +5,7 @@ from pathlib import Path
 R = Path(__file__).resolve().parents[1]; S = R / "site"
 js = (S / "js/pages/map.js").read_text(encoding="utf-8")
 assert subprocess.run(["node", "--check", str(S / "js/pages/map.js")]).returncode == 0
-assert all(x not in js for x in ("iconSpots", "refreshHits", "fillOpacity: 0")) and "__map" not in js and len(js.splitlines()) < 380
+assert all(x not in js for x in ("iconSpots", "refreshHits", "radius: 15")) and "__map" not in js and len(js.splitlines()) < 380
 for n in ("iconPoints", "function dropPin", "popupClosedAt", "navigator.clipboard"):
     assert n in js, n
 html = (S / "map.html").read_text(encoding="utf-8")
