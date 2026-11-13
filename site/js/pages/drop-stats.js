@@ -1,8 +1,9 @@
 import { OSRS } from "../core/osrs.js";
 import { Catalog } from "../services/catalog-service.js";
 import { Drops } from "../services/drop-service.js";
-const M=document.getElementById("monster"),D=document.getElementById("drop"),K=document.getElementById("kills"),T=document.getElementById("target"),R=document.getElementById("result");
+const M=document.getElementById("monster"),D=document.getElementById("drop"),K=document.getElementById("kills"),T=document.getElementById("target"),H=document.getElementById("kph"),R=document.getElementById("result");
 let monsters=[];let requestId=0;
+function span(s){if(!Number.isFinite(s))return"—";s=Math.max(0,Math.round(s));const d=Math.floor(s/86400),h=Math.floor(s%86400/3600),m=Math.floor(s%3600/60),o=[];if(d)o.push(d+"d");if(h)o.push(h+"h");if(m)o.push(m+"m");return o.length?o.join(" "):s+"s"}
 const fmt=n=>Number.isFinite(Number(n))?Number(n).toLocaleString(undefined,{maximumFractionDigits:4}):"—";
 const pct=n=>Number.isFinite(Number(n))?(Number(n)*100).toLocaleString(undefined,{maximumFractionDigits:4})+"%":"—";
 function binom(n,k){if(k<0||k>n)return 0;let x=1;for(let i=1;i<=k;i++)x*=((n-k+i)/i);return x}
@@ -13,10 +14,10 @@ function calc(){
  const p=probability,q=1-p,none=Math.pow(q,n),one=n*p*Math.pow(q,n-1),expected=n*p,variance=n*p*q,std=Math.sqrt(variance),atLeast=1-none;
  const exactTarget=target<=n?binom(n,target)*Math.pow(p,target)*Math.pow(q,n-target):0;
  const milestones=[.1,.25,.5,.75,.9,.95,.99].map(x=>q===0?1:Math.ceil(Math.log(1-x)/Math.log(q)));
- const targetKills=Math.ceil(target/p);
+ const targetKills=Math.ceil(target/p),kph=Math.max(1,Number(H.value)||600);
  OSRS.setHTML(R,`<div class="card"><h2 class="result-heading">${OSRS.escapeHTML(o.dataset.item)}</h2><div class="small">${OSRS.escapeHTML(o.dataset.monster)} · Monster ID: ${OSRS.escapeHTML(M.value)}</div><div class="small">Rate source: ${OSRS.escapeHTML(o.dataset.rateSource||"unknown")}</div>
- <div class="grid"><div class="stat">Drop rate<b>${OSRS.escapeHTML(Drops.rateDisplay({rateNumerator:Number(o.dataset.rateNumerator),rateDenominator:Number(o.dataset.rateDenominator),rateStatus:o.dataset.rateStatus,rateApproximate:o.dataset.rateApproximate==="true"})||"Rate unavailable")}</b></div><div class="stat">Chance per kill<b>${pct(p)}</b></div><div class="stat">Expected drops<b>${fmt(expected)}</b></div><div class="stat">Expected kills<b>${fmt(r)}</b></div><div class="stat">Chance of ≥1<b>${pct(atLeast)}</b></div><div class="stat">Chance of 0<b>${pct(none)}</b></div><div class="stat">Exactly 1<b>${pct(one)}</b></div>${target===1?"":`<div class="stat">Exactly ${target}<b>${pct(exactTarget)}</b></div>`}<div class="stat">Variance<b>${fmt(variance)}</b></div><div class="stat">Std. deviation<b>${fmt(std)}</b></div></div>
- <h3>Chance milestones</h3><div class="grid">${milestones.map((v,i)=>`<div class="stat">${[10,25,50,75,90,95,99][i]}%<b>${fmt(v)} kills</b></div>`).join("")}<div class="stat">Target ${target} drops<b>~${fmt(targetKills)} kills</b></div></div></div>`);
+ <div class="grid"><div class="stat">Drop rate<b>${OSRS.escapeHTML(Drops.rateDisplay({rateNumerator:Number(o.dataset.rateNumerator),rateDenominator:Number(o.dataset.rateDenominator),rateStatus:o.dataset.rateStatus,rateApproximate:o.dataset.rateApproximate==="true"})||"Rate unavailable")}</b></div><div class="stat">Chance per kill<b>${pct(p)}</b></div><div class="stat">Expected drops<b>${fmt(expected)}</b></div><div class="stat">Expected kills<b>${fmt(r)}</b></div><div class="stat">Chance of ≥1<b>${pct(atLeast)}</b></div><div class="stat">Chance of 0<b>${pct(none)}</b></div><div class="stat">Exactly 1<b>${pct(one)}</b></div>${target===1?"":`<div class="stat">Exactly ${target}<b>${pct(exactTarget)}</b></div>`}<div class="stat">Expected time<b>${span(r/kph*3600)}</b></div><div class="stat">Drops per hour<b>${fmt(kph*p)}</b></div><div class="stat">Variance<b>${fmt(variance)}</b></div><div class="stat">Std. deviation<b>${fmt(std)}</b></div></div>
+ <h3>Chance milestones</h3><div class="grid">${milestones.map((v,i)=>`<div class="stat">${[10,25,50,75,90,95,99][i]}%<b>${fmt(v)} kills</b><span class="small">${span(v/kph*3600)}</span></div>`).join("")}<div class="stat">Target ${target} drops<b>~${fmt(targetKills)} kills</b></div></div></div>`);
 }
 async function chooseMonster(){
  const req=++requestId,id=String(M.value);D.replaceChildren();R.replaceChildren();
@@ -29,4 +30,4 @@ async function chooseMonster(){
  }catch(error){console.error("Drop data load failed",error);D.replaceChildren();const o=document.createElement("option");o.textContent="Could not load drops";o.disabled=true;D.appendChild(o);OSRS.setHTML(R,'<div class="card"><div class="warn">Could not load this monster\'s drop table.</div></div>')}
 }
 async function init(){try{monsters=(await Catalog.list("monsters")).filter(x=>Number.isFinite(Number(x.id))).sort((a,b)=>String(a.name||"").localeCompare(String(b.name||"")));M.replaceChildren();const first=document.createElement("option");first.value="";first.textContent="Select a monster…";M.appendChild(first);for(const x of monsters){const o=document.createElement("option");o.value=String(x.id);o.textContent=`${x.name||"Unknown"} (ID: ${x.id})`;M.appendChild(o)}if(monsters.length){const preferred=await OSRS.Relationships.firstMonsterWithExactRate(monsters);M.value=String((preferred||monsters[0]).id);await chooseMonster()}}catch(error){console.error("Drop statistics data load failed",error);M.replaceChildren();const o=document.createElement("option");o.textContent="Unable to load monsters";o.disabled=true;M.appendChild(o)}}
-M.addEventListener("change",chooseMonster);D.addEventListener("change",calc);[K,T].forEach(x=>{x.addEventListener("input",calc);x.addEventListener("change",calc)});document.getElementById("calc")?.addEventListener("click",calc);init();
+M.addEventListener("change",chooseMonster);D.addEventListener("change",calc);[K,T,H].forEach(x=>{x.addEventListener("input",calc);x.addEventListener("change",calc)});document.getElementById("calc")?.addEventListener("click",calc);init();

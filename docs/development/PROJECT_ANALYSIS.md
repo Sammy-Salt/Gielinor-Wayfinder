@@ -73,7 +73,7 @@ The relationship generator is `data-pipeline/generate_drop_relationships.py`.
 
 The current dataset records 52,094 monster→item relationships. PASS31.27 retains 348 Wiki-enriched exact rates, 11 conflicting Wiki-rate cases withheld from calculation, and 51,735 relationships without a trusted exact rate. No external third-party drop table is substituted for missing 2009Scape evidence.
 
-The important architectural property is that Drop Time and Drop Statistics use the same canonical relationship source. A standalone duplicate rate database must not become the hidden source of truth again.
+The important architectural property is that Drop Statistics (which also estimates time from kills per hour) uses the canonical relationship source. A standalone duplicate rate database must not become the hidden source of truth again.
 
 ## 5. Item acquisition path
 
@@ -181,7 +181,7 @@ Low-risk changes are still subject to the same documentation and Git rules when 
 
 - Item, Character, and Crafting pages now use the shared data-access layer instead of page-local `fetch()` calls.
 - Item and Monster drop displays consume the canonical monster-drop relationship service instead of the older acquisition/relationship duplication path.
-- Drop Time and Drop Statistics share the same structured exact-rate adapter and explicitly distinguish unavailable/conflicting rates from calculable rates.
+- Drop Statistics uses the structured exact-rate adapter and explicitly distinguish unavailable/conflicting rates from calculable rates.
 - The calculator defaults to a monster with an exact trusted rate when one exists, while still preserving unknown relationships as unknown.
 - Obsolete map/test CSS was moved out of the shipped PWA into `audit/map-tests/`.
 - The obsolete runtime relationship component was removed after its consumers were eliminated; detail pages now own their canonical relationship presentation.

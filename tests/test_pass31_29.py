@@ -14,9 +14,9 @@ def expected_display(n,d):
     return f'1/{value}'
 
 release=json.loads((S/'release.json').read_text())
-chk(release['release']=='PASS31.75','release mismatch')
+chk(release['release']=='PASS31.76','release mismatch')
 chk(release['buildId'] in (S/'sw.js').read_text(),'SW build mismatch')
-chk('gielinor-wayfinder-pass31.75-20261108-1' in (S/'sw.js').read_text(),'cache namespace mismatch')
+chk('gielinor-wayfinder-pass31.76-20261108-1' in (S/'sw.js').read_text(),'cache namespace mismatch')
 chk('?v=42' in (S/'js/bootstrap.js').read_text(),'loader version mismatch')
 
 # Representative exact rates, including integer, finite decimal, repeating decimal,
@@ -44,7 +44,7 @@ for root in [S/'data/relationships/monsters', S/'data/relationships/items']:
 service=(S/'js/services/drop-service.js').read_text()
 chk('formatReciprocal' in service,'shared reciprocal formatter missing')
 chk('return `1/${' in service,'shared formatter does not emit 1/X')
-for fn in ['site/js/pages/item.js','site/js/pages/drop-time.js','site/js/pages/drop-stats.js']:
+for fn in ['site/js/pages/item.js','site/js/pages/drop-stats.js']:
     chk('Drops' in (R/fn).read_text(),f'Drops service not wired: {fn}')
 
 for p in S.rglob('*.js'):
@@ -54,4 +54,4 @@ for p in S.rglob('*.json'):
     try: json.loads(p.read_text())
     except Exception as e: chk(False,f'JSON: {p}: {e}')
 
-print(f'PASS31.75 drop display tests: exactDisplaysChecked={checked} format=1/X canonical=PASS runtime=PASS syntax=PASS')
+print(f'PASS31.76 drop display tests: exactDisplaysChecked={checked} format=1/X canonical=PASS runtime=PASS syntax=PASS')
