@@ -91,6 +91,11 @@
   const places = list(window.OSRS_MAP_LOCATIONS).map(r => ({ ...r, kind: "Place", group: "Places" }));
   const shops = list(window.OSRS_MAP_SHOPS).map(r => ({ ...r, kind: "Shop", group: "Shops" }));
   const points = list(window.OSRS_MAP_POINTS).map(r => ({ ...r, kind: "Point", group: r.legend }));
+  // Cache-derived spots for the "Show on map" list. Banks are already covered by the Bank points above.
+  const iconDescriptions = (window.OSRS_MAP_ICON_META || {}).descriptions || {};
+  const iconPoints = list(window.OSRS_MAP_ICONS).filter(r => r.name !== "Bank").map(r => ({
+    ...r, kind: "Point", group: r.name === "Chaos altar" ? "Altar" : r.name, description: iconDescriptions[r.name] || ""
+  }));
   const spawns = [
     ...list(typeof monsters !== "undefined" ? monsters : window.OSRS_MAP_MONSTERS),
     ...list(window.OSRS_MAP_NPCS)
@@ -104,7 +109,7 @@
     spawnGroups.get(key).recs.push(r);
   }
 
-  const fixed = [...places, ...shops, ...points];
+  const fixed = [...places, ...shops, ...points, ...iconPoints];
   const categories = new Map();
   for (const r of fixed) {
     if (!categories.has(r.group)) categories.set(r.group, []);
@@ -115,7 +120,9 @@
 
   const GLYPH = {
     "Fairy ring": "🍄", "Teleport destination": "✨", "Shooting star": "⭐", "Clue dig spot": "⛏",
-    "Bank": "🏦", "Dungeon": "🕳", "Fishing spot": "🎣", "Slayer Master": "💀", "Shops": "🏪", "Places": "📍"
+    "Bank": "🏦", "Dungeon": "🕳", "Fishing spot": "🎣", "Slayer Master": "💀", "Shops": "🏪", "Places": "📍",
+    "Deposit box": "📥", "Altar": "⛪", "Anvil": "🔨", "Furnace": "🔥", "Cooking range": "🍳",
+    "Spinning wheel": "🧶", "Potter's wheel": "🏺", "Pottery oven": "🧱", "Loom": "🧵"
   };
   const badge = group => L.divIcon({
     className: "map-badge", html: `<span>${GLYPH[group] || "📍"}</span>`,
@@ -156,7 +163,6 @@
     map.removeLayer(tiles);
     tiles = tilesFor(floor).addTo(map);
     tiles.bringToBack();
-    refreshHits();
   }
 
   function render(fit) {
@@ -250,34 +256,6 @@
     if (e.key === "Escape") clearResults();
   });
   map.on("click", clearResults);
-
-  /* ---------- tap an icon: invisible hit areas over the icons baked into the tiles ---------- */
-
-  const iconDescriptions = (window.OSRS_MAP_ICON_META || {}).descriptions || {};
-  const iconSpots = [
-    ...list(window.OSRS_MAP_ICONS).map(r => ({ ...r, what: iconDescriptions[r.name] || "" })),
-    ...shops.map(r => ({ name: r.name, plane: r.plane, x: r.x, y: r.y, what: `${r.shopType || "Shop"}${r.owner ? ` · run by ${r.owner}` : ""}` }))
-  ];
-  const hits = L.layerGroup();
-
-  function refreshHits() {
-    hits.clearLayers();
-    for (const s of iconSpots) {
-      if ((Number(s.plane) || 0) !== floor) continue;
-      const html = `<strong>${esc(s.name)}</strong>${s.what ? `<span>${esc(s.what)}</span>` : ""}<span class="muted">x ${Math.floor(s.x)}, y ${Math.floor(s.y)}, floor ${s.plane || 0}</span>`;
-      L.circleMarker(toLatLng(s.x, s.y), { radius: 15, stroke: false, fill: true, fillOpacity: 0, bubblingMouseEvents: false })
-        .bindPopup(html).addTo(hits);
-    }
-    if (map.hasLayer(hits)) hits.eachLayer(l => l.bringToBack());
-  }
-  // Below zoom 7 the icons are too small to tell apart, so the hit areas are switched off.
-  function syncHits() {
-    if (map.getZoom() >= 7) { if (!map.hasLayer(hits)) { map.addLayer(hits); hits.eachLayer(l => l.bringToBack()); } }
-    else map.removeLayer(hits);
-  }
-  map.on("zoomend", syncHits);
-  refreshHits();
-  syncHits();
 
   /* ---------- drop a pin: click or tap empty map ---------- */
 
