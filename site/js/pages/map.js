@@ -20,6 +20,10 @@
   const NATIVE_MAX_ZOOM = 8;
   const MAX_PLOTTED = 400;
   const WORLD = L.latLngBounds([0, 0], [145 * 64, 49 * 64]);
+  // The surface world is the framed rectangle x 1016-3974, y 2106-4168. Everything else in the
+  // tile set is underground (dungeons, Zanaris, Dorgesh-Kaan, instances) and only opens up when
+  // something you plotted is down there.
+  const SURFACE = L.latLngBounds([2106 - 1216, 1016 - 960], [4169 - 1216, 3975 - 960]);
 
   const $ = id => document.getElementById(id);
   const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -40,15 +44,16 @@
       return `data/map/assets/${this.options.floor}/${c.z}/${c.x}/${-c.y - 1}.png`;
     }
   });
+  let area = SURFACE;
   const tilesFor = floor => new Tiles("", {
     floor, minZoom: 4, maxZoom: 10, maxNativeZoom: NATIVE_MAX_ZOOM,
-    bounds: WORLD, errorTileUrl: BLANK, keepBuffer: 2, updateWhenIdle: true,
+    bounds: area, errorTileUrl: BLANK, keepBuffer: 2, updateWhenIdle: true,
     attribution: "OSRS map tiles © Explv"
   });
 
   const map = L.map("map", {
     crs: CRS, minZoom: 4, maxZoom: 10, zoomSnap: 0.5,
-    maxBounds: WORLD.pad(0.05), maxBoundsViscosity: 0.8,
+    maxBounds: SURFACE.pad(0.02), maxBoundsViscosity: 0.9,
     preferCanvas: true
   });
   map.zoomControl.setPosition("bottomright");
@@ -56,7 +61,20 @@
   let floor = 0;
   let tiles = tilesFor(floor).addTo(map);
   const layer = L.layerGroup().addTo(map);
+  const surfaceZoom = () => Math.max(4, map.getBoundsZoom(SURFACE, true));
+  map.setMinZoom(surfaceZoom());
   map.setView(toLatLng(3222, 3218), 7);
+
+  function setArea(wide) {
+    const next = wide ? WORLD : SURFACE;
+    if (next === area) return;
+    area = next;
+    map.setMaxBounds(area.pad(0.02));
+    map.setMinZoom(wide ? 4 : surfaceZoom());
+    tiles.options.bounds = area;
+    tiles.redraw();
+  }
+  map.on("resize", () => { if (area === SURFACE) map.setMinZoom(surfaceZoom()); });
 
   const readout = L.control({ position: "bottomleft" });
   readout.onAdd = () => L.DomUtil.create("div", "map-readout");
@@ -142,14 +160,20 @@
 
   function render(fit) {
     layer.clearLayers();
-    if (!current) { setStatus(""); return; }
+    if (!current) { setArea(false); setStatus(""); return; }
     const here = current.recs.filter(r => (Number(r.plane) || 0) === floor);
-    const drawn = here.slice(0, MAX_PLOTTED);
+    const onSurface = here.filter(r => SURFACE.contains(toLatLng(r.x, r.y)));
+    // Mixed lists stay on the surface map; the underground tiles only open when everything plotted is down there.
+    const shown = onSurface.length ? onSurface : here;
+    const drawn = shown.slice(0, MAX_PLOTTED);
+    setArea(!onSurface.length && drawn.length > 0);
     drawn.forEach(r => marker(r).addTo(layer));
     const other = current.recs.length - here.length;
-    let text = `${current.title}: ${here.length} on this floor`;
+    let text = `${current.title}: ${shown.length} on this floor`;
     if (other) text += `, ${other} on other floors`;
-    if (here.length > MAX_PLOTTED) text += ` (showing ${MAX_PLOTTED})`;
+    if (onSurface.length && here.length > onSurface.length) text += `, ${here.length - onSurface.length} underground not shown`;
+    if (area === WORLD) text += " (underground view)";
+    if (shown.length > MAX_PLOTTED) text += ` (showing ${MAX_PLOTTED})`;
     setStatus(text);
     if (!fit || !drawn.length) return;
     if (drawn.length === 1) {

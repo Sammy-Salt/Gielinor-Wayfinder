@@ -7,7 +7,7 @@ js = (S / "js/pages/map.js").read_text(encoding="utf-8")
 html = (S / "map.html").read_text(encoding="utf-8")
 assert subprocess.run(["node", "--check", str(S / "js/pages/map.js")]).returncode == 0
 assert len(js.splitlines()) < 300, "map.js should stay small"
-for n in ("L.CRS.Simple", "ORIGIN_X = 960", "ORIGIN_Y = 1216", "-c.y - 1", "maxNativeZoom", "deepLink"):
+for n in ("L.CRS.Simple", "ORIGIN_X = 960", "ORIGIN_Y = 1216", "-c.y - 1", "maxNativeZoom", "deepLink", "const SURFACE", "function setArea", "underground view"):
     assert n in js, n
 for old in ("osrsToLatLng", "mapToOSRS", "CLUSTER_CELL_PX", "map.getMaxZoom", "--map-top"):
     assert old not in js, old
