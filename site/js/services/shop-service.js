@@ -22,5 +22,5 @@ export async function shopsHTML(npcId) {
 <div class="table-scroll"><table><thead><tr><th>Item</th><th>Stock</th><th>Restock</th></tr></thead><tbody>${
     s.stock.map(e => `<tr><td><a href="item.html?id=${encodeURIComponent(e.itemId)}">${esc(names.get(e.itemId) || "Item " + e.itemId)}</a></td><td>${esc(stockText(e.amount))}</td><td>${esc(e.restock)}</td></tr>`).join("")
   }</tbody></table></div></div>`).join("");
-  return `<details><summary>🏪 Shops — ${mine.length} ▸</summary><div>${body}</div></details>`;
+  return `<details><summary>Shops — ${mine.length} ▸</summary><div>${body}</div></details>`;
 }

@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#17130e">
-<meta name="theme-color" content="#171717">
+<meta name="theme-color" content="#111111">
 <title>Gielinor Wayfinder</title>
 
 
+  <script src="js/theme-init.js"></script>
   <link rel="stylesheet" href="site.css">
 <link rel="stylesheet" href="css/pages/index.css">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,13 +17,13 @@
 
 <body>
 <nav id="site-nav" aria-label="Primary navigation">
-<a class="site-brand" href="index.html">⚔ Gielinor Wayfinder</a>
-<a href="character.html">🧙 Character</a><a href="quests.html">⚔ Quests</a>
-<a href="progress.html">📈 Progress</a>
-<a href="goals.html">🎯 Goals</a>
-<a href="map.html">🗺 Map</a><a href="crafting.html">🔨 Crafting</a>
-<details class="nav-menu"><summary>📚 Encyclopedia</summary><div class="nav-menu-panel"><a href="monsters.html">☠ Monsters</a><a href="bosses.html">👑 Bosses</a><a href="items.html">🛡 Items</a><a href="npcs.html">👤 NPCs</a><a href="reference.html">📘 Reference</a></div></details>
-<details class="nav-menu"><summary>🧮 Calculators</summary><div class="nav-menu-panel"><a href="calculators.html">🧮 Calculators</a><a href="combat-stats.html">⚔ Combat</a><a href="skill-stats.html">📈 Skill</a><a href="drop-stats.html">📊 Drop Stats</a><a href="drop-time.html">🎯 Drop Time</a></div></details>
+<a class="site-brand" href="index.html">Wayfinder</a>
+<a href="character.html">Character</a><a href="quests.html">Quests</a>
+<a href="progress.html">Progress</a>
+<a href="goals.html">Goals</a>
+<a href="map.html">Map</a><a href="crafting.html">Crafting</a>
+<details class="nav-menu"><summary>Encyclopedia</summary><div class="nav-menu-panel"><a href="monsters.html">Monsters</a><a href="bosses.html">Bosses</a><a href="items.html">Items</a><a href="npcs.html">NPCs</a><a href="reference.html">Reference</a></div></details>
+<details class="nav-menu"><summary>Calculators</summary><div class="nav-menu-panel"><a href="calculators.html">Calculators</a><a href="combat-stats.html">Combat</a><a href="skill-stats.html">Skill</a><a href="drop-stats.html">Drop Stats</a><a href="drop-time.html">Drop Time</a></div></details>
 </nav><div id="app-tools-host" aria-label="Application tools"><div id="app-tools" class="app-tools" aria-label="Search and application tools">
 <div class="app-search-row"><input id="globalSearch" type="search" autocomplete="off" placeholder="Items, monsters, NPCs, quests..." aria-label="Search the encyclopedia"><button type="button" class="global-search-submit">Search</button></div>
 <div id="globalSearchResults" class="global-search-results" role="listbox" aria-label="Search results"></div>
@@ -33,118 +33,51 @@
 
 <div class="container osrs-content">
 
-<h1>Gielinor Wayfinder</h1>
+<h1>Home</h1>
+<div class="subtitle">Your 2009Scape character at a glance.</div>
 
-<div class="subtitle">
-Your offline OSRS command center
+<div class="stats" aria-label="Character summary">
+<div class="stat"><div class="stat-label">Total level</div><div class="stat-number" id="totalLevel">0</div></div>
+<div class="stat"><div class="stat-label">Average level</div><div class="stat-number" id="averageLevel">1</div></div>
+<div class="stat"><div class="stat-label">Quest points</div><div class="stat-number" id="questPoints">0</div></div>
 </div>
 
-<div class="card">
+<section class="home-section">
+<div class="home-head"><h2>Quest progress</h2><span class="muted"><span id="questsDone">0</span> of <span id="questTotal">0</span> (<span id="questPercent">0%</span>)</span></div>
+<div class="bar"><div class="fill" id="questFill"></div></div>
+</section>
 
-<h2>Your Progress</h2>
+<div id="assistantPanel" class="home-section"></div>
 
-<div class="stats">
-
-<div class="stat">
-<div class="stat-number" id="totalLevel">0</div>
-<div class="stat-label">Total Level</div>
-</div>
-
-<div class="stat">
-<div class="stat-number" id="averageLevel">1</div>
-<div class="stat-label">Average Level</div>
-</div>
-
-<div class="stat">
-<div class="stat-number" id="trackedSkills">0</div>
-<div class="stat-label">Skills Tracked</div>
-</div>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h2>Quest Progress</h2>
-
-<div class="stats">
-
-<div class="stat">
-<div class="stat-number" id="questsDone">0</div>
-<div class="stat-label">Completed</div>
-</div>
-
-<div class="stat">
-<div class="stat-number" id="questPoints">0</div>
-<div class="stat-label">Quest Points</div>
-</div>
-
-<div class="stat">
-<div class="stat-number" id="questPercent">0%</div>
-<div class="stat-label">Completion</div>
-</div>
-
-</div>
-
-<div class="bar">
-<div class="fill" id="questFill"></div>
-</div>
-
-</div>
-
-<div id="assistantPanel" class="card"></div>
-
-<div class="card">
-
-<h2>Current Goals</h2>
-
+<section class="home-section">
+<div class="home-head"><h2>Current goals</h2><a href="goals.html">Goals</a></div>
 <div id="goals"></div>
+</section>
 
+<section class="home-section">
+<h2>Tools</h2>
+<div class="link-grid">
+<a href="skill-stats.html">Skill calculator</a>
+<a href="combat-stats.html">Combat calculator</a>
+<a href="drop-stats.html">Drop statistics</a>
+<a href="drop-time.html">Drop time</a>
 </div>
+</section>
 
-<div class="card">
+<section class="home-section">
 <h2>Encyclopedia</h2>
-<p class="subtitle">Everything is local and connected. Browse the database or jump straight to the map.</p>
-<div class="osrs-grid">
-<a class="osrs-card osrs-card-link" href="quests.html"><h3>⚔️ Quests</h3><span>Quest tracker, requirements and dependency progress.</span></a>
-<a class="osrs-card osrs-card-link" href="monsters.html"><h3>☠️ Monsters</h3><span>Search the offline monster database.</span></a>
-<a class="osrs-card osrs-card-link" href="bosses.html"><h3>👑 Bosses</h3><span>Browse bosses and open detailed records.</span></a>
-<a class="osrs-card osrs-card-link" href="items.html"><h3>🛡️ Items</h3><span>Search the offline item database and details.</span></a>
-<a class="osrs-card osrs-card-link" href="map.html"><h3>🗺️ World Map</h3><span>Offline map with NPCs, shops and locations.</span></a>
-<a class="osrs-card osrs-card-link" href="npcs.html"><h3>👤 NPCs</h3><span>Browse NPCs, shops, locations and inventories.</span></a>
-<a class="osrs-card osrs-card-link" href="calculators.html"><h3>🧮 Calculators</h3><span>Skill, combat, drop and kill-time calculators.</span></a>
+<div class="link-grid">
+<a class="osrs-card-link" href="quests.html">Quests</a>
+<a class="osrs-card-link" href="monsters.html">Monsters</a>
+<a class="osrs-card-link" href="bosses.html">Bosses</a>
+<a class="osrs-card-link" href="items.html">Items</a>
+<a class="osrs-card-link" href="npcs.html">NPCs</a>
+<a class="osrs-card-link" href="map.html">World map</a>
 </div>
-</div>
-
-<div class="card">
-
-<h2>Companion</h2>
-
-<div class="actions">
-
-<a href="progress.html">
-📊 Skill Tracker
-</a>
-
-<a href="quests.html">
-🗡️ Quest Tracker
-</a>
-
-<a href="goals.html">
-🎯 Goal Planner
-</a>
-
-<a href="index.html">
-🏠 Dashboard
-</a>
-
-</div>
-
-</div>
+</section>
 
 <footer>
-Gielinor Wayfinder • 100% Offline
+Gielinor Wayfinder · works offline
 </footer>
 
 </div>

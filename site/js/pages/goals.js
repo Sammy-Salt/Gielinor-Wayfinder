@@ -12,7 +12,7 @@ function renderGoals() {
     const card=createTextElement("div","","goal-card");
     card.appendChild(createTextElement("div",goal.name||"Unnamed Goal","goal-name"));
     if(goal.details) card.appendChild(createTextElement("div",goal.details,"goal-details"));
-    if(goal.sourceQuest){const source=createTextElement("div","","goal-source");source.append("📜 From quest: ",goal.sourceQuest);card.appendChild(source);}
+    if(goal.sourceQuest){const source=createTextElement("div","","goal-source");source.append("From quest: ",goal.sourceQuest);card.appendChild(source);}
     if(goal.type==="skill"&&goal.skill){
       const skill=Player.getSkill(goal.skill), current=Math.max(0,Number(skill?.current??goal.current??1)), target=Math.max(1,Number(goal.target)||1);
       const remaining=Math.max(0,target-current), pct=Math.min(100,current/target*100);

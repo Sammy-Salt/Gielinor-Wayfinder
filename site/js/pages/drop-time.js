@@ -49,7 +49,7 @@ function calc(){
  let kph=Math.max(1,Number(K.value)||1);
 
  if(r==null || r <= 0){
-  OSRS.setHTML(R, '<div class="card"><div class="warn">⚠️ No trusted exact drop rate is available for this relationship. Conflicting, approximate, variable, and unknown rates are intentionally not calculated.</div></div>');
+  OSRS.setHTML(R, '<div class="card"><div class="warn">No trusted exact drop rate is available for this relationship. Conflicting, approximate, variable, and unknown rates are intentionally not calculated.</div></div>');
   return;
  }
 
@@ -85,7 +85,7 @@ function calc(){
   <div class="stat">Expected time<b>${time(expectedTime)}</b></div>
  </div>
 
- <h3>⏱️ Chance milestones</h3>
+ <h3>Chance milestones</h3>
  <div class="grid">${rows}</div>
 
  <p class="small">
@@ -133,7 +133,7 @@ async function choose(){
   calc();
  }catch(e){
   D.replaceChildren(Object.assign(document.createElement("option"), {textContent:"Could not load drops"}));
-  OSRS.setHTML(R, '<div class="card"><div class="warn">⚠️ Could not load this monster.</div></div>');
+  OSRS.setHTML(R, '<div class="card"><div class="warn">Could not load this monster.</div></div>');
  }
 }
 

@@ -1,15 +1,15 @@
 const app = document.querySelector("main,.osrs-content,.container,.content");
 if (app) {
   const links = [
-    ["combat-stats.html", "⚔ Combat Stats", "Combat accuracy, damage and DPS estimates."],
-    ["skill-stats.html", "📈 Skill Stats", "XP, actions and time-to-level estimates."],
-    ["drop-stats.html", "📊 Drop Statistics", "Probability and expected-kill calculations."],
-    ["drop-time.html", "🎯 Drop Time", "Estimate time required for target drops."]
+    ["combat-stats.html", "Combat Stats", "Combat accuracy, damage and DPS estimates."],
+    ["skill-stats.html", "Skill Stats", "XP, actions and time-to-level estimates."],
+    ["drop-stats.html", "Drop Statistics", "Probability and expected-kill calculations."],
+    ["drop-time.html", "Drop Time", "Estimate time required for target drops."]
   ];
   const wrap = document.createElement("section");
   wrap.className = "card";
   const h = document.createElement("h1");
-  h.textContent = "🧮 Calculators";
+  h.textContent = "Calculators";
   const grid = document.createElement("div");
   grid.className = "grid grid-auto";
   for (const [href, title, desc] of links) {

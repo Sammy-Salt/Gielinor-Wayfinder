@@ -294,44 +294,44 @@ body[data-page="map"] #toolbar,body[data-page="map"] #legend,body[data-page="map
  * Everything is scoped away from the map page, which keeps its own overlay styling. */
 :root{--ink:#14100b;--leather:#1d1812;--leather-2:#251e16;--rule:#3a2f20;--bone:#ece1c6;--bone-soft:#c4b799;--bone-mute:#978a6f;--gold:#dcb65e}
 body:not([data-page="map"]){
-  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.55;
-  background:var(--ink);color:var(--bone);
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.45;
+  background:var(--ui-bg);color:var(--bone);
 }
 body:not([data-page="map"])::before{display:none}
 /* titles: gold only for the page title; section headings read as quiet labels in bone */
-body:not([data-page="map"]) h1{color:var(--gold);text-shadow:none;letter-spacing:.005em}
+body:not([data-page="map"]) h1{color:var(--bone);text-shadow:none;letter-spacing:.005em}
 body:not([data-page="map"]) h2{color:var(--bone);font-size:1.15rem;border-bottom:0;padding-bottom:0;margin-bottom:10px}
 body:not([data-page="map"]) h3{color:var(--bone-soft);font-size:1rem}
 /* page header: no box, just the title on the page */
 body:not([data-page="map"]) > header,body:not([data-page="map"]) > .osrs-page-header{background:none;border:0;box-shadow:none;padding:6px 2px;margin-top:20px}
 /* panels: one flat surface with a hairline, no gradient or shadow */
 body:not([data-page="map"]) :is(.card,.section,.panel,.goal-card,.quest-card,.progress-summary,.skill,.sync-status,.quest-summary){
-  background:var(--leather);border:1px solid var(--rule);border-radius:12px;box-shadow:none;
+  background:var(--leather);border:1px solid var(--rule);border-radius:6px;box-shadow:none;
 }
-body:not([data-page="map"]) :is(.card,.quest-card,.goal-card):hover{border-color:#5b4929}
-body:not([data-page="map"]) .stat{background:var(--ink);border:0;border-radius:10px}
-body:not([data-page="map"]) :is(.stat .value,.stat-value,.stat-number,.stat b){font-family:Georgia,"Times New Roman",serif;font-size:1.45rem;font-weight:700;color:var(--bone);font-variant-numeric:tabular-nums}
+body:not([data-page="map"]) :is(.card,.quest-card,.goal-card):hover{border-color:var(--rule)}
+body:not([data-page="map"]) .stat{background:none;border:0;border-radius:0}
+body:not([data-page="map"]) :is(.stat .value,.stat-value,.stat-number,.stat b){font-size:1.25rem;font-weight:600;color:var(--bone);font-variant-numeric:tabular-nums}
 body:not([data-page="map"]) :is(.stat .label,.stat-label){color:var(--bone-mute);font-size:.8rem}
 body:not([data-page="map"]) .row{border-bottom-color:var(--rule)}
 /* navigation: text tabs; the current page gets a gold underline */
-body #site-nav{background:var(--ink);box-shadow:none;border-bottom:1px solid var(--rule);gap:2px}
+body #site-nav{background:var(--ui-bg);box-shadow:none;border-bottom:1px solid var(--rule);gap:2px}
 body #site-nav a,body .nav-menu > summary{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;box-shadow:none;color:var(--bone-soft);font-weight:600}
 body #site-nav a:hover,body .nav-menu > summary:hover,body .nav-menu[open] > summary{background:none;color:var(--bone);border-bottom-color:var(--rule)}
-body #site-nav a[aria-current="page"]{background:none;color:var(--gold);border-bottom-color:var(--gold)}
-body .site-brand{font-size:1.02rem;color:var(--gold)}
-body .nav-menu-panel{background:var(--leather-2);border:1px solid var(--rule);border-radius:12px}
+body #site-nav a[aria-current="page"]{background:none;color:var(--bone);border-bottom-color:var(--gold)}
+body .site-brand{font-size:1rem;color:var(--bone)}
+body .nav-menu-panel{background:var(--leather-2);border:1px solid var(--rule);border-radius:6px}
 body .nav-menu-panel a{border-bottom:0;border-radius:8px}
 body .nav-menu-panel a:hover{background:var(--leather)}
 /* controls */
-body:not([data-page="map"]) :is(input,select,textarea){background:var(--ink);border:1px solid #4a3b26;border-radius:10px;color:var(--bone)}
-body:not([data-page="map"]) #globalSearch{background:var(--leather);color:var(--bone);border-color:#4a3b26;border-radius:10px}
+body:not([data-page="map"]) :is(input,select,textarea){background:var(--leather);border:1px solid var(--rule);border-radius:6px;color:var(--bone)}
+body:not([data-page="map"]) #globalSearch{background:var(--leather);color:var(--bone);border-color:var(--rule);border-radius:6px}
 body:not([data-page="map"]) #globalSearch::placeholder{color:var(--bone-mute)}
-body:not([data-page="map"]) button,body:not([data-page="map"]) .button-like{background:var(--leather-2);border:1px solid #5b4929;border-radius:10px;box-shadow:none;color:var(--bone)}
-body:not([data-page="map"]) button:hover,body:not([data-page="map"]) .button-like:hover{background:#31281b;border-color:var(--gold);color:#fff3cf}
+body:not([data-page="map"]) button,body:not([data-page="map"]) .button-like{background:var(--leather-2);border:1px solid var(--rule);border-radius:6px;box-shadow:none;color:var(--bone)}
+body:not([data-page="map"]) button:hover,body:not([data-page="map"]) .button-like:hover{background:var(--leather-2);border-color:var(--gold);color:var(--bone)}
 /* lists and accordions */
-body:not([data-page="map"]) details{background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) details{background:var(--leather);border:1px solid var(--rule);border-radius:6px}
 body:not([data-page="map"]) summary:hover{background:var(--leather-2);color:var(--bone)}
-body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item){background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item){background:var(--leather);border:1px solid var(--rule);border-radius:6px}
 body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item):hover{transform:none;border-color:var(--gold)}
 body:not([data-page="map"]) .badge{background:var(--leather-2);border-color:var(--rule);color:var(--bone-soft)}
 body:not([data-page="map"]) table{background:none}
@@ -345,7 +345,7 @@ body:not([data-page="map"]) .quest-status{background:none;border:0;padding:0;mar
 body:not([data-page="map"]) .quest-status.ready,body:not([data-page="map"]) .quest-status.complete{color:var(--osrs-green-bright)}
 body:not([data-page="map"]) .quest-status.blocked{color:#e08b78}
 body:not([data-page="map"]) .quest-debug{display:none}
-body:not([data-page="map"]) :is(.note,.warn){border-radius:10px}
+body:not([data-page="map"]) :is(.note,.warn){border-radius:6px}
 @media(max-width:720px){
   body #site-nav a,body .nav-menu > summary{font-size:.92rem}
 }
@@ -353,9 +353,164 @@ body .nav-menu{background:none;border:0;border-radius:0;margin:0;overflow:visibl
 body .nav-menu > summary{padding:6px 8px}
 body:not([data-page="map"]) :is(input[type="checkbox"],input[type="radio"]){width:auto;min-height:0;accent-color:var(--gold)}
 body:not([data-page="map"]) label:has(> input[type="checkbox"]),body:not([data-page="map"]) label:has(> input[type="radio"]){display:flex;align-items:center;gap:10px}
-body:not([data-page="map"]) .recipe{background:var(--leather);border:1px solid var(--rule);border-radius:12px}
+body:not([data-page="map"]) .recipe{background:var(--leather);border:1px solid var(--rule);border-radius:6px}
 body:not([data-page="map"]) .skill{padding:14px;margin:0 0 10px}
 
 /* PASS31.68 spacing: no stray panel behind plain result lists; tighter header-to-controls gap */
 body:not([data-page="map"]) > header .subtitle{margin-bottom:6px}
 body:not([data-page="map"]) > main > .controls:first-child{margin-top:4px}
+
+/* PASS31.75 redesign: black, white and grey with one soft yellow; flat, compact and the same on every page.
+ * Dark is the default; light follows the system setting unless the person picks one (data-theme on <html>).
+ * The older --osrs-* / --leather / --gold names are kept and pointed at the new tokens so page CSS keeps working. */
+:root{
+  color-scheme:dark;
+  --ui-bg:#111111;--ui-surface:#1a1a1a;--ui-surface-2:#222222;--ui-line:#2a2a2a;
+  --ui-text:#ececec;--ui-muted:#9d9d9d;--ui-accent:#e8d48a;--ui-accent-hover:#f3e5a8;
+  --ui-fill:#e8d48a;--ui-track:#242424;--ui-on-fill:#111111;--ui-good:#9ccf8f;--ui-bad:#e59a88;
+  --ui-overlay:rgba(17,17,17,.96);--ui-shadow:rgba(0,0,0,.5);
+}
+@media(prefers-color-scheme:light){
+  :root:not([data-theme="dark"]){
+    color-scheme:light;
+    --ui-bg:#f7f7f5;--ui-surface:#ffffff;--ui-surface-2:#efefec;--ui-line:#dcdcd8;
+    --ui-text:#1b1b1b;--ui-muted:#5f5f5f;--ui-accent:#7a5f0a;--ui-accent-hover:#5c4706;
+    --ui-fill:#c9a93a;--ui-track:#e4e4e0;--ui-on-fill:#1b1b1b;--ui-good:#2f6b2a;--ui-bad:#a33a28;
+    --ui-overlay:rgba(255,255,255,.97);--ui-shadow:rgba(0,0,0,.18);
+  }
+}
+:root[data-theme="light"]{
+  color-scheme:light;
+  --ui-bg:#f7f7f5;--ui-surface:#ffffff;--ui-surface-2:#efefec;--ui-line:#dcdcd8;
+  --ui-text:#1b1b1b;--ui-muted:#5f5f5f;--ui-accent:#7a5f0a;--ui-accent-hover:#5c4706;
+  --ui-fill:#c9a93a;--ui-track:#e4e4e0;--ui-on-fill:#1b1b1b;--ui-good:#2f6b2a;--ui-bad:#a33a28;
+  --ui-overlay:rgba(255,255,255,.97);--ui-shadow:rgba(0,0,0,.18);
+}
+:root{
+  --osrs-bg:var(--ui-bg);--osrs-bg-deep:var(--ui-bg);--osrs-panel:var(--ui-surface);--osrs-panel-2:var(--ui-surface);--osrs-panel-3:var(--ui-surface-2);
+  --osrs-border:var(--ui-line);--osrs-border-soft:var(--ui-line);--osrs-gold:var(--ui-accent);--osrs-gold-bright:var(--ui-text);--osrs-gold-dark:var(--ui-line);
+  --osrs-green:var(--ui-good);--osrs-green-bright:var(--ui-good);--osrs-red:var(--ui-bad);--osrs-orange:var(--ui-bad);
+  --osrs-text:var(--ui-text);--osrs-text-soft:var(--ui-text);--osrs-muted:var(--ui-muted);--osrs-link:var(--ui-accent);--osrs-input:var(--ui-surface);--osrs-shadow:var(--ui-shadow);
+  --ink:var(--ui-track);--leather:var(--ui-surface);--leather-2:var(--ui-surface-2);--rule:var(--ui-line);--bone:var(--ui-text);--bone-soft:var(--ui-muted);--bone-mute:var(--ui-muted);--gold:var(--ui-accent);
+  --muted:var(--ui-muted);
+  font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+:root html,html{background:var(--ui-bg)}
+:root body{background:var(--ui-bg);color:var(--ui-text);font-size:15px;line-height:1.45}
+:root body::before{display:none}
+:root a{color:var(--ui-accent)}:root a:hover{color:var(--ui-accent-hover)}
+:root h1,:root h2,:root h3,:root h4{font-family:inherit;color:var(--ui-text);text-shadow:none;font-weight:600}
+:root h1{font-size:1.4rem}:root h2{font-size:1.05rem;border-bottom:0;padding-bottom:0;margin:0 0 8px}:root h3{font-size:.98rem}
+:root .subtitle,:root .sub,:root .small,:root .muted{color:var(--ui-muted)}
+
+/* Navigation: text tabs, yellow underline on the current page */
+:root body #site-nav{background:var(--ui-bg);border-bottom:1px solid var(--ui-line);box-shadow:none;gap:2px}
+:root body .site-brand{color:var(--ui-text);font-family:inherit;font-weight:600;padding:6px 14px 6px 0}
+:root body #site-nav a,:root body .nav-menu > summary{background:none;border:0;border-bottom:2px solid transparent;border-radius:0;box-shadow:none;color:var(--ui-muted);font-weight:500;padding:6px 10px}
+:root body #site-nav a:hover,:root body #site-nav a:focus-visible,:root body .nav-menu > summary:hover,:root body .nav-menu[open] > summary{background:none;color:var(--ui-text);border-color:transparent}
+:root body #site-nav a[aria-current="page"]{background:none;color:var(--ui-text);border-bottom-color:var(--ui-accent)}
+:root body .nav-menu > summary::after{color:var(--ui-muted)}
+:root body .nav-menu-panel{background:var(--ui-surface);border:1px solid var(--ui-line);border-radius:6px;box-shadow:0 8px 24px var(--ui-shadow)}
+:root body .nav-menu-panel a{border-bottom:0}
+:root .osrs-skip-link{background:var(--ui-surface);color:var(--ui-text);border-color:var(--ui-accent)}
+.theme-toggle{margin-left:auto;display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:none;border:0;color:var(--ui-muted);cursor:pointer;border-radius:6px}
+.theme-toggle:hover{background:none;color:var(--ui-text)}
+.theme-toggle svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+:root:not([data-theme="light"]) .theme-toggle .icon-moon{display:none}
+:root[data-theme="light"] .theme-toggle .icon-sun{display:none}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]):not([data-theme="light"]) .theme-toggle .icon-sun{display:none}:root:not([data-theme="dark"]):not([data-theme="light"]) .theme-toggle .icon-moon{display:block}}
+
+/* Page header and panels: flat, separated by thin lines instead of boxes */
+:root body > header,:root body > .osrs-page-header{background:none;border:0;box-shadow:none;padding:4px 0;margin:16px auto 8px}
+:root .card,:root .section,:root .panel,:root .goal-card,:root .quest-card,:root .progress-summary,:root .skill,:root .sync-status,:root .quest-summary,
+:root body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item,.recipe),:root details,:root body:not([data-page="map"]) details{
+  background:var(--ui-surface);border:1px solid var(--ui-line);border-radius:6px;box-shadow:none}
+:root .card:hover,:root .osrs-card-link:hover,:root .goal-card:hover,:root .quest-card:hover,:root body:not([data-page="map"]) :is(.osrs-card-link,.boss,.npc-list .list-item):hover{border-color:var(--ui-accent);transform:none}
+:root .card,:root .section,:root .panel,:root .progress-summary,:root .sync-status,:root .quest-summary{padding:12px 14px;margin:0 0 12px}
+:root .sync-status,:root .sync-status.error{background:none;border:0;padding:0;margin:0 0 10px;color:var(--ui-muted);font-size:.85rem}
+:root summary:hover,:root body:not([data-page="map"]) summary:hover{background:var(--ui-surface-2);color:var(--ui-text)}
+:root summary::after{color:var(--ui-muted)}
+:root .stat{background:none;border:0;border-radius:0;padding:10px 0;text-align:left}
+:root .stat b{color:var(--ui-text)}
+:root .stats{gap:0;border-top:1px solid var(--ui-line);border-bottom:1px solid var(--ui-line)}
+:root .stat .label,:root .stat-label{color:var(--ui-muted);font-size:.8rem;text-transform:none}
+:root .stat .value,:root .stat-value,:root .stat-number{font-size:1.25rem;font-weight:600;color:var(--ui-text)}
+:root .name,:root .goal-name,:root .goal-title,:root .quest-title,:root .skill-name{color:var(--ui-text);font-weight:600}
+:root .meta,:root .quest-meta,:root .count,:root .spawn,:root .label,:root .k,:root .empty,:root footer{color:var(--ui-muted)}
+:root .desc,:root .goal-details,:root label{color:var(--ui-text)}
+:root label{font-weight:500}
+:root .row,:root .location,:root .source-entry,:root .location-row,:root th,:root td{border-color:var(--ui-line)}
+:root .badge,:root body:not([data-page="map"]) .badge{background:var(--ui-surface-2);color:var(--ui-muted);border:1px solid var(--ui-line)}
+:root .note,:root pre,:root .assistant-link,:root .global-search-result{background:var(--ui-surface);border-color:var(--ui-line);color:var(--ui-text)}
+:root .warn{background:var(--ui-surface);color:var(--ui-bad);border-color:var(--ui-bad)}
+:root .ok{color:var(--ui-good)}:root .bad{color:var(--ui-bad)}
+:root table,:root body:not([data-page="map"]) table{background:none}
+:root th,:root body:not([data-page="map"]) th{background:none;color:var(--ui-muted)}
+:root tr:hover td,:root body:not([data-page="map"]) tr:hover td{background:var(--ui-surface)}
+:root .ready,:root .complete,:root .blocked{background:none;border:0}
+:root body:not([data-page="map"]) .quest-status.ready,:root body:not([data-page="map"]) .quest-status.complete{color:var(--ui-good)}
+:root body:not([data-page="map"]) .quest-status.blocked{color:var(--ui-bad)}
+:root .quest-card.completed,:root body:not([data-page="map"]) .quest-card.completed{border-left-color:var(--ui-good)}
+
+/* Controls */
+:root :where(input,select,textarea){background:var(--ui-surface);color:var(--ui-text);border:1px solid var(--ui-line);border-radius:6px;padding:9px 10px}
+:root :where(input,select,textarea)::placeholder{color:var(--ui-muted)}
+:root :where(input,select,textarea):hover{border-color:var(--ui-muted)}
+:root button,:root .button-like{background:var(--ui-surface);color:var(--ui-text);border:1px solid var(--ui-line);border-radius:6px;box-shadow:none;font-weight:500;padding:8px 12px}
+:root button:hover,:root .button-like:hover,:root body:not([data-page="map"]) button:hover,:root body:not([data-page="map"]) .button-like:hover{background:var(--ui-surface-2);border-color:var(--ui-accent);color:var(--ui-text)}
+:root :where(a,button,input,select,textarea,summary):focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
+:root #globalSearch{background:var(--ui-surface);color:var(--ui-text);border-color:var(--ui-line);border-radius:6px}
+:root #globalSearch:focus{border-color:var(--ui-accent);box-shadow:none}
+:root .global-search-results{background:var(--ui-surface);border-color:var(--ui-line);box-shadow:0 10px 28px var(--ui-shadow)}
+:root .global-search-result:hover,:root .global-search-result:focus-visible{background:var(--ui-surface-2);border-color:var(--ui-accent)}
+
+/* Progress bars: thin, yellow */
+:root .bar,:root .summary-bar,:root .skill-bar,:root body:not([data-page="map"]) .bar,:root body:not([data-page="map"]) .summary-bar,:root body:not([data-page="map"]) .skill-bar{height:6px;background:var(--ui-track);border:0;border-radius:3px}
+:root .fill,:root .summary-fill,:root .skill-fill{background:var(--ui-fill)}
+
+/* Map overlays follow the theme too */
+:root body[data-page="map"] #toolbar,:root body[data-page="map"] #legend,:root body[data-page="map"] #info,:root body[data-page="map"] #results{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important;box-shadow:0 5px 18px var(--ui-shadow)!important}
+:root #search,:root #legendSearch{background:var(--ui-surface)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
+:root #legendHeader,:root #legendClear,:root .legendTitle,:root .legendItem{background:var(--ui-surface-2)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
+:root .legendItem:hover{background:var(--ui-track)!important}
+:root .coord-box{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important}
+:root #results .result{color:var(--ui-text);border-bottom-color:var(--ui-line)}
+:root #results .result small,:root #info p{color:var(--ui-muted)}
+:root .legend-marker span{background:var(--ui-surface);border-color:var(--ui-fill);color:var(--ui-text)}
+@media(max-width:720px){
+  :root body > header,:root body > .osrs-page-header{margin-top:10px;padding:2px 0}
+  :root .stats{grid-template-columns:repeat(auto-fit,minmax(80px,1fr))}
+  :root .stat{padding:8px 0}
+}
+
+/* PASS31.75 follow-up: one font, left-aligned headers, flat sections */
+:root body :is(h1,h2,h3,h4,.stat-value,.stat b,.stat-number,.stat .value,.site-brand,th,button,input,select,textarea){font-family:inherit}
+:root body .subtitle,:root body > header,:root body > .osrs-page-header{text-align:left}
+:root body:not([data-page="map"]) :is(.card,.section,.panel,.progress-summary,.quest-summary,.sync-status){background:none;border:0;border-top:1px solid var(--ui-line);border-radius:0;padding:12px 0;margin:0}
+:root body:not([data-page="map"]) .sync-status{border-top:0;padding:0 0 10px;color:var(--ui-muted);font-size:.85rem}
+:root body:not([data-page="map"]) .stats{border-top:1px solid var(--ui-line);border-bottom:1px solid var(--ui-line);gap:0}
+:root body:not([data-page="map"]) .stat{text-align:left;padding:10px 12px 10px 0}
+:root body:not([data-page="map"]) .skill{background:none;border:0;border-top:1px solid var(--ui-line);border-radius:0}
+.icon:empty{display:none}
+:root #mapToolsToggle{background:var(--ui-overlay)!important;color:var(--ui-text)!important;border-color:var(--ui-line)!important;box-shadow:0 4px 14px var(--ui-shadow)!important;font-weight:500;border-radius:6px}
+
+/* PASS31.75 Home: sections are lines, not boxes; links are a quiet grid */
+:root .home-section{padding:14px 0 6px;border-top:1px solid var(--ui-line);margin:0}
+:root .home-section h2{margin:0 0 8px}
+:root .home-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:8px}
+:root .home-head h2{margin:0}
+:root .home-head .muted{font-size:.85rem}
+:root .home-section .bar{margin:0 0 8px}
+:root #assistantPanel .subtitle{margin:0 0 6px;font-size:.88rem}
+:root .assistant-list{display:block;border-bottom:1px solid var(--ui-line)}
+:root .assistant-link{display:flex;align-items:center;min-height:44px;padding:0 2px;border:0;border-top:1px solid var(--ui-line);border-radius:0;background:none;color:var(--ui-text)}
+:root .assistant-link:hover{color:var(--ui-accent)}
+:root .link-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-bottom:10px}
+:root .link-grid a,:root body:not([data-page="map"]) .link-grid .osrs-card-link{display:flex;align-items:center;min-height:44px;padding:0 12px;background:var(--ui-surface);border:1px solid var(--ui-line);border-radius:6px;color:var(--ui-text);text-decoration:none}
+:root .link-grid a:hover{border-color:var(--ui-accent);color:var(--ui-text)}
+:root .goal{padding:8px 0;border-top:1px solid var(--ui-line)}
+:root .goal-title{font-weight:600}
+.theme-toggle{position:sticky;right:0;background:var(--ui-bg);z-index:1}
+@media(min-width:721px){.theme-toggle{position:static}}
+:root body .theme-toggle{background:var(--ui-bg);border:0;border-radius:0;width:44px;height:44px;min-height:0;padding:0;color:var(--ui-muted)}
+:root body .theme-toggle:hover{background:var(--ui-bg);color:var(--ui-text)}

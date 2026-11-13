@@ -28,7 +28,7 @@ const npc=await Catalog.get("npcs",id);
 document.title=npc.name||"NPC";
 
 let html=`
-<h1>👤 ${esc(npc.name)}</h1>
+<h1>${esc(npc.name)}</h1>
 <div class="sub">NPC ID: ${esc(npc.id)}</div>
 `;
 
@@ -76,7 +76,7 @@ locationHTML='<div class="muted">No spawn locations available.</div>';
 
 html+=`
 <details>
-<summary>📍 Locations — ${locations.length.toLocaleString()} spawn${locations.length===1?"":"s"} ▸</summary>
+<summary>Locations — ${locations.length.toLocaleString()} spawn${locations.length===1?"":"s"} ▸</summary>
 <div>${locationHTML}</div>
 </details>`;
 

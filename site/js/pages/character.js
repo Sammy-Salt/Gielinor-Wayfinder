@@ -52,14 +52,14 @@ function refreshImportMeta(){
 async function renderCharacter(){
   const d=OSRSSync.getData();
   if(!d){
-    $("status").textContent=`🔴 Character data not loaded`;
+    $("status").textContent=`Character data not loaded`;
     return;
   }
   const p=d.player;
   const imported=Boolean(d.source?.importMode);
   $("status").textContent=imported
-    ?`🟢 Imported save · ${d.source?.fileName||d.source?.character||"local file"} · save v${d.metadata?.saveVersion??d.source?.sourceVersion??"?"}`
-    :`🟢 2009Scape save loaded · save v${d.metadata?.saveVersion??d.source?.sourceVersion??"?"}`;
+    ?`Imported save · ${d.source?.fileName||d.source?.character||"local file"} · save v${d.metadata?.saveVersion??d.source?.sourceVersion??"?"}`
+    :`2009Scape save loaded · save v${d.metadata?.saveVersion??d.source?.sourceVersion??"?"}`;
   $("subtitle").textContent=`${p.name||"Player"} · ${imported?"local imported character":"read-only local character data"}`;
 
   const skills=d.skills||[];
@@ -142,7 +142,7 @@ async function init(){
     await OSRSSync.load({force:true});
     await renderCharacter();
   }catch(e){
-    $("status").textContent=`🔴 Character data error: ${e.message}`;
+    $("status").textContent=`Character data error: ${e.message}`;
     refreshImportMeta();
   }
 }

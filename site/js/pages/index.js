@@ -1,5 +1,6 @@
 import { Player } from "../core/player-service.js";
 import { Quests } from "../core/quest-service.js";
+import { OSRSSync } from "../services/player-sync.js";
 
 const skills=["Attack","Strength","Defence","Ranged","Prayer","Magic","Runecrafting","Construction","Hitpoints","Agility","Herblore","Thieving","Crafting","Fletching","Slayer","Hunter","Mining","Smithing","Fishing","Cooking","Firemaking","Woodcutting","Farming","Summoning"];
 function renderSkills(){
@@ -14,6 +15,7 @@ async function renderQuests(){
   let done=0,qp=0; for(const q of list){if(completed.has(String(q.name))||completed.has(String(q.id))){done++;qp+=Number(q.questPoints)||0;}}
   const pct=list.length?Math.round(done/list.length*100):0;
   document.getElementById("questsDone")?.replaceChildren(String(done));
+  document.getElementById("questTotal")?.replaceChildren(String(list.length));
   document.getElementById("questPoints")?.replaceChildren(String(Player.get().quests.questPoints||qp));
   document.getElementById("questPercent")?.replaceChildren(`${pct}%`);
   const fill=document.getElementById("questFill");if(fill)fill.style.width=`${pct}%`;
@@ -21,6 +23,6 @@ async function renderQuests(){
 function renderGoals(){
   const container=document.getElementById("goals");if(!container)return;container.replaceChildren();
   const goals=Player.getGoals(); if(!goals.length){container.append("No goals yet.",document.createElement("br"),"Open Goal Planner to create one.");return;}
-  for(const goal of goals.slice(0,5)){const div=document.createElement("div");div.className="goal";const t=document.createElement("div");t.className="goal-title";t.textContent=`🎯 ${goal.name||"Goal"}`;const d=document.createElement("div");d.className="goal-details";d.textContent=goal.details||"Personal OSRS goal";div.append(t,d);container.append(div);}
+  for(const goal of goals.slice(0,5)){const div=document.createElement("div");div.className="goal";const t=document.createElement("div");t.className="goal-title";t.textContent=`${goal.name||"Goal"}`;const d=document.createElement("div");d.className="goal-details";d.textContent=goal.details||"Personal OSRS goal";div.append(t,d);container.append(div);}
 }
-renderSkills();renderGoals();renderQuests().catch(error=>{console.error(error);const el=document.getElementById("questsDone");if(el)el.textContent="—";});
+(async()=>{try{await OSRSSync.load();}catch(e){console.warn(e);}renderSkills();renderGoals();await renderQuests();})().catch(error=>{console.error(error);const el=document.getElementById("questsDone");if(el)el.textContent="—";});

@@ -223,7 +223,7 @@ async function init() {
         render();
     } catch (error) {
         console.error("Crafting data load failed", error);
-        $("summary").textContent = `🔴 Crafting data error: ${error.message}`;
+        $("summary").textContent = `Crafting data error: ${error.message}`;
     }
 }
 

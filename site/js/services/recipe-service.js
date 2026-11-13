@@ -50,5 +50,5 @@ export async function recipesHTML(itemId) {
   if (!made.length && !used.length) return "";
   const who = await character();
   const byLevel = (a, b) => (a.level || 0) - (b.level || 0);
-  return `<div class="card"><h2>🛠️ Recipes</h2><div class="subtitle">2009Scape server data first; OSRS Wiki rows are secondary.${who ? ` Checked against ${esc(who.who || "your save")}'s levels, inventory, bank and equipment.` : ""}</div>${block("🔨 Made by", names, [...made].sort(byLevel), who)}${block("🧰 Used in", names, [...used].sort(byLevel), who)}</div>`;
+  return `<div class="card"><h2>Recipes</h2><div class="subtitle">2009Scape server data first; OSRS Wiki rows are secondary.${who ? ` Checked against ${esc(who.who || "your save")}'s levels, inventory, bank and equipment.` : ""}</div>${block("Made by", names, [...made].sort(byLevel), who)}${block("Used in", names, [...used].sort(byLevel), who)}</div>`;
 }

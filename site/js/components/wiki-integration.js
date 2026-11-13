@@ -50,7 +50,7 @@ export async function appendWikiIntegration({type,id,target=document.getElementB
   const entityType=type==='item'?'items':'monsters';
   const data=await Wiki.entity(entityType,id);if(!data)return;
   const records=data.records||[];if(!records.length)return;
-  const section=card('📚 Wiki Snapshot Integration');
+  const section=card('Wiki Snapshot Integration');
   appendSourceSummary(section,records);
   await appendDropSummary(section,type,id);
   if(type==='item')await appendRecipeSummary(section,id);

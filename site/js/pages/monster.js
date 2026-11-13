@@ -195,7 +195,7 @@ ${section("Special Properties",specialKeys,monster)}
 
             <details>
                 <summary>
-                    📍 Locations — ${locations.length.toLocaleString()} spawns ▸
+                    Locations — ${locations.length.toLocaleString()} spawns ▸
                 </summary>
 
                 <div>
@@ -211,7 +211,7 @@ ${section("Special Properties",specialKeys,monster)}
                 return `
                 <details>
                     <summary>
-                        💰 Known Drops — ${rows.length.toLocaleString()} ▸
+                        Known Drops — ${rows.length.toLocaleString()} ▸
                     </summary>
                     <div class="drop-table">
                         <div class="drop-row drop-header"><div>Item</div><div>Source</div></div>

@@ -69,7 +69,7 @@ export function enhanceAppShell() {
     catch (error) { alert("Player backup could not be imported: " + error.message); }
   });
 
-  const updateOfflineStatus = () => { if (status) status.textContent = navigator.onLine ? "🟢 Online · offline cache ready" : "🟡 Offline mode"; };
+  const updateOfflineStatus = () => { if (status) status.textContent = navigator.onLine ? "Online · offline cache ready" : "Offline mode"; };
   window.addEventListener("online", updateOfflineStatus);
   window.addEventListener("offline", updateOfflineStatus);
   updateOfflineStatus();

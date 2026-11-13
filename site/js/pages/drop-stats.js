@@ -9,14 +9,14 @@ function binom(n,k){if(k<0||k>n)return 0;let x=1;for(let i=1;i<=k;i++)x*=((n-k+i
 function calc(){
  const o=D.selectedOptions[0];if(!o){R.replaceChildren();return}
  const num=Number(o.dataset.rateNumerator),den=Number(o.dataset.rateDenominator),probability=Drops.probability({rateNumerator:num,rateDenominator:den,rateStatus:o.dataset.rateStatus,rateApproximate:o.dataset.rateApproximate==="true"}),r=probability&&probability>0?1/probability:NaN,n=Math.max(1,Number(K.value)||1),target=Math.max(1,Number(T.value)||1);
- if(!Number.isFinite(r)||r<=0){OSRS.setHTML(R,'<div class="card"><div class="warn">⚠️ No trusted exact drop rate is available for this relationship. Conflicting, approximate, variable, and unknown rates are intentionally not calculated.</div></div>');return}
+ if(!Number.isFinite(r)||r<=0){OSRS.setHTML(R,'<div class="card"><div class="warn">No trusted exact drop rate is available for this relationship. Conflicting, approximate, variable, and unknown rates are intentionally not calculated.</div></div>');return}
  const p=probability,q=1-p,none=Math.pow(q,n),one=n*p*Math.pow(q,n-1),expected=n*p,variance=n*p*q,std=Math.sqrt(variance),atLeast=1-none;
  const exactTarget=target<=n?binom(n,target)*Math.pow(p,target)*Math.pow(q,n-target):0;
  const milestones=[.1,.25,.5,.75,.9,.95,.99].map(x=>q===0?1:Math.ceil(Math.log(1-x)/Math.log(q)));
  const targetKills=Math.ceil(target/p);
  OSRS.setHTML(R,`<div class="card"><h2 class="result-heading">${OSRS.escapeHTML(o.dataset.item)}</h2><div class="small">${OSRS.escapeHTML(o.dataset.monster)} · Monster ID: ${OSRS.escapeHTML(M.value)}</div><div class="small">Rate source: ${OSRS.escapeHTML(o.dataset.rateSource||"unknown")}</div>
  <div class="grid"><div class="stat">Drop rate<b>${OSRS.escapeHTML(Drops.rateDisplay({rateNumerator:Number(o.dataset.rateNumerator),rateDenominator:Number(o.dataset.rateDenominator),rateStatus:o.dataset.rateStatus,rateApproximate:o.dataset.rateApproximate==="true"})||"Rate unavailable")}</b></div><div class="stat">Chance per kill<b>${pct(p)}</b></div><div class="stat">Expected drops<b>${fmt(expected)}</b></div><div class="stat">Expected kills<b>${fmt(r)}</b></div><div class="stat">Chance of ≥1<b>${pct(atLeast)}</b></div><div class="stat">Chance of 0<b>${pct(none)}</b></div><div class="stat">Exactly 1<b>${pct(one)}</b></div>${target===1?"":`<div class="stat">Exactly ${target}<b>${pct(exactTarget)}</b></div>`}<div class="stat">Variance<b>${fmt(variance)}</b></div><div class="stat">Std. deviation<b>${fmt(std)}</b></div></div>
- <h3>🎯 Chance milestones</h3><div class="grid">${milestones.map((v,i)=>`<div class="stat">${[10,25,50,75,90,95,99][i]}%<b>${fmt(v)} kills</b></div>`).join("")}<div class="stat">Target ${target} drops<b>~${fmt(targetKills)} kills</b></div></div></div>`);
+ <h3>Chance milestones</h3><div class="grid">${milestones.map((v,i)=>`<div class="stat">${[10,25,50,75,90,95,99][i]}%<b>${fmt(v)} kills</b></div>`).join("")}<div class="stat">Target ${target} drops<b>~${fmt(targetKills)} kills</b></div></div></div>`);
 }
 async function chooseMonster(){
  const req=++requestId,id=String(M.value);D.replaceChildren();R.replaceChildren();
