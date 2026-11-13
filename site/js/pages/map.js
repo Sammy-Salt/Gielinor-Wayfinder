@@ -96,17 +96,29 @@
   const iconPoints = list(window.OSRS_MAP_ICONS).filter(r => r.name !== "Bank").map(r => ({
     ...r, kind: "Point", group: r.name === "Chaos altar" ? "Altar" : r.name, description: iconDescriptions[r.name] || ""
   }));
-  const spawns = [
-    ...list(typeof monsters !== "undefined" ? monsters : window.OSRS_MAP_MONSTERS),
-    ...list(window.OSRS_MAP_NPCS)
-  ];
-
-  // Spawns grouped by name so "Man" is one search result with all its spawn points.
+  // Spawn data (about 1 MB) loads the first time it is needed: focusing the search box, or a ?q= / ?npc= link.
+  // Spawns are grouped by name so "Man" is one search result with all its spawn points.
+  let spawns = [];
   const spawnGroups = new Map();
-  for (const r of spawns) {
-    const key = `${r.type}:${String(r.name).toLowerCase()}`;
-    if (!spawnGroups.has(key)) spawnGroups.set(key, { name: r.name, kind: r.type, recs: [] });
-    spawnGroups.get(key).recs.push(r);
+  let spawnLoad = null;
+  const loadScript = src => new Promise(done => {
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = s.onerror = () => done();
+    document.head.appendChild(s);
+  });
+  function ensureSpawns() {
+    if (!spawnLoad) {
+      spawnLoad = Promise.all([loadScript("data/map/monsters.js?v=2"), loadScript("data/map/npcs.js?v=2")]).then(() => {
+        spawns = [...list(typeof monsters !== "undefined" ? monsters : window.OSRS_MAP_MONSTERS), ...list(window.OSRS_MAP_NPCS)];
+        for (const r of spawns) {
+          const key = `${r.type}:${String(r.name).toLowerCase()}`;
+          if (!spawnGroups.has(key)) spawnGroups.set(key, { name: r.name, kind: r.type, recs: [] });
+          spawnGroups.get(key).recs.push(r);
+        }
+      });
+    }
+    return spawnLoad;
   }
 
   const fixed = [...places, ...shops, ...points, ...iconPoints];
@@ -236,7 +248,9 @@
     plot(hit.recs, hit.name);
   }
 
-  box.addEventListener("input", () => {
+  box.addEventListener("focus", ensureSpawns, { once: true });
+  box.addEventListener("input", async () => {
+    await ensureSpawns();
     const hits = find(box.value);
     results.replaceChildren();
     if (!hits.length) { results.hidden = box.value.trim().length < 2; if (!results.hidden) results.innerHTML = '<p class="empty">No matches.</p>'; return; }
@@ -251,8 +265,8 @@
     }
     results.hidden = false;
   });
-  box.addEventListener("keydown", e => {
-    if (e.key === "Enter") { const first = find(box.value)[0]; if (first) { e.preventDefault(); choose(first); } }
+  box.addEventListener("keydown", async e => {
+    if (e.key === "Enter") { e.preventDefault(); await ensureSpawns(); const first = find(box.value)[0]; if (first) choose(first); }
     if (e.key === "Escape") clearResults();
   });
   map.on("click", clearResults);
@@ -295,13 +309,14 @@
 
   /* ---------- deep links: ?q=name  ?legend=Category  ?npc=id,id ---------- */
 
-  (function deepLink() {
+  (async function deepLink() {
     let params;
     try { params = new URLSearchParams(location.search); } catch { return; }
     const npcIds = (params.get("npc") || "").split(",").filter(Boolean).map(Number).filter(Number.isFinite);
     const legend = params.get("legend");
     const q = (params.get("q") || "").trim();
     if (npcIds.length) {
+      await ensureSpawns();
       const ids = new Set(npcIds);
       const recs = spawns.filter(r => ids.has(Number(r.id)));
       if (recs.length) { box.value = recs[0].name; plot(recs, recs[0].name); }
@@ -309,6 +324,7 @@
       show.value = legend;
       plot(categories.get(legend), legend);
     } else if (q.length >= 2) {
+      await ensureSpawns();
       const first = find(q)[0];
       if (first) choose(first); else { box.value = q; box.dispatchEvent(new Event("input")); }
     }
