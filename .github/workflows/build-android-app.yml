@@ -1,0 +1,181 @@
+name: Build Android app (offline)
+
+# Builds the native, fully offline Gielinor Wayfinder app: the whole `site/` folder is bundled
+# inside the APK (Capacitor), the app has no network permission, and nothing is loaded from a server.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_name:
+        description: "Version name (e.g. 1.2.0)"
+        required: true
+        default: "1.2.0"
+      version_code:
+        description: "Version code (integer, must grow with every release)"
+        required: true
+        default: "3"
+      publish:
+        description: "Publish a GitHub Release when the smoke test passes"
+        required: true
+        default: "true"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: "platform-tools platforms;android-34 build-tools;34.0.0"
+
+      - name: Install Pillow (icons)
+        run: python3 -m pip install --upgrade pillow
+
+      - name: Install Capacitor
+        working-directory: android-app
+        run: npm install --no-audit --no-fund
+
+      - name: Generate Android project
+        working-directory: android-app
+        run: npx cap add android
+
+      - name: Apply app name, icons, theme, version, no network permission
+        working-directory: android-app
+        env:
+          VERSION_NAME: ${{ inputs.version_name }}
+          VERSION_CODE: ${{ inputs.version_code }}
+        run: python3 scripts/apply_android_overrides.py
+
+      - name: Bundle the site into the app
+        working-directory: android-app
+        run: |
+          npx cap sync android
+          PUB=android/app/src/main/assets/public
+          # Browser-install files the app does not use.
+          rm -rf "$PUB/sw.js" "$PUB/release-manifest.json" "$PUB/.well-known"
+          echo "bundled files: $(find "$PUB" -type f | wc -l), size: $(du -sh "$PUB" | cut -f1)"
+          test -f "$PUB/index.html"
+
+      - name: Build release APK
+        working-directory: android-app/android
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --console=plain
+
+      - name: Align and sign
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+          KS_PASS_SECRET: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KS_ALIAS_SECRET: ${{ secrets.ANDROID_KEY_ALIAS }}
+          VERSION_NAME: ${{ inputs.version_name }}
+        run: |
+          set -euo pipefail
+          BT="$ANDROID_HOME/build-tools/34.0.0"
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/release.keystore"
+            KS="$RUNNER_TEMP/release.keystore"; PASS="$KS_PASS_SECRET"; ALIAS="$KS_ALIAS_SECRET"
+            echo "Signing with the repository secret key."
+          else
+            KS="android-app/signing/wayfinder-sideload.keystore"; PASS="wayfinder-sideload"; ALIAS="wayfinder"
+            echo "Signing with the committed sideload key (see ADR-0007)."
+          fi
+          IN="$(find android-app/android/app/build/outputs/apk/release -name '*.apk' | head -1)"
+          test -s "$IN"
+          OUT="Gielinor-Wayfinder-${VERSION_NAME}.apk"
+          "$BT/zipalign" -p -f 4 "$IN" aligned.apk
+          "$BT/apksigner" sign --ks "$KS" --ks-pass "pass:$PASS" --ks-key-alias "$ALIAS" --out "$OUT" aligned.apk
+          "$BT/apksigner" verify --print-certs "$OUT" | head -4
+          ls -lh "$OUT"
+          echo "APK=$OUT" >> "$GITHUB_ENV"
+
+      - name: Check the APK
+        env:
+          VERSION_NAME: ${{ inputs.version_name }}
+          VERSION_CODE: ${{ inputs.version_code }}
+        run: |
+          set -euo pipefail
+          BT="$ANDROID_HOME/build-tools/34.0.0"
+          "$BT/aapt2" dump badging "$APK" > badging.txt
+          head -3 badging.txt
+          grep -q "package: name='com.sammysalt.gielinorwayfinder'" badging.txt
+          grep -q "versionName='$VERSION_NAME'" badging.txt
+          grep -q "versionCode='$VERSION_CODE'" badging.txt
+          grep -q "application-label:'Gielinor Wayfinder'" badging.txt
+          if grep -q "uses-permission: name='android.permission.INTERNET'" badging.txt; then echo "APK requests INTERNET"; exit 1; fi
+          unzip -l "$APK" | grep -c "assets/public/" | xargs echo "bundled asset files:"
+          unzip -l "$APK" | grep -q "assets/public/index.html"
+          unzip -l "$APK" | grep -q "assets/public/data/map/assets/0/8/35/31.png"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gielinor-wayfinder-apk
+          path: ${{ env.APK }}
+          if-no-files-found: error
+          retention-days: 14
+
+  smoke:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: gielinor-wayfinder-apk
+          path: apk
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Run the app on an emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disk-size: 8000M
+          heap-size: 1024M
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: bash android-app/scripts/smoke_test.sh "$(ls $PWD/apk/*.apk | head -1)"
+
+  release:
+    needs: [build, smoke]
+    if: ${{ inputs.publish == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: gielinor-wayfinder-apk
+          path: apk
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION_NAME: ${{ inputs.version_name }}
+        run: |
+          set -euo pipefail
+          TAG="app-v${VERSION_NAME}"
+          gh release delete "$TAG" --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" apk/*.apk --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Gielinor Wayfinder ${VERSION_NAME}" \
+            --notes "Offline Android app. The whole site is inside the APK: no internet permission, no browser, no install from a web page. Allow installs from this source, open the file, and it appears as Gielinor Wayfinder. Updates install over the top of earlier versions from this workflow."

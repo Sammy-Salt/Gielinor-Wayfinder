@@ -1,61 +1,33 @@
-# Android APK (TWA) Setup
+# Android app (offline)
 
-This project uses **Option A**: the PWA is hosted on GitHub Pages and wrapped in a Trusted Web Activity (TWA) shell. The APK is a thin native wrapper. All content and updates come from the live site (your existing service worker handles caching and versioned releases).
+Gielinor Wayfinder ships as a native Android app that contains the whole site. It needs no internet, no browser and no install from a web page. See ADR-0007.
 
-## Live URL
+## Get the app
 
-After the first successful deploy:
+1. Open the repository's **Releases** page and download `Gielinor-Wayfinder-<version>.apk` from the newest `app-v…` release.
+2. On the phone, allow installs from the browser or file manager when asked, open the file and install.
+3. The app appears as **Gielinor Wayfinder**. Later releases install over the top and keep your saved player data.
 
-**https://sammy-salt.github.io/Gielinor-Wayfinder/**
+If an older web-wrapper build (version 1.x TWA) is installed, uninstall it once first: it was signed with a different key.
 
-## One-time setup steps (do these in the GitHub UI)
+## Make a new release
 
-### 1. Enable GitHub Pages
+1. Land and validate the change on `main` (PASS process).
+2. **Actions → Build Android app (offline) → Run workflow.** Set the version name (for example `1.3.0`) and a version code larger than the last one.
+3. The workflow builds, signs, checks the APK, runs it on an emulator and, if that passes, publishes the release.
 
-1. Go to the repository **Settings → Pages**.
-2. Under **Build and deployment → Source**, choose **GitHub Actions**.
-3. The workflow `.github/workflows/deploy-pages.yml` will run on every push to `main` and publish the `site/` folder.
+## What the workflow checks
 
-### 2. First deploy
+Package name `com.sammysalt.gielinorwayfinder`, app name, version, no `INTERNET` permission, `index.html` and map tiles inside the APK, then install, launch and render of the Home page on an Android 34 emulator.
 
-Push any change to `main` (or manually run the **Deploy to GitHub Pages** workflow). Wait until it finishes. The site should then be reachable at the URL above.
+## Layout
 
-### 3. Build the APK
+- `android-app/package.json`, `capacitor.config.json` – Capacitor shell, web directory `../site`.
+- `android-app/scripts/apply_android_overrides.py` – name, version, icons, splash, bar colours, removes network permission.
+- `android-app/scripts/smoke_test.sh` – emulator test.
+- `android-app/signing/` – sideload signing key (used unless repository secrets provide another).
+- `.github/workflows/build-android-app.yml` – the build.
 
-1. Go to the **Actions** tab.
-2. Select the **Build APK (TWA)** workflow.
-3. Click **Run workflow**.
-4. Optionally set version name / version code.
-5. After it finishes, download the APK artifact (`gielinor-wayfinder-apk`).
+## Signing
 
-### 4. Install on device
-
-- Enable "Install from unknown sources" / allow the browser or file manager to install APKs.
-- Install the downloaded APK.
-
-Because the APK points at the GitHub Pages URL, any future push to `main` that updates `site/` will be available in the app (the PWA service worker will pick up the new release).
-
-## Signing note
-
-The current CI workflow generates a **temporary keystore** on every run. This is fine for testing/sideloading, but each build will have a different signing key, so Android will treat them as different apps (you cannot update an earlier install with a later CI build).
-
-For production / proper updates:
-
-1. Generate a permanent keystore once:
-   ```bash
-   keytool -genkey -v -keystore android.keystore -alias android -keyalg RSA -keysize 2048 -validity 10000
-   ```
-2. Store the keystore + passwords as GitHub Actions secrets.
-3. Update the build workflow to use those secrets instead of generating a new keystore.
-4. Put the SHA-256 fingerprint of that key into `site/.well-known/assetlinks.json` so full TWA verification works.
-
-## Package ID
-
-`com.sammysalt.gielinorwayfinder`
-
-## Related files
-
-- `.github/workflows/deploy-pages.yml` – publishes `site/` to GitHub Pages
-- `.github/workflows/build-apk.yml` – builds the TWA APK on demand
-- `android/twa-manifest.json` – Bubblewrap / TWA configuration
-- `site/.well-known/assetlinks.json` – Digital Asset Links (fill in the SHA-256 fingerprint later)
+By default the committed sideload key is used so updates install in place. To use a private key, add the secrets `ANDROID_KEYSTORE_B64` (base64 of the keystore), `ANDROID_KEYSTORE_PASSWORD` and `ANDROID_KEY_ALIAS`; phones must then reinstall once.

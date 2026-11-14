@@ -1,15 +1,11 @@
 {
   "formatVersion": 1,
-  "release": "PASS31.81",
-  "buildId": "pass31.81-20261108-1",
+  "release": "PASS31.82",
+  "buildId": "pass31.82-20261108-1",
   "manifestExcludes": [
     "release-manifest.json"
   ],
   "files": {
-    ".well-known/assetlinks.json": {
-      "sha256": "fa3ec365c44483ebe8eed58b62954b22af4ff73147abefd605b682c4b113d08d",
-      "bytes": 226
-    },
     "boss.html": {
       "sha256": "7336f6cd3e367dec28742b2301e99537b8f03a71ecb9adcb759cf6732e69f4f4",
       "bytes": 2371
@@ -123,7 +119,7 @@
       "bytes": 26295
     },
     "data/catalog-manifest.json": {
-      "sha256": "ca344c866eb63528ea6f97827a50b5adef524670e6a954e8e827c6d45202998a",
+      "sha256": "59d455c202ede2058f54b41ed55b387e782fd53328b1151e63934a7c7e9f9e2e",
       "bytes": 1436
     },
     "data/clues.json": {
@@ -146259,7 +146255,7 @@
       "bytes": 4528
     },
     "js/core/app.js": {
-      "sha256": "4007b86b9c123994822ea3f7f54d3e71d7c599e938d74f42b93481452c9ad924",
+      "sha256": "b2b1bcbc28a81212523dc5c8886add1dbc52c0b6b4c1d12903e8ef71d2ba0625",
       "bytes": 215
     },
     "js/core/backup.js": {
@@ -146267,7 +146263,7 @@
       "bytes": 788
     },
     "js/core/config.js": {
-      "sha256": "2c8fc871af85e308eef4b4c3c02532308f380f44c2951b4224660d0b80febb0f",
+      "sha256": "7c596be235691c50d9621cf91a273256fa2b907a976f006d38619edde063d117",
       "bytes": 171
     },
     "js/core/data-service.js": {
@@ -146299,8 +146295,8 @@
       "bytes": 901
     },
     "js/core/platform.js": {
-      "sha256": "5b9ffb01f3e0a2246f9c558c78d3535da54eea8c9af56ee8fa4636f62dba3196",
-      "bytes": 1006
+      "sha256": "5d68bd0336700b5babc0c151a573187d699db6d2b33dec09eb8ddafa23e7399a",
+      "bytes": 1283
     },
     "js/core/player-data.js": {
       "sha256": "6aa02b1f1b6d58f688cdcd17859ca3a2adb9eb098c1d44b539f26cdc7bdbc145",
@@ -146571,7 +146567,7 @@
       "bytes": 2877
     },
     "release.json": {
-      "sha256": "c7d08e65d47667d3ebf95dcbc5b2ce919de061630bef37a6cc9cc81fd390fd0b",
+      "sha256": "809f7e4756ec964ee1dd6d663116b5b1bcd2c11da98332f8c82efaa0468d49c5",
       "bytes": 499
     },
     "site.css": {
@@ -146583,7 +146579,7 @@
       "bytes": 2973
     },
     "sw.js": {
-      "sha256": "cf6a0c139ad66d24875fc0574d5ad13cea7886f17d838a40f2a0b4efab8574bf",
+      "sha256": "61758b589d69ceeb33a2de4d9a9970e94706bb2558abaaa1a2e2cac433759258",
       "bytes": 4557
     }
   }
